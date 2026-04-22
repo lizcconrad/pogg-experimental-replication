@@ -27,9 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Documentation = "https://github.com/U.N. Owen/pogg-experimental-replication#readme"
-Issues = "https://github.com/U.N. Owen/pogg-experimental-replication/issues"
-Source = "https://github.com/U.N. Owen/pogg-experimental-replication"
+Documentation = "https://github.com/lizcconrad/pogg-experimental-replication#readme"
+Issues = "https://github.com/lizcconrad/pogg-experimental-replication/issues"
+Source = "https://github.com/lizcconrad/pogg-experimental-replication"
 
 [tool.hatch.version]
 path = "src/pogg_experimental_replication/__about__.py"
@@ -58,4 +58,17 @@ exclude_lines = [
   "no cov",
   "if __name__ == .__main__.:",
   "if TYPE_CHECKING:",
+]
+
+# Environment with POGG afte perplexity development
+[tool.hatch.envs.post-perplexity]
+dependencies = [
+  "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity"
+]
+[tool.hatch.envs.post-perplexity.scripts]
+perplexity = "python experiment_routine.py $COMPOSITION_CONFIG $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+
+[tool.hatch.envs.latest-pogg]
+dependencies = [
+  "pogg@git+https://github.com/lizcconrad/POGG.git"
 ]
