@@ -1,0 +1,5 @@
+strict digraph {
+idStomach1FrontOpening [node_type=entity, lexicon_key=idStomach1FrontOpening];
+idSmallIntestine1FrontOpening [node_type=entity, lexicon_key=idSmallIntestine1FrontOpening];
+idStomach1FrontOpening -> idSmallIntestine1FrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

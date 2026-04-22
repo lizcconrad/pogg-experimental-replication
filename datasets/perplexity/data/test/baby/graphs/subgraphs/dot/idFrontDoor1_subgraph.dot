@@ -1,0 +1,9 @@
+strict digraph {
+idFrontDoor1 [node_type=entity, lexicon_key=idFrontDoor];
+closed [node_type=property, lexicon_key=closed];
+idFrontDoor1Lock [node_type=property, lexicon_key=idFrontDoor1Lock];
+idDriveway1 [node_type=entity, lexicon_key=idDriveway];
+idFrontDoor1 -> closed [label="idFrontDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idFrontDoor1 -> idFrontDoor1Lock [label="idFrontDoor1_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idFrontDoor1 -> idDriveway1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

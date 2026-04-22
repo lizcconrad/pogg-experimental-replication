@@ -1,0 +1,16 @@
+strict digraph {
+idCloset1RightOpening [node_type="entity_node", root=root, lexicon_key=idCloset1RightOpening];
+idPassengerSeat [lexicon_key=idPassengerSeat];
+true [lexicon_key=true];
+idPassenger1 [lexicon_key=idPassenger];
+idCar1 [lexicon_key=idCar];
+off [lexicon_key=off];
+idPacifier1 [lexicon_key=idPacifier];
+idCloset1RightOpening -> idPassengerSeat [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCloset1RightOpening -> idCar1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPassengerSeat -> true [label="idPassengerSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPassengerSeat -> idPassenger1 [label="idPassengerSeat_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idCar1 -> off [label="idCar1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idCar1 -> true [label="idCar1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCar1 -> idPacifier1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

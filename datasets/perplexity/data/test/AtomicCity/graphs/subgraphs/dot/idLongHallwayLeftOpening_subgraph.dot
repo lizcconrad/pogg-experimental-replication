@@ -1,0 +1,7 @@
+strict digraph {
+idLongHallwayLeftOpening [node_type=entity, lexicon_key=idLongHallwayLeftOpening];
+idFusePackage [node_type=entity, lexicon_key=idFusePackage];
+true [node_type=property, lexicon_key=true];
+idLongHallwayLeftOpening -> idFusePackage [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idFusePackage -> true [label="idFusePackage_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+building1 [node_type=entity, lexicon_key=building1];
+old [node_type=property, lexicon_key=old];
+idWolf3 [node_type=entity, lexicon_key=idWolf];
+grey [node_type=property, lexicon_key=grey];
+building1 -> old [label="building1_prop_oldAdjectiveType3", edge_type=property, lexicon_key=oldAdjectiveType];
+building1 -> idWolf3 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idWolf3 -> grey [label="idWolf3_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

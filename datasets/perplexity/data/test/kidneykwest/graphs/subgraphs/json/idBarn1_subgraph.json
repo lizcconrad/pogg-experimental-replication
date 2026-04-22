@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idBarn1": {
+            "lexicon_key": "idBarn",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabin1FrontOpening": {
+            "lexicon_key": "idCabin1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBarn1",
+            "child_node": "idCabin1FrontOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the barn west of the cabin's front opening"
+    ]
+}

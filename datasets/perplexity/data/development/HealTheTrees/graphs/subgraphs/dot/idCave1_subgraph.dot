@@ -1,0 +1,9 @@
+strict digraph {
+idCave1 [node_type=entity, lexicon_key=idCave];
+dark [node_type=property, lexicon_key=dark];
+idPlayerRightHand [node_type=entity, lexicon_key=idPlayerRightHand];
+right [node_type=property, lexicon_key=right];
+idCave1 -> dark [label="idCave1_prop_idTint", edge_type=property, lexicon_key=idTint];
+idCave1 -> idPlayerRightHand [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idPlayerRightHand -> right [label="idPlayerRightHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+}

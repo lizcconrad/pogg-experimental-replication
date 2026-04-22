@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idElevatorOpening": {
+            "lexicon_key": "idElevatorOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idOffice1RightOpening": {
+            "lexicon_key": "idOffice1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idElevatorOpening",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the elevator opening east of the office's right opening"
+    ]
+}

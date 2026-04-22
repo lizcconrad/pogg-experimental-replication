@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idLab1BackOpening": {
+            "lexicon_key": "idLab1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPill1": {
+            "lexicon_key": "idPill",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLab1BackOpening",
+            "child_node": "idPill1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the lab's back opening north of the pill"
+    ]
+}

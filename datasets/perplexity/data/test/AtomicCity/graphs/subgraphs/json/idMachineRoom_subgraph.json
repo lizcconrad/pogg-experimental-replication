@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idMachineRoom": {
+            "lexicon_key": "idMachineRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCandyBar1": {
+            "lexicon_key": "idCandyBar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineRoom_prop_idColor",
+            "parent_node": "idMachineRoom",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachineRoom",
+            "child_node": "idCandyBar1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the red machine room near the candy bar"
+    ]
+}

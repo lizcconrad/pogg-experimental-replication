@@ -1,0 +1,11 @@
+strict digraph {
+idBook1Page1 [node_type=entity, lexicon_key=idBook1Page1];
+1 [node_type=property, lexicon_key=1];
+idGreenRoomFrontOpening [node_type=entity, lexicon_key=idGreenRoomFrontOpening];
+short [node_type=property, lexicon_key=short];
+open [node_type=property, lexicon_key=open];
+idBook1Page1 -> 1 [label="idBook1Page1_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idBook1Page1 -> idGreenRoomFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idGreenRoomFrontOpening -> short [label="idGreenRoomFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGreenRoomFrontOpening -> open [label="idGreenRoomFrontOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

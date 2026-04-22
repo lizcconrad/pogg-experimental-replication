@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idLabel1": {
+            "lexicon_key": "idLabel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idApple1": {
+            "lexicon_key": "idPhosphateCrystal_idApple",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPhosphateCrystal_idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the label west of the phosphate crystal from the apple"
+    ]
+}

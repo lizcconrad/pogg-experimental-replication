@@ -1,0 +1,7 @@
+strict digraph {
+idLongHallwayBackOpening [node_type="entity_node", root=root, lexicon_key=idLongHallwayBackOpening];
+idComputerRoom1 [lexicon_key=idComputerRoom];
+blue [lexicon_key=blue];
+idLongHallwayBackOpening -> idComputerRoom1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idComputerRoom1 -> blue [label="idComputerRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idKeyhole1": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFlashlight2Switch": {
+            "lexicon_key": "idFlashlight2Switch",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyhole1",
+            "child_node": "idFlashlight2Switch",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the keyhole north of the flashlight switch"
+    ]
+}

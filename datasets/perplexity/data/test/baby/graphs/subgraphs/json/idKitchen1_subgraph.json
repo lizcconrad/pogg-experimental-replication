@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFrontDoor1idLivingRoom1BackOpening": {
+            "lexicon_key": "idFrontDoor1idLivingRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKitchen1_prop_idUnknownObject",
+            "parent_node": "idKitchen1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idKitchen1",
+            "child_node": "idFrontDoor1idLivingRoom1BackOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown kitchen west of the back opening to the living room's front door"
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idSpider1 [node_type="entity_node", root=root, lexicon_key=idSpider];
+black [lexicon_key=black];
+dead [lexicon_key=dead];
+idCavern1FrontOpening [lexicon_key=idCavern1FrontOpening];
+idSpider1 -> black [label="idSpider1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSpider1 -> dead [label="idSpider1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSpider1 -> idCavern1FrontOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

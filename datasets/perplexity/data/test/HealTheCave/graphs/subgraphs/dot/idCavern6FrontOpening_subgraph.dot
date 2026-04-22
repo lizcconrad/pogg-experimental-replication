@@ -1,0 +1,7 @@
+strict digraph {
+idCavern6FrontOpening [node_type=entity, lexicon_key=idCavern6FrontOpening];
+idPlayerLeftHand [node_type=entity, lexicon_key=idPlayerLeftHand];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+idCavern6FrontOpening -> idPlayerLeftHand [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+}

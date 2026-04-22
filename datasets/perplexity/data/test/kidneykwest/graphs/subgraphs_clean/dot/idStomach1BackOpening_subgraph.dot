@@ -1,0 +1,7 @@
+strict digraph {
+idStomach1BackOpening [lexicon_key=idStomach1BackOpening];
+idThroatSphincter1 [lexicon_key=idThroatSphincter];
+closed [lexicon_key=closed];
+idStomach1BackOpening -> idThroatSphincter1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idThroatSphincter1 -> closed [label="idThroatSphincter1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

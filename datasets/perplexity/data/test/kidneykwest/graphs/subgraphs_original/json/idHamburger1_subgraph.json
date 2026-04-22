@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idHamburger1": {
+            "lexicon_key": "idHamburger",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "salty": {
+            "lexicon_key": "salty",
+            "node_properties": {}
+        },
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idCarrot1": {
+            "lexicon_key": "idCarrot",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHamburger1_prop_idSaltiness",
+            "parent_node": "idHamburger1",
+            "child_node": "salty",
+            "lexicon_key": "idSaltiness",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idHamburger1",
+            "child_node": "idPhosphateCrystal_idChip1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

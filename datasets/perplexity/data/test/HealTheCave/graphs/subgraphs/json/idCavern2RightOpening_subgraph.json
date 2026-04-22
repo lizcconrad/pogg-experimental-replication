@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCavern2RightOpening": {
+            "lexicon_key": "idCavern2RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCavern1LeftOpening": {
+            "lexicon_key": "idCavern1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern2RightOpening",
+            "child_node": "idCavern1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cavern's right opening west of the cavern's left opening"
+    ]
+}

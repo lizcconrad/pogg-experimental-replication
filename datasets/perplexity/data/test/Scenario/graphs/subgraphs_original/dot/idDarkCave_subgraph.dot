@@ -1,0 +1,15 @@
+strict digraph {
+idDarkCave [node_type="entity_node", root=root, lexicon_key=idDarkCave];
+3 [lexicon_key=3];
+dark [lexicon_key=dark];
+idFlashlight2 [lexicon_key=idFlashlight];
+lit [lexicon_key=lit];
+idFlashlight2Switch [lexicon_key=idFlashlight2Switch];
+idLock1 [lexicon_key=idLock];
+idDarkCave -> 3 [label="idDarkCave_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDarkCave -> dark [label="idDarkCave_prop_idTone", edge_type=property, lexicon_key=idTone];
+idDarkCave -> idFlashlight2 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idFlashlight2 -> lit [label="idFlashlight2_prop_idLitState", edge_type=property, lexicon_key=idLitState];
+idFlashlight2 -> idFlashlight2Switch [label="idFlashlight2_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+idFlashlight2 -> idLock1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

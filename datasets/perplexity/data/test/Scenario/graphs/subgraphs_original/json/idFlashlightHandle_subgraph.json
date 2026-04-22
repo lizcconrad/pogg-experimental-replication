@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idFlashlightHandle": {
+            "lexicon_key": "idFlashlightHandle",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idGreenRoomBackOpening": {
+            "lexicon_key": "idGreenRoomBackOpening",
+            "node_properties": {}
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {}
+        },
+        "idLexiLeftHand": {
+            "lexicon_key": "idLexiLeftHand",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idGreenRoomBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpening_prop_idHeight",
+            "parent_node": "idGreenRoomBackOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idGreenRoomBackOpening",
+            "child_node": "idLexiLeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

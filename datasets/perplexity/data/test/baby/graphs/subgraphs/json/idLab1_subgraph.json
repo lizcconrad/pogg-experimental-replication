@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idLab1": {
+            "lexicon_key": "idLab",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPacifier1": {
+            "lexicon_key": "idPacifier",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idLab1",
+            "child_node": "idPacifier1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the lab near the pacifier"
+    ]
+}

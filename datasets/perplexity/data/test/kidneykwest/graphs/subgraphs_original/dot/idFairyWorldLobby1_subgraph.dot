@@ -1,0 +1,19 @@
+strict digraph {
+idFairyWorldLobby1 [node_type="entity_node", root=root, lexicon_key=idFairyWorldLobby];
+white [lexicon_key=white];
+idmarble [lexicon_key=idmarble];
+idButtonX [lexicon_key=idButtonX];
+1 [lexicon_key=1];
+idPhosphateCrystal_idCarrot1 [lexicon_key="idPhosphateCrystal_idCarrot"];
+blue [lexicon_key=blue];
+true [lexicon_key=true];
+idKelly1 [lexicon_key=idKelly];
+idFairyWorldLobby1 -> white [label="idFairyWorldLobby1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFairyWorldLobby1 -> idmarble [label="idFairyWorldLobby1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idFairyWorldLobby1 -> idButtonX [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idFairyWorldLobby1 -> idPhosphateCrystal_idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idButtonX -> 1 [label="idButtonX_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idPhosphateCrystal_idCarrot1 -> blue [label="idPhosphateCrystal_idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idCarrot1 -> true [label="idPhosphateCrystal_idCarrot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idCarrot1 -> idKelly1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

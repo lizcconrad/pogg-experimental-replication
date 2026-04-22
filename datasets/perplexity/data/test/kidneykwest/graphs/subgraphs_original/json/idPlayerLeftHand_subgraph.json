@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {}
+        },
+        "idCostumeCloset1": {
+            "lexicon_key": "idCostumeCloset",
+            "node_properties": {}
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idSide",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idCostumeCloset1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idCostumeCloset1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

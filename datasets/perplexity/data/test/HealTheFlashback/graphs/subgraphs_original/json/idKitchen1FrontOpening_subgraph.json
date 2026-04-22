@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idKitchen1FrontOpening": {
+            "lexicon_key": "idKitchen1FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {}
+        },
+        "idLock1": {
+            "lexicon_key": "idLock",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKitchen1FrontOpening",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBedroom1RightOpening",
+            "child_node": "idLock1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

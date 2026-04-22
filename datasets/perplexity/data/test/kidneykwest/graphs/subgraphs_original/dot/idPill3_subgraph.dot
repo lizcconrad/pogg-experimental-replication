@@ -1,0 +1,7 @@
+strict digraph {
+idPill3 [node_type="entity_node", root=root, lexicon_key=idPill];
+idFairyWorldLobby1BackOpening [lexicon_key=idFairyWorldLobby1BackOpening];
+idThrone1 [lexicon_key=idThrone];
+idPill3 -> idFairyWorldLobby1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idFairyWorldLobby1BackOpening -> idThrone1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

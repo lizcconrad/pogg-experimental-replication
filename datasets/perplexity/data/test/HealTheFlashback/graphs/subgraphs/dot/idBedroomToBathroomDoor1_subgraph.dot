@@ -1,0 +1,9 @@
+strict digraph {
+idBedroomToBathroomDoor1 [node_type=entity, lexicon_key=idBedroomToBathroomDoor];
+open [node_type=property, lexicon_key=open];
+idMedDrawer1 [node_type=entity, lexicon_key=idMedDrawer];
+closed [node_type=property, lexicon_key=closed];
+idBedroomToBathroomDoor1 -> open [label="idBedroomToBathroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idBedroomToBathroomDoor1 -> idMedDrawer1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idMedDrawer1 -> closed [label="idMedDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

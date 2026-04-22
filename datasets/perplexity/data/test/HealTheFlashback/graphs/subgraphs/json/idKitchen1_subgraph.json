@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "bare": {
+            "lexicon_key": "bare",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBedroomToBathroomDoor1": {
+            "lexicon_key": "idBedroomToBathroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKitchen1_prop_idDescriptor",
+            "parent_node": "idKitchen1",
+            "child_node": "bare",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKitchen1",
+            "child_node": "idBedroomToBathroomDoor1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBedroomToBathroomDoor1_prop_idOpenState",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bare kitchen east of the open door from the bedroom to the bathroom"
+    ]
+}

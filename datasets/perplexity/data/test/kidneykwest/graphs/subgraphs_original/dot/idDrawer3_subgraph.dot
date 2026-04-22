@@ -1,0 +1,14 @@
+strict digraph {
+idDrawer3 [node_type="entity_node", root=root, lexicon_key=idDrawer];
+closed [lexicon_key=closed];
+low [lexicon_key=low];
+3 [lexicon_key=3];
+idGiftBox1 [lexicon_key=idGiftBox];
+idStick1 [lexicon_key=idStick];
+idDrawer3 -> closed [label="idDrawer3_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer3 -> low [label="idDrawer3_prop_idVerticalArrangement", edge_type=property, lexicon_key=idVerticalArrangement];
+idDrawer3 -> 3 [label="idDrawer3_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDrawer3 -> idGiftBox1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idGiftBox1 -> closed [label="idGiftBox1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idGiftBox1 -> idStick1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

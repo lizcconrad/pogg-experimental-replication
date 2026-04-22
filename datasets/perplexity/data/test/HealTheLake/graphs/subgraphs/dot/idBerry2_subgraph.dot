@@ -1,0 +1,7 @@
+strict digraph {
+idBerry2 [node_type=entity, lexicon_key=idBerry];
+green [node_type=property, lexicon_key=green];
+idFrog1 [node_type=entity, lexicon_key=idFrog];
+idBerry2 -> green [label="idBerry2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBerry2 -> idFrog1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,13 @@
+strict digraph {
+idThroatSphincter1 [node_type="entity_node", root=root, lexicon_key=idThroatSphincter];
+closed [lexicon_key=closed];
+idLargeIntestine1FrontOpening [lexicon_key=idLargeIntestine1FrontOpening];
+idSmallIntestine1BackOpening [lexicon_key=idSmallIntestine1BackOpening];
+idSmallIntestine1 [lexicon_key=idSmallIntestine];
+idStomach1 [lexicon_key=idStomach];
+idThroatSphincter1 -> closed [label="idThroatSphincter1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idThroatSphincter1 -> idLargeIntestine1FrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idThroatSphincter1 -> idSmallIntestine1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idLargeIntestine1FrontOpening -> idSmallIntestine1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idSmallIntestine1BackOpening -> idStomach1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

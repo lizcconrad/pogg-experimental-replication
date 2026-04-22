@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "used": {
+            "lexicon_key": "used",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idSink1": {
+            "lexicon_key": "idSink",
+            "node_properties": {}
+        },
+        "idporcelain": {
+            "lexicon_key": "idporcelain",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "idLivingroom1": {
+            "lexicon_key": "idLivingroom",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCouch1_prop_idColor",
+            "parent_node": "idCouch1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCouch1_prop_idDescriptor",
+            "parent_node": "idCouch1",
+            "child_node": "used",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCouch1_prop_idImmovable",
+            "parent_node": "idCouch1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCouch1",
+            "child_node": "idSink1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idDescriptor",
+            "parent_node": "idSink1",
+            "child_node": "idporcelain",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idColor",
+            "parent_node": "idSink1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

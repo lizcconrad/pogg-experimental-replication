@@ -1,0 +1,13 @@
+strict digraph {
+idSign1 [node_type="entity_node", root=root, lexicon_key=idSign];
+true [lexicon_key=true];
+idClosetToWorkshopDoor [lexicon_key=idClosetToWorkshopDoor];
+idmetal [lexicon_key=idmetal];
+small [lexicon_key=small];
+idSign1Text [lexicon_key=idSign1Text];
+idSign1 -> true [label="idSign1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idSign1 -> idClosetToWorkshopDoor [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idSign1 -> idSign1Text [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idClosetToWorkshopDoor -> idmetal [label="idClosetToWorkshopDoor_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idClosetToWorkshopDoor -> small [label="idClosetToWorkshopDoor_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

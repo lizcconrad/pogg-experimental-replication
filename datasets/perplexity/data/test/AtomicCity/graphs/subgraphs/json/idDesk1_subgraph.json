@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idaluminum": {
+            "lexicon_key": "idaluminum",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idElevatorDoor": {
+            "lexicon_key": "idElevatorDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idElevatorSlotFacePlate": {
+            "lexicon_key": "idElevatorSlotFacePlate",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDesk1_prop_idMaterial",
+            "parent_node": "idDesk1",
+            "child_node": "idaluminum",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idImmovable",
+            "parent_node": "idDesk1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDesk1",
+            "child_node": "idElevatorDoor",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idElevatorDoor_prop_idOpenState",
+            "parent_node": "idElevatorDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idElevatorDoor_prop_idLockMechanism",
+            "parent_node": "idElevatorDoor",
+            "child_node": "idElevatorSlotFacePlate",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable aluminum desk north of the closed elevator door with an elevator slot's face plate"
+    ]
+}

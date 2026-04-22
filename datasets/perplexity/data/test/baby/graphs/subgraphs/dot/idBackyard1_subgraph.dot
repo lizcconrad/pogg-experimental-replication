@@ -1,0 +1,9 @@
+strict digraph {
+idBackyard1 [node_type=entity, lexicon_key=idBackyard];
+true [node_type=property, lexicon_key=true];
+idTable1 [node_type=entity, lexicon_key=idTable];
+idmetal [node_type=property, lexicon_key=idmetal];
+idBackyard1 -> true [label="idBackyard1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBackyard1 -> idTable1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idTable1 -> idmetal [label="idTable1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

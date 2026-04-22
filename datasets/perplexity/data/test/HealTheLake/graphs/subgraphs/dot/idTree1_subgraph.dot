@@ -1,0 +1,9 @@
+strict digraph {
+idTree1 [node_type=entity, lexicon_key=idTree];
+green [node_type=property, lexicon_key=green];
+yes [node_type=property, lexicon_key=yes];
+idDeer1 [node_type=entity, lexicon_key=idDeer];
+idTree1 -> green [label="idTree1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idTree1 -> yes [label="idTree1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idTree1 -> idDeer1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

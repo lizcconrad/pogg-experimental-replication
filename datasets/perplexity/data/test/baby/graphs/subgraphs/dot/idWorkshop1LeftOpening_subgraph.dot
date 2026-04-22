@@ -1,0 +1,9 @@
+strict digraph {
+idWorkshop1LeftOpening [node_type=entity, lexicon_key=idWorkshop1LeftOpening];
+idScrewdriver1 [node_type=entity, lexicon_key=idScrewdriver];
+pointy [node_type=property, lexicon_key=pointy];
+true [node_type=property, lexicon_key=true];
+idWorkshop1LeftOpening -> idScrewdriver1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idScrewdriver1 -> pointy [label="idScrewdriver1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idScrewdriver1 -> true [label="idScrewdriver1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

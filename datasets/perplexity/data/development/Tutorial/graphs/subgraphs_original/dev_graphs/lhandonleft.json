@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idLeftHand": {
+            "lexicon_key": "idLeftHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idLocation",
+            "parent_node": "idLeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

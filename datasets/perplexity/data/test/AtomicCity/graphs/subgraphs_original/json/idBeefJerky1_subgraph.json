@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idBeefJerky1": {
+            "lexicon_key": "idBeefJerky",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBeefJerky1_prop_idUnknownObject",
+            "parent_node": "idBeefJerky1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

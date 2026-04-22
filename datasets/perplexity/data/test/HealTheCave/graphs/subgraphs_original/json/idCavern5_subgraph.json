@@ -1,0 +1,130 @@
+{
+    "nodes": {
+        "idCavern5": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "cold": {
+            "lexicon_key": "cold",
+            "node_properties": {}
+        },
+        "5": {
+            "lexicon_key": "5",
+            "node_properties": {}
+        },
+        "ominous": {
+            "lexicon_key": "ominous",
+            "node_properties": {}
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {}
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {}
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        },
+        "idCavern4BackOpening": {
+            "lexicon_key": "idCavern4BackOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern5_prop_idDescriptor_1",
+            "parent_node": "idCavern5",
+            "child_node": "cold",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idOrdinality",
+            "parent_node": "idCavern5",
+            "child_node": "5",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idDescriptor",
+            "parent_node": "idCavern5",
+            "child_node": "ominous",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCavern5",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern5",
+            "child_node": "idGrass1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayerRightHand_prop_idLocation",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "idCavern4BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idColor",
+            "parent_node": "idGrass1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idArticleType",
+            "parent_node": "idGrass1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

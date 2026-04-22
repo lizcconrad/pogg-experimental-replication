@@ -1,0 +1,68 @@
+{
+    "nodes": {
+        "idMan1": {
+            "lexicon_key": "idMan",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "unconscious": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "familiar": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMan1_prop_idImmovable",
+            "parent_node": "idMan1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMan1_prop_idUnknownObject",
+            "parent_node": "idMan1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMan1_prop_idDescriptor",
+            "parent_node": "idMan1",
+            "child_node": "unconscious",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMan1_prop_idDescriptor_1",
+            "parent_node": "idMan1",
+            "child_node": "familiar",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

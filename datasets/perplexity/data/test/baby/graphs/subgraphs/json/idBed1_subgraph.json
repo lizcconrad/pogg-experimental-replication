@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFrontDoor1idPorch1idNorthOfOpening": {
+            "lexicon_key": "idFrontDoor1idPorch1idNorthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBed1_prop_idUnknownObject",
+            "parent_node": "idBed1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBed1",
+            "child_node": "idFrontDoor1idPorch1idNorthOfOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown bed east of the opening north of the porch"
+    ]
+}

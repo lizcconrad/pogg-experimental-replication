@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idCrib1": {
+            "lexicon_key": "idCrib",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {}
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCrib1_prop_idUnknownObject",
+            "parent_node": "idCrib1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idCrib1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idMom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

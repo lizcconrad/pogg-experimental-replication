@@ -1,0 +1,9 @@
+strict digraph {
+idPail1 [lexicon_key=idPail];
+idmetal [lexicon_key=idmetal];
+idMachineNote1 [lexicon_key=idMachineNote];
+true [lexicon_key=true];
+idPail1 -> idmetal [label="idPail1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idPail1 -> idMachineNote1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idMachineNote1 -> true [label="idMachineNote1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

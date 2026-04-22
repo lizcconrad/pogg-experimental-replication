@@ -1,0 +1,9 @@
+strict digraph {
+idMachineDoorHandle [node_type=entity, lexicon_key=idMachineDoorHandle];
+idMachineDoor [node_type=entity, lexicon_key=idMachineDoor];
+closed [node_type=property, lexicon_key=closed];
+locked [node_type=property, lexicon_key=locked];
+idMachineDoorHandle -> idMachineDoor [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idMachineDoor -> closed [label="idMachineDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idMachineDoor -> locked [label="idMachineDoor_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+}

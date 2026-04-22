@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idFairyWorld1": {
+            "node_type": "entity",
+            "lexicon_key": "idFairyWorld"
+        },
+        "idGiftBox1": {
+            "node_type": "entity",
+            "lexicon_key": "idGiftBox"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idFairyWorld1",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGiftBox1_prop_idOpenState",
+            "parent_node": "idGiftBox1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

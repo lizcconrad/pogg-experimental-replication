@@ -1,0 +1,7 @@
+strict digraph {
+idGem1 [node_type=entity, lexicon_key=idGem];
+red [node_type=property, lexicon_key=red];
+glowing [node_type=property, lexicon_key=glowing];
+idGem1 -> red [label="idGem1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idGem1 -> glowing [label="idGem1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

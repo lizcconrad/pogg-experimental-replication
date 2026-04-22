@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDock1": {
+            "lexicon_key": "idDock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFrontDoor1idPorch1idNorthOfOpening": {
+            "lexicon_key": "idFrontDoor1idPorch1idNorthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDock1_prop_idImmovable",
+            "parent_node": "idDock1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDock1_prop_idUnknownObject",
+            "parent_node": "idDock1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDock1",
+            "child_node": "idFrontDoor1idPorch1idNorthOfOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable unknown dock east of the opening north of the porch"
+    ]
+}

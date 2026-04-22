@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idSinkStain1": {
+            "lexicon_key": "idSinkStain",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the sink stain"
+    ]
+}

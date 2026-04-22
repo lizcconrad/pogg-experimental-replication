@@ -1,0 +1,84 @@
+{
+    "nodes": {
+        "idLog1": {
+            "lexicon_key": "idLog",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "mossy": {
+            "lexicon_key": "mossy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTree1": {
+            "lexicon_key": "idTree",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLog1_prop_idDescriptor_1",
+            "parent_node": "idLog1",
+            "child_node": "mossy",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLog1_prop_idImmovable",
+            "parent_node": "idLog1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLog1_prop_idColor",
+            "parent_node": "idLog1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLog1",
+            "child_node": "idTree1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTree1_prop_idImmovable",
+            "parent_node": "idTree1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable brown mossy log west of the immovable tree"
+    ]
+}

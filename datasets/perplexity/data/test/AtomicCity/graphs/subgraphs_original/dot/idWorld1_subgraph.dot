@@ -1,0 +1,7 @@
+strict digraph {
+idWorld1 [node_type="entity_node", root=root, lexicon_key=idWorld];
+idAtomicCityOutside1 [lexicon_key=idAtomicCityOutside];
+idComputerRoom1BackOpening [lexicon_key=idComputerRoom1BackOpening];
+idWorld1 -> idAtomicCityOutside1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idAtomicCityOutside1 -> idComputerRoom1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

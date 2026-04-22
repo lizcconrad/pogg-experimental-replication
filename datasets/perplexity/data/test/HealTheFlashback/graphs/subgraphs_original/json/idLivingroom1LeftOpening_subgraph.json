@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idLivingroom1LeftOpening": {
+            "lexicon_key": "idLivingroom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idBedroomToBathroomDoor1": {
+            "lexicon_key": "idBedroomToBathroomDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idKitchCabDrawer1": {
+            "lexicon_key": "idKitchCabDrawer",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLivingroom1LeftOpening",
+            "child_node": "idBedroomToBathroomDoor1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLivingroom1LeftOpening",
+            "child_node": "idKitchCabDrawer1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBedroomToBathroomDoor1_prop_idOpenState",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKitchCabDrawer1_prop_idOpenState",
+            "parent_node": "idKitchCabDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+strict digraph {
+idLot1 [node_type=entity, lexicon_key=idLot];
+dusty [node_type=property, lexicon_key=dusty];
+true [node_type=property, lexicon_key=true];
+idEndRoom1 [node_type=entity, lexicon_key=idEndRoom];
+idLot1 -> dusty [label="idLot1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idLot1 -> true [label="idLot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idLot1 -> idEndRoom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idEndRoom1 -> true [label="idEndRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDriverSeat_prop_idOwnedBy",
+            "parent_node": "idDriverSeat",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idImmovable",
+            "parent_node": "idDriverSeat",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idUnknownObject",
+            "parent_node": "idDriverSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

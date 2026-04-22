@@ -1,0 +1,246 @@
+{
+    "nodes": {
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "tall": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "green": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "uncountable": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTheTrees1": {
+            "lexicon_key": "idTheTrees",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBranch1": {
+            "lexicon_key": "idBranch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGlowingArea1": {
+            "lexicon_key": "idGlowingArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGlowingGrass1": {
+            "lexicon_key": "idGlowingGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCave1": {
+            "lexicon_key": "idCave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRockyArea1": {
+            "lexicon_key": "idRockyArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBottle1": {
+            "lexicon_key": "idBottle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPebble1": {
+            "lexicon_key": "idPebble",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRockPile1": {
+            "lexicon_key": "idRockPile",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGrass1_prop_idHeight",
+            "parent_node": "idGrass1",
+            "child_node": "tall",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idColor",
+            "parent_node": "idGrass1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idArticleType",
+            "parent_node": "idGrass1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idGrass1",
+            "child_node": "idClearing1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idGrass1",
+            "child_node": "idClearing1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idGrass1",
+            "child_node": "idTheTrees1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGrass1",
+            "child_node": "idClearing1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGrass1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGrass1",
+            "child_node": "idGrass1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGrass1",
+            "child_node": "idBranch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idGrass1",
+            "child_node": "idGlowingArea1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idGrass1",
+            "child_node": "idGlowingGrass1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idGrass1",
+            "child_node": "idCave1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGrass1",
+            "child_node": "idRockyArea1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGrass1",
+            "child_node": "idBottle1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGrass1",
+            "child_node": "idPebble1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGrass1",
+            "child_node": "idRockPile1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

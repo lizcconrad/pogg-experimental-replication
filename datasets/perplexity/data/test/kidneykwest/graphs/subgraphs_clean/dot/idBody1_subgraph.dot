@@ -1,0 +1,5 @@
+strict digraph {
+idBody1 [lexicon_key=idBody];
+idStomach1 [lexicon_key=idStomach];
+idBody1 -> idStomach1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {}
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {}
+        },
+        "idCostumeCloset1BackOpening": {
+            "lexicon_key": "idCostumeCloset1BackOpening",
+            "node_properties": {}
+        },
+        "idDramaBuilding1Door": {
+            "lexicon_key": "idDramaBuilding1Door",
+            "node_properties": {}
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerRightHand_prop_idSide",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "idCostumeCloset1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idTurnsSinceFood",
+            "parent_node": "idPlayer",
+            "child_node": "3",
+            "lexicon_key": "idTurnsSinceFood",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idMapY",
+            "parent_node": "idPlayer",
+            "child_node": "1",
+            "lexicon_key": "idMapY",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idPlayer",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCostumeCloset1BackOpening",
+            "child_node": "idDramaBuilding1Door",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

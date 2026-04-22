@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idBabyCarSeat": {
+            "lexicon_key": "idBabyCarSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBabyCarSeat_prop_idImmovable",
+            "parent_node": "idBabyCarSeat",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBabyCarSeat_prop_idUnknownObject",
+            "parent_node": "idBabyCarSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBabyCarSeat",
+            "child_node": "idGoButton",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable unknown baby's car seat west of the go button"
+    ]
+}

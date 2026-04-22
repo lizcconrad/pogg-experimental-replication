@@ -1,0 +1,11 @@
+strict digraph {
+idGrass1 [node_type=entity, lexicon_key=idGrass];
+green [node_type=property, lexicon_key=green];
+uncountable [node_type=property, lexicon_key=uncountable];
+flattened [node_type=property, lexicon_key=flattened];
+idBush2 [node_type=entity, lexicon_key=idBush];
+idGrass1 -> green [label="idGrass1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idGrass1 -> uncountable [label="idGrass1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+idGrass1 -> flattened [label="idGrass1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idGrass1 -> idBush2 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGoButton_prop_idColor",
+            "parent_node": "idGoButton",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGoButton_prop_idUnknownObject",
+            "parent_node": "idGoButton",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idGreenRoom": {
+            "lexicon_key": "idGreenRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlage": {
+            "lexicon_key": "idPlage",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGreenRoom_prop_idColor",
+            "parent_node": "idGreenRoom",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idGreenRoom",
+            "child_node": "idPlage",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the green green room south of the plage"
+    ]
+}

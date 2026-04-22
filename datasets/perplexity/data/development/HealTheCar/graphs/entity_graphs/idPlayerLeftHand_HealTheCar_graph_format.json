@@ -1,0 +1,257 @@
+{
+    "nodes": {
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalLeft": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBumper1": {
+            "lexicon_key": "idBumper",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCarKey1": {
+            "lexicon_key": "idCarKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStump1": {
+            "lexicon_key": "idStump",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDen1": {
+            "lexicon_key": "idDen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBear1": {
+            "lexicon_key": "idBear",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTaillight1": {
+            "lexicon_key": "idTaillight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTire1": {
+            "lexicon_key": "idTire",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBush1": {
+            "lexicon_key": "idBush",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSideMirror1": {
+            "lexicon_key": "idSideMirror",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWhistle1": {
+            "lexicon_key": "idWhistle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idLocation",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idArea1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idBumper1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idCarKey1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idStump1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idArea1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idDen1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idBear1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idBumper1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idCarKey1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idStump1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idTaillight1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idTire1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idClearing1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idBush1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idSideMirror1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idWhistle1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idDrawer1 [node_type="entity_node", root=root, lexicon_key=idDrawer];
+no [lexicon_key=no];
+closed [lexicon_key=closed];
+idLivingroom1 [lexicon_key=idLivingroom];
+idBathroom1FrontOpening [lexicon_key=idBathroom1FrontOpening];
+idDrawer1 -> no [label="idDrawer1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDrawer1 -> closed [label="idDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer1 -> idLivingroom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idLivingroom1 -> idBathroom1FrontOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

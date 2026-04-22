@@ -1,0 +1,9 @@
+strict digraph {
+idHouse1 [node_type=entity, lexicon_key=idHouse];
+uncountable [node_type=property, lexicon_key=uncountable];
+idBackyardDoor1Key [node_type=entity, lexicon_key=idBackyardDoor1Key];
+true [node_type=property, lexicon_key=true];
+idHouse1 -> uncountable [label="idHouse1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+idHouse1 -> idBackyardDoor1Key [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idBackyardDoor1Key -> true [label="idBackyardDoor1Key_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

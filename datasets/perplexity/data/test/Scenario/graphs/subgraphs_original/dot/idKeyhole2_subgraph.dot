@@ -1,0 +1,15 @@
+strict digraph {
+idKeyhole2 [node_type="entity_node", root=root, lexicon_key=idKeyhole];
+idPlage [lexicon_key=idPlage];
+2 [lexicon_key=2];
+idEntrancecaveBackOpening [lexicon_key=idEntrancecaveBackOpening];
+tall [lexicon_key=tall];
+open [lexicon_key=open];
+idFlashlight2Switch [lexicon_key=idFlashlight2Switch];
+idKeyhole2 -> idPlage [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idKeyhole2 -> idEntrancecaveBackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idPlage -> 2 [label="idPlage_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idEntrancecaveBackOpening -> tall [label="idEntrancecaveBackOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idEntrancecaveBackOpening -> open [label="idEntrancecaveBackOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idEntrancecaveBackOpening -> idFlashlight2Switch [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

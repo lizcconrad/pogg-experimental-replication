@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idFusePackage": {
+            "lexicon_key": "idFusePackage",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idPipe2": {
+            "lexicon_key": "idPipe",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFusePackage_prop_idUnknownObject",
+            "parent_node": "idFusePackage",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idFusePackage",
+            "child_node": "idPipe2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

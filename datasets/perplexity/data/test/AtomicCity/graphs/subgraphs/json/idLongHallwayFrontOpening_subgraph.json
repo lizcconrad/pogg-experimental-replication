@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLongHallwayFrontOpening": {
+            "lexicon_key": "idLongHallwayFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLongHallwayFrontOpening",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDrawer1_prop_idOpenState",
+            "parent_node": "idDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the long hallway's front opening south of the closed drawer"
+    ]
+}

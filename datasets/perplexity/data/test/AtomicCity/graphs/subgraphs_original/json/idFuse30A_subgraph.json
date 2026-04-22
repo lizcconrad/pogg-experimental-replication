@@ -1,0 +1,130 @@
+{
+    "nodes": {
+        "idFuse30A": {
+            "lexicon_key": "idFuse30A",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "rusty": {
+            "lexicon_key": "rusty",
+            "node_properties": {}
+        },
+        "idShutoffValveLight1": {
+            "lexicon_key": "idShutoffValveLight",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "unlit": {
+            "lexicon_key": "unlit",
+            "node_properties": {}
+        },
+        "idComputerRoom1FrontOpeningDoor": {
+            "lexicon_key": "idComputerRoom1FrontOpeningDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idWolf1": {
+            "lexicon_key": "idWolf",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuse30A_prop_idUnknownObject",
+            "parent_node": "idFuse30A",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idColor",
+            "parent_node": "idFuse30A",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idTexture",
+            "parent_node": "idFuse30A",
+            "child_node": "rusty",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idFuse30A",
+            "child_node": "idShutoffValveLight1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFuse30A",
+            "child_node": "idComputerRoom1FrontOpeningDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idColor",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "off",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idLitState",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "unlit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "idWolf1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idComputerRoom1FrontOpeningDoor_prop_idOpenState",
+            "parent_node": "idComputerRoom1FrontOpeningDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

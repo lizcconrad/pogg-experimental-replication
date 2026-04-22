@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDriversSideFrontDoorInsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriver": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDriversSideFrontDoorInsideOpening",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idCarSide",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idLocation_1",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "left",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the inside opening on the driver side front door east of the front door to the driver side on the driver side on the left"
+    ]
+}

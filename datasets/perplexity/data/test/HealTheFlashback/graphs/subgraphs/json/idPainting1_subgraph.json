@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPainting1_prop_idColor",
+            "parent_node": "idPainting1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPainting1_prop_idImmovable",
+            "parent_node": "idPainting1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPainting1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable green painting east of the bedroom"
+    ]
+}

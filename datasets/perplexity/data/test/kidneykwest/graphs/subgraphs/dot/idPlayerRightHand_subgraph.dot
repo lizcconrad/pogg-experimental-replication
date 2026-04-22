@@ -1,0 +1,7 @@
+strict digraph {
+idPlayerRightHand [node_type=entity, lexicon_key=idPlayerRightHand];
+right [node_type=property, lexicon_key=right];
+idDramaBuilding1FrontOpening [node_type=entity, lexicon_key=idDramaBuilding1FrontOpening];
+idPlayerRightHand -> right [label="idPlayerRightHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idPlayerRightHand -> idDramaBuilding1FrontOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

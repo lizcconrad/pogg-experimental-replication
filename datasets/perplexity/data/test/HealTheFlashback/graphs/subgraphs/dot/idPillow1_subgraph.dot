@@ -1,0 +1,9 @@
+strict digraph {
+idPillow1 [node_type=entity, lexicon_key=idPillow];
+white [node_type=property, lexicon_key=white];
+dirty [node_type=property, lexicon_key=dirty];
+idKitchCabDrawer1 [node_type=entity, lexicon_key=idKitchCabDrawer];
+idPillow1 -> white [label="idPillow1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPillow1 -> dirty [label="idPillow1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idPillow1 -> idKitchCabDrawer1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idGlowingArea1 [node_type=entity, lexicon_key=idGlowingArea];
+idPlayerBackside -> idGlowingArea1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

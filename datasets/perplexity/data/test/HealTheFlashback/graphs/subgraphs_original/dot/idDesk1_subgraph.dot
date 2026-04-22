@@ -1,0 +1,22 @@
+strict digraph {
+idDesk1 [node_type="entity_node", root=root, lexicon_key=idDesk];
+used [lexicon_key=used];
+wooden [lexicon_key=wooden];
+idwood [lexicon_key=idwood];
+idSock1 [lexicon_key=idSock];
+white [lexicon_key=white];
+idLocalLeft [lexicon_key=idLocalLeft];
+idPillow1 [lexicon_key=idPillow];
+dirty [lexicon_key=dirty];
+idLivingroom1 [lexicon_key=idLivingroom];
+idDesk1 -> used [label="idDesk1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idDesk1 -> wooden [label="idDesk1_prop_idMaterial_1", edge_type=property, lexicon_key="idMaterial_"];
+idDesk1 -> idwood [label="idDesk1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idDesk1 -> idSock1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idDesk1 -> idPillow1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idSock1 -> white [label="idSock1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSock1 -> idLocalLeft [label="idSock1_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idSock1 -> idLivingroom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPillow1 -> white [label="idPillow1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPillow1 -> dirty [label="idPillow1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

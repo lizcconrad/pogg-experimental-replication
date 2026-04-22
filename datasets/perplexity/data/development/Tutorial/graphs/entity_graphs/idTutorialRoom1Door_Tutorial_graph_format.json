@@ -1,0 +1,238 @@
+{
+    "nodes": {
+        "idTutorialRoom1Door": {
+            "lexicon_key": "idTutorialRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTutorialRoom1DoorLock": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTutorialRoom1FrontOpening": {
+            "lexicon_key": "idTutorialRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGameRoom1BackOpening": {
+            "lexicon_key": "idGameRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSign1": {
+            "lexicon_key": "idSign",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTutorialRoom1": {
+            "lexicon_key": "idTutorialRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKeyBlue": {
+            "lexicon_key": "idKeyBlue",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGameRoom1": {
+            "lexicon_key": "idGameRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTutorialRoom1Door_prop_idOpenState",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTutorialRoom1Door_prop_idLockMechanism",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idTutorialRoom1DoorLock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idTutorialRoom1FrontOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idGameRoom1BackOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idSign1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idTutorialRoom1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idTutorialRoom1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idDesk1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idKeyBlue",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idGameRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idGameRoom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

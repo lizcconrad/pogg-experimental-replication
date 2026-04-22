@@ -1,0 +1,5 @@
+strict digraph {
+idPlageFrontOpening [node_type="entity_node", root=root, lexicon_key=idPlageFrontOpening];
+tall [lexicon_key=tall];
+idPlageFrontOpening -> tall [label="idPlageFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+}

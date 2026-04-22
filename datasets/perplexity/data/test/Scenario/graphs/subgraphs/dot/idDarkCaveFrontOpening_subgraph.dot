@@ -1,0 +1,7 @@
+strict digraph {
+idDarkCaveFrontOpening [node_type=entity, lexicon_key=idDarkCaveFrontOpening];
+medium [node_type=property, lexicon_key=medium];
+idLexi [node_type=entity, lexicon_key=idLexi];
+idDarkCaveFrontOpening -> medium [label="idDarkCaveFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idDarkCaveFrontOpening -> idLexi [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

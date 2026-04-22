@@ -1,0 +1,105 @@
+{
+    "nodes": {
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "old": {
+            "lexicon_key": "old",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "logged": {
+            "lexicon_key": "logged",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "stumpy": {
+            "lexicon_key": "stumpy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCar1_prop_idColor",
+            "parent_node": "idCar1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idDescriptor",
+            "parent_node": "idCar1",
+            "child_node": "old",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idImmovable",
+            "parent_node": "idCar1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCar1",
+            "child_node": "idArea1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idArea1_prop_idDescriptor",
+            "parent_node": "idArea1",
+            "child_node": "logged",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idArea1_prop_idDescriptor_1",
+            "parent_node": "idArea1",
+            "child_node": "stumpy",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the old black immovable car east of the stumpy logged area"
+    ]
+}

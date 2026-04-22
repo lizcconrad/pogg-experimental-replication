@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idComputerRoom1BackOpening": {
+            "lexicon_key": "idComputerRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idOffice1RightOpening": {
+            "lexicon_key": "idOffice1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idComputerRoom1BackOpening",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the computer room's back opening east of the office's right opening"
+    ]
+}

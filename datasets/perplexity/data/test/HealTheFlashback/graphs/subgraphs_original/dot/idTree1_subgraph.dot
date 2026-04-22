@@ -1,0 +1,16 @@
+strict digraph {
+idTree1 [node_type="entity_node", root=root, lexicon_key=idTree];
+green [lexicon_key=green];
+idBerry3 [lexicon_key=idBerry];
+yes [lexicon_key=yes];
+yellow [lexicon_key=yellow];
+idBerry2 [lexicon_key=idBerry];
+idTree1 -> green [label="idTree1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idTree1 -> idBerry3 [label=isBeneath, edge_type=relationship, lexicon_key=isBeneath];
+idTree1 -> idBerry2 [label=isBeneath, edge_type=relationship, lexicon_key=isBeneath];
+idBerry3 -> yes [label="idBerry3_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBerry3 -> yellow [label="idBerry3_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBerry3 -> idTree1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idBerry2 -> yes [label="idBerry2_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBerry2 -> green [label="idBerry2_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

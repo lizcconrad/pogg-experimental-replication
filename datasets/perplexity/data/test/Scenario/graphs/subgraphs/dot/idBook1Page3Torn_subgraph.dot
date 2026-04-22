@@ -1,0 +1,7 @@
+strict digraph {
+idBook1Page3Torn [node_type=entity, lexicon_key=idBook1Page3Torn];
+3 [node_type=property, lexicon_key=3];
+idFlashlight1Switch [node_type=entity, lexicon_key=idFlashlight1Switch];
+idBook1Page3Torn -> 3 [label="idBook1Page3Torn_prop_idCardinality", edge_type=property, lexicon_key=idCardinality];
+idBook1Page3Torn -> idFlashlight1Switch [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

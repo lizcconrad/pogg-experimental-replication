@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idHelm1": {
+            "node_type": "entity",
+            "lexicon_key": "idHelm"
+        },
+        "yes": {
+            "node_type": "property",
+            "lexicon_key": "yes"
+        },
+        "idCabin1": {
+            "node_type": "entity",
+            "lexicon_key": "idCabin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHelm1_prop_idImmovable",
+            "parent_node": "idHelm1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idHelm1",
+            "child_node": "idCabin1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

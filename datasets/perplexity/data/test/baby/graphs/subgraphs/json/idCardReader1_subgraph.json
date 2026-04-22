@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idCardReader1": {
+            "lexicon_key": "idCardReader",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalFront": {
+            "lexicon_key": "idLocalFront",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCardReader1_prop_idLockedState",
+            "parent_node": "idCardReader1",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCardReader1_prop_idUnknownObject",
+            "parent_node": "idCardReader1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCardReader1",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idLocation",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idCarSide",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown locked card reader near the driver side front door in the local front on the driver's side"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idCavern8": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "rocky": {
+            "lexicon_key": "rocky",
+            "node_properties": {}
+        },
+        "8": {
+            "lexicon_key": "8",
+            "node_properties": {}
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {}
+        },
+        "short": {
+            "lexicon_key": "short",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idCavern4BackOpening": {
+            "lexicon_key": "idCavern4BackOpening",
+            "node_properties": {}
+        },
+        "idSpider1": {
+            "lexicon_key": "idSpider",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern8_prop_idDescriptor",
+            "parent_node": "idCavern8",
+            "child_node": "rocky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern8_prop_idOrdinality",
+            "parent_node": "idCavern8",
+            "child_node": "8",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern8",
+            "child_node": "idCavern4BackOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern8",
+            "child_node": "idGrass1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idHeight",
+            "parent_node": "idGrass1",
+            "child_node": "short",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idImmovable",
+            "parent_node": "idGrass1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern4BackOpening",
+            "child_node": "idSpider1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

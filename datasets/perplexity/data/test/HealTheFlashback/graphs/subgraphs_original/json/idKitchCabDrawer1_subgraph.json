@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idKitchCabDrawer1": {
+            "lexicon_key": "idKitchCabDrawer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKitchCabDrawer1_prop_idOpenState",
+            "parent_node": "idKitchCabDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

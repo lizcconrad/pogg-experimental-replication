@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idChair2": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "regular": {
+            "lexicon_key": "regular",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "messy": {
+            "lexicon_key": "messy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idChair2_prop_idDescriptor",
+            "parent_node": "idChair2",
+            "child_node": "regular",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idChair2_prop_idColor",
+            "parent_node": "idChair2",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idChair2",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBathroom1_prop_idDescriptor",
+            "parent_node": "idBathroom1",
+            "child_node": "messy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the regular white chair east of the messy bathroom"
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idSpiderWeb1 [node_type=entity, lexicon_key=idSpiderWeb];
+white [node_type=property, lexicon_key=white];
+false [node_type=property, lexicon_key=false];
+idBoulder1 [node_type=entity, lexicon_key=idBoulder];
+idSpiderWeb1 -> white [label="idSpiderWeb1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSpiderWeb1 -> false [label="idSpiderWeb1_prop_idWebTouched", edge_type=property, lexicon_key=idWebTouched];
+idSpiderWeb1 -> idBoulder1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idPlayerRightHand": {
+            "node_type": "entity",
+            "lexicon_key": "idPlayerRightHand"
+        },
+        "right": {
+            "node_type": "property",
+            "lexicon_key": "right"
+        },
+        "idDramaBuilding1FrontOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idDramaBuilding1FrontOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerRightHand_prop_idSide",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "idDramaBuilding1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

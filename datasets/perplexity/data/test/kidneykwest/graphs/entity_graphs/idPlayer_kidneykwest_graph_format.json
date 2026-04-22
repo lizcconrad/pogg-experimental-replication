@@ -1,0 +1,198 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "0": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "3": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDramaBuilding1": {
+            "lexicon_key": "idDramaBuilding",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCostumeCloset1BackOpening": {
+            "lexicon_key": "idCostumeCloset1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDramaBuilding1Door": {
+            "lexicon_key": "idDramaBuilding1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDramaBuilding1FrontOpening": {
+            "lexicon_key": "idDramaBuilding1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCostumeCloset1": {
+            "lexicon_key": "idCostumeCloset",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idCrystalTurns",
+            "parent_node": "idPlayer",
+            "child_node": 0,
+            "lexicon_key": "idCrystalTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idSaltLevel",
+            "parent_node": "idPlayer",
+            "child_node": 0,
+            "lexicon_key": "idSaltLevel",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idBinderTakenTurns",
+            "parent_node": "idPlayer",
+            "child_node": 0,
+            "lexicon_key": "idBinderTakenTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idTurnsSinceFood",
+            "parent_node": "idPlayer",
+            "child_node": 3,
+            "lexicon_key": "idTurnsSinceFood",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idMapX",
+            "parent_node": "idPlayer",
+            "child_node": 1,
+            "lexicon_key": "idMapX",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idMapY",
+            "parent_node": "idPlayer",
+            "child_node": 1,
+            "lexicon_key": "idMapY",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idPlayer",
+            "child_node": "idDramaBuilding1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idPlayer",
+            "child_node": "idDramaBuilding1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idPlayer",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPlayer",
+            "child_node": "idDramaBuilding1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPlayer",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idCostumeCloset1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idDramaBuilding1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idDramaBuilding1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idCostumeCloset1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

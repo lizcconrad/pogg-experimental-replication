@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idKidney2": {
+            "node_type": "entity",
+            "lexicon_key": "idKidney"
+        },
+        "right": {
+            "node_type": "property",
+            "lexicon_key": "right"
+        },
+        "idPlayer": {
+            "node_type": "entity",
+            "lexicon_key": "idPlayer"
+        },
+        "idVilli1": {
+            "node_type": "entity",
+            "lexicon_key": "idVilli"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKidney2_prop_idSide",
+            "parent_node": "idKidney2",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKidney2_prop_idOwnedBy",
+            "parent_node": "idKidney2",
+            "child_node": "idPlayer",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKidney2",
+            "child_node": "idVilli1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

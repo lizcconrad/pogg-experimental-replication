@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idSmallIntestine1FrontOpening": {
+            "lexicon_key": "idSmallIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPyloricSphincter1": {
+            "lexicon_key": "idPyloricSphincter",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSmallIntestine1FrontOpening",
+            "child_node": "idPyloricSphincter1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the small intestine's front opening south of the pyloric sphincter"
+    ]
+}

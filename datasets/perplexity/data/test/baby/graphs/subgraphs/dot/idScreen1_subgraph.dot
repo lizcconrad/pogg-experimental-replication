@@ -1,0 +1,8 @@
+strict digraph {
+idScreen1 [node_type=entity, lexicon_key=idScreen];
+true [node_type=property, lexicon_key=true];
+idDriverSeat [node_type=entity, lexicon_key=idDriverSeat];
+idScreen1 -> true [label="idScreen1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idScreen1 -> idDriverSeat [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idDriverSeat -> true [label="idDriverSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idKidney2": {
+            "lexicon_key": "idKidney",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idVilli1": {
+            "lexicon_key": "idVilli",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKidney2_prop_idSide",
+            "parent_node": "idKidney2",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKidney2_prop_idOwnedBy",
+            "parent_node": "idKidney2",
+            "child_node": "idPlayer",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKidney2",
+            "child_node": "idVilli1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the kidney on the right that the player owns near the villi"
+    ]
+}

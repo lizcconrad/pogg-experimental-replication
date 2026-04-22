@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idLongHallwayBackOpening": {
+            "lexicon_key": "idLongHallwayBackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idComputerRoom1": {
+            "lexicon_key": "idComputerRoom",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLongHallwayBackOpening",
+            "child_node": "idComputerRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idComputerRoom1_prop_idColor",
+            "parent_node": "idComputerRoom1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

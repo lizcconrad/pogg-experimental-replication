@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idLongHallwayLeftOpening": {
+            "lexicon_key": "idLongHallwayLeftOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLongHallwayFrontOpeningDoor": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoor",
+            "node_properties": {}
+        },
+        "idLongHallwayFrontOpeningDoorLock": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoorLock",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idPipe1": {
+            "lexicon_key": "idPipe",
+            "node_properties": {}
+        },
+        "idLongHallwayFrontOpening": {
+            "lexicon_key": "idLongHallwayFrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLongHallwayLeftOpening",
+            "child_node": "idLongHallwayFrontOpeningDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLongHallwayLeftOpening",
+            "child_node": "idPipe1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayFrontOpeningDoor_prop_idLockMechanism",
+            "parent_node": "idLongHallwayFrontOpeningDoor",
+            "child_node": "idLongHallwayFrontOpeningDoorLock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayFrontOpeningDoor_prop_idOpenState",
+            "parent_node": "idLongHallwayFrontOpeningDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLongHallwayFrontOpeningDoor",
+            "child_node": "idLongHallwayFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

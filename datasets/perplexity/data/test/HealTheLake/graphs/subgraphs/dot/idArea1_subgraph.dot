@@ -1,0 +1,7 @@
+strict digraph {
+idArea1 [node_type=entity, lexicon_key=idArea];
+smoky [node_type=property, lexicon_key=smoky];
+idPlayerLeftHand [node_type=entity, lexicon_key=idPlayerLeftHand];
+idArea1 -> smoky [label="idArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idArea1 -> idPlayerLeftHand [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

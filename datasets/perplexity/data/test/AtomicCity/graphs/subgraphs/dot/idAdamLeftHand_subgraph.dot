@@ -1,0 +1,7 @@
+strict digraph {
+idAdamLeftHand [node_type=entity, lexicon_key=idAdamLeftHand];
+left [node_type=property, lexicon_key=left];
+idFuse3 [node_type=entity, lexicon_key=idFuse];
+idAdamLeftHand -> left [label="idAdamLeftHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idAdamLeftHand -> idFuse3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

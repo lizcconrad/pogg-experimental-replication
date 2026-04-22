@@ -1,0 +1,17 @@
+strict digraph {
+idCouch1 [node_type="entity_node", root=root, lexicon_key=idCouch];
+green [lexicon_key=green];
+used [lexicon_key=used];
+yes [lexicon_key=yes];
+idSink1 [lexicon_key=idSink];
+idporcelain [lexicon_key=idporcelain];
+white [lexicon_key=white];
+idLivingroom1 [lexicon_key=idLivingroom];
+idCouch1 -> green [label="idCouch1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCouch1 -> used [label="idCouch1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCouch1 -> yes [label="idCouch1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCouch1 -> idSink1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idSink1 -> idporcelain [label="idSink1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSink1 -> white [label="idSink1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSink1 -> idLivingroom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idTree1": {
+            "lexicon_key": "idTree",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBerry3": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTree1_prop_idColor",
+            "parent_node": "idTree1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTree1",
+            "child_node": "idBerry3",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the green tree beneath the berry"
+    ]
+}

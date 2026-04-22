@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idFuseSocket1": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {}
+        },
+        "idLongHallwayLeftOpeningDoor": {
+            "lexicon_key": "idLongHallwayLeftOpeningDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {}
+        },
+        "idCardKey1": {
+            "lexicon_key": "idCardKey",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idElevatorOpening": {
+            "lexicon_key": "idElevatorOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuseSocket1_prop_idOrdinality",
+            "parent_node": "idFuseSocket1",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idFuseSocket1",
+            "child_node": "idLongHallwayLeftOpeningDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFuseSocket1",
+            "child_node": "idCardKey1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayLeftOpeningDoor_prop_idOpenState",
+            "parent_node": "idLongHallwayLeftOpeningDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayLeftOpeningDoor_prop_idColor",
+            "parent_node": "idLongHallwayLeftOpeningDoor",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCardKey1_prop_idUnknownObject",
+            "parent_node": "idCardKey1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCardKey1",
+            "child_node": "idElevatorOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

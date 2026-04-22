@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idBook1Page3": {
+            "lexicon_key": "idBook1Page3",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idEntrancecaveBackOpening": {
+            "lexicon_key": "idEntrancecaveBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBook1Page3_prop_idCardinality",
+            "parent_node": "idBook1Page3",
+            "child_node": "3",
+            "lexicon_key": "idCardinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBook1Page3_prop_idUnknownObject",
+            "parent_node": "idBook1Page3",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idBook1Page3",
+            "child_node": "idEntrancecaveBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "page three of the book which is unknown south of the cave's entrance back opening"
+    ]
+}

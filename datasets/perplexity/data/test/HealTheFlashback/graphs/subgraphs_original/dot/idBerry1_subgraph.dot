@@ -1,0 +1,8 @@
+digraph {
+idBerry1 [node_type="entity_node", root=root, lexicon_key=idBerry];
+yes [lexicon_key=yes];
+red [lexicon_key=red];
+idBerry1 -> yes [label="idBerry1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBerry1 -> red [label="idBerry1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBerry1 -> idBerry1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

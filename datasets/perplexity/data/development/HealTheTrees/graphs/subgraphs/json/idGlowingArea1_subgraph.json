@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idGlowingArea1": {
+            "lexicon_key": "idGlowingArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "tall": {
+            "lexicon_key": "tall",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGlowingArea1_prop_idDescriptor",
+            "parent_node": "idGlowingArea1",
+            "child_node": "glowing",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idGlowingArea1",
+            "child_node": "idGrass1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idHeight",
+            "parent_node": "idGrass1",
+            "child_node": "tall",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idArticleType",
+            "parent_node": "idGrass1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the glowing glowing area south of the tall grass"
+    ]
+}

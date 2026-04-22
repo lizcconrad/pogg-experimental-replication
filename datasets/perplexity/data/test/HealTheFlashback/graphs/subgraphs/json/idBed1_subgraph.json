@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idqueen": {
+            "lexicon_key": "idqueen",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTheFlashback1": {
+            "lexicon_key": "idTheFlashback",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBed1_prop_idImmovable",
+            "parent_node": "idBed1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBed1_prop_idColor",
+            "parent_node": "idBed1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBed1_prop_idDescriptor_1",
+            "parent_node": "idBed1",
+            "child_node": "idqueen",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idBed1",
+            "child_node": "idTheFlashback1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable brown queen bed inside of the flashback"
+    ]
+}

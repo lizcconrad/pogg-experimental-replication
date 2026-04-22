@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idTheBushes1": {
+            "lexicon_key": "idTheBushes",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "bushy": {
+            "lexicon_key": "bushy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "overgrown": {
+            "lexicon_key": "overgrown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMeadow1": {
+            "lexicon_key": "idMeadow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grassy": {
+            "lexicon_key": "grassy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor",
+            "parent_node": "idTheBushes1",
+            "child_node": "bushy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor_1",
+            "parent_node": "idTheBushes1",
+            "child_node": "overgrown",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idTheBushes1",
+            "child_node": "idMeadow1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMeadow1_prop_idDescriptor",
+            "parent_node": "idMeadow1",
+            "child_node": "grassy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the Bushes, which are overgrown and bushy, west of the grassy meadow"
+    ]
+}

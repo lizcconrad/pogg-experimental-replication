@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idFuse30A": {
+            "lexicon_key": "idFuse30A",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "rusty": {
+            "lexicon_key": "rusty",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idControlPanel1": {
+            "lexicon_key": "idControlPanel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuse30A_prop_idUnknownObject",
+            "parent_node": "idFuse30A",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idColor",
+            "parent_node": "idFuse30A",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idTexture",
+            "parent_node": "idFuse30A",
+            "child_node": "rusty",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idFuse30A",
+            "child_node": "idControlPanel1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown rusty red fuse 30A north of the control panel"
+    ]
+}

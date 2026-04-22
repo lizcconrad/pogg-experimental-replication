@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idWorker1RightHand": {
+            "lexicon_key": "idWorker1RightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWorker1": {
+            "lexicon_key": "idWorker",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWorker1RightHand_prop_idSide",
+            "parent_node": "idWorker1RightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorker1RightHand",
+            "child_node": "idWorker1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the worker's right hand on the right near the worker"
+    ]
+}

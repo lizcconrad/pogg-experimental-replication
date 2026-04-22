@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLongHallwayBackOpening": {
+            "lexicon_key": "idLongHallwayBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuseSocket3": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLongHallwayBackOpening",
+            "child_node": "idFuseSocket3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFuseSocket3_prop_idOrdinality",
+            "parent_node": "idFuseSocket3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the long hallway's back opening north of the third fuse socket"
+    ]
+}

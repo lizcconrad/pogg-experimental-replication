@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idTheFlashback1": {
+            "lexicon_key": "idTheFlashback",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idWater1": {
+            "lexicon_key": "idWater",
+            "node_properties": {}
+        },
+        "dirty": {
+            "lexicon_key": "dirty",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {}
+        },
+        "messy": {
+            "lexicon_key": "messy",
+            "node_properties": {}
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idWater1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWater1_prop_idDescriptor",
+            "parent_node": "idWater1",
+            "child_node": "dirty",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWater1_prop_idColor",
+            "parent_node": "idWater1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBathroom1_prop_idDescriptor",
+            "parent_node": "idBathroom1",
+            "child_node": "messy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idBathroom1",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

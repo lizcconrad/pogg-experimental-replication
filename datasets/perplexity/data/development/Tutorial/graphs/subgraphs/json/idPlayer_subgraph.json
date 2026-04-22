@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTutorialRoom1FrontOpening": {
+            "lexicon_key": "idTutorialRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idTutorialRoom1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player south of the tutorial room's front opening"
+    ]
+}

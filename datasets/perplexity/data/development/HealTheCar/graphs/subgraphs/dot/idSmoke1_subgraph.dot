@@ -1,0 +1,7 @@
+strict digraph {
+idSmoke1 [node_type=entity, lexicon_key=idSmoke];
+yes [node_type=property, lexicon_key=yes];
+idStump1 [node_type=entity, lexicon_key=idStump];
+idSmoke1 -> yes [label="idSmoke1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idSmoke1 -> idStump1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

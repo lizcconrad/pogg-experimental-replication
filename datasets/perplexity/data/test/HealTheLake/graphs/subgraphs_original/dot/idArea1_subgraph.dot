@@ -1,0 +1,11 @@
+strict digraph {
+idArea1 [node_type="entity_node", root=root, lexicon_key=idArea];
+smoky [lexicon_key=smoky];
+idBerry2 [lexicon_key=idBerry];
+green [lexicon_key=green];
+idLeg1 [lexicon_key=idLeg];
+idArea1 -> smoky [label="idArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idArea1 -> idBerry2 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBerry2 -> green [label="idBerry2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBerry2 -> idLeg1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

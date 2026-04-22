@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idVilli1": {
+            "node_type": "entity",
+            "lexicon_key": "idVilli"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        },
+        "yes": {
+            "node_type": "property",
+            "lexicon_key": "yes"
+        },
+        "idBody1": {
+            "node_type": "entity",
+            "lexicon_key": "idBody"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idVilli1_prop_idInterestingObject",
+            "parent_node": "idVilli1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idVilli1_prop_idImmovable",
+            "parent_node": "idVilli1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idVilli1",
+            "child_node": "idBody1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

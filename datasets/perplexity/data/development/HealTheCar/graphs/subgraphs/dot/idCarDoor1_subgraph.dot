@@ -1,0 +1,9 @@
+strict digraph {
+idCarDoor1 [node_type=entity, lexicon_key=idCarDoor];
+old [node_type=property, lexicon_key=old];
+left [node_type=property, lexicon_key=left];
+idDriver1 [node_type=property, lexicon_key=idDriver];
+idCarDoor1 -> old [label="idCarDoor1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCarDoor1 -> left [label="idCarDoor1_prop_idLocation_1", edge_type=property, lexicon_key="idLocation_"];
+idCarDoor1 -> idDriver1 [label="idCarDoor1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+}

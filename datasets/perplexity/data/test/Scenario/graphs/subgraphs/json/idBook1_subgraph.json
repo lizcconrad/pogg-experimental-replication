@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idBook1": {
+            "lexicon_key": "idBook",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFlashlight1": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBook1_prop_idOpenState",
+            "parent_node": "idBook1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1",
+            "child_node": "idFlashlight1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1_prop_idPowerState",
+            "parent_node": "idFlashlight1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the open book north of the flashlight that is turned off"
+    ]
+}

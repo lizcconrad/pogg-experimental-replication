@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idBarn1Door": {
+            "lexicon_key": "idBarn1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idButtonY": {
+            "lexicon_key": "idButtonY",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBarn1Door_prop_idMaterial",
+            "parent_node": "idBarn1Door",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBarn1Door_prop_idOpenState",
+            "parent_node": "idBarn1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBarn1Door",
+            "child_node": "idButtonY",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idButtonY_prop_idOrdinality",
+            "parent_node": "idButtonY",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the open wooden barn door west of the second button"
+    ]
+}

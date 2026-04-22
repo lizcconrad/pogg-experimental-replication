@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idCarDoorLock1": {
+            "lexicon_key": "idCarDoorLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCarDoorLock1_prop_idLockedState",
+            "parent_node": "idCarDoorLock1",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

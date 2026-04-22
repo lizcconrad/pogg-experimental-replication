@@ -1,0 +1,69 @@
+{
+    "nodes": {
+        "idBerry2": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTree1": {
+            "lexicon_key": "idTree",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBerry2_prop_idImmovable",
+            "parent_node": "idBerry2",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBerry2_prop_idColor",
+            "parent_node": "idBerry2",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBerry2",
+            "child_node": "idTree1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTree1_prop_idColor",
+            "parent_node": "idTree1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable green berry near the green tree"
+    ]
+}

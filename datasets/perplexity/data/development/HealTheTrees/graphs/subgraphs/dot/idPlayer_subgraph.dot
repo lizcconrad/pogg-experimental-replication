@@ -1,0 +1,11 @@
+strict digraph {
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idBottle1 [node_type=entity, lexicon_key=idBottle];
+broken [node_type=property, lexicon_key=broken];
+sharp [node_type=property, lexicon_key=sharp];
+idPlayer -> false [label="idPlayer_prop_idBottleFound", edge_type=property, lexicon_key=idBottleFound];
+idPlayer -> idBottle1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBottle1 -> broken [label="idBottle1_prop_idIntegrity", edge_type=property, lexicon_key=idIntegrity];
+idBottle1 -> sharp [label="idBottle1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

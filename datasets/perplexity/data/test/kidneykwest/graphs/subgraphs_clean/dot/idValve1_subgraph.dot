@@ -1,0 +1,9 @@
+strict digraph {
+idValve1 [lexicon_key=idValve];
+open [lexicon_key=open];
+idDuct1 [lexicon_key=idDuct];
+yes [lexicon_key=yes];
+idValve1 -> open [label="idValve1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idValve1 -> idDuct1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idDuct1 -> yes [label="idDuct1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

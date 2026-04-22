@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idCavern7LeftOpening": {
+            "lexicon_key": "idCavern7LeftOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idCavern5": {
+            "lexicon_key": "idCavern",
+            "node_properties": {}
+        },
+        "smelly": {
+            "lexicon_key": "smelly",
+            "node_properties": {}
+        },
+        "ominous": {
+            "lexicon_key": "ominous",
+            "node_properties": {}
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {}
+        },
+        "idCavern4FrontOpening": {
+            "lexicon_key": "idCavern4FrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern7LeftOpening",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern7LeftOpening",
+            "child_node": "idCavern5",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idDescriptor_2",
+            "parent_node": "idCavern5",
+            "child_node": "smelly",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idDescriptor",
+            "parent_node": "idCavern5",
+            "child_node": "ominous",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCavern5",
+            "child_node": "idCavern4FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

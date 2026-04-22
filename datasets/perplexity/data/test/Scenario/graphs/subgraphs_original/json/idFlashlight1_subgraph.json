@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idFlashlight1": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "unlit": {
+            "lexicon_key": "unlit",
+            "node_properties": {}
+        },
+        "idLockFace2": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFlashlight1_prop_idColor",
+            "parent_node": "idFlashlight1",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1_prop_idPowerState",
+            "parent_node": "idFlashlight1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1_prop_idLitState",
+            "parent_node": "idFlashlight1",
+            "child_node": "unlit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight1",
+            "child_node": "idLockFace2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

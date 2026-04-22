@@ -1,0 +1,7 @@
+strict digraph {
+idFairyWorld1 [node_type=entity, lexicon_key=idFairyWorld];
+idGiftBox1 [node_type=entity, lexicon_key=idGiftBox];
+closed [node_type=property, lexicon_key=closed];
+idFairyWorld1 -> idGiftBox1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idGiftBox1 -> closed [label="idGiftBox1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

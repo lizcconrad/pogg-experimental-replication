@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTutorialRoom1Door": {
+            "lexicon_key": "idTutorialRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTutorialRoom1DoorLock": {
+            "lexicon_key": "idTutorialRoom1DoorLock",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idLocation",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idTutorialRoom1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTutorialRoom1Door_prop_idOpenState",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTutorialRoom1Door_prop_idLockMechanism",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idTutorialRoom1DoorLock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player's left hand on the local left south of the closed door to the tutorial room with a lock"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "idThief1": {
+            "lexicon_key": "idThief",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWorker1": {
+            "lexicon_key": "idWorker",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThief1_prop_idUnknownObject",
+            "parent_node": "idThief1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idWorker1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWorker1_prop_idUnknownObject",
+            "parent_node": "idWorker1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown thief near the unknown worker"
+    ]
+}

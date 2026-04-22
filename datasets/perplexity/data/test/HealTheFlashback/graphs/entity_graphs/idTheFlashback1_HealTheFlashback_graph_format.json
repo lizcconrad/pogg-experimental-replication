@@ -1,0 +1,528 @@
+{
+    "nodes": {
+        "idTheFlashback1": {
+            "lexicon_key": "idTheFlashback",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingroom1": {
+            "lexicon_key": "idLivingroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRug1": {
+            "lexicon_key": "idRug",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDresser1": {
+            "lexicon_key": "idDresser",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPillow1": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPillow2": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChair1": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChair2": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabinet1": {
+            "lexicon_key": "idCabinet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMedicineCabinet1": {
+            "lexicon_key": "idMedicineCabinet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSink1": {
+            "lexicon_key": "idSink",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idToilet1": {
+            "lexicon_key": "idToilet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWater1": {
+            "lexicon_key": "idWater",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBed1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idRug1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idDresser1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPillow1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPillow2",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idChair1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idChair2",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idCabinet1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idMedicineCabinet1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idSink1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idToilet1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idWater1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idBed1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idRug1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idDresser1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPillow1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPillow2",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idChair1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idChair2",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idCabinet1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idMedicineCabinet1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idSink1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idToilet1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheFlashback1",
+            "child_node": "idWater1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

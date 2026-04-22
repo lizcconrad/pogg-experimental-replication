@@ -1,0 +1,13 @@
+strict digraph {
+idGastricFold1 [node_type=entity, lexicon_key=idGastricFold];
+gastric [node_type=property, lexicon_key=gastric];
+yes [node_type=property, lexicon_key=yes];
+true [node_type=property, lexicon_key=true];
+idThroatSphincter1 [node_type=entity, lexicon_key=idThroatSphincter];
+closed [node_type=property, lexicon_key=closed];
+idGastricFold1 -> gastric [label="idGastricFold1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idGastricFold1 -> yes [label="idGastricFold1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idGastricFold1 -> true [label="idGastricFold1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idGastricFold1 -> idThroatSphincter1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idThroatSphincter1 -> closed [label="idThroatSphincter1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

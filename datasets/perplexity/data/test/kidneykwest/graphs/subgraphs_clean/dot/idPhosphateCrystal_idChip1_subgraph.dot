@@ -1,0 +1,11 @@
+strict digraph {
+idPhosphateCrystal_idChip1 [lexicon_key="idPhosphateCrystal_idChip"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+true [lexicon_key=true];
+idCabin1Door [lexicon_key=idCabin1Door];
+idPhosphateCrystal_idChip1 -> blue [label="idPhosphateCrystal_idChip1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idChip1 -> shiny [label="idPhosphateCrystal_idChip1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idPhosphateCrystal_idChip1 -> true [label="idPhosphateCrystal_idChip1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idChip1 -> idCabin1Door [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

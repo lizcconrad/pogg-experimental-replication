@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idTutorialRoom1": {
+            "lexicon_key": "idTutorialRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTutorialRoom1_prop_idColor",
+            "parent_node": "idTutorialRoom1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTutorialRoom1_prop_idUnknownObject",
+            "parent_node": "idTutorialRoom1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTutorialRoom1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idImmovable",
+            "parent_node": "idDesk1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the white unknown tutorial room near the immovable desk"
+    ]
+}

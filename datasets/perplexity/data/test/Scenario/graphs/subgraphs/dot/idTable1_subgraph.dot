@@ -1,0 +1,5 @@
+strict digraph {
+idTable1 [node_type=entity, lexicon_key=idTable];
+idKeyhole2 [node_type=entity, lexicon_key=idKeyhole];
+idTable1 -> idKeyhole2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idDarkCaveFrontOpening": {
+            "lexicon_key": "idDarkCaveFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLexi": {
+            "lexicon_key": "idLexi",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDarkCaveFrontOpening_prop_idHeight",
+            "parent_node": "idDarkCaveFrontOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDarkCaveFrontOpening",
+            "child_node": "idLexi",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the dark cave's medium front opening south of Lexi"
+    ]
+}

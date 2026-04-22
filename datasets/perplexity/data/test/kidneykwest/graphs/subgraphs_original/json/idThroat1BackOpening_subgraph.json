@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idThroat1BackOpening": {
+            "lexicon_key": "idThroat1BackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

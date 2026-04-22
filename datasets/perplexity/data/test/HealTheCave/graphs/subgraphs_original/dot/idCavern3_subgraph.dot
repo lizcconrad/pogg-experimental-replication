@@ -1,0 +1,7 @@
+strict digraph {
+idCavern3 [node_type="entity_node", root=root, lexicon_key=idCavern];
+strange [lexicon_key=strange];
+3 [lexicon_key=3];
+idCavern3 -> strange [label="idCavern3_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCavern3 -> 3 [label="idCavern3_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

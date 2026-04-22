@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idTheCave1": {
+            "lexicon_key": "idTheCave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCavern1": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "original": {
+            "lexicon_key": "original",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheCave1",
+            "child_node": "idCavern1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern1_prop_idOrdinality",
+            "parent_node": "idCavern1",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern1_prop_idDescriptor",
+            "parent_node": "idCavern1",
+            "child_node": "original",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "The Cave near the original first cavern"
+    ]
+}

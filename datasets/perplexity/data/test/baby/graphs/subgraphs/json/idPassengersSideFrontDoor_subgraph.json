@@ -1,0 +1,99 @@
+{
+    "nodes": {
+        "idPassengersSideFrontDoor": {
+            "lexicon_key": "idPassengersSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassenger": {
+            "lexicon_key": "idPassenger",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idCarSide",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassenger",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idLocation_1",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "right",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idUnknownObject",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idUnknownObject",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idOpenState",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown passenger side front door on the passenger side on the right east of the closed unknown driver side front door"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idWolf1": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "tiny": {
+            "lexicon_key": "tiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLongHallwayLeftOpeningDoor": {
+            "lexicon_key": "idLongHallwayLeftOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWolf1_prop_idColor",
+            "parent_node": "idWolf1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWolf1_prop_idSize",
+            "parent_node": "idWolf1",
+            "child_node": "tiny",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idWolf1",
+            "child_node": "idLongHallwayLeftOpeningDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayLeftOpeningDoor_prop_idColor",
+            "parent_node": "idLongHallwayLeftOpeningDoor",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the tiny black wolf west of the grey door to the long hallway's left opening"
+    ]
+}

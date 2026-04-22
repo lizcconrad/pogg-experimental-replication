@@ -1,0 +1,15 @@
+strict digraph {
+idKeyhole1 [node_type="entity_node", root=root, lexicon_key=idKeyhole];
+idMachine1 [lexicon_key=idMachine];
+off [lexicon_key=off];
+idOnSwitch1 [lexicon_key=idOnSwitch];
+idLockFace1 [lexicon_key=idLockFace];
+idFlashlight1 [lexicon_key=idFlashlight];
+idKeyhole2 [lexicon_key=idKeyhole];
+idKeyhole1 -> idLockFace1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idKeyhole1 -> idMachine1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idMachine1 -> idOnSwitch1 [label="idMachine1_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+idMachine1 -> idKeyhole2 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idLockFace1 -> idFlashlight1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

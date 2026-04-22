@@ -1,0 +1,12 @@
+strict digraph {
+idGoggles1 [node_type="entity_node", root=root, lexicon_key=idGoggles];
+plastic [lexicon_key=plastic];
+true [lexicon_key=true];
+idApple1 [lexicon_key=idApple];
+red [lexicon_key=red];
+idGoggles1 -> plastic [label="idGoggles1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idGoggles1 -> true [label="idGoggles1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idGoggles1 -> idApple1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idApple1 -> red [label="idApple1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idApple1 -> true [label="idApple1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

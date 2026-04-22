@@ -1,0 +1,11 @@
+strict digraph {
+idFuseSocket3 [node_type="entity_node", root=root, lexicon_key=idFuseSocket];
+3 [lexicon_key=3];
+idFuse30A [lexicon_key=idFuse30A];
+rusty [lexicon_key=rusty];
+true [lexicon_key=true];
+idFuseSocket3 -> 3 [label="idFuseSocket3_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idFuseSocket3 -> idFuse30A [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idFuse30A -> rusty [label="idFuse30A_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+idFuse30A -> true [label="idFuse30A_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

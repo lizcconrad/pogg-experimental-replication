@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPassengersSideFrontDoorInsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoorInsideOpening",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the inside opening on the passenger side's front door east of the driver side front door"
+    ]
+}

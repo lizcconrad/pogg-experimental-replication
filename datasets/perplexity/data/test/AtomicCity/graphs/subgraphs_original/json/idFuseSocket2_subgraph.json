@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idFuseSocket2": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuseSocket2_prop_idOrdinality",
+            "parent_node": "idFuseSocket2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

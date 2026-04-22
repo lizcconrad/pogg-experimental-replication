@@ -1,0 +1,9 @@
+strict digraph {
+idMomNote1 [node_type=entity, lexicon_key=idMomNote];
+idMom1 [node_type=entity, lexicon_key=idMom];
+true [node_type=property, lexicon_key=true];
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idMomNote1 -> idMom1 [label="idMomNote1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idMomNote1 -> true [label="idMomNote1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idMomNote1 -> idPlayerBackside [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

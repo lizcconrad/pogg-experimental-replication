@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBerry1": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTheCliff1": {
+            "lexicon_key": "idTheCliff",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBerry1_prop_idColor",
+            "parent_node": "idBerry1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idBerry1",
+            "child_node": "idTheCliff1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the red berry inside of the cliff"
+    ]
+}

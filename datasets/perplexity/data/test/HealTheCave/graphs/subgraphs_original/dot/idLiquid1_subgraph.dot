@@ -1,0 +1,11 @@
+strict digraph {
+idLiquid1 [node_type="entity_node", root=root, lexicon_key=idLiquid];
+yes [lexicon_key=yes];
+black [lexicon_key=black];
+strange [lexicon_key=strange];
+idCavern7LeftOpening [lexicon_key=idCavern7LeftOpening];
+idLiquid1 -> yes [label="idLiquid1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idLiquid1 -> black [label="idLiquid1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLiquid1 -> strange [label="idLiquid1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idLiquid1 -> idCavern7LeftOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

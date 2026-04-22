@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idElevatorDoor": {
+            "lexicon_key": "idElevatorDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idElevatorSlotFacePlate": {
+            "lexicon_key": "idElevatorSlotFacePlate",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevatorOpening": {
+            "lexicon_key": "idElevatorOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idElevatorDoor_prop_idOpenState",
+            "parent_node": "idElevatorDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idElevatorDoor_prop_idLockMechanism",
+            "parent_node": "idElevatorDoor",
+            "child_node": "idElevatorSlotFacePlate",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idElevatorDoor",
+            "child_node": "idElevatorOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed elevator door with the elevator slot's face plate south of the elevator opening"
+    ]
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idPlage [node_type=entity, lexicon_key=idPlage];
+2 [node_type=property, lexicon_key=2];
+idFlashlight2 [node_type=entity, lexicon_key=idFlashlight];
+lit [node_type=property, lexicon_key=lit];
+idFlashlight2Switch [node_type=property, lexicon_key=idFlashlight2Switch];
+idPlage -> 2 [label="idPlage_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idPlage -> idFlashlight2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idFlashlight2 -> lit [label="idFlashlight2_prop_idLitState", edge_type=property, lexicon_key=idLitState];
+idFlashlight2 -> idFlashlight2Switch [label="idFlashlight2_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+}

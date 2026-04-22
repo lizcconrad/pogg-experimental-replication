@@ -1,0 +1,5 @@
+strict digraph {
+idThroat1 [node_type=entity, lexicon_key=idThroat];
+idThroatSphincter1 [node_type=entity, lexicon_key=idThroatSphincter];
+idThroat1 -> idThroatSphincter1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

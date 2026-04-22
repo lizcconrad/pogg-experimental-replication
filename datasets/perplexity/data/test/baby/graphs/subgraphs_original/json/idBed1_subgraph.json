@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBed1_prop_idUnknownObject",
+            "parent_node": "idBed1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

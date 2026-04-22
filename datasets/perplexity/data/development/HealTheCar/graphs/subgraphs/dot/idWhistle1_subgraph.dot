@@ -1,0 +1,9 @@
+strict digraph {
+idWhistle1 [node_type=entity, lexicon_key=idWhistle];
+cracked [node_type=property, lexicon_key=cracked];
+white [node_type=property, lexicon_key=white];
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idWhistle1 -> cracked [label="idWhistle1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idWhistle1 -> white [label="idWhistle1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWhistle1 -> idPlayerBackside [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

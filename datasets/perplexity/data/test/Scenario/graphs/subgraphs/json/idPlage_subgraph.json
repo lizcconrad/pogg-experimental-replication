@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idPlage": {
+            "lexicon_key": "idPlage",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFlashlight2": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "lit": {
+            "lexicon_key": "lit",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFlashlight2Switch": {
+            "lexicon_key": "idFlashlight2Switch",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlage_prop_idOrdinality",
+            "parent_node": "idPlage",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlage",
+            "child_node": "idFlashlight2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idLitState",
+            "parent_node": "idFlashlight2",
+            "child_node": "lit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idPowerControl",
+            "parent_node": "idFlashlight2",
+            "child_node": "idFlashlight2Switch",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the second plage north of the lit flashlight with a flashlight switch"
+    ]
+}

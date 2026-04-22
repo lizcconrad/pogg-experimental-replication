@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idTheTrees1": {
+            "lexicon_key": "idTheTrees",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGlowingArea1": {
+            "lexicon_key": "idGlowingArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheTrees1",
+            "child_node": "idGlowingArea1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGlowingArea1_prop_idDescriptor",
+            "parent_node": "idGlowingArea1",
+            "child_node": "glowing",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the trees near the glowing glowing area"
+    ]
+}

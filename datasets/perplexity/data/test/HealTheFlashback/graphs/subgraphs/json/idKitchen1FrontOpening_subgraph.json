@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idKitchen1FrontOpening": {
+            "lexicon_key": "idKitchen1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChair1": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKitchen1FrontOpening",
+            "child_node": "idChair1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChair1_prop_idColor",
+            "parent_node": "idChair1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the kitchen's front opening south of the brown chair"
+    ]
+}

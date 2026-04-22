@@ -1,0 +1,7 @@
+strict digraph {
+idBed1 [node_type=entity, lexicon_key=idBed];
+true [node_type=property, lexicon_key=true];
+idFrontDoor1idPorch1idNorthOfOpening [node_type=entity, lexicon_key=idFrontDoor1idPorch1idNorthOfOpening];
+idBed1 -> true [label="idBed1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBed1 -> idFrontDoor1idPorch1idNorthOfOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

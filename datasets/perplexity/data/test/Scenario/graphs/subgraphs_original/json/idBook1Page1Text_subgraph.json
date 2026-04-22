@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idBook1Page1Text": {
+            "lexicon_key": "idBook1Page1Text",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

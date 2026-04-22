@@ -1,0 +1,5 @@
+strict digraph {
+idThroat1BackOpening [lexicon_key=idThroat1BackOpening];
+idSmallIntestine1BackOpening [lexicon_key=idSmallIntestine1BackOpening];
+idThroat1BackOpening -> idSmallIntestine1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

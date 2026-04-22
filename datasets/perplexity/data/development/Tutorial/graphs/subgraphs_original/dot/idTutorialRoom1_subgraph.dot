@@ -1,0 +1,11 @@
+strict digraph {
+idTutorialRoom1 [node_type="entity_node", root=root, lexicon_key=idTutorialRoom];
+white [lexicon_key=white];
+true [lexicon_key=true];
+idPlayer [lexicon_key=idPlayer];
+idWorld1 [lexicon_key=idWorld];
+idTutorialRoom1 -> white [label="idTutorialRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idTutorialRoom1 -> true [label="idTutorialRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTutorialRoom1 -> idPlayer [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idPlayer -> idWorld1 [label=isInsideOf, edge_type=relationship, lexicon_key=isInsideOf];
+}

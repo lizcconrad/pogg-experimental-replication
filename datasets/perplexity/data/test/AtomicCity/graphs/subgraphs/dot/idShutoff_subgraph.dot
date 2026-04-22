@@ -1,0 +1,11 @@
+strict digraph {
+idShutoff [node_type=entity, lexicon_key=idShutoff];
+closed [node_type=property, lexicon_key=closed];
+idWolf1 [node_type=entity, lexicon_key=idWolf];
+black [node_type=property, lexicon_key=black];
+tiny [node_type=property, lexicon_key=tiny];
+idShutoff -> closed [label="idShutoff_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idShutoff -> idWolf1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idWolf1 -> black [label="idWolf1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf1 -> tiny [label="idWolf1_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

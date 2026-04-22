@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idLongHallwayFrontOpeningDoorKeyhole": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoorKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayFrontOpeningDoorLock": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoorLock",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idLongHallwayFrontOpeningDoorKeyhole",
+            "child_node": "idLongHallwayFrontOpeningDoorLock",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the keyhole on the door to the long hallway's front opening near the lock on the door to the long hallway's front opening"
+    ]
+}

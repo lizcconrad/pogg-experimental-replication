@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idDeer1": {
+            "lexicon_key": "idDeer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

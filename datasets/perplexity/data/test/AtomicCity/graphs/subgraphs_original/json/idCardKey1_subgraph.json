@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idCardKey1": {
+            "lexicon_key": "idCardKey",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idComputerRoom1": {
+            "lexicon_key": "idComputerRoom",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idCandyBar1": {
+            "lexicon_key": "idCandyBar",
+            "node_properties": {}
+        },
+        "idMachineRoomFrontOpening": {
+            "lexicon_key": "idMachineRoomFrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCardKey1_prop_idUnknownObject",
+            "parent_node": "idCardKey1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCardKey1",
+            "child_node": "idCandyBar1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCardKey1",
+            "child_node": "idComputerRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idComputerRoom1_prop_idColor",
+            "parent_node": "idComputerRoom1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idComputerRoom1",
+            "child_node": "idMachineRoomFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

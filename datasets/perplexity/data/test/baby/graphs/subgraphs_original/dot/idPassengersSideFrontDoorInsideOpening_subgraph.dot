@@ -1,0 +1,11 @@
+strict digraph {
+idPassengersSideFrontDoorInsideOpening [node_type="entity_node", root=root, lexicon_key=idPassengersSideFrontDoorInsideOpening];
+idPassengersSideFrontDoor [lexicon_key=idPassengersSideFrontDoor];
+idCardReader1 [lexicon_key=idCardReader];
+right [lexicon_key=right];
+idDriversSideFrontDoorInsideOpening [lexicon_key=idDriversSideFrontDoorInsideOpening];
+idPassengersSideFrontDoorInsideOpening -> idDriversSideFrontDoorInsideOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPassengersSideFrontDoorInsideOpening -> idPassengersSideFrontDoor [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPassengersSideFrontDoor -> idCardReader1 [label="idPassengersSideFrontDoor_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idPassengersSideFrontDoor -> right [label="idPassengersSideFrontDoor_prop_idLocation_1", edge_type=property, lexicon_key="idLocation_"];
+}

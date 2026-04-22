@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idFlashlight2": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFlashlight2Switch": {
+            "lexicon_key": "idFlashlight2Switch",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "on": {
+            "lexicon_key": "on",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "orange": {
+            "lexicon_key": "orange",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idKeyhole1": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFlashlight2_prop_idPowerControl",
+            "parent_node": "idFlashlight2",
+            "child_node": "idFlashlight2Switch",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idPowerState",
+            "parent_node": "idFlashlight2",
+            "child_node": "on",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idColor",
+            "parent_node": "idFlashlight2",
+            "child_node": "orange",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight2",
+            "child_node": "idKeyhole1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the orange flashlight that is turned on with a flashlight switch south of the keyhole"
+    ]
+}

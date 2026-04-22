@@ -1,0 +1,7 @@
+strict digraph {
+idLongHallwayBackOpening [node_type=entity, lexicon_key=idLongHallwayBackOpening];
+idFuseSocket3 [node_type=entity, lexicon_key=idFuseSocket];
+3 [node_type=property, lexicon_key=3];
+idLongHallwayBackOpening -> idFuseSocket3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idFuseSocket3 -> 3 [label="idFuseSocket3_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

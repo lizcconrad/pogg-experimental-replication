@@ -1,0 +1,11 @@
+strict digraph {
+idFlashlight2 [node_type=entity, lexicon_key=idFlashlight];
+idFlashlight2Switch [node_type=property, lexicon_key=idFlashlight2Switch];
+on [node_type=property, lexicon_key=on];
+orange [node_type=property, lexicon_key=orange];
+idKeyhole1 [node_type=entity, lexicon_key=idKeyhole];
+idFlashlight2 -> idFlashlight2Switch [label="idFlashlight2_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+idFlashlight2 -> on [label="idFlashlight2_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idFlashlight2 -> orange [label="idFlashlight2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFlashlight2 -> idKeyhole1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

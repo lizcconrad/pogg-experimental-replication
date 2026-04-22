@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idKelly1": {
+            "lexicon_key": "idKelly",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "happy": {
+            "lexicon_key": "happy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "magic": {
+            "lexicon_key": "magic",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFairyWorldLobby1": {
+            "lexicon_key": "idFairyWorldLobby",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKelly1_prop_idOpenState",
+            "parent_node": "idKelly1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idEmotion",
+            "parent_node": "idKelly1",
+            "child_node": "happy",
+            "lexicon_key": "idEmotion",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idTrait",
+            "parent_node": "idKelly1",
+            "child_node": "magic",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKelly1",
+            "child_node": "idFairyWorldLobby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "Kelly who is happy, magical, closed, and is near the fairy world lobby"
+    ]
+}

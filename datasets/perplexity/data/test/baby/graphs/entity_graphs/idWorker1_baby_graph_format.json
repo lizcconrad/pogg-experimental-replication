@@ -1,0 +1,83 @@
+{
+    "nodes": {
+        "idWorker1": {
+            "lexicon_key": "idWorker",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDaycare1": {
+            "lexicon_key": "idDaycare",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWorker1_prop_idUnknownObject",
+            "parent_node": "idWorker1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idWorker1",
+            "child_node": "idDaycare1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idWorker1",
+            "child_node": "idDaycare1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idWorker1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorker1",
+            "child_node": "idDaycare1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorker1",
+            "child_node": "idWorker1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

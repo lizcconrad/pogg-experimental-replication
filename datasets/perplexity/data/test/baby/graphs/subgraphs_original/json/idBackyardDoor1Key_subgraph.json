@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idBackyardDoor1Key": {
+            "lexicon_key": "idBackyardDoor1Key",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {}
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBackyardDoor1Key_prop_idColor",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1Key_prop_idUnknownObject",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idOwnedBy",
+            "parent_node": "idDriverSeat",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idImmovable",
+            "parent_node": "idDriverSeat",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

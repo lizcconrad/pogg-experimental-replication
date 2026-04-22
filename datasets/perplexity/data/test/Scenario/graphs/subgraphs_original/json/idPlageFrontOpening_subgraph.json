@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idPlageFrontOpening": {
+            "lexicon_key": "idPlageFrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "tall": {
+            "lexicon_key": "tall",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlageFrontOpening_prop_idHeight",
+            "parent_node": "idPlageFrontOpening",
+            "child_node": "tall",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

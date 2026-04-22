@@ -1,0 +1,15 @@
+strict digraph {
+idCavern7 [node_type="entity_node", root=root, lexicon_key=idCavern];
+glowing [lexicon_key=glowing];
+7 [lexicon_key=7];
+idCavern6 [lexicon_key=idCavern];
+bright [lexicon_key=bright];
+6 [lexicon_key=6];
+idCavern2RightOpening [lexicon_key=idCavern2RightOpening];
+idCavern7 -> glowing [label="idCavern7_prop_idTint", edge_type=property, lexicon_key=idTint];
+idCavern7 -> 7 [label="idCavern7_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idCavern7 -> idCavern6 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idCavern7 -> idCavern2RightOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idCavern6 -> bright [label="idCavern6_prop_idTint", edge_type=property, lexicon_key=idTint];
+idCavern6 -> 6 [label="idCavern6_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

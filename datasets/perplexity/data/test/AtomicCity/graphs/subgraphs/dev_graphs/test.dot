@@ -1,0 +1,7 @@
+strict digraph {
+idLongHallway -> long [label=property]
+idLongHallway [label=front_face]
+idLongHallwayFrontOpening -> idLongHallway [label=attach]
+idLongHallwayFrontOpeningDoor -> idLongHallwayFrontOpening [label=attach]
+idLongHallwayFrontOpeningDoorKeyhole -> idLongHallwayFrontOpeningDoor [label=attach]
+}

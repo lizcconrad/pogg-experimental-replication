@@ -1,0 +1,13 @@
+strict digraph {
+idFlashlight1Switch [node_type=entity, lexicon_key=idFlashlight1Switch];
+yellow [node_type=property, lexicon_key=yellow];
+off [node_type=property, lexicon_key=off];
+idBook1Page3 [node_type=entity, lexicon_key=idBook1Page3];
+3 [node_type=property, lexicon_key=3];
+true [node_type=property, lexicon_key=true];
+idFlashlight1Switch -> yellow [label="idFlashlight1Switch_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFlashlight1Switch -> off [label="idFlashlight1Switch_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idFlashlight1Switch -> idBook1Page3 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idBook1Page3 -> 3 [label="idBook1Page3_prop_idCardinality", edge_type=property, lexicon_key=idCardinality];
+idBook1Page3 -> true [label="idBook1Page3_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

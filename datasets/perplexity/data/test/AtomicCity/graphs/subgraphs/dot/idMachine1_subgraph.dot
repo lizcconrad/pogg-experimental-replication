@@ -1,0 +1,11 @@
+strict digraph {
+idMachine1 [node_type=entity, lexicon_key=idMachine];
+idOnSwitch1 [node_type=entity, lexicon_key=idOnSwitch];
+yes [node_type=property, lexicon_key=yes];
+off [node_type=property, lexicon_key=off];
+idAtomicCityOutside1BackOpening [node_type=entity, lexicon_key=idAtomicCityOutside1BackOpening];
+idMachine1 -> idOnSwitch1 [label="idMachine1_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+idMachine1 -> yes [label="idMachine1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idMachine1 -> idAtomicCityOutside1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

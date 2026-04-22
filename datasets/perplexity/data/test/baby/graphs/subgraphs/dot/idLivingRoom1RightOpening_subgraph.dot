@@ -1,0 +1,7 @@
+strict digraph {
+idLivingRoom1RightOpening [node_type=entity, lexicon_key=idLivingRoom1RightOpening];
+idGoButton [node_type=entity, lexicon_key=idGoButton];
+true [node_type=property, lexicon_key=true];
+idLivingRoom1RightOpening -> idGoButton [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idGoButton -> true [label="idGoButton_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

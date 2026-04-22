@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idPipe1": {
+            "lexicon_key": "idPipe",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idElevator1": {
+            "lexicon_key": "idElevator",
+            "node_properties": {}
+        },
+        "idButton1": {
+            "lexicon_key": "idButton",
+            "node_properties": {}
+        },
+        "idShutoff": {
+            "lexicon_key": "idShutoff",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPipe1",
+            "child_node": "idElevator1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idElevator1_prop_idCurrentLevel",
+            "parent_node": "idElevator1",
+            "child_node": "idButton1",
+            "lexicon_key": "idCurrentLevel",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idElevator1",
+            "child_node": "idShutoff",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

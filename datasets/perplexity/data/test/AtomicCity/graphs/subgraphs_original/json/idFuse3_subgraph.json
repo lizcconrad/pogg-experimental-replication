@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idFuse3": {
+            "lexicon_key": "idFuse",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "idLongHallwayLeftOpening": {
+            "lexicon_key": "idLongHallwayLeftOpening",
+            "node_properties": {}
+        },
+        "idComputerRoom1": {
+            "lexicon_key": "idComputerRoom",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuse3_prop_idColor",
+            "parent_node": "idFuse3",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idFuse3",
+            "child_node": "idLongHallwayLeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLongHallwayLeftOpening",
+            "child_node": "idComputerRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

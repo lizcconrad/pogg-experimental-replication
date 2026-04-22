@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {}
+        },
+        "bare": {
+            "lexicon_key": "bare",
+            "node_properties": {}
+        },
+        "idWater1": {
+            "lexicon_key": "idWater",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPainting1_prop_idColor",
+            "parent_node": "idPainting1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPainting1_prop_idImmovable",
+            "parent_node": "idPainting1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPainting1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKitchen1_prop_idDescriptor",
+            "parent_node": "idKitchen1",
+            "child_node": "bare",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKitchen1",
+            "child_node": "idWater1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

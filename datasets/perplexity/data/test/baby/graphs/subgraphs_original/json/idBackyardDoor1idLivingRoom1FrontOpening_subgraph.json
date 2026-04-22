@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idBackyardDoor1idLivingRoom1FrontOpening": {
+            "lexicon_key": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {}
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBackyard1": {
+            "lexicon_key": "idBackyard",
+            "node_properties": {}
+        },
+        "idBackyardDoor1Key": {
+            "lexicon_key": "idBackyardDoor1Key",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "child_node": "idGoButton",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "child_node": "idBackyard1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGoButton_prop_idColor",
+            "parent_node": "idGoButton",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGoButton_prop_idUnknownObject",
+            "parent_node": "idGoButton",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGoButton",
+            "child_node": "idBackyardDoor1Key",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBackyard1_prop_idUnknownObject",
+            "parent_node": "idBackyard1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

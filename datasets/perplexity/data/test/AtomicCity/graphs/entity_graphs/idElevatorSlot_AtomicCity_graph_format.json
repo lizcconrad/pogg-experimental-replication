@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "idElevatorSlot": {
+            "lexicon_key": "idElevatorSlot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevatorSlotFacePlate": {
+            "lexicon_key": "idElevatorSlotFacePlate",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idElevatorSlot",
+            "child_node": "idElevatorSlotFacePlate",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

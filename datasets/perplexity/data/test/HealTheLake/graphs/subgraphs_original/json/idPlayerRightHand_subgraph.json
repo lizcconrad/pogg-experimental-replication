@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idMoss1": {
+            "lexicon_key": "idMoss",
+            "node_properties": {}
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerRightHand_prop_idLocation",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "idMoss1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMoss1_prop_idArticleType",
+            "parent_node": "idMoss1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idPyloricSphincter1": {
+            "lexicon_key": "idPyloricSphincter",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "pyloric": {
+            "lexicon_key": "pyloric",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idValve1": {
+            "lexicon_key": "idValve",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPyloricSphincter1_prop_idMaterial",
+            "parent_node": "idPyloricSphincter1",
+            "child_node": "pyloric",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPyloricSphincter1_prop_idOpenState",
+            "parent_node": "idPyloricSphincter1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPyloricSphincter1",
+            "child_node": "idValve1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed pyloric pyloric sphincter north of the valve"
+    ]
+}

@@ -1,0 +1,12 @@
+strict digraph {
+idWolf4 [node_type=entity, lexicon_key=idWolf];
+white [node_type=property, lexicon_key=white];
+tiny [node_type=property, lexicon_key=tiny];
+idWolf1 [node_type=entity, lexicon_key=idWolf];
+black [node_type=property, lexicon_key=black];
+idWolf4 -> white [label="idWolf4_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf4 -> tiny [label="idWolf4_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf4 -> idWolf1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idWolf1 -> black [label="idWolf1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf1 -> tiny [label="idWolf1_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idBackyardDoor1idBackyard1idSouthOfOpening": {
+            "lexicon_key": "idBackyardDoor1idBackyard1idSouthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idScrewdriver1": {
+            "lexicon_key": "idScrewdriver",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBackyardDoor1idBackyard1idSouthOfOpening",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the opening south of the backyard north of the screwdriver"
+    ]
+}

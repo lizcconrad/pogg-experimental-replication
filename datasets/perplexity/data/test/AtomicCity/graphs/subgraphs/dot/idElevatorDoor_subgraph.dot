@@ -1,0 +1,9 @@
+strict digraph {
+idElevatorDoor [node_type=entity, lexicon_key=idElevatorDoor];
+closed [node_type=property, lexicon_key=closed];
+idElevatorSlotFacePlate [node_type=entity, lexicon_key=idElevatorSlotFacePlate];
+idElevatorOpening [node_type=entity, lexicon_key=idElevatorOpening];
+idElevatorDoor -> closed [label="idElevatorDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idElevatorDoor -> idElevatorSlotFacePlate [label="idElevatorDoor_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idElevatorDoor -> idElevatorOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

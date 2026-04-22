@@ -1,0 +1,7 @@
+strict digraph {
+idBaby1LeftHand [node_type=entity, lexicon_key=idBaby1LeftHand];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+idBedroomToClosetDoor [node_type=entity, lexicon_key=idBedroomToClosetDoor];
+idBaby1LeftHand -> idLocalLeft [label="idBaby1LeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idBaby1LeftHand -> idBedroomToClosetDoor [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

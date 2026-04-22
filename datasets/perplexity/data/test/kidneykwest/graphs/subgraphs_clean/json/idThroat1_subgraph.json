@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idThroat1": {
+            "node_type": "entity",
+            "lexicon_key": "idThroat"
+        },
+        "idThroatSphincter1": {
+            "node_type": "entity",
+            "lexicon_key": "idThroatSphincter"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

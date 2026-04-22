@@ -1,0 +1,7 @@
+strict digraph {
+idPlayerLeftHand [lexicon_key=idPlayerLeftHand];
+left [lexicon_key=left];
+idCostumeCloset1BackOpening [lexicon_key=idCostumeCloset1BackOpening];
+idPlayerLeftHand -> left [label="idPlayerLeftHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idPlayerLeftHand -> idCostumeCloset1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

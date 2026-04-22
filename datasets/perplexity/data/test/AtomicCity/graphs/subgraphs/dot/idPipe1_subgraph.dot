@@ -1,0 +1,5 @@
+strict digraph {
+idPipe1 [node_type=entity, lexicon_key=idPipe];
+idAdam [node_type=entity, lexicon_key=idAdam];
+idPipe1 -> idAdam [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

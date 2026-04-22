@@ -1,0 +1,17 @@
+strict digraph {
+idPhosphateCrystal_idHamburger1 [node_type="entity_node", root=root, lexicon_key="idPhosphateCrystal_idHamburger"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+true [lexicon_key=true];
+idBarn1Door [lexicon_key=idBarn1Door];
+idwood [lexicon_key=idwood];
+open [lexicon_key=open];
+idMachine1 [lexicon_key=idMachine];
+idPhosphateCrystal_idHamburger1 -> blue [label="idPhosphateCrystal_idHamburger1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idHamburger1 -> shiny [label="idPhosphateCrystal_idHamburger1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idPhosphateCrystal_idHamburger1 -> true [label="idPhosphateCrystal_idHamburger1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idHamburger1 -> idBarn1Door [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBarn1Door -> idwood [label="idBarn1Door_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idBarn1Door -> open [label="idBarn1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idBarn1Door -> idMachine1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

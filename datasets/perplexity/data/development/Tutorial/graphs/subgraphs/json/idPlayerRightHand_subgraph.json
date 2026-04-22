@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGameRoom1BackOpening": {
+            "lexicon_key": "idGameRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerRightHand_prop_idLocation",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "idGameRoom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player's right hand on the right south of the game room's back opening"
+    ]
+}

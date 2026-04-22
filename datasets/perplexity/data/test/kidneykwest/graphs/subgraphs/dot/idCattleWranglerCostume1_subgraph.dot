@@ -1,0 +1,7 @@
+strict digraph {
+idCattleWranglerCostume1 [node_type=entity, lexicon_key=idCattleWranglerCostume];
+gold [node_type=property, lexicon_key=gold];
+true [node_type=property, lexicon_key=true];
+idCattleWranglerCostume1 -> gold [label="idCattleWranglerCostume1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCattleWranglerCostume1 -> true [label="idCattleWranglerCostume1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

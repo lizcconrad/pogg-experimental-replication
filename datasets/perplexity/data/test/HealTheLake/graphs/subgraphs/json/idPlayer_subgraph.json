@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBerry1": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idEatenBerry",
+            "parent_node": "idPlayer",
+            "child_node": "false",
+            "lexicon_key": "idEatenBerry",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPlayer",
+            "child_node": "idBerry1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBerry1_prop_idColor",
+            "parent_node": "idBerry1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player who has not eaten a berry near the red berry"
+    ]
+}

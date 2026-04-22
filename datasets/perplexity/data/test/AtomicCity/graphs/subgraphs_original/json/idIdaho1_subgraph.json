@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idIdaho1": {
+            "lexicon_key": "idIdaho",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {}
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idIdaho1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

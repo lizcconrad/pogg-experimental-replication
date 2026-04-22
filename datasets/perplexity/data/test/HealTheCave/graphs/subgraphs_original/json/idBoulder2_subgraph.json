@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idBoulder2": {
+            "lexicon_key": "idBoulder",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBoulder2_prop_idSize",
+            "parent_node": "idBoulder2",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

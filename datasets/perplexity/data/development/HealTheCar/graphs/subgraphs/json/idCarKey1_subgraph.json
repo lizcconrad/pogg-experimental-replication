@@ -1,0 +1,84 @@
+{
+    "nodes": {
+        "idCarKey1": {
+            "lexicon_key": "idCarKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idSpill1": {
+            "lexicon_key": "idSpill",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCarKey1_prop_idColor",
+            "parent_node": "idCarKey1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarKey1_prop_idUnknownObject",
+            "parent_node": "idCarKey1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCarKey1",
+            "child_node": "idSpill1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSpill1_prop_idColor",
+            "parent_node": "idSpill1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSpill1_prop_idImmovable",
+            "parent_node": "idSpill1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown black car key west of the immovable black spill"
+    ]
+}

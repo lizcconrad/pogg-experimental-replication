@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idScreen1": {
+            "lexicon_key": "idScreen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGoButton_prop_idColor",
+            "parent_node": "idGoButton",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGoButton_prop_idUnknownObject",
+            "parent_node": "idGoButton",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGoButton",
+            "child_node": "idScreen1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown green go button east of the screen"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idFairyWorld1": {
+            "lexicon_key": "idFairyWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idFairyWorld1",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGiftBox1_prop_idOpenState",
+            "parent_node": "idGiftBox1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the fairy world near the closed gift box"
+    ]
+}

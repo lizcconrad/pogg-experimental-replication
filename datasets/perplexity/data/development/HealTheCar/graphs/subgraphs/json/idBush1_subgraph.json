@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idBush1": {
+            "lexicon_key": "idBush",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBear1": {
+            "lexicon_key": "idBear",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "angry": {
+            "lexicon_key": "angry",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "large": {
+            "lexicon_key": "large",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBush1_prop_idColor",
+            "parent_node": "idBush1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBush1_prop_idImmovable",
+            "parent_node": "idBush1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBush1",
+            "child_node": "idBear1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBear1_prop_idDescriptor",
+            "parent_node": "idBear1",
+            "child_node": "angry",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBear1_prop_idSize",
+            "parent_node": "idBear1",
+            "child_node": "large",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable green bush east of the large angry bear"
+    ]
+}

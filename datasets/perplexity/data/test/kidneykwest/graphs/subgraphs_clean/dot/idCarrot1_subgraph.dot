@@ -1,0 +1,9 @@
+strict digraph {
+idCarrot1 [lexicon_key=idCarrot];
+orange [lexicon_key=orange];
+true [lexicon_key=true];
+idHamburger1 [lexicon_key=idHamburger];
+idCarrot1 -> orange [label="idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarrot1 -> true [label="idCarrot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCarrot1 -> idHamburger1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

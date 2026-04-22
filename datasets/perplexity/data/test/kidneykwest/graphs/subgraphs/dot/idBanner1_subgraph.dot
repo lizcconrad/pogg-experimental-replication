@@ -1,0 +1,11 @@
+strict digraph {
+idBanner1 [node_type=entity, lexicon_key=idBanner];
+red [node_type=property, lexicon_key=red];
+idFairyWorldLobby1 [node_type=entity, lexicon_key=idFairyWorldLobby];
+white [node_type=property, lexicon_key=white];
+idmarble [node_type=property, lexicon_key=idmarble];
+idBanner1 -> red [label="idBanner1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBanner1 -> idFairyWorldLobby1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idFairyWorldLobby1 -> white [label="idFairyWorldLobby1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFairyWorldLobby1 -> idmarble [label="idFairyWorldLobby1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

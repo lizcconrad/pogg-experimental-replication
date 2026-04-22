@@ -1,0 +1,15 @@
+strict digraph {
+idCarKey1 [node_type="entity_node", root=root, lexicon_key=idCarKey];
+black [lexicon_key=black];
+true [lexicon_key=true];
+idBedroomToBathroomDoor1 [lexicon_key=idBedroomToBathroomDoor];
+open [lexicon_key=open];
+idMedDrawer1 [lexicon_key=idMedDrawer];
+closed [lexicon_key=closed];
+idCarKey1 -> black [label="idCarKey1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarKey1 -> true [label="idCarKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCarKey1 -> idBedroomToBathroomDoor1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCarKey1 -> idMedDrawer1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBedroomToBathroomDoor1 -> open [label="idBedroomToBathroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idMedDrawer1 -> closed [label="idMedDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idGlowingFlower1 [node_type=entity, lexicon_key=idGlowingFlower];
+dim [node_type=property, lexicon_key=dim];
+green [node_type=property, lexicon_key=green];
+glowing [node_type=property, lexicon_key=glowing];
+idCavern1RightOpening [node_type=entity, lexicon_key=idCavern1RightOpening];
+idGlowingFlower1 -> dim [label="idGlowingFlower1_prop_idTint", edge_type=property, lexicon_key=idTint];
+idGlowingFlower1 -> green [label="idGlowingFlower1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idGlowingFlower1 -> glowing [label="idGlowingFlower1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idGlowingFlower1 -> idCavern1RightOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

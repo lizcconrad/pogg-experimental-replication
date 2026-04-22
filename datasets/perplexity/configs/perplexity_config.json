@@ -1,0 +1,261 @@
+{
+   "data_dir": "../datasets/perplexity/data",
+   "dataset_name": "perplexity",
+   "evaluation_dir": "../evaluation/perplexity",
+   "evaluation_run_anchor": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER",
+   "experimental_setups": {
+      "hand_populated": {
+         "SEMENT_processing": [ ],
+         "lexicon_name": "hand_populated",
+         "result_processing": [ ]
+      }
+   },
+   "graph_rel_dir": "graphs/subgraphs",
+   "lexicon_dir": "../datasets/perplexity/lexicons",
+   "splits": {
+      "perplexity": {
+         "experiments": {
+            "hand_populated": {
+               "SEMENT_processing": [ ],
+               "experiment_data_dir": "../datasets/perplexity/data",
+               "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated",
+               "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
+               "experiment_name": "hand_populated",
+               "full_data_split_name": "perplexity",
+               "inherited_lexicons": [ ],
+               "leaf": false,
+               "lexicon_name": "hand_populated",
+               "result_processing": [ ]
+            }
+         },
+         "splits": {
+            "development": {
+               "experiments": {
+                  "hand_populated": {
+                     "SEMENT_processing": [ ],
+                     "experiment_data_dir": "../datasets/perplexity/data/development",
+                     "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development",
+                     "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/development",
+                     "experiment_name": "hand_populated",
+                     "full_data_split_name": "perplexity_development",
+                     "inherited_lexicons": [ ],
+                     "leaf": false,
+                     "lexicon_name": "hand_populated",
+                     "result_processing": [ ]
+                  }
+               },
+               "splits": {
+                  "HealTheCar": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/development/HealTheCar",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheCar",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/development/HealTheCar",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_development_HealTheCar",
+                           "graph_dot_dir": "../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "HealTheTrees": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/development/HealTheTrees",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheTrees",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/development/HealTheTrees",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_development_HealTheTrees",
+                           "graph_dot_dir": "../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "Tutorial": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/development/Tutorial",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/Tutorial",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/development/Tutorial",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_development_Tutorial",
+                           "graph_dot_dir": "../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  }
+               }
+            },
+            "test": {
+               "experiments": {
+                  "hand_populated": {
+                     "SEMENT_processing": [ ],
+                     "experiment_data_dir": "../datasets/perplexity/data/test",
+                     "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test",
+                     "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test",
+                     "experiment_name": "hand_populated",
+                     "full_data_split_name": "perplexity_test",
+                     "inherited_lexicons": [ ],
+                     "leaf": false,
+                     "lexicon_name": "hand_populated",
+                     "result_processing": [ ]
+                  }
+               },
+               "splits": {
+                  "AtomicCity": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/AtomicCity",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/AtomicCity",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/AtomicCity",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_AtomicCity",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "HealTheCave": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/HealTheCave",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheCave",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/HealTheCave",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_HealTheCave",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "HealTheFlashback": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/HealTheFlashback",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheFlashback",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/HealTheFlashback",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_HealTheFlashback",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "HealTheLake": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/HealTheLake",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheLake",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/HealTheLake",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_HealTheLake",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "Scenario": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/Scenario",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/Scenario",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/Scenario",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_Scenario",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/Scenario/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/Scenario/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/Scenario/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "baby": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/baby",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/baby",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/baby",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_baby",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/baby/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/baby/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/baby/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  },
+                  "kidneykwest": {
+                     "experiments": {
+                        "hand_populated": {
+                           "SEMENT_processing": [ ],
+                           "experiment_data_dir": "../datasets/perplexity/data/test/kidneykwest",
+                           "experiment_eval_dir": "../evaluation/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/kidneykwest",
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated/test/kidneykwest",
+                           "experiment_name": "hand_populated",
+                           "full_data_split_name": "perplexity_test_kidneykwest",
+                           "graph_dot_dir": "../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/dot",
+                           "graph_json_dir": "../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/json",
+                           "graph_png_dir": "../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/png",
+                           "inherited_lexicons": [ ],
+                           "leaf": true,
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

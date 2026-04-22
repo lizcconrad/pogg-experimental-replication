@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idPebble1": {
+            "lexicon_key": "idPebble",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "smooth": {
+            "lexicon_key": "smooth",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPebble1_prop_idColor",
+            "parent_node": "idPebble1",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPebble1_prop_idDescriptor",
+            "parent_node": "idPebble1",
+            "child_node": "smooth",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idBottleFound",
+            "parent_node": "idPlayer",
+            "child_node": "false",
+            "lexicon_key": "idBottleFound",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the smooth grey pebble west of the player who has not found the bottle"
+    ]
+}

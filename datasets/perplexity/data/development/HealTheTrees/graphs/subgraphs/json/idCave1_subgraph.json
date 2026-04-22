@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCave1": {
+            "lexicon_key": "idCave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "dark": {
+            "lexicon_key": "dark",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCave1_prop_idTint",
+            "parent_node": "idCave1",
+            "child_node": "dark",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCave1",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayerRightHand_prop_idLocation",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the dark cave north of the player's right hand on the right"
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idBarn1 [lexicon_key=idBarn];
+idCabin1FrontOpening [lexicon_key=idCabin1FrontOpening];
+idBarn1 -> idCabin1FrontOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

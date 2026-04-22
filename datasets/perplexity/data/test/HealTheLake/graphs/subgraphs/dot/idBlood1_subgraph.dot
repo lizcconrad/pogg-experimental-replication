@@ -1,0 +1,5 @@
+strict digraph {
+idBlood1 [node_type=entity, lexicon_key=idBlood];
+uncountable [node_type=property, lexicon_key=uncountable];
+idBlood1 -> uncountable [label="idBlood1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+}

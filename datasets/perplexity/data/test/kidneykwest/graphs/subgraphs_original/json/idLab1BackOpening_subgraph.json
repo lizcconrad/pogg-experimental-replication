@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idLab1BackOpening": {
+            "lexicon_key": "idLab1BackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLabel1": {
+            "lexicon_key": "idLabel",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLab1BackOpening",
+            "child_node": "idLabel1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

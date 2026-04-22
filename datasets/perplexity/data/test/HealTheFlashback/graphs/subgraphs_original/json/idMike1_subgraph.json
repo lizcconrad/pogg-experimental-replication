@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idMike1": {
+            "lexicon_key": "idMike",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idSafe2": {
+            "lexicon_key": "idSafe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSafe1": {
+            "lexicon_key": "idSafe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSafe2",
+            "child_node": "idSafe1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the safe south of the safe"
+    ]
+}

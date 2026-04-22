@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idCarKey1": {
+            "lexicon_key": "idCarKey",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBedroomToBathroomDoor1": {
+            "lexicon_key": "idBedroomToBathroomDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idMedDrawer1": {
+            "lexicon_key": "idMedDrawer",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCarKey1_prop_idColor",
+            "parent_node": "idCarKey1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarKey1_prop_idUnknownObject",
+            "parent_node": "idCarKey1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCarKey1",
+            "child_node": "idBedroomToBathroomDoor1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCarKey1",
+            "child_node": "idMedDrawer1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBedroomToBathroomDoor1_prop_idOpenState",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMedDrawer1_prop_idOpenState",
+            "parent_node": "idMedDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

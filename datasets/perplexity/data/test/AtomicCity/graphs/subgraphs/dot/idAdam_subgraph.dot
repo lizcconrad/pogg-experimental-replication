@@ -1,0 +1,5 @@
+strict digraph {
+idAdam [node_type=entity, lexicon_key=idAdam];
+idLongHallway [node_type=entity, lexicon_key=idLongHallway];
+idAdam -> idLongHallway [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idPhosphateCrystal_idHamburger1 [lexicon_key="idPhosphateCrystal_idHamburger"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+true [lexicon_key=true];
+idPill1 [lexicon_key=idPill];
+idPhosphateCrystal_idHamburger1 -> blue [label="idPhosphateCrystal_idHamburger1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idHamburger1 -> shiny [label="idPhosphateCrystal_idHamburger1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idPhosphateCrystal_idHamburger1 -> true [label="idPhosphateCrystal_idHamburger1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idHamburger1 -> idPill1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

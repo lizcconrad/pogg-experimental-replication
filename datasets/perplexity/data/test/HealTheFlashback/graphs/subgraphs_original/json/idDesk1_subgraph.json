@@ -1,0 +1,139 @@
+{
+    "nodes": {
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "used": {
+            "lexicon_key": "used",
+            "node_properties": {}
+        },
+        "wooden": {
+            "lexicon_key": "wooden",
+            "node_properties": {}
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {}
+        },
+        "idSock1": {
+            "lexicon_key": "idSock",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        },
+        "idPillow1": {
+            "lexicon_key": "idPillow",
+            "node_properties": {}
+        },
+        "dirty": {
+            "lexicon_key": "dirty",
+            "node_properties": {}
+        },
+        "idLivingroom1": {
+            "lexicon_key": "idLivingroom",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDesk1_prop_idDescriptor",
+            "parent_node": "idDesk1",
+            "child_node": "used",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idMaterial_1",
+            "parent_node": "idDesk1",
+            "child_node": "wooden",
+            "lexicon_key": "idMaterial_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idMaterial",
+            "parent_node": "idDesk1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDesk1",
+            "child_node": "idSock1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDesk1",
+            "child_node": "idPillow1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSock1_prop_idColor",
+            "parent_node": "idSock1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSock1_prop_idLocation",
+            "parent_node": "idSock1",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSock1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPillow1_prop_idColor",
+            "parent_node": "idPillow1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillow1_prop_idDescriptor",
+            "parent_node": "idPillow1",
+            "child_node": "dirty",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idLeg3": {
+            "lexicon_key": "idLeg",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLocalBack": {
+            "lexicon_key": "idLocalBack",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "bloody": {
+            "lexicon_key": "bloody",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTheBushes1": {
+            "lexicon_key": "idTheBushes",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLeg3_prop_idLocation_1",
+            "parent_node": "idLeg3",
+            "child_node": "right",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg3_prop_idLocation",
+            "parent_node": "idLeg3",
+            "child_node": "idLocalBack",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg3_prop_idDescriptor_1",
+            "parent_node": "idLeg3",
+            "child_node": "bloody",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLeg3",
+            "child_node": "idTheBushes1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bloody leg on the right on the local back east of the bushes"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idPillow2": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "thin": {
+            "lexicon_key": "thin",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPillow2_prop_idColor",
+            "parent_node": "idPillow2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillow2_prop_idDescriptor",
+            "parent_node": "idPillow2",
+            "child_node": "thin",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPillow2",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the thin red pillow north of the bathroom"
+    ]
+}

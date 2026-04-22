@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idAdamLeftHand": {
+            "lexicon_key": "idAdamLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFuse3": {
+            "lexicon_key": "idFuse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idAdamLeftHand_prop_idSide",
+            "parent_node": "idAdamLeftHand",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAdamLeftHand",
+            "child_node": "idFuse3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "Adam's left hand on the left north of the fuse"
+    ]
+}

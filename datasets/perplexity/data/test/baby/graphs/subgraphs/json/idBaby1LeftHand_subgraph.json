@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBaby1LeftHand": {
+            "lexicon_key": "idBaby1LeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBedroomToClosetDoor": {
+            "lexicon_key": "idBedroomToClosetDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBaby1LeftHand_prop_idLocation",
+            "parent_node": "idBaby1LeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBaby1LeftHand",
+            "child_node": "idBedroomToClosetDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the baby's left hand on the local left west of the door from the bedroom to the closet"
+    ]
+}

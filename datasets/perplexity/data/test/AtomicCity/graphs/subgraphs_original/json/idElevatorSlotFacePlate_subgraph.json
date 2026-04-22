@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idElevatorSlotFacePlate": {
+            "lexicon_key": "idElevatorSlotFacePlate",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idElevatorSlotFacePlate_prop_idLockedState",
+            "parent_node": "idElevatorSlotFacePlate",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idFairyWorldLobby1LeftOpening [node_type=entity, lexicon_key=idFairyWorldLobby1LeftOpening];
+idThroneRoom1Door [node_type=entity, lexicon_key=idThroneRoom1Door];
+open [node_type=property, lexicon_key=open];
+idmetal [node_type=property, lexicon_key=idmetal];
+idFairyWorldLobby1LeftOpening -> idThroneRoom1Door [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idThroneRoom1Door -> open [label="idThroneRoom1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idThroneRoom1Door -> idmetal [label="idThroneRoom1Door_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idPassengersSideFrontDoorInsideOpening [node_type=entity, lexicon_key=idPassengersSideFrontDoorInsideOpening];
+idDriversSideFrontDoor [node_type=entity, lexicon_key=idDriversSideFrontDoor];
+idPassengersSideFrontDoorInsideOpening -> idDriversSideFrontDoor [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

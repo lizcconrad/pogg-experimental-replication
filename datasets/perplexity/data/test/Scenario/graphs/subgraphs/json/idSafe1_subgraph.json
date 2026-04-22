@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idSafe1": {
+            "lexicon_key": "idSafe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomBackOpening": {
+            "lexicon_key": "idGreenRoomBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idSafe1",
+            "child_node": "idGreenRoomBackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the safe north of the green room's back opening"
+    ]
+}

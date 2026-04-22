@@ -1,0 +1,5 @@
+strict digraph {
+idLab1 [node_type=entity, lexicon_key=idLab];
+idPacifier1 [node_type=entity, lexicon_key=idPacifier];
+idLab1 -> idPacifier1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

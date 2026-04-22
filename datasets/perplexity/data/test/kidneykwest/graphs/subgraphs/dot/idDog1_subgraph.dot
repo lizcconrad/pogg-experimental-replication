@@ -1,0 +1,9 @@
+strict digraph {
+idDog1 [node_type=entity, lexicon_key=idDog];
+black [node_type=property, lexicon_key=black];
+0 [node_type=property, lexicon_key=0];
+idCarrot1 [node_type=entity, lexicon_key=idCarrot];
+idDog1 -> black [label="idDog1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDog1 -> 0 [label="idDog1_prop_idEatingFoodTurnsRemaining", edge_type=property, lexicon_key=idEatingFoodTurnsRemaining];
+idDog1 -> idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

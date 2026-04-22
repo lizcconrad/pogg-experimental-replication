@@ -1,0 +1,9 @@
+strict digraph {
+idFairyWorldLobby1RightOpening [node_type=entity, lexicon_key=idFairyWorldLobby1RightOpening];
+idDrawer3 [node_type=entity, lexicon_key=idDrawer];
+closed [node_type=property, lexicon_key=closed];
+low [node_type=property, lexicon_key=low];
+idFairyWorldLobby1RightOpening -> idDrawer3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idDrawer3 -> closed [label="idDrawer3_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer3 -> low [label="idDrawer3_prop_idVerticalArrangement", edge_type=property, lexicon_key=idVerticalArrangement];
+}

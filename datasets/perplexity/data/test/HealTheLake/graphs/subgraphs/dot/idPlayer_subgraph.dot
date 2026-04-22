@@ -1,0 +1,9 @@
+strict digraph {
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idBerry1 [node_type=entity, lexicon_key=idBerry];
+red [node_type=property, lexicon_key=red];
+idPlayer -> false [label="idPlayer_prop_idEatenBerry", edge_type=property, lexicon_key=idEatenBerry];
+idPlayer -> idBerry1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idBerry1 -> red [label="idBerry1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idDramaBuilding1 [lexicon_key=idDramaBuilding];
+idWorld1 [lexicon_key=idWorld];
+idDramaBuilding1 -> idWorld1 [label=isInsideOf, edge_type=relationship, lexicon_key=isInsideOf];
+}

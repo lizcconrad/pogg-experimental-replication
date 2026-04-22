@@ -1,0 +1,9 @@
+strict digraph {
+idFairyWorldLobby1FrontOpening [node_type="entity_node", root=root, lexicon_key=idFairyWorldLobby1FrontOpening];
+idChip2 [lexicon_key=idChip];
+idpotato [lexicon_key=idpotato];
+salty [lexicon_key=salty];
+idFairyWorldLobby1FrontOpening -> idChip2 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idChip2 -> idpotato [label="idChip2_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idChip2 -> salty [label="idChip2_prop_idSaltiness", edge_type=property, lexicon_key=idSaltiness];
+}

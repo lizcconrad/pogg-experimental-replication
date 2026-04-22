@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idEntrancecave": {
+            "lexicon_key": "idEntrancecave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idEntrancecave",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idEntrancecave_prop_idOpenState",
+            "parent_node": "idEntrancecave",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the world near the cave's open entrance"
+    ]
+}

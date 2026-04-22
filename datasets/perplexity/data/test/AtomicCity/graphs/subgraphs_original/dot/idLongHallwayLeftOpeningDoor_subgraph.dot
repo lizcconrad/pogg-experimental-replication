@@ -1,0 +1,7 @@
+strict digraph {
+idLongHallwayLeftOpeningDoor [node_type="entity_node", root=root, lexicon_key=idLongHallwayLeftOpeningDoor];
+open [lexicon_key=open];
+grey [lexicon_key=grey];
+idLongHallwayLeftOpeningDoor -> open [label="idLongHallwayLeftOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLongHallwayLeftOpeningDoor -> grey [label="idLongHallwayLeftOpeningDoor_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

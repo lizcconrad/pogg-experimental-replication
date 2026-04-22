@@ -1,0 +1,327 @@
+{
+    "nodes": {
+        "idCrowbar1": {
+            "lexicon_key": "idCrowbar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "cool": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTrunk1": {
+            "lexicon_key": "idTrunk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTheCarRoom1": {
+            "lexicon_key": "idTheCarRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBumper1": {
+            "lexicon_key": "idBumper",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCarKey1": {
+            "lexicon_key": "idCarKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStump1": {
+            "lexicon_key": "idStump",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDen1": {
+            "lexicon_key": "idDen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBear1": {
+            "lexicon_key": "idBear",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTaillight1": {
+            "lexicon_key": "idTaillight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTire1": {
+            "lexicon_key": "idTire",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBush1": {
+            "lexicon_key": "idBush",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSideMirror1": {
+            "lexicon_key": "idSideMirror",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWhistle1": {
+            "lexicon_key": "idWhistle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCrowbar1_prop_idColor",
+            "parent_node": "idCrowbar1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCrowbar1_prop_idDescriptor",
+            "parent_node": "idCrowbar1",
+            "child_node": "cool",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCrowbar1_prop_idUnknownObject",
+            "parent_node": "idCrowbar1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTrunk1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTrunk1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTheCarRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTrunk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCrowbar1",
+            "child_node": "idCrowbar1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idArea1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idBumper1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idCarKey1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idStump1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idArea1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idDen1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idBear1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idBumper1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idCarKey1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idStump1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTaillight1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTire1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idClearing1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idBush1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idSideMirror1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idWhistle1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idStartButton": {
+            "lexicon_key": "idStartButton",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idPorch1": {
+            "lexicon_key": "idPorch",
+            "node_properties": {}
+        },
+        "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.": {
+            "lexicon_key": "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.",
+            "node_properties": {}
+        },
+        "idFrontDoor1idPorch1idNorthOfOpening": {
+            "lexicon_key": "idFrontDoor1idPorch1idNorthOfOpening",
+            "node_properties": {}
+        },
+        "idButton1": {
+            "lexicon_key": "idButton",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idStartButton_prop_idPowerState",
+            "parent_node": "idStartButton",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idStartButton_prop_idUnknownObject",
+            "parent_node": "idStartButton",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idStartButton",
+            "child_node": "idPorch1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idStartButton",
+            "child_node": "idFrontDoor1idPorch1idNorthOfOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPorch1_prop_idDirectionDescription",
+            "parent_node": "idPorch1",
+            "child_node": "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.",
+            "lexicon_key": "idDirectionDescription",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idButton1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

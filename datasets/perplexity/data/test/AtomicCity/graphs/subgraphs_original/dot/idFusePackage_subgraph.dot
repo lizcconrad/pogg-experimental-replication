@@ -1,0 +1,7 @@
+strict digraph {
+idFusePackage [node_type="entity_node", root=root, lexicon_key=idFusePackage];
+true [lexicon_key=true];
+idPipe2 [lexicon_key=idPipe];
+idFusePackage -> true [label="idFusePackage_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idFusePackage -> idPipe2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

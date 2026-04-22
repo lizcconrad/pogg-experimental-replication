@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idCabin1Door": {
+            "lexicon_key": "idCabin1Door",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCabin1Door_prop_idColor",
+            "parent_node": "idCabin1Door",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCabin1Door_prop_idOpenState",
+            "parent_node": "idCabin1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

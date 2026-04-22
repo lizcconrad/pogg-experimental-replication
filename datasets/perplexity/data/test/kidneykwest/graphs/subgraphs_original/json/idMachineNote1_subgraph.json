@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idMachineNote1": {
+            "lexicon_key": "idMachineNote",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idCabin1Door": {
+            "lexicon_key": "idCabin1Door",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineNote1_prop_idUnknownObject",
+            "parent_node": "idMachineNote1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMachineNote1",
+            "child_node": "idCabin1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCabin1Door_prop_idColor",
+            "parent_node": "idCabin1Door",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCabin1Door_prop_idOpenState",
+            "parent_node": "idCabin1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idComputerRoom1FrontOpening": {
+            "lexicon_key": "idComputerRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLongHallwayFrontOpening": {
+            "lexicon_key": "idLongHallwayFrontOpening",
+            "node_properties": {}
+        },
+        "idOffice1RightOpening": {
+            "lexicon_key": "idOffice1RightOpening",
+            "node_properties": {}
+        },
+        "idAdamLeftHand": {
+            "lexicon_key": "idAdamLeftHand",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idComputerRoom1FrontOpening",
+            "child_node": "idLongHallwayFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idComputerRoom1FrontOpening",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOffice1RightOpening",
+            "child_node": "idAdamLeftHand",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

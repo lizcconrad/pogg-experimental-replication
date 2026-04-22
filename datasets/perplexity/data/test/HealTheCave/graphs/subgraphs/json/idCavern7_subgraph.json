@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCavern7": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "7": {
+            "lexicon_key": "7",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCavern4BackOpening": {
+            "lexicon_key": "idCavern4BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern7_prop_idTint",
+            "parent_node": "idCavern7",
+            "child_node": "glowing",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern7_prop_idOrdinality",
+            "parent_node": "idCavern7",
+            "child_node": "7",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern7",
+            "child_node": "idCavern4BackOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the seventh glowing cavern west of the cavern's back opening"
+    ]
+}

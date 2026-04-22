@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGlowingArea1": {
+            "lexicon_key": "idGlowingArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlayerBackside",
+            "child_node": "idGlowingArea1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player's backside north of the glowing area"
+    ]
+}

@@ -1,0 +1,16 @@
+strict digraph {
+idLongHallwayFrontOpening [node_type="entity_node", root=root, lexicon_key=idLongHallwayFrontOpening];
+idWolf4 [lexicon_key=idWolf];
+white [lexicon_key=white];
+tiny [lexicon_key=tiny];
+idWolf2 [lexicon_key=idWolf];
+brown [lexicon_key=brown];
+idLongHallwayLeftOpening [lexicon_key=idLongHallwayLeftOpening];
+idLongHallwayFrontOpening -> idWolf4 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idLongHallwayFrontOpening -> idWolf2 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idWolf4 -> white [label="idWolf4_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf4 -> tiny [label="idWolf4_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf4 -> idLongHallwayLeftOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idWolf2 -> brown [label="idWolf2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf2 -> tiny [label="idWolf2_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

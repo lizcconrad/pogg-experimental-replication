@@ -1,0 +1,13 @@
+strict digraph {
+idFrontDoor1 [node_type="entity_node", root=root, lexicon_key=idFrontDoor];
+closed [lexicon_key=closed];
+idFrontDoor1Lock [lexicon_key=idFrontDoor1Lock];
+idPassengerSeat [lexicon_key=idPassengerSeat];
+idPassenger1 [lexicon_key=idPassenger];
+true [lexicon_key=true];
+idFrontDoor1 -> closed [label="idFrontDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idFrontDoor1 -> idFrontDoor1Lock [label="idFrontDoor1_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idFrontDoor1 -> idPassengerSeat [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPassengerSeat -> idPassenger1 [label="idPassengerSeat_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idPassengerSeat -> true [label="idPassengerSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

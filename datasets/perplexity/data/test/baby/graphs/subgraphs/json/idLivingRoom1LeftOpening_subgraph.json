@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idLivingRoom1LeftOpening": {
+            "lexicon_key": "idLivingRoom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDock1": {
+            "lexicon_key": "idDock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLivingRoom1LeftOpening",
+            "child_node": "idDock1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDock1_prop_idImmovable",
+            "parent_node": "idDock1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDock1_prop_idUnknownObject",
+            "parent_node": "idDock1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the living room's left opening west of the immovable unknown dock"
+    ]
+}

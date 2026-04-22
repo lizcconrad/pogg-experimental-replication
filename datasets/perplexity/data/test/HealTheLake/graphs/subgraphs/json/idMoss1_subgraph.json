@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idMoss1": {
+            "lexicon_key": "idMoss",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLeg2": {
+            "lexicon_key": "idLeg",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMoss1_prop_idArticleType",
+            "parent_node": "idMoss1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idMoss1",
+            "child_node": "idLeg2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the moss west of the leg"
+    ]
+}

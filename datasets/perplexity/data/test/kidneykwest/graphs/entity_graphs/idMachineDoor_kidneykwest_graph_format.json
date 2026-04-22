@@ -1,0 +1,109 @@
+{
+    "nodes": {
+        "idMachineDoor": {
+            "lexicon_key": "idMachineDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMachineFrontOpening": {
+            "lexicon_key": "idMachineFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineDoorHandle": {
+            "lexicon_key": "idMachineDoorHandle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCup1": {
+            "lexicon_key": "idCup",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineDoor_prop_idOpenState",
+            "parent_node": "idMachineDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachineDoor_prop_idLockedState",
+            "parent_node": "idMachineDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachineFrontOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachineDoorHandle",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachineFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachineDoor",
+            "child_node": "idCup1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

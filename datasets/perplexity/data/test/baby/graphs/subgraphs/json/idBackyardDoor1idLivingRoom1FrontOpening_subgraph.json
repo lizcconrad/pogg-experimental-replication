@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBackyardDoor1idLivingRoom1FrontOpening": {
+            "lexicon_key": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorkshop1": {
+            "lexicon_key": "idWorkshop",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "child_node": "idWorkshop1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWorkshop1_prop_idUnknownObject",
+            "parent_node": "idWorkshop1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the living room's front opening west of the unknown workshop"
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+idMonitor1 [node_type=entity, lexicon_key=idMonitor];
+true [node_type=property, lexicon_key=true];
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idMonitor1 -> true [label="idMonitor1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idMonitor1 -> idPlayerBackside [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

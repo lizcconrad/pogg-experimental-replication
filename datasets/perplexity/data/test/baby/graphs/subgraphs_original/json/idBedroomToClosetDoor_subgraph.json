@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idBedroomToClosetDoor": {
+            "lexicon_key": "idBedroomToClosetDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBedroomToClosetDoor_prop_idOpenState",
+            "parent_node": "idBedroomToClosetDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBedroomToClosetDoor_prop_idUnknownObject",
+            "parent_node": "idBedroomToClosetDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,507 @@
+{
+    "nodes": {
+        "idFlashlightHandle": {
+            "lexicon_key": "idFlashlightHandle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFlashlight1": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlageBackOpening": {
+            "lexicon_key": "idPlageBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoom": {
+            "lexicon_key": "idGreenRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDarkCaveFrontOpening": {
+            "lexicon_key": "idDarkCaveFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomFrontOpening": {
+            "lexicon_key": "idGreenRoomFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomBackOpening": {
+            "lexicon_key": "idGreenRoomBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomBackOpeningDoor": {
+            "lexicon_key": "idGreenRoomBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idEntrancecave": {
+            "lexicon_key": "idEntrancecave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlage": {
+            "lexicon_key": "idPlage",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlageFrontOpening": {
+            "lexicon_key": "idPlageFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idEntrancecaveBackOpening": {
+            "lexicon_key": "idEntrancecaveBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBook1": {
+            "lexicon_key": "idBook",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBook1Page1": {
+            "lexicon_key": "idBook1Page1",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBook1Page2": {
+            "lexicon_key": "idBook1Page2",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBook1Page3": {
+            "lexicon_key": "idBook1Page3",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBook1Page3Torn": {
+            "lexicon_key": "idBook1Page3Torn",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCrystal1": {
+            "lexicon_key": "idCrystal",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDiamond1": {
+            "lexicon_key": "idDiamond",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKey1": {
+            "lexicon_key": "idKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKeyhole1": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKeyhole2": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLexi": {
+            "lexicon_key": "idLexi",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLexiLeftHand": {
+            "lexicon_key": "idLexiLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLexiRightHand": {
+            "lexicon_key": "idLexiRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLock1": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLock2": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLockFace1": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLockFace2": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRock1": {
+            "lexicon_key": "idRock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRock2": {
+            "lexicon_key": "idRock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSafe1": {
+            "lexicon_key": "idSafe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSafe2": {
+            "lexicon_key": "idSafe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTable1": {
+            "lexicon_key": "idTable",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idFlashlight1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idPlageBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idGreenRoom",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idDarkCaveFrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idGreenRoomFrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idGreenRoomBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idGreenRoomBackOpeningDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idEntrancecave",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idPlage",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idPlageFrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idEntrancecaveBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idBook1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idBook1Page1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idBook1Page2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idBook1Page3",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idBook1Page3Torn",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idCrystal1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idDiamond1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idKey1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idKeyhole1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idKeyhole2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLexi",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLexiLeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLexiRightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLock1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLock2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLockFace1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idLockFace2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idRock1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idRock2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idSafe1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idSafe2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idTable1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

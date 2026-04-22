@@ -1,0 +1,7 @@
+strict digraph {
+idSpiderWeb1 [node_type="entity_node", root=root, lexicon_key=idSpiderWeb];
+white [lexicon_key=white];
+false [lexicon_key=false];
+idSpiderWeb1 -> white [label="idSpiderWeb1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSpiderWeb1 -> false [label="idSpiderWeb1_prop_idWebTouched", edge_type=property, lexicon_key=idWebTouched];
+}

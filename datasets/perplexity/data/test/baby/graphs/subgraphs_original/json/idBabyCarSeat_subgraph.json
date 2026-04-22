@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idBabyCarSeat": {
+            "lexicon_key": "idBabyCarSeat",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBabyCarSeat_prop_idImmovable",
+            "parent_node": "idBabyCarSeat",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBabyCarSeat_prop_idUnknownObject",
+            "parent_node": "idBabyCarSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

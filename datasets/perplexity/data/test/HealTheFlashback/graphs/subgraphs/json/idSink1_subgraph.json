@@ -1,0 +1,105 @@
+{
+    "nodes": {
+        "idSink1": {
+            "lexicon_key": "idSink",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idporcelain": {
+            "lexicon_key": "idporcelain",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "stained": {
+            "lexicon_key": "stained",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSink1_prop_idDescriptor",
+            "parent_node": "idSink1",
+            "child_node": "idporcelain",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idDescriptor_1",
+            "parent_node": "idSink1",
+            "child_node": "stained",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idColor",
+            "parent_node": "idSink1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPainting1_prop_idColor",
+            "parent_node": "idPainting1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPainting1_prop_idImmovable",
+            "parent_node": "idPainting1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the stained white porcelain sink west of the immovable green painting"
+    ]
+}

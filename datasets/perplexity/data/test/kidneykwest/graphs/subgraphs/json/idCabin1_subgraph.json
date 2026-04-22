@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCabin1": {
+            "lexicon_key": "idCabin",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCabin1",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cabin south of the gift box"
+    ]
+}

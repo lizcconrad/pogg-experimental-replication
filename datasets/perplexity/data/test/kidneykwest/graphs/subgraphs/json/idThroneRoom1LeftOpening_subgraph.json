@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idThroneRoom1LeftOpening": {
+            "lexicon_key": "idThroneRoom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBarn1": {
+            "lexicon_key": "idBarn",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1LeftOpening",
+            "child_node": "idBarn1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the throne room's left opening east of the barn"
+    ]
+}

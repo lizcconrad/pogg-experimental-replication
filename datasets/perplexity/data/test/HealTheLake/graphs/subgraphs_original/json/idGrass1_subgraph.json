@@ -1,0 +1,130 @@
+{
+    "nodes": {
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        },
+        "flattened": {
+            "lexicon_key": "flattened",
+            "node_properties": {}
+        },
+        "idBerry1": {
+            "lexicon_key": "idBerry",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "idDeer1": {
+            "lexicon_key": "idDeer",
+            "node_properties": {}
+        },
+        "bloody": {
+            "lexicon_key": "bloody",
+            "node_properties": {}
+        },
+        "bleeding": {
+            "lexicon_key": "bleeding",
+            "node_properties": {}
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGrass1_prop_idColor",
+            "parent_node": "idGrass1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idArticleType",
+            "parent_node": "idGrass1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idDescriptor",
+            "parent_node": "idGrass1",
+            "child_node": "flattened",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGrass1",
+            "child_node": "idBerry1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGrass1",
+            "child_node": "idDeer1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBerry1_prop_idColor",
+            "parent_node": "idBerry1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idDescriptor",
+            "parent_node": "idDeer1",
+            "child_node": "bloody",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idDescriptor_1",
+            "parent_node": "idDeer1",
+            "child_node": "bleeding",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDeer1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

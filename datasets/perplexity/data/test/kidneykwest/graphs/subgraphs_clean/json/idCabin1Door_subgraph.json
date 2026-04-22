@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idCabin1Door": {
+            "node_type": "entity",
+            "lexicon_key": "idCabin1Door"
+        },
+        "blue": {
+            "node_type": "property",
+            "lexicon_key": "blue"
+        },
+        "open": {
+            "node_type": "property",
+            "lexicon_key": "open"
+        },
+        "idFairyWorldLobby1FrontOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idFairyWorldLobby1FrontOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCabin1Door_prop_idColor",
+            "parent_node": "idCabin1Door",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCabin1Door_prop_idOpenState",
+            "parent_node": "idCabin1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCabin1Door",
+            "child_node": "idFairyWorldLobby1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

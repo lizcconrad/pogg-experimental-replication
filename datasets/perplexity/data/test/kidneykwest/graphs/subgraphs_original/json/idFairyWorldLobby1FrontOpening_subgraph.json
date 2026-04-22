@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idFairyWorldLobby1FrontOpening": {
+            "lexicon_key": "idFairyWorldLobby1FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idChip2": {
+            "lexicon_key": "idChip",
+            "node_properties": {}
+        },
+        "idpotato": {
+            "lexicon_key": "idpotato",
+            "node_properties": {}
+        },
+        "salty": {
+            "lexicon_key": "salty",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFairyWorldLobby1FrontOpening",
+            "child_node": "idChip2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChip2_prop_idMaterial",
+            "parent_node": "idChip2",
+            "child_node": "idpotato",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idChip2_prop_idSaltiness",
+            "parent_node": "idChip2",
+            "child_node": "salty",
+            "lexicon_key": "idSaltiness",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idLivingRoom1": {
+            "lexicon_key": "idLivingRoom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "There are doors to [the, sayName(idKitchen1)], [the, sayName(idBackyard1)] (with [a, sayName(idDogDoor1)] installed), [the, sayName(idBedroom1)] and [the, sayName(idPorch1)].{p}": {
+            "lexicon_key": "There are doors to [the, sayName(idKitchen1)], [the, sayName(idBackyard1)] (with [a, sayName(idDogDoor1)] installed), [the, sayName(idBedroom1)] and [the, sayName(idPorch1)].{p}",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idTent1": {
+            "lexicon_key": "idTent",
+            "node_properties": {}
+        },
+        "unusual": {
+            "lexicon_key": "unusual",
+            "node_properties": {}
+        },
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLivingRoom1_prop_idDirectionDescription",
+            "parent_node": "idLivingRoom1",
+            "child_node": "There are doors to [the, sayName(idKitchen1)], [the, sayName(idBackyard1)] (with [a, sayName(idDogDoor1)] installed), [the, sayName(idBedroom1)] and [the, sayName(idPorch1)].{p}",
+            "lexicon_key": "idDirectionDescription",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLivingRoom1_prop_idUnknownObject",
+            "parent_node": "idLivingRoom1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLivingRoom1",
+            "child_node": "idTent1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTent1_prop_idShape",
+            "parent_node": "idTent1",
+            "child_node": "unusual",
+            "lexicon_key": "idShape",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTent1_prop_idUnknownObject",
+            "parent_node": "idTent1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idTent1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

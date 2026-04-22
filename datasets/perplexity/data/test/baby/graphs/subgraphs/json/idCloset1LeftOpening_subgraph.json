@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCloset1LeftOpening": {
+            "lexicon_key": "idCloset1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idScrewdriver1": {
+            "lexicon_key": "idScrewdriver",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCloset1LeftOpening",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closet's left opening east of the screwdriver"
+    ]
+}

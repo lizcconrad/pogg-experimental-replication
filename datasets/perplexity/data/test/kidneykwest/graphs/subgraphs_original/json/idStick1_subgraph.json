@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idStick1": {
+            "lexicon_key": "idStick",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {}
+        },
+        "idPill3": {
+            "lexicon_key": "idPill",
+            "node_properties": {}
+        },
+        "idPill1": {
+            "lexicon_key": "idPill",
+            "node_properties": {}
+        },
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {}
+        },
+        "idDrawer3": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idStick1_prop_idMaterial",
+            "parent_node": "idStick1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idStick1",
+            "child_node": "idPill3",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idStick1",
+            "child_node": "idPill1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPill3",
+            "child_node": "idDrawer2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPill1",
+            "child_node": "idDrawer3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

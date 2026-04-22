@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDock1": {
+            "lexicon_key": "idDock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idSize",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idMaterial",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idUnknownObject",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "idDock1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDock1_prop_idImmovable",
+            "parent_node": "idDock1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the small metal unknown door from the closet to the workshop west of the immovable dock"
+    ]
+}

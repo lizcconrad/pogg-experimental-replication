@@ -1,0 +1,21 @@
+strict digraph {
+idCavern5 [node_type="entity_node", root=root, lexicon_key=idCavern];
+cold [lexicon_key=cold];
+5 [lexicon_key=5];
+ominous [lexicon_key=ominous];
+idPlayerRightHand [lexicon_key=idPlayerRightHand];
+right [lexicon_key=right];
+idGrass1 [lexicon_key=idGrass];
+green [lexicon_key=green];
+uncountable [lexicon_key=uncountable];
+idCavern4BackOpening [lexicon_key=idCavern4BackOpening];
+idCavern5 -> cold [label="idCavern5_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idCavern5 -> 5 [label="idCavern5_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idCavern5 -> ominous [label="idCavern5_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCavern5 -> idPlayerRightHand [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idCavern5 -> idGrass1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPlayerRightHand -> right [label="idPlayerRightHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerRightHand -> idCavern4BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idGrass1 -> green [label="idGrass1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idGrass1 -> uncountable [label="idGrass1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+}

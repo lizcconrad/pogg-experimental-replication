@@ -1,0 +1,9 @@
+strict digraph {
+idFuse3 [node_type=entity, lexicon_key=idFuse];
+green [node_type=property, lexicon_key=green];
+idAdamLeftHand [node_type=entity, lexicon_key=idAdamLeftHand];
+left [node_type=property, lexicon_key=left];
+idFuse3 -> green [label="idFuse3_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFuse3 -> idAdamLeftHand [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idAdamLeftHand -> left [label="idAdamLeftHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+}

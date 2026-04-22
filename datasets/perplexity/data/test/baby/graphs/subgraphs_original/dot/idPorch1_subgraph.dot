@@ -1,0 +1,11 @@
+strict digraph {
+idPorch1 [node_type="entity_node", root=root, lexicon_key=idPorch];
+"[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south." [lexicon_key="[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south."];
+idScrewdriver1 [lexicon_key=idScrewdriver];
+pointy [lexicon_key=pointy];
+true [lexicon_key=true];
+idPorch1 -> "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south." [label="idPorch1_prop_idDirectionDescription", edge_type=property, lexicon_key=idDirectionDescription];
+idPorch1 -> idScrewdriver1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idScrewdriver1 -> pointy [label="idScrewdriver1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idScrewdriver1 -> true [label="idScrewdriver1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,12 @@
+strict digraph {
+idTent1 [node_type="entity_node", root=root, lexicon_key=idTent];
+unusual [lexicon_key=unusual];
+true [lexicon_key=true];
+idScreen1 [lexicon_key=idScreen];
+idPlayerRightHand [lexicon_key=idPlayerRightHand];
+idTent1 -> unusual [label="idTent1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idTent1 -> true [label="idTent1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTent1 -> idScreen1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idScreen1 -> true [label="idScreen1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idScreen1 -> idPlayerRightHand [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

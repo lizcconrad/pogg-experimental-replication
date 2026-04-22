@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "no": {
+            "lexicon_key": "no",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idChair1": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "wobbly": {
+            "lexicon_key": "wobbly",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer1_prop_idImmovable",
+            "parent_node": "idDrawer1",
+            "child_node": "no",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer1_prop_idOpenState",
+            "parent_node": "idDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDrawer1",
+            "child_node": "idChair1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChair1_prop_idDescriptor",
+            "parent_node": "idChair1",
+            "child_node": "wobbly",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed movable drawer west of the wobbly chair"
+    ]
+}

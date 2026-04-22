@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idDramaBuilding1Door": {
+            "node_type": "entity",
+            "lexicon_key": "idDramaBuilding1Door"
+        },
+        "white": {
+            "node_type": "property",
+            "lexicon_key": "white"
+        },
+        "open": {
+            "node_type": "property",
+            "lexicon_key": "open"
+        },
+        "idCostumeCloset1BackOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idCostumeCloset1BackOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDramaBuilding1Door_prop_idColor",
+            "parent_node": "idDramaBuilding1Door",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDramaBuilding1Door_prop_idOpenState",
+            "parent_node": "idDramaBuilding1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1Door",
+            "child_node": "idCostumeCloset1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

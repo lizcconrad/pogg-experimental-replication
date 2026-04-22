@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idMarsh1": {
+            "lexicon_key": "idMarsh",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "mossy": {
+            "lexicon_key": "mossy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTheBushes1": {
+            "lexicon_key": "idTheBushes",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "overgrown": {
+            "lexicon_key": "overgrown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMarsh1_prop_idDescriptor",
+            "parent_node": "idMarsh1",
+            "child_node": "mossy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idMarsh1",
+            "child_node": "idTheBushes1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor_1",
+            "parent_node": "idTheBushes1",
+            "child_node": "overgrown",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the mossy marsh west of the Bushes, which are overgrown"
+    ]
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idHouse1 [node_type="entity_node", root=root, lexicon_key=idHouse];
+uncountable [lexicon_key=uncountable];
+idTable1 [lexicon_key=idTable];
+idmetal [lexicon_key=idmetal];
+yes [lexicon_key=yes];
+idHouse1 -> uncountable [label="idHouse1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+idHouse1 -> idTable1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idTable1 -> idmetal [label="idTable1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idTable1 -> yes [label="idTable1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

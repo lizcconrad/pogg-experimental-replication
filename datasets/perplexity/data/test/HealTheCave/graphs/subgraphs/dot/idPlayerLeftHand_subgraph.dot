@@ -1,0 +1,9 @@
+strict digraph {
+idPlayerLeftHand [node_type=entity, lexicon_key=idPlayerLeftHand];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+idCavern6Outside [node_type=entity, lexicon_key=idCavern6Outside];
+outside [node_type=property, lexicon_key=outside];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerLeftHand -> idCavern6Outside [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCavern6Outside -> outside [label="idCavern6Outside_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

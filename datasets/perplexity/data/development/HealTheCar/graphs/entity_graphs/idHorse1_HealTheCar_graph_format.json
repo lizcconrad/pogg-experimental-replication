@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idHorse1": {
+            "lexicon_key": "idHorse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "silver": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHorse1_prop_idColor",
+            "parent_node": "idHorse1",
+            "child_node": "silver",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

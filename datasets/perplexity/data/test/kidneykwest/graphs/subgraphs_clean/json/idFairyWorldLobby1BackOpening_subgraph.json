@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idFairyWorldLobby1BackOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idFairyWorldLobby1BackOpening"
+        },
+        "idDrawer3": {
+            "node_type": "entity",
+            "lexicon_key": "idDrawer"
+        },
+        "low": {
+            "node_type": "property",
+            "lexicon_key": "low"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idFairyWorldLobby1BackOpening",
+            "child_node": "idDrawer3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idVerticalArrangement",
+            "parent_node": "idDrawer3",
+            "child_node": "low",
+            "lexicon_key": "idVerticalArrangement",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

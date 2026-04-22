@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idMoss1": {
+            "lexicon_key": "idMoss",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMoss1_prop_idArticleType",
+            "parent_node": "idMoss1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

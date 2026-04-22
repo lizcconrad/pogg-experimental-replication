@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idTable1": {
+            "lexicon_key": "idTable",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKeyhole2": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTable1",
+            "child_node": "idKeyhole2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the table north of the keyhole"
+    ]
+}

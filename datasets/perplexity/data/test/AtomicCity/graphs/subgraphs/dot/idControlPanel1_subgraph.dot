@@ -1,0 +1,5 @@
+strict digraph {
+idControlPanel1 [node_type=entity, lexicon_key=idControlPanel];
+idAtomicCityOutside1BackOpening [node_type=entity, lexicon_key=idAtomicCityOutside1BackOpening];
+idControlPanel1 -> idAtomicCityOutside1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

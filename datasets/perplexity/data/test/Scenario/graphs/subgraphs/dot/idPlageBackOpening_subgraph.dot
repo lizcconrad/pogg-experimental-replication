@@ -1,0 +1,9 @@
+strict digraph {
+idPlageBackOpening [node_type=entity, lexicon_key=idPlageBackOpening];
+short [node_type=property, lexicon_key=short];
+open [node_type=property, lexicon_key=open];
+idLexi [node_type=entity, lexicon_key=idLexi];
+idPlageBackOpening -> short [label="idPlageBackOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idPlageBackOpening -> open [label="idPlageBackOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idPlageBackOpening -> idLexi [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

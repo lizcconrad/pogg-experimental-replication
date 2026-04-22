@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idBook1": {
+            "lexicon_key": "idBook",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idLight1": {
+            "lexicon_key": "idLight",
+            "node_properties": {}
+        },
+        "on": {
+            "lexicon_key": "on",
+            "node_properties": {}
+        },
+        "lit": {
+            "lexicon_key": "lit",
+            "node_properties": {}
+        },
+        "idKeyhole2": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {}
+        },
+        "idFlashlightHandle": {
+            "lexicon_key": "idFlashlightHandle",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBook1_prop_idOpenState",
+            "parent_node": "idBook1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1",
+            "child_node": "idKeyhole2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1",
+            "child_node": "idLight1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLight1_prop_idPowerState",
+            "parent_node": "idLight1",
+            "child_node": "on",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLight1_prop_idLitState",
+            "parent_node": "idLight1",
+            "child_node": "lit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyhole2",
+            "child_node": "idFlashlightHandle",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

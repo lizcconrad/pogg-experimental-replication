@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idCastle1": {
+            "node_type": "entity",
+            "lexicon_key": "idCastle"
+        },
+        "idMachine1": {
+            "node_type": "entity",
+            "lexicon_key": "idMachine"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCastle1",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

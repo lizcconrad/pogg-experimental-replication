@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCastle1": {
+            "lexicon_key": "idCastle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCastle1",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the castle near the machine"
+    ]
+}

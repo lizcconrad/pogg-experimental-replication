@@ -1,0 +1,9 @@
+strict digraph {
+idLock1 [node_type=entity, lexicon_key=idLock];
+unlocked [node_type=property, lexicon_key=unlocked];
+idOnSwitch1 [node_type=entity, lexicon_key=idOnSwitch];
+off [node_type=property, lexicon_key=off];
+idLock1 -> unlocked [label="idLock1_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+idLock1 -> idOnSwitch1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idOnSwitch1 -> off [label="idOnSwitch1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+}

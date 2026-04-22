@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idKitchCabDrawer1": {
+            "lexicon_key": "idKitchCabDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBathroom1FrontOpening": {
+            "lexicon_key": "idBathroom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKitchCabDrawer1_prop_idOpenState",
+            "parent_node": "idKitchCabDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKitchCabDrawer1",
+            "child_node": "idBathroom1FrontOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed kitchen cabinet drawer east of the bathroom's front opening"
+    ]
+}

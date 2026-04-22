@@ -1,0 +1,9 @@
+strict digraph {
+idMomNote1 [node_type="entity_node", root=root, lexicon_key=idMomNote];
+idMom1 [lexicon_key=idMom];
+true [lexicon_key=true];
+idBackyardDoor1idLivingRoom1FrontOpening [lexicon_key=idBackyardDoor1idLivingRoom1FrontOpening];
+idMomNote1 -> idMom1 [label="idMomNote1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idMomNote1 -> true [label="idMomNote1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idMomNote1 -> idBackyardDoor1idLivingRoom1FrontOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

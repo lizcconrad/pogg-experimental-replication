@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idBody1": {
+            "node_type": "entity",
+            "lexicon_key": "idBody"
+        },
+        "idStomach1": {
+            "node_type": "entity",
+            "lexicon_key": "idStomach"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBody1",
+            "child_node": "idStomach1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

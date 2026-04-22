@@ -1,0 +1,9 @@
+strict digraph {
+idLeg3 [node_type="entity_node", root=root, lexicon_key=idLeg];
+idLocalBack [lexicon_key=idLocalBack];
+brown [lexicon_key=brown];
+right [lexicon_key=right];
+idLeg3 -> idLocalBack [label="idLeg3_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idLeg3 -> brown [label="idLeg3_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLeg3 -> right [label="idLeg3_prop_idLocation_1", edge_type=property, lexicon_key="idLocation_"];
+}

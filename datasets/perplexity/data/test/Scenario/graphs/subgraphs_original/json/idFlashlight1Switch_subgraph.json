@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idFlashlight1Switch": {
+            "lexicon_key": "idFlashlight1Switch",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {}
+        },
+        "idLockFace1": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {}
+        },
+        "idSafe2": {
+            "lexicon_key": "idSafe",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFlashlight1Switch_prop_idColor",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1Switch_prop_idPowerState",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "idLockFace1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLockFace1",
+            "child_node": "idSafe2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

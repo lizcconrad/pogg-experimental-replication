@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idComputerRoom1": {
+            "lexicon_key": "idComputerRoom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idWolf2": {
+            "lexicon_key": "idWolf",
+            "node_properties": {}
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "tiny": {
+            "lexicon_key": "tiny",
+            "node_properties": {}
+        },
+        "idShutoffValveLight1": {
+            "lexicon_key": "idShutoffValveLight",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idComputerRoom1_prop_idColor",
+            "parent_node": "idComputerRoom1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idComputerRoom1",
+            "child_node": "idWolf2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWolf2_prop_idColor",
+            "parent_node": "idWolf2",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWolf2_prop_idSize",
+            "parent_node": "idWolf2",
+            "child_node": "tiny",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idWolf2",
+            "child_node": "idShutoffValveLight1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCrystal1": {
+            "lexicon_key": "idCrystal",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerControl",
+            "parent_node": "idMachine1",
+            "child_node": "idOnSwitch1",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMachine1",
+            "child_node": "idCrystal1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the machine with an on switch that is turned off south of the crystal"
+    ]
+}

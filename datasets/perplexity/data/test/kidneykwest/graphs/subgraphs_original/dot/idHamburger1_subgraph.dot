@@ -1,0 +1,13 @@
+strict digraph {
+idHamburger1 [node_type="entity_node", root=root, lexicon_key=idHamburger];
+salty [lexicon_key=salty];
+idPhosphateCrystal_idChip1 [lexicon_key="idPhosphateCrystal_idChip"];
+true [lexicon_key=true];
+blue [lexicon_key=blue];
+idCarrot1 [lexicon_key=idCarrot];
+idHamburger1 -> salty [label="idHamburger1_prop_idSaltiness", edge_type=property, lexicon_key=idSaltiness];
+idHamburger1 -> idPhosphateCrystal_idChip1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idPhosphateCrystal_idChip1 -> true [label="idPhosphateCrystal_idChip1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idChip1 -> blue [label="idPhosphateCrystal_idChip1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idChip1 -> idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

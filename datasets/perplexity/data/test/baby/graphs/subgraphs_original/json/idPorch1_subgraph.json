@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idPorch1": {
+            "lexicon_key": "idPorch",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.": {
+            "lexicon_key": "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.",
+            "node_properties": {}
+        },
+        "idScrewdriver1": {
+            "lexicon_key": "idScrewdriver",
+            "node_properties": {}
+        },
+        "pointy": {
+            "lexicon_key": "pointy",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPorch1_prop_idDirectionDescription",
+            "parent_node": "idPorch1",
+            "child_node": "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.",
+            "lexicon_key": "idDirectionDescription",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idScrewdriver1_prop_idShape",
+            "parent_node": "idScrewdriver1",
+            "child_node": "pointy",
+            "lexicon_key": "idShape",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idScrewdriver1_prop_idUnknownObject",
+            "parent_node": "idScrewdriver1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

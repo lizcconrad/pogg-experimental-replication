@@ -1,0 +1,11 @@
+strict digraph {
+idDarkCaveFrontOpening [node_type="entity_node", root=root, lexicon_key=idDarkCaveFrontOpening];
+medium [lexicon_key=medium];
+idPlage [lexicon_key=idPlage];
+2 [lexicon_key=2];
+idPlageBackOpening [lexicon_key=idPlageBackOpening];
+idDarkCaveFrontOpening -> medium [label="idDarkCaveFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idDarkCaveFrontOpening -> idPlage [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idPlage -> 2 [label="idPlage_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idPlage -> idPlageBackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

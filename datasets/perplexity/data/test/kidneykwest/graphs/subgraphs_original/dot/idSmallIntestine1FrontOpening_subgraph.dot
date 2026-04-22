@@ -1,0 +1,11 @@
+strict digraph {
+idSmallIntestine1FrontOpening [node_type="entity_node", root=root, lexicon_key=idSmallIntestine1FrontOpening];
+idDuct1 [lexicon_key=idDuct];
+true [lexicon_key=true];
+yes [lexicon_key=yes];
+idGastricFold1 [lexicon_key=idGastricFold];
+idSmallIntestine1FrontOpening -> idDuct1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idDuct1 -> true [label="idDuct1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idDuct1 -> yes [label="idDuct1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDuct1 -> idGastricFold1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

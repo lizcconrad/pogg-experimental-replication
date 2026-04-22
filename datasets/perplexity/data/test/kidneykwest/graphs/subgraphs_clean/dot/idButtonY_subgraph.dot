@@ -1,0 +1,7 @@
+strict digraph {
+idButtonY [lexicon_key=idButtonY];
+2 [lexicon_key=2];
+idPhosphateCrystal_idApple1 [lexicon_key="idPhosphateCrystal_idApple"];
+idButtonY -> 2 [label="idButtonY_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idButtonY -> idPhosphateCrystal_idApple1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idCavern5LeftOpening": {
+            "lexicon_key": "idCavern5LeftOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idCavern6Outside": {
+            "lexicon_key": "idCavern6Outside",
+            "node_properties": {}
+        },
+        "outside": {
+            "lexicon_key": "outside",
+            "node_properties": {}
+        },
+        "idCavern3LeftOpening": {
+            "lexicon_key": "idCavern3LeftOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern5LeftOpening",
+            "child_node": "idCavern6Outside",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern5LeftOpening",
+            "child_node": "idCavern3LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern6Outside_prop_idDescriptor",
+            "parent_node": "idCavern6Outside",
+            "child_node": "outside",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

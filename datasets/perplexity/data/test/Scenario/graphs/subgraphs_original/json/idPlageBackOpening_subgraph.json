@@ -1,0 +1,122 @@
+{
+    "nodes": {
+        "idPlageBackOpening": {
+            "lexicon_key": "idPlageBackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "short": {
+            "lexicon_key": "short",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idGreenRoomFrontOpening": {
+            "lexicon_key": "idGreenRoomFrontOpening",
+            "node_properties": {}
+        },
+        "idFlashlight1Switch": {
+            "lexicon_key": "idFlashlight1Switch",
+            "node_properties": {}
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idLock2": {
+            "lexicon_key": "idLock",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlageBackOpening_prop_idHeight",
+            "parent_node": "idPlageBackOpening",
+            "child_node": "short",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlageBackOpening_prop_idOpenState",
+            "parent_node": "idPlageBackOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlageBackOpening",
+            "child_node": "idGreenRoomFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlageBackOpening",
+            "child_node": "idFlashlight1Switch",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomFrontOpening_prop_idHeight",
+            "parent_node": "idGreenRoomFrontOpening",
+            "child_node": "short",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomFrontOpening_prop_idOpenState",
+            "parent_node": "idGreenRoomFrontOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1Switch_prop_idColor",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1Switch_prop_idPowerState",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight1Switch",
+            "child_node": "idLock2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

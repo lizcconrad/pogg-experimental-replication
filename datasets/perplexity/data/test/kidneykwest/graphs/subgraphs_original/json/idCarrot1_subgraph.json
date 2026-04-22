@@ -1,0 +1,126 @@
+{
+    "nodes": {
+        "idCarrot1": {
+            "lexicon_key": "idCarrot",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "orange": {
+            "lexicon_key": "orange",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {}
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {}
+        },
+        "idChip2": {
+            "lexicon_key": "idChip",
+            "node_properties": {}
+        },
+        "idpotato": {
+            "lexicon_key": "idpotato",
+            "node_properties": {}
+        },
+        "salty": {
+            "lexicon_key": "salty",
+            "node_properties": {}
+        },
+        "idLab1BackOpening": {
+            "lexicon_key": "idLab1BackOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCarrot1_prop_idColor",
+            "parent_node": "idCarrot1",
+            "child_node": "orange",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarrot1_prop_idUnknownObject",
+            "parent_node": "idCarrot1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCarrot1",
+            "child_node": "idPhosphateCrystal_idChip1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCarrot1",
+            "child_node": "idChip2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "idLab1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChip2_prop_idMaterial",
+            "parent_node": "idChip2",
+            "child_node": "idpotato",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idChip2_prop_idSaltiness",
+            "parent_node": "idChip2",
+            "child_node": "salty",
+            "lexicon_key": "idSaltiness",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "nodes": {
+        "idPassenger1": {
+            "lexicon_key": "idPassenger",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": []
+}

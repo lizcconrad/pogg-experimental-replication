@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idWhistle1": {
+            "lexicon_key": "idWhistle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "cracked": {
+            "lexicon_key": "cracked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWhistle1_prop_idDescriptor",
+            "parent_node": "idWhistle1",
+            "child_node": "cracked",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWhistle1_prop_idColor",
+            "parent_node": "idWhistle1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idWhistle1",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cracked white whistle east of the player's backside"
+    ]
+}

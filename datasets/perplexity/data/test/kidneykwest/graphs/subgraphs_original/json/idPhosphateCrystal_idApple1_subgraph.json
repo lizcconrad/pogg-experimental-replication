@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idPhosphateCrystal_idApple1": {
+            "lexicon_key": "idPhosphateCrystal_idApple",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idFairyWorldLobby1LeftOpening": {
+            "lexicon_key": "idFairyWorldLobby1LeftOpening",
+            "node_properties": {}
+        },
+        "idPill2": {
+            "lexicon_key": "idPill",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPhosphateCrystal_idApple1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idApple1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idApple1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "idFairyWorldLobby1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "idPill2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

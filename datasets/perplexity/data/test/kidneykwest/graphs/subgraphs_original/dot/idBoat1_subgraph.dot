@@ -1,0 +1,11 @@
+strict digraph {
+idBoat1 [node_type="entity_node", root=root, lexicon_key=idBoat];
+idCaptainsChair1 [lexicon_key=idCaptainsChair];
+idleather [lexicon_key=idleather];
+idCaptain1 [lexicon_key=idCaptain];
+idFairyWorldLobby1LeftOpening [lexicon_key=idFairyWorldLobby1LeftOpening];
+idBoat1 -> idCaptainsChair1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idCaptainsChair1 -> idleather [label="idCaptainsChair1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idCaptainsChair1 -> idCaptain1 [label="idCaptainsChair1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idCaptainsChair1 -> idFairyWorldLobby1LeftOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

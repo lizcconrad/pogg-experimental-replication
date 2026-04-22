@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "building1": {
+            "lexicon_key": "building1",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "old": {
+            "lexicon_key": "old",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWolf3": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "building1_prop_oldAdjectiveType3",
+            "parent_node": "building1",
+            "child_node": "old",
+            "lexicon_key": "oldAdjectiveType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "building1",
+            "child_node": "idWolf3",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWolf3_prop_idColor",
+            "parent_node": "idWolf3",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the old building near the grey wolf"
+    ]
+}

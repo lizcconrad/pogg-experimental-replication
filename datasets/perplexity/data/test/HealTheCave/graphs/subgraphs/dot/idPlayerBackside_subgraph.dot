@@ -1,0 +1,5 @@
+strict digraph {
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idCavern5BackOpening [node_type=entity, lexicon_key=idCavern5BackOpening];
+idPlayerBackside -> idCavern5BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

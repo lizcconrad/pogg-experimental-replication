@@ -1,0 +1,21 @@
+strict digraph {
+idFuse30A [node_type="entity_node", root=root, lexicon_key=idFuse30A];
+true [lexicon_key=true];
+red [lexicon_key=red];
+rusty [lexicon_key=rusty];
+idShutoffValveLight1 [lexicon_key=idShutoffValveLight];
+off [lexicon_key=off];
+unlit [lexicon_key=unlit];
+idComputerRoom1FrontOpeningDoor [lexicon_key=idComputerRoom1FrontOpeningDoor];
+open [lexicon_key=open];
+idWolf1 [lexicon_key=idWolf];
+idFuse30A -> true [label="idFuse30A_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idFuse30A -> red [label="idFuse30A_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFuse30A -> rusty [label="idFuse30A_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+idFuse30A -> idShutoffValveLight1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idFuse30A -> idComputerRoom1FrontOpeningDoor [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idShutoffValveLight1 -> off [label="idShutoffValveLight1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idShutoffValveLight1 -> unlit [label="idShutoffValveLight1_prop_idLitState", edge_type=property, lexicon_key=idLitState];
+idShutoffValveLight1 -> idWolf1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idComputerRoom1FrontOpeningDoor -> open [label="idComputerRoom1FrontOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

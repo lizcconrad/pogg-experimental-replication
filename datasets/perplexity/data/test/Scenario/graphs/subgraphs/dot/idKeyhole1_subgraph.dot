@@ -1,0 +1,5 @@
+strict digraph {
+idKeyhole1 [node_type=entity, lexicon_key=idKeyhole];
+idFlashlight2Switch [node_type=property, lexicon_key=idFlashlight2Switch];
+idKeyhole1 -> idFlashlight2Switch [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

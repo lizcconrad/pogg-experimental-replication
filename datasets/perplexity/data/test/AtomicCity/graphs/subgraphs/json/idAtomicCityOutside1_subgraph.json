@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idAtomicCityOutside1": {
+            "lexicon_key": "idAtomicCityOutside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineRoomFrontOpening": {
+            "lexicon_key": "idMachineRoomFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAtomicCityOutside1",
+            "child_node": "idMachineRoomFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the outside of the atomic city north of the machine room's front opening"
+    ]
+}

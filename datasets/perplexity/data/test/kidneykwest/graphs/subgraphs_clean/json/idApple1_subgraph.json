@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idApple1": {
+            "node_type": "entity",
+            "lexicon_key": "idApple"
+        },
+        "red": {
+            "node_type": "property",
+            "lexicon_key": "red"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        },
+        "idFairyWorldLobby1LeftOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idFairyWorldLobby1LeftOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idApple1_prop_idColor",
+            "parent_node": "idApple1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idApple1_prop_idUnknownObject",
+            "parent_node": "idApple1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idApple1",
+            "child_node": "idFairyWorldLobby1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idCavern4BackOpening [node_type=entity, lexicon_key=idCavern4BackOpening];
+idDeerSkeleton1 [node_type=entity, lexicon_key=idDeerSkeleton];
+white [node_type=property, lexicon_key=white];
+old [node_type=property, lexicon_key=old];
+idCavern4BackOpening -> idDeerSkeleton1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idDeerSkeleton1 -> white [label="idDeerSkeleton1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDeerSkeleton1 -> old [label="idDeerSkeleton1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idPassengersSideFrontDoorInsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idPassengersSideFrontDoor": {
+            "lexicon_key": "idPassengersSideFrontDoor",
+            "node_properties": {}
+        },
+        "idCardReader1": {
+            "lexicon_key": "idCardReader",
+            "node_properties": {}
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idDriversSideFrontDoorInsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorInsideOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoorInsideOpening",
+            "child_node": "idDriversSideFrontDoorInsideOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPassengersSideFrontDoorInsideOpening",
+            "child_node": "idPassengersSideFrontDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idLockMechanism",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idCardReader1",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idLocation_1",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "right",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

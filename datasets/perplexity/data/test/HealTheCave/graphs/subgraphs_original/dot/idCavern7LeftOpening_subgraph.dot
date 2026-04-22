@@ -1,0 +1,13 @@
+strict digraph {
+idCavern7LeftOpening [node_type="entity_node", root=root, lexicon_key=idCavern7LeftOpening];
+idCavern5 [lexicon_key=idCavern];
+smelly [lexicon_key=smelly];
+ominous [lexicon_key=ominous];
+idPlayerBackside [lexicon_key=idPlayerBackside];
+idCavern4FrontOpening [lexicon_key=idCavern4FrontOpening];
+idCavern7LeftOpening -> idPlayerBackside [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCavern7LeftOpening -> idCavern5 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCavern5 -> smelly [label="idCavern5_prop_idDescriptor_2", edge_type=property, lexicon_key="idDescriptor_"];
+idCavern5 -> ominous [label="idCavern5_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCavern5 -> idCavern4FrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

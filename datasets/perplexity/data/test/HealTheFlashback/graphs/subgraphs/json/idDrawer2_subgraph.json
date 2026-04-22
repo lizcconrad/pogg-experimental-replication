@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer2_prop_idImmovable",
+            "parent_node": "idDrawer2",
+            "child_node": "false",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idOpenState",
+            "parent_node": "idDrawer2",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDrawer2",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed movable drawer east of the bedroom's right opening"
+    ]
+}

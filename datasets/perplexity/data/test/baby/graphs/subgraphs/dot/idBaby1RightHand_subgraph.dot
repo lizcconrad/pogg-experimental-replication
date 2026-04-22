@@ -1,0 +1,9 @@
+strict digraph {
+idBaby1RightHand [node_type=entity, lexicon_key=idBaby1RightHand];
+right [node_type=property, lexicon_key=right];
+idCar1 [node_type=entity, lexicon_key=idCar];
+true [node_type=property, lexicon_key=true];
+idBaby1RightHand -> right [label="idBaby1RightHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idBaby1RightHand -> idCar1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCar1 -> true [label="idCar1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

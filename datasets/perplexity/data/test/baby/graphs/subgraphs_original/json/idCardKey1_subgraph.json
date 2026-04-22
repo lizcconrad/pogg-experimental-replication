@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idCardKey1": {
+            "lexicon_key": "idCardKey",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCardKey1_prop_idUnknownObject",
+            "parent_node": "idCardKey1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

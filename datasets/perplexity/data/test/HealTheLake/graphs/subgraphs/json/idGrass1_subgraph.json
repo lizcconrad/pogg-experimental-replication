@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "flattened": {
+            "lexicon_key": "flattened",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBush2": {
+            "lexicon_key": "idBush",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGrass1_prop_idColor",
+            "parent_node": "idGrass1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idArticleType",
+            "parent_node": "idGrass1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idDescriptor",
+            "parent_node": "idGrass1",
+            "child_node": "flattened",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGrass1",
+            "child_node": "idBush2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the flattened green grass east of the bush"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idKelly1": {
+            "lexicon_key": "idKelly",
+            "node_properties": {}
+        },
+        "happy": {
+            "lexicon_key": "happy",
+            "node_properties": {}
+        },
+        "idDrawer3": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGiftBox1_prop_idOpenState",
+            "parent_node": "idGiftBox1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGiftBox1",
+            "child_node": "idKelly1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idEmotion",
+            "parent_node": "idKelly1",
+            "child_node": "happy",
+            "lexicon_key": "idEmotion",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idOpenState",
+            "parent_node": "idKelly1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKelly1",
+            "child_node": "idDrawer3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

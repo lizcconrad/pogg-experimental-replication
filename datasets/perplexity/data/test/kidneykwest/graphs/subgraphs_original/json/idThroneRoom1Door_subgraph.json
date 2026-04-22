@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idThroneRoom1Door": {
+            "lexicon_key": "idThroneRoom1Door",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {}
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThroneRoom1Door_prop_idColor",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idThroneRoom1Door_prop_idMaterial",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idThroneRoom1Door_prop_idOpenState",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "idPhosphateCrystal_idChip1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

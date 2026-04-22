@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idFuseSocket3": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "idFuse30A": {
+            "lexicon_key": "idFuse30A",
+            "node_properties": {}
+        },
+        "rusty": {
+            "lexicon_key": "rusty",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuseSocket3_prop_idOrdinality",
+            "parent_node": "idFuseSocket3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFuseSocket3",
+            "child_node": "idFuse30A",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idTexture",
+            "parent_node": "idFuse30A",
+            "child_node": "rusty",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idUnknownObject",
+            "parent_node": "idFuse30A",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

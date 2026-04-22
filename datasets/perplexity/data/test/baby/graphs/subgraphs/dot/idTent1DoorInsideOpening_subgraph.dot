@@ -1,0 +1,7 @@
+strict digraph {
+idTent1DoorInsideOpening [node_type=entity, lexicon_key=idTent1DoorInsideOpening];
+idTent1Door [node_type=entity, lexicon_key=idTent1Door];
+true [node_type=property, lexicon_key=true];
+idTent1DoorInsideOpening -> idTent1Door [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idTent1Door -> true [label="idTent1Door_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

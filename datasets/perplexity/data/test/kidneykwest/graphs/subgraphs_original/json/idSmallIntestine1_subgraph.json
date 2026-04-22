@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idSmallIntestine1": {
+            "lexicon_key": "idSmallIntestine",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        },
+        "idKidney1": {
+            "lexicon_key": "idKidney",
+            "node_properties": {}
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {}
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {}
+        },
+        "idThroat1": {
+            "lexicon_key": "idThroat",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSmallIntestine1_prop_idSize",
+            "parent_node": "idSmallIntestine1",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSmallIntestine1",
+            "child_node": "idKidney1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKidney1_prop_idSide",
+            "parent_node": "idKidney1",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKidney1_prop_idOwnedBy",
+            "parent_node": "idKidney1",
+            "child_node": "idPlayer",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKidney1",
+            "child_node": "idThroat1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+strict digraph {
+idTent1 [node_type=entity, lexicon_key=idTent];
+unusual [node_type=property, lexicon_key=unusual];
+true [node_type=property, lexicon_key=true];
+idKitchen1 [node_type=entity, lexicon_key=idKitchen];
+idTent1 -> unusual [label="idTent1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idTent1 -> true [label="idTent1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTent1 -> idKitchen1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idKitchen1 -> true [label="idKitchen1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

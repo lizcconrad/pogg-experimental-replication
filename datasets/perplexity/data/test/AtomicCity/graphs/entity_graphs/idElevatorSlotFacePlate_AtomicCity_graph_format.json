@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "idElevatorSlotFacePlate": {
+            "lexicon_key": "idElevatorSlotFacePlate",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMachineRoom": {
+            "lexicon_key": "idMachineRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevatorSlot": {
+            "lexicon_key": "idElevatorSlot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idElevatorSlotFacePlate_prop_idLockedState",
+            "parent_node": "idElevatorSlotFacePlate",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idElevatorSlotFacePlate",
+            "child_node": "idMachineRoom",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idElevatorSlotFacePlate",
+            "child_node": "idElevatorSlot",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

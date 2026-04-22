@@ -1,0 +1,19 @@
+strict digraph {
+idCavern4FrontOpening [node_type="entity_node", root=root, lexicon_key=idCavern4FrontOpening];
+idCavern5 [lexicon_key=idCavern];
+5 [lexicon_key=5];
+smelly [lexicon_key=smelly];
+idDeerSkeleton1 [lexicon_key=idDeerSkeleton];
+white [lexicon_key=white];
+old [lexicon_key=old];
+idCavern6FrontOpening [lexicon_key=idCavern6FrontOpening];
+idSpider1 [lexicon_key=idSpider];
+idCavern4FrontOpening -> idCavern5 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idCavern4FrontOpening -> idDeerSkeleton1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idCavern5 -> 5 [label="idCavern5_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idCavern5 -> smelly [label="idCavern5_prop_idDescriptor_2", edge_type=property, lexicon_key="idDescriptor_"];
+idCavern5 -> idCavern6FrontOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idDeerSkeleton1 -> white [label="idDeerSkeleton1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDeerSkeleton1 -> old [label="idDeerSkeleton1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idDeerSkeleton1 -> idSpider1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

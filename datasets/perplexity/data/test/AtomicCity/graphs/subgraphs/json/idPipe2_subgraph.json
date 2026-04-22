@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPipe2": {
+            "lexicon_key": "idPipe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idAdamRightHand": {
+            "lexicon_key": "idAdamRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPipe2",
+            "child_node": "idAdamRightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the pipe south of Adam's right hand"
+    ]
+}

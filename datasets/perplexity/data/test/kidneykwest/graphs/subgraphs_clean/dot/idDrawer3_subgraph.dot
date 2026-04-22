@@ -1,0 +1,12 @@
+strict digraph {
+idDrawer3 [lexicon_key=idDrawer];
+closed [lexicon_key=closed];
+low [lexicon_key=low];
+3 [lexicon_key=3];
+idButtonZ [lexicon_key=idButtonZ];
+idDrawer3 -> closed [label="idDrawer3_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer3 -> low [label="idDrawer3_prop_idVerticalArrangement", edge_type=property, lexicon_key=idVerticalArrangement];
+idDrawer3 -> 3 [label="idDrawer3_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDrawer3 -> idButtonZ [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idButtonZ -> 3 [label="idButtonZ_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

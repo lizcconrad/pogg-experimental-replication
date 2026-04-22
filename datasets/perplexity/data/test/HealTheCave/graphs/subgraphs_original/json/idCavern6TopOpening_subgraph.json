@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idCavern6TopOpening": {
+            "lexicon_key": "idCavern6TopOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {}
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        },
+        "idCavern7RightOpening": {
+            "lexicon_key": "idCavern7RightOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern6TopOpening_prop_idOpenState",
+            "parent_node": "idCavern6TopOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern6TopOpening_prop_idTint",
+            "parent_node": "idCavern6TopOpening",
+            "child_node": "glowing",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern6TopOpening_prop_idSize",
+            "parent_node": "idCavern6TopOpening",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern6TopOpening",
+            "child_node": "idCavern7RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idTheCliff1": {
+            "lexicon_key": "idTheCliff",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

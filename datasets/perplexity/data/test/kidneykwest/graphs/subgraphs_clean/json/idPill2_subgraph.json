@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idPill2": {
+            "node_type": "entity",
+            "lexicon_key": "idPill"
+        },
+        "idPill4": {
+            "node_type": "entity",
+            "lexicon_key": "idPill"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPill2",
+            "child_node": "idPill4",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

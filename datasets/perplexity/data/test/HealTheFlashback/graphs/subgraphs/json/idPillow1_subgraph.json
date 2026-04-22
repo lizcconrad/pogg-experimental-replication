@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idPillow1": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "dirty": {
+            "lexicon_key": "dirty",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idKitchCabDrawer1": {
+            "lexicon_key": "idKitchCabDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPillow1_prop_idColor",
+            "parent_node": "idPillow1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillow1_prop_idDescriptor",
+            "parent_node": "idPillow1",
+            "child_node": "dirty",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPillow1",
+            "child_node": "idKitchCabDrawer1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the dirty white pillow west of the kitchen cabinet drawer"
+    ]
+}

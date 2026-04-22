@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idGreenRoom": {
+            "lexicon_key": "idGreenRoom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGreenRoom_prop_idColor",
+            "parent_node": "idGreenRoom",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

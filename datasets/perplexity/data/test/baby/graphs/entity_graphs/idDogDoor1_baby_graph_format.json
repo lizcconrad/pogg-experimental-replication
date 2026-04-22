@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idDogDoor1": {
+            "lexicon_key": "idDogDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDogDoor1_prop_idOpenState",
+            "parent_node": "idDogDoor1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

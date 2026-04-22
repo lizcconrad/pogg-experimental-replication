@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idMeadow1": {
+            "lexicon_key": "idMeadow",
+            "node_properties": {}
+        },
+        "grassy": {
+            "lexicon_key": "grassy",
+            "node_properties": {}
+        },
+        "idFrog1": {
+            "lexicon_key": "idFrog",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerBackside",
+            "child_node": "idMeadow1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerBackside",
+            "child_node": "idFrog1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMeadow1_prop_idDescriptor",
+            "parent_node": "idMeadow1",
+            "child_node": "grassy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

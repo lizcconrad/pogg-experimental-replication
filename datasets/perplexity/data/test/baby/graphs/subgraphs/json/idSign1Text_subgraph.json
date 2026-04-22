@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idSign1Text": {
+            "lexicon_key": "idSign1Text",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the sign text"
+    ]
+}

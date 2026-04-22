@@ -1,0 +1,7 @@
+strict digraph {
+idMeadow1 [node_type=entity, lexicon_key=idMeadow];
+grassy [node_type=property, lexicon_key=grassy];
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idMeadow1 -> grassy [label="idMeadow1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idMeadow1 -> idPlayerBackside [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idGreenRoomBackOpeningDoorKeyhole": {
+            "lexicon_key": "idGreenRoomBackOpeningDoorKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomBackOpeningDoor": {
+            "lexicon_key": "idGreenRoomBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGreenRoomBackOpeningDoorKeyhole",
+            "child_node": "idGreenRoomBackOpeningDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpeningDoor_prop_idOpenState",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpeningDoor_prop_idLockedState",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the keyhole on the door to the green room's back opening near the locked closed door to the green room's back opening"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idCandyBar1": {
+            "lexicon_key": "idCandyBar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFusePackage": {
+            "lexicon_key": "idFusePackage",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCandyBar1",
+            "child_node": "idFusePackage",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFusePackage_prop_idUnknownObject",
+            "parent_node": "idFusePackage",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the candy bar south of the unknown fuse package"
+    ]
+}

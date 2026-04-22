@@ -1,0 +1,5 @@
+strict digraph {
+idFlashlightHandle [node_type=entity, lexicon_key=idFlashlightHandle];
+idGreenRoom [node_type=entity, lexicon_key=idGreenRoom];
+idFlashlightHandle -> idGreenRoom [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idGlowingArea1 [node_type=entity, lexicon_key=idGlowingArea];
+glowing [node_type=property, lexicon_key=glowing];
+idGrass1 [node_type=entity, lexicon_key=idGrass];
+tall [node_type=property, lexicon_key=tall];
+uncountable [node_type=property, lexicon_key=uncountable];
+idGlowingArea1 -> glowing [label="idGlowingArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idGlowingArea1 -> idGrass1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idGrass1 -> tall [label="idGrass1_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGrass1 -> uncountable [label="idGrass1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+}

@@ -1,0 +1,15 @@
+strict digraph {
+idElevatorOpening [node_type="entity_node", root=root, lexicon_key=idElevatorOpening];
+idElevatorDoor [lexicon_key=idElevatorDoor];
+closed [lexicon_key=closed];
+idElevatorSlotFacePlate [lexicon_key=idElevatorSlotFacePlate];
+idComputerRoom1BackOpening [lexicon_key=idComputerRoom1BackOpening];
+idOnSwitch1 [lexicon_key=idOnSwitch];
+idComputerRoom1FrontOpeningDoor [lexicon_key=idComputerRoom1FrontOpeningDoor];
+idElevatorOpening -> idComputerRoom1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idElevatorOpening -> idElevatorDoor [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idElevatorDoor -> closed [label="idElevatorDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idElevatorDoor -> idElevatorSlotFacePlate [label="idElevatorDoor_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idElevatorDoor -> idComputerRoom1FrontOpeningDoor [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idComputerRoom1BackOpening -> idOnSwitch1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "idSideFlap": {
+            "lexicon_key": "idSideFlap",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPipeSideOpening": {
+            "lexicon_key": "idPipeSideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSideFlapHandle": {
+            "lexicon_key": "idSideFlapHandle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSideFlap_prop_idOpenState",
+            "parent_node": "idSideFlap",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSideFlap",
+            "child_node": "idPipeSideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSideFlap",
+            "child_node": "idSideFlapHandle",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

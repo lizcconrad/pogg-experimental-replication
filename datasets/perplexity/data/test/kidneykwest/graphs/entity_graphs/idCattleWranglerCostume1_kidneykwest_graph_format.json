@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "idCattleWranglerCostume1": {
+            "lexicon_key": "idCattleWranglerCostume",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "gold": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCattleWranglerCostume1_prop_idColor",
+            "parent_node": "idCattleWranglerCostume1",
+            "child_node": "gold",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCattleWranglerCostume1_prop_idUnknownObject",
+            "parent_node": "idCattleWranglerCostume1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

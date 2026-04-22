@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idWater1": {
+            "lexicon_key": "idWater",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "dirty": {
+            "lexicon_key": "dirty",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWater1_prop_idDescriptor",
+            "parent_node": "idWater1",
+            "child_node": "dirty",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWater1_prop_idColor",
+            "parent_node": "idWater1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWater1_prop_idArticleType",
+            "parent_node": "idWater1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idWater1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPainting1_prop_idColor",
+            "parent_node": "idPainting1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the dirty blue water west of the green painting"
+    ]
+}

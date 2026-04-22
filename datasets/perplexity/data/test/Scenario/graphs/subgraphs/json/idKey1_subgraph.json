@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idKey1": {
+            "lexicon_key": "idKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idKeyhole1": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKey1_prop_idColor",
+            "parent_node": "idKey1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKey1",
+            "child_node": "idKeyhole1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the red key south of the keyhole"
+    ]
+}

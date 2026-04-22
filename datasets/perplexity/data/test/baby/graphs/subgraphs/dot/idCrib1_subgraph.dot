@@ -1,0 +1,9 @@
+strict digraph {
+idCrib1 [node_type=entity, lexicon_key=idCrib];
+true [node_type=property, lexicon_key=true];
+idFrontDoor1 [node_type=entity, lexicon_key=idFrontDoor];
+idFrontDoor1Lock [node_type=property, lexicon_key=idFrontDoor1Lock];
+idCrib1 -> true [label="idCrib1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCrib1 -> idFrontDoor1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idFrontDoor1 -> idFrontDoor1Lock [label="idFrontDoor1_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+}

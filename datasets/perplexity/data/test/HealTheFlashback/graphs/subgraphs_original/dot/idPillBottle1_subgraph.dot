@@ -1,0 +1,17 @@
+strict digraph {
+idPillBottle1 [node_type="entity_node", root=root, lexicon_key=idPillBottle];
+white [lexicon_key=white];
+true [lexicon_key=true];
+idDesk1 [lexicon_key=idDesk];
+idwood [lexicon_key=idwood];
+yes [lexicon_key=yes];
+idBathroom1 [lexicon_key=idBathroom];
+messy [lexicon_key=messy];
+idPillBottle1 -> white [label="idPillBottle1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPillBottle1 -> true [label="idPillBottle1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPillBottle1 -> idDesk1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPillBottle1 -> idBathroom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idDesk1 -> idwood [label="idDesk1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idDesk1 -> yes [label="idDesk1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBathroom1 -> messy [label="idBathroom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

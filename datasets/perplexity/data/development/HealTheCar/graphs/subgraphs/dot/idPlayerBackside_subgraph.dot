@@ -1,0 +1,9 @@
+strict digraph {
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idCarKey1 [node_type=entity, lexicon_key=idCarKey];
+black [node_type=property, lexicon_key=black];
+true [node_type=property, lexicon_key=true];
+idPlayerBackside -> idCarKey1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCarKey1 -> black [label="idCarKey1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarKey1 -> true [label="idCarKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

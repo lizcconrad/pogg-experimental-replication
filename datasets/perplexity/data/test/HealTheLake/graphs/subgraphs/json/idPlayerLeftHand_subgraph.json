@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idLocation",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idGrass1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player's left hand on the local left west of the grass"
+    ]
+}

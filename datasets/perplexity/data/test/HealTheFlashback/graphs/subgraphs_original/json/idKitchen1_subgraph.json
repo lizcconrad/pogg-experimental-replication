@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "bare": {
+            "lexicon_key": "bare",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKitchen1_prop_idDescriptor",
+            "parent_node": "idKitchen1",
+            "child_node": "bare",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

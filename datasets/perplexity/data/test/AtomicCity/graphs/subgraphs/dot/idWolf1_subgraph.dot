@@ -1,0 +1,11 @@
+strict digraph {
+idWolf1 [node_type=entity, lexicon_key=idWolf];
+black [node_type=property, lexicon_key=black];
+tiny [node_type=property, lexicon_key=tiny];
+idLongHallwayLeftOpeningDoor [node_type=entity, lexicon_key=idLongHallwayLeftOpeningDoor];
+grey [node_type=property, lexicon_key=grey];
+idWolf1 -> black [label="idWolf1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf1 -> tiny [label="idWolf1_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf1 -> idLongHallwayLeftOpeningDoor [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idLongHallwayLeftOpeningDoor -> grey [label="idLongHallwayLeftOpeningDoor_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

@@ -1,0 +1,21 @@
+strict digraph {
+idChair2 [node_type="entity_node", root=root, lexicon_key=idChair];
+regular [lexicon_key=regular];
+white [lexicon_key=white];
+idCarKey1 [lexicon_key=idCarKey];
+black [lexicon_key=black];
+true [lexicon_key=true];
+idSink1 [lexicon_key=idSink];
+stained [lexicon_key=stained];
+idporcelain [lexicon_key=idporcelain];
+idCabinet1 [lexicon_key=idCabinet];
+idChair2 -> regular [label="idChair2_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idChair2 -> white [label="idChair2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idChair2 -> idCarKey1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idChair2 -> idSink1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCarKey1 -> black [label="idCarKey1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarKey1 -> true [label="idCarKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idSink1 -> stained [label="idSink1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idSink1 -> idporcelain [label="idSink1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSink1 -> idCabinet1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

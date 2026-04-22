@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "idDramaBuilding1FrontOpening": {
+            "lexicon_key": "idDramaBuilding1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDramaBuilding1Door": {
+            "lexicon_key": "idDramaBuilding1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCostumeCloset1BackOpening": {
+            "lexicon_key": "idCostumeCloset1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCostumeCloset1": {
+            "lexicon_key": "idCostumeCloset",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDramaBuilding1FrontOpening",
+            "child_node": "idDramaBuilding1Door",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1FrontOpening",
+            "child_node": "idCostumeCloset1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1FrontOpening",
+            "child_node": "idDramaBuilding1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1FrontOpening",
+            "child_node": "idCostumeCloset1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

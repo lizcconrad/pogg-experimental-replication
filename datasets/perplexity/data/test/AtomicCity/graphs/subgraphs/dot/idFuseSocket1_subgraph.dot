@@ -1,0 +1,9 @@
+strict digraph {
+idFuseSocket1 [node_type=entity, lexicon_key=idFuseSocket];
+1 [node_type=property, lexicon_key=1];
+idBeefJerky1 [node_type=entity, lexicon_key=idBeefJerky];
+true [node_type=property, lexicon_key=true];
+idFuseSocket1 -> 1 [label="idFuseSocket1_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idFuseSocket1 -> idBeefJerky1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idBeefJerky1 -> true [label="idBeefJerky1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

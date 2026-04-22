@@ -1,0 +1,7 @@
+strict digraph {
+idGreenRoom [node_type=entity, lexicon_key=idGreenRoom];
+green [node_type=property, lexicon_key=green];
+idPlage [node_type=entity, lexicon_key=idPlage];
+idGreenRoom -> green [label="idGreenRoom_prop_idColor", edge_type=property, lexicon_key=idColor];
+idGreenRoom -> idPlage [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

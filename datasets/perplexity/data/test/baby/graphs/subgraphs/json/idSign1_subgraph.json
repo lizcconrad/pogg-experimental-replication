@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idSign1": {
+            "lexicon_key": "idSign",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSign1_prop_idUnknownObject",
+            "parent_node": "idSign1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSign1",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown sign near the door from the closet to the workshop"
+    ]
+}

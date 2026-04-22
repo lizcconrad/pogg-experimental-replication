@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idApple1": {
+            "lexicon_key": "idApple",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idApple1_prop_idColor",
+            "parent_node": "idApple1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idApple1_prop_idUnknownObject",
+            "parent_node": "idApple1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

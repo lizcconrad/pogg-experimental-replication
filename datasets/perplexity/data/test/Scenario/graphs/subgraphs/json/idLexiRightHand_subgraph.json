@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idLexiRightHand": {
+            "lexicon_key": "idLexiRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDarkCaveFrontOpening": {
+            "lexicon_key": "idDarkCaveFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLexiRightHand_prop_idSide",
+            "parent_node": "idLexiRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLexiRightHand",
+            "child_node": "idDarkCaveFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDarkCaveFrontOpening_prop_idHeight",
+            "parent_node": "idDarkCaveFrontOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "Lexi's right hand on the right north of the dark cave's medium front opening"
+    ]
+}

@@ -1,0 +1,231 @@
+{
+    "nodes": {
+        "idThroat1BackOpening": {
+            "lexicon_key": "idThroat1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroatSphincter1": {
+            "lexicon_key": "idThroatSphincter",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLargeIntestine1": {
+            "lexicon_key": "idLargeIntestine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLargeIntestine1FrontOpening": {
+            "lexicon_key": "idLargeIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSmallIntestine1FrontOpening": {
+            "lexicon_key": "idSmallIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPyloricSphincter1": {
+            "lexicon_key": "idPyloricSphincter",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStomach1": {
+            "lexicon_key": "idStomach",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSmallIntestine1": {
+            "lexicon_key": "idSmallIntestine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStomach1BackOpening": {
+            "lexicon_key": "idStomach1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStomach1FrontOpening": {
+            "lexicon_key": "idStomach1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSmallIntestine1BackOpening": {
+            "lexicon_key": "idSmallIntestine1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idValve1": {
+            "lexicon_key": "idValve",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDuct1": {
+            "lexicon_key": "idDuct",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGastricFold1": {
+            "lexicon_key": "idGastricFold",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idVilli1": {
+            "lexicon_key": "idVilli",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idLargeIntestine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idLargeIntestine1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idSmallIntestine1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idPyloricSphincter1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idStomach1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idSmallIntestine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idStomach1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idStomach1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idSmallIntestine1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idValve1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idDuct1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idGastricFold1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1BackOpening",
+            "child_node": "idVilli1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

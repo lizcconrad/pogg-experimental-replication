@@ -1,0 +1,13 @@
+strict digraph {
+idLeg2 [node_type="entity_node", root=root, lexicon_key=idLeg];
+idLocalFront [lexicon_key=idLocalFront];
+healthy [lexicon_key=healthy];
+brown [lexicon_key=brown];
+idFrog1 [lexicon_key=idFrog];
+idPlayerRightHand [lexicon_key=idPlayerRightHand];
+idLeg2 -> idLocalFront [label="idLeg2_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idLeg2 -> healthy [label="idLeg2_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idLeg2 -> brown [label="idLeg2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLeg2 -> idFrog1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idFrog1 -> idPlayerRightHand [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

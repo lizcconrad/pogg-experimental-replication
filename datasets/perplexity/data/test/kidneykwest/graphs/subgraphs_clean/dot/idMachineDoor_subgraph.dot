@@ -1,0 +1,11 @@
+strict digraph {
+idMachineDoor [lexicon_key=idMachineDoor];
+closed [lexicon_key=closed];
+locked [lexicon_key=locked];
+idMachine1 [lexicon_key=idMachine];
+off [lexicon_key=off];
+idMachineDoor -> closed [label="idMachineDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idMachineDoor -> locked [label="idMachineDoor_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+idMachineDoor -> idMachine1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+}

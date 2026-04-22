@@ -1,0 +1,7 @@
+strict digraph {
+idShutoffValveLight1 [node_type="entity_node", root=root, lexicon_key=idShutoffValveLight];
+off [lexicon_key=off];
+unlit [lexicon_key=unlit];
+idShutoffValveLight1 -> off [label="idShutoffValveLight1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idShutoffValveLight1 -> unlit [label="idShutoffValveLight1_prop_idLitState", edge_type=property, lexicon_key=idLitState];
+}

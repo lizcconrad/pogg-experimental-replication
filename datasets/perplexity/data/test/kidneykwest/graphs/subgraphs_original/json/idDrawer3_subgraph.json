@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idDrawer3": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "low": {
+            "lexicon_key": "low",
+            "node_properties": {}
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {}
+        },
+        "idStick1": {
+            "lexicon_key": "idStick",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer3_prop_idOpenState",
+            "parent_node": "idDrawer3",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idVerticalArrangement",
+            "parent_node": "idDrawer3",
+            "child_node": "low",
+            "lexicon_key": "idVerticalArrangement",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idOrdinality",
+            "parent_node": "idDrawer3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDrawer3",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGiftBox1_prop_idOpenState",
+            "parent_node": "idGiftBox1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGiftBox1",
+            "child_node": "idStick1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idBarn1RightOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idBarn1RightOpening"
+        },
+        "idApple1": {
+            "node_type": "entity",
+            "lexicon_key": "idApple"
+        },
+        "red": {
+            "node_type": "property",
+            "lexicon_key": "red"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBarn1RightOpening",
+            "child_node": "idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idApple1_prop_idColor",
+            "parent_node": "idApple1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

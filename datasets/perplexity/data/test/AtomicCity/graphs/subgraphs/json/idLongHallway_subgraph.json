@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idLongHallway": {
+            "lexicon_key": "idLongHallway",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevatorOpening": {
+            "lexicon_key": "idElevatorOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLongHallway",
+            "child_node": "idElevatorOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the long hallway north of the elevator opening"
+    ]
+}

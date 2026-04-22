@@ -1,0 +1,9 @@
+strict digraph {
+idTheCarRoom1 [node_type=entity, lexicon_key=idTheCarRoom];
+smoky [node_type=property, lexicon_key=smoky];
+idBear1 [node_type=entity, lexicon_key=idBear];
+angry [node_type=property, lexicon_key=angry];
+idTheCarRoom1 -> smoky [label="idTheCarRoom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idTheCarRoom1 -> idBear1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBear1 -> angry [label="idBear1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

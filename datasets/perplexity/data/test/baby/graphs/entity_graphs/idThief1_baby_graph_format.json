@@ -1,0 +1,464 @@
+{
+    "nodes": {
+        "idThief1": {
+            "lexicon_key": "idThief",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLab1": {
+            "lexicon_key": "idLab",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idHouse1": {
+            "lexicon_key": "idHouse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSidewalk1": {
+            "lexicon_key": "idSidewalk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriveway1": {
+            "lexicon_key": "idDriveway",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPorch1": {
+            "lexicon_key": "idPorch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyard1": {
+            "lexicon_key": "idBackyard",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idEndRoom1": {
+            "lexicon_key": "idEndRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLot1": {
+            "lexicon_key": "idLot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDaycare1": {
+            "lexicon_key": "idDaycare",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoom1": {
+            "lexicon_key": "idLivingRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTable1": {
+            "lexicon_key": "idTable",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCrib1": {
+            "lexicon_key": "idCrib",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPacifier1": {
+            "lexicon_key": "idPacifier",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCloset1": {
+            "lexicon_key": "idCloset",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorkshop1": {
+            "lexicon_key": "idWorkshop",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTent1": {
+            "lexicon_key": "idTent",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDock1": {
+            "lexicon_key": "idDock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorker1": {
+            "lexicon_key": "idWorker",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idScrewdriver1": {
+            "lexicon_key": "idScrewdriver",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThief1_prop_idUnknownObject",
+            "parent_node": "idThief1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idThief1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idThief1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idLab1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idHouse1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idSidewalk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idDriveway1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idPorch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idBackyard1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idEndRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idLot1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idThief1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idDaycare1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idBaby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idMom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idCar1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idLivingRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idTable1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idBed1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idCrib1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idPacifier1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idCloset1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idWorkshop1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idTent1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idDock1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idWorker1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

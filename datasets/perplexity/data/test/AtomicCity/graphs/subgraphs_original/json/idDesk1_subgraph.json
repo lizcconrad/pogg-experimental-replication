@@ -1,0 +1,130 @@
+{
+    "nodes": {
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idaluminum": {
+            "lexicon_key": "idaluminum",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idOffice1": {
+            "lexicon_key": "idOffice",
+            "node_properties": {}
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {}
+        },
+        "idShutoffValveLight1": {
+            "lexicon_key": "idShutoffValveLight",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "unlit": {
+            "lexicon_key": "unlit",
+            "node_properties": {}
+        },
+        "idOffice1RightOpening": {
+            "lexicon_key": "idOffice1RightOpening",
+            "node_properties": {}
+        },
+        "idFuse30A": {
+            "lexicon_key": "idFuse30A",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDesk1_prop_idMaterial",
+            "parent_node": "idDesk1",
+            "child_node": "idaluminum",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idImmovable",
+            "parent_node": "idDesk1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDesk1",
+            "child_node": "idOffice1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDesk1",
+            "child_node": "idShutoffValveLight1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idOffice1_prop_idColor",
+            "parent_node": "idOffice1",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOffice1",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idColor",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "off",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idLitState",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "unlit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "idFuse30A",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

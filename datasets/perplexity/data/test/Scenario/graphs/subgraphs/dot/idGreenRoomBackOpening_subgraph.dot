@@ -1,0 +1,9 @@
+strict digraph {
+idGreenRoomBackOpening [node_type=entity, lexicon_key=idGreenRoomBackOpening];
+medium [node_type=property, lexicon_key=medium];
+idFlashlight2 [node_type=entity, lexicon_key=idFlashlight];
+orange [node_type=property, lexicon_key=orange];
+idGreenRoomBackOpening -> medium [label="idGreenRoomBackOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGreenRoomBackOpening -> idFlashlight2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idFlashlight2 -> orange [label="idFlashlight2_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

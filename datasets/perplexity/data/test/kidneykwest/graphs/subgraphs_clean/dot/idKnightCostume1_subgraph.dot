@@ -1,0 +1,7 @@
+strict digraph {
+idKnightCostume1 [lexicon_key=idKnightCostume];
+gold [lexicon_key=gold];
+true [lexicon_key=true];
+idKnightCostume1 -> gold [label="idKnightCostume1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idKnightCostume1 -> true [label="idKnightCostume1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+idTable1 [node_type=entity, lexicon_key=idTable];
+yes [node_type=property, lexicon_key=yes];
+white [node_type=property, lexicon_key=white];
+idTable1 -> yes [label="idTable1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idTable1 -> white [label="idTable1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

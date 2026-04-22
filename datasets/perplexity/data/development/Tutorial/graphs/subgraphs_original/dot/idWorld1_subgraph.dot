@@ -1,0 +1,11 @@
+strict digraph {
+idWorld1 [node_type="entity_node", root=root, lexicon_key=idWorld];
+idGameRoom1 [lexicon_key=idGameRoom];
+true [lexicon_key=true];
+idPlayer [lexicon_key=idPlayer];
+idDesk1 [lexicon_key=idDesk];
+idWorld1 -> idGameRoom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idWorld1 -> idPlayer [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idGameRoom1 -> true [label="idGameRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPlayer -> idDesk1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

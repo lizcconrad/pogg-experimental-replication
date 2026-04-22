@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idTrunk1": {
+            "lexicon_key": "idTrunk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "unbroken": {
+            "lexicon_key": "unbroken",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "untouched": {
+            "lexicon_key": "untouched",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBush1": {
+            "lexicon_key": "idBush",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTrunk1_prop_idColor",
+            "parent_node": "idTrunk1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTrunk1_prop_idDescriptor",
+            "parent_node": "idTrunk1",
+            "child_node": "unbroken",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTrunk1_prop_idDescriptor_1",
+            "parent_node": "idTrunk1",
+            "child_node": "untouched",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idTrunk1",
+            "child_node": "idBush1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBush1_prop_idColor",
+            "parent_node": "idBush1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the untouched unbroken black trunk west of the green bush"
+    ]
+}

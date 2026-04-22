@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idPill4": {
+            "node_type": "entity",
+            "lexicon_key": "idPill"
+        },
+        "idPhosphateCrystal_idApple1": {
+            "node_type": "entity",
+            "lexicon_key": "idPhosphateCrystal_idApple"
+        },
+        "shiny": {
+            "node_type": "property",
+            "lexicon_key": "shiny"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPill4",
+            "child_node": "idPhosphateCrystal_idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idApple1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

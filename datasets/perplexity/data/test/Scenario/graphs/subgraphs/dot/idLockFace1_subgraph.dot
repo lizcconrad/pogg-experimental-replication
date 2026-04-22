@@ -1,0 +1,7 @@
+strict digraph {
+idLockFace1 [node_type=entity, lexicon_key=idLockFace];
+idGreenRoomBackOpeningDoor [node_type=entity, lexicon_key=idGreenRoomBackOpeningDoor];
+closed [node_type=property, lexicon_key=closed];
+idLockFace1 -> idGreenRoomBackOpeningDoor [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idGreenRoomBackOpeningDoor -> closed [label="idGreenRoomBackOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

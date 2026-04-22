@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCabin1Door": {
+            "lexicon_key": "idCabin1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "idCabin1Door",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown shiny blue phosphate crystal from the chip north of the cabin door"
+    ]
+}

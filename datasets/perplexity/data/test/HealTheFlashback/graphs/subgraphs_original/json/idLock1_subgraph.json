@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idLock1": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLock1_prop_idLockedState",
+            "parent_node": "idLock1",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

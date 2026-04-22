@@ -1,0 +1,5 @@
+strict digraph {
+idLivingRoomToKitchenDoor1 [node_type="entity_node", root=root, lexicon_key=idLivingRoomToKitchenDoor];
+open [lexicon_key=open];
+idLivingRoomToKitchenDoor1 -> open [label="idLivingRoomToKitchenDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

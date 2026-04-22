@@ -1,0 +1,9 @@
+strict digraph {
+idOffice1RightOpening [node_type=entity, lexicon_key=idOffice1RightOpening];
+idDesk1 [node_type=entity, lexicon_key=idDesk];
+idaluminum [node_type=property, lexicon_key=idaluminum];
+yes [node_type=property, lexicon_key=yes];
+idOffice1RightOpening -> idDesk1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idDesk1 -> idaluminum [label="idDesk1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idDesk1 -> yes [label="idDesk1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

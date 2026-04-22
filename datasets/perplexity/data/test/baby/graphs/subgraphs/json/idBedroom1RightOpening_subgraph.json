@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTent1": {
+            "lexicon_key": "idTent",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBedroom1RightOpening",
+            "child_node": "idTent1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bedroom's right opening west of the tent"
+    ]
+}

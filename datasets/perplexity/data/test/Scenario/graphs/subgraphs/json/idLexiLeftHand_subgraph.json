@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLexiLeftHand": {
+            "lexicon_key": "idLexiLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idEntrancecaveBackOpening": {
+            "lexicon_key": "idEntrancecaveBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLexiLeftHand_prop_idSide",
+            "parent_node": "idLexiLeftHand",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLexiLeftHand",
+            "child_node": "idEntrancecaveBackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "Lexi's left hand on the left north of the back opening to the cave's entrance"
+    ]
+}

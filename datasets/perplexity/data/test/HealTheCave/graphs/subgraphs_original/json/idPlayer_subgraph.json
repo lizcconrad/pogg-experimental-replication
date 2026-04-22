@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idBoulderMoved",
+            "parent_node": "idPlayer",
+            "child_node": "false",
+            "lexicon_key": "idBoulderMoved",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

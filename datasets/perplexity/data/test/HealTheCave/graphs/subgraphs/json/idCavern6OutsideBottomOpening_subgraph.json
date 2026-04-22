@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCavern6OutsideBottomOpening": {
+            "lexicon_key": "idCavern6OutsideBottomOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCavern1RightOpening": {
+            "lexicon_key": "idCavern1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern6OutsideBottomOpening",
+            "child_node": "idCavern1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bottom opening of the cavern's outside west of the cavern's right opening"
+    ]
+}

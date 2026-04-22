@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idSmallIntestine1": {
+            "node_type": "entity",
+            "lexicon_key": "idSmallIntestine"
+        },
+        "small": {
+            "node_type": "property",
+            "lexicon_key": "small"
+        },
+        "idThroat1BackOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idThroat1BackOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSmallIntestine1_prop_idSize",
+            "parent_node": "idSmallIntestine1",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSmallIntestine1",
+            "child_node": "idThroat1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

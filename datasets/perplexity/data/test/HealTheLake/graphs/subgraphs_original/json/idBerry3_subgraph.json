@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idBerry3": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {}
+        },
+        "idLeg4": {
+            "lexicon_key": "idLeg",
+            "node_properties": {}
+        },
+        "idLocalBack": {
+            "lexicon_key": "idLocalBack",
+            "node_properties": {}
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "idTheCliff1": {
+            "lexicon_key": "idTheCliff",
+            "node_properties": {}
+        },
+        "idMarsh1": {
+            "lexicon_key": "idMarsh",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBerry3_prop_idColor",
+            "parent_node": "idBerry3",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBerry3",
+            "child_node": "idLeg4",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idBerry3",
+            "child_node": "idTheCliff1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLeg4_prop_idLocation",
+            "parent_node": "idLeg4",
+            "child_node": "idLocalBack",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg4_prop_idColor",
+            "parent_node": "idLeg4",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLeg4",
+            "child_node": "idMarsh1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

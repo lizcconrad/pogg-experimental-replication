@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBathroom1FrontOpening": {
+            "lexicon_key": "idBathroom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChair2": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "regular": {
+            "lexicon_key": "regular",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBathroom1FrontOpening",
+            "child_node": "idChair2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChair2_prop_idDescriptor",
+            "parent_node": "idChair2",
+            "child_node": "regular",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bathroom's front opening west of the regular chair"
+    ]
+}

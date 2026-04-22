@@ -1,0 +1,9 @@
+strict digraph {
+idTheFlashback1 [node_type=entity, lexicon_key=idTheFlashback];
+idMedicineCabinet1 [node_type=entity, lexicon_key=idMedicineCabinet];
+white [node_type=property, lexicon_key=white];
+yes [node_type=property, lexicon_key=yes];
+idTheFlashback1 -> idMedicineCabinet1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idMedicineCabinet1 -> white [label="idMedicineCabinet1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idMedicineCabinet1 -> yes [label="idMedicineCabinet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

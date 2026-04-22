@@ -1,0 +1,9 @@
+strict digraph {
+idTent1Door [node_type=entity, lexicon_key=idTent1Door];
+open [node_type=property, lexicon_key=open];
+true [node_type=property, lexicon_key=true];
+idTent1DoorOutsideOpening [node_type=entity, lexicon_key=idTent1DoorOutsideOpening];
+idTent1Door -> open [label="idTent1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idTent1Door -> true [label="idTent1Door_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTent1Door -> idTent1DoorOutsideOpening [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

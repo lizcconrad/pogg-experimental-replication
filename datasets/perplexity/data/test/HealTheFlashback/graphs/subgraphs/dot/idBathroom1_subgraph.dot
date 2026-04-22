@@ -1,0 +1,7 @@
+strict digraph {
+idBathroom1 [node_type=entity, lexicon_key=idBathroom];
+messy [node_type=property, lexicon_key=messy];
+idLivingroom1 [node_type=entity, lexicon_key=idLivingroom];
+idBathroom1 -> messy [label="idBathroom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBathroom1 -> idLivingroom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

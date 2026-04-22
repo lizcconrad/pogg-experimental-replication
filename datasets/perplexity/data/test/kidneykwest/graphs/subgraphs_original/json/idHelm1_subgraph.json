@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idHelm1": {
+            "lexicon_key": "idHelm",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idCabin1": {
+            "lexicon_key": "idCabin",
+            "node_properties": {}
+        },
+        "idPhosphateCrystal_idChip2": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHelm1_prop_idImmovable",
+            "parent_node": "idHelm1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idHelm1",
+            "child_node": "idCabin1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCabin1",
+            "child_node": "idPhosphateCrystal_idChip2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

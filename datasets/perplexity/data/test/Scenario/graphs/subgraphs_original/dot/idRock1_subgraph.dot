@@ -1,0 +1,7 @@
+strict digraph {
+idRock1 [node_type="entity_node", root=root, lexicon_key=idRock];
+blue [lexicon_key=blue];
+smooth [lexicon_key=smooth];
+idRock1 -> blue [label="idRock1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idRock1 -> smooth [label="idRock1_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+}

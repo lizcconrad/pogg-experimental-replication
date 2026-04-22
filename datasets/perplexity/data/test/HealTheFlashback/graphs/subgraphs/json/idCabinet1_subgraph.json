@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCabinet1": {
+            "lexicon_key": "idCabinet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "scratched": {
+            "lexicon_key": "scratched",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "wooden": {
+            "lexicon_key": "wooden",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBathroom1FrontOpening": {
+            "lexicon_key": "idBathroom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCabinet1_prop_idDescriptor",
+            "parent_node": "idCabinet1",
+            "child_node": "scratched",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCabinet1_prop_idMaterial_1",
+            "parent_node": "idCabinet1",
+            "child_node": "wooden",
+            "lexicon_key": "idMaterial_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCabinet1_prop_idImmovable",
+            "parent_node": "idCabinet1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCabinet1",
+            "child_node": "idBathroom1FrontOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable scratched wooden cabinet east of the bathroom's front opening"
+    ]
+}

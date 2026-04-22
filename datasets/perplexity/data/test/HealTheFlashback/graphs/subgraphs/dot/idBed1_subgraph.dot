@@ -1,0 +1,11 @@
+strict digraph {
+idBed1 [node_type=entity, lexicon_key=idBed];
+yes [node_type=property, lexicon_key=yes];
+brown [node_type=property, lexicon_key=brown];
+idqueen [node_type=property, lexicon_key=idqueen];
+idTheFlashback1 [node_type=entity, lexicon_key=idTheFlashback];
+idBed1 -> yes [label="idBed1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBed1 -> brown [label="idBed1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBed1 -> idqueen [label="idBed1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idBed1 -> idTheFlashback1 [label=isInsideOf, edge_type=relationship, lexicon_key=isInsideOf];
+}

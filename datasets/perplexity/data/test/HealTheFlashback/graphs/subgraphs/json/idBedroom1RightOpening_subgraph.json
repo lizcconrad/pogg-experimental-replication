@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroomToBathroomDoor1": {
+            "lexicon_key": "idBedroomToBathroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBedroom1RightOpening",
+            "child_node": "idBedroomToBathroomDoor1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBedroomToBathroomDoor1_prop_idOpenState",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bedroom's right opening north of the open door from the bedroom to the bathroom"
+    ]
+}

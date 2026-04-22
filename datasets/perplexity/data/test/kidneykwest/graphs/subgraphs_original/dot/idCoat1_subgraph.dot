@@ -1,0 +1,5 @@
+strict digraph {
+idCoat1 [node_type="entity_node", root=root, lexicon_key=idCoat];
+warm [lexicon_key=warm];
+idCoat1 -> warm [label="idCoat1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

@@ -1,0 +1,15 @@
+strict digraph {
+idCabinet1 [lexicon_key=idCabinet];
+true [lexicon_key=true];
+idmetal [lexicon_key=idmetal];
+yes [lexicon_key=yes];
+idPhosphateCrystal_idCarrot1 [lexicon_key="idPhosphateCrystal_idCarrot"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+idCabinet1 -> true [label="idCabinet1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idCabinet1 -> idmetal [label="idCabinet1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idCabinet1 -> yes [label="idCabinet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCabinet1 -> idPhosphateCrystal_idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPhosphateCrystal_idCarrot1 -> blue [label="idPhosphateCrystal_idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idCarrot1 -> shiny [label="idPhosphateCrystal_idCarrot1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+}

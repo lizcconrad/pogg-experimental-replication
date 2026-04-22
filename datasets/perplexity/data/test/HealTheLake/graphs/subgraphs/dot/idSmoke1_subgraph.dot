@@ -1,0 +1,11 @@
+strict digraph {
+idSmoke1 [node_type=entity, lexicon_key=idSmoke];
+yes [node_type=property, lexicon_key=yes];
+idLeg1 [node_type=entity, lexicon_key=idLeg];
+healthy [node_type=property, lexicon_key=healthy];
+right [node_type=property, lexicon_key=right];
+idSmoke1 -> yes [label="idSmoke1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idSmoke1 -> idLeg1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idLeg1 -> healthy [label="idLeg1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idLeg1 -> right [label="idLeg1_prop_idLocation_1", edge_type=property, lexicon_key="idLocation_"];
+}

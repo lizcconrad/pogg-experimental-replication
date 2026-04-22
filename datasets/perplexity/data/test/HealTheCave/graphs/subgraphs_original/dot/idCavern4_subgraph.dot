@@ -1,0 +1,9 @@
+strict digraph {
+idCavern4 [node_type="entity_node", root=root, lexicon_key=idCavern];
+open [lexicon_key=open];
+large [lexicon_key=large];
+dark [lexicon_key=dark];
+idCavern4 -> open [label="idCavern4_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idCavern4 -> large [label="idCavern4_prop_idSize", edge_type=property, lexicon_key=idSize];
+idCavern4 -> dark [label="idCavern4_prop_idTint", edge_type=property, lexicon_key=idTint];
+}

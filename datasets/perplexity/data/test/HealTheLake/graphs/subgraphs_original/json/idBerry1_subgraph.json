@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idBerry1": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBerry1_prop_idColor",
+            "parent_node": "idBerry1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

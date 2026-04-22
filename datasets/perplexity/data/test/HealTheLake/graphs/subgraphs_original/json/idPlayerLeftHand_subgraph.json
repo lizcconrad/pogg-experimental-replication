@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        },
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {}
+        },
+        "smoky": {
+            "lexicon_key": "smoky",
+            "node_properties": {}
+        },
+        "idBranch1": {
+            "lexicon_key": "idBranch",
+            "node_properties": {}
+        },
+        "long": {
+            "lexicon_key": "long",
+            "node_properties": {}
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idLocation",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idArea1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idBranch1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idArea1_prop_idDescriptor",
+            "parent_node": "idArea1",
+            "child_node": "smoky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idArea1",
+            "child_node": "idGrass1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBranch1_prop_idDescriptor",
+            "parent_node": "idBranch1",
+            "child_node": "long",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

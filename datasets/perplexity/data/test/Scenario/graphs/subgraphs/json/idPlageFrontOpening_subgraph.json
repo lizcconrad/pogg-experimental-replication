@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idPlageFrontOpening": {
+            "lexicon_key": "idPlageFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "tall": {
+            "lexicon_key": "tall",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idKey1": {
+            "lexicon_key": "idKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlageFrontOpening_prop_idHeight",
+            "parent_node": "idPlageFrontOpening",
+            "child_node": "tall",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlageFrontOpening",
+            "child_node": "idKey1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKey1_prop_idColor",
+            "parent_node": "idKey1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the plage's tall front opening north of the red key"
+    ]
+}

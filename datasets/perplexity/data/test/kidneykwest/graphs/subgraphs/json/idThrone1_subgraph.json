@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idThrone1": {
+            "lexicon_key": "idThrone",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idiron": {
+            "lexicon_key": "idiron",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idChip2": {
+            "lexicon_key": "idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "salty": {
+            "lexicon_key": "salty",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThrone1_prop_idImmovable",
+            "parent_node": "idThrone1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idThrone1_prop_idMaterial",
+            "parent_node": "idThrone1",
+            "child_node": "idiron",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThrone1",
+            "child_node": "idChip2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChip2_prop_idSaltiness",
+            "parent_node": "idChip2",
+            "child_node": "salty",
+            "lexicon_key": "idSaltiness",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable iron throne east of the salty chip"
+    ]
+}

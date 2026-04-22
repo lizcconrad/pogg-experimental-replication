@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWolf1": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "tiny": {
+            "lexicon_key": "tiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer1_prop_idOpenState",
+            "parent_node": "idDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDrawer1",
+            "child_node": "idWolf1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWolf1_prop_idSize",
+            "parent_node": "idWolf1",
+            "child_node": "tiny",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed drawer east of the tiny wolf"
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idDog1": {
+            "lexicon_key": "idDog",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {}
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {}
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idThing": {
+            "lexicon_key": "idThing",
+            "node_properties": {}
+        },
+        "idHamburger1": {
+            "lexicon_key": "idHamburger",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDog1_prop_idColor",
+            "parent_node": "idDog1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDog1_prop_idEatingFoodTurnsRemaining",
+            "parent_node": "idDog1",
+            "child_node": "0",
+            "lexicon_key": "idEatingFoodTurnsRemaining",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDog1",
+            "child_node": "idMachine1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idButtonsPushed",
+            "parent_node": "idMachine1",
+            "child_node": "idThing",
+            "lexicon_key": "idButtonsPushed",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachine1",
+            "child_node": "idHamburger1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

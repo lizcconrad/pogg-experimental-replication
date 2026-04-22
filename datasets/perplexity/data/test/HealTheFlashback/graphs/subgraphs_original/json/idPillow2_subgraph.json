@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idPillow2": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "thin": {
+            "lexicon_key": "thin",
+            "node_properties": {}
+        },
+        "idLock1": {
+            "lexicon_key": "idLock",
+            "node_properties": {}
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {}
+        },
+        "idLivingRoomToBedroomDoor1": {
+            "lexicon_key": "idLivingRoomToBedroomDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idLivingroom1BackOpening": {
+            "lexicon_key": "idLivingroom1BackOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPillow2_prop_idColor",
+            "parent_node": "idPillow2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillow2_prop_idDescriptor",
+            "parent_node": "idPillow2",
+            "child_node": "thin",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPillow2",
+            "child_node": "idLock1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPillow2",
+            "child_node": "idLivingRoomToBedroomDoor1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLock1_prop_idLockedState",
+            "parent_node": "idLock1",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToBedroomDoor1_prop_idOpenState",
+            "parent_node": "idLivingRoomToBedroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLivingRoomToBedroomDoor1",
+            "child_node": "idLivingroom1BackOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

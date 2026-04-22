@@ -1,0 +1,5 @@
+strict digraph {
+idDramaBuilding1FrontOpening [lexicon_key=idDramaBuilding1FrontOpening];
+idCostumeCloset1 [lexicon_key=idCostumeCloset];
+idDramaBuilding1FrontOpening -> idCostumeCloset1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

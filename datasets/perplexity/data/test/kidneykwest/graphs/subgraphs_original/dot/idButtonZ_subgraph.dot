@@ -1,0 +1,15 @@
+strict digraph {
+idButtonZ [node_type="entity_node", root=root, lexicon_key=idButtonZ];
+3 [lexicon_key=3];
+idPhosphateCrystal_idHamburger1 [lexicon_key="idPhosphateCrystal_idHamburger"];
+true [lexicon_key=true];
+blue [lexicon_key=blue];
+idFairyWorldLobby1FrontOpening [lexicon_key=idFairyWorldLobby1FrontOpening];
+idThroneRoom1LeftOpening [lexicon_key=idThroneRoom1LeftOpening];
+idButtonZ -> 3 [label="idButtonZ_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idButtonZ -> idPhosphateCrystal_idHamburger1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idButtonZ -> idFairyWorldLobby1FrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idPhosphateCrystal_idHamburger1 -> true [label="idPhosphateCrystal_idHamburger1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idHamburger1 -> blue [label="idPhosphateCrystal_idHamburger1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idHamburger1 -> idThroneRoom1LeftOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

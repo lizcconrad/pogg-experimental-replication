@@ -1,0 +1,100 @@
+{
+    "nodes": {
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idqueen": {
+            "lexicon_key": "idqueen",
+            "node_properties": {}
+        },
+        "idMedicineCabinet1": {
+            "lexicon_key": "idMedicineCabinet",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "idChair2": {
+            "lexicon_key": "idChair",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBed1_prop_idColor",
+            "parent_node": "idBed1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBed1_prop_idImmovable",
+            "parent_node": "idBed1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBed1_prop_idDescriptor_1",
+            "parent_node": "idBed1",
+            "child_node": "idqueen",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBed1",
+            "child_node": "idMedicineCabinet1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMedicineCabinet1_prop_idColor",
+            "parent_node": "idMedicineCabinet1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMedicineCabinet1_prop_idImmovable",
+            "parent_node": "idMedicineCabinet1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idMedicineCabinet1",
+            "child_node": "idChair2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idGreenRoomFrontOpening [node_type=entity, lexicon_key=idGreenRoomFrontOpening];
+short [node_type=property, lexicon_key=short];
+open [node_type=property, lexicon_key=open];
+idLight1 [node_type=entity, lexicon_key=idLight];
+idGreenRoomFrontOpening -> short [label="idGreenRoomFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGreenRoomFrontOpening -> open [label="idGreenRoomFrontOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idGreenRoomFrontOpening -> idLight1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

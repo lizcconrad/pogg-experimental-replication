@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBranch1": {
+            "lexicon_key": "idBranch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "long": {
+            "lexicon_key": "long",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMeadow1": {
+            "lexicon_key": "idMeadow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBranch1_prop_idDescriptor",
+            "parent_node": "idBranch1",
+            "child_node": "long",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBranch1",
+            "child_node": "idMeadow1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the long branch west of the meadow"
+    ]
+}

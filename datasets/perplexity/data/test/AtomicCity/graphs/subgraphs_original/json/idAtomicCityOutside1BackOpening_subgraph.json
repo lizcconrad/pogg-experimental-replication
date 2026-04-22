@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idAtomicCityOutside1BackOpening": {
+            "lexicon_key": "idAtomicCityOutside1BackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idAdamLeftHand": {
+            "lexicon_key": "idAdamLeftHand",
+            "node_properties": {}
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {}
+        },
+        "idFuse30A": {
+            "lexicon_key": "idFuse30A",
+            "node_properties": {}
+        },
+        "rusty": {
+            "lexicon_key": "rusty",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "idElevator1FrontOpening": {
+            "lexicon_key": "idElevator1FrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAtomicCityOutside1BackOpening",
+            "child_node": "idAdamLeftHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAtomicCityOutside1BackOpening",
+            "child_node": "idFuse30A",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idAdamLeftHand_prop_idSide",
+            "parent_node": "idAdamLeftHand",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAdamLeftHand",
+            "child_node": "idElevator1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idTexture",
+            "parent_node": "idFuse30A",
+            "child_node": "rusty",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFuse30A_prop_idColor",
+            "parent_node": "idFuse30A",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

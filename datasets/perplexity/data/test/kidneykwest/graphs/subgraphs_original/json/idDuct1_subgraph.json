@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "idDuct1": {
+            "lexicon_key": "idDuct",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idVilli1": {
+            "lexicon_key": "idVilli",
+            "node_properties": {}
+        },
+        "idStomach1BackOpening": {
+            "lexicon_key": "idStomach1BackOpening",
+            "node_properties": {}
+        },
+        "idThroatSphincter1": {
+            "lexicon_key": "idThroatSphincter",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDuct1_prop_idInterestingObject",
+            "parent_node": "idDuct1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDuct1_prop_idImmovable",
+            "parent_node": "idDuct1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDuct1",
+            "child_node": "idStomach1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDuct1",
+            "child_node": "idVilli1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idVilli1_prop_idInterestingObject",
+            "parent_node": "idVilli1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idVilli1_prop_idImmovable",
+            "parent_node": "idVilli1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idVilli1",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

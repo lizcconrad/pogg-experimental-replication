@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idDeer1": {
+            "lexicon_key": "idDeer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the deer"
+    ]
+}

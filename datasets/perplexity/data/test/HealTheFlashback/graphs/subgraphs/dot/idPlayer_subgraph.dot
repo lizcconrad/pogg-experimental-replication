@@ -1,0 +1,5 @@
+strict digraph {
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+idKitchCabDrawer1 [node_type=entity, lexicon_key=idKitchCabDrawer];
+idPlayer -> idKitchCabDrawer1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

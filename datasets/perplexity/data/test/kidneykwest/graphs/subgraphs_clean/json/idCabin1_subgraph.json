@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idCabin1": {
+            "node_type": "entity",
+            "lexicon_key": "idCabin"
+        },
+        "idGiftBox1": {
+            "node_type": "entity",
+            "lexicon_key": "idGiftBox"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCabin1",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

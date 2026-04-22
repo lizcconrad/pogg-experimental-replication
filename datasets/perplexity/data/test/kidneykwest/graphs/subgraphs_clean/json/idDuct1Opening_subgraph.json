@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idDuct1Opening": {
+            "node_type": "entity",
+            "lexicon_key": "idDuct1Opening"
+        },
+        "idDuct1Flap": {
+            "node_type": "entity",
+            "lexicon_key": "idDuct1Flap"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDuct1Opening",
+            "child_node": "idDuct1Flap",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDuct1Flap_prop_idOpenState",
+            "parent_node": "idDuct1Flap",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDramaBuilding1Door": {
+            "lexicon_key": "idDramaBuilding1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCostumeCloset1BackOpening": {
+            "lexicon_key": "idCostumeCloset1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDramaBuilding1Door_prop_idColor",
+            "parent_node": "idDramaBuilding1Door",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDramaBuilding1Door_prop_idOpenState",
+            "parent_node": "idDramaBuilding1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1Door",
+            "child_node": "idCostumeCloset1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the white open door to the drama building south of the costume closet's back opening"
+    ]
+}

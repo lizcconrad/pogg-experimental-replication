@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idKeyBlue": {
+            "lexicon_key": "idKeyBlue",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idTutorialRoom1FrontOpening": {
+            "lexicon_key": "idTutorialRoom1FrontOpening",
+            "node_properties": {}
+        },
+        "idTutorialRoom1": {
+            "lexicon_key": "idTutorialRoom",
+            "node_properties": {}
+        },
+        "idTutorialRoom1Door": {
+            "lexicon_key": "idTutorialRoom1Door",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer1_prop_idOpenState",
+            "parent_node": "idDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idDrawer1",
+            "child_node": "idKeyBlue",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDrawer1",
+            "child_node": "idTutorialRoom1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKeyBlue_prop_idColor",
+            "parent_node": "idKeyBlue",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKeyBlue_prop_idUnknownObject",
+            "parent_node": "idKeyBlue",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idTutorialRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTutorialRoom1FrontOpening",
+            "child_node": "idTutorialRoom1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

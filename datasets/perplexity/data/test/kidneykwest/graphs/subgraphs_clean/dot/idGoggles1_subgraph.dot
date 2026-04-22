@@ -1,0 +1,9 @@
+strict digraph {
+idGoggles1 [lexicon_key=idGoggles];
+plastic [lexicon_key=plastic];
+true [lexicon_key=true];
+idBarn1RightOpening [lexicon_key=idBarn1RightOpening];
+idGoggles1 -> plastic [label="idGoggles1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idGoggles1 -> true [label="idGoggles1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idGoggles1 -> idBarn1RightOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

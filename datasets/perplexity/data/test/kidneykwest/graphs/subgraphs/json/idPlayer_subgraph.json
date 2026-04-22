@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCostumeCloset1": {
+            "lexicon_key": "idCostumeCloset",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idBinderTakenTurns",
+            "parent_node": "idPlayer",
+            "child_node": "0",
+            "lexicon_key": "idBinderTakenTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idTurnsSinceFood",
+            "parent_node": "idPlayer",
+            "child_node": "3",
+            "lexicon_key": "idTurnsSinceFood",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idMapY",
+            "parent_node": "idPlayer",
+            "child_node": "1",
+            "lexicon_key": "idMapY",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idCostumeCloset1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player who hasn't taken their binder who hasn't eaten in three turns south of the costume closet"
+    ]
+}

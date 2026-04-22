@@ -1,0 +1,5 @@
+strict digraph {
+idClearing1 [node_type="entity_node", root=root, lexicon_key=idClearing];
+grassy [lexicon_key=grassy];
+idClearing1 -> grassy [label="idClearing1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

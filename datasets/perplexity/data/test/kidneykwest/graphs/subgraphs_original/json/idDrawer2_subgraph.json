@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer2_prop_idOpenState",
+            "parent_node": "idDrawer2",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idOrdinality",
+            "parent_node": "idDrawer2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

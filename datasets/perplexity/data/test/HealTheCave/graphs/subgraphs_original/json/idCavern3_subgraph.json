@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idCavern3": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "strange": {
+            "lexicon_key": "strange",
+            "node_properties": {}
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern3_prop_idDescriptor",
+            "parent_node": "idCavern3",
+            "child_node": "strange",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern3_prop_idOrdinality",
+            "parent_node": "idCavern3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

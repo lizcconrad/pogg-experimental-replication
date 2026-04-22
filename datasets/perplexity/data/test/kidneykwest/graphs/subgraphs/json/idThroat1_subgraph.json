@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idThroat1": {
+            "lexicon_key": "idThroat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroatSphincter1": {
+            "lexicon_key": "idThroatSphincter",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroat1",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the throat north of the throat sphincter"
+    ]
+}

@@ -1,0 +1,13 @@
+strict digraph {
+idDrawer2 [node_type=entity, lexicon_key=idDrawer];
+closed [node_type=property, lexicon_key=closed];
+2 [node_type=property, lexicon_key=2];
+idCarrot1 [node_type=entity, lexicon_key=idCarrot];
+orange [node_type=property, lexicon_key=orange];
+true [node_type=property, lexicon_key=true];
+idDrawer2 -> closed [label="idDrawer2_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer2 -> 2 [label="idDrawer2_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDrawer2 -> idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCarrot1 -> orange [label="idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarrot1 -> true [label="idCarrot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

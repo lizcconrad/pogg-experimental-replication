@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLockFace1": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomBackOpeningDoor": {
+            "lexicon_key": "idGreenRoomBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLockFace1",
+            "child_node": "idGreenRoomBackOpeningDoor",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpeningDoor_prop_idOpenState",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the lock face north of the closed door to the green room's back opening"
+    ]
+}

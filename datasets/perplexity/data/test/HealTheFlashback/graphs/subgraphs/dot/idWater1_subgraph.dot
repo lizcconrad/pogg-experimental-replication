@@ -1,0 +1,13 @@
+strict digraph {
+idWater1 [node_type=entity, lexicon_key=idWater];
+dirty [node_type=property, lexicon_key=dirty];
+blue [node_type=property, lexicon_key=blue];
+uncountable [node_type=property, lexicon_key=uncountable];
+idPainting1 [node_type=entity, lexicon_key=idPainting];
+green [node_type=property, lexicon_key=green];
+idWater1 -> dirty [label="idWater1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idWater1 -> blue [label="idWater1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWater1 -> uncountable [label="idWater1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+idWater1 -> idPainting1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPainting1 -> green [label="idPainting1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

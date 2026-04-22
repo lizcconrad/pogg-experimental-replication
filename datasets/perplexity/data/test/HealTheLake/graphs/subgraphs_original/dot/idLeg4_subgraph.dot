@@ -1,0 +1,12 @@
+strict digraph {
+idLeg4 [node_type="entity_node", root=root, lexicon_key=idLeg];
+healthy [lexicon_key=healthy];
+brown [lexicon_key=brown];
+idLocalLeft [lexicon_key=idLocalLeft];
+idPlayerLeftHand [lexicon_key=idPlayerLeftHand];
+idLeg4 -> healthy [label="idLeg4_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idLeg4 -> brown [label="idLeg4_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLeg4 -> idLocalLeft [label="idLeg4_prop_idLocation_1", edge_type=property, lexicon_key="idLocation_"];
+idLeg4 -> idPlayerLeftHand [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+}

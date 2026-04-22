@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idSmoke1": {
+            "lexicon_key": "idSmoke",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {}
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        },
+        "idBerry2": {
+            "lexicon_key": "idBerry",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSmoke1_prop_idImmovable",
+            "parent_node": "idSmoke1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idSmoke1",
+            "child_node": "idGrass1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idSmoke1",
+            "child_node": "idBerry2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idColor",
+            "parent_node": "idGrass1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idArticleType",
+            "parent_node": "idGrass1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBerry2_prop_idColor",
+            "parent_node": "idBerry2",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

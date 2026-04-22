@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idThroneRoom1LeftOpening": {
+            "lexicon_key": "idThroneRoom1LeftOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idOnSwitch1_prop_idPowerState",
+            "parent_node": "idOnSwitch1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOnSwitch1",
+            "child_node": "idThroneRoom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+strict digraph {
+idFrog1 [node_type="entity_node", root=root, lexicon_key=idFrog];
+idBerry1 [lexicon_key=idBerry];
+red [lexicon_key=red];
+idDeer1 [lexicon_key=idDeer];
+bleeding [lexicon_key=bleeding];
+brown [lexicon_key=brown];
+idTree1 [lexicon_key=idTree];
+idFrog1 -> idBerry1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idFrog1 -> idDeer1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idBerry1 -> red [label="idBerry1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDeer1 -> bleeding [label="idDeer1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idDeer1 -> brown [label="idDeer1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDeer1 -> idTree1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

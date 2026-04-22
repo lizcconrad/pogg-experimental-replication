@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idEndRoom1": {
+            "lexicon_key": "idEndRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCrib1": {
+            "lexicon_key": "idCrib",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idEndRoom1_prop_idUnknownObject",
+            "parent_node": "idEndRoom1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idEndRoom1",
+            "child_node": "idCrib1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown end room near the crib"
+    ]
+}

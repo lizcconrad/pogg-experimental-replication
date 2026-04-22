@@ -1,0 +1,289 @@
+{
+    "nodes": {
+        "idPebble1": {
+            "lexicon_key": "idPebble",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "smooth": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idRockyArea1": {
+            "lexicon_key": "idRockyArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTheTrees1": {
+            "lexicon_key": "idTheTrees",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRockPile1": {
+            "lexicon_key": "idRockPile",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGlowingArea1": {
+            "lexicon_key": "idGlowingArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGlowingGrass1": {
+            "lexicon_key": "idGlowingGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCave1": {
+            "lexicon_key": "idCave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBranch1": {
+            "lexicon_key": "idBranch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPebble1_prop_idColor",
+            "parent_node": "idPebble1",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPebble1_prop_idDescriptor",
+            "parent_node": "idPebble1",
+            "child_node": "smooth",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idPebble1",
+            "child_node": "idRockyArea1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idPebble1",
+            "child_node": "idRockyArea1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idPebble1",
+            "child_node": "idTheTrees1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPebble1",
+            "child_node": "idRockyArea1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPebble1",
+            "child_node": "idRockPile1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPebble1",
+            "child_node": "idPebble1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPebble1",
+            "child_node": "idGlowingArea1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPebble1",
+            "child_node": "idGlowingGrass1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPebble1",
+            "child_node": "idCave1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idClearing1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idGlowingArea1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idCave1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idBranch1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idGlowingGrass1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idGrass1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPebble1",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

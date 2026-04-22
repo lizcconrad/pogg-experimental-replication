@@ -1,0 +1,7 @@
+strict digraph {
+idDriveway1 [node_type=entity, lexicon_key=idDriveway];
+idLot1 [node_type=entity, lexicon_key=idLot];
+dusty [node_type=property, lexicon_key=dusty];
+idDriveway1 -> idLot1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idLot1 -> dusty [label="idLot1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

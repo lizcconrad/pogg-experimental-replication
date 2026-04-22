@@ -1,0 +1,9 @@
+strict digraph {
+idFuseSocket2 [node_type=entity, lexicon_key=idFuseSocket];
+2 [node_type=property, lexicon_key=2];
+idComputerRoom1 [node_type=entity, lexicon_key=idComputerRoom];
+blue [node_type=property, lexicon_key=blue];
+idFuseSocket2 -> 2 [label="idFuseSocket2_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idFuseSocket2 -> idComputerRoom1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idComputerRoom1 -> blue [label="idComputerRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+idPlayerLeftHand [node_type=entity, lexicon_key=idPlayerLeftHand];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+idCarKey1 [node_type=entity, lexicon_key=idCarKey];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerLeftHand -> idCarKey1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

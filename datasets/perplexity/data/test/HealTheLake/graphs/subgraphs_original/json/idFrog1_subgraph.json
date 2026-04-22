@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idFrog1": {
+            "lexicon_key": "idFrog",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idBerry1": {
+            "lexicon_key": "idBerry",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "idDeer1": {
+            "lexicon_key": "idDeer",
+            "node_properties": {}
+        },
+        "bleeding": {
+            "lexicon_key": "bleeding",
+            "node_properties": {}
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "idTree1": {
+            "lexicon_key": "idTree",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFrog1",
+            "child_node": "idBerry1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFrog1",
+            "child_node": "idDeer1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBerry1_prop_idColor",
+            "parent_node": "idBerry1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idDescriptor_1",
+            "parent_node": "idDeer1",
+            "child_node": "bleeding",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idColor",
+            "parent_node": "idDeer1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDeer1",
+            "child_node": "idTree1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

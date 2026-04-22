@@ -1,0 +1,143 @@
+{
+    "nodes": {
+        "idWater1": {
+            "lexicon_key": "idWater",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "dirty": {
+            "lexicon_key": "dirty",
+            "node_properties": {}
+        },
+        "idChair1": {
+            "lexicon_key": "idChair",
+            "node_properties": {}
+        },
+        "wobbly": {
+            "lexicon_key": "wobbly",
+            "node_properties": {}
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {}
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        },
+        "idCabinet1": {
+            "lexicon_key": "idCabinet",
+            "node_properties": {}
+        },
+        "idPillBottle1": {
+            "lexicon_key": "idPillBottle",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWater1_prop_idArticleType",
+            "parent_node": "idWater1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWater1_prop_idImmovable",
+            "parent_node": "idWater1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWater1_prop_idDescriptor",
+            "parent_node": "idWater1",
+            "child_node": "dirty",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idWater1",
+            "child_node": "idChair1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idWater1",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idChair1_prop_idDescriptor",
+            "parent_node": "idChair1",
+            "child_node": "wobbly",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idChair1_prop_idColor",
+            "parent_node": "idChair1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idChair1",
+            "child_node": "idCabinet1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayerLeftHand_prop_idLocation",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idPillBottle1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

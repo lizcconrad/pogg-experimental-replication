@@ -1,0 +1,11 @@
+strict digraph {
+idCavern8 [node_type=entity, lexicon_key=idCavern];
+rocky [node_type=property, lexicon_key=rocky];
+8 [node_type=property, lexicon_key=8];
+idPlayerRightHand [node_type=entity, lexicon_key=idPlayerRightHand];
+right [node_type=property, lexicon_key=right];
+idCavern8 -> rocky [label="idCavern8_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCavern8 -> 8 [label="idCavern8_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idCavern8 -> idPlayerRightHand [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPlayerRightHand -> right [label="idPlayerRightHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+}

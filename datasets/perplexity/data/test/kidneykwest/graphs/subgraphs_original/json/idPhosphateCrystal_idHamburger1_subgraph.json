@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idPhosphateCrystal_idHamburger1": {
+            "lexicon_key": "idPhosphateCrystal_idHamburger",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBarn1Door": {
+            "lexicon_key": "idBarn1Door",
+            "node_properties": {}
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPhosphateCrystal_idHamburger1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idHamburger1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idHamburger1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "idBarn1Door",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBarn1Door_prop_idMaterial",
+            "parent_node": "idBarn1Door",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBarn1Door_prop_idOpenState",
+            "parent_node": "idBarn1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBarn1Door",
+            "child_node": "idMachine1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

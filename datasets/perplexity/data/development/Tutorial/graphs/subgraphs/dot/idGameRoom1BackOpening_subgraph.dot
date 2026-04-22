@@ -1,0 +1,7 @@
+strict digraph {
+idGameRoom1BackOpening [node_type=entity, lexicon_key=idGameRoom1BackOpening];
+idTutorialRoom1 [node_type=entity, lexicon_key=idTutorialRoom];
+white [node_type=property, lexicon_key=white];
+idGameRoom1BackOpening -> idTutorialRoom1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idTutorialRoom1 -> white [label="idTutorialRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

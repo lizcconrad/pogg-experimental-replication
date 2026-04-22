@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idHelm1": {
+            "lexicon_key": "idHelm",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCabin1": {
+            "lexicon_key": "idCabin",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHelm1_prop_idImmovable",
+            "parent_node": "idHelm1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idHelm1",
+            "child_node": "idCabin1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable helm near the cabin"
+    ]
+}

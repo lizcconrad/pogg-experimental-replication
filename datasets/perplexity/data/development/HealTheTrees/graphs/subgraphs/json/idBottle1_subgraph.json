@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idBottle1": {
+            "lexicon_key": "idBottle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "broken": {
+            "lexicon_key": "broken",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGlowingArea1": {
+            "lexicon_key": "idGlowingArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBottle1_prop_idDescriptor_1",
+            "parent_node": "idBottle1",
+            "child_node": "shiny",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBottle1_prop_idColor",
+            "parent_node": "idBottle1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBottle1_prop_idIntegrity",
+            "parent_node": "idBottle1",
+            "child_node": "broken",
+            "lexicon_key": "idIntegrity",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBottle1",
+            "child_node": "idGlowingArea1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGlowingArea1_prop_idDescriptor",
+            "parent_node": "idGlowingArea1",
+            "child_node": "glowing",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the shiny brown broken bottle west of the glowing glowing area"
+    ]
+}

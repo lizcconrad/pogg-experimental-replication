@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idMachineFrontOpening": {
+            "lexicon_key": "idMachineFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineDoor": {
+            "lexicon_key": "idMachineDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMachineFrontOpening",
+            "child_node": "idMachineDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachineDoor_prop_idLockedState",
+            "parent_node": "idMachineDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the machine's front opening south of the locked machine door"
+    ]
+}

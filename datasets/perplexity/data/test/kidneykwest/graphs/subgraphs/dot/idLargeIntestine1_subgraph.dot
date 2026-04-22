@@ -1,0 +1,7 @@
+strict digraph {
+idLargeIntestine1 [node_type=entity, lexicon_key=idLargeIntestine];
+large [node_type=property, lexicon_key=large];
+idSmallIntestine1 [node_type=entity, lexicon_key=idSmallIntestine];
+idLargeIntestine1 -> large [label="idLargeIntestine1_prop_idSize", edge_type=property, lexicon_key=idSize];
+idLargeIntestine1 -> idSmallIntestine1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

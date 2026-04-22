@@ -1,0 +1,7 @@
+strict digraph {
+idTaillight1 [node_type=entity, lexicon_key=idTaillight];
+unlit [node_type=property, lexicon_key=unlit];
+idArea1 [node_type=entity, lexicon_key=idArea];
+idTaillight1 -> unlit [label="idTaillight1_prop_idLitState", edge_type=property, lexicon_key=idLitState];
+idTaillight1 -> idArea1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

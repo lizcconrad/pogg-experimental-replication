@@ -1,0 +1,5 @@
+strict digraph {
+idMoss1 [node_type="entity_node", root=root, lexicon_key=idMoss];
+uncountable [lexicon_key=uncountable];
+idMoss1 -> uncountable [label="idMoss1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+}

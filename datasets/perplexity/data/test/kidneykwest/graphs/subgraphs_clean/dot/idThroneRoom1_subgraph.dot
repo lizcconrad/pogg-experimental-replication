@@ -1,0 +1,5 @@
+strict digraph {
+idThroneRoom1 [lexicon_key=idThroneRoom];
+idThroneRoom1Door [lexicon_key=idThroneRoom1Door];
+idThroneRoom1 -> idThroneRoom1Door [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

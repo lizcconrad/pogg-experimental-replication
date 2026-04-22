@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idMushroom1": {
+            "lexicon_key": "idMushroom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idCavern5": {
+            "lexicon_key": "idCavern",
+            "node_properties": {}
+        },
+        "cold": {
+            "lexicon_key": "cold",
+            "node_properties": {}
+        },
+        "5": {
+            "lexicon_key": "5",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMushroom1_prop_idColor",
+            "parent_node": "idMushroom1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idMushroom1",
+            "child_node": "idCavern5",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idDescriptor_1",
+            "parent_node": "idCavern5",
+            "child_node": "cold",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idOrdinality",
+            "parent_node": "idCavern5",
+            "child_node": "5",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

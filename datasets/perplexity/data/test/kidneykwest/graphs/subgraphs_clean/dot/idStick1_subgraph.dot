@@ -1,0 +1,7 @@
+strict digraph {
+idStick1 [lexicon_key=idStick];
+idwood [lexicon_key=idwood];
+idPill1 [lexicon_key=idPill];
+idStick1 -> idwood [label="idStick1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idStick1 -> idPill1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

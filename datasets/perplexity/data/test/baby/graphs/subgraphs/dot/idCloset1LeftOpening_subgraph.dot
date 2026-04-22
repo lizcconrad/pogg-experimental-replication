@@ -1,0 +1,5 @@
+strict digraph {
+idCloset1LeftOpening [node_type=entity, lexicon_key=idCloset1LeftOpening];
+idScrewdriver1 [node_type=entity, lexicon_key=idScrewdriver];
+idCloset1LeftOpening -> idScrewdriver1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

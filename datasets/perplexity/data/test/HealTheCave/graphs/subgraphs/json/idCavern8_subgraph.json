@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCavern8": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "rocky": {
+            "lexicon_key": "rocky",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "8": {
+            "lexicon_key": "8",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern8_prop_idDescriptor",
+            "parent_node": "idCavern8",
+            "child_node": "rocky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern8_prop_idOrdinality",
+            "parent_node": "idCavern8",
+            "child_node": "8",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern8",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayerRightHand_prop_idLocation",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the eighth rocky cavern west of the player's right hand on the right"
+    ]
+}

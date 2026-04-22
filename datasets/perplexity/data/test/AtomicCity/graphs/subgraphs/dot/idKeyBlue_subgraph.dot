@@ -1,0 +1,7 @@
+strict digraph {
+idKeyBlue [node_type=entity, lexicon_key=idKeyBlue];
+blue [node_type=property, lexicon_key=blue];
+idElevatorOpening [node_type=entity, lexicon_key=idElevatorOpening];
+idKeyBlue -> blue [label="idKeyBlue_prop_idColor", edge_type=property, lexicon_key=idColor];
+idKeyBlue -> idElevatorOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

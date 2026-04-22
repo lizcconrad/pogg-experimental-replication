@@ -1,0 +1,9 @@
+strict digraph {
+idCaptainsChair1 [node_type=entity, lexicon_key=idCaptainsChair];
+idleather [node_type=property, lexicon_key=idleather];
+idCaptain1 [node_type=entity, lexicon_key=idCaptain];
+idThroneRoom1 [node_type=entity, lexicon_key=idThroneRoom];
+idCaptainsChair1 -> idleather [label="idCaptainsChair1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idCaptainsChair1 -> idCaptain1 [label="idCaptainsChair1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idCaptainsChair1 -> idThroneRoom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

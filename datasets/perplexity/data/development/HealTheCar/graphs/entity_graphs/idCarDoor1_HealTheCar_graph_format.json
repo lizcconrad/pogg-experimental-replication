@@ -1,0 +1,166 @@
+{
+    "nodes": {
+        "idCarDoor1": {
+            "lexicon_key": "idCarDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "old": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "closed": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "crumpled": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "visible": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLocalFront": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "left": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCarDoorLock1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCarDoor1_prop_idColor",
+            "parent_node": "idCarDoor1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idDescriptor",
+            "parent_node": "idCarDoor1",
+            "child_node": "old",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idOpenState",
+            "parent_node": "idCarDoor1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idDescriptor_1",
+            "parent_node": "idCarDoor1",
+            "child_node": "crumpled",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idDescriptor_2",
+            "parent_node": "idCarDoor1",
+            "child_node": "visible",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idLocation",
+            "parent_node": "idCarDoor1",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idLocation_1",
+            "parent_node": "idCarDoor1",
+            "child_node": "left",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idCarSide",
+            "parent_node": "idCarDoor1",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idOwnedBy",
+            "parent_node": "idCarDoor1",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idImmovable",
+            "parent_node": "idCarDoor1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idLockMechanism",
+            "parent_node": "idCarDoor1",
+            "child_node": "idCarDoorLock1",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

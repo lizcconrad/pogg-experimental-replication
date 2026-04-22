@@ -1,0 +1,7 @@
+strict digraph {
+idTorch1 [lexicon_key=idTorch];
+yes [lexicon_key=yes];
+idThroneRoom1 [lexicon_key=idThroneRoom];
+idTorch1 -> yes [label="idTorch1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idTorch1 -> idThroneRoom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

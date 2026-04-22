@@ -1,0 +1,9 @@
+strict digraph {
+idTutorialRoom1Door [node_type=entity, lexicon_key=idTutorialRoom1Door];
+closed [node_type=property, lexicon_key=closed];
+idTutorialRoom1DoorLock [node_type=property, lexicon_key=idTutorialRoom1DoorLock];
+idGameRoom1 [node_type=entity, lexicon_key=idGameRoom];
+idTutorialRoom1Door -> closed [label="idTutorialRoom1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idTutorialRoom1Door -> idTutorialRoom1DoorLock [label="idTutorialRoom1Door_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idTutorialRoom1Door -> idGameRoom1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

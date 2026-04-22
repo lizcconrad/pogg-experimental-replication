@@ -1,0 +1,13 @@
+strict digraph {
+idWolf2 [node_type="entity_node", root=root, lexicon_key=idWolf];
+brown [lexicon_key=brown];
+tiny [lexicon_key=tiny];
+idCardKey1 [lexicon_key=idCardKey];
+true [lexicon_key=true];
+idFusePackage [lexicon_key=idFusePackage];
+idWolf2 -> brown [label="idWolf2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf2 -> tiny [label="idWolf2_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf2 -> idCardKey1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCardKey1 -> true [label="idCardKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCardKey1 -> idFusePackage [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

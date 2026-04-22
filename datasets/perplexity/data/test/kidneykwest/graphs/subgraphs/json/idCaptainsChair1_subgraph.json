@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCaptainsChair1": {
+            "lexicon_key": "idCaptainsChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idleather": {
+            "lexicon_key": "idleather",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCaptain1": {
+            "lexicon_key": "idCaptain",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroneRoom1": {
+            "lexicon_key": "idThroneRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCaptainsChair1_prop_idMaterial",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idleather",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCaptainsChair1_prop_idOwnedBy",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idCaptain1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idThroneRoom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the leather captain's chair that the captain owns west of the throne room"
+    ]
+}

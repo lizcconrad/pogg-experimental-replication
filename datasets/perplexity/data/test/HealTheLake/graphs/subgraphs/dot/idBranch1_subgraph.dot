@@ -1,0 +1,7 @@
+strict digraph {
+idBranch1 [node_type=entity, lexicon_key=idBranch];
+long [node_type=property, lexicon_key=long];
+idMeadow1 [node_type=entity, lexicon_key=idMeadow];
+idBranch1 -> long [label="idBranch1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBranch1 -> idMeadow1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

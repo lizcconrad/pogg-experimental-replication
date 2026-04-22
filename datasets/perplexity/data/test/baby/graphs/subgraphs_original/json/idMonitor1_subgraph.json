@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idMonitor1": {
+            "lexicon_key": "idMonitor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBackyardDoor1Key": {
+            "lexicon_key": "idBackyardDoor1Key",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {}
+        },
+        "idBaby1LeftHand": {
+            "lexicon_key": "idBaby1LeftHand",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMonitor1_prop_idUnknownObject",
+            "parent_node": "idMonitor1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMonitor1",
+            "child_node": "idBackyardDoor1Key",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idMonitor1",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1Key_prop_idColor",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1Key_prop_idUnknownObject",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBedroom1RightOpening",
+            "child_node": "idBaby1LeftHand",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

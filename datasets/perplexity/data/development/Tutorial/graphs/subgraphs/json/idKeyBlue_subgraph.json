@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idKeyBlue": {
+            "lexicon_key": "idKeyBlue",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGameRoom1BackOpening": {
+            "lexicon_key": "idGameRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKeyBlue_prop_idColor",
+            "parent_node": "idKeyBlue",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKeyBlue_prop_idUnknownObject",
+            "parent_node": "idKeyBlue",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idGameRoom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the blue unknown blue key south of the game room's back opening"
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idCavern6Outside [node_type="entity_node", root=root, lexicon_key=idCavern6Outside];
+outside [lexicon_key=outside];
+idCavern6FrontOpening [lexicon_key=idCavern6FrontOpening];
+idCavern1RightOpening [lexicon_key=idCavern1RightOpening];
+idCavern6Outside -> outside [label="idCavern6Outside_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCavern6Outside -> idCavern6FrontOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idCavern6FrontOpening -> idCavern1RightOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

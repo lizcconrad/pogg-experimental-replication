@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idSpider1": {
+            "lexicon_key": "idSpider",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "dead": {
+            "lexicon_key": "dead",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSpider1_prop_idColor",
+            "parent_node": "idSpider1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSpider1_prop_idDescriptor",
+            "parent_node": "idSpider1",
+            "child_node": "dead",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSpider1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the dead black spider west of the player"
+    ]
+}

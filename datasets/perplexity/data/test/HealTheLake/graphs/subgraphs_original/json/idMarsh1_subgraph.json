@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idMarsh1": {
+            "lexicon_key": "idMarsh",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "mossy": {
+            "lexicon_key": "mossy",
+            "node_properties": {}
+        },
+        "idTheCliff1": {
+            "lexicon_key": "idTheCliff",
+            "node_properties": {}
+        },
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMarsh1_prop_idDescriptor",
+            "parent_node": "idMarsh1",
+            "child_node": "mossy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idMarsh1",
+            "child_node": "idTheCliff1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheCliff1",
+            "child_node": "idArea1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

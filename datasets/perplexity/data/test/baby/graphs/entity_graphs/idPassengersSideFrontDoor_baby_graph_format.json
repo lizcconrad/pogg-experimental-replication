@@ -1,0 +1,254 @@
+{
+    "nodes": {
+        "idPassengersSideFrontDoor": {
+            "lexicon_key": "idPassengersSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalFront": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "right": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPassenger": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPassenger1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "closed": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCardReader1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPassengersSideFrontDoorInsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassengersSideFrontDoorOutsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorOutsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriversSideFrontDoorInsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBabyCarSeat": {
+            "lexicon_key": "idBabyCarSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassengerSeat": {
+            "lexicon_key": "idPassengerSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStartButton": {
+            "lexicon_key": "idStartButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idLocation",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idLocation_1",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "right",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idCarSide",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassenger",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idOwnedBy",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassenger1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idOpenState",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idLockMechanism",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idCardReader1",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengersSideFrontDoor_prop_idUnknownObject",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassengersSideFrontDoorInsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassengersSideFrontDoorOutsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassengersSideFrontDoorInsideOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idDriversSideFrontDoorInsideOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idCar1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idBabyCarSeat",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idPassengerSeat",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPassengersSideFrontDoor",
+            "child_node": "idStartButton",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

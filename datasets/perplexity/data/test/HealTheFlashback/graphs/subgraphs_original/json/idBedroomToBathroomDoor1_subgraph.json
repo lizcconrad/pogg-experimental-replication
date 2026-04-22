@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idBedroomToBathroomDoor1": {
+            "lexicon_key": "idBedroomToBathroomDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {}
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBedroomToBathroomDoor1_prop_idOpenState",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBedroomToBathroomDoor1",
+            "child_node": "idDrawer2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idImmovable",
+            "parent_node": "idDrawer2",
+            "child_node": "false",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idOpenState",
+            "parent_node": "idDrawer2",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

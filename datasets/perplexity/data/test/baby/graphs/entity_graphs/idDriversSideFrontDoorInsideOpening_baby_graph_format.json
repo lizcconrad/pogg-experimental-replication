@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "idDriversSideFrontDoorInsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassengersSideFrontDoorInsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassengersSideFrontDoor": {
+            "lexicon_key": "idPassengersSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDriversSideFrontDoorInsideOpening",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDriversSideFrontDoorInsideOpening",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDriversSideFrontDoorInsideOpening",
+            "child_node": "idPassengersSideFrontDoorInsideOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDriversSideFrontDoorInsideOpening",
+            "child_node": "idPassengersSideFrontDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

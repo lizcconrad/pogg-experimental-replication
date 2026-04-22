@@ -1,0 +1,5 @@
+strict digraph {
+idKitchCabDrawer1 [node_type="entity_node", root=root, lexicon_key=idKitchCabDrawer];
+closed [lexicon_key=closed];
+idKitchCabDrawer1 -> closed [label="idKitchCabDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

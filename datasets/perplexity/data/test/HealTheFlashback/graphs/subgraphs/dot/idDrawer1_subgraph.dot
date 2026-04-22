@@ -1,0 +1,11 @@
+strict digraph {
+idDrawer1 [node_type=entity, lexicon_key=idDrawer];
+no [node_type=property, lexicon_key=no];
+closed [node_type=property, lexicon_key=closed];
+idChair1 [node_type=entity, lexicon_key=idChair];
+wobbly [node_type=property, lexicon_key=wobbly];
+idDrawer1 -> no [label="idDrawer1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDrawer1 -> closed [label="idDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer1 -> idChair1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idChair1 -> wobbly [label="idChair1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

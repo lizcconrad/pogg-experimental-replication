@@ -1,0 +1,7 @@
+strict digraph {
+idWorld1 [node_type="entity_node", root=root, lexicon_key=idWorld];
+idLexi [lexicon_key=idLexi];
+idFlashlightHandle [lexicon_key=idFlashlightHandle];
+idWorld1 -> idLexi [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idLexi -> idFlashlightHandle [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

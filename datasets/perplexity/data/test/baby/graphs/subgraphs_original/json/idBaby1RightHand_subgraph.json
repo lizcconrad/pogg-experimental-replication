@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idBaby1RightHand": {
+            "lexicon_key": "idBaby1RightHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idStartButton": {
+            "lexicon_key": "idStartButton",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idButton2": {
+            "lexicon_key": "idButton",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBaby1RightHand_prop_idSide",
+            "parent_node": "idBaby1RightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBaby1RightHand",
+            "child_node": "idStartButton",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idStartButton_prop_idPowerState",
+            "parent_node": "idStartButton",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idStartButton_prop_idUnknownObject",
+            "parent_node": "idStartButton",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idStartButton",
+            "child_node": "idButton2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

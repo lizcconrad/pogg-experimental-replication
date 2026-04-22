@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCostumeCloset1BackOpening": {
+            "lexicon_key": "idCostumeCloset1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayerLeftHand_prop_idSide",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayerLeftHand",
+            "child_node": "idCostumeCloset1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player's left hand on the left south of the costume closet's back opening"
+    ]
+}

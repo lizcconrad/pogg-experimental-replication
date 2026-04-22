@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idButtonX": {
+            "lexicon_key": "idButtonX",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonX_prop_idOrdinality",
+            "parent_node": "idButtonX",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

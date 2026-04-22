@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPill3": {
+            "lexicon_key": "idPill",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChip2": {
+            "lexicon_key": "idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPill3",
+            "child_node": "idChip2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the pill south of the chip"
+    ]
+}

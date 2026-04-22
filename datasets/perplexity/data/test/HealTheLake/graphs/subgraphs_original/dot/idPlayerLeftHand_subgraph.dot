@@ -1,0 +1,15 @@
+strict digraph {
+idPlayerLeftHand [node_type="entity_node", root=root, lexicon_key=idPlayerLeftHand];
+idLocalLeft [lexicon_key=idLocalLeft];
+idArea1 [lexicon_key=idArea];
+smoky [lexicon_key=smoky];
+idBranch1 [lexicon_key=idBranch];
+long [lexicon_key=long];
+idGrass1 [lexicon_key=idGrass];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerLeftHand -> idArea1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPlayerLeftHand -> idBranch1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idArea1 -> smoky [label="idArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idArea1 -> idGrass1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idBranch1 -> long [label="idBranch1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

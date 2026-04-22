@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idGreenRoomBackOpening": {
+            "lexicon_key": "idGreenRoomBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFlashlight2": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "orange": {
+            "lexicon_key": "orange",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGreenRoomBackOpening_prop_idHeight",
+            "parent_node": "idGreenRoomBackOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idGreenRoomBackOpening",
+            "child_node": "idFlashlight2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idColor",
+            "parent_node": "idFlashlight2",
+            "child_node": "orange",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the green room's medium back opening north of the orange flashlight"
+    ]
+}

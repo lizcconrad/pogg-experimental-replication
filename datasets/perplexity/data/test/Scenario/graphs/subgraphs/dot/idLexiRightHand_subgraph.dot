@@ -1,0 +1,9 @@
+strict digraph {
+idLexiRightHand [node_type=entity, lexicon_key=idLexiRightHand];
+right [node_type=property, lexicon_key=right];
+idDarkCaveFrontOpening [node_type=entity, lexicon_key=idDarkCaveFrontOpening];
+medium [node_type=property, lexicon_key=medium];
+idLexiRightHand -> right [label="idLexiRightHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idLexiRightHand -> idDarkCaveFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idDarkCaveFrontOpening -> medium [label="idDarkCaveFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+}

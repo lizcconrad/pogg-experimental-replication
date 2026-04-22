@@ -1,0 +1,13 @@
+strict digraph {
+idCouch1 [node_type=entity, lexicon_key=idCouch];
+green [node_type=property, lexicon_key=green];
+used [node_type=property, lexicon_key=used];
+yes [node_type=property, lexicon_key=yes];
+idSink1 [node_type=entity, lexicon_key=idSink];
+stained [node_type=property, lexicon_key=stained];
+idCouch1 -> green [label="idCouch1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCouch1 -> used [label="idCouch1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCouch1 -> yes [label="idCouch1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCouch1 -> idSink1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idSink1 -> stained [label="idSink1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

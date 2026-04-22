@@ -1,0 +1,7 @@
+strict digraph {
+idApple1 [node_type="entity_node", root=root, lexicon_key=idApple];
+red [lexicon_key=red];
+true [lexicon_key=true];
+idApple1 -> red [label="idApple1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idApple1 -> true [label="idApple1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

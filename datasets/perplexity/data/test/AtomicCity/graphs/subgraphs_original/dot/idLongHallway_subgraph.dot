@@ -1,0 +1,15 @@
+strict digraph {
+idLongHallway [node_type="entity_node", root=root, lexicon_key=idLongHallway];
+idLongHallwayBackOpeningDoor [lexicon_key=idLongHallwayBackOpeningDoor];
+open [lexicon_key=open];
+red [lexicon_key=red];
+idBeefJerky1 [lexicon_key=idBeefJerky];
+true [lexicon_key=true];
+idFuseSocket3 [lexicon_key=idFuseSocket];
+idLongHallway -> idLongHallwayBackOpeningDoor [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idLongHallway -> idBeefJerky1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idLongHallwayBackOpeningDoor -> open [label="idLongHallwayBackOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLongHallwayBackOpeningDoor -> red [label="idLongHallwayBackOpeningDoor_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBeefJerky1 -> true [label="idBeefJerky1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBeefJerky1 -> idFuseSocket3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

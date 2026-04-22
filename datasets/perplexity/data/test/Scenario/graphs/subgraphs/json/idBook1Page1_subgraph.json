@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idBook1Page1": {
+            "lexicon_key": "idBook1Page1",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGreenRoomFrontOpening": {
+            "lexicon_key": "idGreenRoomFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "short": {
+            "lexicon_key": "short",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBook1Page1_prop_idOrdinality",
+            "parent_node": "idBook1Page1",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1Page1",
+            "child_node": "idGreenRoomFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomFrontOpening_prop_idHeight",
+            "parent_node": "idGreenRoomFrontOpening",
+            "child_node": "short",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomFrontOpening_prop_idOpenState",
+            "parent_node": "idGreenRoomFrontOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the first book page north of the green room's short open front opening"
+    ]
+}

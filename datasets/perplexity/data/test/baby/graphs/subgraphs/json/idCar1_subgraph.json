@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStartButton": {
+            "lexicon_key": "idStartButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassengersSideFrontDoorInsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCar1_prop_idPowerControl",
+            "parent_node": "idCar1",
+            "child_node": "idStartButton",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idImmovable",
+            "parent_node": "idCar1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idOwnedBy",
+            "parent_node": "idCar1",
+            "child_node": "idMom1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCar1",
+            "child_node": "idPassengersSideFrontDoorInsideOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable car with a start button owned by mom west of the inside opening of the front door to the passenger side"
+    ]
+}

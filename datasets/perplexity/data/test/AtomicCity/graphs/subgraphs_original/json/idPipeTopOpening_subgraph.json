@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idPipeTopOpening": {
+            "lexicon_key": "idPipeTopOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPipeTopOpening_prop_idOpenState",
+            "parent_node": "idPipeTopOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPipeTopOpening_prop_idSize",
+            "parent_node": "idPipeTopOpening",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

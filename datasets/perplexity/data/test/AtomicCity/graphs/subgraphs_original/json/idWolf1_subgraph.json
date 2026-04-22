@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idWolf1": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {}
+        },
+        "tiny": {
+            "lexicon_key": "tiny",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWolf1_prop_idColor",
+            "parent_node": "idWolf1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWolf1_prop_idSize",
+            "parent_node": "idWolf1",
+            "child_node": "tiny",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

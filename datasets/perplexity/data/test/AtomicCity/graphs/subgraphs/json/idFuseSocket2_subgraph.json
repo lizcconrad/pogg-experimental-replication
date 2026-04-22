@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFuseSocket2": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idComputerRoom1": {
+            "lexicon_key": "idComputerRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuseSocket2_prop_idOrdinality",
+            "parent_node": "idFuseSocket2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFuseSocket2",
+            "child_node": "idComputerRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idComputerRoom1_prop_idColor",
+            "parent_node": "idComputerRoom1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the second fuse socket south of the blue computer room"
+    ]
+}

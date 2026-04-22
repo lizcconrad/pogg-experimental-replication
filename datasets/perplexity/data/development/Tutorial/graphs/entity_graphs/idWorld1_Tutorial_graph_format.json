@@ -1,0 +1,126 @@
+{
+    "nodes": {
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGameRoom1": {
+            "lexicon_key": "idGameRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTutorialRoom1": {
+            "lexicon_key": "idTutorialRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idWorld1",
+            "child_node": "idGameRoom1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idWorld1",
+            "child_node": "idTutorialRoom1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idWorld1",
+            "child_node": "idGameRoom1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idWorld1",
+            "child_node": "idTutorialRoom1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idWorld1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isBeneath",
+            "parent_node": "idWorld1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isBeneath",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idGameRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idTutorialRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

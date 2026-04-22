@@ -1,0 +1,11 @@
+strict digraph {
+idEntrancecave [node_type=entity, lexicon_key=idEntrancecave];
+1 [node_type=property, lexicon_key=1];
+open [node_type=property, lexicon_key=open];
+idGreenRoomFrontOpening [node_type=entity, lexicon_key=idGreenRoomFrontOpening];
+short [node_type=property, lexicon_key=short];
+idEntrancecave -> 1 [label="idEntrancecave_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idEntrancecave -> open [label="idEntrancecave_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idEntrancecave -> idGreenRoomFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idGreenRoomFrontOpening -> short [label="idGreenRoomFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+idFuse2 [node_type=entity, lexicon_key=idFuse];
+blue [node_type=property, lexicon_key=blue];
+idFuseBox1 [node_type=entity, lexicon_key=idFuseBox];
+idFuse2 -> blue [label="idFuse2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFuse2 -> idFuseBox1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

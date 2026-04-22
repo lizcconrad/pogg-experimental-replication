@@ -1,0 +1,9 @@
+strict digraph {
+idLab1 [lexicon_key=idLab];
+white [lexicon_key=white];
+idKelly1 [lexicon_key=idKelly];
+true [lexicon_key=true];
+idLab1 -> white [label="idLab1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLab1 -> idKelly1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idKelly1 -> true [label="idKelly1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

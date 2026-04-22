@@ -1,0 +1,11 @@
+strict digraph {
+idLexiRightHand [node_type="entity_node", root=root, lexicon_key=idLexiRightHand];
+right [lexicon_key=right];
+idFlashlight2Switch [lexicon_key=idFlashlight2Switch];
+orange [lexicon_key=orange];
+on [lexicon_key=on];
+idLexiRightHand -> right [label="idLexiRightHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idLexiRightHand -> idFlashlight2Switch [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idFlashlight2Switch -> orange [label="idFlashlight2Switch_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFlashlight2Switch -> on [label="idFlashlight2Switch_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+}

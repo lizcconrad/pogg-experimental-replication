@@ -1,0 +1,13 @@
+strict digraph {
+idPainting1 [node_type="entity_node", root=root, lexicon_key=idPainting];
+green [lexicon_key=green];
+yes [lexicon_key=yes];
+idKitchen1 [lexicon_key=idKitchen];
+bare [lexicon_key=bare];
+idWater1 [lexicon_key=idWater];
+idPainting1 -> green [label="idPainting1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPainting1 -> yes [label="idPainting1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idPainting1 -> idKitchen1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idKitchen1 -> bare [label="idKitchen1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idKitchen1 -> idWater1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

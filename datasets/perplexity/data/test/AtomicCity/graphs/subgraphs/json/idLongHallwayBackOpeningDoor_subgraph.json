@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idLongHallwayBackOpeningDoor": {
+            "lexicon_key": "idLongHallwayBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idAdamRightHand": {
+            "lexicon_key": "idAdamRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLongHallwayBackOpeningDoor_prop_idOpenState",
+            "parent_node": "idLongHallwayBackOpeningDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayBackOpeningDoor_prop_idColor",
+            "parent_node": "idLongHallwayBackOpeningDoor",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLongHallwayBackOpeningDoor",
+            "child_node": "idAdamRightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idAdamRightHand_prop_idSide",
+            "parent_node": "idAdamRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the red open door to the long hallway's back opening south of Adam's right hand on the right"
+    ]
+}

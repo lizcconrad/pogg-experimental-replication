@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idWorld1": {
+            "node_type": "entity",
+            "lexicon_key": "idWorld"
+        },
+        "idCostumeCloset1": {
+            "node_type": "entity",
+            "lexicon_key": "idCostumeCloset"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idCostumeCloset1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

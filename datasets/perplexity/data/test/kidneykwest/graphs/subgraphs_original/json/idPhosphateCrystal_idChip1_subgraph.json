@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idChip1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idChip1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

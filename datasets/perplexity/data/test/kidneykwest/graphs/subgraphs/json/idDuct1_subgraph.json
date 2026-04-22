@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDuct1": {
+            "lexicon_key": "idDuct",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idSmallIntestine1FrontOpening": {
+            "lexicon_key": "idSmallIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDuct1_prop_idInterestingObject",
+            "parent_node": "idDuct1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDuct1_prop_idImmovable",
+            "parent_node": "idDuct1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDuct1",
+            "child_node": "idSmallIntestine1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable interesting duct north of the small intestine's front opening"
+    ]
+}

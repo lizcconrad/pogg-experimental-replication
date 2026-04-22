@@ -1,0 +1,12 @@
+strict digraph {
+idBackyardDoor1Key [node_type=entity, lexicon_key=idBackyardDoor1Key];
+blue [node_type=property, lexicon_key=blue];
+true [node_type=property, lexicon_key=true];
+idLivingRoomToKitchenDoor [node_type=entity, lexicon_key=idLivingRoomToKitchenDoor];
+open [node_type=property, lexicon_key=open];
+idBackyardDoor1Key -> blue [label="idBackyardDoor1Key_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBackyardDoor1Key -> true [label="idBackyardDoor1Key_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBackyardDoor1Key -> idLivingRoomToKitchenDoor [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idLivingRoomToKitchenDoor -> open [label="idLivingRoomToKitchenDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLivingRoomToKitchenDoor -> true [label="idLivingRoomToKitchenDoor_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

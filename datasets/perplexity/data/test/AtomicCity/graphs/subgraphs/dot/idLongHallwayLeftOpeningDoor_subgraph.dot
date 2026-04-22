@@ -1,0 +1,9 @@
+strict digraph {
+idLongHallwayLeftOpeningDoor [node_type=entity, lexicon_key=idLongHallwayLeftOpeningDoor];
+open [node_type=property, lexicon_key=open];
+grey [node_type=property, lexicon_key=grey];
+idMachineRoom [node_type=entity, lexicon_key=idMachineRoom];
+idLongHallwayLeftOpeningDoor -> open [label="idLongHallwayLeftOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLongHallwayLeftOpeningDoor -> grey [label="idLongHallwayLeftOpeningDoor_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLongHallwayLeftOpeningDoor -> idMachineRoom [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

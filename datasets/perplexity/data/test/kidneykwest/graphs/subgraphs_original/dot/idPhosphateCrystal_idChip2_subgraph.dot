@@ -1,0 +1,13 @@
+strict digraph {
+idPhosphateCrystal_idChip2 [node_type="entity_node", root=root, lexicon_key="idPhosphateCrystal_idChip"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+true [lexicon_key=true];
+idFairyWorldLobby1BackOpening [lexicon_key=idFairyWorldLobby1BackOpening];
+idFairyWorldLobby1RightOpening [lexicon_key=idFairyWorldLobby1RightOpening];
+idPhosphateCrystal_idChip2 -> blue [label="idPhosphateCrystal_idChip2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idChip2 -> shiny [label="idPhosphateCrystal_idChip2_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idPhosphateCrystal_idChip2 -> true [label="idPhosphateCrystal_idChip2_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idChip2 -> idFairyWorldLobby1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idPhosphateCrystal_idChip2 -> idFairyWorldLobby1RightOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

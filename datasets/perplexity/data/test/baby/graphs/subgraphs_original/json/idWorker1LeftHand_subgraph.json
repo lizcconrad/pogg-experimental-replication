@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idWorker1LeftHand": {
+            "lexicon_key": "idWorker1LeftHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        },
+        "idWorker1": {
+            "lexicon_key": "idWorker",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idDaycare1": {
+            "lexicon_key": "idDaycare",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWorker1LeftHand_prop_idLocation",
+            "parent_node": "idWorker1LeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorker1LeftHand",
+            "child_node": "idWorker1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWorker1_prop_idUnknownObject",
+            "parent_node": "idWorker1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorker1",
+            "child_node": "idDaycare1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

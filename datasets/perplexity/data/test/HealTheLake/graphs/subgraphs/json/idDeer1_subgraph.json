@@ -1,0 +1,84 @@
+{
+    "nodes": {
+        "idDeer1": {
+            "lexicon_key": "idDeer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "bleeding": {
+            "lexicon_key": "bleeding",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "bloody": {
+            "lexicon_key": "bloody",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idSmoke1": {
+            "lexicon_key": "idSmoke",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDeer1_prop_idDescriptor_1",
+            "parent_node": "idDeer1",
+            "child_node": "bleeding",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idDescriptor",
+            "parent_node": "idDeer1",
+            "child_node": "bloody",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idImmovable",
+            "parent_node": "idDeer1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDeer1",
+            "child_node": "idSmoke1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSmoke1_prop_idImmovable",
+            "parent_node": "idSmoke1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable bloody bleeding deer south of the immovable smoke"
+    ]
+}

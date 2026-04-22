@@ -1,0 +1,117 @@
+{
+    "nodes": {
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idDriver": {
+            "lexicon_key": "idDriver",
+            "node_properties": {}
+        },
+        "idLocalFront": {
+            "lexicon_key": "idLocalFront",
+            "node_properties": {}
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {}
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idStartButton": {
+            "lexicon_key": "idStartButton",
+            "node_properties": {}
+        },
+        "idDriversSideFrontDoorOutsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorOutsideOpening",
+            "node_properties": {}
+        },
+        "idBackyard1": {
+            "lexicon_key": "idBackyard",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idCarSide",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idLocation",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idOwnedBy",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idCar1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriversSideFrontDoorOutsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idUnknownObject",
+            "parent_node": "idCar1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idPowerControl",
+            "parent_node": "idCar1",
+            "child_node": "idStartButton",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCar1",
+            "child_node": "idBackyard1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

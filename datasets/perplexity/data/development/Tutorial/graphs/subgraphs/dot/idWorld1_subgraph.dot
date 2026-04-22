@@ -1,0 +1,5 @@
+strict digraph {
+idWorld1 [node_type=entity, lexicon_key=idWorld];
+idTutorialRoom1 [node_type=entity, lexicon_key=idTutorialRoom];
+idWorld1 -> idTutorialRoom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

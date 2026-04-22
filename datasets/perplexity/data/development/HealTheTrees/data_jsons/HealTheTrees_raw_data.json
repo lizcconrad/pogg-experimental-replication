@@ -1,0 +1,3902 @@
+[
+    {
+        "Entity": "idTheTrees1",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTheTrees1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayerBackside",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idGrass1",
+        "Properties": [
+            {
+                "args": [
+                    "idGrass1_prop_idHeight",
+                    "tall"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1_prop_idColor",
+                    "green"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1_prop_idArticleType",
+                    "uncountable"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idGlowingGrass1",
+        "Properties": [
+            {
+                "args": [
+                    "idGlowingGrass1_prop_idColor",
+                    "green"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1_prop_idTint",
+                    "bright"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1_prop_idDescriptor",
+                    "glowing"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1_prop_idArticleType",
+                    "uncountable"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1_prop_idImmovable",
+                    "yes"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingGrass1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idBranch1",
+        "Properties": [
+            {
+                "args": [
+                    "idBranch1_prop_idColor",
+                    "brown"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBranch1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idRockPile1",
+        "Properties": [
+            {
+                "args": [
+                    "idRockPile1_prop_idColor",
+                    "grey"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1_prop_idDescriptor",
+                    "bumpy"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1_prop_idImmovable",
+                    "yes"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockPile1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPebble1",
+        "Properties": [
+            {
+                "args": [
+                    "idPebble1_prop_idColor",
+                    "grey"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1_prop_idDescriptor",
+                    "smooth"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPebble1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idGlowingFlower1",
+        "Properties": [
+            {
+                "args": [
+                    "idGlowingFlower1_prop_idColor",
+                    "green"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingFlower1_prop_idTint",
+                    "bright"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingFlower1_prop_idDescriptor",
+                    "glowing"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingFlower1_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": []
+    },
+    {
+        "Entity": "idClearing1",
+        "Properties": [
+            {
+                "args": [
+                    "idClearing1_prop_idDescriptor",
+                    "grassy"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idClearing1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idGlowingArea1",
+        "Properties": [
+            {
+                "args": [
+                    "idGlowingArea1_prop_idDescriptor",
+                    "glowing"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGlowingArea1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idRockyArea1",
+        "Properties": [
+            {
+                "args": [
+                    "idRockyArea1_prop_idDescriptor",
+                    "rocky"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idRockyArea1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idCave1",
+        "Properties": [
+            {
+                "args": [
+                    "idCave1_prop_idTint",
+                    "dark"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idCave1",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayer",
+        "Properties": [
+            {
+                "args": [
+                    "idPlayer_prop_idBottleFound",
+                    "false"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTheTrees1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayerLeftHand",
+        "Properties": [
+            {
+                "args": [
+                    "idPlayerLeftHand_prop_idLocation",
+                    "idLocalLeft"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayerRightHand",
+        "Properties": [
+            {
+                "args": [
+                    "idPlayerRightHand_prop_idLocation",
+                    "right"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idBottle1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isEastOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idBottle1",
+        "Properties": [
+            {
+                "args": [
+                    "idBottle1_prop_idColor",
+                    "brown"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1_prop_idIntegrity",
+                    "broken"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1_prop_idDescriptor",
+                    "sharp"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1_prop_idDescriptor_1",
+                    "shiny"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "onTopOf",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockyArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idRockPile1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPebble1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idClearing1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingArea1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idCave1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idBranch1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGlowingGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idGrass1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idBottle1",
+                    {
+                        "args": [
+                            "isWestOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    }
+]

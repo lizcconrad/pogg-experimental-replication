@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idStick1": {
+            "lexicon_key": "idStick",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGiftBox1_prop_idOpenState",
+            "parent_node": "idGiftBox1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGiftBox1",
+            "child_node": "idStick1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idStick1_prop_idMaterial",
+            "parent_node": "idStick1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed gift box east of the wooden stick"
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+idHamburger1 [node_type=entity, lexicon_key=idHamburger];
+salty [node_type=property, lexicon_key=salty];
+idDog1 [node_type=entity, lexicon_key=idDog];
+idHamburger1 -> salty [label="idHamburger1_prop_idSaltiness", edge_type=property, lexicon_key=idSaltiness];
+idHamburger1 -> idDog1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

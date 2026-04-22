@@ -1,0 +1,9 @@
+strict digraph {
+idLab1Door [node_type=entity, lexicon_key=idLab1Door];
+white [node_type=property, lexicon_key=white];
+open [node_type=property, lexicon_key=open];
+idBagOfChips1 [node_type=entity, lexicon_key=idBagOfChips];
+idLab1Door -> white [label="idLab1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLab1Door -> open [label="idLab1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLab1Door -> idBagOfChips1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

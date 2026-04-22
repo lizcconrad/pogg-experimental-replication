@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idMachineDoor": {
+            "lexicon_key": "idMachineDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineDoor_prop_idOpenState",
+            "parent_node": "idMachineDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachineDoor_prop_idLockedState",
+            "parent_node": "idMachineDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed locked machine door north of the machine that is turned off"
+    ]
+}

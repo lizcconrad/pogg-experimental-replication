@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idLab1Door": {
+            "node_type": "entity",
+            "lexicon_key": "idLab1Door"
+        },
+        "white": {
+            "node_type": "property",
+            "lexicon_key": "white"
+        },
+        "open": {
+            "node_type": "property",
+            "lexicon_key": "open"
+        },
+        "idBagOfChips1": {
+            "node_type": "entity",
+            "lexicon_key": "idBagOfChips"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLab1Door_prop_idColor",
+            "parent_node": "idLab1Door",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLab1Door_prop_idOpenState",
+            "parent_node": "idLab1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLab1Door",
+            "child_node": "idBagOfChips1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

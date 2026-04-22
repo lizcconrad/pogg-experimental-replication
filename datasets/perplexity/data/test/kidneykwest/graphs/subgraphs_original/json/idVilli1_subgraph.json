@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idVilli1": {
+            "lexicon_key": "idVilli",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idVilli1_prop_idInterestingObject",
+            "parent_node": "idVilli1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idVilli1_prop_idImmovable",
+            "parent_node": "idVilli1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

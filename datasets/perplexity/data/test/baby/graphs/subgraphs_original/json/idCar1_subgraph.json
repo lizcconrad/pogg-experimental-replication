@@ -1,0 +1,113 @@
+{
+    "nodes": {
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {}
+        },
+        "idBedroom1LeftOpening": {
+            "lexicon_key": "idBedroom1LeftOpening",
+            "node_properties": {}
+        },
+        "idCloset1LeftOpening": {
+            "lexicon_key": "idCloset1LeftOpening",
+            "node_properties": {}
+        },
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCar1_prop_idPowerState",
+            "parent_node": "idCar1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idOwnedBy",
+            "parent_node": "idCar1",
+            "child_node": "idMom1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idUnknownObject",
+            "parent_node": "idCar1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCar1",
+            "child_node": "idBedroom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCar1",
+            "child_node": "idBed1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBed1_prop_idUnknownObject",
+            "parent_node": "idBed1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBed1",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBedroom1LeftOpening",
+            "child_node": "idCloset1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

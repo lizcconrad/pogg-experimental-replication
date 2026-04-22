@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idLeg4": {
+            "lexicon_key": "idLeg",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "healthy": {
+            "lexicon_key": "healthy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMarsh1": {
+            "lexicon_key": "idMarsh",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "mossy": {
+            "lexicon_key": "mossy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLeg4_prop_idLocation_1",
+            "parent_node": "idLeg4",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg4_prop_idColor",
+            "parent_node": "idLeg4",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg4_prop_idDescriptor",
+            "parent_node": "idLeg4",
+            "child_node": "healthy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLeg4",
+            "child_node": "idMarsh1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMarsh1_prop_idDescriptor",
+            "parent_node": "idMarsh1",
+            "child_node": "mossy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the healthy brown leg on the local left east of the mossy marsh"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idElevator1FrontOpening": {
+            "lexicon_key": "idElevator1FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLongHallway": {
+            "lexicon_key": "idLongHallway",
+            "node_properties": {}
+        },
+        "idAtomicCityOutside1": {
+            "lexicon_key": "idAtomicCityOutside",
+            "node_properties": {}
+        },
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {}
+        },
+        "idFuse3": {
+            "lexicon_key": "idFuse",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idElevator1FrontOpening",
+            "child_node": "idLongHallway",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idElevator1FrontOpening",
+            "child_node": "idAtomicCityOutside1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLongHallway",
+            "child_node": "idOnSwitch1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAtomicCityOutside1",
+            "child_node": "idFuse3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

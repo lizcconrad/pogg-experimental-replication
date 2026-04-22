@@ -1,0 +1,1851 @@
+[
+    {
+        "Entity": "idTutorialRoom1FrontOpening",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idTutorialRoom1FrontOpening",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1FrontOpening",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1FrontOpening",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1FrontOpening",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idGameRoom1BackOpening",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idDrawer1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idKeyBlue"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1BackOpening",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idDrawer1",
+        "Properties": [
+            {
+                "args": [
+                    "idDrawer1_prop_idOpenState",
+                    "closed"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idKeyBlue"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idKeyBlue"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDrawer1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idWorld1",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idWorld1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayerBackside",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerBackside",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idTutorialRoom1DoorLock",
+        "Properties": [
+            {
+                "args": [
+                    "idTutorialRoom1DoorLock_prop_idLockedState",
+                    "locked"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1DoorLock_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": []
+    },
+    {
+        "Entity": "idKeyBlue",
+        "Properties": [
+            {
+                "args": [
+                    "idKeyBlue_prop_idColor",
+                    "blue"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idDrawer1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idDrawer1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDrawer1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isNear",
+                            "idKeyBlue"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idKeyBlue",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idSign1",
+        "Properties": [
+            {
+                "args": [
+                    "idSign1_prop_idImmovable",
+                    "yes"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idSign1_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idSign1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idSign1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idSign1Text"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idDesk1",
+        "Properties": [
+            {
+                "args": [
+                    "idDesk1_prop_idImmovable",
+                    "yes"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idWorld1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idDesk1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idTutorialRoom1Door",
+        "Properties": [
+            {
+                "args": [
+                    "idTutorialRoom1Door_prop_idOpenState",
+                    "closed"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door_prop_idLockMechanism",
+                    "idTutorialRoom1DoorLock"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNear",
+                            "idSign1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idDrawer1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idKeyBlue"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1Door",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idGameRoom1",
+        "Properties": [
+            {
+                "args": [
+                    "idGameRoom1_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idWorld1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idWorld1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idDrawer1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idKeyBlue"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerBackside"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerLeftHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idGameRoom1",
+                    {
+                        "args": [
+                            "isNorthOf",
+                            "idPlayerRightHand"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idTutorialRoom1",
+        "Properties": [
+            {
+                "args": [
+                    "idTutorialRoom1_prop_idColor",
+                    "white"
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1_prop_idUnknownObject",
+                    "true"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idWorld1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isBeneath",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idWorld1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idTutorialRoom1",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayer",
+        "Properties": [],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isTouching",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isInsideOf",
+                            "idWorld1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idTutorialRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isNear",
+                            "idDesk1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayer",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayerLeftHand",
+        "Properties": [
+            {
+                "args": [
+                    "idPlayerLeftHand_prop_idLocation",
+                    "idLocalLeft"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerLeftHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    },
+    {
+        "Entity": "idPlayerRightHand",
+        "Properties": [
+            {
+                "args": [
+                    "idPlayerRightHand_prop_idLocation",
+                    "right"
+                ],
+                "functor": ","
+            }
+        ],
+        "Relationships": [
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isNear",
+                            "idPlayer"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1FrontOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idTutorialRoom1Door"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            },
+            {
+                "args": [
+                    "idPlayerRightHand",
+                    {
+                        "args": [
+                            "isSouthOf",
+                            "idGameRoom1BackOpening"
+                        ],
+                        "functor": ","
+                    }
+                ],
+                "functor": ","
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+strict digraph {
+idAtomicCityOutside1 [node_type="entity_node", root=root, lexicon_key=idAtomicCityOutside];
+idWolf3 [lexicon_key=idWolf];
+grey [lexicon_key=grey];
+tiny [lexicon_key=tiny];
+idLongHallwayFrontOpening [lexicon_key=idLongHallwayFrontOpening];
+idMachineRoomFrontOpening [lexicon_key=idMachineRoomFrontOpening];
+idWolf2 [lexicon_key=idWolf];
+idAtomicCityOutside1 -> idWolf3 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idAtomicCityOutside1 -> idLongHallwayFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idWolf3 -> grey [label="idWolf3_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf3 -> tiny [label="idWolf3_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf3 -> idMachineRoomFrontOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idLongHallwayFrontOpening -> idWolf2 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

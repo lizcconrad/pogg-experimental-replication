@@ -1,0 +1,11 @@
+strict digraph {
+idBoulder1 [node_type=entity, lexicon_key=idBoulder];
+large [node_type=property, lexicon_key=large];
+idSpider1 [node_type=entity, lexicon_key=idSpider];
+black [node_type=property, lexicon_key=black];
+dead [node_type=property, lexicon_key=dead];
+idBoulder1 -> large [label="idBoulder1_prop_idSize", edge_type=property, lexicon_key=idSize];
+idBoulder1 -> idSpider1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idSpider1 -> black [label="idSpider1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSpider1 -> dead [label="idSpider1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

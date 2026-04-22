@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFuseSocket3": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idOffice1": {
+            "lexicon_key": "idOffice",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuseSocket3_prop_idOrdinality",
+            "parent_node": "idFuseSocket3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idFuseSocket3",
+            "child_node": "idOffice1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idOffice1_prop_idColor",
+            "parent_node": "idOffice1",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the third fuse socket east of the grey office"
+    ]
+}

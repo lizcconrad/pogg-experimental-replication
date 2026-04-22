@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idStomach1": {
+            "node_type": "entity",
+            "lexicon_key": "idStomach"
+        },
+        "idDuct1": {
+            "node_type": "entity",
+            "lexicon_key": "idDuct"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        },
+        "yes": {
+            "node_type": "property",
+            "lexicon_key": "yes"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idStomach1",
+            "child_node": "idDuct1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDuct1_prop_idInterestingObject",
+            "parent_node": "idDuct1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDuct1_prop_idImmovable",
+            "parent_node": "idDuct1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

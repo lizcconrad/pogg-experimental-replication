@@ -1,0 +1,14 @@
+strict digraph {
+idMonitor1 [node_type="entity_node", root=root, lexicon_key=idMonitor];
+true [lexicon_key=true];
+idBackyardDoor1Key [lexicon_key=idBackyardDoor1Key];
+blue [lexicon_key=blue];
+idBedroom1RightOpening [lexicon_key=idBedroom1RightOpening];
+idBaby1LeftHand [lexicon_key=idBaby1LeftHand];
+idMonitor1 -> true [label="idMonitor1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idMonitor1 -> idBackyardDoor1Key [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idMonitor1 -> idBedroom1RightOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idBackyardDoor1Key -> blue [label="idBackyardDoor1Key_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBackyardDoor1Key -> true [label="idBackyardDoor1Key_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBedroom1RightOpening -> idBaby1LeftHand [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

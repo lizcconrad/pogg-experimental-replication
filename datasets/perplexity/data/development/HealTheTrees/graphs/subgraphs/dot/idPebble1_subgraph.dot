@@ -1,0 +1,11 @@
+strict digraph {
+idPebble1 [node_type=entity, lexicon_key=idPebble];
+grey [node_type=property, lexicon_key=grey];
+smooth [node_type=property, lexicon_key=smooth];
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idPebble1 -> grey [label="idPebble1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPebble1 -> smooth [label="idPebble1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idPebble1 -> idPlayer [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPlayer -> false [label="idPlayer_prop_idBottleFound", edge_type=property, lexicon_key=idBottleFound];
+}

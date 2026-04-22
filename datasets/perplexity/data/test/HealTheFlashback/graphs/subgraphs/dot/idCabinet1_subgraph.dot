@@ -1,0 +1,11 @@
+strict digraph {
+idCabinet1 [node_type=entity, lexicon_key=idCabinet];
+scratched [node_type=property, lexicon_key=scratched];
+wooden [node_type=property, lexicon_key=wooden];
+yes [node_type=property, lexicon_key=yes];
+idBathroom1FrontOpening [node_type=entity, lexicon_key=idBathroom1FrontOpening];
+idCabinet1 -> scratched [label="idCabinet1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCabinet1 -> wooden [label="idCabinet1_prop_idMaterial_1", edge_type=property, lexicon_key="idMaterial_"];
+idCabinet1 -> yes [label="idCabinet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCabinet1 -> idBathroom1FrontOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

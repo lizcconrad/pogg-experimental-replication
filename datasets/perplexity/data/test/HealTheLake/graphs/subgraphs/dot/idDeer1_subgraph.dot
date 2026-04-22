@@ -1,0 +1,12 @@
+strict digraph {
+idDeer1 [node_type=entity, lexicon_key=idDeer];
+bleeding [node_type=property, lexicon_key=bleeding];
+bloody [node_type=property, lexicon_key=bloody];
+yes [node_type=property, lexicon_key=yes];
+idSmoke1 [node_type=entity, lexicon_key=idSmoke];
+idDeer1 -> bleeding [label="idDeer1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idDeer1 -> bloody [label="idDeer1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idDeer1 -> yes [label="idDeer1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDeer1 -> idSmoke1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idSmoke1 -> yes [label="idSmoke1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

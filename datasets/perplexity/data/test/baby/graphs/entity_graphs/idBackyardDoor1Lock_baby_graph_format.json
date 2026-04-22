@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "idBackyardDoor1Lock": {
+            "lexicon_key": "idBackyardDoor1Lock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "unlocked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBackyardDoor1Lock_prop_idLockedState",
+            "parent_node": "idBackyardDoor1Lock",
+            "child_node": "unlocked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1Lock_prop_idUnknownObject",
+            "parent_node": "idBackyardDoor1Lock",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idMeadow1": {
+            "lexicon_key": "idMeadow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grassy": {
+            "lexicon_key": "grassy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMeadow1_prop_idDescriptor",
+            "parent_node": "idMeadow1",
+            "child_node": "grassy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idMeadow1",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the grassy meadow east of the player's backside"
+    ]
+}

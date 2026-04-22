@@ -1,0 +1,9 @@
+strict digraph {
+idWorker1LeftHand [node_type=entity, lexicon_key=idWorker1LeftHand];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+idWorker1 [node_type=entity, lexicon_key=idWorker];
+true [node_type=property, lexicon_key=true];
+idWorker1LeftHand -> idLocalLeft [label="idWorker1LeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idWorker1LeftHand -> idWorker1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idWorker1 -> true [label="idWorker1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

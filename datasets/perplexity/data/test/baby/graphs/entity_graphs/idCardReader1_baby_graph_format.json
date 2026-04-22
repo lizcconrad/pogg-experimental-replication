@@ -1,0 +1,55 @@
+{
+    "nodes": {
+        "idCardReader1": {
+            "lexicon_key": "idCardReader",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCardReader1_prop_idLockedState",
+            "parent_node": "idCardReader1",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCardReader1_prop_idUnknownObject",
+            "parent_node": "idCardReader1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCardReader1",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

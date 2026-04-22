@@ -1,0 +1,5 @@
+strict digraph {
+idComputerRoom1BackOpening [node_type=entity, lexicon_key=idComputerRoom1BackOpening];
+idOffice1RightOpening [node_type=entity, lexicon_key=idOffice1RightOpening];
+idComputerRoom1BackOpening -> idOffice1RightOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

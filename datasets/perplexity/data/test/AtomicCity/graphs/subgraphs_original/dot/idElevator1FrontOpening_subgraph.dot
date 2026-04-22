@@ -1,0 +1,11 @@
+strict digraph {
+idElevator1FrontOpening [node_type="entity_node", root=root, lexicon_key=idElevator1FrontOpening];
+idLongHallway [lexicon_key=idLongHallway];
+idAtomicCityOutside1 [lexicon_key=idAtomicCityOutside];
+idOnSwitch1 [lexicon_key=idOnSwitch];
+idFuse3 [lexicon_key=idFuse];
+idElevator1FrontOpening -> idLongHallway [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idElevator1FrontOpening -> idAtomicCityOutside1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idLongHallway -> idOnSwitch1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idAtomicCityOutside1 -> idFuse3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

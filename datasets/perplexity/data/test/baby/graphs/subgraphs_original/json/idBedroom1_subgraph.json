@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "West is [the, sayName(idLivingRoom1)]. East is [a, sayName(idCloset1)].{p}": {
+            "lexicon_key": "West is [the, sayName(idLivingRoom1)]. East is [a, sayName(idCloset1)].{p}",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBedroom1_prop_idDirectionDescription",
+            "parent_node": "idBedroom1",
+            "child_node": "West is [the, sayName(idLivingRoom1)]. East is [a, sayName(idCloset1)].{p}",
+            "lexicon_key": "idDirectionDescription",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBedroom1_prop_idUnknownObject",
+            "parent_node": "idBedroom1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

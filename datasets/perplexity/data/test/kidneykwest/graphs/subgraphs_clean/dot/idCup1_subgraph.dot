@@ -1,0 +1,13 @@
+strict digraph {
+idCup1 [lexicon_key=idCup];
+ceramic [lexicon_key=ceramic];
+true [lexicon_key=true];
+idDrawer2 [lexicon_key=idDrawer];
+closed [lexicon_key=closed];
+2 [lexicon_key=2];
+idCup1 -> ceramic [label="idCup1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idCup1 -> true [label="idCup1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCup1 -> idDrawer2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idDrawer2 -> closed [label="idDrawer2_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer2 -> 2 [label="idDrawer2_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

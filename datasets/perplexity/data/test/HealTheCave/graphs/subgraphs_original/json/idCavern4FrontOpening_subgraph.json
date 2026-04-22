@@ -1,0 +1,117 @@
+{
+    "nodes": {
+        "idCavern4FrontOpening": {
+            "lexicon_key": "idCavern4FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idCavern5": {
+            "lexicon_key": "idCavern",
+            "node_properties": {}
+        },
+        "5": {
+            "lexicon_key": "5",
+            "node_properties": {}
+        },
+        "smelly": {
+            "lexicon_key": "smelly",
+            "node_properties": {}
+        },
+        "idDeerSkeleton1": {
+            "lexicon_key": "idDeerSkeleton",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "old": {
+            "lexicon_key": "old",
+            "node_properties": {}
+        },
+        "idCavern6FrontOpening": {
+            "lexicon_key": "idCavern6FrontOpening",
+            "node_properties": {}
+        },
+        "idSpider1": {
+            "lexicon_key": "idSpider",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCavern4FrontOpening",
+            "child_node": "idCavern5",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCavern4FrontOpening",
+            "child_node": "idDeerSkeleton1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idOrdinality",
+            "parent_node": "idCavern5",
+            "child_node": "5",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idDescriptor_2",
+            "parent_node": "idCavern5",
+            "child_node": "smelly",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern5",
+            "child_node": "idCavern6FrontOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDeerSkeleton1_prop_idColor",
+            "parent_node": "idDeerSkeleton1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeerSkeleton1_prop_idDescriptor",
+            "parent_node": "idDeerSkeleton1",
+            "child_node": "old",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDeerSkeleton1",
+            "child_node": "idSpider1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+strict digraph {
+idBackyardDoor1idBackyard1idSouthOfOpening [node_type="entity_node", root=root, lexicon_key=idBackyardDoor1idBackyard1idSouthOfOpening];
+idWorkshop1 [lexicon_key=idWorkshop];
+true [lexicon_key=true];
+idPlayerBackside [lexicon_key=idPlayerBackside];
+idBackyardDoor1idBackyard1idSouthOfOpening -> idPlayerBackside [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idBackyardDoor1idBackyard1idSouthOfOpening -> idWorkshop1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idWorkshop1 -> true [label="idWorkshop1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPlayerBackside -> idWorkshop1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

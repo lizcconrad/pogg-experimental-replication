@@ -1,0 +1,7 @@
+strict digraph {
+idLock1 [node_type=entity, lexicon_key=idLock];
+locked [node_type=property, lexicon_key=locked];
+idBathroom1FrontOpening [node_type=entity, lexicon_key=idBathroom1FrontOpening];
+idLock1 -> locked [label="idLock1_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+idLock1 -> idBathroom1FrontOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

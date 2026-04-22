@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idBranch1": {
+            "lexicon_key": "idBranch",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "long": {
+            "lexicon_key": "long",
+            "node_properties": {}
+        },
+        "idLeg1": {
+            "lexicon_key": "idLeg",
+            "node_properties": {}
+        },
+        "healthy": {
+            "lexicon_key": "healthy",
+            "node_properties": {}
+        },
+        "idLocalFront": {
+            "lexicon_key": "idLocalFront",
+            "node_properties": {}
+        },
+        "idMoss1": {
+            "lexicon_key": "idMoss",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBranch1_prop_idDescriptor",
+            "parent_node": "idBranch1",
+            "child_node": "long",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBranch1",
+            "child_node": "idLeg1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLeg1_prop_idDescriptor",
+            "parent_node": "idLeg1",
+            "child_node": "healthy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg1_prop_idLocation",
+            "parent_node": "idLeg1",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLeg1",
+            "child_node": "idMoss1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

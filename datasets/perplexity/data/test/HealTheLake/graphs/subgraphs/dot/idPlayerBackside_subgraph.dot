@@ -1,0 +1,5 @@
+strict digraph {
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idFrog1 [node_type=entity, lexicon_key=idFrog];
+idPlayerBackside -> idFrog1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

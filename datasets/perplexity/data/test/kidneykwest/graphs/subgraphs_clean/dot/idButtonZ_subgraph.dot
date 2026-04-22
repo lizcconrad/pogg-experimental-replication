@@ -1,0 +1,7 @@
+strict digraph {
+idButtonZ [lexicon_key=idButtonZ];
+3 [lexicon_key=3];
+idThroneRoom1LeftOpening [lexicon_key=idThroneRoom1LeftOpening];
+idButtonZ -> 3 [label="idButtonZ_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idButtonZ -> idThroneRoom1LeftOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

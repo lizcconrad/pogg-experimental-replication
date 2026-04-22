@@ -1,0 +1,20 @@
+strict digraph {
+idDrawer2 [node_type="entity_node", root=root, lexicon_key=idDrawer];
+false [lexicon_key=false];
+closed [lexicon_key=closed];
+idDrawer1 [lexicon_key=idDrawer];
+no [lexicon_key=no];
+idBed1 [lexicon_key=idBed];
+yes [lexicon_key=yes];
+unmade [lexicon_key=unmade];
+idBedroom1BackOpening [lexicon_key=idBedroom1BackOpening];
+idDrawer2 -> false [label="idDrawer2_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDrawer2 -> closed [label="idDrawer2_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer2 -> idDrawer1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idDrawer2 -> idBed1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idDrawer1 -> no [label="idDrawer1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDrawer1 -> closed [label="idDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idBed1 -> yes [label="idBed1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBed1 -> unmade [label="idBed1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBed1 -> idBedroom1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

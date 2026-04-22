@@ -1,0 +1,7 @@
+strict digraph {
+idButtonY [node_type=entity, lexicon_key=idButtonY];
+3 [node_type=property, lexicon_key=3];
+idElevator1 [node_type=entity, lexicon_key=idElevator];
+idButtonY -> 3 [label="idButtonY_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idButtonY -> idElevator1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

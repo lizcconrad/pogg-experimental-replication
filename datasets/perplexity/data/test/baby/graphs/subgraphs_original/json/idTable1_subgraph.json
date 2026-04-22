@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idTable1": {
+            "lexicon_key": "idTable",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "modern": {
+            "lexicon_key": "modern",
+            "node_properties": {}
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {}
+        },
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTable1_prop_idImmovable",
+            "parent_node": "idTable1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTable1_prop_idShape",
+            "parent_node": "idTable1",
+            "child_node": "modern",
+            "lexicon_key": "idShape",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTable1_prop_idMaterial",
+            "parent_node": "idTable1",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idTable1",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idUnknownObject",
+            "parent_node": "idDriverSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idImmovable",
+            "parent_node": "idDriverSeat",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

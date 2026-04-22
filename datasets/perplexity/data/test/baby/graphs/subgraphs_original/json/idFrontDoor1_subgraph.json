@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idFrontDoor1": {
+            "lexicon_key": "idFrontDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idFrontDoor1Lock": {
+            "lexicon_key": "idFrontDoor1Lock",
+            "node_properties": {}
+        },
+        "idPassengerSeat": {
+            "lexicon_key": "idPassengerSeat",
+            "node_properties": {}
+        },
+        "idPassenger1": {
+            "lexicon_key": "idPassenger",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFrontDoor1_prop_idOpenState",
+            "parent_node": "idFrontDoor1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFrontDoor1_prop_idLockMechanism",
+            "parent_node": "idFrontDoor1",
+            "child_node": "idFrontDoor1Lock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFrontDoor1",
+            "child_node": "idPassengerSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPassengerSeat_prop_idOwnedBy",
+            "parent_node": "idPassengerSeat",
+            "child_node": "idPassenger1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengerSeat_prop_idUnknownObject",
+            "parent_node": "idPassengerSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

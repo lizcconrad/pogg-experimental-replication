@@ -1,0 +1,13 @@
+strict digraph {
+idBottle1 [node_type=entity, lexicon_key=idBottle];
+shiny [node_type=property, lexicon_key=shiny];
+brown [node_type=property, lexicon_key=brown];
+broken [node_type=property, lexicon_key=broken];
+idGlowingArea1 [node_type=entity, lexicon_key=idGlowingArea];
+glowing [node_type=property, lexicon_key=glowing];
+idBottle1 -> shiny [label="idBottle1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idBottle1 -> brown [label="idBottle1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBottle1 -> broken [label="idBottle1_prop_idIntegrity", edge_type=property, lexicon_key=idIntegrity];
+idBottle1 -> idGlowingArea1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idGlowingArea1 -> glowing [label="idGlowingArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

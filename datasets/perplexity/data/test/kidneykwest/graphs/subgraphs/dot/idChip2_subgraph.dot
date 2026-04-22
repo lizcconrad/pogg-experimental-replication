@@ -1,0 +1,13 @@
+strict digraph {
+idChip2 [node_type=entity, lexicon_key=idChip];
+idpotato [node_type=property, lexicon_key=idpotato];
+salty [node_type=property, lexicon_key=salty];
+idCarrot1 [node_type=entity, lexicon_key=idCarrot];
+orange [node_type=property, lexicon_key=orange];
+true [node_type=property, lexicon_key=true];
+idChip2 -> idpotato [label="idChip2_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idChip2 -> salty [label="idChip2_prop_idSaltiness", edge_type=property, lexicon_key=idSaltiness];
+idChip2 -> idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCarrot1 -> orange [label="idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarrot1 -> true [label="idCarrot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

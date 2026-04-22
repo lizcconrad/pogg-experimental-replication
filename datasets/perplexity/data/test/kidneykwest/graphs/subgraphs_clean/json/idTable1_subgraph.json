@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idTable1": {
+            "node_type": "entity",
+            "lexicon_key": "idTable"
+        },
+        "idmarble": {
+            "node_type": "property",
+            "lexicon_key": "idmarble"
+        },
+        "idBagOfChips1": {
+            "node_type": "entity",
+            "lexicon_key": "idBagOfChips"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTable1_prop_idMaterial",
+            "parent_node": "idTable1",
+            "child_node": "idmarble",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTable1",
+            "child_node": "idBagOfChips1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

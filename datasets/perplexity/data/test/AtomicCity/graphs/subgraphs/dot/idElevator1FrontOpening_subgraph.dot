@@ -1,0 +1,5 @@
+strict digraph {
+idElevator1FrontOpening [node_type=entity, lexicon_key=idElevator1FrontOpening];
+idAtomicCityOutside1BackOpening [node_type=entity, lexicon_key=idAtomicCityOutside1BackOpening];
+idElevator1FrontOpening -> idAtomicCityOutside1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

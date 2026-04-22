@@ -1,0 +1,9 @@
+strict digraph {
+idLockFace1 [node_type="entity_node", root=root, lexicon_key=idLockFace];
+idDarkCave [lexicon_key=idDarkCave];
+3 [lexicon_key=3];
+dark [lexicon_key=dark];
+idLockFace1 -> idDarkCave [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idDarkCave -> 3 [label="idDarkCave_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDarkCave -> dark [label="idDarkCave_prop_idTone", edge_type=property, lexicon_key=idTone];
+}

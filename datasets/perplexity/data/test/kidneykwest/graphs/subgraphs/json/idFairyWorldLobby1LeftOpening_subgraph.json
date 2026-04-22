@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFairyWorldLobby1LeftOpening": {
+            "lexicon_key": "idFairyWorldLobby1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroneRoom1Door": {
+            "lexicon_key": "idThroneRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFairyWorldLobby1LeftOpening",
+            "child_node": "idThroneRoom1Door",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idThroneRoom1Door_prop_idOpenState",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idThroneRoom1Door_prop_idMaterial",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the fairy world lobby's left opening west of the open metal door to the throne room"
+    ]
+}

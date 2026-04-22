@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idFlashlight2": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idFlashlight2Switch": {
+            "lexicon_key": "idFlashlight2Switch",
+            "node_properties": {}
+        },
+        "on": {
+            "lexicon_key": "on",
+            "node_properties": {}
+        },
+        "orange": {
+            "lexicon_key": "orange",
+            "node_properties": {}
+        },
+        "idGreenRoomBackOpening": {
+            "lexicon_key": "idGreenRoomBackOpening",
+            "node_properties": {}
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {}
+        },
+        "idSafe2": {
+            "lexicon_key": "idSafe",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFlashlight2_prop_idPowerControl",
+            "parent_node": "idFlashlight2",
+            "child_node": "idFlashlight2Switch",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idPowerState",
+            "parent_node": "idFlashlight2",
+            "child_node": "on",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight2_prop_idColor",
+            "parent_node": "idFlashlight2",
+            "child_node": "orange",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight2",
+            "child_node": "idGreenRoomBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight2",
+            "child_node": "idSafe2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpening_prop_idHeight",
+            "parent_node": "idGreenRoomBackOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

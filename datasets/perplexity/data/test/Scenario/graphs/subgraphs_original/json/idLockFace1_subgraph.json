@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idLockFace1": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idDarkCave": {
+            "lexicon_key": "idDarkCave",
+            "node_properties": {}
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "dark": {
+            "lexicon_key": "dark",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLockFace1",
+            "child_node": "idDarkCave",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDarkCave_prop_idOrdinality",
+            "parent_node": "idDarkCave",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDarkCave_prop_idTone",
+            "parent_node": "idDarkCave",
+            "child_node": "dark",
+            "lexicon_key": "idTone",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

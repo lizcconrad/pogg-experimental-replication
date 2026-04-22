@@ -1,0 +1,11 @@
+strict digraph {
+idDriversSideFrontDoor [node_type=entity, lexicon_key=idDriversSideFrontDoor];
+idDriver1 [node_type=property, lexicon_key=idDriver];
+idDriver [node_type=property, lexicon_key=idDriver];
+idLocalFront [node_type=property, lexicon_key=idLocalFront];
+idDriversSideFrontDoorOutsideOpening [node_type=entity, lexicon_key=idDriversSideFrontDoorOutsideOpening];
+idDriversSideFrontDoor -> idDriver1 [label="idDriversSideFrontDoor_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idDriversSideFrontDoor -> idDriver [label="idDriversSideFrontDoor_prop_idCarSide", edge_type=property, lexicon_key=idCarSide];
+idDriversSideFrontDoor -> idLocalFront [label="idDriversSideFrontDoor_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idDriversSideFrontDoor -> idDriversSideFrontDoorOutsideOpening [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

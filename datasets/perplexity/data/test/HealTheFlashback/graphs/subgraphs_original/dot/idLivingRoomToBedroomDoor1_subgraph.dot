@@ -1,0 +1,13 @@
+strict digraph {
+idLivingRoomToBedroomDoor1 [node_type="entity_node", root=root, lexicon_key=idLivingRoomToBedroomDoor];
+open [lexicon_key=open];
+idPlayerLeftHand [lexicon_key=idPlayerLeftHand];
+idLocalLeft [lexicon_key=idLocalLeft];
+idBedroom1BackOpening [lexicon_key=idBedroom1BackOpening];
+idKitchCabDrawer1 [lexicon_key=idKitchCabDrawer];
+idLivingRoomToBedroomDoor1 -> open [label="idLivingRoomToBedroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLivingRoomToBedroomDoor1 -> idBedroom1BackOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idLivingRoomToBedroomDoor1 -> idPlayerLeftHand [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerLeftHand -> idKitchCabDrawer1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idRock2": {
+            "lexicon_key": "idRock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "rough": {
+            "lexicon_key": "rough",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idRock2_prop_idColor",
+            "parent_node": "idRock2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idTexture",
+            "parent_node": "idRock2",
+            "child_node": "rough",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idRock2",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerControl",
+            "parent_node": "idMachine1",
+            "child_node": "idOnSwitch1",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the rough red rock north of the machine with an on switch that is turned off"
+    ]
+}

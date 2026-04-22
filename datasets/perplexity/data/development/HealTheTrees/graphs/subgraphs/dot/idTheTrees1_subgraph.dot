@@ -1,0 +1,7 @@
+strict digraph {
+idTheTrees1 [node_type=entity, lexicon_key=idTheTrees];
+idGlowingArea1 [node_type=entity, lexicon_key=idGlowingArea];
+glowing [node_type=property, lexicon_key=glowing];
+idTheTrees1 -> idGlowingArea1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idGlowingArea1 -> glowing [label="idGlowingArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idBarrel1": {
+            "lexicon_key": "idBarrel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idButtonZ": {
+            "lexicon_key": "idButtonZ",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBarrel1_prop_idMaterial",
+            "parent_node": "idBarrel1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBarrel1_prop_idInterestingObject",
+            "parent_node": "idBarrel1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBarrel1",
+            "child_node": "idButtonZ",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idButtonZ_prop_idOrdinality",
+            "parent_node": "idButtonZ",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the interesting wooden barrel east of the third button"
+    ]
+}

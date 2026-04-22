@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idLongHallwayLeftOpeningDoor": {
+            "lexicon_key": "idLongHallwayLeftOpeningDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLongHallwayLeftOpeningDoor_prop_idOpenState",
+            "parent_node": "idLongHallwayLeftOpeningDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayLeftOpeningDoor_prop_idColor",
+            "parent_node": "idLongHallwayLeftOpeningDoor",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

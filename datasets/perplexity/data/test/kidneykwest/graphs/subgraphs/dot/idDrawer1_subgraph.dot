@@ -1,0 +1,13 @@
+strict digraph {
+idDrawer1 [node_type=entity, lexicon_key=idDrawer];
+closed [node_type=property, lexicon_key=closed];
+1 [node_type=property, lexicon_key=1];
+upper [node_type=property, lexicon_key=upper];
+idMachine1 [node_type=entity, lexicon_key=idMachine];
+idThing [node_type=property, lexicon_key=idThing];
+idDrawer1 -> closed [label="idDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer1 -> 1 [label="idDrawer1_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDrawer1 -> upper [label="idDrawer1_prop_idVerticalArrangement", edge_type=property, lexicon_key=idVerticalArrangement];
+idDrawer1 -> idMachine1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idMachine1 -> idThing [label="idMachine1_prop_idButtonsPushed", edge_type=property, lexicon_key=idButtonsPushed];
+}

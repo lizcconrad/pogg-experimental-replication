@@ -1,0 +1,11 @@
+strict digraph {
+idLivingRoomToBedroomDoor1 [node_type=entity, lexicon_key=idLivingRoomToBedroomDoor];
+open [node_type=property, lexicon_key=open];
+idChair2 [node_type=entity, lexicon_key=idChair];
+regular [node_type=property, lexicon_key=regular];
+white [node_type=property, lexicon_key=white];
+idLivingRoomToBedroomDoor1 -> open [label="idLivingRoomToBedroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLivingRoomToBedroomDoor1 -> idChair2 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idChair2 -> regular [label="idChair2_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idChair2 -> white [label="idChair2_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

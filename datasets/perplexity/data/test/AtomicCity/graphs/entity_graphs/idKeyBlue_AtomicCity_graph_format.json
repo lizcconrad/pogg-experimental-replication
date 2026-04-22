@@ -1,0 +1,800 @@
+{
+    "nodes": {
+        "idKeyBlue": {
+            "lexicon_key": "idKeyBlue",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "blue": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idComputerRoom1": {
+            "lexicon_key": "idComputerRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBeefJerky1": {
+            "lexicon_key": "idBeefJerky",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFusePackage": {
+            "lexicon_key": "idFusePackage",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCardKey1": {
+            "lexicon_key": "idCardKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuse30A": {
+            "lexicon_key": "idFuse30A",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idComputerRoom1BackOpening": {
+            "lexicon_key": "idComputerRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallway": {
+            "lexicon_key": "idLongHallway",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevatorOpening": {
+            "lexicon_key": "idElevatorOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevatorDoor": {
+            "lexicon_key": "idElevatorDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineRoom": {
+            "lexicon_key": "idMachineRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevator1": {
+            "lexicon_key": "idElevator",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayFrontOpeningDoor": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayFrontOpening": {
+            "lexicon_key": "idLongHallwayFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayBackOpeningDoor": {
+            "lexicon_key": "idLongHallwayBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayBackOpening": {
+            "lexicon_key": "idLongHallwayBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idOffice1RightOpening": {
+            "lexicon_key": "idOffice1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayLeftOpening": {
+            "lexicon_key": "idLongHallwayLeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idElevator1FrontOpening": {
+            "lexicon_key": "idElevator1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallwayLeftOpeningDoor": {
+            "lexicon_key": "idLongHallwayLeftOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineRoomFrontOpening": {
+            "lexicon_key": "idMachineRoomFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idOffice1": {
+            "lexicon_key": "idOffice",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCandyBar1": {
+            "lexicon_key": "idCandyBar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idControlPanel1": {
+            "lexicon_key": "idControlPanel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuse2": {
+            "lexicon_key": "idFuse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuse3": {
+            "lexicon_key": "idFuse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuseBox1": {
+            "lexicon_key": "idFuseBox",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuseSocket1": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuseSocket2": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFuseSocket3": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPipe1": {
+            "lexicon_key": "idPipe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPipe2": {
+            "lexicon_key": "idPipe",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idShutoff": {
+            "lexicon_key": "idShutoff",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idShutoffValveLight1": {
+            "lexicon_key": "idShutoffValveLight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWolf1": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWolf2": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWolf3": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWolf4": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idAtomicCityOutside1": {
+            "lexicon_key": "idAtomicCityOutside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idComputerRoom1FrontOpening": {
+            "lexicon_key": "idComputerRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idAtomicCityOutside1BackOpening": {
+            "lexicon_key": "idAtomicCityOutside1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idComputerRoom1FrontOpeningDoor": {
+            "lexicon_key": "idComputerRoom1FrontOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKeyBlue_prop_idColor",
+            "parent_node": "idKeyBlue",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idKeyBlue",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idComputerRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idDesk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idKeyBlue",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idBeefJerky1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFusePackage",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idCardKey1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuse30A",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idComputerRoom1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallway",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idElevatorOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idElevatorDoor",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idMachineRoom",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idElevator1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayFrontOpeningDoor",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayBackOpeningDoor",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayBackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayLeftOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idElevator1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayLeftOpeningDoor",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idMachineRoomFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idOffice1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idCandyBar1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idControlPanel1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuse2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuse3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuseBox1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuseSocket1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuseSocket2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idFuseSocket3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idOnSwitch1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idPipe1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idPipe2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idShutoff",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idShutoffValveLight1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf4",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idAtomicCityOutside1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idComputerRoom1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idAtomicCityOutside1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idComputerRoom1FrontOpeningDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayLeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idLongHallwayLeftOpeningDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idOffice1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf3",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idKeyBlue",
+            "child_node": "idWolf4",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

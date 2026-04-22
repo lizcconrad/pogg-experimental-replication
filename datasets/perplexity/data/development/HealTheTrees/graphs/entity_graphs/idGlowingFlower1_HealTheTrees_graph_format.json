@@ -1,0 +1,68 @@
+{
+    "nodes": {
+        "idGlowingFlower1": {
+            "lexicon_key": "idGlowingFlower",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "bright": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "glowing": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGlowingFlower1_prop_idColor",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idTint",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "bright",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idDescriptor",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "glowing",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idUnknownObject",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idDuct1Opening": {
+            "lexicon_key": "idDuct1Opening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDuct1Flap": {
+            "lexicon_key": "idDuct1Flap",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDuct1Opening",
+            "child_node": "idDuct1Flap",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDuct1Flap_prop_idOpenState",
+            "parent_node": "idDuct1Flap",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the duct opening near the closed duct flap"
+    ]
+}

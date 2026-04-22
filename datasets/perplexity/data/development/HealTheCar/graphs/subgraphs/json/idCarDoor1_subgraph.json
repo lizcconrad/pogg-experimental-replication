@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCarDoor1": {
+            "lexicon_key": "idCarDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "old": {
+            "lexicon_key": "old",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCarDoor1_prop_idDescriptor",
+            "parent_node": "idCarDoor1",
+            "child_node": "old",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idLocation_1",
+            "parent_node": "idCarDoor1",
+            "child_node": "left",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarDoor1_prop_idOwnedBy",
+            "parent_node": "idCarDoor1",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the old car door on the left which is owned by the driver"
+    ]
+}

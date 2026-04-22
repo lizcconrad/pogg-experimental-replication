@@ -1,0 +1,11 @@
+strict digraph {
+idToilet1 [node_type="entity_node", root=root, lexicon_key=idToilet];
+white [lexicon_key=white];
+yes [lexicon_key=yes];
+idBedroom1 [lexicon_key=idBedroom];
+idBedroom1BackOpening [lexicon_key=idBedroom1BackOpening];
+idToilet1 -> white [label="idToilet1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idToilet1 -> yes [label="idToilet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idToilet1 -> idBedroom1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idToilet1 -> idBedroom1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

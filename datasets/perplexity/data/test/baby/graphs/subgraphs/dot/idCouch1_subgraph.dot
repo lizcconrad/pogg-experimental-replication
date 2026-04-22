@@ -1,0 +1,9 @@
+strict digraph {
+idCouch1 [node_type=entity, lexicon_key=idCouch];
+yes [node_type=property, lexicon_key=yes];
+true [node_type=property, lexicon_key=true];
+idScrewdriver1 [node_type=entity, lexicon_key=idScrewdriver];
+idCouch1 -> yes [label="idCouch1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCouch1 -> true [label="idCouch1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCouch1 -> idScrewdriver1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

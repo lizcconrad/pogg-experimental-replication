@@ -1,0 +1,84 @@
+{
+    "nodes": {
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idNone": {
+            "lexicon_key": "idNone",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLivingRoomToBedroomDoor": {
+            "lexicon_key": "idLivingRoomToBedroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBaby1_prop_idCrawlingRoom",
+            "parent_node": "idBaby1",
+            "child_node": "idNone",
+            "lexicon_key": "idCrawlingRoom",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idUnknownObject",
+            "parent_node": "idBaby1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idCryTurns",
+            "parent_node": "idBaby1",
+            "child_node": "0",
+            "lexicon_key": "idCryTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBaby1",
+            "child_node": "idLivingRoomToBedroomDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToBedroomDoor_prop_idUnknownObject",
+            "parent_node": "idLivingRoomToBedroomDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown baby who hasn't cried west of the unknown door from the bedroom to the living room"
+    ]
+}

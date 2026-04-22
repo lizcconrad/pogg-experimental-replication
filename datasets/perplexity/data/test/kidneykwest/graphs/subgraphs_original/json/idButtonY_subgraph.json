@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idButtonY": {
+            "lexicon_key": "idButtonY",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {}
+        },
+        "idCaptainsChair1": {
+            "lexicon_key": "idCaptainsChair",
+            "node_properties": {}
+        },
+        "idleather": {
+            "lexicon_key": "idleather",
+            "node_properties": {}
+        },
+        "idCaptain1": {
+            "lexicon_key": "idCaptain",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonY_prop_idOrdinality",
+            "parent_node": "idButtonY",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idButtonY",
+            "child_node": "idCaptainsChair1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCaptainsChair1_prop_idMaterial",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idleather",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCaptainsChair1_prop_idOwnedBy",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idCaptain1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idRock2": {
+            "lexicon_key": "idRock",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "rough": {
+            "lexicon_key": "rough",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idRock2_prop_idColor",
+            "parent_node": "idRock2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idTexture",
+            "parent_node": "idRock2",
+            "child_node": "rough",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

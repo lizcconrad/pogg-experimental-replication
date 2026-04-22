@@ -1,0 +1,71 @@
+{
+    "nodes": {
+        "idDrawer3": {
+            "node_type": "entity",
+            "lexicon_key": "idDrawer"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        },
+        "low": {
+            "node_type": "property",
+            "lexicon_key": "low"
+        },
+        "3": {
+            "node_type": "property",
+            "lexicon_key": "3"
+        },
+        "idButtonZ": {
+            "node_type": "entity",
+            "lexicon_key": "idButtonZ"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer3_prop_idOpenState",
+            "parent_node": "idDrawer3",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idVerticalArrangement",
+            "parent_node": "idDrawer3",
+            "child_node": "low",
+            "lexicon_key": "idVerticalArrangement",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idOrdinality",
+            "parent_node": "idDrawer3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDrawer3",
+            "child_node": "idButtonZ",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idButtonZ_prop_idOrdinality",
+            "parent_node": "idButtonZ",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

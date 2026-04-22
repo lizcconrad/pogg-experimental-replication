@@ -1,0 +1,13 @@
+strict digraph {
+idMachine1 [lexicon_key=idMachine];
+true [lexicon_key=true];
+idThing [lexicon_key=idThing];
+off [lexicon_key=off];
+idLab1Door [lexicon_key=idLab1Door];
+white [lexicon_key=white];
+idMachine1 -> true [label="idMachine1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idMachine1 -> idThing [label="idMachine1_prop_idButtonsPushed", edge_type=property, lexicon_key=idButtonsPushed];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idMachine1 -> idLab1Door [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idLab1Door -> white [label="idLab1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

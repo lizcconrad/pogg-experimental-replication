@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idLivingroom1": {
+            "lexicon_key": "idLivingroom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idMedDrawer1": {
+            "lexicon_key": "idMedDrawer",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idLivingroom1LeftOpening": {
+            "lexicon_key": "idLivingroom1LeftOpening",
+            "node_properties": {}
+        },
+        "idDresser1": {
+            "lexicon_key": "idDresser",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLivingroom1",
+            "child_node": "idLivingroom1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLivingroom1",
+            "child_node": "idMedDrawer1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMedDrawer1_prop_idOpenState",
+            "parent_node": "idMedDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMedDrawer1",
+            "child_node": "idDresser1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

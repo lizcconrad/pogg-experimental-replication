@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idCavern6Outside": {
+            "lexicon_key": "idCavern6Outside",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "outside": {
+            "lexicon_key": "outside",
+            "node_properties": {}
+        },
+        "idCavern6FrontOpening": {
+            "lexicon_key": "idCavern6FrontOpening",
+            "node_properties": {}
+        },
+        "idCavern1RightOpening": {
+            "lexicon_key": "idCavern1RightOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern6Outside_prop_idDescriptor",
+            "parent_node": "idCavern6Outside",
+            "child_node": "outside",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCavern6Outside",
+            "child_node": "idCavern6FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern6FrontOpening",
+            "child_node": "idCavern1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

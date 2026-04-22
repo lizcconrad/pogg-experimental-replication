@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idMachineRoomFrontOpening": {
+            "lexicon_key": "idMachineRoomFrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idAdamRightHand": {
+            "lexicon_key": "idAdamRightHand",
+            "node_properties": {}
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idLongHallwayFrontOpeningDoor": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoor",
+            "node_properties": {}
+        },
+        "idLongHallwayFrontOpeningDoorLock": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoorLock",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idShutoff": {
+            "lexicon_key": "idShutoff",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMachineRoomFrontOpening",
+            "child_node": "idAdamRightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMachineRoomFrontOpening",
+            "child_node": "idLongHallwayFrontOpeningDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idAdamRightHand_prop_idSide",
+            "parent_node": "idAdamRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayFrontOpeningDoor_prop_idLockMechanism",
+            "parent_node": "idLongHallwayFrontOpeningDoor",
+            "child_node": "idLongHallwayFrontOpeningDoorLock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLongHallwayFrontOpeningDoor_prop_idColor",
+            "parent_node": "idLongHallwayFrontOpeningDoor",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLongHallwayFrontOpeningDoor",
+            "child_node": "idShutoff",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

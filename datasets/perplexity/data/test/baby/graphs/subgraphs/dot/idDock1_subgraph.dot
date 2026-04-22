@@ -1,0 +1,9 @@
+strict digraph {
+idDock1 [node_type=entity, lexicon_key=idDock];
+yes [node_type=property, lexicon_key=yes];
+true [node_type=property, lexicon_key=true];
+idFrontDoor1idPorch1idNorthOfOpening [node_type=entity, lexicon_key=idFrontDoor1idPorch1idNorthOfOpening];
+idDock1 -> yes [label="idDock1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDock1 -> true [label="idDock1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idDock1 -> idFrontDoor1idPorch1idNorthOfOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

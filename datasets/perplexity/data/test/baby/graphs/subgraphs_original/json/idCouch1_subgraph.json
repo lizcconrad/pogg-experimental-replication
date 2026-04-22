@@ -1,0 +1,100 @@
+{
+    "nodes": {
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idLivingRoomToKitchenDoor": {
+            "lexicon_key": "idLivingRoomToKitchenDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idSidewalk1": {
+            "lexicon_key": "idSidewalk",
+            "node_properties": {}
+        },
+        "idCloset1": {
+            "lexicon_key": "idCloset",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCouch1_prop_idImmovable",
+            "parent_node": "idCouch1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCouch1_prop_idUnknownObject",
+            "parent_node": "idCouch1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCouch1",
+            "child_node": "idLivingRoomToKitchenDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCouch1",
+            "child_node": "idSidewalk1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToKitchenDoor_prop_idOpenState",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToKitchenDoor_prop_idUnknownObject",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "idCloset1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

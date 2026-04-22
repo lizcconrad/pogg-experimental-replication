@@ -1,0 +1,13 @@
+strict digraph {
+idPhosphateCrystal_idApple1 [lexicon_key="idPhosphateCrystal_idApple"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+true [lexicon_key=true];
+idPail1 [lexicon_key=idPail];
+idmetal [lexicon_key=idmetal];
+idPhosphateCrystal_idApple1 -> blue [label="idPhosphateCrystal_idApple1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idApple1 -> shiny [label="idPhosphateCrystal_idApple1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idPhosphateCrystal_idApple1 -> true [label="idPhosphateCrystal_idApple1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idApple1 -> idPail1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPail1 -> idmetal [label="idPail1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

@@ -1,0 +1,812 @@
+{
+    "nodes": {
+        "idSink1": {
+            "lexicon_key": "idSink",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idporcelain": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "stained": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTheFlashback1": {
+            "lexicon_key": "idTheFlashback",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMedicineCabinet1": {
+            "lexicon_key": "idMedicineCabinet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idToilet1": {
+            "lexicon_key": "idToilet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWater1": {
+            "lexicon_key": "idWater",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroomToBathroomDoor1": {
+            "lexicon_key": "idBedroomToBathroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoomToBedroomDoor1": {
+            "lexicon_key": "idLivingRoomToBedroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingroom1BackOpening": {
+            "lexicon_key": "idLivingroom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBathroom1FrontOpening": {
+            "lexicon_key": "idBathroom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1BackOpening": {
+            "lexicon_key": "idBedroom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingroom1": {
+            "lexicon_key": "idLivingroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoomToKitchenDoor1": {
+            "lexicon_key": "idLivingRoomToKitchenDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingroom1LeftOpening": {
+            "lexicon_key": "idLivingroom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCarKey1": {
+            "lexicon_key": "idCarKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChair1": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDresser1": {
+            "lexicon_key": "idDresser",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLock1": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPillow1": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPillow2": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRug1": {
+            "lexicon_key": "idRug",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSock1": {
+            "lexicon_key": "idSock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchen1FrontOpening": {
+            "lexicon_key": "idKitchen1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabinet1": {
+            "lexicon_key": "idCabinet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCalendar1": {
+            "lexicon_key": "idCalendar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChair2": {
+            "lexicon_key": "idChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKey1": {
+            "lexicon_key": "idKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchCabDrawer1": {
+            "lexicon_key": "idKitchCabDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSink1_prop_idColor",
+            "parent_node": "idSink1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idDescriptor",
+            "parent_node": "idSink1",
+            "child_node": "idporcelain",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idDescriptor_1",
+            "parent_node": "idSink1",
+            "child_node": "stained",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idImmovable",
+            "parent_node": "idSink1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idSink1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idSink1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idSink1",
+            "child_node": "idTheFlashback1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSink1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSink1",
+            "child_node": "idMedicineCabinet1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSink1",
+            "child_node": "idSink1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSink1",
+            "child_node": "idToilet1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSink1",
+            "child_node": "idWater1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idBedroomToBathroomDoor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingRoomToBedroomDoor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idBathroom1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idBedroom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingRoomToKitchenDoor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1LeftOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idBed1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idCarKey1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idChair1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idDrawer2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idDresser1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idLock1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPillow1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPillow2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idRug1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSink1",
+            "child_node": "idSock1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingRoomToBedroomDoor1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1BackOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idKitchen1FrontOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingRoomToKitchenDoor1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingroom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idCabinet1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idCalendar1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idCarKey1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idChair1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idChair2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idDrawer2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idKey1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idKitchCabDrawer1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLock1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

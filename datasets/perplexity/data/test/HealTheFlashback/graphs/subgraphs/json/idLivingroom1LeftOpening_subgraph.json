@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idLivingroom1LeftOpening": {
+            "lexicon_key": "idLivingroom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRug1": {
+            "lexicon_key": "idRug",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "stained": {
+            "lexicon_key": "stained",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLivingroom1LeftOpening",
+            "child_node": "idRug1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idRug1_prop_idColor",
+            "parent_node": "idRug1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRug1_prop_idDescriptor",
+            "parent_node": "idRug1",
+            "child_node": "stained",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the living room's left opening east of the stained black rug"
+    ]
+}

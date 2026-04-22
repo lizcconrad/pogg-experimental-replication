@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idEntrancecave": {
+            "lexicon_key": "idEntrancecave",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {}
+        },
+        "idFlashlight2": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idEntrancecave_prop_idOrdinality",
+            "parent_node": "idEntrancecave",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idEntrancecave_prop_idOpenState",
+            "parent_node": "idEntrancecave",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idEntrancecave",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerControl",
+            "parent_node": "idMachine1",
+            "child_node": "idOnSwitch1",
+            "lexicon_key": "idPowerControl",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachine1",
+            "child_node": "idFlashlight2",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

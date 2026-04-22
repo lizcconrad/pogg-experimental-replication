@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idWorkshop1LeftOpening": {
+            "lexicon_key": "idWorkshop1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idScrewdriver1": {
+            "lexicon_key": "idScrewdriver",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "pointy": {
+            "lexicon_key": "pointy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idWorkshop1LeftOpening",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idScrewdriver1_prop_idShape",
+            "parent_node": "idScrewdriver1",
+            "child_node": "pointy",
+            "lexicon_key": "idShape",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idScrewdriver1_prop_idUnknownObject",
+            "parent_node": "idScrewdriver1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the workshop's left opening east of the unknown pointy screwdriver"
+    ]
+}

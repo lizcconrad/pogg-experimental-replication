@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idFrog1": {
+            "lexicon_key": "idFrog",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFrog1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idEatenBerry",
+            "parent_node": "idPlayer",
+            "child_node": "false",
+            "lexicon_key": "idEatenBerry",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the frog west of the player who has not eaten a berry"
+    ]
+}

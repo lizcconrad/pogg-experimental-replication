@@ -1,0 +1,13 @@
+strict digraph {
+idStomach1FrontOpening [node_type="entity_node", root=root, lexicon_key=idStomach1FrontOpening];
+idLargeIntestine1 [lexicon_key=idLargeIntestine];
+large [lexicon_key=large];
+idVilli1 [lexicon_key=idVilli];
+true [lexicon_key=true];
+yes [lexicon_key=yes];
+idStomach1FrontOpening -> idLargeIntestine1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idStomach1FrontOpening -> idVilli1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idLargeIntestine1 -> large [label="idLargeIntestine1_prop_idSize", edge_type=property, lexicon_key=idSize];
+idVilli1 -> true [label="idVilli1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idVilli1 -> yes [label="idVilli1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

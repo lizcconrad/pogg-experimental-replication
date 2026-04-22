@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idDrawer2": {
+            "node_type": "entity",
+            "lexicon_key": "idDrawer"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        },
+        "2": {
+            "node_type": "property",
+            "lexicon_key": "2"
+        },
+        "idCarrot1": {
+            "node_type": "entity",
+            "lexicon_key": "idCarrot"
+        },
+        "orange": {
+            "node_type": "property",
+            "lexicon_key": "orange"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer2_prop_idOpenState",
+            "parent_node": "idDrawer2",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idOrdinality",
+            "parent_node": "idDrawer2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDrawer2",
+            "child_node": "idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCarrot1_prop_idColor",
+            "parent_node": "idCarrot1",
+            "child_node": "orange",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarrot1_prop_idUnknownObject",
+            "parent_node": "idCarrot1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

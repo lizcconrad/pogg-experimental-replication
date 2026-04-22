@@ -1,0 +1,96 @@
+{
+    "nodes": {
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idKey1": {
+            "lexicon_key": "idKey",
+            "node_properties": {}
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idPillBottle1": {
+            "lexicon_key": "idPillBottle",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBedroom1",
+            "child_node": "idKey1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBedroom1",
+            "child_node": "idPillBottle1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKey1_prop_idColor",
+            "parent_node": "idKey1",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKey1_prop_idUnknownObject",
+            "parent_node": "idKey1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillBottle1_prop_idColor",
+            "parent_node": "idPillBottle1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillBottle1_prop_idUnknownObject",
+            "parent_node": "idPillBottle1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPillBottle1",
+            "child_node": "idKey1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

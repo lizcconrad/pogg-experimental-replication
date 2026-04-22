@@ -1,0 +1,11 @@
+strict digraph {
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idBear1 [node_type=entity, lexicon_key=idBear];
+yes [node_type=property, lexicon_key=yes];
+angry [node_type=property, lexicon_key=angry];
+idPlayer -> false [label="idPlayer_prop_idEatenBerry", edge_type=property, lexicon_key=idEatenBerry];
+idPlayer -> idBear1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBear1 -> yes [label="idBear1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBear1 -> angry [label="idBear1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

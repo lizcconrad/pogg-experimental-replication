@@ -1,0 +1,9 @@
+strict digraph {
+idComputerRoom1FrontOpening [node_type="entity_node", root=root, lexicon_key=idComputerRoom1FrontOpening];
+idLongHallwayFrontOpening [lexicon_key=idLongHallwayFrontOpening];
+idOffice1RightOpening [lexicon_key=idOffice1RightOpening];
+idAdamLeftHand [lexicon_key=idAdamLeftHand];
+idComputerRoom1FrontOpening -> idLongHallwayFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idComputerRoom1FrontOpening -> idOffice1RightOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idOffice1RightOpening -> idAdamLeftHand [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

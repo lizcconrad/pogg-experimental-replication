@@ -1,0 +1,7 @@
+strict digraph {
+idFrog1 [node_type=entity, lexicon_key=idFrog];
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idFrog1 -> idPlayer [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPlayer -> false [label="idPlayer_prop_idEatenBerry", edge_type=property, lexicon_key=idEatenBerry];
+}

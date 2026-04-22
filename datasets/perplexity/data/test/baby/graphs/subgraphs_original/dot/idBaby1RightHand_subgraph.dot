@@ -1,0 +1,13 @@
+strict digraph {
+idBaby1RightHand [node_type="entity_node", root=root, lexicon_key=idBaby1RightHand];
+right [lexicon_key=right];
+idStartButton [lexicon_key=idStartButton];
+off [lexicon_key=off];
+true [lexicon_key=true];
+idButton2 [lexicon_key=idButton];
+idBaby1RightHand -> right [label="idBaby1RightHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idBaby1RightHand -> idStartButton [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idStartButton -> off [label="idStartButton_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idStartButton -> true [label="idStartButton_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idStartButton -> idButton2 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDarkCave": {
+            "lexicon_key": "idDarkCave",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "dark": {
+            "lexicon_key": "dark",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCrystal1": {
+            "lexicon_key": "idCrystal",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDarkCave_prop_idOrdinality",
+            "parent_node": "idDarkCave",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDarkCave_prop_idTone",
+            "parent_node": "idDarkCave",
+            "child_node": "dark",
+            "lexicon_key": "idTone",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDarkCave",
+            "child_node": "idCrystal1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the third dark dark cave south of the crystal"
+    ]
+}

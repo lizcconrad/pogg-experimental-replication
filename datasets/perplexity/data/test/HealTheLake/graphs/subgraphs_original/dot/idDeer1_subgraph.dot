@@ -1,0 +1,9 @@
+strict digraph {
+idDeer1 [node_type="entity_node", root=root, lexicon_key=idDeer];
+brown [lexicon_key=brown];
+bloody [lexicon_key=bloody];
+bleeding [lexicon_key=bleeding];
+idDeer1 -> brown [label="idDeer1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDeer1 -> bloody [label="idDeer1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idDeer1 -> bleeding [label="idDeer1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idKelly1 [node_type=entity, lexicon_key=idKelly];
+closed [node_type=property, lexicon_key=closed];
+happy [node_type=property, lexicon_key=happy];
+magic [node_type=property, lexicon_key=magic];
+idFairyWorldLobby1 [node_type=entity, lexicon_key=idFairyWorldLobby];
+idKelly1 -> closed [label="idKelly1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idKelly1 -> happy [label="idKelly1_prop_idEmotion", edge_type=property, lexicon_key=idEmotion];
+idKelly1 -> magic [label="idKelly1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idKelly1 -> idFairyWorldLobby1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

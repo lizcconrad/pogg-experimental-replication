@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idDaycare1": {
+            "lexicon_key": "idDaycare",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLot1": {
+            "lexicon_key": "idLot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "dusty": {
+            "lexicon_key": "dusty",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDaycare1",
+            "child_node": "idLot1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLot1_prop_idMaterial",
+            "parent_node": "idLot1",
+            "child_node": "dusty",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the day care near the dusty lot"
+    ]
+}

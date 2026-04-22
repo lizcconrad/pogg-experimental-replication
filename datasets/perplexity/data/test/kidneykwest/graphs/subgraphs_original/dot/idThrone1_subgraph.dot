@@ -1,0 +1,15 @@
+strict digraph {
+idThrone1 [node_type="entity_node", root=root, lexicon_key=idThrone];
+yes [lexicon_key=yes];
+idiron [lexicon_key=idiron];
+idMachine1 [lexicon_key=idMachine];
+off [lexicon_key=off];
+true [lexicon_key=true];
+idStick1 [lexicon_key=idStick];
+idThrone1 -> yes [label="idThrone1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idThrone1 -> idiron [label="idThrone1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idThrone1 -> idMachine1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idMachine1 -> true [label="idMachine1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idMachine1 -> idStick1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

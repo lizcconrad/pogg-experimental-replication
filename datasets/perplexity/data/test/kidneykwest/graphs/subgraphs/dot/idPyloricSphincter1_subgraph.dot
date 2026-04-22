@@ -1,0 +1,9 @@
+strict digraph {
+idPyloricSphincter1 [node_type=entity, lexicon_key=idPyloricSphincter];
+pyloric [node_type=property, lexicon_key=pyloric];
+closed [node_type=property, lexicon_key=closed];
+idValve1 [node_type=entity, lexicon_key=idValve];
+idPyloricSphincter1 -> pyloric [label="idPyloricSphincter1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idPyloricSphincter1 -> closed [label="idPyloricSphincter1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idPyloricSphincter1 -> idValve1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idBabyCarSeat [node_type=entity, lexicon_key=idBabyCarSeat];
+yes [node_type=property, lexicon_key=yes];
+true [node_type=property, lexicon_key=true];
+idGoButton [node_type=entity, lexicon_key=idGoButton];
+idBabyCarSeat -> yes [label="idBabyCarSeat_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBabyCarSeat -> true [label="idBabyCarSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBabyCarSeat -> idGoButton [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idBook1Page3Torn": {
+            "lexicon_key": "idBook1Page3Torn",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "idPlage": {
+            "lexicon_key": "idPlage",
+            "node_properties": {}
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {}
+        },
+        "idRock2": {
+            "lexicon_key": "idRock",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "rough": {
+            "lexicon_key": "rough",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBook1Page3Torn_prop_idCardinality",
+            "parent_node": "idBook1Page3Torn",
+            "child_node": "3",
+            "lexicon_key": "idCardinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1Page3Torn",
+            "child_node": "idPlage",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1Page3Torn",
+            "child_node": "idRock2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlage_prop_idOrdinality",
+            "parent_node": "idPlage",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idColor",
+            "parent_node": "idRock2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idTexture",
+            "parent_node": "idRock2",
+            "child_node": "rough",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

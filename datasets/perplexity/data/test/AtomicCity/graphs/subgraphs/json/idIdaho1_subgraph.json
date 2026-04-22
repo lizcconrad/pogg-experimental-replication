@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idIdaho1": {
+            "lexicon_key": "idIdaho",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineRoom": {
+            "lexicon_key": "idMachineRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idIdaho1",
+            "child_node": "idMachineRoom",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachineRoom_prop_idColor",
+            "parent_node": "idMachineRoom",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "Idaho which is near the red machine room"
+    ]
+}

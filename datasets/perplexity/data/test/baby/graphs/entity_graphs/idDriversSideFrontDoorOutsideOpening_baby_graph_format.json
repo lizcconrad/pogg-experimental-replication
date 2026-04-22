@@ -1,0 +1,11 @@
+{
+    "nodes": {
+        "idDriversSideFrontDoorOutsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorOutsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": []
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCavern4FrontOpening": {
+            "lexicon_key": "idCavern4FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGrass1": {
+            "lexicon_key": "idGrass",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "short": {
+            "lexicon_key": "short",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern4FrontOpening",
+            "child_node": "idGrass1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idHeight",
+            "parent_node": "idGrass1",
+            "child_node": "short",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGrass1_prop_idColor",
+            "parent_node": "idGrass1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cavern's front opening east of the short green grass"
+    ]
+}

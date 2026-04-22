@@ -1,0 +1,7 @@
+strict digraph {
+idKitchen1FrontOpening [node_type=entity, lexicon_key=idKitchen1FrontOpening];
+idChair1 [node_type=entity, lexicon_key=idChair];
+brown [node_type=property, lexicon_key=brown];
+idKitchen1FrontOpening -> idChair1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idChair1 -> brown [label="idChair1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idSafe2 [node_type=entity, lexicon_key=idSafe];
+idSafe1 [node_type=entity, lexicon_key=idSafe];
+idSafe2 -> idSafe1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idBackyardDoor1": {
+            "lexicon_key": "idBackyardDoor",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idBackyardDoor1Lock": {
+            "lexicon_key": "idBackyardDoor1Lock",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idBackyardDoor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1_prop_idOpenState",
+            "parent_node": "idBackyardDoor1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1_prop_idLockMechanism",
+            "parent_node": "idBackyardDoor1",
+            "child_node": "idBackyardDoor1Lock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

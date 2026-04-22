@@ -1,0 +1,7 @@
+strict digraph {
+idLexiLeftHand [node_type=entity, lexicon_key=idLexiLeftHand];
+left [node_type=property, lexicon_key=left];
+idEntrancecaveBackOpening [node_type=entity, lexicon_key=idEntrancecaveBackOpening];
+idLexiLeftHand -> left [label="idLexiLeftHand_prop_idSide", edge_type=property, lexicon_key=idSide];
+idLexiLeftHand -> idEntrancecaveBackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

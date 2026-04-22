@@ -1,0 +1,15 @@
+strict digraph {
+idThroneRoom1Door [node_type="entity_node", root=root, lexicon_key=idThroneRoom1Door];
+grey [lexicon_key=grey];
+idmetal [lexicon_key=idmetal];
+open [lexicon_key=open];
+idPhosphateCrystal_idChip1 [lexicon_key="idPhosphateCrystal_idChip"];
+blue [lexicon_key=blue];
+true [lexicon_key=true];
+idThroneRoom1Door -> grey [label="idThroneRoom1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+idThroneRoom1Door -> idmetal [label="idThroneRoom1Door_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idThroneRoom1Door -> open [label="idThroneRoom1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idThroneRoom1Door -> idPhosphateCrystal_idChip1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPhosphateCrystal_idChip1 -> blue [label="idPhosphateCrystal_idChip1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idChip1 -> true [label="idPhosphateCrystal_idChip1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

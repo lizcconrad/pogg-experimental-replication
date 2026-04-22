@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idHamburger1": {
+            "lexicon_key": "idHamburger",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "salty": {
+            "lexicon_key": "salty",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDog1": {
+            "lexicon_key": "idDog",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHamburger1_prop_idSaltiness",
+            "parent_node": "idHamburger1",
+            "child_node": "salty",
+            "lexicon_key": "idSaltiness",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idHamburger1",
+            "child_node": "idDog1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the salty hamburger east of the dog"
+    ]
+}

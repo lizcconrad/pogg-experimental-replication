@@ -1,0 +1,7 @@
+strict digraph {
+idLongHallwayFrontOpeningDoorKeyhole [node_type="entity_node", root=root, lexicon_key=idLongHallwayFrontOpeningDoorKeyhole];
+idLongHallwayFrontOpeningDoorLock [lexicon_key=idLongHallwayFrontOpeningDoorLock];
+locked [lexicon_key=locked];
+idLongHallwayFrontOpeningDoorKeyhole -> idLongHallwayFrontOpeningDoorLock [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idLongHallwayFrontOpeningDoorLock -> locked [label="idLongHallwayFrontOpeningDoorLock_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+}

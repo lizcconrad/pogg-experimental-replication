@@ -1,0 +1,5 @@
+strict digraph {
+idWorld1 [lexicon_key=idWorld];
+idCostumeCloset1 [lexicon_key=idCostumeCloset];
+idWorld1 -> idCostumeCloset1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

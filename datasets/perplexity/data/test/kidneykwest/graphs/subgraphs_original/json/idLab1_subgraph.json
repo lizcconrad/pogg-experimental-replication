@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idLab1": {
+            "lexicon_key": "idLab",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLab1_prop_idColor",
+            "parent_node": "idLab1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

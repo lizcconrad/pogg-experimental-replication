@@ -1,0 +1,13 @@
+strict digraph {
+idThroneRoom1 [node_type="entity_node", root=root, lexicon_key=idThroneRoom];
+idDrawer3 [lexicon_key=idDrawer];
+low [lexicon_key=low];
+3 [lexicon_key=3];
+idFairyWorldLobby1LeftOpening [lexicon_key=idFairyWorldLobby1LeftOpening];
+idChip1 [lexicon_key=idChip];
+idThroneRoom1 -> idFairyWorldLobby1LeftOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idThroneRoom1 -> idDrawer3 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idDrawer3 -> low [label="idDrawer3_prop_idVerticalArrangement", edge_type=property, lexicon_key=idVerticalArrangement];
+idDrawer3 -> 3 [label="idDrawer3_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idFairyWorldLobby1LeftOpening -> idChip1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

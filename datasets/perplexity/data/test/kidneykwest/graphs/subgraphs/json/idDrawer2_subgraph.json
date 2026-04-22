@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCarrot1": {
+            "lexicon_key": "idCarrot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "orange": {
+            "lexicon_key": "orange",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer2_prop_idOpenState",
+            "parent_node": "idDrawer2",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idOrdinality",
+            "parent_node": "idDrawer2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDrawer2",
+            "child_node": "idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCarrot1_prop_idColor",
+            "parent_node": "idCarrot1",
+            "child_node": "orange",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCarrot1_prop_idUnknownObject",
+            "parent_node": "idCarrot1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the second closed drawer west of the unknown orange carrot"
+    ]
+}

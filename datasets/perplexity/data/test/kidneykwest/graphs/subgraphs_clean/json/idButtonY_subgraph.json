@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idButtonY": {
+            "node_type": "entity",
+            "lexicon_key": "idButtonY"
+        },
+        "2": {
+            "node_type": "property",
+            "lexicon_key": "2"
+        },
+        "idPhosphateCrystal_idApple1": {
+            "node_type": "entity",
+            "lexicon_key": "idPhosphateCrystal_idApple"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonY_prop_idOrdinality",
+            "parent_node": "idButtonY",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idButtonY",
+            "child_node": "idPhosphateCrystal_idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idTable1": {
+            "lexicon_key": "idTable",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idmarble": {
+            "lexicon_key": "idmarble",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBagOfChips1": {
+            "lexicon_key": "idBagOfChips",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTable1_prop_idMaterial",
+            "parent_node": "idTable1",
+            "child_node": "idmarble",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTable1",
+            "child_node": "idBagOfChips1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the marble table south of the bag of chips"
+    ]
+}

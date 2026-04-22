@@ -1,0 +1,9 @@
+strict digraph {
+idFairyWorld1 [node_type="entity_node", root=root, lexicon_key=idFairyWorld];
+idBagOfChips1 [lexicon_key=idBagOfChips];
+idCabin1 [lexicon_key=idCabin];
+idCaptainsChair1 [lexicon_key=idCaptainsChair];
+idFairyWorld1 -> idBagOfChips1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idFairyWorld1 -> idCabin1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idCabin1 -> idCaptainsChair1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

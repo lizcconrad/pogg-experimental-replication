@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idGlowingFlower1": {
+            "lexicon_key": "idGlowingFlower",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "dim": {
+            "lexicon_key": "dim",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCavern1RightOpening": {
+            "lexicon_key": "idCavern1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGlowingFlower1_prop_idTint",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "dim",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idColor",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idDescriptor",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "glowing",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "idCavern1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the dim green glowing glowing flower west of the cavern's right opening"
+    ]
+}

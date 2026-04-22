@@ -1,0 +1,5 @@
+strict digraph {
+idBaby1LeftHand [node_type="entity_node", root=root, lexicon_key=idBaby1LeftHand];
+idLocalLeft [lexicon_key=idLocalLeft];
+idBaby1LeftHand -> idLocalLeft [label="idBaby1LeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+}

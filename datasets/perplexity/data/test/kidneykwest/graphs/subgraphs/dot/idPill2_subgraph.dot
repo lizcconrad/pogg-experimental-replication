@@ -1,0 +1,5 @@
+strict digraph {
+idPill2 [node_type=entity, lexicon_key=idPill];
+idPill4 [node_type=entity, lexicon_key=idPill];
+idPill2 -> idPill4 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idFlashlightHandle": {
+            "lexicon_key": "idFlashlightHandle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoom": {
+            "lexicon_key": "idGreenRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlightHandle",
+            "child_node": "idGreenRoom",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the flashlight handle south of the green room"
+    ]
+}

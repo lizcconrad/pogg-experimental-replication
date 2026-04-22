@@ -1,0 +1,5 @@
+strict digraph {
+idKeyhole2 [node_type=entity, lexicon_key=idKeyhole];
+idLexi [node_type=entity, lexicon_key=idLexi];
+idKeyhole2 -> idLexi [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

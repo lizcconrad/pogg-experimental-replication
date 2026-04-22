@@ -1,0 +1,11 @@
+strict digraph {
+idCar1 [node_type=entity, lexicon_key=idCar];
+idStartButton [node_type=entity, lexicon_key=idStartButton];
+yes [node_type=property, lexicon_key=yes];
+idMom1 [node_type=entity, lexicon_key=idMom];
+idPassengersSideFrontDoorInsideOpening [node_type=entity, lexicon_key=idPassengersSideFrontDoorInsideOpening];
+idCar1 -> idStartButton [label="idCar1_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+idCar1 -> yes [label="idCar1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCar1 -> idMom1 [label="idCar1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idCar1 -> idPassengersSideFrontDoorInsideOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

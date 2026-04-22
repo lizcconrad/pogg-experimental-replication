@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idSidewalk1": {
+            "lexicon_key": "idSidewalk",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

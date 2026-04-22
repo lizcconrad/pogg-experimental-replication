@@ -1,0 +1,13 @@
+strict digraph {
+idRock2 [node_type=entity, lexicon_key=idRock];
+red [node_type=property, lexicon_key=red];
+rough [node_type=property, lexicon_key=rough];
+idMachine1 [node_type=entity, lexicon_key=idMachine];
+off [node_type=property, lexicon_key=off];
+idOnSwitch1 [node_type=entity, lexicon_key=idOnSwitch];
+idRock2 -> red [label="idRock2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idRock2 -> rough [label="idRock2_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+idRock2 -> idMachine1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idMachine1 -> idOnSwitch1 [label="idMachine1_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+}

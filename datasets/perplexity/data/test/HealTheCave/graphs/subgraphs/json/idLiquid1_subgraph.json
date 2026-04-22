@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idLiquid1": {
+            "lexicon_key": "idLiquid",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "strange": {
+            "lexicon_key": "strange",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCavern2RightOpening": {
+            "lexicon_key": "idCavern2RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLiquid1_prop_idImmovable",
+            "parent_node": "idLiquid1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLiquid1_prop_idColor",
+            "parent_node": "idLiquid1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLiquid1_prop_idDescriptor",
+            "parent_node": "idLiquid1",
+            "child_node": "strange",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLiquid1",
+            "child_node": "idCavern2RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable strange black liquid west of the cavern's right opening"
+    ]
+}

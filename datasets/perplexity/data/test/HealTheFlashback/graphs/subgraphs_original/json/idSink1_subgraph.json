@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idSink1": {
+            "lexicon_key": "idSink",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idporcelain": {
+            "lexicon_key": "idporcelain",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "idLivingRoomToBedroomDoor1": {
+            "lexicon_key": "idLivingRoomToBedroomDoor",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idCalendar1": {
+            "lexicon_key": "idCalendar",
+            "node_properties": {}
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSink1_prop_idDescriptor",
+            "parent_node": "idSink1",
+            "child_node": "idporcelain",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idImmovable",
+            "parent_node": "idSink1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idColor",
+            "parent_node": "idSink1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idLivingRoomToBedroomDoor1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSink1",
+            "child_node": "idCalendar1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToBedroomDoor1_prop_idOpenState",
+            "parent_node": "idLivingRoomToBedroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCalendar1_prop_idSize",
+            "parent_node": "idCalendar1",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

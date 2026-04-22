@@ -1,0 +1,117 @@
+{
+    "nodes": {
+        "idMeadow1": {
+            "lexicon_key": "idMeadow",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "grassy": {
+            "lexicon_key": "grassy",
+            "node_properties": {}
+        },
+        "idTheBushes1": {
+            "lexicon_key": "idTheBushes",
+            "node_properties": {}
+        },
+        "bushy": {
+            "lexicon_key": "bushy",
+            "node_properties": {}
+        },
+        "overgrown": {
+            "lexicon_key": "overgrown",
+            "node_properties": {}
+        },
+        "idLog1": {
+            "lexicon_key": "idLog",
+            "node_properties": {}
+        },
+        "mossy": {
+            "lexicon_key": "mossy",
+            "node_properties": {}
+        },
+        "hollow": {
+            "lexicon_key": "hollow",
+            "node_properties": {}
+        },
+        "idBranch1": {
+            "lexicon_key": "idBranch",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMeadow1_prop_idDescriptor",
+            "parent_node": "idMeadow1",
+            "child_node": "grassy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idMeadow1",
+            "child_node": "idTheBushes1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idMeadow1",
+            "child_node": "idLog1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor",
+            "parent_node": "idTheBushes1",
+            "child_node": "bushy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor_1",
+            "parent_node": "idTheBushes1",
+            "child_node": "overgrown",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLog1_prop_idDescriptor_1",
+            "parent_node": "idLog1",
+            "child_node": "mossy",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLog1_prop_idDescriptor",
+            "parent_node": "idLog1",
+            "child_node": "hollow",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idLog1",
+            "child_node": "idBranch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

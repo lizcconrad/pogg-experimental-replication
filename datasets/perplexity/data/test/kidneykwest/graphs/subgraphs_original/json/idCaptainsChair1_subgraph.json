@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idCaptainsChair1": {
+            "lexicon_key": "idCaptainsChair",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idleather": {
+            "lexicon_key": "idleather",
+            "node_properties": {}
+        },
+        "idCaptain1": {
+            "lexicon_key": "idCaptain",
+            "node_properties": {}
+        },
+        "idCoat1": {
+            "lexicon_key": "idCoat",
+            "node_properties": {}
+        },
+        "warm": {
+            "lexicon_key": "warm",
+            "node_properties": {}
+        },
+        "idKelly1": {
+            "lexicon_key": "idKelly",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCaptainsChair1_prop_idMaterial",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idleather",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCaptainsChair1_prop_idOwnedBy",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idCaptain1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCaptainsChair1",
+            "child_node": "idCoat1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCoat1_prop_idMaterial",
+            "parent_node": "idCoat1",
+            "child_node": "warm",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCoat1",
+            "child_node": "idKelly1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

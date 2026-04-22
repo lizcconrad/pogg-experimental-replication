@@ -1,0 +1,7 @@
+strict digraph {
+idTable1 [lexicon_key=idTable];
+idmarble [lexicon_key=idmarble];
+idBagOfChips1 [lexicon_key=idBagOfChips];
+idTable1 -> idmarble [label="idTable1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idTable1 -> idBagOfChips1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

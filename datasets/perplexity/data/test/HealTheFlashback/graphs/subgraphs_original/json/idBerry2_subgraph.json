@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "idBerry2": {
+            "lexicon_key": "idBerry",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "idBerry3": {
+            "lexicon_key": "idBerry",
+            "node_properties": {}
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBerry2_prop_idImmovable",
+            "parent_node": "idBerry2",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBerry2_prop_idColor",
+            "parent_node": "idBerry2",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBerry2",
+            "child_node": "idBerry3",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBerry3_prop_idImmovable",
+            "parent_node": "idBerry3",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBerry3_prop_idColor",
+            "parent_node": "idBerry3",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

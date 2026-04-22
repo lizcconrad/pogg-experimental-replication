@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCavern5": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "cold": {
+            "lexicon_key": "cold",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "5": {
+            "lexicon_key": "5",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "ominous": {
+            "lexicon_key": "ominous",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern5_prop_idDescriptor_1",
+            "parent_node": "idCavern5",
+            "child_node": "cold",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idOrdinality",
+            "parent_node": "idCavern5",
+            "child_node": "5",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern5_prop_idDescriptor",
+            "parent_node": "idCavern5",
+            "child_node": "ominous",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCavern5",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the fifth old ominous cavern north of the player's backside"
+    ]
+}

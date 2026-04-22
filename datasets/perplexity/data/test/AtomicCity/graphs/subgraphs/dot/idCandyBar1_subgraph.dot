@@ -1,0 +1,7 @@
+strict digraph {
+idCandyBar1 [node_type=entity, lexicon_key=idCandyBar];
+idFusePackage [node_type=entity, lexicon_key=idFusePackage];
+true [node_type=property, lexicon_key=true];
+idCandyBar1 -> idFusePackage [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idFusePackage -> true [label="idFusePackage_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idAtomicCityOutside1": {
+            "lexicon_key": "idAtomicCityOutside",
+            "node_properties": {}
+        },
+        "idComputerRoom1BackOpening": {
+            "lexicon_key": "idComputerRoom1BackOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idWorld1",
+            "child_node": "idAtomicCityOutside1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAtomicCityOutside1",
+            "child_node": "idComputerRoom1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

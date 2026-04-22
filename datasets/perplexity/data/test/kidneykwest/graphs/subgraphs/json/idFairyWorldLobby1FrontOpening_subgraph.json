@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFairyWorldLobby1FrontOpening": {
+            "lexicon_key": "idFairyWorldLobby1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLab1Door": {
+            "lexicon_key": "idLab1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFairyWorldLobby1FrontOpening",
+            "child_node": "idLab1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLab1Door_prop_idColor",
+            "parent_node": "idLab1Door",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLab1Door_prop_idOpenState",
+            "parent_node": "idLab1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the fairy world lobby's front opening south of the open white lab door"
+    ]
+}

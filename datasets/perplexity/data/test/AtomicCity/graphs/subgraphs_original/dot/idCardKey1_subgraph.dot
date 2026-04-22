@@ -1,0 +1,13 @@
+strict digraph {
+idCardKey1 [node_type="entity_node", root=root, lexicon_key=idCardKey];
+true [lexicon_key=true];
+idComputerRoom1 [lexicon_key=idComputerRoom];
+blue [lexicon_key=blue];
+idCandyBar1 [lexicon_key=idCandyBar];
+idMachineRoomFrontOpening [lexicon_key=idMachineRoomFrontOpening];
+idCardKey1 -> true [label="idCardKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCardKey1 -> idCandyBar1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idCardKey1 -> idComputerRoom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idComputerRoom1 -> blue [label="idComputerRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idComputerRoom1 -> idMachineRoomFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

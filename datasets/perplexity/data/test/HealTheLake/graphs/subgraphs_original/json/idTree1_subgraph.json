@@ -1,0 +1,117 @@
+{
+    "nodes": {
+        "idTree1": {
+            "lexicon_key": "idTree",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idMoss1": {
+            "lexicon_key": "idMoss",
+            "node_properties": {}
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {}
+        },
+        "idDeer1": {
+            "lexicon_key": "idDeer",
+            "node_properties": {}
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "bleeding": {
+            "lexicon_key": "bleeding",
+            "node_properties": {}
+        },
+        "idBush1": {
+            "lexicon_key": "idBush",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTree1_prop_idColor",
+            "parent_node": "idTree1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTree1_prop_idImmovable",
+            "parent_node": "idTree1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idTree1",
+            "child_node": "idMoss1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idTree1",
+            "child_node": "idDeer1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMoss1_prop_idArticleType",
+            "parent_node": "idMoss1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idColor",
+            "parent_node": "idDeer1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDeer1_prop_idDescriptor_1",
+            "parent_node": "idDeer1",
+            "child_node": "bleeding",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDeer1",
+            "child_node": "idBush1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

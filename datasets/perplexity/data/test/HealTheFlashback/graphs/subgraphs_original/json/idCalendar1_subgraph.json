@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idCalendar1": {
+            "lexicon_key": "idCalendar",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {}
+        },
+        "bare": {
+            "lexicon_key": "bare",
+            "node_properties": {}
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {}
+        },
+        "used": {
+            "lexicon_key": "used",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idSock1": {
+            "lexicon_key": "idSock",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCalendar1_prop_idSize",
+            "parent_node": "idCalendar1",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCalendar1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCalendar1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKitchen1_prop_idDescriptor",
+            "parent_node": "idKitchen1",
+            "child_node": "bare",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idDescriptor",
+            "parent_node": "idDesk1",
+            "child_node": "used",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idImmovable",
+            "parent_node": "idDesk1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDesk1",
+            "child_node": "idSock1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

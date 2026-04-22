@@ -1,0 +1,5 @@
+strict digraph {
+idSafe1 [node_type=entity, lexicon_key=idSafe];
+idGreenRoomBackOpening [node_type=entity, lexicon_key=idGreenRoomBackOpening];
+idSafe1 -> idGreenRoomBackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idCabin1FrontOpening [lexicon_key=idCabin1FrontOpening];
+idPhosphateCrystal_idChip1 [lexicon_key="idPhosphateCrystal_idChip"];
+idCabin1FrontOpening -> idPhosphateCrystal_idChip1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

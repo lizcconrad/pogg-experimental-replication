@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idRock1": {
+            "lexicon_key": "idRock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "smooth": {
+            "lexicon_key": "smooth",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLexiRightHand": {
+            "lexicon_key": "idLexiRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idRock1_prop_idColor",
+            "parent_node": "idRock1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock1_prop_idTexture",
+            "parent_node": "idRock1",
+            "child_node": "smooth",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idRock1",
+            "child_node": "idLexiRightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the smooth blue rock south of Lexi's right hand"
+    ]
+}

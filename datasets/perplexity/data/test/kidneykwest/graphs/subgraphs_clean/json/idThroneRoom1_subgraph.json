@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idThroneRoom1": {
+            "node_type": "entity",
+            "lexicon_key": "idThroneRoom"
+        },
+        "idThroneRoom1Door": {
+            "node_type": "entity",
+            "lexicon_key": "idThroneRoom1Door"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1",
+            "child_node": "idThroneRoom1Door",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

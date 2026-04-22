@@ -1,0 +1,9 @@
+strict digraph {
+idPlageFrontOpening [node_type=entity, lexicon_key=idPlageFrontOpening];
+tall [node_type=property, lexicon_key=tall];
+idKey1 [node_type=entity, lexicon_key=idKey];
+red [node_type=property, lexicon_key=red];
+idPlageFrontOpening -> tall [label="idPlageFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idPlageFrontOpening -> idKey1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idKey1 -> red [label="idKey1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

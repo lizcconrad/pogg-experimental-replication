@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "grassy": {
+            "lexicon_key": "grassy",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idClearing1_prop_idDescriptor",
+            "parent_node": "idClearing1",
+            "child_node": "grassy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

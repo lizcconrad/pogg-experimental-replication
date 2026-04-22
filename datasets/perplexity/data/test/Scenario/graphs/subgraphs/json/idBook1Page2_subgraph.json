@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBook1Page2": {
+            "lexicon_key": "idBook1Page2",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBook1Page3": {
+            "lexicon_key": "idBook1Page3",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBook1Page2_prop_idOrdinality",
+            "parent_node": "idBook1Page2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idBook1Page2",
+            "child_node": "idBook1Page3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the second book page north of the book page"
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+idIdaho1 [node_type="entity_node", root=root, lexicon_key=idIdaho];
+idWorld1 [lexicon_key=idWorld];
+idDesk1 [lexicon_key=idDesk];
+idIdaho1 -> idWorld1 [label=isInsideOf, edge_type=relationship, lexicon_key=isInsideOf];
+idWorld1 -> idDesk1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idKelly1 [node_type="entity_node", root=root, lexicon_key=idKelly];
+closed [lexicon_key=closed];
+true [lexicon_key=true];
+plastic [lexicon_key=plastic];
+idKelly1 -> closed [label="idKelly1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idKelly1 -> true [label="idKelly1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idKelly1 -> plastic [label="idKelly1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

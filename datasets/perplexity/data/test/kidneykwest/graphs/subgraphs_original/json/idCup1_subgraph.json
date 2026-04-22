@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idCup1": {
+            "lexicon_key": "idCup",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "ceramic": {
+            "lexicon_key": "ceramic",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idBarn1": {
+            "lexicon_key": "idBarn",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCup1_prop_idMaterial",
+            "parent_node": "idCup1",
+            "child_node": "ceramic",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCup1_prop_idUnknownObject",
+            "parent_node": "idCup1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCup1",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGiftBox1_prop_idOpenState",
+            "parent_node": "idGiftBox1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGiftBox1",
+            "child_node": "idBarn1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

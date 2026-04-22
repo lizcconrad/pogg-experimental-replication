@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idLargeIntestine1FrontOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idLargeIntestine1FrontOpening"
+        },
+        "idStomach1FrontOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idStomach1FrontOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLargeIntestine1FrontOpening",
+            "child_node": "idStomach1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

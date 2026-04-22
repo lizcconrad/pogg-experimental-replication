@@ -1,0 +1,7 @@
+strict digraph {
+idPill4 [lexicon_key=idPill];
+idPhosphateCrystal_idApple1 [lexicon_key="idPhosphateCrystal_idApple"];
+shiny [lexicon_key=shiny];
+idPill4 -> idPhosphateCrystal_idApple1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPhosphateCrystal_idApple1 -> shiny [label="idPhosphateCrystal_idApple1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+}

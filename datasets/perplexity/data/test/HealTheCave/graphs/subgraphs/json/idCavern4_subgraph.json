@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCavern4": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "large": {
+            "lexicon_key": "large",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "dark": {
+            "lexicon_key": "dark",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCavern1": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern4_prop_idSize",
+            "parent_node": "idCavern4",
+            "child_node": "large",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern4_prop_idOpenState",
+            "parent_node": "idCavern4",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern4_prop_idTint",
+            "parent_node": "idCavern4",
+            "child_node": "dark",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCavern4",
+            "child_node": "idCavern1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the large open dark cavern north of the cavern"
+    ]
+}

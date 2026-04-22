@@ -1,0 +1,5 @@
+strict digraph {
+idDogDoor1 [node_type=entity, lexicon_key=idDogDoor];
+closed [node_type=property, lexicon_key=closed];
+idDogDoor1 -> closed [label="idDogDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

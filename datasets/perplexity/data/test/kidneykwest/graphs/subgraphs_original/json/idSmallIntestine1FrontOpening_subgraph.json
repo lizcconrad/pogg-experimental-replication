@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idSmallIntestine1FrontOpening": {
+            "lexicon_key": "idSmallIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idDuct1": {
+            "lexicon_key": "idDuct",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idGastricFold1": {
+            "lexicon_key": "idGastricFold",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSmallIntestine1FrontOpening",
+            "child_node": "idDuct1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDuct1_prop_idInterestingObject",
+            "parent_node": "idDuct1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDuct1_prop_idImmovable",
+            "parent_node": "idDuct1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDuct1",
+            "child_node": "idGastricFold1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idBarn1Door [node_type=entity, lexicon_key=idBarn1Door];
+idwood [node_type=property, lexicon_key=idwood];
+open [node_type=property, lexicon_key=open];
+idButtonY [node_type=entity, lexicon_key=idButtonY];
+2 [node_type=property, lexicon_key=2];
+idBarn1Door -> idwood [label="idBarn1Door_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idBarn1Door -> open [label="idBarn1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idBarn1Door -> idButtonY [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idButtonY -> 2 [label="idButtonY_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

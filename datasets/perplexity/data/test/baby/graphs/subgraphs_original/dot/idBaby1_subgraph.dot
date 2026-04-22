@@ -1,0 +1,15 @@
+strict digraph {
+idBaby1 [node_type="entity_node", root=root, lexicon_key=idBaby];
+0 [lexicon_key=0];
+babyDoNothing [lexicon_key=babyDoNothing];
+false [lexicon_key=false];
+idBed1 [lexicon_key=idBed];
+true [lexicon_key=true];
+idKitchen1RightOpening [lexicon_key=idKitchen1RightOpening];
+idBaby1 -> 0 [label="idBaby1_prop_idCryTurns", edge_type=property, lexicon_key=idCryTurns];
+idBaby1 -> babyDoNothing [label="idBaby1_prop_idTask", edge_type=property, lexicon_key=idTask];
+idBaby1 -> false [label="idBaby1_prop_idSeen", edge_type=property, lexicon_key=idSeen];
+idBaby1 -> idBed1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idBed1 -> true [label="idBed1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBed1 -> idKitchen1RightOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

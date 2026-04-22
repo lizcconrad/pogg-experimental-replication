@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "building1": {
+            "lexicon_key": "building1",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "old": {
+            "lexicon_key": "old",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "building1_prop_oldAdjectiveType3",
+            "parent_node": "building1",
+            "child_node": "old",
+            "lexicon_key": "oldAdjectiveType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

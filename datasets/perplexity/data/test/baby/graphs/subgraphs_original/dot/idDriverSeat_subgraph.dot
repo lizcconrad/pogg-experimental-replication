@@ -1,0 +1,9 @@
+strict digraph {
+idDriverSeat [node_type="entity_node", root=root, lexicon_key=idDriverSeat];
+idDriver1 [lexicon_key=idDriver];
+yes [lexicon_key=yes];
+true [lexicon_key=true];
+idDriverSeat -> idDriver1 [label="idDriverSeat_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idDriverSeat -> yes [label="idDriverSeat_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDriverSeat -> true [label="idDriverSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

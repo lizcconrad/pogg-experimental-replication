@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idDen1": {
+            "lexicon_key": "idDen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSmoke1": {
+            "lexicon_key": "idSmoke",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDen1",
+            "child_node": "idSmoke1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSmoke1_prop_idImmovable",
+            "parent_node": "idSmoke1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the den west of the immovable smoke"
+    ]
+}

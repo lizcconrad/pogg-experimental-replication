@@ -1,0 +1,5 @@
+strict digraph {
+idBed1 [node_type="entity_node", root=root, lexicon_key=idBed];
+true [lexicon_key=true];
+idBed1 -> true [label="idBed1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

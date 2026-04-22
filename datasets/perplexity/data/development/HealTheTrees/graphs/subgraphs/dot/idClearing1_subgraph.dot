@@ -1,0 +1,9 @@
+strict digraph {
+idClearing1 [node_type=entity, lexicon_key=idClearing];
+grassy [node_type=property, lexicon_key=grassy];
+idRockyArea1 [node_type=entity, lexicon_key=idRockyArea];
+rocky [node_type=property, lexicon_key=rocky];
+idClearing1 -> grassy [label="idClearing1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idClearing1 -> idRockyArea1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idRockyArea1 -> rocky [label="idRockyArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

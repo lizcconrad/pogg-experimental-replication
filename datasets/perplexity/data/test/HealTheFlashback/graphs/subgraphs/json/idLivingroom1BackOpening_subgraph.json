@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLivingroom1BackOpening": {
+            "lexicon_key": "idLivingroom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoomToBedroomDoor1": {
+            "lexicon_key": "idLivingRoomToBedroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLivingroom1BackOpening",
+            "child_node": "idLivingRoomToBedroomDoor1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToBedroomDoor1_prop_idOpenState",
+            "parent_node": "idLivingRoomToBedroomDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the living room's back opening east of the open door from the living room to the bedroom"
+    ]
+}

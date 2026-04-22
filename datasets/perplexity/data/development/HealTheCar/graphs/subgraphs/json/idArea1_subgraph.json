@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "logged": {
+            "lexicon_key": "logged",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "stumpy": {
+            "lexicon_key": "stumpy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTheCarRoom1": {
+            "lexicon_key": "idTheCarRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "smoky": {
+            "lexicon_key": "smoky",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idArea1_prop_idDescriptor",
+            "parent_node": "idArea1",
+            "child_node": "logged",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idArea1_prop_idDescriptor_1",
+            "parent_node": "idArea1",
+            "child_node": "stumpy",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idArea1",
+            "child_node": "idTheCarRoom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTheCarRoom1_prop_idDescriptor",
+            "parent_node": "idTheCarRoom1",
+            "child_node": "smoky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the stumpy logged area west of the smoky car room"
+    ]
+}

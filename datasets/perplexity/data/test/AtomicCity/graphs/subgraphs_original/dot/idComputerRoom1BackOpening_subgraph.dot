@@ -1,0 +1,9 @@
+strict digraph {
+idComputerRoom1BackOpening [node_type="entity_node", root=root, lexicon_key=idComputerRoom1BackOpening];
+idShutoff [lexicon_key=idShutoff];
+closed [lexicon_key=closed];
+idLongHallwayFrontOpeningDoor [lexicon_key=idLongHallwayFrontOpeningDoor];
+idComputerRoom1BackOpening -> idShutoff [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idShutoff -> closed [label="idShutoff_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idShutoff -> idLongHallwayFrontOpeningDoor [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

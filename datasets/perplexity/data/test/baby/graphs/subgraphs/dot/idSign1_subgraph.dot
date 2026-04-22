@@ -1,0 +1,7 @@
+strict digraph {
+idSign1 [node_type=entity, lexicon_key=idSign];
+true [node_type=property, lexicon_key=true];
+idClosetToWorkshopDoor [node_type=entity, lexicon_key=idClosetToWorkshopDoor];
+idSign1 -> true [label="idSign1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idSign1 -> idClosetToWorkshopDoor [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

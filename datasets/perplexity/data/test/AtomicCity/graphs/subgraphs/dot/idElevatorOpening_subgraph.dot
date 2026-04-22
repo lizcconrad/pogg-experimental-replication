@@ -1,0 +1,5 @@
+strict digraph {
+idElevatorOpening [node_type=entity, lexicon_key=idElevatorOpening];
+idOffice1RightOpening [node_type=entity, lexicon_key=idOffice1RightOpening];
+idElevatorOpening -> idOffice1RightOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

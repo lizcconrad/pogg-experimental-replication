@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "paint8": {
+            "lexicon_key": "paint8",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "blue": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "uncountable": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "paint8_prop_idColor",
+            "parent_node": "paint8",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "paint8_prop_idArticleType",
+            "parent_node": "paint8",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

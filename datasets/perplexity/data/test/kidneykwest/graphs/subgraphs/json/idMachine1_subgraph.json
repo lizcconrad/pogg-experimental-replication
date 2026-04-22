@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idThing": {
+            "lexicon_key": "idThing",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLab1Door": {
+            "lexicon_key": "idLab1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachine1_prop_idInterestingObject",
+            "parent_node": "idMachine1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idButtonsPushed",
+            "parent_node": "idMachine1",
+            "child_node": "idThing",
+            "lexicon_key": "idButtonsPushed",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachine1",
+            "child_node": "idLab1Door",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLab1Door_prop_idColor",
+            "parent_node": "idLab1Door",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the interesting machine that is turned off north of the white lab door"
+    ]
+}

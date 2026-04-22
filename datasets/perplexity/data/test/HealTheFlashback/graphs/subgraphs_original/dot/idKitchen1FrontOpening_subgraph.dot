@@ -1,0 +1,7 @@
+strict digraph {
+idKitchen1FrontOpening [node_type="entity_node", root=root, lexicon_key=idKitchen1FrontOpening];
+idBedroom1RightOpening [lexicon_key=idBedroom1RightOpening];
+idLock1 [lexicon_key=idLock];
+idKitchen1FrontOpening -> idBedroom1RightOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBedroom1RightOpening -> idLock1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

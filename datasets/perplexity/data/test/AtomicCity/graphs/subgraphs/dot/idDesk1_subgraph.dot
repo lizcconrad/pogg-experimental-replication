@@ -1,0 +1,13 @@
+strict digraph {
+idDesk1 [node_type=entity, lexicon_key=idDesk];
+idaluminum [node_type=property, lexicon_key=idaluminum];
+yes [node_type=property, lexicon_key=yes];
+idElevatorDoor [node_type=entity, lexicon_key=idElevatorDoor];
+closed [node_type=property, lexicon_key=closed];
+idElevatorSlotFacePlate [node_type=entity, lexicon_key=idElevatorSlotFacePlate];
+idDesk1 -> idaluminum [label="idDesk1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idDesk1 -> yes [label="idDesk1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDesk1 -> idElevatorDoor [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idElevatorDoor -> closed [label="idElevatorDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idElevatorDoor -> idElevatorSlotFacePlate [label="idElevatorDoor_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+}

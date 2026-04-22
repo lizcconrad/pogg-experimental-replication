@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCrib1": {
+            "lexicon_key": "idCrib",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFrontDoor1": {
+            "lexicon_key": "idFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFrontDoor1Lock": {
+            "lexicon_key": "idFrontDoor1Lock",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCrib1_prop_idUnknownObject",
+            "parent_node": "idCrib1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrib1",
+            "child_node": "idFrontDoor1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFrontDoor1_prop_idLockMechanism",
+            "parent_node": "idFrontDoor1",
+            "child_node": "idFrontDoor1Lock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown crib east of the front door with a lock"
+    ]
+}

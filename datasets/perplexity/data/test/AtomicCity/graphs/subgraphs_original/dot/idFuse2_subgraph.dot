@@ -1,0 +1,7 @@
+strict digraph {
+idFuse2 [node_type="entity_node", root=root, lexicon_key=idFuse];
+blue [lexicon_key=blue];
+idComputerRoom1BackOpening [lexicon_key=idComputerRoom1BackOpening];
+idFuse2 -> blue [label="idFuse2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFuse2 -> idComputerRoom1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

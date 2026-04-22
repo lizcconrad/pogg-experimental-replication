@@ -1,0 +1,5 @@
+strict digraph {
+idKitchen1 [node_type="entity_node", root=root, lexicon_key=idKitchen];
+bare [lexicon_key=bare];
+idKitchen1 -> bare [label="idKitchen1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

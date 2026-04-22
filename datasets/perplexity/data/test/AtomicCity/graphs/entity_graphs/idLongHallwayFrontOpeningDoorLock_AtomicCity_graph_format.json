@@ -1,0 +1,41 @@
+{
+    "nodes": {
+        "idLongHallwayFrontOpeningDoorLock": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoorLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLongHallwayFrontOpeningDoorKeyhole": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoorKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLongHallwayFrontOpeningDoorLock_prop_idLockedState",
+            "parent_node": "idLongHallwayFrontOpeningDoorLock",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idLongHallwayFrontOpeningDoorLock",
+            "child_node": "idLongHallwayFrontOpeningDoorKeyhole",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

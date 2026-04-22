@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idKnightCostume1": {
+            "node_type": "entity",
+            "lexicon_key": "idKnightCostume"
+        },
+        "gold": {
+            "node_type": "property",
+            "lexicon_key": "gold"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKnightCostume1_prop_idColor",
+            "parent_node": "idKnightCostume1",
+            "child_node": "gold",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKnightCostume1_prop_idUnknownObject",
+            "parent_node": "idKnightCostume1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

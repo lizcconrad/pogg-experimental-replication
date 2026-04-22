@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idMomNote1": {
+            "lexicon_key": "idMomNote",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMomNote1_prop_idOwnedBy",
+            "parent_node": "idMomNote1",
+            "child_node": "idMom1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMomNote1_prop_idUnknownObject",
+            "parent_node": "idMomNote1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMomNote1",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "mom's unknown note owned by mom north of the player's backside"
+    ]
+}

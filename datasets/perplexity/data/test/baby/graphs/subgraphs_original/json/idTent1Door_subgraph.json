@@ -1,0 +1,87 @@
+{
+    "nodes": {
+        "idTent1Door": {
+            "lexicon_key": "idTent1Door",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {}
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "idBaby1LeftHand": {
+            "lexicon_key": "idBaby1LeftHand",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTent1Door_prop_idOpenState",
+            "parent_node": "idTent1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTent1Door_prop_idUnknownObject",
+            "parent_node": "idTent1Door",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTent1Door",
+            "child_node": "idGoButton",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idGoButton_prop_idColor",
+            "parent_node": "idGoButton",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGoButton_prop_idUnknownObject",
+            "parent_node": "idGoButton",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGoButton",
+            "child_node": "idBaby1LeftHand",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

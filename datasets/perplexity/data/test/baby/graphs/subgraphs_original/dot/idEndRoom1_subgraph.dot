@@ -1,0 +1,13 @@
+strict digraph {
+idEndRoom1 [node_type="entity_node", root=root, lexicon_key=idEndRoom];
+true [lexicon_key=true];
+idBaby1 [lexicon_key=idBaby];
+false [lexicon_key=false];
+idBackyard1 [lexicon_key=idBackyard];
+idEndRoom1 -> true [label="idEndRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idEndRoom1 -> idBaby1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idEndRoom1 -> idBackyard1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idBaby1 -> false [label="idBaby1_prop_idSeen", edge_type=property, lexicon_key=idSeen];
+idBaby1 -> true [label="idBaby1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBackyard1 -> true [label="idBackyard1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

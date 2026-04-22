@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idBarn1RightOpening": {
+            "lexicon_key": "idBarn1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idApple1": {
+            "lexicon_key": "idApple",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBarn1RightOpening",
+            "child_node": "idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idApple1_prop_idColor",
+            "parent_node": "idApple1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the barn's right opening west of the red apple"
+    ]
+}

@@ -1,0 +1,22 @@
+strict digraph {
+idPassengerSeat [node_type="entity_node", root=root, lexicon_key=idPassengerSeat];
+idPassenger1 [lexicon_key=idPassenger];
+yes [lexicon_key=yes];
+true [lexicon_key=true];
+idTable1 [lexicon_key=idTable];
+idmetal [lexicon_key=idmetal];
+modern [lexicon_key=modern];
+idBedroomToClosetDoor [lexicon_key=idBedroomToClosetDoor];
+open [lexicon_key=open];
+idFrontDoor1 [lexicon_key=idFrontDoor];
+idPassengerSeat -> idPassenger1 [label="idPassengerSeat_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idPassengerSeat -> yes [label="idPassengerSeat_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idPassengerSeat -> true [label="idPassengerSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPassengerSeat -> idTable1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idPassengerSeat -> idBedroomToClosetDoor [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idTable1 -> idmetal [label="idTable1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idTable1 -> modern [label="idTable1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idBedroomToClosetDoor -> open [label="idBedroomToClosetDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idBedroomToClosetDoor -> true [label="idBedroomToClosetDoor_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBedroomToClosetDoor -> idFrontDoor1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

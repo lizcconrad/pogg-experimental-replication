@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idCostumeCloset1BackOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idCostumeCloset1BackOpening"
+        },
+        "idPlayerRightHand": {
+            "node_type": "entity",
+            "lexicon_key": "idPlayerRightHand"
+        },
+        "right": {
+            "node_type": "property",
+            "lexicon_key": "right"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCostumeCloset1BackOpening",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlayerRightHand_prop_idSide",
+            "parent_node": "idPlayerRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

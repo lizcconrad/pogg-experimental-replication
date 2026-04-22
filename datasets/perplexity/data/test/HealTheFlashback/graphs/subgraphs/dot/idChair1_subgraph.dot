@@ -1,0 +1,9 @@
+strict digraph {
+idChair1 [node_type=entity, lexicon_key=idChair];
+wobbly [node_type=property, lexicon_key=wobbly];
+brown [node_type=property, lexicon_key=brown];
+idLivingroom1BackOpening [node_type=entity, lexicon_key=idLivingroom1BackOpening];
+idChair1 -> wobbly [label="idChair1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idChair1 -> brown [label="idChair1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idChair1 -> idLivingroom1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

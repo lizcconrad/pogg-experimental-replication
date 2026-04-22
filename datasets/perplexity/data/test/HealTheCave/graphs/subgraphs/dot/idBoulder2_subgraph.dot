@@ -1,0 +1,11 @@
+strict digraph {
+idBoulder2 [node_type=entity, lexicon_key=idBoulder];
+small [node_type=property, lexicon_key=small];
+idGrass1 [node_type=entity, lexicon_key=idGrass];
+yes [node_type=property, lexicon_key=yes];
+green [node_type=property, lexicon_key=green];
+idBoulder2 -> small [label="idBoulder2_prop_idSize", edge_type=property, lexicon_key=idSize];
+idBoulder2 -> idGrass1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idGrass1 -> yes [label="idGrass1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idGrass1 -> green [label="idGrass1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

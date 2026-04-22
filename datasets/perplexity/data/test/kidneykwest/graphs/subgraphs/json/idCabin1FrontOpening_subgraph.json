@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCabin1FrontOpening": {
+            "lexicon_key": "idCabin1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCabin1FrontOpening",
+            "child_node": "idPhosphateCrystal_idChip1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cabin's front opening south of the phosphate crystal from the chip"
+    ]
+}

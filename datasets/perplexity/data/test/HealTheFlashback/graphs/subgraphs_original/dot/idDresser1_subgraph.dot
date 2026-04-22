@@ -1,0 +1,20 @@
+strict digraph {
+idDresser1 [node_type="entity_node", root=root, lexicon_key=idDresser];
+brown [lexicon_key=brown];
+scratched [lexicon_key=scratched];
+yes [lexicon_key=yes];
+idToilet1 [lexicon_key=idToilet];
+white [lexicon_key=white];
+idBathroom1 [lexicon_key=idBathroom];
+messy [lexicon_key=messy];
+idCouch1 [lexicon_key=idCouch];
+idDresser1 -> brown [label="idDresser1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDresser1 -> scratched [label="idDresser1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idDresser1 -> yes [label="idDresser1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDresser1 -> idToilet1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idDresser1 -> idBathroom1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idToilet1 -> white [label="idToilet1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idToilet1 -> yes [label="idToilet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBathroom1 -> messy [label="idBathroom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBathroom1 -> idCouch1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

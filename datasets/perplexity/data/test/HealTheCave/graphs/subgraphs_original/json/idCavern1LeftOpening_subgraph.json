@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idCavern1LeftOpening": {
+            "lexicon_key": "idCavern1LeftOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idCavern7RightOpening": {
+            "lexicon_key": "idCavern7RightOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern1LeftOpening",
+            "child_node": "idCavern7RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

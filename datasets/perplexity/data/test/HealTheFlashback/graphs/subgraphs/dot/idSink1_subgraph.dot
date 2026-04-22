@@ -1,0 +1,15 @@
+strict digraph {
+idSink1 [node_type=entity, lexicon_key=idSink];
+idporcelain [node_type=property, lexicon_key=idporcelain];
+stained [node_type=property, lexicon_key=stained];
+white [node_type=property, lexicon_key=white];
+idPainting1 [node_type=entity, lexicon_key=idPainting];
+green [node_type=property, lexicon_key=green];
+yes [node_type=property, lexicon_key=yes];
+idSink1 -> idporcelain [label="idSink1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSink1 -> stained [label="idSink1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idSink1 -> white [label="idSink1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSink1 -> idPainting1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPainting1 -> green [label="idPainting1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPainting1 -> yes [label="idPainting1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

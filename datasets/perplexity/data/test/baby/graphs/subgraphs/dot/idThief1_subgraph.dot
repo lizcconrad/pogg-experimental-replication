@@ -1,0 +1,8 @@
+strict digraph {
+idThief1 [node_type=entity, lexicon_key=idThief];
+true [node_type=property, lexicon_key=true];
+idWorker1 [node_type=entity, lexicon_key=idWorker];
+idThief1 -> true [label="idThief1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idThief1 -> idWorker1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idWorker1 -> true [label="idWorker1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

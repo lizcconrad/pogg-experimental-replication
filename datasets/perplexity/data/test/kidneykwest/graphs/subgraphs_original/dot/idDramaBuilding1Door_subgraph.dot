@@ -1,0 +1,19 @@
+strict digraph {
+idDramaBuilding1Door [node_type="entity_node", root=root, lexicon_key=idDramaBuilding1Door];
+white [lexicon_key=white];
+open [lexicon_key=open];
+idPlayer [lexicon_key=idPlayer];
+0 [lexicon_key=0];
+3 [lexicon_key=3];
+idCostumeCloset1BackOpening [lexicon_key=idCostumeCloset1BackOpening];
+idPlayerRightHand [lexicon_key=idPlayerRightHand];
+idDramaBuilding1FrontOpening [lexicon_key=idDramaBuilding1FrontOpening];
+idDramaBuilding1Door -> white [label="idDramaBuilding1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDramaBuilding1Door -> open [label="idDramaBuilding1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDramaBuilding1Door -> idCostumeCloset1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idDramaBuilding1Door -> idPlayer [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idPlayer -> 0 [label="idPlayer_prop_idBinderTakenTurns", edge_type=property, lexicon_key=idBinderTakenTurns];
+idPlayer -> 3 [label="idPlayer_prop_idTurnsSinceFood", edge_type=property, lexicon_key=idTurnsSinceFood];
+idPlayer -> idDramaBuilding1FrontOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idCostumeCloset1BackOpening -> idPlayerRightHand [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

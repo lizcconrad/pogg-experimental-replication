@@ -1,0 +1,13 @@
+strict digraph {
+idTrunk1 [node_type=entity, lexicon_key=idTrunk];
+black [node_type=property, lexicon_key=black];
+unbroken [node_type=property, lexicon_key=unbroken];
+untouched [node_type=property, lexicon_key=untouched];
+idBush1 [node_type=entity, lexicon_key=idBush];
+green [node_type=property, lexicon_key=green];
+idTrunk1 -> black [label="idTrunk1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idTrunk1 -> unbroken [label="idTrunk1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idTrunk1 -> untouched [label="idTrunk1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idTrunk1 -> idBush1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idBush1 -> green [label="idBush1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

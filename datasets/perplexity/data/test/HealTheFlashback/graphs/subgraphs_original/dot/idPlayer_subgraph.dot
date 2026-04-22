@@ -1,0 +1,13 @@
+strict digraph {
+idPlayer [node_type="entity_node", root=root, lexicon_key=idPlayer];
+idBedroomToBathroomDoor1 [lexicon_key=idBedroomToBathroomDoor];
+open [lexicon_key=open];
+idMedicineCabinet1 [lexicon_key=idMedicineCabinet];
+white [lexicon_key=white];
+yes [lexicon_key=yes];
+idPlayer -> idBedroomToBathroomDoor1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idPlayer -> idMedicineCabinet1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idBedroomToBathroomDoor1 -> open [label="idBedroomToBathroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idMedicineCabinet1 -> white [label="idMedicineCabinet1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idMedicineCabinet1 -> yes [label="idMedicineCabinet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

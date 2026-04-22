@@ -1,0 +1,5 @@
+strict digraph {
+idBagOfChips1 [node_type=entity, lexicon_key=idBagOfChips];
+idBarn1 [node_type=entity, lexicon_key=idBarn];
+idBagOfChips1 -> idBarn1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idElevatorSlotFacePlate": {
+            "lexicon_key": "idElevatorSlotFacePlate",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idMachineRoom": {
+            "lexicon_key": "idMachineRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idElevatorSlotFacePlate_prop_idLockedState",
+            "parent_node": "idElevatorSlotFacePlate",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idElevatorSlotFacePlate",
+            "child_node": "idMachineRoom",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachineRoom_prop_idColor",
+            "parent_node": "idMachineRoom",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the elevator slot's locked face plate near the red machine room"
+    ]
+}

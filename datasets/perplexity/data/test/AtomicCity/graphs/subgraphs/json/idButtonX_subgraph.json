@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idButtonX": {
+            "lexicon_key": "idButtonX",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idElevator1": {
+            "lexicon_key": "idElevator",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonX_prop_idOrdinality",
+            "parent_node": "idButtonX",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idButtonX",
+            "child_node": "idElevator1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the second button near the elevator"
+    ]
+}

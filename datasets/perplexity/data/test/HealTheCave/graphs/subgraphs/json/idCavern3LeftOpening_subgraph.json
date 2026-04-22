@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCavern3LeftOpening": {
+            "lexicon_key": "idCavern3LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCavern2": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "wet": {
+            "lexicon_key": "wet",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern3LeftOpening",
+            "child_node": "idCavern2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern2_prop_idDescriptor",
+            "parent_node": "idCavern2",
+            "child_node": "wet",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern2_prop_idOrdinality",
+            "parent_node": "idCavern2",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cavern's left opening east of the second wet cavern"
+    ]
+}

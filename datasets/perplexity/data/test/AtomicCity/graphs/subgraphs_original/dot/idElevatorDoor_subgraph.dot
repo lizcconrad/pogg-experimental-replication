@@ -1,0 +1,19 @@
+strict digraph {
+idElevatorDoor [node_type="entity_node", root=root, lexicon_key=idElevatorDoor];
+closed [lexicon_key=closed];
+idElevatorSlotFacePlate [lexicon_key=idElevatorSlotFacePlate];
+idWolf3 [lexicon_key=idWolf];
+grey [lexicon_key=grey];
+tiny [lexicon_key=tiny];
+idMachineRoom [lexicon_key=idMachineRoom];
+red [lexicon_key=red];
+idComputerRoom1FrontOpening [lexicon_key=idComputerRoom1FrontOpening];
+idElevatorDoor -> closed [label="idElevatorDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idElevatorDoor -> idElevatorSlotFacePlate [label="idElevatorDoor_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idElevatorDoor -> idWolf3 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idElevatorDoor -> idMachineRoom [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idWolf3 -> grey [label="idWolf3_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf3 -> tiny [label="idWolf3_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf3 -> idComputerRoom1FrontOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idMachineRoom -> red [label="idMachineRoom_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

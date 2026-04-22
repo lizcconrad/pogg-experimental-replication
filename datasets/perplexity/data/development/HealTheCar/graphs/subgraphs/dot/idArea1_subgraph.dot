@@ -1,0 +1,11 @@
+strict digraph {
+idArea1 [node_type=entity, lexicon_key=idArea];
+logged [node_type=property, lexicon_key=logged];
+stumpy [node_type=property, lexicon_key=stumpy];
+idTheCarRoom1 [node_type=entity, lexicon_key=idTheCarRoom];
+smoky [node_type=property, lexicon_key=smoky];
+idArea1 -> logged [label="idArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idArea1 -> stumpy [label="idArea1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idArea1 -> idTheCarRoom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idTheCarRoom1 -> smoky [label="idTheCarRoom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

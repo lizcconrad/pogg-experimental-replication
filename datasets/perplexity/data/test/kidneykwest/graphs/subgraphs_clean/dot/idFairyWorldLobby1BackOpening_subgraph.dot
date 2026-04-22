@@ -1,0 +1,7 @@
+strict digraph {
+idFairyWorldLobby1BackOpening [lexicon_key=idFairyWorldLobby1BackOpening];
+idDrawer3 [lexicon_key=idDrawer];
+low [lexicon_key=low];
+idFairyWorldLobby1BackOpening -> idDrawer3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idDrawer3 -> low [label="idDrawer3_prop_idVerticalArrangement", edge_type=property, lexicon_key=idVerticalArrangement];
+}

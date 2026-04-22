@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idFrontDoor1idPorch1idNorthOfOpening": {
+            "lexicon_key": "idFrontDoor1idPorch1idNorthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoom1": {
+            "lexicon_key": "idLivingRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFrontDoor1idPorch1idNorthOfOpening",
+            "child_node": "idLivingRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLivingRoom1_prop_idUnknownObject",
+            "parent_node": "idLivingRoom1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the opening north of the porch south of the unknown living room"
+    ]
+}

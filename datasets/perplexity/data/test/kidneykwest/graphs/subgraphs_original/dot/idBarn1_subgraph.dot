@@ -1,0 +1,14 @@
+strict digraph {
+idBarn1 [node_type="entity_node", root=root, lexicon_key=idBarn];
+idCarrot1 [lexicon_key=idCarrot];
+orange [lexicon_key=orange];
+true [lexicon_key=true];
+idThroneRoom1 [lexicon_key=idThroneRoom];
+idPhosphateCrystal_idCarrot1 [lexicon_key="idPhosphateCrystal_idCarrot"];
+idBarn1 -> idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idBarn1 -> idThroneRoom1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idCarrot1 -> orange [label="idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCarrot1 -> true [label="idCarrot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCarrot1 -> idPhosphateCrystal_idCarrot1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idThroneRoom1 -> idBarn1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

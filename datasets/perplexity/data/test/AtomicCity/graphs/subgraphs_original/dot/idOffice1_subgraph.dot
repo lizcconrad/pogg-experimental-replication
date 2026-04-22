@@ -1,0 +1,11 @@
+strict digraph {
+idOffice1 [node_type="entity_node", root=root, lexicon_key=idOffice];
+grey [lexicon_key=grey];
+idOffice1RightOpening [lexicon_key=idOffice1RightOpening];
+idComputerRoom1BackOpening [lexicon_key=idComputerRoom1BackOpening];
+idElevator1FrontOpening [lexicon_key=idElevator1FrontOpening];
+idOffice1 -> grey [label="idOffice1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idOffice1 -> idOffice1RightOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idOffice1 -> idComputerRoom1BackOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idOffice1RightOpening -> idElevator1FrontOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

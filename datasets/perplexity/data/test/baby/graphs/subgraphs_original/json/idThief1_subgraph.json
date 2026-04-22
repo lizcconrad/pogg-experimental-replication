@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "idThief1": {
+            "lexicon_key": "idThief",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThief1_prop_idUnknownObject",
+            "parent_node": "idThief1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idThief1",
+            "child_node": "idCar1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idUnknownObject",
+            "parent_node": "idCar1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idImmovable",
+            "parent_node": "idCar1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

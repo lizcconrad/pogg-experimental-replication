@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCrystal1": {
+            "lexicon_key": "idCrystal",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLight1": {
+            "lexicon_key": "idLight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCrystal1",
+            "child_node": "idLight1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the crystal north of the light"
+    ]
+}

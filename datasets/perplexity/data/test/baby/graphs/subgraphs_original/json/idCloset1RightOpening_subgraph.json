@@ -1,0 +1,100 @@
+{
+    "nodes": {
+        "idCloset1RightOpening": {
+            "lexicon_key": "idCloset1RightOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idPassengerSeat": {
+            "lexicon_key": "idPassengerSeat",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idPassenger1": {
+            "lexicon_key": "idPassenger",
+            "node_properties": {}
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "idPacifier1": {
+            "lexicon_key": "idPacifier",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCloset1RightOpening",
+            "child_node": "idPassengerSeat",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCloset1RightOpening",
+            "child_node": "idCar1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPassengerSeat_prop_idUnknownObject",
+            "parent_node": "idPassengerSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPassengerSeat_prop_idOwnedBy",
+            "parent_node": "idPassengerSeat",
+            "child_node": "idPassenger1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idPowerState",
+            "parent_node": "idCar1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCar1_prop_idUnknownObject",
+            "parent_node": "idCar1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCar1",
+            "child_node": "idPacifier1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

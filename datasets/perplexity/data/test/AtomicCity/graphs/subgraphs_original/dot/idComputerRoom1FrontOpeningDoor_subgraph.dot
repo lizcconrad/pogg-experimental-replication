@@ -1,0 +1,5 @@
+strict digraph {
+idComputerRoom1FrontOpeningDoor [node_type="entity_node", root=root, lexicon_key=idComputerRoom1FrontOpeningDoor];
+open [lexicon_key=open];
+idComputerRoom1FrontOpeningDoor -> open [label="idComputerRoom1FrontOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idPillBottle1": {
+            "lexicon_key": "idPillBottle",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {}
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {}
+        },
+        "messy": {
+            "lexicon_key": "messy",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPillBottle1_prop_idColor",
+            "parent_node": "idPillBottle1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillBottle1_prop_idUnknownObject",
+            "parent_node": "idPillBottle1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPillBottle1",
+            "child_node": "idDesk1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPillBottle1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idMaterial",
+            "parent_node": "idDesk1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idImmovable",
+            "parent_node": "idDesk1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBathroom1_prop_idDescriptor",
+            "parent_node": "idBathroom1",
+            "child_node": "messy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

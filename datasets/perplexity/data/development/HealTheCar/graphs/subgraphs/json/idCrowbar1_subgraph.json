@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCrowbar1": {
+            "lexicon_key": "idCrowbar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "cool": {
+            "lexicon_key": "cool",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTire1": {
+            "lexicon_key": "idTire",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCrowbar1_prop_idColor",
+            "parent_node": "idCrowbar1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCrowbar1_prop_idDescriptor",
+            "parent_node": "idCrowbar1",
+            "child_node": "cool",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCrowbar1_prop_idUnknownObject",
+            "parent_node": "idCrowbar1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCrowbar1",
+            "child_node": "idTire1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cool black unknown crowbar east of the tire"
+    ]
+}

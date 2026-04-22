@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idMachineRoomFrontOpening": {
+            "lexicon_key": "idMachineRoomFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWolf4": {
+            "lexicon_key": "idWolf",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "tiny": {
+            "lexicon_key": "tiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idMachineRoomFrontOpening",
+            "child_node": "idWolf4",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWolf4_prop_idColor",
+            "parent_node": "idWolf4",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWolf4_prop_idSize",
+            "parent_node": "idWolf4",
+            "child_node": "tiny",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the machine room's front opening east of the tiny white wolf"
+    ]
+}

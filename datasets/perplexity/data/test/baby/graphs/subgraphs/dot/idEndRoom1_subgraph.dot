@@ -1,0 +1,7 @@
+strict digraph {
+idEndRoom1 [node_type=entity, lexicon_key=idEndRoom];
+true [node_type=property, lexicon_key=true];
+idCrib1 [node_type=entity, lexicon_key=idCrib];
+idEndRoom1 -> true [label="idEndRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idEndRoom1 -> idCrib1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

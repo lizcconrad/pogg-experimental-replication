@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFuse3": {
+            "lexicon_key": "idFuse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idAdamLeftHand": {
+            "lexicon_key": "idAdamLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "left": {
+            "lexicon_key": "left",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuse3_prop_idColor",
+            "parent_node": "idFuse3",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFuse3",
+            "child_node": "idAdamLeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idAdamLeftHand_prop_idSide",
+            "parent_node": "idAdamLeftHand",
+            "child_node": "left",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the green fuse south of Adam's left hand on the left"
+    ]
+}

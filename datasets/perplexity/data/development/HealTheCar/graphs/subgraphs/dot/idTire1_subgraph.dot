@@ -1,0 +1,11 @@
+strict digraph {
+idTire1 [node_type=entity, lexicon_key=idTire];
+black [node_type=property, lexicon_key=black];
+idArea1 [node_type=entity, lexicon_key=idArea];
+logged [node_type=property, lexicon_key=logged];
+stumpy [node_type=property, lexicon_key=stumpy];
+idTire1 -> black [label="idTire1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idTire1 -> idArea1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idArea1 -> logged [label="idArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idArea1 -> stumpy [label="idArea1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

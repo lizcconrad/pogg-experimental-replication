@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idOffice1": {
+            "lexicon_key": "idOffice",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {}
+        },
+        "idOffice1RightOpening": {
+            "lexicon_key": "idOffice1RightOpening",
+            "node_properties": {}
+        },
+        "idComputerRoom1BackOpening": {
+            "lexicon_key": "idComputerRoom1BackOpening",
+            "node_properties": {}
+        },
+        "idElevator1FrontOpening": {
+            "lexicon_key": "idElevator1FrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idOffice1_prop_idColor",
+            "parent_node": "idOffice1",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOffice1",
+            "child_node": "idOffice1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOffice1",
+            "child_node": "idComputerRoom1BackOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOffice1RightOpening",
+            "child_node": "idElevator1FrontOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

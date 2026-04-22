@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idSidewalk1": {
+            "lexicon_key": "idSidewalk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDriverSeat_prop_idOwnedBy",
+            "parent_node": "idDriverSeat",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idImmovable",
+            "parent_node": "idDriverSeat",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idUnknownObject",
+            "parent_node": "idDriverSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDriverSeat",
+            "child_node": "idSidewalk1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable unknown driver seat that the driver owns east of the sidewalk"
+    ]
+}

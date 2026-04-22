@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idCavern6OutsideBottomOpening": {
+            "lexicon_key": "idCavern6OutsideBottomOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFuseSocket1": {
+            "lexicon_key": "idFuseSocket",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBeefJerky1": {
+            "lexicon_key": "idBeefJerky",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFuseSocket1_prop_idOrdinality",
+            "parent_node": "idFuseSocket1",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFuseSocket1",
+            "child_node": "idBeefJerky1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBeefJerky1_prop_idUnknownObject",
+            "parent_node": "idBeefJerky1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the first fuse socket south of the unknown beef jerky"
+    ]
+}

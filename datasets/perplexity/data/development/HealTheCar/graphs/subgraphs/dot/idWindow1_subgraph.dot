@@ -1,0 +1,9 @@
+strict digraph {
+idWindow1 [node_type=entity, lexicon_key=idWindow];
+tinted [node_type=property, lexicon_key=tinted];
+intact [node_type=property, lexicon_key=intact];
+idDriver1 [node_type=property, lexicon_key=idDriver];
+idWindow1 -> tinted [label="idWindow1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idWindow1 -> intact [label="idWindow1_prop_idDescriptor_2", edge_type=property, lexicon_key="idDescriptor_"];
+idWindow1 -> idDriver1 [label="idWindow1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+}

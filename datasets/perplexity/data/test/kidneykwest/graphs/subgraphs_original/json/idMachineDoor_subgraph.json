@@ -1,0 +1,100 @@
+{
+    "nodes": {
+        "idMachineDoor": {
+            "lexicon_key": "idMachineDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {}
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idThing": {
+            "lexicon_key": "idThing",
+            "node_properties": {}
+        },
+        "idMachineDoorHandle": {
+            "lexicon_key": "idMachineDoorHandle",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineDoor_prop_idOpenState",
+            "parent_node": "idMachineDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachineDoor_prop_idLockedState",
+            "parent_node": "idMachineDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachineDoorHandle",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idImmovable",
+            "parent_node": "idMachine1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idButtonsPushed",
+            "parent_node": "idMachine1",
+            "child_node": "idThing",
+            "lexicon_key": "idButtonsPushed",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachineDoorHandle",
+            "child_node": "idMachineDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

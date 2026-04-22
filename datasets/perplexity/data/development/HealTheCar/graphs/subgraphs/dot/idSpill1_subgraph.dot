@@ -1,0 +1,11 @@
+strict digraph {
+idSpill1 [node_type=entity, lexicon_key=idSpill];
+black [node_type=property, lexicon_key=black];
+yes [node_type=property, lexicon_key=yes];
+idCarKey1 [node_type=entity, lexicon_key=idCarKey];
+true [node_type=property, lexicon_key=true];
+idSpill1 -> black [label="idSpill1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSpill1 -> yes [label="idSpill1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idSpill1 -> idCarKey1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCarKey1 -> true [label="idCarKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

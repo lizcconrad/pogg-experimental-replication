@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "idBanner2": {
+            "node_type": "entity",
+            "lexicon_key": "idBanner"
+        },
+        "red": {
+            "node_type": "property",
+            "lexicon_key": "red"
+        },
+        "idFairyWorldLobby1": {
+            "node_type": "entity",
+            "lexicon_key": "idFairyWorldLobby"
+        },
+        "white": {
+            "node_type": "property",
+            "lexicon_key": "white"
+        },
+        "idmarble": {
+            "node_type": "property",
+            "lexicon_key": "idmarble"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBanner2_prop_idColor",
+            "parent_node": "idBanner2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBanner2",
+            "child_node": "idFairyWorldLobby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idFairyWorldLobby1_prop_idColor",
+            "parent_node": "idFairyWorldLobby1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFairyWorldLobby1_prop_idMaterial",
+            "parent_node": "idFairyWorldLobby1",
+            "child_node": "idmarble",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

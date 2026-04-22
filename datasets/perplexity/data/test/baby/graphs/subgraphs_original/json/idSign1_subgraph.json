@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idSign1": {
+            "lexicon_key": "idSign",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {}
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {}
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        },
+        "idSign1Text": {
+            "lexicon_key": "idSign1Text",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSign1_prop_idUnknownObject",
+            "parent_node": "idSign1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSign1",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSign1",
+            "child_node": "idSign1Text",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idMaterial",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idSize",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

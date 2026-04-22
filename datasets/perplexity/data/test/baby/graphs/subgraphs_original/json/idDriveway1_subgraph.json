@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idDriveway1": {
+            "lexicon_key": "idDriveway",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "West is [the, sayName(idSidewalk1)].{p}": {
+            "lexicon_key": "West is [the, sayName(idSidewalk1)].{p}",
+            "node_properties": {}
+        },
+        "idBedroom1LeftOpening": {
+            "lexicon_key": "idBedroom1LeftOpening",
+            "node_properties": {}
+        },
+        "idBabyCarSeat": {
+            "lexicon_key": "idBabyCarSeat",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDriveway1_prop_idDirectionDescription",
+            "parent_node": "idDriveway1",
+            "child_node": "West is [the, sayName(idSidewalk1)].{p}",
+            "lexicon_key": "idDirectionDescription",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDriveway1",
+            "child_node": "idBedroom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBedroom1LeftOpening",
+            "child_node": "idBabyCarSeat",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

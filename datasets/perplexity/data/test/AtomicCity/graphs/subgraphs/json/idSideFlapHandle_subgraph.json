@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idSideFlapHandle": {
+            "lexicon_key": "idSideFlapHandle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSideFlap": {
+            "lexicon_key": "idSideFlap",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSideFlapHandle",
+            "child_node": "idSideFlap",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSideFlap_prop_idOpenState",
+            "parent_node": "idSideFlap",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the side flap's handle near the closed side flap"
+    ]
+}

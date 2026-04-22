@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idLivingRoomToKitchenDoor": {
+            "lexicon_key": "idLivingRoomToKitchenDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBedroomToClosetDoor": {
+            "lexicon_key": "idBedroomToClosetDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLivingRoomToKitchenDoor_prop_idOpenState",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToKitchenDoor_prop_idUnknownObject",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "idBedroomToClosetDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBedroomToClosetDoor_prop_idOpenState",
+            "parent_node": "idBedroomToClosetDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBedroomToClosetDoor_prop_idUnknownObject",
+            "parent_node": "idBedroomToClosetDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown open door from the living room to the kitchen west of the unknown open door from the bedroom to the closet"
+    ]
+}

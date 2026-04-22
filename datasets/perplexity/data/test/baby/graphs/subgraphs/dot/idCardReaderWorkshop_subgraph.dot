@@ -1,0 +1,9 @@
+strict digraph {
+idCardReaderWorkshop [node_type=entity, lexicon_key=idCardReaderWorkshop];
+locked [node_type=property, lexicon_key=locked];
+true [node_type=property, lexicon_key=true];
+idClosetToWorkshopDoor [node_type=entity, lexicon_key=idClosetToWorkshopDoor];
+idCardReaderWorkshop -> locked [label="idCardReaderWorkshop_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+idCardReaderWorkshop -> true [label="idCardReaderWorkshop_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCardReaderWorkshop -> idClosetToWorkshopDoor [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

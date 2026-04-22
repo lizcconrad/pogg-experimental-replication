@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idBody1": {
+            "lexicon_key": "idBody",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStomach1": {
+            "lexicon_key": "idStomach",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBody1",
+            "child_node": "idStomach1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the body near the stomach"
+    ]
+}

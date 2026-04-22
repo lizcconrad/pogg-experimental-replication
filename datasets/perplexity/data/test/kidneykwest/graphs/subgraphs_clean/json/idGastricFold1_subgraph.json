@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idGastricFold1": {
+            "node_type": "entity",
+            "lexicon_key": "idGastricFold"
+        },
+        "gastric": {
+            "node_type": "property",
+            "lexicon_key": "gastric"
+        },
+        "yes": {
+            "node_type": "property",
+            "lexicon_key": "yes"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        },
+        "idThroatSphincter1": {
+            "node_type": "entity",
+            "lexicon_key": "idThroatSphincter"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGastricFold1_prop_idMaterial",
+            "parent_node": "idGastricFold1",
+            "child_node": "gastric",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGastricFold1_prop_idImmovable",
+            "parent_node": "idGastricFold1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGastricFold1_prop_idInterestingObject",
+            "parent_node": "idGastricFold1",
+            "child_node": "true",
+            "lexicon_key": "idInterestingObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idGastricFold1",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idThroatSphincter1_prop_idOpenState",
+            "parent_node": "idThroatSphincter1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

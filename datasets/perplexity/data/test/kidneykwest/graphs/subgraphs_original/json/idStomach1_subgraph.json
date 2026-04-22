@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idStomach1": {
+            "lexicon_key": "idStomach",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

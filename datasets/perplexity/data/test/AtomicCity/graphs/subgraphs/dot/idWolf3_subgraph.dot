@@ -1,0 +1,9 @@
+strict digraph {
+idWolf3 [node_type=entity, lexicon_key=idWolf];
+grey [node_type=property, lexicon_key=grey];
+tiny [node_type=property, lexicon_key=tiny];
+idPipe2 [node_type=entity, lexicon_key=idPipe];
+idWolf3 -> grey [label="idWolf3_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf3 -> tiny [label="idWolf3_prop_idSize", edge_type=property, lexicon_key=idSize];
+idWolf3 -> idPipe2 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

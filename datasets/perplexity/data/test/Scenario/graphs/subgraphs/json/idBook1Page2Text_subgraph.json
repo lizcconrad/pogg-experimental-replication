@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idBook1Page2Text": {
+            "lexicon_key": "idBook1Page2Text",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the book page text"
+    ]
+}

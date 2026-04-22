@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idBlood1": {
+            "lexicon_key": "idBlood",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBlood1_prop_idArticleType",
+            "parent_node": "idBlood1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the blood"
+    ]
+}

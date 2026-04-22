@@ -1,0 +1,9 @@
+strict digraph {
+idMachine1 [node_type=entity, lexicon_key=idMachine];
+off [node_type=property, lexicon_key=off];
+idOnSwitch1 [node_type=entity, lexicon_key=idOnSwitch];
+idCrystal1 [node_type=entity, lexicon_key=idCrystal];
+idMachine1 -> off [label="idMachine1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idMachine1 -> idOnSwitch1 [label="idMachine1_prop_idPowerControl", edge_type=property, lexicon_key=idPowerControl];
+idMachine1 -> idCrystal1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

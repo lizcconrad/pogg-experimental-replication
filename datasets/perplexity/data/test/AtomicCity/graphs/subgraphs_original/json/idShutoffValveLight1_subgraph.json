@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idShutoffValveLight1": {
+            "lexicon_key": "idShutoffValveLight",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "unlit": {
+            "lexicon_key": "unlit",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idShutoffValveLight1_prop_idColor",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "off",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idLitState",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "unlit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

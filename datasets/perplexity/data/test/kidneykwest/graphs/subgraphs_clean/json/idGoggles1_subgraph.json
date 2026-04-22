@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idGoggles1": {
+            "node_type": "entity",
+            "lexicon_key": "idGoggles"
+        },
+        "plastic": {
+            "node_type": "property",
+            "lexicon_key": "plastic"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        },
+        "idBarn1RightOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idBarn1RightOpening"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGoggles1_prop_idMaterial",
+            "parent_node": "idGoggles1",
+            "child_node": "plastic",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGoggles1_prop_idUnknownObject",
+            "parent_node": "idGoggles1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGoggles1",
+            "child_node": "idBarn1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

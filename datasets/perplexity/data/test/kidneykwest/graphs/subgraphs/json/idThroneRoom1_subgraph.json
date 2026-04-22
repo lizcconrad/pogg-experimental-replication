@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idThroneRoom1": {
+            "lexicon_key": "idThroneRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroneRoom1Door": {
+            "lexicon_key": "idThroneRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1",
+            "child_node": "idThroneRoom1Door",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the throne room east of the door to the throne room"
+    ]
+}

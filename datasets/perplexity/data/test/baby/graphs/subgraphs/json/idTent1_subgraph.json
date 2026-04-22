@@ -1,0 +1,69 @@
+{
+    "nodes": {
+        "idTent1": {
+            "lexicon_key": "idTent",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "unusual": {
+            "lexicon_key": "unusual",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTent1_prop_idShape",
+            "parent_node": "idTent1",
+            "child_node": "unusual",
+            "lexicon_key": "idShape",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTent1_prop_idUnknownObject",
+            "parent_node": "idTent1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idTent1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKitchen1_prop_idUnknownObject",
+            "parent_node": "idKitchen1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown unusual tent east of the unknown kitchen"
+    ]
+}

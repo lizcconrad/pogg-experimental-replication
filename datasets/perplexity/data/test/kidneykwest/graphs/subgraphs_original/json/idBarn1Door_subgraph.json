@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idBarn1Door": {
+            "lexicon_key": "idBarn1Door",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBarn1Door_prop_idMaterial",
+            "parent_node": "idBarn1Door",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBarn1Door_prop_idOpenState",
+            "parent_node": "idBarn1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

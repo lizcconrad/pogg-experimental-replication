@@ -1,0 +1,14 @@
+strict digraph {
+idPlayer [lexicon_key=idPlayer];
+0 [lexicon_key=0];
+3 [lexicon_key=3];
+1 [lexicon_key=1];
+idCostumeCloset1 [lexicon_key=idCostumeCloset];
+0 [lexicon_key=0];
+3 [lexicon_key=3];
+1 [lexicon_key=1];
+idPlayer -> 0 [label="idPlayer_prop_idBinderTakenTurns", edge_type=property, lexicon_key=idBinderTakenTurns];
+idPlayer -> 3 [label="idPlayer_prop_idTurnsSinceFood", edge_type=property, lexicon_key=idTurnsSinceFood];
+idPlayer -> 1 [label="idPlayer_prop_idMapY", edge_type=property, lexicon_key=idMapY];
+idPlayer -> idCostumeCloset1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

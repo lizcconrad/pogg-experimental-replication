@@ -1,0 +1,732 @@
+{
+    "nodes": {
+        "idLabel1": {
+            "lexicon_key": "idLabel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGiftBox1": {
+            "lexicon_key": "idGiftBox",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLabel1Text": {
+            "lexicon_key": "idLabel1Text",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFairyWorldLobby1BackOpening": {
+            "lexicon_key": "idFairyWorldLobby1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabin1Door": {
+            "lexicon_key": "idCabin1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabin1FrontOpening": {
+            "lexicon_key": "idCabin1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabin1": {
+            "lexicon_key": "idCabin",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCabinet1": {
+            "lexicon_key": "idCabinet",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCaptainsChair1": {
+            "lexicon_key": "idCaptainsChair",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer1": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDrawer3": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGoggles1": {
+            "lexicon_key": "idGoggles",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idHamburger1": {
+            "lexicon_key": "idHamburger",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineNote1": {
+            "lexicon_key": "idMachineNote",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idHamburger1": {
+            "lexicon_key": "idPhosphateCrystal_idHamburger",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLab1": {
+            "lexicon_key": "idLab",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFairyWorldLobby1FrontOpening": {
+            "lexicon_key": "idFairyWorldLobby1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLab1BackOpening": {
+            "lexicon_key": "idLab1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLab1Door": {
+            "lexicon_key": "idLab1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBagOfChips1": {
+            "lexicon_key": "idBagOfChips",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idButtonX": {
+            "lexicon_key": "idButtonX",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idButtonY": {
+            "lexicon_key": "idButtonY",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idButtonZ": {
+            "lexicon_key": "idButtonZ",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChip1": {
+            "lexicon_key": "idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idChip2": {
+            "lexicon_key": "idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCup1": {
+            "lexicon_key": "idCup",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachine1": {
+            "lexicon_key": "idMachine",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idChip1": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idChip2": {
+            "lexicon_key": "idPhosphateCrystal_idChip",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBarn1RightOpening": {
+            "lexicon_key": "idBarn1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFairyWorldLobby1LeftOpening": {
+            "lexicon_key": "idFairyWorldLobby1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBarn1": {
+            "lexicon_key": "idBarn",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBarn1Door": {
+            "lexicon_key": "idBarn1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCoat1": {
+            "lexicon_key": "idCoat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDog1": {
+            "lexicon_key": "idDog",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPail1": {
+            "lexicon_key": "idPail",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStick1": {
+            "lexicon_key": "idStick",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFairyWorldLobby1RightOpening": {
+            "lexicon_key": "idFairyWorldLobby1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroneRoom1": {
+            "lexicon_key": "idThroneRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroneRoom1LeftOpening": {
+            "lexicon_key": "idThroneRoom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroneRoom1Door": {
+            "lexicon_key": "idThroneRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idApple1": {
+            "lexicon_key": "idApple",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBarrel1": {
+            "lexicon_key": "idBarrel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCarrot1": {
+            "lexicon_key": "idCarrot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idApple1": {
+            "lexicon_key": "idPhosphateCrystal_idApple",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idCarrot1": {
+            "lexicon_key": "idPhosphateCrystal_idCarrot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThrone1": {
+            "lexicon_key": "idThrone",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idLabel1",
+            "child_node": "idGiftBox1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idLabel1",
+            "child_node": "idLabel1Text",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idFairyWorldLobby1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCabin1Door",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCabin1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCabin1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCabinet1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCaptainsChair1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idDrawer1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idDrawer2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idDrawer3",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idGoggles1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idHamburger1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idMachineNote1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPhosphateCrystal_idHamburger1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idLab1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idFairyWorldLobby1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idLab1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idLab1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idBagOfChips1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idButtonX",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idButtonY",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idButtonZ",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idChip1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idChip2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCup1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idMachine1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idOnSwitch1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPhosphateCrystal_idChip1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPhosphateCrystal_idChip2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idBarn1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idFairyWorldLobby1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idBarn1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idBarn1Door",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCoat1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idDog1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPail1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLabel1",
+            "child_node": "idStick1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idFairyWorldLobby1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idThroneRoom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idThroneRoom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idThroneRoom1Door",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idBarrel1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPhosphateCrystal_idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idPhosphateCrystal_idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idThrone1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

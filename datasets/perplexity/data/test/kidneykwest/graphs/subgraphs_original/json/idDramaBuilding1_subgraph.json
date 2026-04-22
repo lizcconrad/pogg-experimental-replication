@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idDramaBuilding1": {
+            "lexicon_key": "idDramaBuilding",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idDramaBuilding1FrontOpening": {
+            "lexicon_key": "idDramaBuilding1FrontOpening",
+            "node_properties": {}
+        },
+        "idDramaBuilding1Door": {
+            "lexicon_key": "idDramaBuilding1Door",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1",
+            "child_node": "idDramaBuilding1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDramaBuilding1FrontOpening",
+            "child_node": "idDramaBuilding1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

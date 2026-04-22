@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idStomach1FrontOpening": {
+            "lexicon_key": "idStomach1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSmallIntestine1FrontOpening": {
+            "lexicon_key": "idSmallIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idStomach1FrontOpening",
+            "child_node": "idSmallIntestine1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the stomach's front opening north of the small intestine's front opening"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLivingRoomToKitchenDoor1": {
+            "lexicon_key": "idLivingRoomToKitchenDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLivingroom1BackOpening": {
+            "lexicon_key": "idLivingroom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLivingRoomToKitchenDoor1_prop_idOpenState",
+            "parent_node": "idLivingRoomToKitchenDoor1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLivingRoomToKitchenDoor1",
+            "child_node": "idLivingroom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the open door from the living room to the kitchen south of the living room's back opening"
+    ]
+}

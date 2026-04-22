@@ -1,0 +1,9 @@
+strict digraph {
+idPainting1 [node_type=entity, lexicon_key=idPainting];
+green [node_type=property, lexicon_key=green];
+yes [node_type=property, lexicon_key=yes];
+idBedroom1 [node_type=entity, lexicon_key=idBedroom];
+idPainting1 -> green [label="idPainting1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPainting1 -> yes [label="idPainting1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idPainting1 -> idBedroom1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

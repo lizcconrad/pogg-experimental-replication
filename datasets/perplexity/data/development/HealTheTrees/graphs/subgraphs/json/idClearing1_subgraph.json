@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grassy": {
+            "lexicon_key": "grassy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idRockyArea1": {
+            "lexicon_key": "idRockyArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "rocky": {
+            "lexicon_key": "rocky",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idClearing1_prop_idDescriptor",
+            "parent_node": "idClearing1",
+            "child_node": "grassy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idClearing1",
+            "child_node": "idRockyArea1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idRockyArea1_prop_idDescriptor",
+            "parent_node": "idRockyArea1",
+            "child_node": "rocky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the grassy clearing east of the rocky rocky area"
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idMarsh1 [node_type=entity, lexicon_key=idMarsh];
+mossy [node_type=property, lexicon_key=mossy];
+idTheBushes1 [node_type=entity, lexicon_key=idTheBushes];
+overgrown [node_type=property, lexicon_key=overgrown];
+idMarsh1 -> mossy [label="idMarsh1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idMarsh1 -> idTheBushes1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idTheBushes1 -> overgrown [label="idTheBushes1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

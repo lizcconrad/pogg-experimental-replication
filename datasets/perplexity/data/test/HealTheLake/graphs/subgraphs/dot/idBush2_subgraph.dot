@@ -1,0 +1,11 @@
+strict digraph {
+idBush2 [node_type=entity, lexicon_key=idBush];
+yellow [node_type=property, lexicon_key=yellow];
+yes [node_type=property, lexicon_key=yes];
+idBranch1 [node_type=entity, lexicon_key=idBranch];
+long [node_type=property, lexicon_key=long];
+idBush2 -> yellow [label="idBush2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBush2 -> yes [label="idBush2_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBush2 -> idBranch1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBranch1 -> long [label="idBranch1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

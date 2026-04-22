@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "idKelly1": {
+            "node_type": "entity",
+            "lexicon_key": "idKelly"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        },
+        "happy": {
+            "node_type": "property",
+            "lexicon_key": "happy"
+        },
+        "magic": {
+            "node_type": "property",
+            "lexicon_key": "magic"
+        },
+        "idFairyWorldLobby1": {
+            "node_type": "entity",
+            "lexicon_key": "idFairyWorldLobby"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idKelly1_prop_idOpenState",
+            "parent_node": "idKelly1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idEmotion",
+            "parent_node": "idKelly1",
+            "child_node": "happy",
+            "lexicon_key": "idEmotion",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idTrait",
+            "parent_node": "idKelly1",
+            "child_node": "magic",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idKelly1",
+            "child_node": "idFairyWorldLobby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

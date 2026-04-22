@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idTent1DoorInsideOpening": {
+            "lexicon_key": "idTent1DoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idTent1Door": {
+            "lexicon_key": "idTent1Door",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idTent1DoorOutsideOpening": {
+            "lexicon_key": "idTent1DoorOutsideOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTent1DoorInsideOpening",
+            "child_node": "idTent1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idTent1Door_prop_idOpenState",
+            "parent_node": "idTent1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTent1Door_prop_idUnknownObject",
+            "parent_node": "idTent1Door",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTent1Door",
+            "child_node": "idTent1DoorOutsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

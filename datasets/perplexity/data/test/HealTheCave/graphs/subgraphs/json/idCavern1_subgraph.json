@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idCavern1": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "original": {
+            "lexicon_key": "original",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBoulder2": {
+            "lexicon_key": "idBoulder",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern1_prop_idOrdinality",
+            "parent_node": "idCavern1",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern1_prop_idDescriptor",
+            "parent_node": "idCavern1",
+            "child_node": "original",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern1",
+            "child_node": "idBoulder2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the original first cavern east of the boulder"
+    ]
+}

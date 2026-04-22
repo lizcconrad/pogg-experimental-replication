@@ -1,0 +1,41 @@
+{
+    "nodes": {
+        "idBanner2": {
+            "lexicon_key": "idBanner",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFairyWorldLobby1": {
+            "lexicon_key": "idFairyWorldLobby",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBanner2_prop_idColor",
+            "parent_node": "idBanner2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBanner2",
+            "child_node": "idFairyWorldLobby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

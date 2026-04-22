@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idSidewalk1": {
+            "lexicon_key": "idSidewalk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBaby1LeftHand": {
+            "lexicon_key": "idBaby1LeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSidewalk1",
+            "child_node": "idBaby1LeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the sidewalk south of the baby's left hand"
+    ]
+}

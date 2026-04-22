@@ -1,0 +1,54 @@
+{
+    "nodes": {
+        "idScreen1": {
+            "lexicon_key": "idScreen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idScreen1_prop_idUnknownObject",
+            "parent_node": "idScreen1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idScreen1",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriverSeat_prop_idUnknownObject",
+            "parent_node": "idDriverSeat",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unknown screen west of the unknown driver seat"
+    ]
+}

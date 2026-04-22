@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idBedroom1LeftOpening": {
+            "lexicon_key": "idBedroom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1idLivingRoom1FrontOpening": {
+            "lexicon_key": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBedroom1LeftOpening",
+            "child_node": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bedroom's left opening east of the living room's front opening"
+    ]
+}

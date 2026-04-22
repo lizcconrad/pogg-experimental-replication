@@ -1,0 +1,7 @@
+strict digraph {
+idLock2 [node_type=entity, lexicon_key=idLock];
+locked [node_type=property, lexicon_key=locked];
+idPlageBackOpening [node_type=entity, lexicon_key=idPlageBackOpening];
+idLock2 -> locked [label="idLock2_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+idLock2 -> idPlageBackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

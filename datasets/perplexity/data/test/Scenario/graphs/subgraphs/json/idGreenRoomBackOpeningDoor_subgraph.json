@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idGreenRoomBackOpeningDoor": {
+            "lexicon_key": "idGreenRoomBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idEntrancecaveBackOpening": {
+            "lexicon_key": "idEntrancecaveBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGreenRoomBackOpeningDoor_prop_idHeight",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpeningDoor_prop_idLockedState",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGreenRoomBackOpeningDoor_prop_idOpenState",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idGreenRoomBackOpeningDoor",
+            "child_node": "idEntrancecaveBackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idEntrancecaveBackOpening_prop_idOpenState",
+            "parent_node": "idEntrancecaveBackOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the medium closed locked door to the green room's back opening south of the open back opening to the cave's entrance"
+    ]
+}

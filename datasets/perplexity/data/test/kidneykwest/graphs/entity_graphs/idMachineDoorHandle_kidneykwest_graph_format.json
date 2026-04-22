@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "idMachineDoorHandle": {
+            "lexicon_key": "idMachineDoorHandle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMachineDoor": {
+            "lexicon_key": "idMachineDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idMachineDoorHandle",
+            "child_node": "idMachineDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

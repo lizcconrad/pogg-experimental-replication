@@ -1,0 +1,11 @@
+strict digraph {
+idMushroom1 [node_type="entity_node", root=root, lexicon_key=idMushroom];
+blue [lexicon_key=blue];
+idCavern5 [lexicon_key=idCavern];
+cold [lexicon_key=cold];
+5 [lexicon_key=5];
+idMushroom1 -> blue [label="idMushroom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idMushroom1 -> idCavern5 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idCavern5 -> cold [label="idCavern5_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idCavern5 -> 5 [label="idCavern5_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

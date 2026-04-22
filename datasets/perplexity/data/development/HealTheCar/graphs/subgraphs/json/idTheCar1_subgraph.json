@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idTheCar1": {
+            "lexicon_key": "idTheCar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStump1": {
+            "lexicon_key": "idStump",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "hollow": {
+            "lexicon_key": "hollow",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheCar1",
+            "child_node": "idStump1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idStump1_prop_idDescriptor_1",
+            "parent_node": "idStump1",
+            "child_node": "hollow",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "The Car near the hollow stump"
+    ]
+}

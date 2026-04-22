@@ -1,0 +1,9 @@
+{
+    "nodes": {
+        "idLabel1Text": {
+            "node_type": "entity",
+            "lexicon_key": "idLabel1Text"
+        }
+    },
+    "edges": []
+}

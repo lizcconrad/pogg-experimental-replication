@@ -1,0 +1,69 @@
+{
+    "nodes": {
+        "idEntrancecaveBackOpening": {
+            "lexicon_key": "idEntrancecaveBackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "tall": {
+            "lexicon_key": "tall",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlageFrontOpening": {
+            "lexicon_key": "idPlageFrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idEntrancecaveBackOpening_prop_idHeight",
+            "parent_node": "idEntrancecaveBackOpening",
+            "child_node": "tall",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idEntrancecaveBackOpening_prop_idOpenState",
+            "parent_node": "idEntrancecaveBackOpening",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idEntrancecaveBackOpening",
+            "child_node": "idPlageFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlageFrontOpening_prop_idHeight",
+            "parent_node": "idPlageFrontOpening",
+            "child_node": "tall",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the tall open back opening to the cave's entrance north of the tall plage's front opening"
+    ]
+}

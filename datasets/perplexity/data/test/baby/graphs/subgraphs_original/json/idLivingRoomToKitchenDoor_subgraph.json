@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "idLivingRoomToKitchenDoor": {
+            "lexicon_key": "idLivingRoomToKitchenDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idCloset1": {
+            "lexicon_key": "idCloset",
+            "node_properties": {}
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLivingRoomToKitchenDoor_prop_idOpenState",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLivingRoomToKitchenDoor_prop_idUnknownObject",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLivingRoomToKitchenDoor",
+            "child_node": "idCloset1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCloset1_prop_idUnknownObject",
+            "parent_node": "idCloset1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCloset1",
+            "child_node": "idCar1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

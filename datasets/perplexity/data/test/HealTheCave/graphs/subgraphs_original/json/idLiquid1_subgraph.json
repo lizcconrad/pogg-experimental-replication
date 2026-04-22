@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idLiquid1": {
+            "lexicon_key": "idLiquid",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {}
+        },
+        "strange": {
+            "lexicon_key": "strange",
+            "node_properties": {}
+        },
+        "idCavern7LeftOpening": {
+            "lexicon_key": "idCavern7LeftOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLiquid1_prop_idImmovable",
+            "parent_node": "idLiquid1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLiquid1_prop_idColor",
+            "parent_node": "idLiquid1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLiquid1_prop_idDescriptor",
+            "parent_node": "idLiquid1",
+            "child_node": "strange",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLiquid1",
+            "child_node": "idCavern7LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

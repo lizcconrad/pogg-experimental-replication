@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idBear1": {
+            "lexicon_key": "idBear",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "angry": {
+            "lexicon_key": "angry",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBumper1": {
+            "lexicon_key": "idBumper",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBear1_prop_idColor",
+            "parent_node": "idBear1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBear1_prop_idImmovable",
+            "parent_node": "idBear1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBear1_prop_idDescriptor",
+            "parent_node": "idBear1",
+            "child_node": "angry",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idBear1",
+            "child_node": "idBumper1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the angry black immovable bear south of the bumper"
+    ]
+}

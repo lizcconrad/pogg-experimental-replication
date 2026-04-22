@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idButtonX": {
+            "lexicon_key": "idButtonX",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {}
+        },
+        "idElevator1": {
+            "lexicon_key": "idElevator",
+            "node_properties": {}
+        },
+        "idButton1": {
+            "lexicon_key": "idButton",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonX_prop_idOrdinality",
+            "parent_node": "idButtonX",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idButtonX",
+            "child_node": "idElevator1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idElevator1_prop_idCurrentLevel",
+            "parent_node": "idElevator1",
+            "child_node": "idButton1",
+            "lexicon_key": "idCurrentLevel",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

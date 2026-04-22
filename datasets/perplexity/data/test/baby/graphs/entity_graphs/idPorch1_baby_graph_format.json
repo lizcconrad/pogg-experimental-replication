@@ -1,0 +1,1435 @@
+{
+    "nodes": {
+        "idPorch1": {
+            "lexicon_key": "idPorch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idSidewalk1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLab1": {
+            "lexicon_key": "idLab",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idHouse1": {
+            "lexicon_key": "idHouse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriveway1": {
+            "lexicon_key": "idDriveway",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyard1": {
+            "lexicon_key": "idBackyard",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idEndRoom1": {
+            "lexicon_key": "idEndRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLot1": {
+            "lexicon_key": "idLot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThief1": {
+            "lexicon_key": "idThief",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDaycare1": {
+            "lexicon_key": "idDaycare",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCar1": {
+            "lexicon_key": "idCar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoom1": {
+            "lexicon_key": "idLivingRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTable1": {
+            "lexicon_key": "idTable",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchen1": {
+            "lexicon_key": "idKitchen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCrib1": {
+            "lexicon_key": "idCrib",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPacifier1": {
+            "lexicon_key": "idPacifier",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCloset1": {
+            "lexicon_key": "idCloset",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorkshop1": {
+            "lexicon_key": "idWorkshop",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTent1": {
+            "lexicon_key": "idTent",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDock1": {
+            "lexicon_key": "idDock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorker1": {
+            "lexicon_key": "idWorker",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idScrewdriver1": {
+            "lexicon_key": "idScrewdriver",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBabyCarSeat": {
+            "lexicon_key": "idBabyCarSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriverSeat": {
+            "lexicon_key": "idDriverSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPassengerSeat": {
+            "lexicon_key": "idPassengerSeat",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerBackside": {
+            "lexicon_key": "idPlayerBackside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPlayerRightHand": {
+            "lexicon_key": "idPlayerRightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idStartButton": {
+            "lexicon_key": "idStartButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1idBackyard1idSouthOfOpening": {
+            "lexicon_key": "idBackyardDoor1idBackyard1idSouthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoomToKitchenDoor": {
+            "lexicon_key": "idLivingRoomToKitchenDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1RightOpening": {
+            "lexicon_key": "idBedroom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorkshop1LeftOpening": {
+            "lexicon_key": "idWorkshop1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroomToClosetDoor": {
+            "lexicon_key": "idBedroomToClosetDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoom1LeftOpening": {
+            "lexicon_key": "idLivingRoom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoom1RightOpening": {
+            "lexicon_key": "idLivingRoom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFrontDoor1idPorch1idNorthOfOpening": {
+            "lexicon_key": "idFrontDoor1idPorch1idNorthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFrontDoor1": {
+            "lexicon_key": "idFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idFrontDoor1idLivingRoom1BackOpening": {
+            "lexicon_key": "idFrontDoor1idLivingRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1idLivingRoom1FrontOpening": {
+            "lexicon_key": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoomToBedroomDoor": {
+            "lexicon_key": "idLivingRoomToBedroomDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCloset1LeftOpening": {
+            "lexicon_key": "idCloset1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCloset1RightOpening": {
+            "lexicon_key": "idCloset1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idKitchen1RightOpening": {
+            "lexicon_key": "idKitchen1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroom1LeftOpening": {
+            "lexicon_key": "idBedroom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1": {
+            "lexicon_key": "idBackyardDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBaby1LeftHand": {
+            "lexicon_key": "idBaby1LeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBaby1RightHand": {
+            "lexicon_key": "idBaby1RightHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1Key": {
+            "lexicon_key": "idBackyardDoor1Key",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idButton1": {
+            "lexicon_key": "idButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idButton2": {
+            "lexicon_key": "idButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCardKey1": {
+            "lexicon_key": "idCardKey",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDiaperBag1": {
+            "lexicon_key": "idDiaperBag",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMomNote1": {
+            "lexicon_key": "idMomNote",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idMonitor1": {
+            "lexicon_key": "idMonitor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idScreen1": {
+            "lexicon_key": "idScreen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPorch1_prop_idInScopeOf",
+            "parent_node": "idPorch1",
+            "child_node": "idSidewalk1",
+            "lexicon_key": "idInScopeOf",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPorch1_prop_idDirectionDescription",
+            "parent_node": "idPorch1",
+            "child_node": "[The, sayName(idFrontDoor1)] is north and [the, sayName(idSidewalk1)] is south.",
+            "lexicon_key": "idDirectionDescription",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isTouching",
+            "parent_node": "idPorch1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isTouching",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idPorch1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idLab1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idHouse1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idSidewalk1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idDriveway1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idPorch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyard1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idEndRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idLot1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idThief1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idDaycare1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idBaby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idMom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idCar1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idTable1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idBed1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idCrib1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idPacifier1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idWorkshop1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idTent1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idDock1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idWorker1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPorch1",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idSidewalk1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDriveway1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBabyCarSeat",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCar1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPassengerSeat",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPlayer",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPlayerBackside",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPlayerRightHand",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idStartButton",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyardDoor1idBackyard1idSouthOfOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoomToKitchenDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idWorkshop1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idWorkshop1LeftOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroomToClosetDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoom1LeftOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoom1RightOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idFrontDoor1idPorch1idNorthOfOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idFrontDoor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idFrontDoor1idLivingRoom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoomToBedroomDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyard1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1LeftOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1RightOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idKitchen1RightOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1LeftOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyardDoor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBaby1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBaby1LeftHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBaby1RightHand",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyardDoor1Key",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBed1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idButton1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idButton2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCardKey1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCrib1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDiaperBag1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDock1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idGoButton",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idMomNote1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idMonitor1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPacifier1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idScreen1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idScrewdriver1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idTable1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idTent1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoomToKitchenDoor",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoom1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPorch1",
+            "child_node": "idKitchen1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPorch1",
+            "child_node": "idKitchen1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idWorkshop1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idWorkshop1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroomToClosetDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoom1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idLivingRoomToBedroomDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCloset1RightOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDriveway1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBedroom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBabyCarSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBed1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCar1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idCrib1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDock1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idDriverSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idGoButton",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPacifier1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idPassengerSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idStartButton",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPorch1",
+            "child_node": "idTent1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

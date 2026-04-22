@@ -1,0 +1,5 @@
+strict digraph {
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idBackyardDoor1Key [node_type=entity, lexicon_key=idBackyardDoor1Key];
+idPlayerBackside -> idBackyardDoor1Key [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

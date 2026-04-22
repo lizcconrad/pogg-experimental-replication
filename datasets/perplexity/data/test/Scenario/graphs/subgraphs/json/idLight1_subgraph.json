@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idLight1": {
+            "lexicon_key": "idLight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "purple": {
+            "lexicon_key": "purple",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "on": {
+            "lexicon_key": "on",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "lit": {
+            "lexicon_key": "lit",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLexi": {
+            "lexicon_key": "idLexi",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLight1_prop_idColor",
+            "parent_node": "idLight1",
+            "child_node": "purple",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLight1_prop_idPowerState",
+            "parent_node": "idLight1",
+            "child_node": "on",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLight1_prop_idLitState",
+            "parent_node": "idLight1",
+            "child_node": "lit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLight1",
+            "child_node": "idLexi",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the purple lit light that is turned on south of Lexi"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "idTutorialRoom1DoorLock": {
+            "lexicon_key": "idTutorialRoom1DoorLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTutorialRoom1DoorLock_prop_idLockedState",
+            "parent_node": "idTutorialRoom1DoorLock",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTutorialRoom1DoorLock_prop_idUnknownObject",
+            "parent_node": "idTutorialRoom1DoorLock",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

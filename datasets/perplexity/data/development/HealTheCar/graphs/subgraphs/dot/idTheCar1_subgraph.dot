@@ -1,0 +1,7 @@
+strict digraph {
+idTheCar1 [node_type=entity, lexicon_key=idTheCar];
+idStump1 [node_type=entity, lexicon_key=idStump];
+hollow [node_type=property, lexicon_key=hollow];
+idTheCar1 -> idStump1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idStump1 -> hollow [label="idStump1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

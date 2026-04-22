@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idDrawer1": {
+            "node_type": "entity",
+            "lexicon_key": "idDrawer"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        },
+        "1": {
+            "node_type": "property",
+            "lexicon_key": "1"
+        },
+        "upper": {
+            "node_type": "property",
+            "lexicon_key": "upper"
+        },
+        "idMachine1": {
+            "node_type": "entity",
+            "lexicon_key": "idMachine"
+        },
+        "idThing": {
+            "node_type": "property",
+            "lexicon_key": "idThing"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDrawer1_prop_idOpenState",
+            "parent_node": "idDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer1_prop_idOrdinality",
+            "parent_node": "idDrawer1",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer1_prop_idVerticalArrangement",
+            "parent_node": "idDrawer1",
+            "child_node": "upper",
+            "lexicon_key": "idVerticalArrangement",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDrawer1",
+            "child_node": "idMachine1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idButtonsPushed",
+            "parent_node": "idMachine1",
+            "child_node": "idThing",
+            "lexicon_key": "idButtonsPushed",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

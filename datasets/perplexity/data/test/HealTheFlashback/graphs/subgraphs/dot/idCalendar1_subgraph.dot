@@ -1,0 +1,7 @@
+strict digraph {
+idCalendar1 [node_type=entity, lexicon_key=idCalendar];
+small [node_type=property, lexicon_key=small];
+idPainting1 [node_type=entity, lexicon_key=idPainting];
+idCalendar1 -> small [label="idCalendar1_prop_idSize", edge_type=property, lexicon_key=idSize];
+idCalendar1 -> idPainting1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

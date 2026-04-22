@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idBook1Page3TornText": {
+            "lexicon_key": "idBook1Page3TornText",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

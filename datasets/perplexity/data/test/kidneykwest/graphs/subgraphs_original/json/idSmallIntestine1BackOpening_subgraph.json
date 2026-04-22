@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idSmallIntestine1BackOpening": {
+            "lexicon_key": "idSmallIntestine1BackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

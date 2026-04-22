@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idPacifier1": {
+            "lexicon_key": "idPacifier",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1Key": {
+            "lexicon_key": "idBackyardDoor1Key",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPacifier1",
+            "child_node": "idBackyardDoor1Key",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1Key_prop_idUnknownObject",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the pacifier east of the unknown key to the backyard door"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "smoky": {
+            "lexicon_key": "smoky",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPlayerLeftHand": {
+            "lexicon_key": "idPlayerLeftHand",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idArea1_prop_idDescriptor",
+            "parent_node": "idArea1",
+            "child_node": "smoky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idArea1",
+            "child_node": "idPlayerLeftHand",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the smoky area east of the player's left hand"
+    ]
+}

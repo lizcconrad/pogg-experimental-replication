@@ -1,0 +1,11 @@
+strict digraph {
+idChair2 [node_type=entity, lexicon_key=idChair];
+regular [node_type=property, lexicon_key=regular];
+white [node_type=property, lexicon_key=white];
+idBathroom1 [node_type=entity, lexicon_key=idBathroom];
+messy [node_type=property, lexicon_key=messy];
+idChair2 -> regular [label="idChair2_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idChair2 -> white [label="idChair2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idChair2 -> idBathroom1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBathroom1 -> messy [label="idBathroom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

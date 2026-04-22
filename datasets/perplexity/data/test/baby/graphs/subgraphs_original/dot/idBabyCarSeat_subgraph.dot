@@ -1,0 +1,7 @@
+strict digraph {
+idBabyCarSeat [node_type="entity_node", root=root, lexicon_key=idBabyCarSeat];
+yes [lexicon_key=yes];
+true [lexicon_key=true];
+idBabyCarSeat -> yes [label="idBabyCarSeat_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBabyCarSeat -> true [label="idBabyCarSeat_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

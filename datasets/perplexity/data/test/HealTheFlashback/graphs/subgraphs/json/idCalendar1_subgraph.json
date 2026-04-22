@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idCalendar1": {
+            "lexicon_key": "idCalendar",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idPainting1": {
+            "lexicon_key": "idPainting",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCalendar1_prop_idSize",
+            "parent_node": "idCalendar1",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idCalendar1",
+            "child_node": "idPainting1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the small calendar south of the painting"
+    ]
+}

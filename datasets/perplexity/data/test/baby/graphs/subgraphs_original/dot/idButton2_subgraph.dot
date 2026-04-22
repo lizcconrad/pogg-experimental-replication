@@ -1,0 +1,9 @@
+strict digraph {
+idButton2 [node_type="entity_node", root=root, lexicon_key=idButton];
+2 [lexicon_key=2];
+true [lexicon_key=true];
+idLivingRoom1LeftOpening [lexicon_key=idLivingRoom1LeftOpening];
+idButton2 -> 2 [label="idButton2_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idButton2 -> true [label="idButton2_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idButton2 -> idLivingRoom1LeftOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

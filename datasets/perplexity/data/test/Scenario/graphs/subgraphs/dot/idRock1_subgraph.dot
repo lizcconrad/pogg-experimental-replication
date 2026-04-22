@@ -1,0 +1,9 @@
+strict digraph {
+idRock1 [node_type=entity, lexicon_key=idRock];
+blue [node_type=property, lexicon_key=blue];
+smooth [node_type=property, lexicon_key=smooth];
+idLexiRightHand [node_type=entity, lexicon_key=idLexiRightHand];
+idRock1 -> blue [label="idRock1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idRock1 -> smooth [label="idRock1_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+idRock1 -> idLexiRightHand [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

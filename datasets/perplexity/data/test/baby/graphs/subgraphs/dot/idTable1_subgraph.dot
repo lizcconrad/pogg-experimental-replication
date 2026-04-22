@@ -1,0 +1,15 @@
+strict digraph {
+idTable1 [node_type=entity, lexicon_key=idTable];
+idmetal [node_type=property, lexicon_key=idmetal];
+true [node_type=property, lexicon_key=true];
+modern [node_type=property, lexicon_key=modern];
+idDriverSeat [node_type=entity, lexicon_key=idDriverSeat];
+yes [node_type=property, lexicon_key=yes];
+idDriver1 [node_type=property, lexicon_key=idDriver];
+idTable1 -> idmetal [label="idTable1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idTable1 -> true [label="idTable1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTable1 -> modern [label="idTable1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idTable1 -> idDriverSeat [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idDriverSeat -> yes [label="idDriverSeat_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDriverSeat -> idDriver1 [label="idDriverSeat_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+}

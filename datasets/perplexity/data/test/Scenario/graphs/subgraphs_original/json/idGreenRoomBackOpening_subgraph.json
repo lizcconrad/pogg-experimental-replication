@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idGreenRoomBackOpening": {
+            "lexicon_key": "idGreenRoomBackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGreenRoomBackOpening_prop_idHeight",
+            "parent_node": "idGreenRoomBackOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

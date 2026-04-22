@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idTheCarRoom1": {
+            "lexicon_key": "idTheCarRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "smoky": {
+            "lexicon_key": "smoky",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBear1": {
+            "lexicon_key": "idBear",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "angry": {
+            "lexicon_key": "angry",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTheCarRoom1_prop_idDescriptor",
+            "parent_node": "idTheCarRoom1",
+            "child_node": "smoky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idTheCarRoom1",
+            "child_node": "idBear1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBear1_prop_idDescriptor",
+            "parent_node": "idBear1",
+            "child_node": "angry",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "The Car Room that is smoky east of the angry bear"
+    ]
+}

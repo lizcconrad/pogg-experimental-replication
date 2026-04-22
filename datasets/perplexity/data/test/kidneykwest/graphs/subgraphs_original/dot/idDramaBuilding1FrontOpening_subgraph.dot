@@ -1,0 +1,7 @@
+strict digraph {
+idDramaBuilding1FrontOpening [node_type="entity_node", root=root, lexicon_key=idDramaBuilding1FrontOpening];
+idCostumeCloset1BackOpening [lexicon_key=idCostumeCloset1BackOpening];
+idDramaBuilding1Door [lexicon_key=idDramaBuilding1Door];
+idDramaBuilding1FrontOpening -> idCostumeCloset1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idCostumeCloset1BackOpening -> idDramaBuilding1Door [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

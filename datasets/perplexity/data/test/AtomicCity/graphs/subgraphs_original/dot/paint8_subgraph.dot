@@ -1,0 +1,7 @@
+strict digraph {
+paint8 [node_type="entity_node", root=root, lexicon_key=paint8];
+blue [lexicon_key=blue];
+uncountable [lexicon_key=uncountable];
+paint8 -> blue [label="paint8_prop_idColor", edge_type=property, lexicon_key=idColor];
+paint8 -> uncountable [label="paint8_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+}

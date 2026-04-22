@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idElevator1": {
+            "lexicon_key": "idElevator",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idButton1": {
+            "lexicon_key": "idButton",
+            "node_properties": {}
+        },
+        "idShutoffValveLight1": {
+            "lexicon_key": "idShutoffValveLight",
+            "node_properties": {}
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {}
+        },
+        "unlit": {
+            "lexicon_key": "unlit",
+            "node_properties": {}
+        },
+        "idElevator1FrontOpening": {
+            "lexicon_key": "idElevator1FrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idElevator1_prop_idCurrentLevel",
+            "parent_node": "idElevator1",
+            "child_node": "idButton1",
+            "lexicon_key": "idCurrentLevel",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idElevator1",
+            "child_node": "idShutoffValveLight1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idElevator1",
+            "child_node": "idElevator1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idColor",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "off",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idShutoffValveLight1_prop_idLitState",
+            "parent_node": "idShutoffValveLight1",
+            "child_node": "unlit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

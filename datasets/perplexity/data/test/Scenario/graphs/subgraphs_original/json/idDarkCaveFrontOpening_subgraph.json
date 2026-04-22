@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idDarkCaveFrontOpening": {
+            "lexicon_key": "idDarkCaveFrontOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "medium": {
+            "lexicon_key": "medium",
+            "node_properties": {}
+        },
+        "idPlage": {
+            "lexicon_key": "idPlage",
+            "node_properties": {}
+        },
+        "2": {
+            "lexicon_key": "2",
+            "node_properties": {}
+        },
+        "idPlageBackOpening": {
+            "lexicon_key": "idPlageBackOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDarkCaveFrontOpening_prop_idHeight",
+            "parent_node": "idDarkCaveFrontOpening",
+            "child_node": "medium",
+            "lexicon_key": "idHeight",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idDarkCaveFrontOpening",
+            "child_node": "idPlage",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPlage_prop_idOrdinality",
+            "parent_node": "idPlage",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idPlage",
+            "child_node": "idPlageBackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idValve1": {
+            "lexicon_key": "idValve",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idValve1_prop_idOpenState",
+            "parent_node": "idValve1",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

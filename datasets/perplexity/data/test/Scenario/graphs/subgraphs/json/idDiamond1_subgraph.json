@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDiamond1": {
+            "lexicon_key": "idDiamond",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idRock2": {
+            "lexicon_key": "idRock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "rough": {
+            "lexicon_key": "rough",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDiamond1",
+            "child_node": "idRock2",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idColor",
+            "parent_node": "idRock2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idTexture",
+            "parent_node": "idRock2",
+            "child_node": "rough",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the diamond north of the rough red rock"
+    ]
+}

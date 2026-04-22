@@ -1,0 +1,17 @@
+strict digraph {
+idFuseSocket1 [node_type="entity_node", root=root, lexicon_key=idFuseSocket];
+1 [lexicon_key=1];
+idLongHallwayLeftOpeningDoor [lexicon_key=idLongHallwayLeftOpeningDoor];
+open [lexicon_key=open];
+grey [lexicon_key=grey];
+idCardKey1 [lexicon_key=idCardKey];
+true [lexicon_key=true];
+idElevatorOpening [lexicon_key=idElevatorOpening];
+idFuseSocket1 -> 1 [label="idFuseSocket1_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idFuseSocket1 -> idLongHallwayLeftOpeningDoor [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idFuseSocket1 -> idCardKey1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idLongHallwayLeftOpeningDoor -> open [label="idLongHallwayLeftOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLongHallwayLeftOpeningDoor -> grey [label="idLongHallwayLeftOpeningDoor_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCardKey1 -> true [label="idCardKey1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCardKey1 -> idElevatorOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

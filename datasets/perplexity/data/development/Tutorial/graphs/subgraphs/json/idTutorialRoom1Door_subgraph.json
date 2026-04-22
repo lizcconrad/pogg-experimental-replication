@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idTutorialRoom1Door": {
+            "lexicon_key": "idTutorialRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTutorialRoom1DoorLock": {
+            "lexicon_key": "idTutorialRoom1DoorLock",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idGameRoom1": {
+            "lexicon_key": "idGameRoom",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTutorialRoom1Door_prop_idOpenState",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTutorialRoom1Door_prop_idLockMechanism",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idTutorialRoom1DoorLock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTutorialRoom1Door",
+            "child_node": "idGameRoom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed door to the tutorial room with a lock south of the game room"
+    ]
+}

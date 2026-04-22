@@ -1,0 +1,7 @@
+strict digraph {
+idOffice1 [node_type=entity, lexicon_key=idOffice];
+grey [node_type=property, lexicon_key=grey];
+idWolf4 [node_type=entity, lexicon_key=idWolf];
+idOffice1 -> grey [label="idOffice1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idOffice1 -> idWolf4 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

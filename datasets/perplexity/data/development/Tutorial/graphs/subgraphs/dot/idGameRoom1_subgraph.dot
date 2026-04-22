@@ -1,0 +1,7 @@
+strict digraph {
+idGameRoom1 [node_type=entity, lexicon_key=idGameRoom];
+true [node_type=property, lexicon_key=true];
+idKeyBlue [node_type=entity, lexicon_key=idKeyBlue];
+idGameRoom1 -> true [label="idGameRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idGameRoom1 -> idKeyBlue [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

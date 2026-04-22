@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idTent1DoorInsideOpening": {
+            "lexicon_key": "idTent1DoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTent1Door": {
+            "lexicon_key": "idTent1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTent1DoorInsideOpening",
+            "child_node": "idTent1Door",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idTent1DoorInsideOpening",
+            "child_node": "idTent1Door",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

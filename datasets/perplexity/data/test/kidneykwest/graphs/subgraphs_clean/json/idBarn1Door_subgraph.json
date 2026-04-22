@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "idBarn1Door": {
+            "node_type": "entity",
+            "lexicon_key": "idBarn1Door"
+        },
+        "idwood": {
+            "node_type": "property",
+            "lexicon_key": "idwood"
+        },
+        "open": {
+            "node_type": "property",
+            "lexicon_key": "open"
+        },
+        "idButtonY": {
+            "node_type": "entity",
+            "lexicon_key": "idButtonY"
+        },
+        "2": {
+            "node_type": "property",
+            "lexicon_key": "2"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBarn1Door_prop_idMaterial",
+            "parent_node": "idBarn1Door",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBarn1Door_prop_idOpenState",
+            "parent_node": "idBarn1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBarn1Door",
+            "child_node": "idButtonY",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idButtonY_prop_idOrdinality",
+            "parent_node": "idButtonY",
+            "child_node": "2",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

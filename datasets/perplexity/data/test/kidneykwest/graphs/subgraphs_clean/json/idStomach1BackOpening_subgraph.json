@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idStomach1BackOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idStomach1BackOpening"
+        },
+        "idThroatSphincter1": {
+            "node_type": "entity",
+            "lexicon_key": "idThroatSphincter"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idStomach1BackOpening",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idThroatSphincter1_prop_idOpenState",
+            "parent_node": "idThroatSphincter1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

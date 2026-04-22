@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idKeyhole2": {
+            "lexicon_key": "idKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLexi": {
+            "lexicon_key": "idLexi",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idKeyhole2",
+            "child_node": "idLexi",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the keyhole south of Lexi"
+    ]
+}

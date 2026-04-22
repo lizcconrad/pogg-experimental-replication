@@ -1,0 +1,9 @@
+strict digraph {
+idDuct1 [lexicon_key=idDuct];
+true [lexicon_key=true];
+yes [lexicon_key=yes];
+idSmallIntestine1FrontOpening [lexicon_key=idSmallIntestine1FrontOpening];
+idDuct1 -> true [label="idDuct1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idDuct1 -> yes [label="idDuct1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDuct1 -> idSmallIntestine1FrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

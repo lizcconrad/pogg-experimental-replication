@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idStick1": {
+            "node_type": "entity",
+            "lexicon_key": "idStick"
+        },
+        "idwood": {
+            "node_type": "property",
+            "lexicon_key": "idwood"
+        },
+        "idPill1": {
+            "node_type": "entity",
+            "lexicon_key": "idPill"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idStick1_prop_idMaterial",
+            "parent_node": "idStick1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idStick1",
+            "child_node": "idPill1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

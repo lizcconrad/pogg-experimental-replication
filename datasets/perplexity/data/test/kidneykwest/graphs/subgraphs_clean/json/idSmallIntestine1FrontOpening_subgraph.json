@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idSmallIntestine1FrontOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idSmallIntestine1FrontOpening"
+        },
+        "idPyloricSphincter1": {
+            "node_type": "entity",
+            "lexicon_key": "idPyloricSphincter"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSmallIntestine1FrontOpening",
+            "child_node": "idPyloricSphincter1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

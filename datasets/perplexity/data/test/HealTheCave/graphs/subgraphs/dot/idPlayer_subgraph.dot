@@ -1,0 +1,7 @@
+strict digraph {
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idCavern6TopOpening [node_type=entity, lexicon_key=idCavern6TopOpening];
+idPlayer -> false [label="idPlayer_prop_idBoulderMoved", edge_type=property, lexicon_key=idBoulderMoved];
+idPlayer -> idCavern6TopOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

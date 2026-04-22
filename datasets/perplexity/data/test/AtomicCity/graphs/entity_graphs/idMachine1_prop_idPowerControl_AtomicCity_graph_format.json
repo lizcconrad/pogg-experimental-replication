@@ -1,0 +1,11 @@
+{
+    "nodes": {
+        "idMachine1_prop_idPowerControl": {
+            "lexicon_key": "idMachine1_prop_idPowerControl",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": []
+}

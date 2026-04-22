@@ -1,0 +1,7 @@
+strict digraph {
+idBarn1RightOpening [node_type=entity, lexicon_key=idBarn1RightOpening];
+idApple1 [node_type=entity, lexicon_key=idApple];
+red [node_type=property, lexicon_key=red];
+idBarn1RightOpening -> idApple1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idApple1 -> red [label="idApple1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idDriveway1 [node_type="entity_node", root=root, lexicon_key=idDriveway];
+"West is [the, sayName(idSidewalk1)].{p}" [lexicon_key="West is [the, sayName(idSidewalk1)].{p}"];
+idBedroom1LeftOpening [lexicon_key=idBedroom1LeftOpening];
+idBabyCarSeat [lexicon_key=idBabyCarSeat];
+idDriveway1 -> "West is [the, sayName(idSidewalk1)].{p}" [label="idDriveway1_prop_idDirectionDescription", edge_type=property, lexicon_key=idDirectionDescription];
+idDriveway1 -> idBedroom1LeftOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idBedroom1LeftOpening -> idBabyCarSeat [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

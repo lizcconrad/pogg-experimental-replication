@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idScientistCostume1": {
+            "lexicon_key": "idScientistCostume",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "gold": {
+            "lexicon_key": "gold",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idScientistCostume1_prop_idColor",
+            "parent_node": "idScientistCostume1",
+            "child_node": "gold",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idScientistCostume1_prop_idUnknownObject",
+            "parent_node": "idScientistCostume1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

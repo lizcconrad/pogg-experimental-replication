@@ -1,0 +1,9 @@
+strict digraph {
+idCabin1Door [lexicon_key=idCabin1Door];
+blue [lexicon_key=blue];
+open [lexicon_key=open];
+idFairyWorldLobby1FrontOpening [lexicon_key=idFairyWorldLobby1FrontOpening];
+idCabin1Door -> blue [label="idCabin1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCabin1Door -> open [label="idCabin1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idCabin1Door -> idFairyWorldLobby1FrontOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

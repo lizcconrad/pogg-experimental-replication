@@ -1,0 +1,17 @@
+strict digraph {
+idSink1 [node_type="entity_node", root=root, lexicon_key=idSink];
+idporcelain [lexicon_key=idporcelain];
+yes [lexicon_key=yes];
+white [lexicon_key=white];
+idLivingRoomToBedroomDoor1 [lexicon_key=idLivingRoomToBedroomDoor];
+open [lexicon_key=open];
+idCalendar1 [lexicon_key=idCalendar];
+small [lexicon_key=small];
+idSink1 -> idporcelain [label="idSink1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSink1 -> yes [label="idSink1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idSink1 -> white [label="idSink1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSink1 -> idLivingRoomToBedroomDoor1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idSink1 -> idCalendar1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idLivingRoomToBedroomDoor1 -> open [label="idLivingRoomToBedroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idCalendar1 -> small [label="idCalendar1_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

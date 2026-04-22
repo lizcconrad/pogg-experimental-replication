@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idFlashlight1": {
+            "lexicon_key": "idFlashlight",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "yellow": {
+            "lexicon_key": "yellow",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "unlit": {
+            "lexicon_key": "unlit",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLock2": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFlashlight1_prop_idColor",
+            "parent_node": "idFlashlight1",
+            "child_node": "yellow",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1_prop_idPowerState",
+            "parent_node": "idFlashlight1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFlashlight1_prop_idLitState",
+            "parent_node": "idFlashlight1",
+            "child_node": "unlit",
+            "lexicon_key": "idLitState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFlashlight1",
+            "child_node": "idLock2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLock2_prop_idLockedState",
+            "parent_node": "idLock2",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the unlit yellow flashlight that is turned off south of the locked lock"
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "nodes": {
+        "idGlowingFlower1": {
+            "lexicon_key": "idGlowingFlower",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "dim": {
+            "lexicon_key": "dim",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idCavern7": {
+            "lexicon_key": "idCavern",
+            "node_properties": {}
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {}
+        },
+        "7": {
+            "lexicon_key": "7",
+            "node_properties": {}
+        },
+        "idCavern7LeftOpening": {
+            "lexicon_key": "idCavern7LeftOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idGlowingFlower1_prop_idColor",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idTint",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "dim",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idGlowingFlower1_prop_idImmovable",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idGlowingFlower1",
+            "child_node": "idCavern7",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern7_prop_idTint",
+            "parent_node": "idCavern7",
+            "child_node": "glowing",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern7_prop_idOrdinality",
+            "parent_node": "idCavern7",
+            "child_node": "7",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern7",
+            "child_node": "idCavern7LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idComputerRoom1BackOpening": {
+            "lexicon_key": "idComputerRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idShutoff": {
+            "lexicon_key": "idShutoff",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idLongHallwayFrontOpeningDoor": {
+            "lexicon_key": "idLongHallwayFrontOpeningDoor",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idComputerRoom1BackOpening",
+            "child_node": "idShutoff",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idShutoff_prop_idOpenState",
+            "parent_node": "idShutoff",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idShutoff",
+            "child_node": "idLongHallwayFrontOpeningDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

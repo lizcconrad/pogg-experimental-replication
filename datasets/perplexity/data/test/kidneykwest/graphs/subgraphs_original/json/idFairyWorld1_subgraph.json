@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idFairyWorld1": {
+            "lexicon_key": "idFairyWorld",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idBagOfChips1": {
+            "lexicon_key": "idBagOfChips",
+            "node_properties": {}
+        },
+        "idCabin1": {
+            "lexicon_key": "idCabin",
+            "node_properties": {}
+        },
+        "idCaptainsChair1": {
+            "lexicon_key": "idCaptainsChair",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idFairyWorld1",
+            "child_node": "idBagOfChips1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idFairyWorld1",
+            "child_node": "idCabin1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCabin1",
+            "child_node": "idCaptainsChair1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

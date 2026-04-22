@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idWindow1": {
+            "lexicon_key": "idWindow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "tinted": {
+            "lexicon_key": "tinted",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "intact": {
+            "lexicon_key": "intact",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_1",
+            "parent_node": "idWindow1",
+            "child_node": "tinted",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_2",
+            "parent_node": "idWindow1",
+            "child_node": "intact",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idOwnedBy",
+            "parent_node": "idWindow1",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the intact tinted window that the driver owns"
+    ]
+}

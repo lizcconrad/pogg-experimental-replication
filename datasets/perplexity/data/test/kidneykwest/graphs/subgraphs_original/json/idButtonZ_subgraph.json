@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idButtonZ": {
+            "lexicon_key": "idButtonZ",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "idPhosphateCrystal_idHamburger1": {
+            "lexicon_key": "idPhosphateCrystal_idHamburger",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "blue": {
+            "lexicon_key": "blue",
+            "node_properties": {}
+        },
+        "idFairyWorldLobby1FrontOpening": {
+            "lexicon_key": "idFairyWorldLobby1FrontOpening",
+            "node_properties": {}
+        },
+        "idThroneRoom1LeftOpening": {
+            "lexicon_key": "idThroneRoom1LeftOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonZ_prop_idOrdinality",
+            "parent_node": "idButtonZ",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idButtonZ",
+            "child_node": "idPhosphateCrystal_idHamburger1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idButtonZ",
+            "child_node": "idFairyWorldLobby1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idHamburger1_prop_idUnknownObject",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idHamburger1_prop_idColor",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "blue",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPhosphateCrystal_idHamburger1",
+            "child_node": "idThroneRoom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idFrontDoor1": {
+            "lexicon_key": "idFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFrontDoor1Lock": {
+            "lexicon_key": "idFrontDoor1Lock",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriveway1": {
+            "lexicon_key": "idDriveway",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idFrontDoor1_prop_idOpenState",
+            "parent_node": "idFrontDoor1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idFrontDoor1_prop_idLockMechanism",
+            "parent_node": "idFrontDoor1",
+            "child_node": "idFrontDoor1Lock",
+            "lexicon_key": "idLockMechanism",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFrontDoor1",
+            "child_node": "idDriveway1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed front door with the lock west of the drive way"
+    ]
+}

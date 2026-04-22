@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idAdam": {
+            "lexicon_key": "idAdam",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLongHallway": {
+            "lexicon_key": "idLongHallway",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAdam",
+            "child_node": "idLongHallway",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "Adam who is north of the long hallway"
+    ]
+}

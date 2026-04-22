@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idBaby1LeftHand": {
+            "lexicon_key": "idBaby1LeftHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBaby1LeftHand_prop_idLocation",
+            "parent_node": "idBaby1LeftHand",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+strict digraph {
+idDog1 [lexicon_key=idDog];
+black [lexicon_key=black];
+0 [lexicon_key=0];
+idCarrot1 [lexicon_key=idCarrot];
+0 [lexicon_key=0];
+idDog1 -> black [label="idDog1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDog1 -> 0 [label="idDog1_prop_idEatingFoodTurnsRemaining", edge_type=property, lexicon_key=idEatingFoodTurnsRemaining];
+idDog1 -> idCarrot1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

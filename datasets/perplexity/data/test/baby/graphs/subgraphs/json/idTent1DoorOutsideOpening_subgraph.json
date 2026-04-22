@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idTent1DoorOutsideOpening": {
+            "lexicon_key": "idTent1DoorOutsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the tent door's outside opening"
+    ]
+}

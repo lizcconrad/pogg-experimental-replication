@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idSpider1": {
+            "lexicon_key": "idSpider",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {}
+        },
+        "dead": {
+            "lexicon_key": "dead",
+            "node_properties": {}
+        },
+        "idCavern1FrontOpening": {
+            "lexicon_key": "idCavern1FrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSpider1_prop_idColor",
+            "parent_node": "idSpider1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSpider1_prop_idDescriptor",
+            "parent_node": "idSpider1",
+            "child_node": "dead",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSpider1",
+            "child_node": "idCavern1FrontOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idLockFace2": {
+            "lexicon_key": "idLockFace",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLock1": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "unlocked": {
+            "lexicon_key": "unlocked",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLockFace2",
+            "child_node": "idLock1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLock1_prop_idLockedState",
+            "parent_node": "idLock1",
+            "child_node": "unlocked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the lock face south of the unlocked lock"
+    ]
+}

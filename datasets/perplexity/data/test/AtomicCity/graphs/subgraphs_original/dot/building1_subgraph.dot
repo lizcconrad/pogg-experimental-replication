@@ -1,0 +1,5 @@
+strict digraph {
+building1 [node_type="entity_node", root=root, lexicon_key=building1];
+old [lexicon_key=old];
+building1 -> old [label="building1_prop_oldAdjectiveType3", edge_type=property, lexicon_key=oldAdjectiveType];
+}

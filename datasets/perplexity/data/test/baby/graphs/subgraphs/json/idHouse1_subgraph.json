@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idHouse1": {
+            "lexicon_key": "idHouse",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "uncountable": {
+            "lexicon_key": "uncountable",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBackyardDoor1Key": {
+            "lexicon_key": "idBackyardDoor1Key",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHouse1_prop_idArticleType",
+            "parent_node": "idHouse1",
+            "child_node": "uncountable",
+            "lexicon_key": "idArticleType",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idHouse1",
+            "child_node": "idBackyardDoor1Key",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBackyardDoor1Key_prop_idUnknownObject",
+            "parent_node": "idBackyardDoor1Key",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the house near the unknown key to the backyard door"
+    ]
+}

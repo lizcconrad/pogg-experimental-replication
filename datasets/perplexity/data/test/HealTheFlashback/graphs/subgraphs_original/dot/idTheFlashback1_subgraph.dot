@@ -1,0 +1,15 @@
+strict digraph {
+idTheFlashback1 [node_type="entity_node", root=root, lexicon_key=idTheFlashback];
+idWater1 [lexicon_key=idWater];
+dirty [lexicon_key=dirty];
+blue [lexicon_key=blue];
+idBathroom1 [lexicon_key=idBathroom];
+messy [lexicon_key=messy];
+idPlayerLeftHand [lexicon_key=idPlayerLeftHand];
+idTheFlashback1 -> idWater1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idTheFlashback1 -> idBathroom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idWater1 -> dirty [label="idWater1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idWater1 -> blue [label="idWater1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBathroom1 -> messy [label="idBathroom1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBathroom1 -> idPlayerLeftHand [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

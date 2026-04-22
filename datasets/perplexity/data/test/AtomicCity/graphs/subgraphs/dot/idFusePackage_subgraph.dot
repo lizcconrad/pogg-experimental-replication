@@ -1,0 +1,9 @@
+strict digraph {
+idFusePackage [node_type=entity, lexicon_key=idFusePackage];
+true [node_type=property, lexicon_key=true];
+idMachine1 [node_type=entity, lexicon_key=idMachine];
+yes [node_type=property, lexicon_key=yes];
+idFusePackage -> true [label="idFusePackage_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idFusePackage -> idMachine1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idMachine1 -> yes [label="idMachine1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

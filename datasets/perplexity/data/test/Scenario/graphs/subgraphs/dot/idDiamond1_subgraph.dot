@@ -1,0 +1,9 @@
+strict digraph {
+idDiamond1 [node_type=entity, lexicon_key=idDiamond];
+idRock2 [node_type=entity, lexicon_key=idRock];
+red [node_type=property, lexicon_key=red];
+rough [node_type=property, lexicon_key=rough];
+idDiamond1 -> idRock2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idRock2 -> red [label="idRock2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idRock2 -> rough [label="idRock2_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+}

@@ -1,0 +1,16 @@
+strict digraph {
+idBed1 [node_type="entity_node", root=root, lexicon_key=idBed];
+brown [lexicon_key=brown];
+yes [lexicon_key=yes];
+idqueen [lexicon_key=idqueen];
+idMedicineCabinet1 [lexicon_key=idMedicineCabinet];
+white [lexicon_key=white];
+idChair2 [lexicon_key=idChair];
+idBed1 -> brown [label="idBed1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBed1 -> yes [label="idBed1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBed1 -> idqueen [label="idBed1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idBed1 -> idMedicineCabinet1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idMedicineCabinet1 -> white [label="idMedicineCabinet1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idMedicineCabinet1 -> yes [label="idMedicineCabinet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idMedicineCabinet1 -> idChair2 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

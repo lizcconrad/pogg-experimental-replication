@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCavern6TopOpening": {
+            "lexicon_key": "idCavern6TopOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idBoulderMoved",
+            "parent_node": "idPlayer",
+            "child_node": "false",
+            "lexicon_key": "idBoulderMoved",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayer",
+            "child_node": "idCavern6TopOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player who has not moved the boulder east of the cavern's top opening"
+    ]
+}

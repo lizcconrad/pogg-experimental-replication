@@ -1,0 +1,83 @@
+{
+    "nodes": {
+        "idEndRoom1": {
+            "lexicon_key": "idEndRoom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {}
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {}
+        },
+        "idBackyard1": {
+            "lexicon_key": "idBackyard",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idEndRoom1_prop_idUnknownObject",
+            "parent_node": "idEndRoom1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idEndRoom1",
+            "child_node": "idBaby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idEndRoom1",
+            "child_node": "idBackyard1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idSeen",
+            "parent_node": "idBaby1",
+            "child_node": "false",
+            "lexicon_key": "idSeen",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idUnknownObject",
+            "parent_node": "idBaby1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBackyard1_prop_idUnknownObject",
+            "parent_node": "idBackyard1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

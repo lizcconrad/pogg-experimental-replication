@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "node_type": "entity",
+            "lexicon_key": "idPlayer"
+        },
+        "0": {
+            "lexicon_key": 0
+        },
+        "3": {
+            "lexicon_key": 3
+        },
+        "1": {
+            "lexicon_key": 1
+        },
+        "idCostumeCloset1": {
+            "node_type": "entity",
+            "lexicon_key": "idCostumeCloset"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idBinderTakenTurns",
+            "parent_node": "idPlayer",
+            "child_node": 0,
+            "lexicon_key": "idBinderTakenTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idTurnsSinceFood",
+            "parent_node": "idPlayer",
+            "child_node": 3,
+            "lexicon_key": "idTurnsSinceFood",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPlayer_prop_idMapY",
+            "parent_node": "idPlayer",
+            "child_node": 1,
+            "lexicon_key": "idMapY",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPlayer",
+            "child_node": "idCostumeCloset1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

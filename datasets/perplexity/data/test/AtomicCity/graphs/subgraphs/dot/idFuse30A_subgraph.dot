@@ -1,0 +1,11 @@
+strict digraph {
+idFuse30A [node_type=entity, lexicon_key=idFuse30A];
+true [node_type=property, lexicon_key=true];
+red [node_type=property, lexicon_key=red];
+rusty [node_type=property, lexicon_key=rusty];
+idControlPanel1 [node_type=entity, lexicon_key=idControlPanel];
+idFuse30A -> true [label="idFuse30A_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idFuse30A -> red [label="idFuse30A_prop_idColor", edge_type=property, lexicon_key=idColor];
+idFuse30A -> rusty [label="idFuse30A_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+idFuse30A -> idControlPanel1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idKidney1 [lexicon_key=idKidney];
+left [lexicon_key=left];
+idPlayer [lexicon_key=idPlayer];
+idKidney2 [lexicon_key=idKidney];
+idKidney1 -> left [label="idKidney1_prop_idSide", edge_type=property, lexicon_key=idSide];
+idKidney1 -> idPlayer [label="idKidney1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+idKidney1 -> idKidney2 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

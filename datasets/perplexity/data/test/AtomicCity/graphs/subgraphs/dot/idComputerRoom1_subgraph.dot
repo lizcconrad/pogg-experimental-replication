@@ -1,0 +1,7 @@
+strict digraph {
+idComputerRoom1 [node_type=entity, lexicon_key=idComputerRoom];
+blue [node_type=property, lexicon_key=blue];
+idComputerRoom1BackOpening [node_type=entity, lexicon_key=idComputerRoom1BackOpening];
+idComputerRoom1 -> blue [label="idComputerRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idComputerRoom1 -> idComputerRoom1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

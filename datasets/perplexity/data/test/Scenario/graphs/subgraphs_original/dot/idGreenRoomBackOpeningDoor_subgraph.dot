@@ -1,0 +1,12 @@
+strict digraph {
+idGreenRoomBackOpeningDoor [node_type="entity_node", root=root, lexicon_key=idGreenRoomBackOpeningDoor];
+medium [lexicon_key=medium];
+locked [lexicon_key=locked];
+closed [lexicon_key=closed];
+idKeyhole1 [lexicon_key=idKeyhole];
+idGreenRoomBackOpeningDoor -> medium [label="idGreenRoomBackOpeningDoor_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGreenRoomBackOpeningDoor -> locked [label="idGreenRoomBackOpeningDoor_prop_idLockedState", edge_type=property, lexicon_key=idLockedState];
+idGreenRoomBackOpeningDoor -> closed [label="idGreenRoomBackOpeningDoor_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idGreenRoomBackOpeningDoor -> idKeyhole1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+idKeyhole1 -> idGreenRoomBackOpeningDoor [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,55 @@
+{
+    "nodes": {
+        "idCardReaderWorkshop": {
+            "lexicon_key": "idCardReaderWorkshop",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "locked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCardReaderWorkshop_prop_idLockedState",
+            "parent_node": "idCardReaderWorkshop",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCardReaderWorkshop_prop_idUnknownObject",
+            "parent_node": "idCardReaderWorkshop",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCardReaderWorkshop",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

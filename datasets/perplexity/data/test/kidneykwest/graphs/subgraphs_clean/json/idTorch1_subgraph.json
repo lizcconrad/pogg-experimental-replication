@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idTorch1": {
+            "node_type": "entity",
+            "lexicon_key": "idTorch"
+        },
+        "yes": {
+            "node_type": "property",
+            "lexicon_key": "yes"
+        },
+        "idThroneRoom1": {
+            "node_type": "entity",
+            "lexicon_key": "idThroneRoom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTorch1_prop_idImmovable",
+            "parent_node": "idTorch1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTorch1",
+            "child_node": "idThroneRoom1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

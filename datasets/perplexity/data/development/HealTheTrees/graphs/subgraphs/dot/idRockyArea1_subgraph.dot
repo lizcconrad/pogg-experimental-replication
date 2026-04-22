@@ -1,0 +1,7 @@
+strict digraph {
+idRockyArea1 [node_type=entity, lexicon_key=idRockyArea];
+rocky [node_type=property, lexicon_key=rocky];
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idRockyArea1 -> rocky [label="idRockyArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idRockyArea1 -> idPlayerBackside [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

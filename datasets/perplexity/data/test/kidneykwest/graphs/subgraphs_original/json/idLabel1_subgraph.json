@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idLabel1": {
+            "lexicon_key": "idLabel",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idButtonZ": {
+            "lexicon_key": "idButtonZ",
+            "node_properties": {}
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "idThroneRoom1": {
+            "lexicon_key": "idThroneRoom",
+            "node_properties": {}
+        },
+        "idDog1": {
+            "lexicon_key": "idDog",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLabel1",
+            "child_node": "idButtonZ",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idLabel1",
+            "child_node": "idThroneRoom1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idButtonZ_prop_idOrdinality",
+            "parent_node": "idButtonZ",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1",
+            "child_node": "idDog1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

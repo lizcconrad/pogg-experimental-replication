@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idCardReader1": {
+            "lexicon_key": "idCardReader",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {}
+        },
+        "idDriver": {
+            "lexicon_key": "idDriver",
+            "node_properties": {}
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {}
+        },
+        "idPassengerSeat": {
+            "lexicon_key": "idPassengerSeat",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCardReader1_prop_idLockedState",
+            "parent_node": "idCardReader1",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCardReader1_prop_idUnknownObject",
+            "parent_node": "idCardReader1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idCardReader1",
+            "child_node": "idDriversSideFrontDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idCarSide",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idOwnedBy",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idPassengerSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

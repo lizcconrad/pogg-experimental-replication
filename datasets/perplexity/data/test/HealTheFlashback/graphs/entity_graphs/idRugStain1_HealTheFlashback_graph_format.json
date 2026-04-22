@@ -1,0 +1,11 @@
+{
+    "nodes": {
+        "idRugStain1": {
+            "lexicon_key": "idRugStain",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": []
+}

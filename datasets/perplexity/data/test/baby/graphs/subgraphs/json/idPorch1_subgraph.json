@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPorch1": {
+            "lexicon_key": "idPorch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBackyardDoor1idBackyard1idSouthOfOpening": {
+            "lexicon_key": "idBackyardDoor1idBackyard1idSouthOfOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPorch1",
+            "child_node": "idBackyardDoor1idBackyard1idSouthOfOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the porch south of the opening south of the backyard"
+    ]
+}

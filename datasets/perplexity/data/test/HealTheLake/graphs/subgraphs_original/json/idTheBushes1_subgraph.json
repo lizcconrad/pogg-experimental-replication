@@ -1,0 +1,130 @@
+{
+    "nodes": {
+        "idTheBushes1": {
+            "lexicon_key": "idTheBushes",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "bushy": {
+            "lexicon_key": "bushy",
+            "node_properties": {}
+        },
+        "overgrown": {
+            "lexicon_key": "overgrown",
+            "node_properties": {}
+        },
+        "idLeg1": {
+            "lexicon_key": "idLeg",
+            "node_properties": {}
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        },
+        "idLocalFront": {
+            "lexicon_key": "idLocalFront",
+            "node_properties": {}
+        },
+        "idBerry1": {
+            "lexicon_key": "idBerry",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "idSmoke1": {
+            "lexicon_key": "idSmoke",
+            "node_properties": {}
+        },
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor",
+            "parent_node": "idTheBushes1",
+            "child_node": "bushy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTheBushes1_prop_idDescriptor_1",
+            "parent_node": "idTheBushes1",
+            "child_node": "overgrown",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idTheBushes1",
+            "child_node": "idLeg1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTheBushes1",
+            "child_node": "idBerry1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idLeg1_prop_idLocation_1",
+            "parent_node": "idLeg1",
+            "child_node": "right",
+            "lexicon_key": "idLocation_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idLeg1_prop_idLocation",
+            "parent_node": "idLeg1",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLeg1",
+            "child_node": "idSmoke1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBerry1_prop_idColor",
+            "parent_node": "idBerry1",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBerry1",
+            "child_node": "idArea1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

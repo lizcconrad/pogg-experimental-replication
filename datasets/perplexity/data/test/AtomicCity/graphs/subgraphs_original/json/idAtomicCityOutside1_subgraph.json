@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idAtomicCityOutside1": {
+            "lexicon_key": "idAtomicCityOutside",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idWolf3": {
+            "lexicon_key": "idWolf",
+            "node_properties": {}
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {}
+        },
+        "tiny": {
+            "lexicon_key": "tiny",
+            "node_properties": {}
+        },
+        "idLongHallwayFrontOpening": {
+            "lexicon_key": "idLongHallwayFrontOpening",
+            "node_properties": {}
+        },
+        "idMachineRoomFrontOpening": {
+            "lexicon_key": "idMachineRoomFrontOpening",
+            "node_properties": {}
+        },
+        "idWolf2": {
+            "lexicon_key": "idWolf",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idAtomicCityOutside1",
+            "child_node": "idWolf3",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idAtomicCityOutside1",
+            "child_node": "idLongHallwayFrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idWolf3_prop_idColor",
+            "parent_node": "idWolf3",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWolf3_prop_idSize",
+            "parent_node": "idWolf3",
+            "child_node": "tiny",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idWolf3",
+            "child_node": "idMachineRoomFrontOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idLongHallwayFrontOpening",
+            "child_node": "idWolf2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

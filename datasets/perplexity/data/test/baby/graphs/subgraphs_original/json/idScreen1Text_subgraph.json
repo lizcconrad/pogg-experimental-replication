@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idScreen1Text": {
+            "lexicon_key": "idScreen1Text",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

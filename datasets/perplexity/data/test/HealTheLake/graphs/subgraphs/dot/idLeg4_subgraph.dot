@@ -1,0 +1,13 @@
+strict digraph {
+idLeg4 [node_type=entity, lexicon_key=idLeg];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+brown [node_type=property, lexicon_key=brown];
+healthy [node_type=property, lexicon_key=healthy];
+idMarsh1 [node_type=entity, lexicon_key=idMarsh];
+mossy [node_type=property, lexicon_key=mossy];
+idLeg4 -> idLocalLeft [label="idLeg4_prop_idLocation_1", edge_type=property, lexicon_key="idLocation_"];
+idLeg4 -> brown [label="idLeg4_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLeg4 -> healthy [label="idLeg4_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idLeg4 -> idMarsh1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idMarsh1 -> mossy [label="idMarsh1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

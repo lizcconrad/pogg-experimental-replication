@@ -1,0 +1,11 @@
+strict digraph {
+idPlayerRightHand [node_type=entity, lexicon_key=idPlayerRightHand];
+right [node_type=property, lexicon_key=right];
+idBottle1 [node_type=entity, lexicon_key=idBottle];
+sharp [node_type=property, lexicon_key=sharp];
+shiny [node_type=property, lexicon_key=shiny];
+idPlayerRightHand -> right [label="idPlayerRightHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerRightHand -> idBottle1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBottle1 -> sharp [label="idBottle1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBottle1 -> shiny [label="idBottle1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

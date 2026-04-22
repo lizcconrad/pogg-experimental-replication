@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idSock1": {
+            "lexicon_key": "idSock",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "old": {
+            "lexicon_key": "old",
+            "node_properties": {}
+        },
+        "idLocalLeft": {
+            "lexicon_key": "idLocalLeft",
+            "node_properties": {}
+        },
+        "idDrawer2": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {}
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {}
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSock1_prop_idColor",
+            "parent_node": "idSock1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSock1_prop_idDescriptor",
+            "parent_node": "idSock1",
+            "child_node": "old",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSock1_prop_idLocation",
+            "parent_node": "idSock1",
+            "child_node": "idLocalLeft",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idSock1",
+            "child_node": "idDrawer2",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idImmovable",
+            "parent_node": "idDrawer2",
+            "child_node": "false",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer2_prop_idOpenState",
+            "parent_node": "idDrawer2",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

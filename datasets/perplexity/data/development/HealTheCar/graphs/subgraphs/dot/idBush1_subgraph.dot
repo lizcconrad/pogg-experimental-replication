@@ -1,0 +1,13 @@
+strict digraph {
+idBush1 [node_type=entity, lexicon_key=idBush];
+green [node_type=property, lexicon_key=green];
+yes [node_type=property, lexicon_key=yes];
+idBear1 [node_type=entity, lexicon_key=idBear];
+angry [node_type=property, lexicon_key=angry];
+large [node_type=property, lexicon_key=large];
+idBush1 -> green [label="idBush1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBush1 -> yes [label="idBush1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBush1 -> idBear1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBear1 -> angry [label="idBear1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBear1 -> large [label="idBear1_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idCaptain1": {
+            "lexicon_key": "idCaptain",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the captain"
+    ]
+}

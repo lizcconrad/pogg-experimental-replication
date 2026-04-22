@@ -1,0 +1,11 @@
+strict digraph {
+idThroneRoom1Door [node_type=entity, lexicon_key=idThroneRoom1Door];
+grey [node_type=property, lexicon_key=grey];
+idmetal [node_type=property, lexicon_key=idmetal];
+open [node_type=property, lexicon_key=open];
+idStick1 [node_type=entity, lexicon_key=idStick];
+idThroneRoom1Door -> grey [label="idThroneRoom1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+idThroneRoom1Door -> idmetal [label="idThroneRoom1Door_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idThroneRoom1Door -> open [label="idThroneRoom1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idThroneRoom1Door -> idStick1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idMedDrawer1": {
+            "lexicon_key": "idMedDrawer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idRug1": {
+            "lexicon_key": "idRug",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMedDrawer1_prop_idOpenState",
+            "parent_node": "idMedDrawer1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMedDrawer1",
+            "child_node": "idRug1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closed medicine drawer south of the rug"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idThroatSphincter1": {
+            "lexicon_key": "idThroatSphincter",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "idLargeIntestine1FrontOpening": {
+            "lexicon_key": "idLargeIntestine1FrontOpening",
+            "node_properties": {}
+        },
+        "idSmallIntestine1BackOpening": {
+            "lexicon_key": "idSmallIntestine1BackOpening",
+            "node_properties": {}
+        },
+        "idSmallIntestine1": {
+            "lexicon_key": "idSmallIntestine",
+            "node_properties": {}
+        },
+        "idStomach1": {
+            "lexicon_key": "idStomach",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThroatSphincter1_prop_idOpenState",
+            "parent_node": "idThroatSphincter1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroatSphincter1",
+            "child_node": "idLargeIntestine1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idThroatSphincter1",
+            "child_node": "idSmallIntestine1BackOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLargeIntestine1FrontOpening",
+            "child_node": "idSmallIntestine1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idSmallIntestine1BackOpening",
+            "child_node": "idStomach1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

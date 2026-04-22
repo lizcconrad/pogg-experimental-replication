@@ -1,0 +1,15 @@
+strict digraph {
+idCar1 [node_type=entity, lexicon_key=idCar];
+black [node_type=property, lexicon_key=black];
+old [node_type=property, lexicon_key=old];
+yes [node_type=property, lexicon_key=yes];
+idArea1 [node_type=entity, lexicon_key=idArea];
+logged [node_type=property, lexicon_key=logged];
+stumpy [node_type=property, lexicon_key=stumpy];
+idCar1 -> black [label="idCar1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCar1 -> old [label="idCar1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCar1 -> yes [label="idCar1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idCar1 -> idArea1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idArea1 -> logged [label="idArea1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idArea1 -> stumpy [label="idArea1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+}

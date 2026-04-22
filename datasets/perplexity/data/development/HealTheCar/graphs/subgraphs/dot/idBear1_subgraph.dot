@@ -1,0 +1,11 @@
+strict digraph {
+idBear1 [node_type=entity, lexicon_key=idBear];
+black [node_type=property, lexicon_key=black];
+yes [node_type=property, lexicon_key=yes];
+angry [node_type=property, lexicon_key=angry];
+idBumper1 [node_type=entity, lexicon_key=idBumper];
+idBear1 -> black [label="idBear1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBear1 -> yes [label="idBear1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idBear1 -> angry [label="idBear1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idBear1 -> idBumper1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

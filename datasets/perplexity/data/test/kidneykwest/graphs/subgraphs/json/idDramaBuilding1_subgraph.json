@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idDramaBuilding1": {
+            "lexicon_key": "idDramaBuilding",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idWorld1": {
+            "lexicon_key": "idWorld",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isInsideOf",
+            "parent_node": "idDramaBuilding1",
+            "child_node": "idWorld1",
+            "lexicon_key": "isInsideOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the drama building inside of the world"
+    ]
+}

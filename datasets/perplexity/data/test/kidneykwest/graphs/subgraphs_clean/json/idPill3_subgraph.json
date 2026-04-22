@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idPill3": {
+            "node_type": "entity",
+            "lexicon_key": "idPill"
+        },
+        "idChip2": {
+            "node_type": "entity",
+            "lexicon_key": "idChip"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idPill3",
+            "child_node": "idChip2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idPillow2 [node_type=entity, lexicon_key=idPillow];
+red [node_type=property, lexicon_key=red];
+thin [node_type=property, lexicon_key=thin];
+idBathroom1 [node_type=entity, lexicon_key=idBathroom];
+idPillow2 -> red [label="idPillow2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPillow2 -> thin [label="idPillow2_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idPillow2 -> idBathroom1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

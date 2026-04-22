@@ -1,0 +1,5 @@
+strict digraph {
+idWorld1 [node_type=entity, lexicon_key=idWorld];
+idCostumeCloset1 [node_type=entity, lexicon_key=idCostumeCloset];
+idWorld1 -> idCostumeCloset1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

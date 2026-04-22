@@ -1,0 +1,7 @@
+strict digraph {
+idScubaDiverCostume1 [lexicon_key=idScubaDiverCostume];
+gold [lexicon_key=gold];
+true [lexicon_key=true];
+idScubaDiverCostume1 -> gold [label="idScubaDiverCostume1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idScubaDiverCostume1 -> true [label="idScubaDiverCostume1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idApple1 [node_type=entity, lexicon_key=idApple];
+red [node_type=property, lexicon_key=red];
+true [node_type=property, lexicon_key=true];
+idFairyWorldLobby1LeftOpening [node_type=entity, lexicon_key=idFairyWorldLobby1LeftOpening];
+idApple1 -> red [label="idApple1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idApple1 -> true [label="idApple1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idApple1 -> idFairyWorldLobby1LeftOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

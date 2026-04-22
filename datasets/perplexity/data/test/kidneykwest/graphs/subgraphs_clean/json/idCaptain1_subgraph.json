@@ -1,0 +1,9 @@
+{
+    "nodes": {
+        "idCaptain1": {
+            "node_type": "entity",
+            "lexicon_key": "idCaptain"
+        }
+    },
+    "edges": []
+}

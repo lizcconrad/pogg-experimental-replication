@@ -1,0 +1,124 @@
+{
+    "nodes": {
+        "idTent1Door": {
+            "lexicon_key": "idTent1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "open": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "true": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idTent1DoorInsideOpening": {
+            "lexicon_key": "idTent1DoorInsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTent1DoorOutsideOpening": {
+            "lexicon_key": "idTent1DoorOutsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idTent1": {
+            "lexicon_key": "idTent",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDock1": {
+            "lexicon_key": "idDock",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGoButton": {
+            "lexicon_key": "idGoButton",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idTent1Door_prop_idOpenState",
+            "parent_node": "idTent1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idTent1Door_prop_idUnknownObject",
+            "parent_node": "idTent1Door",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTent1Door",
+            "child_node": "idTent1DoorInsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idTent1Door",
+            "child_node": "idTent1DoorOutsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTent1Door",
+            "child_node": "idTent1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTent1Door",
+            "child_node": "idTent1DoorInsideOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTent1Door",
+            "child_node": "idDock1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idTent1Door",
+            "child_node": "idGoButton",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idCavern5 [node_type=entity, lexicon_key=idCavern];
+cold [node_type=property, lexicon_key=cold];
+5 [node_type=property, lexicon_key=5];
+ominous [node_type=property, lexicon_key=ominous];
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idCavern5 -> cold [label="idCavern5_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idCavern5 -> 5 [label="idCavern5_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idCavern5 -> ominous [label="idCavern5_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCavern5 -> idPlayerBackside [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

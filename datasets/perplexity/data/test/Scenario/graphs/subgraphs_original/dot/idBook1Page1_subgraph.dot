@@ -1,0 +1,11 @@
+strict digraph {
+idBook1Page1 [node_type="entity_node", root=root, lexicon_key=idBook1Page1];
+1 [lexicon_key=1];
+idKey1 [lexicon_key=idKey];
+red [lexicon_key=red];
+idOnSwitch1 [lexicon_key=idOnSwitch];
+idBook1Page1 -> 1 [label="idBook1Page1_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idBook1Page1 -> idKey1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idKey1 -> red [label="idKey1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idKey1 -> idOnSwitch1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

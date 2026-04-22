@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idFrontDoor1idLivingRoom1BackOpening": {
+            "lexicon_key": "idFrontDoor1idLivingRoom1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idBedroomToClosetDoor": {
+            "lexicon_key": "idBedroomToClosetDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idFrontDoor1idLivingRoom1BackOpening",
+            "child_node": "idBedroomToClosetDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the back opening to the living room's front door west of the door from the bedroom to the closet"
+    ]
+}

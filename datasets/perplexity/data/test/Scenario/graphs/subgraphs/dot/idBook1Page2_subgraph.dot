@@ -1,0 +1,7 @@
+strict digraph {
+idBook1Page2 [node_type=entity, lexicon_key=idBook1Page2];
+2 [node_type=property, lexicon_key=2];
+idBook1Page3 [node_type=entity, lexicon_key=idBook1Page3];
+idBook1Page2 -> 2 [label="idBook1Page2_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idBook1Page2 -> idBook1Page3 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

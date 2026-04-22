@@ -1,0 +1,5 @@
+strict digraph {
+idPlayerBackside [node_type=entity, lexicon_key=idPlayerBackside];
+idTutorialRoom1FrontOpening [node_type=entity, lexicon_key=idTutorialRoom1FrontOpening];
+idPlayerBackside -> idTutorialRoom1FrontOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

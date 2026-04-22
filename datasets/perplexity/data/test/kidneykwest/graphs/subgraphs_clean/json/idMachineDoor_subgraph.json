@@ -1,0 +1,62 @@
+{
+    "nodes": {
+        "idMachineDoor": {
+            "node_type": "entity",
+            "lexicon_key": "idMachineDoor"
+        },
+        "closed": {
+            "node_type": "property",
+            "lexicon_key": "closed"
+        },
+        "locked": {
+            "node_type": "property",
+            "lexicon_key": "locked"
+        },
+        "idMachine1": {
+            "node_type": "entity",
+            "lexicon_key": "idMachine"
+        },
+        "off": {
+            "node_type": "property",
+            "lexicon_key": "off"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineDoor_prop_idOpenState",
+            "parent_node": "idMachineDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMachineDoor_prop_idLockedState",
+            "parent_node": "idMachineDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idMachineDoor",
+            "child_node": "idMachine1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachine1_prop_idPowerState",
+            "parent_node": "idMachine1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

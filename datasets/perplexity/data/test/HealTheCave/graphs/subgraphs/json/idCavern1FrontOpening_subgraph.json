@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCavern1FrontOpening": {
+            "lexicon_key": "idCavern1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idCavern7BackOpening": {
+            "lexicon_key": "idCavern7BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCavern1FrontOpening",
+            "child_node": "idCavern7BackOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the cavern's front opening east of the cavern's back opening"
+    ]
+}

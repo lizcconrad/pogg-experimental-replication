@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idMomNote1": {
+            "lexicon_key": "idMomNote",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idMom1": {
+            "lexicon_key": "idMom",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBackyardDoor1idLivingRoom1FrontOpening": {
+            "lexicon_key": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMomNote1_prop_idOwnedBy",
+            "parent_node": "idMomNote1",
+            "child_node": "idMom1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idMomNote1_prop_idUnknownObject",
+            "parent_node": "idMomNote1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMomNote1",
+            "child_node": "idBackyardDoor1idLivingRoom1FrontOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

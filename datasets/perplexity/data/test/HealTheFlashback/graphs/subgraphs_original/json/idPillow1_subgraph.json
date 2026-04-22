@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "idPillow1": {
+            "lexicon_key": "idPillow",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "dirty": {
+            "lexicon_key": "dirty",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPillow1_prop_idColor",
+            "parent_node": "idPillow1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idPillow1_prop_idDescriptor",
+            "parent_node": "idPillow1",
+            "child_node": "dirty",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

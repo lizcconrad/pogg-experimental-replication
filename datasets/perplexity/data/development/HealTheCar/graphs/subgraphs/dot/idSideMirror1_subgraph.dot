@@ -1,0 +1,11 @@
+strict digraph {
+idSideMirror1 [node_type=entity, lexicon_key=idSideMirror];
+shiny [node_type=property, lexicon_key=shiny];
+idFace [node_type=property, lexicon_key=idFace];
+broken [node_type=property, lexicon_key=broken];
+idWhistle1 [node_type=entity, lexicon_key=idWhistle];
+idSideMirror1 -> shiny [label="idSideMirror1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSideMirror1 -> idFace [label="idSideMirror1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idSideMirror1 -> broken [label="idSideMirror1_prop_idDescriptor_2", edge_type=property, lexicon_key="idDescriptor_"];
+idSideMirror1 -> idWhistle1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

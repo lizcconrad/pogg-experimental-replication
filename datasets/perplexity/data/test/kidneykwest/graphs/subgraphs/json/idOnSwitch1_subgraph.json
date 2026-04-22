@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idOnSwitch1": {
+            "lexicon_key": "idOnSwitch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "off": {
+            "lexicon_key": "off",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBarrel1": {
+            "lexicon_key": "idBarrel",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idwood": {
+            "lexicon_key": "idwood",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idOnSwitch1_prop_idPowerState",
+            "parent_node": "idOnSwitch1",
+            "child_node": "off",
+            "lexicon_key": "idPowerState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idOnSwitch1",
+            "child_node": "idBarrel1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBarrel1_prop_idMaterial",
+            "parent_node": "idBarrel1",
+            "child_node": "idwood",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the on switch that is turned off west of the wooden barrel"
+    ]
+}

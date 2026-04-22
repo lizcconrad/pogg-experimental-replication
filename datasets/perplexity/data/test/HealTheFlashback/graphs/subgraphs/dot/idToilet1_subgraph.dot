@@ -1,0 +1,9 @@
+strict digraph {
+idToilet1 [node_type=entity, lexicon_key=idToilet];
+white [node_type=property, lexicon_key=white];
+yes [node_type=property, lexicon_key=yes];
+idTheFlashback1 [node_type=entity, lexicon_key=idTheFlashback];
+idToilet1 -> white [label="idToilet1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idToilet1 -> yes [label="idToilet1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idToilet1 -> idTheFlashback1 [label=isInsideOf, edge_type=relationship, lexicon_key=isInsideOf];
+}

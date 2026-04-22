@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idSmallIntestine1BackOpening": {
+            "lexicon_key": "idSmallIntestine1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLargeIntestine1FrontOpening": {
+            "lexicon_key": "idLargeIntestine1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idSmallIntestine1BackOpening",
+            "child_node": "idLargeIntestine1FrontOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the small intestine's back opening north of the large intestine's front opening"
+    ]
+}

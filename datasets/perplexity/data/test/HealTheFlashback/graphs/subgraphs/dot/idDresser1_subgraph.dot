@@ -1,0 +1,11 @@
+strict digraph {
+idDresser1 [node_type=entity, lexicon_key=idDresser];
+brown [node_type=property, lexicon_key=brown];
+scratched [node_type=property, lexicon_key=scratched];
+yes [node_type=property, lexicon_key=yes];
+idBedroom1BackOpening [node_type=entity, lexicon_key=idBedroom1BackOpening];
+idDresser1 -> brown [label="idDresser1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idDresser1 -> scratched [label="idDresser1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idDresser1 -> yes [label="idDresser1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idDresser1 -> idBedroom1BackOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

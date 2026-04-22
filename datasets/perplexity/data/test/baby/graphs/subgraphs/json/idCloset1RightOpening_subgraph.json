@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idCloset1RightOpening": {
+            "lexicon_key": "idCloset1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idLivingRoom1RightOpening": {
+            "lexicon_key": "idLivingRoom1RightOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCloset1RightOpening",
+            "child_node": "idLivingRoom1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the closet's right opening east of the living room's right opening"
+    ]
+}

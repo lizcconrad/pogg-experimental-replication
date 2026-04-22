@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idButtonZ": {
+            "lexicon_key": "idButtonZ",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idThroneRoom1LeftOpening": {
+            "lexicon_key": "idThroneRoom1LeftOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonZ_prop_idOrdinality",
+            "parent_node": "idButtonZ",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idButtonZ",
+            "child_node": "idThroneRoom1LeftOpening",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the third button west of the throne room's left opening"
+    ]
+}

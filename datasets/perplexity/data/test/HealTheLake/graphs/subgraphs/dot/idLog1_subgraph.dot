@@ -1,0 +1,12 @@
+strict digraph {
+idLog1 [node_type=entity, lexicon_key=idLog];
+mossy [node_type=property, lexicon_key=mossy];
+yes [node_type=property, lexicon_key=yes];
+brown [node_type=property, lexicon_key=brown];
+idTree1 [node_type=entity, lexicon_key=idTree];
+idLog1 -> mossy [label="idLog1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idLog1 -> yes [label="idLog1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idLog1 -> brown [label="idLog1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLog1 -> idTree1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idTree1 -> yes [label="idTree1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

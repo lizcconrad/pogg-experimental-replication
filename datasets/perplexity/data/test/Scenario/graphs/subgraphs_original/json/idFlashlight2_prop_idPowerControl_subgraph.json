@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idFlashlight2_prop_idPowerControl": {
+            "lexicon_key": "idFlashlight2_prop_idPowerControl",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

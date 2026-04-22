@@ -1,0 +1,7 @@
+strict digraph {
+idBedroom1RightOpening [node_type=entity, lexicon_key=idBedroom1RightOpening];
+idBedroomToBathroomDoor1 [node_type=entity, lexicon_key=idBedroomToBathroomDoor];
+open [node_type=property, lexicon_key=open];
+idBedroom1RightOpening -> idBedroomToBathroomDoor1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idBedroomToBathroomDoor1 -> open [label="idBedroomToBathroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

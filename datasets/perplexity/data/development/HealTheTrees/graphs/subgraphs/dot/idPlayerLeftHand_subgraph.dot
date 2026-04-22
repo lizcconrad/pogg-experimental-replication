@@ -1,0 +1,9 @@
+strict digraph {
+idPlayerLeftHand [node_type=entity, lexicon_key=idPlayerLeftHand];
+idLocalLeft [node_type=property, lexicon_key=idLocalLeft];
+idPlayer [node_type=entity, lexicon_key=idPlayer];
+false [node_type=property, lexicon_key=false];
+idPlayerLeftHand -> idLocalLeft [label="idPlayerLeftHand_prop_idLocation", edge_type=property, lexicon_key=idLocation];
+idPlayerLeftHand -> idPlayer [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idPlayer -> false [label="idPlayer_prop_idBottleFound", edge_type=property, lexicon_key=idBottleFound];
+}

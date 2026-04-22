@@ -1,0 +1,117 @@
+{
+    "nodes": {
+        "idLock2": {
+            "lexicon_key": "idLock",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "locked": {
+            "lexicon_key": "locked",
+            "node_properties": {}
+        },
+        "idEntrancecave": {
+            "lexicon_key": "idEntrancecave",
+            "node_properties": {}
+        },
+        "1": {
+            "lexicon_key": "1",
+            "node_properties": {}
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {}
+        },
+        "idRock2": {
+            "lexicon_key": "idRock",
+            "node_properties": {}
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        },
+        "rough": {
+            "lexicon_key": "rough",
+            "node_properties": {}
+        },
+        "idDiamond1": {
+            "lexicon_key": "idDiamond",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLock2_prop_idLockedState",
+            "parent_node": "idLock2",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLock2",
+            "child_node": "idEntrancecave",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idLock2",
+            "child_node": "idRock2",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idEntrancecave_prop_idOrdinality",
+            "parent_node": "idEntrancecave",
+            "child_node": "1",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idEntrancecave_prop_idOpenState",
+            "parent_node": "idEntrancecave",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idEntrancecave",
+            "child_node": "idDiamond1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idColor",
+            "parent_node": "idRock2",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRock2_prop_idTexture",
+            "parent_node": "idRock2",
+            "child_node": "rough",
+            "lexicon_key": "idTexture",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

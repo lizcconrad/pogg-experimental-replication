@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "idGreenRoomBackOpeningDoorKeyhole": {
+            "lexicon_key": "idGreenRoomBackOpeningDoorKeyhole",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idGreenRoomBackOpeningDoor": {
+            "lexicon_key": "idGreenRoomBackOpeningDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idGreenRoomBackOpeningDoorKeyhole",
+            "child_node": "idGreenRoomBackOpeningDoor",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

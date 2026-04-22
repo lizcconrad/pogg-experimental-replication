@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idCavern7": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "glowing": {
+            "lexicon_key": "glowing",
+            "node_properties": {}
+        },
+        "7": {
+            "lexicon_key": "7",
+            "node_properties": {}
+        },
+        "idCavern6": {
+            "lexicon_key": "idCavern",
+            "node_properties": {}
+        },
+        "bright": {
+            "lexicon_key": "bright",
+            "node_properties": {}
+        },
+        "6": {
+            "lexicon_key": "6",
+            "node_properties": {}
+        },
+        "idCavern2RightOpening": {
+            "lexicon_key": "idCavern2RightOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern7_prop_idTint",
+            "parent_node": "idCavern7",
+            "child_node": "glowing",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern7_prop_idOrdinality",
+            "parent_node": "idCavern7",
+            "child_node": "7",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCavern7",
+            "child_node": "idCavern6",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idCavern7",
+            "child_node": "idCavern2RightOpening",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern6_prop_idTint",
+            "parent_node": "idCavern6",
+            "child_node": "bright",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern6_prop_idOrdinality",
+            "parent_node": "idCavern6",
+            "child_node": "6",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

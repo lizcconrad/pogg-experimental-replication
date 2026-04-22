@@ -1,0 +1,48 @@
+{
+    "nodes": {
+        "idDog1": {
+            "node_type": "entity",
+            "lexicon_key": "idDog"
+        },
+        "black": {
+            "node_type": "property",
+            "lexicon_key": "black"
+        },
+        "0": {
+            "lexicon_key": 0
+        },
+        "idCarrot1": {
+            "node_type": "entity",
+            "lexicon_key": "idCarrot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDog1_prop_idColor",
+            "parent_node": "idDog1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDog1_prop_idEatingFoodTurnsRemaining",
+            "parent_node": "idDog1",
+            "child_node": 0,
+            "lexicon_key": "idEatingFoodTurnsRemaining",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDog1",
+            "child_node": "idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

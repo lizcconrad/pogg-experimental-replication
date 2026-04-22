@@ -1,0 +1,91 @@
+{
+    "nodes": {
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {}
+        },
+        "babyDoNothing": {
+            "lexicon_key": "babyDoNothing",
+            "node_properties": {}
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {}
+        },
+        "idBed1": {
+            "lexicon_key": "idBed",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idKitchen1RightOpening": {
+            "lexicon_key": "idKitchen1RightOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idBaby1_prop_idCryTurns",
+            "parent_node": "idBaby1",
+            "child_node": "0",
+            "lexicon_key": "idCryTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idTask",
+            "parent_node": "idBaby1",
+            "child_node": "babyDoNothing",
+            "lexicon_key": "idTask",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idSeen",
+            "parent_node": "idBaby1",
+            "child_node": "false",
+            "lexicon_key": "idSeen",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBaby1",
+            "child_node": "idBed1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBed1_prop_idUnknownObject",
+            "parent_node": "idBed1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idBed1",
+            "child_node": "idKitchen1RightOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

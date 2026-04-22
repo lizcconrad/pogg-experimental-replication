@@ -1,0 +1,74 @@
+{
+    "nodes": {
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {}
+        },
+        "small": {
+            "lexicon_key": "small",
+            "node_properties": {}
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {}
+        },
+        "idBedroom1LeftOpening": {
+            "lexicon_key": "idBedroom1LeftOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idOpenState",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idSize",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "small",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idClosetToWorkshopDoor_prop_idMaterial",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idClosetToWorkshopDoor",
+            "child_node": "idBedroom1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBedroom1LeftOpening",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

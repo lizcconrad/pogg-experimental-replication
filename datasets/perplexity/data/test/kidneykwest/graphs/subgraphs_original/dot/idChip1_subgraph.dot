@@ -1,0 +1,15 @@
+strict digraph {
+idChip1 [node_type="entity_node", root=root, lexicon_key=idChip];
+idpotato [lexicon_key=idpotato];
+salty [lexicon_key=salty];
+idCaptainsChair1 [lexicon_key=idCaptainsChair];
+idleather [lexicon_key=idleather];
+idCaptain1 [lexicon_key=idCaptain];
+idThroneRoom1LeftOpening [lexicon_key=idThroneRoom1LeftOpening];
+idChip1 -> idpotato [label="idChip1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idChip1 -> salty [label="idChip1_prop_idSaltiness", edge_type=property, lexicon_key=idSaltiness];
+idChip1 -> idThroneRoom1LeftOpening [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idChip1 -> idCaptainsChair1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idCaptainsChair1 -> idleather [label="idCaptainsChair1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idCaptainsChair1 -> idCaptain1 [label="idCaptainsChair1_prop_idOwnedBy", edge_type=property, lexicon_key=idOwnedBy];
+}

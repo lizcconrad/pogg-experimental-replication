@@ -1,0 +1,5 @@
+strict digraph {
+idCabin1 [node_type=entity, lexicon_key=idCabin];
+idGiftBox1 [node_type=entity, lexicon_key=idGiftBox];
+idCabin1 -> idGiftBox1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

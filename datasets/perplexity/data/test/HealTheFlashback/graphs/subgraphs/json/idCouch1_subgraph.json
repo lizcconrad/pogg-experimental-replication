@@ -1,0 +1,90 @@
+{
+    "nodes": {
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "used": {
+            "lexicon_key": "used",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idSink1": {
+            "lexicon_key": "idSink",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "stained": {
+            "lexicon_key": "stained",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCouch1_prop_idColor",
+            "parent_node": "idCouch1",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCouch1_prop_idDescriptor",
+            "parent_node": "idCouch1",
+            "child_node": "used",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCouch1_prop_idImmovable",
+            "parent_node": "idCouch1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idCouch1",
+            "child_node": "idSink1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idSink1_prop_idDescriptor_1",
+            "parent_node": "idSink1",
+            "child_node": "stained",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable used green couch east of the stained sink"
+    ]
+}

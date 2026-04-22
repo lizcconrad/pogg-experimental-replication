@@ -1,0 +1,7 @@
+strict digraph {
+idScrewdriver1 [node_type="entity_node", root=root, lexicon_key=idScrewdriver];
+pointy [lexicon_key=pointy];
+true [lexicon_key=true];
+idScrewdriver1 -> pointy [label="idScrewdriver1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idScrewdriver1 -> true [label="idScrewdriver1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

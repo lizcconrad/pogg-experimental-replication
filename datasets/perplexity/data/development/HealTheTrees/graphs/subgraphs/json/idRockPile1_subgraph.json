@@ -1,0 +1,105 @@
+{
+    "nodes": {
+        "idRockPile1": {
+            "lexicon_key": "idRockPile",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "bumpy": {
+            "lexicon_key": "bumpy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBottle1": {
+            "lexicon_key": "idBottle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "broken": {
+            "lexicon_key": "broken",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idRockPile1_prop_idColor",
+            "parent_node": "idRockPile1",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRockPile1_prop_idDescriptor",
+            "parent_node": "idRockPile1",
+            "child_node": "bumpy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idRockPile1_prop_idImmovable",
+            "parent_node": "idRockPile1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idRockPile1",
+            "child_node": "idBottle1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBottle1_prop_idDescriptor_1",
+            "parent_node": "idBottle1",
+            "child_node": "shiny",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBottle1_prop_idIntegrity",
+            "parent_node": "idBottle1",
+            "child_node": "broken",
+            "lexicon_key": "idIntegrity",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the immovable bumpy grey rock pile near the shiny broken bottle"
+    ]
+}

@@ -1,0 +1,15 @@
+strict digraph {
+idBarrel1 [node_type="entity_node", root=root, lexicon_key=idBarrel];
+idwood [lexicon_key=idwood];
+true [lexicon_key=true];
+idLab1Door [lexicon_key=idLab1Door];
+white [lexicon_key=white];
+open [lexicon_key=open];
+idCabin1 [lexicon_key=idCabin];
+idBarrel1 -> idwood [label="idBarrel1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idBarrel1 -> true [label="idBarrel1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idBarrel1 -> idCabin1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idBarrel1 -> idLab1Door [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idLab1Door -> white [label="idLab1Door_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLab1Door -> open [label="idLab1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

@@ -1,0 +1,19 @@
+strict digraph {
+idEntrancecaveBackOpening [node_type="entity_node", root=root, lexicon_key=idEntrancecaveBackOpening];
+tall [lexicon_key=tall];
+open [lexicon_key=open];
+idRock2 [lexicon_key=idRock];
+red [lexicon_key=red];
+rough [lexicon_key=rough];
+idGreenRoomFrontOpening [lexicon_key=idGreenRoomFrontOpening];
+short [lexicon_key=short];
+idEntrancecaveBackOpening -> tall [label="idEntrancecaveBackOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idEntrancecaveBackOpening -> open [label="idEntrancecaveBackOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idEntrancecaveBackOpening -> idRock2 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idEntrancecaveBackOpening -> idGreenRoomFrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idRock2 -> red [label="idRock2_prop_idColor", edge_type=property, lexicon_key=idColor];
+idRock2 -> rough [label="idRock2_prop_idTexture", edge_type=property, lexicon_key=idTexture];
+idGreenRoomFrontOpening -> short [label="idGreenRoomFrontOpening_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGreenRoomFrontOpening -> open [label="idGreenRoomFrontOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idGreenRoomFrontOpening -> idRock2 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

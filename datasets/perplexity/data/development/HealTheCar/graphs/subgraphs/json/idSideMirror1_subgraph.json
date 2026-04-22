@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idSideMirror1": {
+            "lexicon_key": "idSideMirror",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idFace": {
+            "lexicon_key": "idFace",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "broken": {
+            "lexicon_key": "broken",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idWhistle1": {
+            "lexicon_key": "idWhistle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idSideMirror1_prop_idDescriptor",
+            "parent_node": "idSideMirror1",
+            "child_node": "shiny",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSideMirror1_prop_idDescriptor_1",
+            "parent_node": "idSideMirror1",
+            "child_node": "idFace",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idSideMirror1_prop_idDescriptor_2",
+            "parent_node": "idSideMirror1",
+            "child_node": "broken",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idSideMirror1",
+            "child_node": "idWhistle1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the shiny broken side mirror near the whistle"
+    ]
+}

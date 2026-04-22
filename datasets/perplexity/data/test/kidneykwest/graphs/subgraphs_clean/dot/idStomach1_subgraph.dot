@@ -1,0 +1,9 @@
+strict digraph {
+idStomach1 [lexicon_key=idStomach];
+idDuct1 [lexicon_key=idDuct];
+true [lexicon_key=true];
+yes [lexicon_key=yes];
+idStomach1 -> idDuct1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idDuct1 -> true [label="idDuct1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idDuct1 -> yes [label="idDuct1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

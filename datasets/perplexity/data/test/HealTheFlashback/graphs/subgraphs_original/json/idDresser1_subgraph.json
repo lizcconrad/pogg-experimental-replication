@@ -1,0 +1,126 @@
+{
+    "nodes": {
+        "idDresser1": {
+            "lexicon_key": "idDresser",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {}
+        },
+        "scratched": {
+            "lexicon_key": "scratched",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idToilet1": {
+            "lexicon_key": "idToilet",
+            "node_properties": {}
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "idBathroom1": {
+            "lexicon_key": "idBathroom",
+            "node_properties": {}
+        },
+        "messy": {
+            "lexicon_key": "messy",
+            "node_properties": {}
+        },
+        "idCouch1": {
+            "lexicon_key": "idCouch",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDresser1_prop_idColor",
+            "parent_node": "idDresser1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDresser1_prop_idDescriptor",
+            "parent_node": "idDresser1",
+            "child_node": "scratched",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDresser1_prop_idImmovable",
+            "parent_node": "idDresser1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDresser1",
+            "child_node": "idToilet1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idDresser1",
+            "child_node": "idBathroom1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idToilet1_prop_idColor",
+            "parent_node": "idToilet1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idToilet1_prop_idImmovable",
+            "parent_node": "idToilet1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBathroom1_prop_idDescriptor",
+            "parent_node": "idBathroom1",
+            "child_node": "messy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBathroom1",
+            "child_node": "idCouch1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

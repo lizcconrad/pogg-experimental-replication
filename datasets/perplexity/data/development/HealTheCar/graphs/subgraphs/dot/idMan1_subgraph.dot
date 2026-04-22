@@ -1,0 +1,9 @@
+strict digraph {
+idMan1 [node_type=entity, lexicon_key=idMan];
+yes [node_type=property, lexicon_key=yes];
+unconscious [node_type=property, lexicon_key=unconscious];
+true [node_type=property, lexicon_key=true];
+idMan1 -> yes [label="idMan1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idMan1 -> unconscious [label="idMan1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idMan1 -> true [label="idMan1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+}

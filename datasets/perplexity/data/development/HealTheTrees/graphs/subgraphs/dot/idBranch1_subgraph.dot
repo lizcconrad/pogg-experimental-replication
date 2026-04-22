@@ -1,0 +1,9 @@
+strict digraph {
+idBranch1 [node_type=entity, lexicon_key=idBranch];
+brown [node_type=property, lexicon_key=brown];
+idRockPile1 [node_type=entity, lexicon_key=idRockPile];
+yes [node_type=property, lexicon_key=yes];
+idBranch1 -> brown [label="idBranch1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idBranch1 -> idRockPile1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idRockPile1 -> yes [label="idRockPile1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

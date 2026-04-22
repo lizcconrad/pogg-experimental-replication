@@ -1,0 +1,9 @@
+strict digraph {
+idMachineRoomFrontOpening [node_type=entity, lexicon_key=idMachineRoomFrontOpening];
+idWolf4 [node_type=entity, lexicon_key=idWolf];
+white [node_type=property, lexicon_key=white];
+tiny [node_type=property, lexicon_key=tiny];
+idMachineRoomFrontOpening -> idWolf4 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idWolf4 -> white [label="idWolf4_prop_idColor", edge_type=property, lexicon_key=idColor];
+idWolf4 -> tiny [label="idWolf4_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+idDarkCave [node_type=entity, lexicon_key=idDarkCave];
+3 [node_type=property, lexicon_key=3];
+dark [node_type=property, lexicon_key=dark];
+idCrystal1 [node_type=entity, lexicon_key=idCrystal];
+idDarkCave -> 3 [label="idDarkCave_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+idDarkCave -> dark [label="idDarkCave_prop_idTone", edge_type=property, lexicon_key=idTone];
+idDarkCave -> idCrystal1 [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

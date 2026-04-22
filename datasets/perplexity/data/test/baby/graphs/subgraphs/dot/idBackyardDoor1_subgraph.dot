@@ -1,0 +1,11 @@
+strict digraph {
+idBackyardDoor1 [node_type=entity, lexicon_key=idBackyardDoor];
+closed [node_type=property, lexicon_key=closed];
+idBackyardDoor1Lock [node_type=property, lexicon_key=idBackyardDoor1Lock];
+true [node_type=property, lexicon_key=true];
+idDiaperBag1 [node_type=entity, lexicon_key=idDiaperBag];
+idBackyardDoor1 -> closed [label="idBackyardDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idBackyardDoor1 -> idBackyardDoor1Lock [label="idBackyardDoor1_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idBackyardDoor1 -> true [label="idBackyardDoor1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idBackyardDoor1 -> idDiaperBag1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

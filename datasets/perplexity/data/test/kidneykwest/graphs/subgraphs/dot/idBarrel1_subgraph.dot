@@ -1,0 +1,11 @@
+strict digraph {
+idBarrel1 [node_type=entity, lexicon_key=idBarrel];
+idwood [node_type=property, lexicon_key=idwood];
+true [node_type=property, lexicon_key=true];
+idButtonZ [node_type=entity, lexicon_key=idButtonZ];
+3 [node_type=property, lexicon_key=3];
+idBarrel1 -> idwood [label="idBarrel1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idBarrel1 -> true [label="idBarrel1_prop_idInterestingObject", edge_type=property, lexicon_key=idInterestingObject];
+idBarrel1 -> idButtonZ [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idButtonZ -> 3 [label="idButtonZ_prop_idOrdinality", edge_type=property, lexicon_key=idOrdinality];
+}

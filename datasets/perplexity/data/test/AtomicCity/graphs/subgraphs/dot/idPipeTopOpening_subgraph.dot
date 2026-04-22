@@ -1,0 +1,7 @@
+strict digraph {
+idPipeTopOpening [node_type=entity, lexicon_key=idPipeTopOpening];
+open [node_type=property, lexicon_key=open];
+small [node_type=property, lexicon_key=small];
+idPipeTopOpening -> open [label="idPipeTopOpening_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idPipeTopOpening -> small [label="idPipeTopOpening_prop_idSize", edge_type=property, lexicon_key=idSize];
+}

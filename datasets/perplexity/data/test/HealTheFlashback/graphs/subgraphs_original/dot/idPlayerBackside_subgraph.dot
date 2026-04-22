@@ -1,0 +1,17 @@
+strict digraph {
+idPlayerBackside [node_type="entity_node", root=root, lexicon_key=idPlayerBackside];
+idPainting1 [lexicon_key=idPainting];
+green [lexicon_key=green];
+yes [lexicon_key=yes];
+idLivingRoomToKitchenDoor1 [lexicon_key=idLivingRoomToKitchenDoor];
+open [lexicon_key=open];
+idLivingroom1 [lexicon_key=idLivingroom];
+idPlayer [lexicon_key=idPlayer];
+idPlayerBackside -> idPainting1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPlayerBackside -> idLivingRoomToKitchenDoor1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idPainting1 -> green [label="idPainting1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPainting1 -> yes [label="idPainting1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idPainting1 -> idLivingroom1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idLivingRoomToKitchenDoor1 -> open [label="idLivingRoomToKitchenDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idLivingRoomToKitchenDoor1 -> idPlayer [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

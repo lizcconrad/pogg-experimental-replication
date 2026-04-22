@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idDriversSideFrontDoor": {
+            "lexicon_key": "idDriversSideFrontDoor",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDriver1": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver": {
+            "lexicon_key": "idDriver",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idLocalFront": {
+            "lexicon_key": "idLocalFront",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriversSideFrontDoorOutsideOpening": {
+            "lexicon_key": "idDriversSideFrontDoorOutsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idOwnedBy",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idCarSide",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDriversSideFrontDoor_prop_idLocation",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idLocalFront",
+            "lexicon_key": "idLocation",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDriversSideFrontDoor",
+            "child_node": "idDriversSideFrontDoorOutsideOpening",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the driver side front door on the driver side owned by the driver in the local front near the outside opening to the front door of the driver side"
+    ]
+}

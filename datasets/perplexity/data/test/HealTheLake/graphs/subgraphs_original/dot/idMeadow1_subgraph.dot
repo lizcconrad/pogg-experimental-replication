@@ -1,0 +1,19 @@
+strict digraph {
+idMeadow1 [node_type="entity_node", root=root, lexicon_key=idMeadow];
+grassy [lexicon_key=grassy];
+idTheBushes1 [lexicon_key=idTheBushes];
+bushy [lexicon_key=bushy];
+overgrown [lexicon_key=overgrown];
+idLog1 [lexicon_key=idLog];
+mossy [lexicon_key=mossy];
+hollow [lexicon_key=hollow];
+idBranch1 [lexicon_key=idBranch];
+idMeadow1 -> grassy [label="idMeadow1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idMeadow1 -> idTheBushes1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idMeadow1 -> idLog1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idTheBushes1 -> bushy [label="idTheBushes1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idTheBushes1 -> overgrown [label="idTheBushes1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idLog1 -> mossy [label="idLog1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idLog1 -> hollow [label="idLog1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idLog1 -> idBranch1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

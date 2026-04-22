@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idToilet1": {
+            "lexicon_key": "idToilet",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "white": {
+            "lexicon_key": "white",
+            "node_properties": {}
+        },
+        "yes": {
+            "lexicon_key": "yes",
+            "node_properties": {}
+        },
+        "idBedroom1": {
+            "lexicon_key": "idBedroom",
+            "node_properties": {}
+        },
+        "idBedroom1BackOpening": {
+            "lexicon_key": "idBedroom1BackOpening",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idToilet1_prop_idColor",
+            "parent_node": "idToilet1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idToilet1_prop_idImmovable",
+            "parent_node": "idToilet1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idToilet1",
+            "child_node": "idBedroom1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idToilet1",
+            "child_node": "idBedroom1BackOpening",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

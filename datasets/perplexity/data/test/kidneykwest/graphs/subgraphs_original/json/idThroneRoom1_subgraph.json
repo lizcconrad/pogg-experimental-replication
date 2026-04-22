@@ -1,0 +1,78 @@
+{
+    "nodes": {
+        "idThroneRoom1": {
+            "lexicon_key": "idThroneRoom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idDrawer3": {
+            "lexicon_key": "idDrawer",
+            "node_properties": {}
+        },
+        "low": {
+            "lexicon_key": "low",
+            "node_properties": {}
+        },
+        "3": {
+            "lexicon_key": "3",
+            "node_properties": {}
+        },
+        "idFairyWorldLobby1LeftOpening": {
+            "lexicon_key": "idFairyWorldLobby1LeftOpening",
+            "node_properties": {}
+        },
+        "idChip1": {
+            "lexicon_key": "idChip",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1",
+            "child_node": "idFairyWorldLobby1LeftOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1",
+            "child_node": "idDrawer3",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idVerticalArrangement",
+            "parent_node": "idDrawer3",
+            "child_node": "low",
+            "lexicon_key": "idVerticalArrangement",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDrawer3_prop_idOrdinality",
+            "parent_node": "idDrawer3",
+            "child_node": "3",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idFairyWorldLobby1LeftOpening",
+            "child_node": "idChip1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

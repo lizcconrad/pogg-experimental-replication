@@ -1,0 +1,14 @@
+strict digraph {
+idLivingRoom1 [node_type="entity_node", root=root, lexicon_key=idLivingRoom];
+"There are doors to [the, sayName(idKitchen1)], [the, sayName(idBackyard1)] (with [a, sayName(idDogDoor1)] installed), [the, sayName(idBedroom1)] and [the, sayName(idPorch1)].{p}" [lexicon_key="There are doors to [the, sayName(idKitchen1)], [the, sayName(idBackyard1)] (with [a, sayName(idDogDoor1)] installed), [the, sayName(idBedroom1)] and [the, sayName(idPorch1)].{p}"];
+true [lexicon_key=true];
+idTent1 [lexicon_key=idTent];
+unusual [lexicon_key=unusual];
+idCouch1 [lexicon_key=idCouch];
+idLivingRoom1 -> "There are doors to [the, sayName(idKitchen1)], [the, sayName(idBackyard1)] (with [a, sayName(idDogDoor1)] installed), [the, sayName(idBedroom1)] and [the, sayName(idPorch1)].{p}" [label="idLivingRoom1_prop_idDirectionDescription", edge_type=property, lexicon_key=idDirectionDescription];
+idLivingRoom1 -> true [label="idLivingRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idLivingRoom1 -> idTent1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idTent1 -> unusual [label="idTent1_prop_idShape", edge_type=property, lexicon_key=idShape];
+idTent1 -> true [label="idTent1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTent1 -> idCouch1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

@@ -1,0 +1,11 @@
+strict digraph {
+idTutorialRoom1 [node_type=entity, lexicon_key=idTutorialRoom];
+white [node_type=property, lexicon_key=white];
+true [node_type=property, lexicon_key=true];
+idDesk1 [node_type=entity, lexicon_key=idDesk];
+yes [node_type=property, lexicon_key=yes];
+idTutorialRoom1 -> white [label="idTutorialRoom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idTutorialRoom1 -> true [label="idTutorialRoom1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTutorialRoom1 -> idDesk1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idDesk1 -> yes [label="idDesk1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

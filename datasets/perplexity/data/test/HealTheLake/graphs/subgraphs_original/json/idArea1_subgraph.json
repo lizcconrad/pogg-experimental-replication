@@ -1,0 +1,65 @@
+{
+    "nodes": {
+        "idArea1": {
+            "lexicon_key": "idArea",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "smoky": {
+            "lexicon_key": "smoky",
+            "node_properties": {}
+        },
+        "idBerry2": {
+            "lexicon_key": "idBerry",
+            "node_properties": {}
+        },
+        "green": {
+            "lexicon_key": "green",
+            "node_properties": {}
+        },
+        "idLeg1": {
+            "lexicon_key": "idLeg",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idArea1_prop_idDescriptor",
+            "parent_node": "idArea1",
+            "child_node": "smoky",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idArea1",
+            "child_node": "idBerry2",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBerry2_prop_idColor",
+            "parent_node": "idBerry2",
+            "child_node": "green",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBerry2",
+            "child_node": "idLeg1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idCavern6Outside": {
+            "lexicon_key": "idCavern6Outside",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "outside": {
+            "lexicon_key": "outside",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCavern4": {
+            "lexicon_key": "idCavern",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "dark": {
+            "lexicon_key": "dark",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "large": {
+            "lexicon_key": "large",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idCavern6Outside_prop_idDescriptor",
+            "parent_node": "idCavern6Outside",
+            "child_node": "outside",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idCavern6Outside",
+            "child_node": "idCavern4",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idCavern4_prop_idTint",
+            "parent_node": "idCavern4",
+            "child_node": "dark",
+            "lexicon_key": "idTint",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idCavern4_prop_idSize",
+            "parent_node": "idCavern4",
+            "child_node": "large",
+            "lexicon_key": "idSize",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the outside outside of the cavern west of the large dark cavern"
+    ]
+}

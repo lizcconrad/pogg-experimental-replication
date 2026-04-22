@@ -1,0 +1,52 @@
+{
+    "nodes": {
+        "idDaycare1": {
+            "lexicon_key": "idDaycare",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {}
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {}
+        },
+        "idNone": {
+            "lexicon_key": "idNone",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDaycare1",
+            "child_node": "idBaby1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idCryTurns",
+            "parent_node": "idBaby1",
+            "child_node": "0",
+            "lexicon_key": "idCryTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idCrawlingRoom",
+            "parent_node": "idBaby1",
+            "child_node": "idNone",
+            "lexicon_key": "idCrawlingRoom",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

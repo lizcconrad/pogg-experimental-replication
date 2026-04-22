@@ -1,0 +1,9 @@
+strict digraph {
+idDrawer1 [node_type=entity, lexicon_key=idDrawer];
+closed [node_type=property, lexicon_key=closed];
+idDesk1 [node_type=entity, lexicon_key=idDesk];
+yes [node_type=property, lexicon_key=yes];
+idDrawer1 -> closed [label="idDrawer1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idDrawer1 -> idDesk1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idDesk1 -> yes [label="idDesk1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

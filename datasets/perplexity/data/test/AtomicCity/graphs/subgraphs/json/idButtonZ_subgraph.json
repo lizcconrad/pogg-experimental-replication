@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idButtonZ": {
+            "lexicon_key": "idButtonZ",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "4": {
+            "lexicon_key": "4",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idElevator1": {
+            "lexicon_key": "idElevator",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idButton1": {
+            "lexicon_key": "idButton",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idButtonZ_prop_idOrdinality",
+            "parent_node": "idButtonZ",
+            "child_node": "4",
+            "lexicon_key": "idOrdinality",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNear",
+            "parent_node": "idButtonZ",
+            "child_node": "idElevator1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idElevator1_prop_idCurrentLevel",
+            "parent_node": "idElevator1",
+            "child_node": "idButton1",
+            "lexicon_key": "idCurrentLevel",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the fourth button near the elevator"
+    ]
+}

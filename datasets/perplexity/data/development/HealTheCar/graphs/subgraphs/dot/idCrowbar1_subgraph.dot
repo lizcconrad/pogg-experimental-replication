@@ -1,0 +1,11 @@
+strict digraph {
+idCrowbar1 [node_type=entity, lexicon_key=idCrowbar];
+black [node_type=property, lexicon_key=black];
+cool [node_type=property, lexicon_key=cool];
+true [node_type=property, lexicon_key=true];
+idTire1 [node_type=entity, lexicon_key=idTire];
+idCrowbar1 -> black [label="idCrowbar1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idCrowbar1 -> cool [label="idCrowbar1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idCrowbar1 -> true [label="idCrowbar1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idCrowbar1 -> idTire1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

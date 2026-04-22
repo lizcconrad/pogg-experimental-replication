@@ -1,0 +1,11 @@
+strict digraph {
+idLight1 [node_type=entity, lexicon_key=idLight];
+purple [node_type=property, lexicon_key=purple];
+on [node_type=property, lexicon_key=on];
+lit [node_type=property, lexicon_key=lit];
+idLexi [node_type=entity, lexicon_key=idLexi];
+idLight1 -> purple [label="idLight1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLight1 -> on [label="idLight1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idLight1 -> lit [label="idLight1_prop_idLitState", edge_type=property, lexicon_key=idLitState];
+idLight1 -> idLexi [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

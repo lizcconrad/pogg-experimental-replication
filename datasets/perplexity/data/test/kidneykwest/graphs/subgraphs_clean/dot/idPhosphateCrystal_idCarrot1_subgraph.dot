@@ -1,0 +1,11 @@
+strict digraph {
+idPhosphateCrystal_idCarrot1 [lexicon_key="idPhosphateCrystal_idCarrot"];
+blue [lexicon_key=blue];
+shiny [lexicon_key=shiny];
+true [lexicon_key=true];
+idCastle1 [lexicon_key=idCastle];
+idPhosphateCrystal_idCarrot1 -> blue [label="idPhosphateCrystal_idCarrot1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idPhosphateCrystal_idCarrot1 -> shiny [label="idPhosphateCrystal_idCarrot1_prop_idTrait", edge_type=property, lexicon_key=idTrait];
+idPhosphateCrystal_idCarrot1 -> true [label="idPhosphateCrystal_idCarrot1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idPhosphateCrystal_idCarrot1 -> idCastle1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+}

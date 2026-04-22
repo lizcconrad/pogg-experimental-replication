@@ -1,0 +1,13 @@
+strict digraph {
+idClosetToWorkshopDoor [node_type=entity, lexicon_key=idClosetToWorkshopDoor];
+small [node_type=property, lexicon_key=small];
+idmetal [node_type=property, lexicon_key=idmetal];
+true [node_type=property, lexicon_key=true];
+idDock1 [node_type=entity, lexicon_key=idDock];
+yes [node_type=property, lexicon_key=yes];
+idClosetToWorkshopDoor -> small [label="idClosetToWorkshopDoor_prop_idSize", edge_type=property, lexicon_key=idSize];
+idClosetToWorkshopDoor -> idmetal [label="idClosetToWorkshopDoor_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idClosetToWorkshopDoor -> true [label="idClosetToWorkshopDoor_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idClosetToWorkshopDoor -> idDock1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+idDock1 -> yes [label="idDock1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+}

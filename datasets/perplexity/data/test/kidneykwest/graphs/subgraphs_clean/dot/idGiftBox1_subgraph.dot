@@ -1,0 +1,9 @@
+strict digraph {
+idGiftBox1 [lexicon_key=idGiftBox];
+closed [lexicon_key=closed];
+idStick1 [lexicon_key=idStick];
+idwood [lexicon_key=idwood];
+idGiftBox1 -> closed [label="idGiftBox1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idGiftBox1 -> idStick1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idStick1 -> idwood [label="idStick1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+}

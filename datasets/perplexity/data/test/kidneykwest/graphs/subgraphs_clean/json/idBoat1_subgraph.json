@@ -1,0 +1,23 @@
+{
+    "nodes": {
+        "idBoat1": {
+            "node_type": "entity",
+            "lexicon_key": "idBoat"
+        },
+        "idCabin1": {
+            "node_type": "entity",
+            "lexicon_key": "idCabin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idBoat1",
+            "child_node": "idCabin1",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

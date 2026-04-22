@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idDesk1": {
+            "lexicon_key": "idDesk",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "brown": {
+            "lexicon_key": "brown",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "used": {
+            "lexicon_key": "used",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "wooden": {
+            "lexicon_key": "wooden",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBathroom1FrontOpening": {
+            "lexicon_key": "idBathroom1FrontOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDesk1_prop_idColor",
+            "parent_node": "idDesk1",
+            "child_node": "brown",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idDescriptor",
+            "parent_node": "idDesk1",
+            "child_node": "used",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDesk1_prop_idMaterial_1",
+            "parent_node": "idDesk1",
+            "child_node": "wooden",
+            "lexicon_key": "idMaterial_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idDesk1",
+            "child_node": "idBathroom1FrontOpening",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the used brown wooden desk east of the bathroom's front opening"
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+idLab1BackOpening [lexicon_key=idLab1BackOpening];
+idPill1 [lexicon_key=idPill];
+idLab1BackOpening -> idPill1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idThroneRoom1Door": {
+            "lexicon_key": "idThroneRoom1Door",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "grey": {
+            "lexicon_key": "grey",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idmetal": {
+            "lexicon_key": "idmetal",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "open": {
+            "lexicon_key": "open",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idStick1": {
+            "lexicon_key": "idStick",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idThroneRoom1Door_prop_idColor",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "grey",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idThroneRoom1Door_prop_idMaterial",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "idmetal",
+            "lexicon_key": "idMaterial",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idThroneRoom1Door_prop_idOpenState",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "open",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idThroneRoom1Door",
+            "child_node": "idStick1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the metal grey open door to the throne room east of the stick"
+    ]
+}

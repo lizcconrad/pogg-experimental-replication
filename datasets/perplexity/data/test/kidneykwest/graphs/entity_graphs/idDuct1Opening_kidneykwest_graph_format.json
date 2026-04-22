@@ -1,0 +1,27 @@
+{
+    "nodes": {
+        "idDuct1Opening": {
+            "lexicon_key": "idDuct1Opening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idDuct1Flap": {
+            "lexicon_key": "idDuct1Flap",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idDuct1Opening",
+            "child_node": "idDuct1Flap",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

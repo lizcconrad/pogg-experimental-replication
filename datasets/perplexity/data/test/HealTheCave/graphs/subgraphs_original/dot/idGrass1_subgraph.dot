@@ -1,0 +1,15 @@
+strict digraph {
+idGrass1 [node_type="entity_node", root=root, lexicon_key=idGrass];
+green [lexicon_key=green];
+yes [lexicon_key=yes];
+uncountable [lexicon_key=uncountable];
+idLiquid1 [lexicon_key=idLiquid];
+black [lexicon_key=black];
+strange [lexicon_key=strange];
+idGrass1 -> green [label="idGrass1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idGrass1 -> yes [label="idGrass1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idGrass1 -> uncountable [label="idGrass1_prop_idArticleType", edge_type=property, lexicon_key=idArticleType];
+idGrass1 -> idLiquid1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idLiquid1 -> black [label="idLiquid1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idLiquid1 -> strange [label="idLiquid1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+}

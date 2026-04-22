@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "idLab1": {
+            "node_type": "entity",
+            "lexicon_key": "idLab"
+        },
+        "white": {
+            "node_type": "property",
+            "lexicon_key": "white"
+        },
+        "idKelly1": {
+            "node_type": "entity",
+            "lexicon_key": "idKelly"
+        },
+        "true": {
+            "node_type": "property",
+            "lexicon_key": "true"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idLab1_prop_idColor",
+            "parent_node": "idLab1",
+            "child_node": "white",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isNorthOf",
+            "parent_node": "idLab1",
+            "child_node": "idKelly1",
+            "lexicon_key": "isNorthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idKelly1_prop_idUnknownObject",
+            "parent_node": "idKelly1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

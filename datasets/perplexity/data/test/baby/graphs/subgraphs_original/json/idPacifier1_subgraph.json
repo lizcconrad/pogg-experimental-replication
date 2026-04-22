@@ -1,0 +1,100 @@
+{
+    "nodes": {
+        "idPacifier1": {
+            "lexicon_key": "idPacifier",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "idMonitor1": {
+            "lexicon_key": "idMonitor",
+            "node_properties": {}
+        },
+        "true": {
+            "lexicon_key": "true",
+            "node_properties": {}
+        },
+        "idBaby1": {
+            "lexicon_key": "idBaby",
+            "node_properties": {}
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {}
+        },
+        "idBabyCarSeat": {
+            "lexicon_key": "idBabyCarSeat",
+            "node_properties": {}
+        },
+        "idClosetToWorkshopDoor": {
+            "lexicon_key": "idClosetToWorkshopDoor",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPacifier1",
+            "child_node": "idMonitor1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPacifier1",
+            "child_node": "idBaby1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMonitor1_prop_idUnknownObject",
+            "parent_node": "idMonitor1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idMonitor1",
+            "child_node": "idBabyCarSeat",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idCryTurns",
+            "parent_node": "idBaby1",
+            "child_node": "0",
+            "lexicon_key": "idCryTurns",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBaby1_prop_idUnknownObject",
+            "parent_node": "idBaby1",
+            "child_node": "true",
+            "lexicon_key": "idUnknownObject",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idBaby1",
+            "child_node": "idClosetToWorkshopDoor",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

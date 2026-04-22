@@ -1,0 +1,12 @@
+{
+    "nodes": {
+        "idCavern3LeftOpening": {
+            "lexicon_key": "idCavern3LeftOpening",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        }
+    },
+    "edges": []
+}

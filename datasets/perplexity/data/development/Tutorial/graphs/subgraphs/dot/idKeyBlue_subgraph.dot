@@ -1,0 +1,9 @@
+strict digraph {
+idKeyBlue [node_type=entity, lexicon_key=idKeyBlue];
+blue [node_type=property, lexicon_key=blue];
+true [node_type=property, lexicon_key=true];
+idGameRoom1BackOpening [node_type=entity, lexicon_key=idGameRoom1BackOpening];
+idKeyBlue -> blue [label="idKeyBlue_prop_idColor", edge_type=property, lexicon_key=idColor];
+idKeyBlue -> true [label="idKeyBlue_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idKeyBlue -> idGameRoom1BackOpening [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

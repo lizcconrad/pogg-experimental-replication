@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "idPassengersSideFrontDoorOutsideOpening": {
+            "lexicon_key": "idPassengersSideFrontDoorOutsideOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [],
+    "gold_outputs": [
+        "the outside opening on the passenger side's front door"
+    ]
+}

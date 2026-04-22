@@ -1,0 +1,16 @@
+strict digraph {
+idTutorialRoom1Door [node_type="entity_node", root=root, lexicon_key=idTutorialRoom1Door];
+closed [lexicon_key=closed];
+idTutorialRoom1DoorLock [lexicon_key=idTutorialRoom1DoorLock];
+idSign1 [lexicon_key=idSign];
+yes [lexicon_key=yes];
+true [lexicon_key=true];
+idTutorialRoom1FrontOpening [lexicon_key=idTutorialRoom1FrontOpening];
+idTutorialRoom1Door -> closed [label="idTutorialRoom1Door_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+idTutorialRoom1Door -> idTutorialRoom1DoorLock [label="idTutorialRoom1Door_prop_idLockMechanism", edge_type=property, lexicon_key=idLockMechanism];
+idTutorialRoom1Door -> idTutorialRoom1FrontOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idTutorialRoom1Door -> idSign1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idSign1 -> yes [label="idSign1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idSign1 -> true [label="idSign1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idTutorialRoom1FrontOpening -> idTutorialRoom1Door [label=isSouthOf, edge_type=relationship, lexicon_key=isSouthOf];
+}

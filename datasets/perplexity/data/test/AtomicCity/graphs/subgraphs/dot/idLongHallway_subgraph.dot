@@ -1,0 +1,5 @@
+strict digraph {
+idLongHallway [node_type=entity, lexicon_key=idLongHallway];
+idElevatorOpening [node_type=entity, lexicon_key=idElevatorOpening];
+idLongHallway -> idElevatorOpening [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+}

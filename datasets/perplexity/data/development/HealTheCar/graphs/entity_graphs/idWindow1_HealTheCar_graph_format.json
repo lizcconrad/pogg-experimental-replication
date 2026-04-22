@@ -1,0 +1,138 @@
+{
+    "nodes": {
+        "idWindow1": {
+            "lexicon_key": "idWindow",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "dark": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "tinted": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "intact": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "unbroken": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "cracked": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "visible": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDriver1": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "yes": {
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idWindow1_prop_idDescriptor",
+            "parent_node": "idWindow1",
+            "child_node": "dark",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_1",
+            "parent_node": "idWindow1",
+            "child_node": "tinted",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_2",
+            "parent_node": "idWindow1",
+            "child_node": "intact",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_3",
+            "parent_node": "idWindow1",
+            "child_node": "unbroken",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_4",
+            "parent_node": "idWindow1",
+            "child_node": "cracked",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idDescriptor_5",
+            "parent_node": "idWindow1",
+            "child_node": "visible",
+            "lexicon_key": "idDescriptor_",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idCarSide",
+            "parent_node": "idWindow1",
+            "child_node": "idDriver",
+            "lexicon_key": "idCarSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idOwnedBy",
+            "parent_node": "idWindow1",
+            "child_node": "idDriver1",
+            "lexicon_key": "idOwnedBy",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idWindow1_prop_idImmovable",
+            "parent_node": "idWindow1",
+            "child_node": "yes",
+            "lexicon_key": "idImmovable",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

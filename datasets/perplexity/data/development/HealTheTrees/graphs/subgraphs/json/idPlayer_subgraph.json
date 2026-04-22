@@ -1,0 +1,75 @@
+{
+    "nodes": {
+        "idPlayer": {
+            "lexicon_key": "idPlayer",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "false": {
+            "lexicon_key": "false",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idBottle1": {
+            "lexicon_key": "idBottle",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "broken": {
+            "lexicon_key": "broken",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "sharp": {
+            "lexicon_key": "sharp",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idPlayer_prop_idBottleFound",
+            "parent_node": "idPlayer",
+            "child_node": "false",
+            "lexicon_key": "idBottleFound",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idPlayer",
+            "child_node": "idBottle1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idBottle1_prop_idIntegrity",
+            "parent_node": "idBottle1",
+            "child_node": "broken",
+            "lexicon_key": "idIntegrity",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idBottle1_prop_idDescriptor",
+            "parent_node": "idBottle1",
+            "child_node": "sharp",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the player east of the sharp broken bottle who has not found the bottle"
+    ]
+}

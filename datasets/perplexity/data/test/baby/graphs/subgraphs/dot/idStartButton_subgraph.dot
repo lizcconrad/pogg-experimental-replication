@@ -1,0 +1,9 @@
+strict digraph {
+idStartButton [node_type=entity, lexicon_key=idStartButton];
+off [node_type=property, lexicon_key=off];
+true [node_type=property, lexicon_key=true];
+idPacifier1 [node_type=entity, lexicon_key=idPacifier];
+idStartButton -> off [label="idStartButton_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idStartButton -> true [label="idStartButton_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idStartButton -> idPacifier1 [label=isWestOf, edge_type=relationship, lexicon_key=isWestOf];
+}

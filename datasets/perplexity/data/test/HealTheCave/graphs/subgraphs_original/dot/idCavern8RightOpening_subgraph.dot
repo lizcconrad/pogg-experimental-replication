@@ -1,0 +1,3 @@
+strict digraph {
+idCavern8RightOpening [node_type="entity_node", root=root, lexicon_key=idCavern8RightOpening];
+}

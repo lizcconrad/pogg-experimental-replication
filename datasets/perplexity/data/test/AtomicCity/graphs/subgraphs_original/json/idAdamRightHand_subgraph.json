@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idAdamRightHand": {
+            "lexicon_key": "idAdamRightHand",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "right": {
+            "lexicon_key": "right",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idAdamRightHand_prop_idSide",
+            "parent_node": "idAdamRightHand",
+            "child_node": "right",
+            "lexicon_key": "idSide",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

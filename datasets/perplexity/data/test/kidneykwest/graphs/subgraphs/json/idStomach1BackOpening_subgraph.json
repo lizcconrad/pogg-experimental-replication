@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idStomach1BackOpening": {
+            "lexicon_key": "idStomach1BackOpening",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idThroatSphincter1": {
+            "lexicon_key": "idThroatSphincter",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "closed": {
+            "lexicon_key": "closed",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idStomach1BackOpening",
+            "child_node": "idThroatSphincter1",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idThroatSphincter1_prop_idOpenState",
+            "parent_node": "idThroatSphincter1",
+            "child_node": "closed",
+            "lexicon_key": "idOpenState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the stomach's back opening south of the closed throat sphincter"
+    ]
+}

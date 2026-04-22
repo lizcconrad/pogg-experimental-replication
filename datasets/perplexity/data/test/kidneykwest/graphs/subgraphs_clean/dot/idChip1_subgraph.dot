@@ -1,0 +1,11 @@
+strict digraph {
+idChip1 [lexicon_key=idChip];
+idpotato [lexicon_key=idpotato];
+salty [lexicon_key=salty];
+idPhosphateCrystal_idChip2 [lexicon_key="idPhosphateCrystal_idChip"];
+blue [lexicon_key=blue];
+idChip1 -> idpotato [label="idChip1_prop_idMaterial", edge_type=property, lexicon_key=idMaterial];
+idChip1 -> salty [label="idChip1_prop_idSaltiness", edge_type=property, lexicon_key=idSaltiness];
+idChip1 -> idPhosphateCrystal_idChip2 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idPhosphateCrystal_idChip2 -> blue [label="idPhosphateCrystal_idChip2_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

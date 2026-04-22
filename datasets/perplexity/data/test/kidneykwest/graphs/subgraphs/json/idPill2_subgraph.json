@@ -1,0 +1,30 @@
+{
+    "nodes": {
+        "idPill2": {
+            "lexicon_key": "idPill",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPill4": {
+            "lexicon_key": "idPill",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isNear",
+            "parent_node": "idPill2",
+            "child_node": "idPill4",
+            "lexicon_key": "isNear",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the pill near the pill"
+    ]
+}

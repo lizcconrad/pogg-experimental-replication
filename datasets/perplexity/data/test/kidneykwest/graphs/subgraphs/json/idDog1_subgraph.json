@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "idDog1": {
+            "lexicon_key": "idDog",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "black": {
+            "lexicon_key": "black",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "0": {
+            "lexicon_key": "0",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idCarrot1": {
+            "lexicon_key": "idCarrot",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idDog1_prop_idColor",
+            "parent_node": "idDog1",
+            "child_node": "black",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "idDog1_prop_idEatingFoodTurnsRemaining",
+            "parent_node": "idDog1",
+            "child_node": "0",
+            "lexicon_key": "idEatingFoodTurnsRemaining",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idDog1",
+            "child_node": "idCarrot1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the black dog with nothing left to eat west of the carrot"
+    ]
+}

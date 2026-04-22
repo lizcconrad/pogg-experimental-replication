@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idClearing1": {
+            "lexicon_key": "idClearing",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "bushy": {
+            "lexicon_key": "bushy",
+            "node_properties": {
+                "node_type": "property"
+            }
+        },
+        "idDen1": {
+            "lexicon_key": "idDen",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idClearing1_prop_idDescriptor",
+            "parent_node": "idClearing1",
+            "child_node": "bushy",
+            "lexicon_key": "idDescriptor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idClearing1",
+            "child_node": "idDen1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the bushy clearing east of the den"
+    ]
+}

@@ -1,0 +1,3 @@
+strict digraph {
+idMachine1_prop_idPowerControl [node_type=entity, lexicon_key="idMachine1_prop_idPowerControl"];
+}

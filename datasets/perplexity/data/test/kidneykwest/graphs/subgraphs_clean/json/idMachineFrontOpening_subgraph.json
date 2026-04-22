@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idMachineFrontOpening": {
+            "node_type": "entity",
+            "lexicon_key": "idMachineFrontOpening"
+        },
+        "idMachineDoor": {
+            "node_type": "entity",
+            "lexicon_key": "idMachineDoor"
+        },
+        "locked": {
+            "node_type": "property",
+            "lexicon_key": "locked"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isSouthOf",
+            "parent_node": "idMachineFrontOpening",
+            "child_node": "idMachineDoor",
+            "lexicon_key": "isSouthOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idMachineDoor_prop_idLockedState",
+            "parent_node": "idMachineDoor",
+            "child_node": "locked",
+            "lexicon_key": "idLockedState",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}

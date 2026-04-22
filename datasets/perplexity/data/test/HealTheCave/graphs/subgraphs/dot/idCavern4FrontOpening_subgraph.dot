@@ -1,0 +1,9 @@
+strict digraph {
+idCavern4FrontOpening [node_type=entity, lexicon_key=idCavern4FrontOpening];
+idGrass1 [node_type=entity, lexicon_key=idGrass];
+short [node_type=property, lexicon_key=short];
+green [node_type=property, lexicon_key=green];
+idCavern4FrontOpening -> idGrass1 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+idGrass1 -> short [label="idGrass1_prop_idHeight", edge_type=property, lexicon_key=idHeight];
+idGrass1 -> green [label="idGrass1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

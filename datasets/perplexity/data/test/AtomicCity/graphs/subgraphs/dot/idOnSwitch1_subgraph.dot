@@ -1,0 +1,7 @@
+strict digraph {
+idOnSwitch1 [node_type=entity, lexicon_key=idOnSwitch];
+off [node_type=property, lexicon_key=off];
+idWolf2 [node_type=entity, lexicon_key=idWolf];
+idOnSwitch1 -> off [label="idOnSwitch1_prop_idPowerState", edge_type=property, lexicon_key=idPowerState];
+idOnSwitch1 -> idWolf2 [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

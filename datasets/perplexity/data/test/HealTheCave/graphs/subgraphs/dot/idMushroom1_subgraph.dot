@@ -1,0 +1,7 @@
+strict digraph {
+idMushroom1 [node_type=entity, lexicon_key=idMushroom];
+blue [node_type=property, lexicon_key=blue];
+idCavern7LeftOpening [node_type=entity, lexicon_key=idCavern7LeftOpening];
+idMushroom1 -> blue [label="idMushroom1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idMushroom1 -> idCavern7LeftOpening [label=isEastOf, edge_type=relationship, lexicon_key=isEastOf];
+}

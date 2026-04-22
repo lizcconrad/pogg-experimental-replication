@@ -1,0 +1,13 @@
+strict digraph {
+idStump1 [node_type=entity, lexicon_key=idStump];
+yes [node_type=property, lexicon_key=yes];
+hollow [node_type=property, lexicon_key=hollow];
+brown [node_type=property, lexicon_key=brown];
+idCarKey1 [node_type=entity, lexicon_key=idCarKey];
+black [node_type=property, lexicon_key=black];
+idStump1 -> yes [label="idStump1_prop_idImmovable", edge_type=property, lexicon_key=idImmovable];
+idStump1 -> hollow [label="idStump1_prop_idDescriptor_1", edge_type=property, lexicon_key="idDescriptor_"];
+idStump1 -> brown [label="idStump1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idStump1 -> idCarKey1 [label=isNear, edge_type=relationship, lexicon_key=isNear];
+idCarKey1 -> black [label="idCarKey1_prop_idColor", edge_type=property, lexicon_key=idColor];
+}

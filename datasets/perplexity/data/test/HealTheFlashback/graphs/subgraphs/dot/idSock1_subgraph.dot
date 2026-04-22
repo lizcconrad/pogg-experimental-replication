@@ -1,0 +1,13 @@
+strict digraph {
+idSock1 [node_type=entity, lexicon_key=idSock];
+white [node_type=property, lexicon_key=white];
+old [node_type=property, lexicon_key=old];
+true [node_type=property, lexicon_key=true];
+idBedroomToBathroomDoor1 [node_type=entity, lexicon_key=idBedroomToBathroomDoor];
+open [node_type=property, lexicon_key=open];
+idSock1 -> white [label="idSock1_prop_idColor", edge_type=property, lexicon_key=idColor];
+idSock1 -> old [label="idSock1_prop_idDescriptor", edge_type=property, lexicon_key=idDescriptor];
+idSock1 -> true [label="idSock1_prop_idUnknownObject", edge_type=property, lexicon_key=idUnknownObject];
+idSock1 -> idBedroomToBathroomDoor1 [label=isNorthOf, edge_type=relationship, lexicon_key=isNorthOf];
+idBedroomToBathroomDoor1 -> open [label="idBedroomToBathroomDoor1_prop_idOpenState", edge_type=property, lexicon_key=idOpenState];
+}

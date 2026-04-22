@@ -1,0 +1,36 @@
+{
+    "nodes": {
+        "idHamburger1": {
+            "node_type": "entity",
+            "lexicon_key": "idHamburger"
+        },
+        "salty": {
+            "node_type": "property",
+            "lexicon_key": "salty"
+        },
+        "idDog1": {
+            "node_type": "entity",
+            "lexicon_key": "idDog"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idHamburger1_prop_idSaltiness",
+            "parent_node": "idHamburger1",
+            "child_node": "salty",
+            "lexicon_key": "idSaltiness",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        },
+        {
+            "edge_name": "isEastOf",
+            "parent_node": "idHamburger1",
+            "child_node": "idDog1",
+            "lexicon_key": "isEastOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        }
+    ]
+}

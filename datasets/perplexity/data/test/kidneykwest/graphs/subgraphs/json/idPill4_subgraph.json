@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "idPill4": {
+            "lexicon_key": "idPill",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "idPhosphateCrystal_idApple1": {
+            "lexicon_key": "idPhosphateCrystal_idApple",
+            "node_properties": {
+                "node_type": "entity"
+            }
+        },
+        "shiny": {
+            "lexicon_key": "shiny",
+            "node_properties": {
+                "node_type": "property"
+            }
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isWestOf",
+            "parent_node": "idPill4",
+            "child_node": "idPhosphateCrystal_idApple1",
+            "lexicon_key": "isWestOf",
+            "edge_properties": {
+                "edge_type": "relationship"
+            }
+        },
+        {
+            "edge_name": "idPhosphateCrystal_idApple1_prop_idTrait",
+            "parent_node": "idPhosphateCrystal_idApple1",
+            "child_node": "shiny",
+            "lexicon_key": "idTrait",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ],
+    "gold_outputs": [
+        "the pill west of the shiny phosphate crystal from the apple"
+    ]
+}

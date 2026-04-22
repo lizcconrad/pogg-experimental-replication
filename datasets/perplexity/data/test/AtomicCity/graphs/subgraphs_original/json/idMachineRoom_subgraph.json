@@ -1,0 +1,26 @@
+{
+    "nodes": {
+        "idMachineRoom": {
+            "lexicon_key": "idMachineRoom",
+            "node_properties": {
+                "node_type": "entity_node",
+                "root": "root"
+            }
+        },
+        "red": {
+            "lexicon_key": "red",
+            "node_properties": {}
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "idMachineRoom_prop_idColor",
+            "parent_node": "idMachineRoom",
+            "child_node": "red",
+            "lexicon_key": "idColor",
+            "edge_properties": {
+                "edge_type": "property"
+            }
+        }
+    ]
+}
