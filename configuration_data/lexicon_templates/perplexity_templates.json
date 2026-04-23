@@ -1,0 +1,176 @@
+{
+    "TEMPLATE_break": {
+        "example": "break",
+        "lexical_entry_template": {
+            "comp_fxn": "verb",
+            "predicate": "_break_v_cause",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_blue": {
+        "example": "blue",
+        "lexical_entry_template": {
+            "comp_fxn": "adjective",
+            "predicate": "_blue_a_1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_cake": {
+        "example": "cake",
+        "lexical_entry_template": {
+            "comp_fxn": "noun",
+            "predicate": "_cake_n_1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_cats_toy": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_cat_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_toy_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_Liz": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "proper_noun",
+            "name": "Liz",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_glowing_toy": {
+        "example": "glowing toy",
+        "lexical_entry_template": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_toy_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_car_key": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_car_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idCarDoorLock": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_lock_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_car_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_unbroken": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_break_v_cause",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_unconscious": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_conscious_a_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_1": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "number",
+            "digit": "1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idBagOfChips": {
+        "example": "bag of chips",
+        "lexical_entry_template": {
+            "comp_fxn": "object_of_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bag_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "object_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_chip_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_low": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "comparative_adjective",
+            "predicate": "_low_a_1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idFuse30A": {
+        "example": "fuse 30A",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "30A",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    }
+}
