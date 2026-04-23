@@ -1,0 +1,54 @@
+{
+    "node_keys": {
+        "idCattleWranglerCostume": {
+            "comp_fxn": ""
+        },
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idPill": {
+            "comp_fxn": ""
+        },
+        "idPlayer": {
+            "comp_fxn": ""
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": ""
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": ""
+        },
+        "idPyloricSphincter": {
+            "comp_fxn": ""
+        },
+        "idVilli": {
+            "comp_fxn": ""
+        },
+        "pyloric": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idBinderTakenTurns": {
+            "comp_fxn": ""
+        },
+        "idButtonsPushed": {
+            "comp_fxn": ""
+        },
+        "idEatingFoodTurnsRemaining": {
+            "comp_fxn": ""
+        },
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "idMapY": {
+            "comp_fxn": ""
+        },
+        "idTurnsSinceFood": {
+            "comp_fxn": ""
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        }
+    }
+}

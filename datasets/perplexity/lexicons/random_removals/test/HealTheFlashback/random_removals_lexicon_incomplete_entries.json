@@ -1,0 +1,39 @@
+{
+    "node_keys": {
+        "idKitchCabDrawer": {
+            "comp_fxn": ""
+        },
+        "idKitchen1FrontOpening": {
+            "comp_fxn": ""
+        },
+        "idPlayer": {
+            "comp_fxn": ""
+        },
+        "idPlayerBackside": {
+            "comp_fxn": ""
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": ""
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": ""
+        },
+        "idporcelain": {
+            "comp_fxn": ""
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        }
+    }
+}

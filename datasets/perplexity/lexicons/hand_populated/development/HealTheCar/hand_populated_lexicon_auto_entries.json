@@ -1,0 +1,13 @@
+{
+    "node_keys": {
+        "idFace": {
+            "comp_fxn": "noun",
+            "predicate": "_face_n_1",
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_noun"
+            }
+        }
+    },
+    "edge_keys": {}
+}

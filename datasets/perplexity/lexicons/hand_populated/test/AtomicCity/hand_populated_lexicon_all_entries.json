@@ -1,0 +1,1312 @@
+{
+    "node_keys": {
+        "1": {
+            "comp_fxn": "number",
+            "digit": "1",
+            "intrinsic_variable_properties": {}
+        },
+        "2": {
+            "comp_fxn": "number",
+            "digit": "2",
+            "intrinsic_variable_properties": {}
+        },
+        "3": {
+            "comp_fxn": "number",
+            "digit": "3",
+            "intrinsic_variable_properties": {}
+        },
+        "4": {
+            "comp_fxn": "number",
+            "digit": "4",
+            "intrinsic_variable_properties": {}
+        },
+        "black": {
+            "comp_fxn": "adjective",
+            "predicate": "_black_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "blue": {
+            "comp_fxn": "adjective",
+            "predicate": "_blue_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "brown": {
+            "comp_fxn": "adjective",
+            "predicate": "_brown_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "building1": {
+            "comp_fxn": "noun",
+            "predicate": "_building_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "closed": {
+            "comp_fxn": "adjective",
+            "predicate": "_closed_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "dust6": {
+            "comp_fxn": "noun",
+            "predicate": "_dust_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "green": {
+            "comp_fxn": "adjective",
+            "predicate": "_green_a_2",
+            "intrinsic_variable_properties": {}
+        },
+        "grey": {
+            "comp_fxn": "adjective",
+            "predicate": "_grey_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idAdam": {
+            "comp_fxn": "proper_noun",
+            "name": "Adam",
+            "intrinsic_variable_properties": {}
+        },
+        "idAdamLeftHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Adam",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idAdamRightHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Adam",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idAtomicCityOutside": {
+            "comp_fxn": "object_of_noun",
+            "object_noun_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_atomic_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_city_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_outside_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idAtomicCityOutside1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "object_of_noun",
+                "object_noun_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_atomic_a_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_city_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_outside_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idBeefJerky": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_jerky_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_beef_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idButton": {
+            "comp_fxn": ""
+        },
+        "idButton1": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idButtonX": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idButtonY": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idButtonZ": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idCandyBar": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bar_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_candy_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idCardKey": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_card_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idComputerRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_computer_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idComputerRoom1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_computer_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idComputerRoom1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_computer_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idComputerRoom1FrontOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_computer_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        },
+        "idControlPanel": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_panel_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_control_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idDesk": {
+            "comp_fxn": "noun",
+            "predicate": "_desk_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idDrawer": {
+            "comp_fxn": "noun",
+            "predicate": "_drawer_n_of",
+            "intrinsic_variable_properties": {}
+        },
+        "idElevator": {
+            "comp_fxn": "noun",
+            "predicate": "_elevator_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idElevator1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idElevatorDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idElevatorOpening": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_opening_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idElevatorSlot": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_slot_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idElevatorSlotFacePlate": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_slot_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_elevator_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_plate_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_face_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idFuse": {
+            "comp_fxn": "noun",
+            "predicate": "_fuse_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idFuse30A": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "30A",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idFuseBox": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_box_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idFusePackage": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_package_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idFuseSocket": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_socket_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idIdaho": {
+            "comp_fxn": "proper_noun",
+            "name": "Idaho",
+            "intrinsic_variable_properties": {}
+        },
+        "idKeyBlue": {
+            "comp_fxn": "noun",
+            "predicate": "_key_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idLongHallway": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_long_a_2",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_hallway_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idLongHallwayBackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_long_a_2",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hallway_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idLongHallwayBackOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_back_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        },
+        "idLongHallwayFrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_long_a_2",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hallway_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idLongHallwayFrontOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        },
+        "idLongHallwayFrontOpeningDoorKeyhole": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_keyhole_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_to_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "possessive",
+                    "possessor_SEMENT": {
+                        "comp_fxn": "generic_prenominal_descriptor",
+                        "descriptor_SEMENT": {
+                            "comp_fxn": "adjective",
+                            "predicate": "_long_a_2",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "described_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_hallway_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "possessed_SEMENT": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_opening_n_1",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_front_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    }
+                }
+            }
+        },
+        "idLongHallwayFrontOpeningDoorLock": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_lock_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_to_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "possessive",
+                    "possessor_SEMENT": {
+                        "comp_fxn": "generic_prenominal_descriptor",
+                        "descriptor_SEMENT": {
+                            "comp_fxn": "adjective",
+                            "predicate": "_long_a_2",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "described_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_hallway_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "possessed_SEMENT": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_opening_n_1",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_front_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    }
+                }
+            }
+        },
+        "idLongHallwayLeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_long_a_2",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hallway_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idLongHallwayLeftOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_left_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idMachine": {
+            "comp_fxn": "noun",
+            "predicate": "_machine_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idMachine1_prop_idPowerControl": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_machine_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_control_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "manual_synopsis",
+                    "predicate": "_power_n_1",
+                    "intrinsic_variable_properties": {},
+                    "synopsis_dict": {
+                        "roles": [
+                            {
+                                "name": "ARG0",
+                                "value": "x"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "idMachineRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_machine_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idMachineRoomFrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_machine_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idOffice": {
+            "comp_fxn": "noun",
+            "predicate": "_office_n_of",
+            "intrinsic_variable_properties": {}
+        },
+        "idOffice1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_office_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idPipe": {
+            "comp_fxn": "noun",
+            "predicate": "_pipe_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idPipeSideOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pipe_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idPipeTopOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pipe_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_top_a_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "idShutoff": {
+            "comp_fxn": ""
+        },
+        "idShutoffValveLight": {
+            "comp_fxn": ""
+        },
+        "idSideFlap": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flap_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_side_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idSideFlapHandle": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_flap_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_handle_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idWolf": {
+            "comp_fxn": "noun",
+            "predicate": "_wolf_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "idWorld": {
+            "comp_fxn": "noun",
+            "predicate": "_world_n_of",
+            "intrinsic_variable_properties": {}
+        },
+        "idaluminum": {
+            "comp_fxn": "noun",
+            "predicate": "_aluminum_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "left": {
+            "comp_fxn": "noun",
+            "predicate": "_left_n_of",
+            "intrinsic_variable_properties": {}
+        },
+        "light1": {
+            "comp_fxn": "noun",
+            "predicate": "_light_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "locked": {
+            "comp_fxn": "verb",
+            "predicate": "_lock_v_cause",
+            "intrinsic_variable_properties": {}
+        },
+        "off": {
+            "comp_fxn": "adjective",
+            "predicate": "_off_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "old": {
+            "comp_fxn": "adjective",
+            "predicate": "_old_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "open": {
+            "comp_fxn": "adjective",
+            "predicate": "_open_a_to",
+            "intrinsic_variable_properties": {}
+        },
+        "paint8": {
+            "comp_fxn": "noun",
+            "predicate": "_paint_n_1",
+            "intrinsic_variable_properties": {}
+        },
+        "red": {
+            "comp_fxn": "adjective",
+            "predicate": "_red_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "right": {
+            "comp_fxn": "noun",
+            "predicate": "_right_n_of",
+            "intrinsic_variable_properties": {}
+        },
+        "rusty": {
+            "comp_fxn": "adjective",
+            "predicate": "_rusty_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "small": {
+            "comp_fxn": "adjective",
+            "predicate": "_small_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "tiny": {
+            "comp_fxn": "adjective",
+            "predicate": "_tiny_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "true": {
+            "comp_fxn": "boolean_value",
+            "value": true
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        },
+        "unlit": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_light_v_cause",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "white": {
+            "comp_fxn": "adjective",
+            "predicate": "_white_a_1",
+            "intrinsic_variable_properties": {}
+        },
+        "yes": {
+            "comp_fxn": "boolean_value",
+            "value": true
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idCardinality": {
+            "comp_fxn": ""
+        },
+        "idColor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
+        },
+        "idCurrentLevel": {
+            "comp_fxn": ""
+        },
+        "idImmovable": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_movable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_immovable_a_1",
+                "intrinsic_variable_properties": {}
+            }
+        },
+        "idInScopeOf": {
+            "comp_fxn": ""
+        },
+        "idLitState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
+        },
+        "idLockMechanism": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "idLockedState": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent"
+        },
+        "idMaterial": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": "parent",
+            "non_head_noun_SEMENT": "child"
+        },
+        "idOpenState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
+        },
+        "idOrdinality": {
+            "comp_fxn": "ordinal_modifier",
+            "number_SEMENT": "child",
+            "modified_SEMENT": "parent"
+        },
+        "idPowerControl": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "idPowerState": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "true_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_turn_v_on",
+                "intrinsic_variable_properties": {
+                    "TENSE": "pres"
+                }
+            },
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_turn_v_off",
+                "intrinsic_variable_properties": {
+                    "TENSE": "pres"
+                }
+            }
+        },
+        "idSide": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "idSize": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
+        },
+        "idTexture": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
+        },
+        "idUnknownObject": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_know_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "un_prefix",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_know_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        },
+        "inBackOf": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_in+back+of_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "inFrontOf": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_in+front+of_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isBeneath": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_beneath_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isEastOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_east_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isInsideOf": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_inside+of_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isNear": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_near_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isNorthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isSouthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "isWestOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_west_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child"
+        },
+        "oldAdjectiveType": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

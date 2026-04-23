@@ -1,0 +1,42 @@
+{
+    "node_keys": {
+        "idButton": {
+            "comp_fxn": ""
+        },
+        "idMachine": {
+            "comp_fxn": ""
+        },
+        "idMachine1_prop_idPowerControl": {
+            "comp_fxn": ""
+        },
+        "idMachineRoomFrontOpening": {
+            "comp_fxn": ""
+        },
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idShutoff": {
+            "comp_fxn": ""
+        },
+        "idShutoffValveLight": {
+            "comp_fxn": ""
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idCurrentLevel": {
+            "comp_fxn": ""
+        },
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        }
+    }
+}

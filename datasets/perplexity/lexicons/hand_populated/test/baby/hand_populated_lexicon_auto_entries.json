@@ -1,0 +1,22 @@
+{
+    "node_keys": {
+        "idStartButton": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_button_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_start_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_noun_noun"
+            }
+        }
+    },
+    "edge_keys": {}
+}

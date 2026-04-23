@@ -1,0 +1,27 @@
+{
+    "node_keys": {
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idPlage": {
+            "comp_fxn": ""
+        },
+        "idPlageBackOpening": {
+            "comp_fxn": ""
+        },
+        "idPlageFrontOpening": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idCardinality": {
+            "comp_fxn": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

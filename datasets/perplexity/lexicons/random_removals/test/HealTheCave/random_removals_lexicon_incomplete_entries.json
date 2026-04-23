@@ -1,0 +1,36 @@
+{
+    "node_keys": {
+        "blue": {
+            "comp_fxn": ""
+        },
+        "idGem": {
+            "comp_fxn": ""
+        },
+        "idPlayer": {
+            "comp_fxn": ""
+        },
+        "idPlayerBackside": {
+            "comp_fxn": ""
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": ""
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": ""
+        },
+        "ominous": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "idWebTouched": {
+            "comp_fxn": ""
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        }
+    }
+}

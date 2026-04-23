@@ -1,0 +1,1646 @@
+{
+    "node_keys": {
+        "1": {
+            "comp_fxn": "number",
+            "digit": "1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "2": {
+            "comp_fxn": "number",
+            "digit": "2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "3": {
+            "comp_fxn": "number",
+            "digit": "3",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "4": {
+            "comp_fxn": "number",
+            "digit": "4",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "black": {
+            "comp_fxn": "adjective",
+            "predicate": "_black_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "blue": {
+            "comp_fxn": "adjective",
+            "predicate": "_blue_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "brown": {
+            "comp_fxn": "adjective",
+            "predicate": "_brown_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "building1": {
+            "comp_fxn": "noun",
+            "predicate": "_building_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "closed": {
+            "comp_fxn": "adjective",
+            "predicate": "_closed_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "dust6": {
+            "comp_fxn": "noun",
+            "predicate": "_dust_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "green": {
+            "comp_fxn": "adjective",
+            "predicate": "_green_a_2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "grey": {
+            "comp_fxn": "adjective",
+            "predicate": "_grey_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idAdam": {
+            "comp_fxn": "proper_noun",
+            "name": "Adam",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idAdamLeftHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Adam",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idAdamRightHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Adam",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idAtomicCityOutside": {
+            "comp_fxn": "object_of_noun",
+            "object_noun_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_atomic_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_city_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_outside_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idAtomicCityOutside1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "object_of_noun",
+                "object_noun_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_atomic_a_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_city_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_outside_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idBeefJerky": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_jerky_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_beef_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idButtonX": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idButtonY": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idButtonZ": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idCandyBar": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bar_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_candy_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idCardKey": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_card_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idComputerRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_computer_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idComputerRoom1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_computer_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idComputerRoom1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_computer_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idComputerRoom1FrontOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_computer_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idControlPanel": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_panel_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_control_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idDesk": {
+            "comp_fxn": "noun",
+            "predicate": "_desk_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idDrawer": {
+            "comp_fxn": "noun",
+            "predicate": "_drawer_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idElevator": {
+            "comp_fxn": "noun",
+            "predicate": "_elevator_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idElevator1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idElevatorDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idElevatorOpening": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_opening_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idElevatorSlot": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_slot_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_elevator_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idElevatorSlotFacePlate": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_slot_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_elevator_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_plate_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_face_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idFuse": {
+            "comp_fxn": "noun",
+            "predicate": "_fuse_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idFuse30A": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "30A",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idFuseBox": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_box_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idFusePackage": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_package_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idFuseSocket": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_socket_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idIdaho": {
+            "comp_fxn": "proper_noun",
+            "name": "Idaho",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idKeyBlue": {
+            "comp_fxn": "noun",
+            "predicate": "_key_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallway": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_long_a_2",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_hallway_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayBackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_long_a_2",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hallway_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayBackOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_back_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayFrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_long_a_2",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hallway_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayFrontOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayFrontOpeningDoorKeyhole": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_keyhole_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_to_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "possessive",
+                    "possessor_SEMENT": {
+                        "comp_fxn": "generic_prenominal_descriptor",
+                        "descriptor_SEMENT": {
+                            "comp_fxn": "adjective",
+                            "predicate": "_long_a_2"
+                        },
+                        "described_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_hallway_n_1"
+                        }
+                    },
+                    "possessed_SEMENT": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_opening_n_1"
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_front_n_1"
+                        }
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayFrontOpeningDoorLock": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_lock_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_to_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "possessive",
+                    "possessor_SEMENT": {
+                        "comp_fxn": "generic_prenominal_descriptor",
+                        "descriptor_SEMENT": {
+                            "comp_fxn": "adjective",
+                            "predicate": "_long_a_2"
+                        },
+                        "described_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_hallway_n_1"
+                        }
+                    },
+                    "possessed_SEMENT": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_opening_n_1"
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_front_n_1"
+                        }
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayLeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_long_a_2",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hallway_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLongHallwayLeftOpeningDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_left_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idMachine": {
+            "comp_fxn": "noun",
+            "predicate": "_machine_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idMachine1_prop_idPowerControl": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_machine_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_control_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "manual_synopsis",
+                    "predicate": "_power_n_1",
+                    "intrinsic_variable_properties": {},
+                    "synopsis_dict": {
+                        "roles": [
+                            {
+                                "name": "ARG0",
+                                "value": "x"
+                            }
+                        ]
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idMachineRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_machine_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idMachineRoomFrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_machine_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idOffice": {
+            "comp_fxn": "noun",
+            "predicate": "_office_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idOffice1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_office_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idPipe": {
+            "comp_fxn": "noun",
+            "predicate": "_pipe_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idPipeSideOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pipe_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idPipeTopOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pipe_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_top_a_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idSideFlap": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flap_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_side_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idSideFlapHandle": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_flap_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_handle_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idWolf": {
+            "comp_fxn": "noun",
+            "predicate": "_wolf_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idWorld": {
+            "comp_fxn": "noun",
+            "predicate": "_world_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idaluminum": {
+            "comp_fxn": "noun",
+            "predicate": "_aluminum_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "left": {
+            "comp_fxn": "noun",
+            "predicate": "_left_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "light1": {
+            "comp_fxn": "noun",
+            "predicate": "_light_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "locked": {
+            "comp_fxn": "verb",
+            "predicate": "_lock_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "off": {
+            "comp_fxn": "adjective",
+            "predicate": "_off_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "old": {
+            "comp_fxn": "adjective",
+            "predicate": "_old_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "open": {
+            "comp_fxn": "adjective",
+            "predicate": "_open_a_to",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "paint8": {
+            "comp_fxn": "noun",
+            "predicate": "_paint_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "red": {
+            "comp_fxn": "adjective",
+            "predicate": "_red_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "right": {
+            "comp_fxn": "noun",
+            "predicate": "_right_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "rusty": {
+            "comp_fxn": "adjective",
+            "predicate": "_rusty_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "small": {
+            "comp_fxn": "adjective",
+            "predicate": "_small_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "tiny": {
+            "comp_fxn": "adjective",
+            "predicate": "_tiny_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "true": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "unlit": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_light_v_cause",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "white": {
+            "comp_fxn": "adjective",
+            "predicate": "_white_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "yes": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        }
+    },
+    "edge_keys": {
+        "idColor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idImmovable": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_movable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_immovable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLitState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLockMechanism": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idLockedState": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idMaterial": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": "parent",
+            "non_head_noun_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idOpenState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idOrdinality": {
+            "comp_fxn": "ordinal_modifier",
+            "number_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idPowerControl": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idPowerState": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "true_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_turn_v_on",
+                "intrinsic_variable_properties": {
+                    "TENSE": "pres"
+                }
+            },
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_turn_v_off",
+                "intrinsic_variable_properties": {
+                    "TENSE": "pres"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idSide": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idSize": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idTexture": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "idUnknownObject": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_know_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "un_prefix",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_know_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "isEastOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_east_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "isNear": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_near_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "isNorthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "isSouthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "isWestOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_west_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        },
+        "oldAdjectiveType": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/AtomicCity"
+            }
+        }
+    }
+}

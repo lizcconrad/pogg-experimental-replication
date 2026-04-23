@@ -1,0 +1,1974 @@
+{
+    "node_keys": {
+        "0": {
+            "comp_fxn": "number",
+            "digit": "0",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "1": {
+            "comp_fxn": "number",
+            "digit": "1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "2": {
+            "comp_fxn": "number",
+            "digit": "2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "blue": {
+            "comp_fxn": "adjective",
+            "predicate": "_blue_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "closed": {
+            "comp_fxn": "adjective",
+            "predicate": "_closed_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "dusty": {
+            "comp_fxn": "adjective",
+            "predicate": "_dusty_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "green": {
+            "comp_fxn": "adjective",
+            "predicate": "_green_a_2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBaby": {
+            "comp_fxn": "noun",
+            "predicate": "_baby_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBaby1LeftHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_baby_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBaby1RightHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_baby_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBabyCarSeat": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_baby_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_seat_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_car_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBackyard": {
+            "comp_fxn": "noun",
+            "predicate": "_backyard_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBackyardDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_backyard_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBackyardDoor1Key": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_backyard_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBackyardDoor1Lock": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_lock_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_backyard_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBackyardDoor1idBackyard1idSouthOfOpening": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_opening_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_backyard_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBackyardDoor1idLivingRoom1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_living_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBed": {
+            "comp_fxn": "noun",
+            "predicate": "_bed_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBedroom": {
+            "comp_fxn": "noun",
+            "predicate": "_bedroom_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBedroom1LeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBedroom1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idBedroomToClosetDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_bedroom_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_closet_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idButton": {
+            "comp_fxn": "noun",
+            "predicate": "_button_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCar": {
+            "comp_fxn": "noun",
+            "predicate": "_car_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCar1_prop_idPowerControl": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_car_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_control_n_of"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "manual_synopsis",
+                    "predicate": "_power_n_1",
+                    "synopsis_dict": {
+                        "roles": [
+                            {
+                                "name": "ARG0",
+                                "value": "x"
+                            }
+                        ]
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCardKey": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_card_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCardReader": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_reader_n_of"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_card_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCardReaderWorkshop": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_workshop_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_reader_n_of"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_card_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCloset": {
+            "comp_fxn": "noun",
+            "predicate": "_closet_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCloset1LeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_closet_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCloset1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_closet_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idClosetToWorkshopDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_closet_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_workshop_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCouch": {
+            "comp_fxn": "noun",
+            "predicate": "_couch_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idCrib": {
+            "comp_fxn": "noun",
+            "predicate": "_crib_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDaycare": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_care_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_day_n_of"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDiaperBag": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bag_n_of"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_diaper_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDock": {
+            "comp_fxn": "noun",
+            "predicate": "_dock_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDogDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_dog_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDriver": {
+            "comp_fxn": "noun",
+            "predicate": "_driver_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDriverSeat": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_seat_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_driver_n_of"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDriversSideFrontDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1"
+                }
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_driver_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDriversSideFrontDoorInsideOpening": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_inside_a_1"
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1"
+                    }
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_side_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_driver_n_of"
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDriversSideFrontDoorOutsideOpening": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_outside_a_1"
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_side_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_driver_n_of"
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1"
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idDriveway": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "manual_synopsis",
+                "predicate": "_way_n_of",
+                "synopsis_dict": {
+                    "roles": [
+                        {
+                            "name": "ARG0",
+                            "value": "x"
+                        },
+                        {
+                            "name": "ARG1",
+                            "value": "i"
+                        }
+                    ]
+                }
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "manual_synopsis",
+                "predicate": "_drive_n_1",
+                "synopsis_dict": {
+                    "roles": [
+                        {
+                            "name": "ARG0",
+                            "value": "x"
+                        }
+                    ]
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idEndRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "manual_synopsis",
+                "predicate": "_end_n_of",
+                "synopsis_dict": {
+                    "roles": [
+                        {
+                            "name": "ARG0",
+                            "value": "x"
+                        }
+                    ]
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idFrontDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_front_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idFrontDoor1Lock": {
+            "comp_fxn": "noun",
+            "predicate": "_lock_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idFrontDoor1idLivingRoom1BackOpening": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1"
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1"
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idFrontDoor1idPorch1idNorthOfOpening": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_opening_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_porch_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idHouse": {
+            "comp_fxn": "noun",
+            "predicate": "_house_n_of",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idKitchen": {
+            "comp_fxn": "noun",
+            "predicate": "_kitchen_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idKitchen1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_kitchen_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLab": {
+            "comp_fxn": "noun",
+            "predicate": "_lab_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLivingRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_living_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLivingRoom1LeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_living_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLivingRoom1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_living_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLivingRoomToBedroomDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1"
+                    }
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLivingRoomToKitchenDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1"
+                    }
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_kitchen_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLocalFront": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_local_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_front_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLocalLeft": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_local_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_left_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLot": {
+            "comp_fxn": "noun",
+            "predicate": "_lot_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idMom": {
+            "comp_fxn": "proper_noun",
+            "name": "mom",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idMomNote": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "mom"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "manual_synopsis",
+                "predicate": "_note_n_1",
+                "synopsis_dict": {
+                    "roles": [
+                        {
+                            "name": "ARG0",
+                            "value": "x"
+                        }
+                    ]
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idMonitor": {
+            "comp_fxn": "noun",
+            "predicate": "_monitor_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPassenger": {
+            "comp_fxn": "noun",
+            "predicate": "_passenger_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPassengerSeat": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_seat_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_passenger_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPassengersSideFrontDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_passenger_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPassengersSideFrontDoorInsideOpening": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_inside_a_1"
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_side_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_passenger_n_1"
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1"
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPassengersSideFrontDoorOutsideOpening": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_outside_a_1"
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_side_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_passenger_n_1"
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1"
+                    }
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPlayer": {
+            "comp_fxn": "noun",
+            "predicate": "_player_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPlayerBackside": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_backside_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPorch": {
+            "comp_fxn": "noun",
+            "predicate": "_porch_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idScreen": {
+            "comp_fxn": "noun",
+            "predicate": "_screen_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idScreen1Text": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_text_n_of"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_screen_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idScrewdriver": {
+            "comp_fxn": "noun",
+            "predicate": "_screwdriver_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idSidewalk": {
+            "comp_fxn": "noun",
+            "predicate": "_sidewalk_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idSign": {
+            "comp_fxn": "noun",
+            "predicate": "_sign_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idSign1Text": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_text_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_sign_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idStartButton": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_button_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_start_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_noun_noun",
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idTable": {
+            "comp_fxn": "noun",
+            "predicate": "_table_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idTent": {
+            "comp_fxn": "noun",
+            "predicate": "_tent_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idTent1Door": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_tent_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idTent1DoorInsideOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_tent_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_inside_a_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idTent1DoorOutsideOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_tent_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_outside_a_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idThief": {
+            "comp_fxn": "noun",
+            "predicate": "_thief_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idWorker": {
+            "comp_fxn": "noun",
+            "predicate": "_worker_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idWorker1LeftHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_worker_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idWorker1RightHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_worker_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idWorkshop": {
+            "comp_fxn": "noun",
+            "predicate": "_workshop_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idWorkshop1LeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_workshop_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idWorld": {
+            "comp_fxn": "noun",
+            "predicate": "_world_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idmetal": {
+            "comp_fxn": "noun",
+            "predicate": "_metal_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "left": {
+            "comp_fxn": "noun",
+            "predicate": "_left_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "locked": {
+            "comp_fxn": "verb",
+            "predicate": "_lock_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "modern": {
+            "comp_fxn": "adjective",
+            "predicate": "_modern_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "off": {
+            "comp_fxn": "adjective",
+            "predicate": "_off_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "open": {
+            "comp_fxn": "adjective",
+            "predicate": "_open_a_to",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "right": {
+            "comp_fxn": "noun",
+            "predicate": "_right_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "small": {
+            "comp_fxn": "adjective",
+            "predicate": "_small_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "true": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "unusual": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "manual_synopsis",
+                "predicate": "_usual_a_for",
+                "synopsis_dict": {
+                    "roles": [
+                        {
+                            "name": "ARG0",
+                            "value": "i"
+                        },
+                        {
+                            "name": "ARG1",
+                            "value": "u"
+                        }
+                    ]
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "yes": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        }
+    },
+    "edge_keys": {
+        "idColor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idImmovable": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_movable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_immovable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLocation": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLocation_": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLockMechanism": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idLockedState": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idMaterial": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "described_SEMENT": "parent",
+            "descriptor_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idOpenState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idOrdinality": {
+            "comp_fxn": "ordinal_modifier",
+            "number_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idOwnedBy": {
+            "comp_fxn": "ARG2_relative_clause",
+            "ARG1_SEMENT": "child",
+            "ARG2_SEMENT": "parent",
+            "verb_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_own_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPowerControl": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idPowerState": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "true_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_turn_v_on",
+                "intrinsic_variable_properties": {
+                    "TENSE": "pres"
+                }
+            },
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_turn_v_off",
+                "intrinsic_variable_properties": {
+                    "TENSE": "pres"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idShape": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idSide": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idSize": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "idUnknownObject": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_know_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "un_prefix",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_know_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "isEastOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_east_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "isNear": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_near_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "isNorthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "isSouthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        },
+        "isWestOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_west_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/baby"
+            }
+        }
+    }
+}

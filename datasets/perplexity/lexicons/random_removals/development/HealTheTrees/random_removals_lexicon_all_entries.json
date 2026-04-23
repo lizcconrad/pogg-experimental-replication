@@ -1,0 +1,460 @@
+{
+    "node_keys": {
+        "bright": {
+            "comp_fxn": "adjective",
+            "predicate": "_bright_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "broken": {
+            "comp_fxn": ""
+        },
+        "brown": {
+            "comp_fxn": "adjective",
+            "predicate": "_brown_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "bumpy": {
+            "comp_fxn": "adjective",
+            "predicate": "_bumpy_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "dark": {
+            "comp_fxn": "adjective",
+            "predicate": "_dark_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "false": {
+            "comp_fxn": "boolean_value",
+            "value": false,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "glowing": {
+            "comp_fxn": "verb",
+            "predicate": "_glow_v_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "grassy": {
+            "comp_fxn": "adjective",
+            "predicate": "_grassy_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "green": {
+            "comp_fxn": "adjective",
+            "predicate": "_green_a_2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "grey": {
+            "comp_fxn": "adjective",
+            "predicate": "_grey_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idBottle": {
+            "comp_fxn": "noun",
+            "predicate": "_bottle_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idBranch": {
+            "comp_fxn": "noun",
+            "predicate": "_branch_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idCave": {
+            "comp_fxn": "noun",
+            "predicate": "_cave_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idClearing": {
+            "comp_fxn": "noun",
+            "predicate": "_clearing_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idGlowingArea": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_area_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idGlowingFlower": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flower_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idGlowingGrass": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_grass_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idGrass": {
+            "comp_fxn": "noun",
+            "predicate": "_grass_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idLocalLeft": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_local_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_left_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idPebble": {
+            "comp_fxn": "noun",
+            "predicate": "_pebble_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idPlayer": {
+            "comp_fxn": ""
+        },
+        "idPlayerBackside": {
+            "comp_fxn": ""
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": ""
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": ""
+        },
+        "idRockPile": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pile_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_rock_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idRockyArea": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_rocky_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_area_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idTheTrees": {
+            "comp_fxn": "proper_noun",
+            "name": "Tree",
+            "intrinsic_variable_properties": {
+                "NUM": "pl"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "right": {
+            "comp_fxn": "noun",
+            "predicate": "_right_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "rocky": {
+            "comp_fxn": "adjective",
+            "predicate": "_rocky_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "sharp": {
+            "comp_fxn": "adjective",
+            "predicate": "_sharp_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "shiny": {
+            "comp_fxn": "adjective",
+            "predicate": "_shiny_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "smooth": {
+            "comp_fxn": "adjective",
+            "predicate": "_smooth_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "tall": {
+            "comp_fxn": "adjective",
+            "predicate": "_tall_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "true": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        },
+        "yes": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idBottleFound": {
+            "comp_fxn": ""
+        },
+        "idColor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idDescriptor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idDescriptor_": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idHeight": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "idIntegrity": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idLocation": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idTint": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "idUnknownObject": {
+            "comp_fxn": ""
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        },
+        "isNear": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_near_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "isNorthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "isSouthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        },
+        "isWestOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_west_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development/HealTheTrees"
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "node_keys": {
+        "angry": {
+            "comp_fxn": ""
+        },
+        "broken": {
+            "comp_fxn": ""
+        },
+        "idFace": {
+            "comp_fxn": ""
+        },
+        "idPlayer": {
+            "comp_fxn": "",
+            "predicate": ""
+        },
+        "idPlayerBackside": {
+            "comp_fxn": "",
+            "predicate": ""
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": "",
+            "predicate": ""
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": "",
+            "predicate": ""
+        },
+        "idTaillight": {
+            "comp_fxn": "",
+            "predicate": ""
+        },
+        "stumpy": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "idOwnedBy": {
+            "comp_fxn": ""
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        }
+    }
+}

@@ -1,0 +1,995 @@
+{
+    "node_keys": {
+        "bare": {
+            "comp_fxn": "adjective",
+            "predicate": "_bare_a_of",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "black": {
+            "comp_fxn": "adjective",
+            "predicate": "_black_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "blue": {
+            "comp_fxn": "adjective",
+            "predicate": "_blue_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "brown": {
+            "comp_fxn": "adjective",
+            "predicate": "_brown_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "closed": {
+            "comp_fxn": "adjective",
+            "predicate": "_closed_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "dirty": {
+            "comp_fxn": "adjective",
+            "predicate": "_dirty_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "false": {
+            "comp_fxn": "boolean_value",
+            "value": false,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "green": {
+            "comp_fxn": "adjective",
+            "predicate": "_green_a_2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBathroom": {
+            "comp_fxn": "noun",
+            "predicate": "_bathroom_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBathroom1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bathroom_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBed": {
+            "comp_fxn": "noun",
+            "predicate": "_bed_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBedroom": {
+            "comp_fxn": "noun",
+            "predicate": "_bedroom_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBedroom1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBedroom1RightOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1"
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBedroomToBathroomDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_bedroom_n_1"
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bathroom_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idBerry": {
+            "comp_fxn": "noun",
+            "predicate": "_berry_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idCabinet": {
+            "comp_fxn": "noun",
+            "predicate": "_cabinet_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idCalendar": {
+            "comp_fxn": "noun",
+            "predicate": "_calendar_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idCarKey": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_car_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idChair": {
+            "comp_fxn": "noun",
+            "predicate": "_chair_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idCouch": {
+            "comp_fxn": "noun",
+            "predicate": "_couch_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idDeer": {
+            "comp_fxn": "noun",
+            "predicate": "_deer_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idDesk": {
+            "comp_fxn": "noun",
+            "predicate": "_desk_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idDrawer": {
+            "comp_fxn": "noun",
+            "predicate": "_drawer_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idDresser": {
+            "comp_fxn": "noun",
+            "predicate": "_dresser_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idKey": {
+            "comp_fxn": "noun",
+            "predicate": "_key_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idKitchCabDrawer": {
+            "comp_fxn": ""
+        },
+        "idKitchen": {
+            "comp_fxn": "noun",
+            "predicate": "_kitchen_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idKitchen1FrontOpening": {
+            "comp_fxn": ""
+        },
+        "idLivingRoomToBedroomDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1"
+                    }
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLivingRoomToKitchenDoor": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1"
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit"
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1"
+                    }
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_kitchen_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLivingroom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_living_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLivingroom1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_living_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLivingroom1LeftOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_living_n_1"
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLocalLeft": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_local_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_left_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLock": {
+            "comp_fxn": "noun",
+            "predicate": "_lock_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idMedDrawer": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_drawer_n_of"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_medicine_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idMedicineCabinet": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_cabinet_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_medicine_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idMike": {
+            "comp_fxn": "proper_noun",
+            "name": "Mike",
+            "intrinsic_variable_properties": {
+                "NUM": "sg"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idPainting": {
+            "comp_fxn": "noun",
+            "predicate": "_painting_n_of",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idPillBottle": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bottle_n_of"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pill_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idPillow": {
+            "comp_fxn": "noun",
+            "predicate": "_pillow_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idPlayer": {
+            "comp_fxn": ""
+        },
+        "idPlayerBackside": {
+            "comp_fxn": ""
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": ""
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": ""
+        },
+        "idRug": {
+            "comp_fxn": "noun",
+            "predicate": "_rug_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idRugStain": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_stain_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_rug_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idSink": {
+            "comp_fxn": "noun",
+            "predicate": "_sink_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idSinkStain": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_stain_n_1"
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_sink_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idSock": {
+            "comp_fxn": "noun",
+            "predicate": "_sock_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idTable": {
+            "comp_fxn": "noun",
+            "predicate": "_table_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idTheFlashback": {
+            "comp_fxn": "proper_noun",
+            "name": "Flashback",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idToilet": {
+            "comp_fxn": "noun",
+            "predicate": "_toilet_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idTree": {
+            "comp_fxn": "noun",
+            "predicate": "_tree_n_of",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idWater": {
+            "comp_fxn": "noun",
+            "predicate": "_water_n_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idporcelain": {
+            "comp_fxn": ""
+        },
+        "idqueen": {
+            "comp_fxn": "noun",
+            "predicate": "_queen_n_of",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idwood": {
+            "comp_fxn": "adjective",
+            "predicate": "_wooden_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "locked": {
+            "comp_fxn": "verb",
+            "predicate": "_lock_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "messy": {
+            "comp_fxn": "adjective",
+            "predicate": "_messy_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "no": {
+            "comp_fxn": "boolean_value",
+            "value": false,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "old": {
+            "comp_fxn": "adjective",
+            "predicate": "_old_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "open": {
+            "comp_fxn": "adjective",
+            "predicate": "_open_a_to",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "red": {
+            "comp_fxn": "adjective",
+            "predicate": "_red_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "regular": {
+            "comp_fxn": "adjective",
+            "predicate": "_regular_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "right": {
+            "comp_fxn": "noun",
+            "predicate": "_right_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "scratched": {
+            "comp_fxn": "verb",
+            "predicate": "_scratch_v_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "small": {
+            "comp_fxn": "adjective",
+            "predicate": "_small_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "stained": {
+            "comp_fxn": "verb",
+            "predicate": "_stain_v_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "thin": {
+            "comp_fxn": "adjective",
+            "predicate": "_thin_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "true": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        },
+        "used": {
+            "comp_fxn": "adjective",
+            "predicate": "_used_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "white": {
+            "comp_fxn": "adjective",
+            "predicate": "_white_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "wobbly": {
+            "comp_fxn": "adjective",
+            "predicate": "_wobbly_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "wooden": {
+            "comp_fxn": "adjective",
+            "predicate": "_wooden_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "yellow": {
+            "comp_fxn": "adjective",
+            "predicate": "_yellow_a_1",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "yes": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idColor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idDescriptor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idDescriptor_": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idImmovable": {
+            "comp_fxn": ""
+        },
+        "idLocation": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idLockedState": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idMaterial": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idMaterial_": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idOpenState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idSize": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "idUnknownObject": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_know_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "un_prefix",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_know_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "isBeneath": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_beneath_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "isEastOf": {
+            "comp_fxn": ""
+        },
+        "isInsideOf": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_inside+of_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "isNear": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_near_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "isNorthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "isSouthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        },
+        "isWestOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_west_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/test/HealTheFlashback"
+            }
+        }
+    }
+}

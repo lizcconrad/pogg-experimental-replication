@@ -1,0 +1,1397 @@
+{
+    "node_keys": {
+        "angry": {
+            "comp_fxn": "adjective",
+            "predicate": "_angry_a_at",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "black": {
+            "comp_fxn": "adjective",
+            "predicate": "_black_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "blue": {
+            "comp_fxn": "adjective",
+            "predicate": "_blue_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "bright": {
+            "comp_fxn": "adjective",
+            "predicate": "_bright_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "broken": {
+            "comp_fxn": "verb",
+            "predicate": "_break_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "brown": {
+            "comp_fxn": "adjective",
+            "predicate": "_brown_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "bumpy": {
+            "comp_fxn": "adjective",
+            "predicate": "_bumpy_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "bushy": {
+            "comp_fxn": "adjective",
+            "predicate": "_bushy_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "closed": {
+            "comp_fxn": "adjective",
+            "predicate": "_closed_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "cool": {
+            "comp_fxn": "manual_synopsis",
+            "predicate": "_cool_a_1",
+            "synopsis_dict": {
+                "roles": [
+                    {
+                        "name": "ARG0",
+                        "value": "e"
+                    },
+                    {
+                        "name": "ARG1",
+                        "value": "i"
+                    }
+                ]
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "cracked": {
+            "comp_fxn": "verb",
+            "predicate": "_crack_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "dark": {
+            "comp_fxn": "adjective",
+            "predicate": "_dark_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "false": {
+            "comp_fxn": "boolean_value",
+            "value": false,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "glowing": {
+            "comp_fxn": "verb",
+            "predicate": "_glow_v_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "grassy": {
+            "comp_fxn": "adjective",
+            "predicate": "_grassy_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "green": {
+            "comp_fxn": "adjective",
+            "predicate": "_green_a_2",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "grey": {
+            "comp_fxn": "adjective",
+            "predicate": "_grey_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "hollow": {
+            "comp_fxn": "adjective",
+            "predicate": "_hollow_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idArea": {
+            "comp_fxn": "noun",
+            "predicate": "_area_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idBear": {
+            "comp_fxn": "noun",
+            "predicate": "_bear_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idBottle": {
+            "comp_fxn": "noun",
+            "predicate": "_bottle_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idBranch": {
+            "comp_fxn": "noun",
+            "predicate": "_branch_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idBumper": {
+            "comp_fxn": "noun",
+            "predicate": "_bumper_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idBush": {
+            "comp_fxn": "noun",
+            "predicate": "_bush_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idCar": {
+            "comp_fxn": "noun",
+            "predicate": "_car_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idCarDoor": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_car_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idCarKey": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_car_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idCave": {
+            "comp_fxn": "noun",
+            "predicate": "_cave_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idClearing": {
+            "comp_fxn": "noun",
+            "predicate": "_clearing_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idCrowbar": {
+            "comp_fxn": "noun",
+            "predicate": "_crowbar_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idDen": {
+            "comp_fxn": "noun",
+            "predicate": "_den_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idDesk": {
+            "comp_fxn": "noun",
+            "predicate": "_desk_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idDrawer": {
+            "comp_fxn": "noun",
+            "predicate": "_drawer_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idDriver": {
+            "comp_fxn": "noun",
+            "predicate": "_driver_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idGameRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_game_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idGameRoom1BackOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_game_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idGlowingArea": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_area_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idGlowingFlower": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flower_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idGlowingGrass": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_grass_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idGrass": {
+            "comp_fxn": "noun",
+            "predicate": "_grass_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idHorse": {
+            "comp_fxn": "noun",
+            "predicate": "_horse_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idKeyBlue": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_blue_a_1"
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLocalLeft": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_local_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_left_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLock": {
+            "comp_fxn": "noun",
+            "predicate": "_lock_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idMan": {
+            "comp_fxn": "noun",
+            "predicate": "_man_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idPassenger": {
+            "comp_fxn": "noun",
+            "predicate": "_passenger_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idPebble": {
+            "comp_fxn": "noun",
+            "predicate": "_pebble_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idPlayer": {
+            "comp_fxn": "noun",
+            "predicate": "_player_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idPlayerBackside": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_backside_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idPlayerLeftHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idPlayerRightHand": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_right_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idRockPile": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pile_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_rock_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idRockyArea": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_rocky_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_area_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idSideMirror": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_mirror_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_side_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idSign": {
+            "comp_fxn": "noun",
+            "predicate": "_sign_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idSign1Text": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_text_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_sign_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idSmoke": {
+            "comp_fxn": "noun",
+            "predicate": "_smoke_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idSpill": {
+            "comp_fxn": "noun",
+            "predicate": "_spill_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idStump": {
+            "comp_fxn": "noun",
+            "predicate": "_stump_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTaillight": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_light_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_tail_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTheCar": {
+            "comp_fxn": "proper_noun",
+            "name": "Car",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTheCarRoom": {
+            "comp_fxn": "proper_noun",
+            "name": "Car Room",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTheTrees": {
+            "comp_fxn": "proper_noun",
+            "name": "Tree",
+            "intrinsic_variable_properties": {
+                "NUM": "pl"
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTire": {
+            "comp_fxn": "noun",
+            "predicate": "_tire_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTrunk": {
+            "comp_fxn": "noun",
+            "predicate": "_trunk_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTutorialRoom": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_room_n_unit",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_tutorial_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTutorialRoom1Door": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1"
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit"
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_tutorial_n_1"
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTutorialRoom1DoorLock": {
+            "comp_fxn": "noun",
+            "predicate": "_lock_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTutorialRoom1FrontOpening": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_tutorial_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idWhistle": {
+            "comp_fxn": "noun",
+            "predicate": "_whistle_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idWindow": {
+            "comp_fxn": "noun",
+            "predicate": "_window_n_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idWorld": {
+            "comp_fxn": "noun",
+            "predicate": "_world_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "intact": {
+            "comp_fxn": "adjective",
+            "predicate": "_intact_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "large": {
+            "comp_fxn": "adjective",
+            "predicate": "_large_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "left": {
+            "comp_fxn": "noun",
+            "predicate": "_left_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "locked": {
+            "comp_fxn": "verb",
+            "predicate": "_lock_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "logged": {
+            "comp_fxn": "verb",
+            "predicate": "_log_v_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "old": {
+            "comp_fxn": "adjective",
+            "predicate": "_old_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "right": {
+            "comp_fxn": "noun",
+            "predicate": "_right_n_of",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "rocky": {
+            "comp_fxn": "adjective",
+            "predicate": "_rocky_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "sharp": {
+            "comp_fxn": "adjective",
+            "predicate": "_sharp_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "shiny": {
+            "comp_fxn": "adjective",
+            "predicate": "_shiny_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "silver": {
+            "comp_fxn": "adjective",
+            "predicate": "_silver_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "smoky": {
+            "comp_fxn": "adjective",
+            "predicate": "_smoky_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "smooth": {
+            "comp_fxn": "adjective",
+            "predicate": "_smooth_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "tall": {
+            "comp_fxn": "adjective",
+            "predicate": "_tall_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "tinted": {
+            "comp_fxn": "verb",
+            "predicate": "_tint_v_cause",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "true": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "unbroken": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_break_v_cause",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "unconscious": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_conscious_a_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "unlit": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_light_v_cause",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "untouched": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_touch_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "white": {
+            "comp_fxn": "adjective",
+            "predicate": "_white_a_1",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "yes": {
+            "comp_fxn": "boolean_value",
+            "value": true,
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        }
+    },
+    "edge_keys": {
+        "idBottleFound": {
+            "comp_fxn": "boolean_ARG1_relative_clause",
+            "boolean_node_SEMENT": "child",
+            "ARG1_SEMENT": "parent",
+            "ARG2_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bottle_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "manual_synopsis",
+                "predicate": "_find_v_1",
+                "intrinsic_variable_properties": {},
+                "synopsis_dict": {
+                    "roles": [
+                        {
+                            "name": "ARG0",
+                            "value": "e"
+                        },
+                        {
+                            "name": "ARG1",
+                            "value": "i"
+                        },
+                        {
+                            "name": "ARG2",
+                            "value": "i"
+                        }
+                    ]
+                }
+            },
+            "false_SEMENT": {
+                "comp_fxn": "negation",
+                "negated_SEMENT": {
+                    "comp_fxn": "manual_synopsis",
+                    "predicate": "_find_v_1",
+                    "synopsis_dict": {
+                        "roles": [
+                            {
+                                "name": "ARG0",
+                                "value": "e"
+                            },
+                            {
+                                "name": "ARG1",
+                                "value": "i"
+                            },
+                            {
+                                "name": "ARG2",
+                                "value": "i"
+                            }
+                        ]
+                    },
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idColor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idDescriptor": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idDescriptor_": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idEatenBerry": {
+            "comp_fxn": "boolean_ARG1_relative_clause",
+            "boolean_node_SEMENT": "child",
+            "ARG1_SEMENT": "parent",
+            "ARG2_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_berry_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_eat_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "false_SEMENT": {
+                "comp_fxn": "negation",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_eat_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idHeight": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idImmovable": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_movable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_immovable_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idIntegrity": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLitState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLocation": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLocation_": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLockMechanism": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_with_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idLockedState": {
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idOpenState": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idOwnedBy": {
+            "comp_fxn": "ARG2_relative_clause",
+            "ARG1_SEMENT": "child",
+            "ARG2_SEMENT": "parent",
+            "verb_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_own_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idSize": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idTint": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "idUnknownObject": {
+            "comp_fxn": "boolean_property",
+            "boolean_node_SEMENT": "child",
+            "modified_SEMENT": "parent",
+            "false_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_know_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "un_prefix",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_know_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "isEastOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_east_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "isNear": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_near_p",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "isNorthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_north_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "isSouthOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        },
+        "isWestOf": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_west_a_1",
+            "figure_SEMENT": "parent",
+            "ground_SEMENT": "child",
+            "auto": {
+                "auto_filled": true,
+                "inherited_from": "../datasets/perplexity/lexicons/no_auto/development"
+            }
+        }
+    }
+}

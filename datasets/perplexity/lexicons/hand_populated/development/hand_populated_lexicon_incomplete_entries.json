@@ -1,0 +1,33 @@
+{
+    "node_keys": {
+        "idFace": {
+            "comp_fxn": "noun",
+            "predicate": "",
+            "auto": {
+                "auto_filled": false
+            }
+        },
+        "stumpy": {
+            "comp_fxn": "adjective",
+            "predicate": "",
+            "intrinsic_variable_properties": {}
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idCarSide": {
+            "comp_fxn": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

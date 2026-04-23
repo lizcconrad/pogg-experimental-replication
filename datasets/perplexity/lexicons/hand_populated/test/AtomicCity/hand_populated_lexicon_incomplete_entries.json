@@ -1,0 +1,39 @@
+{
+    "node_keys": {
+        "idButton": {
+            "comp_fxn": ""
+        },
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idShutoff": {
+            "comp_fxn": ""
+        },
+        "idShutoffValveLight": {
+            "comp_fxn": ""
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idCardinality": {
+            "comp_fxn": ""
+        },
+        "idCurrentLevel": {
+            "comp_fxn": ""
+        },
+        "idInScopeOf": {
+            "comp_fxn": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}
