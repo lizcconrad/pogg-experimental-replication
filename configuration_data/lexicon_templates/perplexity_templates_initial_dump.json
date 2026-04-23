@@ -1,0 +1,1200 @@
+{
+    "TEMPLATE_bleeding": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "verb",
+            "predicate": "_bleed_v_1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_bloody": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "adjective",
+            "predicate": "_bloody_a_1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idArea": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "noun",
+            "predicate": "_area_n_of",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idLocalBack": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "generic_prenominal_descriptor",
+            "described_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_back_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "descriptor_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_local_a_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idPlayerBackside": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_backside_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idPlayerLeftHand": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_player_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hand_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_left_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idTheBushes": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "proper_noun",
+            "name": "Bush",
+            "intrinsic_variable_properties": {
+                "NUM": "pl"
+            }
+        }
+    },
+    "TEMPLATE_idTheCliff": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "proper_noun",
+            "name": "Cliff",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idGlowingArea": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "present_participle_modifier",
+            "participle_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_glow_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "modified_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_area_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idRockPile": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pile_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_rock_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idCarDoorLock": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_lock_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_car_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_unbroken": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_break_v_cause",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_unconscious": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "un_prefix",
+            "negated_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_conscious_a_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_1": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "number",
+            "digit": "1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idBook1Page3Torn": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "ARG2_relative_clause",
+            "verb_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_tear_v_cause",
+                "intrinsic_variable_properties": {}
+            },
+            "ARG2_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_page_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_book_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ARG1_SEMENT": null
+        }
+    },
+    "TEMPLATE_idBook1Page3TornText": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_text_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "ARG2_relative_clause",
+                "verb_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_tear_v_cause",
+                    "intrinsic_variable_properties": {}
+                },
+                "ARG2_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_page_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_book_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "ARG1_SEMENT": null
+            }
+        }
+    },
+    "TEMPLATE_idDarkCaveFrontOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_dark_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cave_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idEntrancecaveBackOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cave_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_entrance_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idGreenRoomBackOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Green Room",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idGreenRoomBackOpeningDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "proper_noun",
+                    "name": "Green Room",
+                    "intrinsic_variable_properties": {}
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_back_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idGreenRoomBackOpeningDoorKeyhole": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_keyhole_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_to_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "possessive",
+                    "possessor_SEMENT": {
+                        "comp_fxn": "proper_noun",
+                        "name": "Green Room",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "possessed_SEMENT": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_opening_n_1",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_back_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idBackyardDoor1Key": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_key_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_backyard_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idBackyardDoor1idBackyard1idSouthOfOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "relative_direction",
+            "direction_predicate": "_south_a_1",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_opening_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_backyard_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idBackyardDoor1idLivingRoom1FrontOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_room_n_unit",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_living_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idBedroomToClosetDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_bedroom_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_closet_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idDriversSideFrontDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_driver_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idDriversSideFrontDoorInsideOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_inside_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_side_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_driver_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idDriversSideFrontDoorOutsideOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_outside_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_side_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_driver_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idFrontDoor1idLivingRoom1BackOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_door_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idLivingRoomToBedroomDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_from_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_living_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bedroom_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idPassengersSideFrontDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_front_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_passenger_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idTent1DoorInsideOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_tent_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_inside_a_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idTent1DoorOutsideOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_tent_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_outside_a_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idBagOfChips": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "object_of_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_bag_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "object_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_chip_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idFairyWorldLobby1BackOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_lobby_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_world_n_of",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_fairy_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idPhosphateCrystal_idApple": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_from_p",
+            "figure_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_crystal_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_phosphate_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_apple_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_low": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "comparative_adjective",
+            "predicate": "_low_a_1",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_idAtomicCityOutside": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "object_of_noun",
+            "object_noun_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_atomic_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_city_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_outside_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idAtomicCityOutside1BackOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "object_of_noun",
+                "object_noun_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_atomic_a_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_city_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_outside_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_back_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idComputerRoom1FrontOpeningDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_room_n_unit",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_computer_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_front_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idFuse30A": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "30A",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_fuse_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idLongHallwayBackOpeningDoor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_to_p",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_door_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "possessive",
+                "possessor_SEMENT": {
+                    "comp_fxn": "generic_prenominal_descriptor",
+                    "descriptor_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_long_a_2",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "described_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hallway_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "possessed_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_opening_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_back_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idLongHallwayFrontOpeningDoorKeyhole": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prepositional_relationship",
+            "preposition_predicate": "_on_p_loc",
+            "figure_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_keyhole_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "ground_SEMENT": {
+                "comp_fxn": "prepositional_relationship",
+                "preposition_predicate": "_to_p",
+                "figure_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_door_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "ground_SEMENT": {
+                    "comp_fxn": "possessive",
+                    "possessor_SEMENT": {
+                        "comp_fxn": "generic_prenominal_descriptor",
+                        "descriptor_SEMENT": {
+                            "comp_fxn": "adjective",
+                            "predicate": "_long_a_2",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "described_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_hallway_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    },
+                    "possessed_SEMENT": {
+                        "comp_fxn": "compound_noun",
+                        "head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_opening_n_1",
+                            "intrinsic_variable_properties": {}
+                        },
+                        "non_head_noun_SEMENT": {
+                            "comp_fxn": "noun",
+                            "predicate": "_front_n_1",
+                            "intrinsic_variable_properties": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "TEMPLATE_idPipeTopOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pipe_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "generic_prenominal_descriptor",
+                "described_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "descriptor_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_top_a_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    },
+    "TEMPLATE_idSideFlapHandle": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_flap_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_side_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_handle_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_idCavern6OutsideBottomOpening": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "possessive",
+            "possessor_SEMENT": {
+                "comp_fxn": "object_of_noun",
+                "object_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cavern_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_outside_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "possessed_SEMENT": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_opening_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_bottom_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            }
+        }
+    }
+}
