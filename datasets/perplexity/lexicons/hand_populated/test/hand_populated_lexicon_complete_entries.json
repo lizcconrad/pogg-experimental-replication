@@ -2753,13 +2753,15 @@
         },
         "idGreenRoom": {
             "comp_fxn": "proper_noun",
-            "name": "Green Room"
+            "name": "Green Room",
+            "intrinsic_variable_properties": {}
         },
         "idGreenRoomBackOpening": {
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Green Room"
+                "name": "Green Room",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -2787,7 +2789,8 @@
                 "comp_fxn": "possessive",
                 "possessor_SEMENT": {
                     "comp_fxn": "proper_noun",
-                    "name": "Green Room"
+                    "name": "Green Room",
+                    "intrinsic_variable_properties": {}
                 },
                 "possessed_SEMENT": {
                     "comp_fxn": "compound_noun",
@@ -2824,7 +2827,8 @@
                     "comp_fxn": "possessive",
                     "possessor_SEMENT": {
                         "comp_fxn": "proper_noun",
-                        "name": "Green Room"
+                        "name": "Green Room",
+                        "intrinsic_variable_properties": {}
                     },
                     "possessed_SEMENT": {
                         "comp_fxn": "compound_noun",
@@ -2846,7 +2850,8 @@
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Green Room"
+                "name": "Green Room",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -3119,7 +3124,8 @@
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Lexi"
+                "name": "Lexi",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -3139,7 +3145,8 @@
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Lexi"
+                "name": "Lexi",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -3766,7 +3773,6 @@
                 "non_head_noun_SEMENT": {
                     "comp_fxn": "manual_synopsis",
                     "predicate": "_power_n_1",
-                    "intrinsic_variable_properties": {},
                     "synopsis_dict": {
                         "roles": [
                             {
@@ -3941,13 +3947,15 @@
         },
         "idMom": {
             "comp_fxn": "proper_noun",
-            "name": "mom"
+            "name": "mom",
+            "intrinsic_variable_properties": {}
         },
         "idMomNote": {
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "mom"
+                "name": "mom",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "manual_synopsis",
@@ -4799,15 +4807,18 @@
         },
         "idTheCave": {
             "comp_fxn": "proper_noun",
-            "name": "Cave"
+            "name": "Cave",
+            "intrinsic_variable_properties": {}
         },
         "idTheCliff": {
             "comp_fxn": "proper_noun",
-            "name": "Cliff"
+            "name": "Cliff",
+            "intrinsic_variable_properties": {}
         },
         "idTheFlashback": {
             "comp_fxn": "proper_noun",
-            "name": "Flashback"
+            "name": "Flashback",
+            "intrinsic_variable_properties": {}
         },
         "idThief": {
             "comp_fxn": "noun",
@@ -5140,9 +5151,11 @@
             "value": false
         },
         "off": {
-            "comp_fxn": "adjective",
-            "predicate": "_off_a_1",
-            "intrinsic_variable_properties": {}
+            "comp_fxn": "verb",
+            "predicate": "_turn_v_off",
+            "intrinsic_variable_properties": {
+                "TENSE": "pres"
+            }
         },
         "old": {
             "comp_fxn": "adjective",
@@ -5549,9 +5562,9 @@
             "modified_SEMENT": "parent"
         },
         "idMaterial": {
-            "comp_fxn": "compound_noun",
-            "head_noun_SEMENT": "parent",
-            "non_head_noun_SEMENT": "child"
+            "comp_fxn": "generic_prenominal_descriptor",
+            "descriptor_SEMENT": "child",
+            "described_SEMENT": "parent"
         },
         "idMaterial_": {
             "comp_fxn": "generic_prenominal_descriptor",
@@ -5585,23 +5598,9 @@
             "ground_SEMENT": "child"
         },
         "idPowerState": {
-            "comp_fxn": "boolean_property",
-            "boolean_node_SEMENT": "child",
-            "modified_SEMENT": "parent",
-            "true_SEMENT": {
-                "comp_fxn": "verb",
-                "predicate": "_turn_v_on",
-                "intrinsic_variable_properties": {
-                    "TENSE": "pres"
-                }
-            },
-            "false_SEMENT": {
-                "comp_fxn": "verb",
-                "predicate": "_turn_v_off",
-                "intrinsic_variable_properties": {
-                    "TENSE": "pres"
-                }
-            }
+            "comp_fxn": "passive_participle_modifier",
+            "participle_SEMENT": "child",
+            "modified_SEMENT": "parent"
         },
         "idSaltiness": {
             "comp_fxn": "generic_prenominal_descriptor",

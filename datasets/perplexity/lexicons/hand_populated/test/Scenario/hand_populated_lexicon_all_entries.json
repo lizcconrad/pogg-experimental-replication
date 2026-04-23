@@ -371,13 +371,15 @@
         },
         "idGreenRoom": {
             "comp_fxn": "proper_noun",
-            "name": "Green Room"
+            "name": "Green Room",
+            "intrinsic_variable_properties": {}
         },
         "idGreenRoomBackOpening": {
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Green Room"
+                "name": "Green Room",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -405,7 +407,8 @@
                 "comp_fxn": "possessive",
                 "possessor_SEMENT": {
                     "comp_fxn": "proper_noun",
-                    "name": "Green Room"
+                    "name": "Green Room",
+                    "intrinsic_variable_properties": {}
                 },
                 "possessed_SEMENT": {
                     "comp_fxn": "compound_noun",
@@ -442,7 +445,8 @@
                     "comp_fxn": "possessive",
                     "possessor_SEMENT": {
                         "comp_fxn": "proper_noun",
-                        "name": "Green Room"
+                        "name": "Green Room",
+                        "intrinsic_variable_properties": {}
                     },
                     "possessed_SEMENT": {
                         "comp_fxn": "compound_noun",
@@ -464,7 +468,8 @@
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Green Room"
+                "name": "Green Room",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -501,7 +506,8 @@
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Lexi"
+                "name": "Lexi",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",
@@ -521,7 +527,8 @@
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "Lexi"
+                "name": "Lexi",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "compound_noun",

@@ -970,13 +970,15 @@
         },
         "idMom": {
             "comp_fxn": "proper_noun",
-            "name": "mom"
+            "name": "mom",
+            "intrinsic_variable_properties": {}
         },
         "idMomNote": {
             "comp_fxn": "possessive",
             "possessor_SEMENT": {
                 "comp_fxn": "proper_noun",
-                "name": "mom"
+                "name": "mom",
+                "intrinsic_variable_properties": {}
             },
             "possessed_SEMENT": {
                 "comp_fxn": "manual_synopsis",

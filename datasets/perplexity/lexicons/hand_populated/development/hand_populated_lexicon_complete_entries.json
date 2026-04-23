@@ -412,9 +412,7 @@
         "idPlayer": {
             "comp_fxn": "noun",
             "predicate": "_player_n_of",
-            "intrinsic_variable_properties": {
-                "NUM": "sg"
-            }
+            "intrinsic_variable_properties": {}
         },
         "idPlayerBackside": {
             "comp_fxn": "possessive",

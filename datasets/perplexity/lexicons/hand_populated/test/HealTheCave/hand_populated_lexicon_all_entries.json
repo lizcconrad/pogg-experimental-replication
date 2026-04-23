@@ -601,7 +601,8 @@
         },
         "idTheCave": {
             "comp_fxn": "proper_noun",
-            "name": "Cave"
+            "name": "Cave",
+            "intrinsic_variable_properties": {}
         },
         "large": {
             "comp_fxn": "adjective",

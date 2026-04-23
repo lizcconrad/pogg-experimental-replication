@@ -27,7 +27,10 @@
             "comp_fxn": ""
         },
         "onTopOf": {
-            "comp_fxn": ""
+            "comp_fxn": "",
+            "preposition_predicate": "",
+            "figure_sement": "",
+            "ground_sement": ""
         }
     }
 }
