@@ -22,19 +22,23 @@
         },
         "5": {
             "comp_fxn": "number",
-            "digit": "5"
+            "digit": "5",
+            "intrinsic_variable_properties": {}
         },
         "6": {
             "comp_fxn": "number",
-            "digit": "6"
+            "digit": "6",
+            "intrinsic_variable_properties": {}
         },
         "7": {
             "comp_fxn": "number",
-            "digit": "7"
+            "digit": "7",
+            "intrinsic_variable_properties": {}
         },
         "8": {
             "comp_fxn": "number",
-            "digit": "8"
+            "digit": "8",
+            "intrinsic_variable_properties": {}
         },
         "black": {
             "comp_fxn": "adjective",
