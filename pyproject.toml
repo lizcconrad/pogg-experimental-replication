@@ -66,7 +66,7 @@ dependencies = [
   "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity"
 ]
 [tool.hatch.envs.post-perplexity.scripts]
-perplexity = "python experiment_routine.py $COMPOSITION_CONFIG $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+perplexity = "python experiment_routine__pre_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
 
 [tool.hatch.envs.latest-pogg]
 dependencies = [

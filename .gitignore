@@ -1,3 +1,13 @@
+# my additions
+.DS_Store
+.idea
+.coverage
+src/sandbox.py
+# don't commit outputs, those are stored in the Conrad_2026 repository
+./evaluation
+./output
+./Conrad_2026_results
+
 # Github default set
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -129,9 +139,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# my additions
-.DS_Store
-.idea
-.coverage
-src/sandbox.py

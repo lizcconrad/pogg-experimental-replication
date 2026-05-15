@@ -10,7 +10,7 @@ function(input) {
 
     local data_dir_val =
         (if !std.objectHas(input, "data_dir") then
-            "./evaluation"
+            "./data"
         else input.data_dir ),
 
     local evaluation_dir_val =

@@ -5,8 +5,8 @@
     lexicons_dir: "../datasets/perplexity/lexicons",
     graph_rel_dir: "graphs/subgraphs",
     experimental_setups: {
-        "hand_populated": {
-            "lexicon_name": "hand_populated",
+        "hand_populated_old_format": {
+            "lexicon_name": "hand_populated_old_format",
             "SEMENT_processing": [],
             "result_processing": []
         }
