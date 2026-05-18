@@ -4,9 +4,10 @@
 .coverage
 src/sandbox.py
 # don't commit outputs, those are stored in the Conrad_2026 repository
-./evaluation
-./output
-./Conrad_2026_results
+evaluation/
+output/
+Conrad_2026_results/
+ERG_2023/
 
 # Github default set
 # Byte-compiled / optimized / DLL files

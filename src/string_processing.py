@@ -16,6 +16,6 @@ def perplexity(x):
 # WebNLG
 # Russian_Football_League -> Russian Football League
 def webnlg(x):
-    tokens = [t.lower() for t in re.split(snake_case_pattern, x)]
+    tokens = [t for t in re.split(snake_case_pattern, x)]
     return " ".join(tokens)
 

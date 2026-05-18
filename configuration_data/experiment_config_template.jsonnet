@@ -18,7 +18,7 @@ function(input) {
             "./output"
         else input.output_dir),
 
-    output_run_anchor: std.join("/", [output_dir_val, "EXPERIMENT_RUN_PLACEHOLDER"]),
+    evaluation_run_anchor: std.join("/", [output_dir_val, "EXPERIMENT_RUN_PLACEHOLDER"]),
 
     local lexicon_dir_val =
         (if !std.objectHas(input, "lexicons_dir") then
@@ -63,7 +63,7 @@ function(input) {
                 parent_output_dir: (
                     if parent != null then
                         parent.experiments[setup].experiment_output_dir
-                    else std.join("_", [$.output_run_anchor, setup])
+                    else std.join("_", [$.evaluation_run_anchor, setup])
                 )
             }
             for setup in std.objectFields($.experimental_setups)
