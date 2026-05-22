@@ -75,7 +75,17 @@ dependencies = [
   "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity_lex-refactor"
 ]
 [tool.hatch.envs.post-perplexity-lex-refactor.scripts]
-perplexity = "python experiment_routine.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+perplexity = "python experiment_routine__lex_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+
+
+
+# Environment with POGG after evaluation rework
+[tool.hatch.envs.post-perplexity-eval-refactor]
+dependencies = [
+  "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity_eval-refactor"
+]
+[tool.hatch.envs.post-perplexity-eval-refactor.scripts]
+perplexity = "python experiment_routine__eval_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
 
 
 

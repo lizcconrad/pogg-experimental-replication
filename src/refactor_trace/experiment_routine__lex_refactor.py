@@ -1,3 +1,4 @@
+from pathlib import Path
 import argparse
 from pogg.pogg_routine import POGGExperimentsConfig
 
@@ -17,10 +18,8 @@ experiments_config = POGGExperimentsConfig(composition_config_path, experiment_c
 # optionally pass in experiment type
 experiments = experiments_config.get_all_experiments()
 
-# experiments_config.store_lexicons()
-
 for i, experiment in enumerate(experiments):
     print(f"Running {experiment.full_data_split_name}__{experiment.experiment_name} (experiment {i + 1} of {len(experiments)})...")
     experiment.run_experiment()
-    experiment.store_experiment_results()
-    experiment.store_experiment_report()
+    # experiment.store_experiment_output()
+    experiment.store_evaluation_report()

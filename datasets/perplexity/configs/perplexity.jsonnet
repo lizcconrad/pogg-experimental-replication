@@ -3,6 +3,7 @@
     data_dir: "../datasets/perplexity/data",
     evaluation_dir: "../evaluation/perplexity",
     output_dir: "../output/perplexity",
+    reports_dir: "../reports/perplexity",
     lexicons_dir: "../datasets/perplexity/lexicons",
     graph_rel_dir: "graphs/subgraphs",
     lexicons: ["hand_populated"],

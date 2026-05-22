@@ -20,6 +20,13 @@ function(input) {
 
     evaluation_run_anchor: std.join("/", [output_dir_val, "EXPERIMENT_RUN_PLACEHOLDER"]),
 
+    local reports_dir_val =
+        (if !std.objectHas(input, "reports_dir") then
+            "./reports"
+        else input.reports_dir),
+
+    reports_run_anchor: std.join("/", [reports_dir_val, "EXPERIMENT_RUN_PLACEHOLDER"]),
+
     local lexicon_dir_val =
         (if !std.objectHas(input, "lexicons_dir") then
             "./lexicons"
@@ -32,6 +39,7 @@ function(input) {
 
     data_dir: std.rstripChars(data_dir_val, "/"),
     output_dir: std.rstripChars(output_dir_val, "/"),
+    reports_dir: std.rstripChars(reports_dir_val, "/"),
     lexicon_dir: std.rstripChars(lexicon_dir_val, "/"),
     graph_rel_dir: std.rstripChars(graph_rel_dir_val, "/"),
 
@@ -45,6 +53,8 @@ function(input) {
 
     # function to populate split data
     local Split(name, parent=null, leaf=false) =
+        local root = if parent == null then true else false;
+
         local parent_split_info = {
             parent_full_split_name: (
                 if parent != null then
@@ -64,12 +74,18 @@ function(input) {
                     if parent != null then
                         parent.experiments[setup].experiment_output_dir
                     else std.join("_", [$.evaluation_run_anchor, setup])
+                ),
+                parent_reports_dir: (
+                    if parent != null then
+                        parent.experiments[setup].experiment_report_dir
+                    else std.join("_", [$.reports_run_anchor, setup])
                 )
             }
             for setup in std.objectFields($.experimental_setups)
         };
     {
         split_info: {
+            root: root,
             full_data_split_name: std.join("_", [parent_split_info.parent_full_split_name, name]),
             data_split_path: std.split(self.full_data_split_name, "_"),
             split_data_dir: std.join("/", [parent_split_info.parent_data_dir, name]),
@@ -91,6 +107,7 @@ function(input) {
                 SEMENT_processing: $.experimental_setups[setup]["SEMENT_processing"],
                 result_processing: $.experimental_setups[setup]["result_processing"],
                 experiment_output_dir: std.join("/", [parent_experiments[setup].parent_output_dir, name]),
+                experiment_report_dir: std.join("/", [parent_experiments[setup].parent_reports_dir, name]),
                 experiment_lex_dir: std.join("/", [$.lexicon_dir, $.experimental_setups[setup]["lexicon_name"]]),
                 inherited_lexicons: (
                     # inherited external lexicons
