@@ -7,6 +7,11 @@
          "SEMENT_processing": [ ],
          "lexicon_name": "hand_populated",
          "result_processing": [ ]
+      },
+      "random_removals": {
+         "SEMENT_processing": [ ],
+         "lexicon_name": "random_removals",
+         "result_processing": [ ]
       }
    },
    "graph_rel_dir": "graphs/subgraphs",
@@ -14,6 +19,9 @@
    "lexicons": {
       "hand_populated": {
          "lexicon_dir": "../datasets/perplexity/lexicons/hand_populated"
+      },
+      "random_removals": {
+         "lexicon_dir": "../datasets/perplexity/lexicons/random_removals"
       }
    },
    "output_dir": "../output/perplexity",
@@ -30,6 +38,16 @@
                "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated",
                "inherited_lexicons": [ ],
                "lexicon_name": "hand_populated",
+               "result_processing": [ ]
+            },
+            "random_removals": {
+               "SEMENT_processing": [ ],
+               "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+               "experiment_name": "random_removals",
+               "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals",
+               "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals",
+               "inherited_lexicons": [ ],
+               "lexicon_name": "random_removals",
                "result_processing": [ ]
             }
          },
@@ -66,6 +84,16 @@
                      "inherited_lexicons": [ ],
                      "lexicon_name": "hand_populated",
                      "result_processing": [ ]
+                  },
+                  "random_removals": {
+                     "SEMENT_processing": [ ],
+                     "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                     "experiment_name": "random_removals",
+                     "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development",
+                     "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development",
+                     "inherited_lexicons": [ ],
+                     "lexicon_name": "random_removals",
+                     "result_processing": [ ]
                   }
                },
                "split_info": {
@@ -94,6 +122,16 @@
                            "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheCar",
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development/HealTheCar",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development/HealTheCar",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
                            "result_processing": [ ]
                         }
                      },
@@ -126,6 +164,16 @@
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development/HealTheTrees",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development/HealTheTrees",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
+                           "result_processing": [ ]
                         }
                      },
                      "split_info": {
@@ -156,6 +204,16 @@
                            "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/Tutorial",
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development/Tutorial",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/development/Tutorial",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
                            "result_processing": [ ]
                         }
                      },
@@ -190,6 +248,16 @@
                      "inherited_lexicons": [ ],
                      "lexicon_name": "hand_populated",
                      "result_processing": [ ]
+                  },
+                  "random_removals": {
+                     "SEMENT_processing": [ ],
+                     "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                     "experiment_name": "random_removals",
+                     "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test",
+                     "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test",
+                     "inherited_lexicons": [ ],
+                     "lexicon_name": "random_removals",
+                     "result_processing": [ ]
                   }
                },
                "split_info": {
@@ -223,6 +291,16 @@
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/AtomicCity",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/AtomicCity",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
+                           "result_processing": [ ]
                         }
                      },
                      "split_info": {
@@ -253,6 +331,16 @@
                            "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheCave",
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/HealTheCave",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/HealTheCave",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
                            "result_processing": [ ]
                         }
                      },
@@ -285,6 +373,16 @@
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/HealTheFlashback",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/HealTheFlashback",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
+                           "result_processing": [ ]
                         }
                      },
                      "split_info": {
@@ -315,6 +413,16 @@
                            "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheLake",
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/HealTheLake",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/HealTheLake",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
                            "result_processing": [ ]
                         }
                      },
@@ -347,6 +455,16 @@
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/Scenario",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/Scenario",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
+                           "result_processing": [ ]
                         }
                      },
                      "split_info": {
@@ -378,6 +496,16 @@
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/baby",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/baby",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
+                           "result_processing": [ ]
                         }
                      },
                      "split_info": {
@@ -408,6 +536,16 @@
                            "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/kidneykwest",
                            "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        },
+                        "random_removals": {
+                           "SEMENT_processing": [ ],
+                           "experiment_lex_dir": "../datasets/perplexity/lexicons/random_removals",
+                           "experiment_name": "random_removals",
+                           "experiment_output_dir": "../output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/kidneykwest",
+                           "experiment_report_dir": "../reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_random_removals/test/kidneykwest",
+                           "inherited_lexicons": [ ],
+                           "lexicon_name": "random_removals",
                            "result_processing": [ ]
                         }
                      },

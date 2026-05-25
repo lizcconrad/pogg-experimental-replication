@@ -1,14 +1,11 @@
 export COMPOSITION_CONFIG=../configuration_data/pogg_config.json
 
-# activate environment with post-perplexity version of POGG
-#export POST_PERPLEXITY_PERPLEXITY_CONFIG=../datasets/perplexity/configs/perplexity_Conrad_2026_config__pre_refactor.json
-#export POST_PERPLEXITY_PERPLEXITY_RUN_NAME="post_perplexity__pre_refactor"
-#hatch run post-perplexity:perplexity
-
-# activate environment with post-perplexity version of POGG
+# run using environment with final post-perplexity version of POGG after the refactor
 export POST_PERPLEXITY_PERPLEXITY_CONFIG=../datasets/perplexity/configs/perplexity_Conrad_2026_config.json
-export POST_PERPLEXITY_PERPLEXITY_RUN_NAME="post_perplexity__lex_refactor"
-hatch run post-perplexity-lex-refactor:perplexity
+# run name is prepended to experiment name
+export POST_PERPLEXITY_PERPLEXITY_RUN_NAME="post_perplexity_"
+hatch run post-perplexity-divide-repos:perplexity
+
 
 # run experiment routine on each dataset
 

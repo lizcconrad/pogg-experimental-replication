@@ -1,0 +1,187 @@
+{
+   "dataset_name": "perplexity",
+   "diff_dir": "./diffs",
+   "diff_setups": {
+      "hand_populated_vs_random_removals": {
+         "baseline_dir": "../output/perplexity/hand_populated",
+         "comparison_dir": "../output/perplexity/random_removals"
+      }
+   },
+   "splits": {
+      "perplexity": {
+         "diffs": {
+            "hand_populated_vs_random_removals": {
+               "baseline_dir": "../output/perplexity/hand_populated",
+               "comparison_dir": "../output/perplexity/random_removals",
+               "diff_dir": "./diffs/hand_populated_vs_random_removals",
+               "diff_name": "hand_populated_vs_random_removals",
+               "eval_dir_name": "perplexity_eval",
+               "full_data_split_name": "perplexity",
+               "leaf": false
+            }
+         },
+         "splits": {
+            "development": {
+               "diffs": {
+                  "hand_populated_vs_random_removals": {
+                     "baseline_dir": "../output/perplexity/hand_populated/development",
+                     "comparison_dir": "../output/perplexity/random_removals/development",
+                     "diff_dir": "./diffs/hand_populated_vs_random_removals/development",
+                     "diff_name": "hand_populated_vs_random_removals",
+                     "eval_dir_name": "perplexity_development_eval",
+                     "full_data_split_name": "perplexity_development",
+                     "leaf": false
+                  }
+               },
+               "splits": {
+                  "HealTheCar": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/development/HealTheCar",
+                           "comparison_dir": "../output/perplexity/random_removals/development/HealTheCar",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/development/HealTheCar",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_development_HealTheCar_eval",
+                           "full_data_split_name": "perplexity_development_HealTheCar",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "HealTheTrees": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/development/HealTheTrees",
+                           "comparison_dir": "../output/perplexity/random_removals/development/HealTheTrees",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/development/HealTheTrees",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_development_HealTheTrees_eval",
+                           "full_data_split_name": "perplexity_development_HealTheTrees",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "Tutorial": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/development/Tutorial",
+                           "comparison_dir": "../output/perplexity/random_removals/development/Tutorial",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/development/Tutorial",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_development_Tutorial_eval",
+                           "full_data_split_name": "perplexity_development_Tutorial",
+                           "leaf": true
+                        }
+                     }
+                  }
+               }
+            },
+            "test": {
+               "diffs": {
+                  "hand_populated_vs_random_removals": {
+                     "baseline_dir": "../output/perplexity/hand_populated/test",
+                     "comparison_dir": "../output/perplexity/random_removals/test",
+                     "diff_dir": "./diffs/hand_populated_vs_random_removals/test",
+                     "diff_name": "hand_populated_vs_random_removals",
+                     "eval_dir_name": "perplexity_test_eval",
+                     "full_data_split_name": "perplexity_test",
+                     "leaf": false
+                  }
+               },
+               "splits": {
+                  "AtomicCity": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/AtomicCity",
+                           "comparison_dir": "../output/perplexity/random_removals/test/AtomicCity",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/AtomicCity",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_AtomicCity_eval",
+                           "full_data_split_name": "perplexity_test_AtomicCity",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "HealTheCave": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/HealTheCave",
+                           "comparison_dir": "../output/perplexity/random_removals/test/HealTheCave",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/HealTheCave",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_HealTheCave_eval",
+                           "full_data_split_name": "perplexity_test_HealTheCave",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "HealTheFlashback": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/HealTheFlashback",
+                           "comparison_dir": "../output/perplexity/random_removals/test/HealTheFlashback",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/HealTheFlashback",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_HealTheFlashback_eval",
+                           "full_data_split_name": "perplexity_test_HealTheFlashback",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "HealTheLake": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/HealTheLake",
+                           "comparison_dir": "../output/perplexity/random_removals/test/HealTheLake",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/HealTheLake",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_HealTheLake_eval",
+                           "full_data_split_name": "perplexity_test_HealTheLake",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "Scenario": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/Scenario",
+                           "comparison_dir": "../output/perplexity/random_removals/test/Scenario",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/Scenario",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_Scenario_eval",
+                           "full_data_split_name": "perplexity_test_Scenario",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "baby": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/baby",
+                           "comparison_dir": "../output/perplexity/random_removals/test/baby",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/baby",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_baby_eval",
+                           "full_data_split_name": "perplexity_test_baby",
+                           "leaf": true
+                        }
+                     }
+                  },
+                  "kidneykwest": {
+                     "diffs": {
+                        "hand_populated_vs_random_removals": {
+                           "baseline_dir": "../output/perplexity/hand_populated/test/kidneykwest",
+                           "comparison_dir": "../output/perplexity/random_removals/test/kidneykwest",
+                           "diff_dir": "./diffs/hand_populated_vs_random_removals/test/kidneykwest",
+                           "diff_name": "hand_populated_vs_random_removals",
+                           "eval_dir_name": "perplexity_test_kidneykwest_eval",
+                           "full_data_split_name": "perplexity_test_kidneykwest",
+                           "leaf": true
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -6,10 +6,15 @@
     reports_dir: "../reports/perplexity",
     lexicons_dir: "../datasets/perplexity/lexicons",
     graph_rel_dir: "graphs/subgraphs",
-    lexicons: ["hand_populated"],
+    lexicons: ["hand_populated", "random_removals"],
     experimental_setups: {
         "hand_populated": {
             "lexicon_name": "hand_populated",
+            "SEMENT_processing": [],
+            "result_processing": []
+        },
+        "random_removals": {
+            "lexicon_name": "random_removals",
             "SEMENT_processing": [],
             "result_processing": []
         }
