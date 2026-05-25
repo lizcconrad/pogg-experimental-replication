@@ -10,3 +10,6 @@ jsonnet --tla-code input='(import "perplexity_Conrad_2026__lex_refactor.jsonnet"
 # eval_refactor
 jsonnet --tla-code input='(import "perplexity_Conrad_2026__eval_refactor.jsonnet")' $CONFIGURATION_DATA_DIR/experiment_config_template.jsonnet > "perplexity_Conrad_2026__eval_refactor.json"
 
+# divide_repos
+jsonnet --tla-code input='(import "perplexity_Conrad_2026__divide_repos.jsonnet")' $CONFIGURATION_DATA_DIR/experiment_config_template.jsonnet > "perplexity_Conrad_2026__divide_repos.json"
+
