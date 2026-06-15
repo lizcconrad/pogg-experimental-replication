@@ -1,0 +1,595 @@
+{
+    "node_entries": {
+        "idCattleWranglerCostume": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idFace": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idGoButton": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idNone": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idOnSwitch": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idPacifier": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idPlage": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idPlageBackOpening": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idPlageFrontOpening": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idPyloricSphincter": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idShutoff": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idShutoffValveLight": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idVilli": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idporcelain": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "ominous": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "pointy": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "pyloric": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "stumpy": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "uncountable": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        }
+    },
+    "edge_entries": {
+        "idArticleType": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idBinderTakenTurns": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idButtonsPushed": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idCarSide": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idCardinality": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idCrawlingRoom": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idCryTurns": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idCurrentLevel": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idEatingFoodTurnsRemaining": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idMapY": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idTurnsSinceFood": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "idWebTouched": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        }
+    }
+}

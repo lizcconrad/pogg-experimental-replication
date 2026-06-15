@@ -5,6 +5,7 @@
    "experimental_setups": {
       "hand_populated": {
          "SEMENT_processing": [ ],
+         "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
          "lexicon_name": "hand_populated",
          "result_processing": [ ]
       }
@@ -13,6 +14,15 @@
    "lexicon_dir": "../datasets/perplexity/lexicons",
    "lexicons": {
       "hand_populated": {
+         "auto_filler_settings": {
+            "auto_approve": false,
+            "auto_create_templates": false,
+            "auto_fill": false,
+            "blocked_templates": [ ],
+            "template_dump_file": null,
+            "template_files": [ ]
+         },
+         "imported_lexicon_paths": [ ],
          "lexicon_dir": "../datasets/perplexity/lexicons/hand_populated"
       }
    },
@@ -24,11 +34,11 @@
          "experiments": {
             "hand_populated": {
                "SEMENT_processing": [ ],
+               "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                "experiment_name": "hand_populated",
                "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated",
                "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated",
-               "inherited_lexicons": [ ],
                "lexicon_name": "hand_populated",
                "result_processing": [ ]
             }
@@ -59,11 +69,11 @@
                "experiments": {
                   "hand_populated": {
                      "SEMENT_processing": [ ],
+                     "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                      "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                      "experiment_name": "hand_populated",
                      "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development",
                      "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development",
-                     "inherited_lexicons": [ ],
                      "lexicon_name": "hand_populated",
                      "result_processing": [ ]
                   }
@@ -88,11 +98,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheCar",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheCar",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -119,11 +129,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheTrees",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/HealTheTrees",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -150,11 +160,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/Tutorial",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/development/Tutorial",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -183,11 +193,11 @@
                "experiments": {
                   "hand_populated": {
                      "SEMENT_processing": [ ],
+                     "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                      "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                      "experiment_name": "hand_populated",
                      "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test",
                      "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test",
-                     "inherited_lexicons": [ ],
                      "lexicon_name": "hand_populated",
                      "result_processing": [ ]
                   }
@@ -216,11 +226,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/AtomicCity",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/AtomicCity",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -247,11 +257,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheCave",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheCave",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -278,11 +288,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheFlashback",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheFlashback",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -309,11 +319,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheLake",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/HealTheLake",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -340,11 +350,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/Scenario",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/Scenario",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -371,11 +381,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/baby",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/baby",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }
@@ -402,11 +412,11 @@
                      "experiments": {
                         "hand_populated": {
                            "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
                            "experiment_lex_dir": "../datasets/perplexity/lexicons/hand_populated",
                            "experiment_name": "hand_populated",
                            "experiment_output_dir": "../Conrad_2026_results/output/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/kidneykwest",
                            "experiment_report_dir": "../Conrad_2026_results/reports/perplexity/EXPERIMENT_RUN_PLACEHOLDER_hand_populated/test/kidneykwest",
-                           "inherited_lexicons": [ ],
                            "lexicon_name": "hand_populated",
                            "result_processing": [ ]
                         }

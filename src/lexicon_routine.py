@@ -5,29 +5,44 @@ import string_processing
 from pogg.lexicon import POGGLexicon, POGGLexiconAutoFiller
 from pogg.data_handling import POGGDataset
 
-composition_config = "../configuration_data/pogg_config.json"
+# each experiment has a composition config, but each lexicon does not, so when working on a lexicon I just have to pick one
+composition_config = "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json"
 experiment_config = "../datasets/WebNLG/configs/WebNLG_config.json"
-lexicon_templates = ["../configuration_data/lexicon_templates/perplexity_templates.json"]
-template_dump_file = "../configuration_data/lexicon_templates/webnlg_templates.json"
-
-
-auto_approve = True
-auto_create_templates = False
 str_processing_fxn = getattr(string_processing, "webnlg")
+
+# name of lexicon being worked on
+lexicon_name = "post_perplexity"
 
 with open(experiment_config, "r") as f:
     config_json = json.load(f)
 
 dataset = POGGDataset(config_json)
-auto_filler = POGGLexiconAutoFiller(composition_config, lexicon_templates,
-                                    auto_approve=auto_approve, string_processing_fxn=None,
-                                    auto_create_templates=auto_create_templates, dump_file=template_dump_file)
 
-lexicon = POGGLexicon("demo", config_json["lexicon_dir"] + "/auto_approve", dataset, auto_filler=auto_filler)
+lexicon_info = config_json["lexicons"][lexicon_name]
+auto_filler_settings = lexicon_info["auto_filler_settings"]
 
-data_split = dataset.get_data_split("demo", "dev", "1triples", "Airport_allSolutions")
-lexicon.set_workspace_split(data_split)
+if auto_filler_settings["auto_fill"]:
+    auto_filler = POGGLexiconAutoFiller(composition_config, auto_filler_settings["template_files"],
+                                        auto_approve=auto_filler_settings["auto_approve"],
+                                        global_blocked_templates=auto_filler_settings["blocked_templates"],
+                                        string_processing_fxn=str_processing_fxn,
+                                        auto_create_templates=auto_filler_settings["auto_create_templates"],
+                                        dump_file=auto_filler_settings["template_dump_file"])
+else:
+    auto_filler = None
+
+lexicon = POGGLexicon(config_json["lexicons"][lexicon_name]["lexicon_dir"], dataset,
+                      imported_lexicon_paths=lexicon_info["imported_lexicon_paths"], auto_filler=auto_filler)
+
+# remove splits already worked through
+# one_triples = dataset.get_data_split("WebNLG", "dev", "1triples")
+removal_splits = []
+
+
+data_split = dataset.get_data_split("WebNLG", "dev")
+lexicon.set_workspace_split(data_split, removal_splits)
 lexicon.update_lexicon_files()
+
 
 auto_filler.dump_new_templates(lexicon.node_entries)
 

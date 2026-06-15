@@ -2,7 +2,7 @@
     dataset_name: "perplexity",
     data_dir: "../../datasets/perplexity/data",
     evaluation_dir: "../../evaluation/perplexity",
-    lexicons_dir: "../../datasets/perplexity/lexicons",
+    lexicons_dir: "./lexicons",
     graph_rel_dir: "graphs/subgraphs",
     experimental_setups: {
         "hand_populated_old_format": {

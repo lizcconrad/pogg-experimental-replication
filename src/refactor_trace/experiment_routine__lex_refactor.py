@@ -13,7 +13,6 @@ composition_config_path = args.composition_config
 experiment_config_path = args.experiment_config
 run_name = args.run_name
 
-
 experiments_config = POGGExperimentsConfig(composition_config_path, experiment_config_path, run_name)
 # optionally pass in experiment type
 experiments = experiments_config.get_all_experiments()

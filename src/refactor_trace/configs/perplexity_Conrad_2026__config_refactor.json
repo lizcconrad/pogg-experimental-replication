@@ -1,0 +1,447 @@
+{
+   "data_dir": "../../datasets/perplexity/data",
+   "dataset_name": "perplexity",
+   "evaluation_run_anchor": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER",
+   "experimental_setups": {
+      "config_refactor": {
+         "SEMENT_processing": [ ],
+         "composition_config": "configs/refactor_trace_composition_config.json",
+         "lexicon_name": "hand_populated",
+         "result_processing": [ ]
+      }
+   },
+   "graph_rel_dir": "graphs/subgraphs",
+   "lexicon_dir": "./lexicons",
+   "lexicons": {
+      "hand_populated": {
+         "auto_filler_settings": {
+            "auto_approve": false,
+            "auto_create_templates": false,
+            "auto_fill": false,
+            "blocked_templates": [ ],
+            "template_dump_file": null,
+            "template_files": [ ]
+         },
+         "imported_lexicon_paths": [ ],
+         "lexicon_dir": "./lexicons/hand_populated"
+      }
+   },
+   "output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output",
+   "reports_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports",
+   "reports_run_anchor": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER",
+   "splits": {
+      "perplexity": {
+         "experiments": {
+            "config_refactor": {
+               "SEMENT_processing": [ ],
+               "composition_config": "configs/refactor_trace_composition_config.json",
+               "experiment_lex_dir": "./lexicons/hand_populated",
+               "experiment_name": "config_refactor",
+               "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor",
+               "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor",
+               "lexicon_name": "hand_populated",
+               "result_processing": [ ]
+            }
+         },
+         "split_info": {
+            "data_directories": [
+               "../../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/baby/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/json",
+               "../../datasets/perplexity/data/test/Scenario/graphs/subgraphs/json"
+            ],
+            "data_split_path": [
+               "perplexity"
+            ],
+            "full_data_split_name": "perplexity",
+            "leaf": false,
+            "root": true,
+            "split_data_dir": "../../datasets/perplexity/data"
+         },
+         "splits": {
+            "development": {
+               "experiments": {
+                  "config_refactor": {
+                     "SEMENT_processing": [ ],
+                     "composition_config": "configs/refactor_trace_composition_config.json",
+                     "experiment_lex_dir": "./lexicons/hand_populated",
+                     "experiment_name": "config_refactor",
+                     "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development",
+                     "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development",
+                     "lexicon_name": "hand_populated",
+                     "result_processing": [ ]
+                  }
+               },
+               "split_info": {
+                  "data_directories": [
+                     "../../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/json"
+                  ],
+                  "data_split_path": [
+                     "perplexity",
+                     "development"
+                  ],
+                  "full_data_split_name": "perplexity_development",
+                  "leaf": false,
+                  "root": false,
+                  "split_data_dir": "../../datasets/perplexity/data/development"
+               },
+               "splits": {
+                  "HealTheCar": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development/HealTheCar",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development/HealTheCar",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "development",
+                           "HealTheCar"
+                        ],
+                        "full_data_split_name": "perplexity_development_HealTheCar",
+                        "graph_dot_dir": "../../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/development/HealTheCar/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/development/HealTheCar"
+                     }
+                  },
+                  "HealTheTrees": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development/HealTheTrees",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development/HealTheTrees",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "development",
+                           "HealTheTrees"
+                        ],
+                        "full_data_split_name": "perplexity_development_HealTheTrees",
+                        "graph_dot_dir": "../../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/development/HealTheTrees/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/development/HealTheTrees"
+                     }
+                  },
+                  "Tutorial": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development/Tutorial",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/development/Tutorial",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "development",
+                           "Tutorial"
+                        ],
+                        "full_data_split_name": "perplexity_development_Tutorial",
+                        "graph_dot_dir": "../../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/development/Tutorial/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/development/Tutorial"
+                     }
+                  }
+               }
+            },
+            "test": {
+               "experiments": {
+                  "config_refactor": {
+                     "SEMENT_processing": [ ],
+                     "composition_config": "configs/refactor_trace_composition_config.json",
+                     "experiment_lex_dir": "./lexicons/hand_populated",
+                     "experiment_name": "config_refactor",
+                     "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test",
+                     "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test",
+                     "lexicon_name": "hand_populated",
+                     "result_processing": [ ]
+                  }
+               },
+               "split_info": {
+                  "data_directories": [
+                     "../../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/test/baby/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/json",
+                     "../../datasets/perplexity/data/test/Scenario/graphs/subgraphs/json"
+                  ],
+                  "data_split_path": [
+                     "perplexity",
+                     "test"
+                  ],
+                  "full_data_split_name": "perplexity_test",
+                  "leaf": false,
+                  "root": false,
+                  "split_data_dir": "../../datasets/perplexity/data/test"
+               },
+               "splits": {
+                  "AtomicCity": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/AtomicCity",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/AtomicCity",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "AtomicCity"
+                        ],
+                        "full_data_split_name": "perplexity_test_AtomicCity",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/AtomicCity/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/AtomicCity"
+                     }
+                  },
+                  "HealTheCave": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/HealTheCave",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/HealTheCave",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "HealTheCave"
+                        ],
+                        "full_data_split_name": "perplexity_test_HealTheCave",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/HealTheCave/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/HealTheCave"
+                     }
+                  },
+                  "HealTheFlashback": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/HealTheFlashback",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/HealTheFlashback",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "HealTheFlashback"
+                        ],
+                        "full_data_split_name": "perplexity_test_HealTheFlashback",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/HealTheFlashback/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/HealTheFlashback"
+                     }
+                  },
+                  "HealTheLake": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/HealTheLake",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/HealTheLake",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "HealTheLake"
+                        ],
+                        "full_data_split_name": "perplexity_test_HealTheLake",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/HealTheLake/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/HealTheLake"
+                     }
+                  },
+                  "Scenario": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/Scenario",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/Scenario",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/Scenario/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "Scenario"
+                        ],
+                        "full_data_split_name": "perplexity_test_Scenario",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/Scenario/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/Scenario/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/Scenario/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/Scenario"
+                     }
+                  },
+                  "baby": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/baby",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/baby",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/baby/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "baby"
+                        ],
+                        "full_data_split_name": "perplexity_test_baby",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/baby/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/baby/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/baby/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/baby"
+                     }
+                  },
+                  "kidneykwest": {
+                     "experiments": {
+                        "config_refactor": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "configs/refactor_trace_composition_config.json",
+                           "experiment_lex_dir": "./lexicons/hand_populated",
+                           "experiment_name": "config_refactor",
+                           "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/output/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/kidneykwest",
+                           "experiment_report_dir": "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__config_refactor/reports/EXPERIMENT_RUN_PLACEHOLDER_config_refactor/test/kidneykwest",
+                           "lexicon_name": "hand_populated",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/json"
+                        ],
+                        "data_split_path": [
+                           "perplexity",
+                           "test",
+                           "kidneykwest"
+                        ],
+                        "full_data_split_name": "perplexity_test_kidneykwest",
+                        "graph_dot_dir": "../../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/dot",
+                        "graph_json_dir": "../../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/json",
+                        "graph_png_dir": "../../datasets/perplexity/data/test/kidneykwest/graphs/subgraphs/png",
+                        "leaf": true,
+                        "root": false,
+                        "split_data_dir": "../../datasets/perplexity/data/test/kidneykwest"
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

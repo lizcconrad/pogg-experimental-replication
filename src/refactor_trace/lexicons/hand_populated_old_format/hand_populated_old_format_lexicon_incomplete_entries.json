@@ -1,0 +1,181 @@
+{
+    "node_keys": {
+        "": {
+            "comp_fxn": ""
+        },
+        "babyDoNothing": {
+            "comp_fxn": ""
+        },
+        "idButton": {
+            "comp_fxn": ""
+        },
+        "idCattleWranglerCostume": {
+            "comp_fxn": ""
+        },
+        "idFace": {
+            "comp_fxn": "noun",
+            "predicate": "",
+            "auto": {
+                "auto_filled": false
+            }
+        },
+        "idGoButton": {
+            "comp_fxn": ""
+        },
+        "idNone": {
+            "comp_fxn": ""
+        },
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idPacifier": {
+            "comp_fxn": "noun",
+            "predicate": ""
+        },
+        "idPlage": {
+            "comp_fxn": ""
+        },
+        "idPlageBackOpening": {
+            "comp_fxn": ""
+        },
+        "idPlageFrontOpening": {
+            "comp_fxn": ""
+        },
+        "idPyloricSphincter": {
+            "comp_fxn": ""
+        },
+        "idShutoff": {
+            "comp_fxn": ""
+        },
+        "idShutoffValveLight": {
+            "comp_fxn": ""
+        },
+        "idVilli": {
+            "comp_fxn": ""
+        },
+        "idporcelain": {
+            "comp_fxn": ""
+        },
+        "ominous": {
+            "comp_fxn": "adjective",
+            "predicate": ""
+        },
+        "pointy": {
+            "comp_fxn": ""
+        },
+        "pyloric": {
+            "comp_fxn": ""
+        },
+        "stumpy": {
+            "comp_fxn": "adjective",
+            "predicate": "",
+            "intrinsic_variable_properties": {}
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        },
+        "unmade": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idBinderTakenTurns": {
+            "comp_fxn": ""
+        },
+        "idBitten": {
+            "comp_fxn": ""
+        },
+        "idButtonsPushed": {
+            "comp_fxn": ""
+        },
+        "idCarSide": {
+            "comp_fxn": ""
+        },
+        "idCardinality": {
+            "comp_fxn": ""
+        },
+        "idCrawlingRoom": {
+            "comp_fxn": ""
+        },
+        "idCrawlingRoomTurns": {
+            "comp_fxn": ""
+        },
+        "idCryDescription": {
+            "comp_fxn": ""
+        },
+        "idCryTurns": {
+            "comp_fxn": ""
+        },
+        "idCrystalTurns": {
+            "comp_fxn": ""
+        },
+        "idCurrentLevel": {
+            "comp_fxn": ""
+        },
+        "idDivergent": {
+            "comp_fxn": ""
+        },
+        "idEatingFoodTurnsRemaining": {
+            "comp_fxn": ""
+        },
+        "idInScopeOf": {
+            "comp_fxn": ""
+        },
+        "idMapX": {
+            "comp_fxn": ""
+        },
+        "idMapY": {
+            "comp_fxn": ""
+        },
+        "idMushroomEaten": {
+            "comp_fxn": ""
+        },
+        "idPermanent": {
+            "comp_fxn": ""
+        },
+        "idSaltLevel": {
+            "comp_fxn": ""
+        },
+        "idSeen": {
+            "comp_fxn": ""
+        },
+        "idTask": {
+            "comp_fxn": ""
+        },
+        "idTurnsSinceFood": {
+            "comp_fxn": ""
+        },
+        "idWebTouched": {
+            "comp_fxn": "boolean_ARG2_relative_clause",
+            "boolean_node_SEMENT": "child",
+            "ARG2_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_web_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_touch_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "false_SEMENT": {
+                "comp_fxn": "negation",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_touch_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ARG1_SEMENT": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

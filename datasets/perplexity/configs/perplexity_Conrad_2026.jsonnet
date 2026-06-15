@@ -6,9 +6,12 @@
     reports_dir: "../Conrad_2026_results/reports/perplexity",
     lexicons_dir: "../datasets/perplexity/lexicons",
     graph_rel_dir: "graphs/subgraphs",
-    lexicons: ["hand_populated"],
+    lexicons: {
+        "hand_populated": {},
+    },
     experimental_setups: {
         "hand_populated": {
+            "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
             "lexicon_name": "hand_populated",
             "SEMENT_processing": [],
             "result_processing": []

@@ -39,14 +39,6 @@
             }
         }
     },
-    "TEMPLATE_Liz": {
-        "example": "",
-        "lexical_entry_template": {
-            "comp_fxn": "proper_noun",
-            "name": "Liz",
-            "intrinsic_variable_properties": {}
-        }
-    },
     "TEMPLATE_glowing_toy": {
         "example": "glowing toy",
         "lexical_entry_template": {
@@ -155,22 +147,6 @@
             "comp_fxn": "comparative_adjective",
             "predicate": "_low_a_1",
             "intrinsic_variable_properties": {}
-        }
-    },
-    "TEMPLATE_idFuse30A": {
-        "example": "fuse 30A",
-        "lexical_entry_template": {
-            "comp_fxn": "compound_noun",
-            "head_noun_SEMENT": {
-                "comp_fxn": "proper_noun",
-                "name": "30A",
-                "intrinsic_variable_properties": {}
-            },
-            "non_head_noun_SEMENT": {
-                "comp_fxn": "noun",
-                "predicate": "_fuse_n_1",
-                "intrinsic_variable_properties": {}
-            }
         }
     }
 }

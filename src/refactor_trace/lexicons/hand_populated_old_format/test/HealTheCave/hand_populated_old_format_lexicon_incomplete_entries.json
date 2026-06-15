@@ -1,0 +1,51 @@
+{
+    "node_keys": {
+        "ominous": {
+            "comp_fxn": "adjective",
+            "predicate": ""
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idBitten": {
+            "comp_fxn": ""
+        },
+        "idMushroomEaten": {
+            "comp_fxn": ""
+        },
+        "idWebTouched": {
+            "comp_fxn": "boolean_ARG2_relative_clause",
+            "boolean_node_SEMENT": "child",
+            "ARG2_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_web_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "true_SEMENT": {
+                "comp_fxn": "verb",
+                "predicate": "_touch_v_1",
+                "intrinsic_variable_properties": {}
+            },
+            "false_SEMENT": {
+                "comp_fxn": "negation",
+                "negated_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_touch_v_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "ARG1_SEMENT": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

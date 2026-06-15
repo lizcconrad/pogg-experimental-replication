@@ -1,0 +1,70 @@
+{
+    "node_keys": {
+        "": {
+            "comp_fxn": ""
+        },
+        "babyDoNothing": {
+            "comp_fxn": ""
+        },
+        "idGoButton": {
+            "comp_fxn": ""
+        },
+        "idNone": {
+            "comp_fxn": ""
+        },
+        "idPacifier": {
+            "comp_fxn": "noun",
+            "predicate": ""
+        },
+        "pointy": {
+            "comp_fxn": ""
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "idCarSide": {
+            "comp_fxn": ""
+        },
+        "idCardinality": {
+            "comp_fxn": ""
+        },
+        "idCrawlingRoom": {
+            "comp_fxn": ""
+        },
+        "idCrawlingRoomTurns": {
+            "comp_fxn": ""
+        },
+        "idCryDescription": {
+            "comp_fxn": ""
+        },
+        "idCryTurns": {
+            "comp_fxn": ""
+        },
+        "idDivergent": {
+            "comp_fxn": ""
+        },
+        "idInScopeOf": {
+            "comp_fxn": ""
+        },
+        "idPermanent": {
+            "comp_fxn": ""
+        },
+        "idSeen": {
+            "comp_fxn": ""
+        },
+        "idTask": {
+            "comp_fxn": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

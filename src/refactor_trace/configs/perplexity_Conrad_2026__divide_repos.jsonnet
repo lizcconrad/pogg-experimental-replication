@@ -4,12 +4,12 @@
     evaluation_dir: "../../Conrad_2026_results/refactor_trace/perplexity",
     output_dir: "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__divide_repos/output",
     reports_dir: "../../Conrad_2026_results/refactor_trace/perplexity/post_perplexity__divide_repos/reports",
-    lexicons_dir: "../../datasets/perplexity/lexicons",
+    lexicons_dir: "./lexicons",
     graph_rel_dir: "graphs/subgraphs",
-    lexicons: ["hand_populated"],
+    lexicons: ["hand_populated_lex_refactor"],
     experimental_setups: {
         "divide_repos": {
-            "lexicon_name": "hand_populated",
+            "lexicon_name": "hand_populated_lex_refactor",
             "SEMENT_processing": [],
             "result_processing": []
         }

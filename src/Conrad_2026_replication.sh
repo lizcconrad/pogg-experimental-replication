@@ -4,7 +4,7 @@ export COMPOSITION_CONFIG=../configuration_data/pogg_config.json
 export POST_PERPLEXITY_PERPLEXITY_CONFIG=../datasets/perplexity/configs/perplexity_Conrad_2026_config.json
 # run name is prepended to experiment name
 export POST_PERPLEXITY_PERPLEXITY_RUN_NAME="post_perplexity_"
-hatch run post-perplexity-divide-repos:perplexity
+hatch run post-perplexity-config-refactor:perplexity
 
 
 # run experiment routine on each dataset

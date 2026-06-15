@@ -3,10 +3,50 @@ function(input) {
     dataset_name: input.dataset_name,
     experimental_setups: input.experimental_setups,
 
-    local inherited_external_lexicons =
-        (if !std.objectHas(input, "inherited_external_lexicons") then
-            []
-        else [std.rstripChars(x, "/") for x in input.inherited_external_lexicons]),
+    # lexicons
+    lexicons: {
+        [lexicon_name]: {
+            lexicon_dir: (if std.objectHas(input.lexicons[lexicon_name], "lexicon_dir")
+                then input.lexicons[lexicon_name]["lexicon_dir"]
+                else std.join("/", [$.lexicon_dir, lexicon_name])),
+
+            auto_filler_settings: (if std.objectHas(input.lexicons[lexicon_name], "auto_filler_settings")
+                then {
+                    local given_auto_settings = input.lexicons[lexicon_name]["auto_filler_settings"],
+
+                    "auto_fill": (if std.objectHas(given_auto_settings, "auto_fill")
+                        then given_auto_settings["auto_fill"] else false),
+
+                    "auto_approve": (if std.objectHas(given_auto_settings, "auto_approve")
+                        then given_auto_settings["auto_approve"] else false),
+
+                    "auto_create_templates": (if std.objectHas(given_auto_settings, "auto_create_templates")
+                        then given_auto_settings["auto_create_templates"] else false),
+
+                    "template_files": (if std.objectHas(given_auto_settings, "template_files")
+                        then given_auto_settings["template_files"] else []),
+
+                    "blocked_templates": (if std.objectHas(given_auto_settings, "blocked_templates")
+                        then given_auto_settings["blocked_templates"] else []),
+
+                    "template_dump_file": (if std.objectHas(given_auto_settings, "template_dump_file")
+                        then given_auto_settings["template_dump_file"] else null),
+                }
+                else {
+                    "auto_fill": false,
+                    "auto_approve": false,
+                    "auto_create_templates": false,
+                    "template_files": [],
+                    "blocked_templates": [],
+                    "template_dump_file": null
+                }),
+
+            imported_lexicon_paths: (if std.objectHas(input.lexicons[lexicon_name], "imported_lexicon_paths")
+                then input.lexicons[lexicon_name]["imported_lexicon_paths"]
+                else [])
+        }
+        for lexicon_name in std.objectFields(input.lexicons)
+    },
 
     local data_dir_val =
         (if !std.objectHas(input, "data_dir") then
@@ -42,14 +82,6 @@ function(input) {
     reports_dir: std.rstripChars(reports_dir_val, "/"),
     lexicon_dir: std.rstripChars(lexicon_dir_val, "/"),
     graph_rel_dir: std.rstripChars(graph_rel_dir_val, "/"),
-
-    # lexicons
-    lexicons: {
-        [x]: {
-            lexicon_dir: std.join("/", [$.lexicon_dir, x])
-        }
-        for x in input.lexicons
-    },
 
     # function to populate split data
     local Split(name, parent=null, leaf=false) =
@@ -106,18 +138,10 @@ function(input) {
                 lexicon_name: $.experimental_setups[setup]["lexicon_name"],
                 SEMENT_processing: $.experimental_setups[setup]["SEMENT_processing"],
                 result_processing: $.experimental_setups[setup]["result_processing"],
+                composition_config: $.experimental_setups[setup]["composition_config"],
                 experiment_output_dir: std.join("/", [parent_experiments[setup].parent_output_dir, name]),
                 experiment_report_dir: std.join("/", [parent_experiments[setup].parent_reports_dir, name]),
-                experiment_lex_dir: std.join("/", [$.lexicon_dir, $.experimental_setups[setup]["lexicon_name"]]),
-                inherited_lexicons: (
-                    # inherited external lexicons
-                    [x for x in inherited_external_lexicons] +
-                    # inherited lexicons from the same config
-                    if std.objectHas($.experimental_setups[setup], "inherited_experiment_lexicons") then
-                        [std.strReplace(self.experiment_lex_dir, setup, x)
-                            for x in $.experimental_setups[setup]["inherited_experiment_lexicons"]]
-                    else []
-                )
+                experiment_lex_dir: std.join("/", [$.lexicon_dir, $.experimental_setups[setup]["lexicon_name"]])
             }
             for setup in std.objectFields($.experimental_setups)
         }

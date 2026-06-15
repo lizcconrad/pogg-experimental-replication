@@ -2,7 +2,7 @@
     dataset_name: "perplexity",
     data_dir: "../../datasets/perplexity/data",
     evaluation_dir: "../../Conrad_2026_results/refactor_trace/perplexity",
-    lexicons_dir: "../../datasets/perplexity/lexicons",
+    lexicons_dir: "./lexicons",
     graph_rel_dir: "graphs/subgraphs",
     experimental_setups: {
         "pre_lex_refactor": {

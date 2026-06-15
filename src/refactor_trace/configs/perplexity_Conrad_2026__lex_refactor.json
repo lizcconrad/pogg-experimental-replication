@@ -5,15 +5,15 @@
    "experimental_setups": {
       "lex_refactor": {
          "SEMENT_processing": [ ],
-         "lexicon_name": "hand_populated",
+         "lexicon_name": "hand_populated_lex_refactor",
          "result_processing": [ ]
       }
    },
    "graph_rel_dir": "graphs/subgraphs",
-   "lexicon_dir": "../../datasets/perplexity/lexicons",
+   "lexicon_dir": "./lexicons",
    "lexicons": {
-      "hand_populated": {
-         "lexicon_dir": "../../datasets/perplexity/lexicons/hand_populated"
+      "hand_populated_lex_refactor": {
+         "lexicon_dir": "./lexicons/hand_populated_lex_refactor"
       }
    },
    "output_dir": "../../Conrad_2026_results/refactor_trace/perplexity",
@@ -24,12 +24,12 @@
          "experiments": {
             "lex_refactor": {
                "SEMENT_processing": [ ],
-               "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+               "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                "experiment_name": "lex_refactor",
                "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor",
                "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor",
                "inherited_lexicons": [ ],
-               "lexicon_name": "hand_populated",
+               "lexicon_name": "hand_populated_lex_refactor",
                "result_processing": [ ]
             }
          },
@@ -59,12 +59,12 @@
                "experiments": {
                   "lex_refactor": {
                      "SEMENT_processing": [ ],
-                     "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                     "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                      "experiment_name": "lex_refactor",
                      "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development",
                      "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development",
                      "inherited_lexicons": [ ],
-                     "lexicon_name": "hand_populated",
+                     "lexicon_name": "hand_populated_lex_refactor",
                      "result_processing": [ ]
                   }
                },
@@ -88,12 +88,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development/HealTheCar",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development/HealTheCar",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -119,12 +119,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development/HealTheTrees",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development/HealTheTrees",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -150,12 +150,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development/Tutorial",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/development/Tutorial",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -183,12 +183,12 @@
                "experiments": {
                   "lex_refactor": {
                      "SEMENT_processing": [ ],
-                     "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                     "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                      "experiment_name": "lex_refactor",
                      "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test",
                      "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test",
                      "inherited_lexicons": [ ],
-                     "lexicon_name": "hand_populated",
+                     "lexicon_name": "hand_populated_lex_refactor",
                      "result_processing": [ ]
                   }
                },
@@ -216,12 +216,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/AtomicCity",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/AtomicCity",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -247,12 +247,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/HealTheCave",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/HealTheCave",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -278,12 +278,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/HealTheFlashback",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/HealTheFlashback",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -309,12 +309,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/HealTheLake",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/HealTheLake",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -340,12 +340,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/Scenario",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/Scenario",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -371,12 +371,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/baby",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/baby",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },
@@ -402,12 +402,12 @@
                      "experiments": {
                         "lex_refactor": {
                            "SEMENT_processing": [ ],
-                           "experiment_lex_dir": "../../datasets/perplexity/lexicons/hand_populated",
+                           "experiment_lex_dir": "./lexicons/hand_populated_lex_refactor",
                            "experiment_name": "lex_refactor",
                            "experiment_output_dir": "../../Conrad_2026_results/refactor_trace/perplexity/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/kidneykwest",
                            "experiment_report_dir": "./reports/EXPERIMENT_RUN_PLACEHOLDER_lex_refactor/test/kidneykwest",
                            "inherited_lexicons": [ ],
-                           "lexicon_name": "hand_populated",
+                           "lexicon_name": "hand_populated_lex_refactor",
                            "result_processing": [ ]
                         }
                      },

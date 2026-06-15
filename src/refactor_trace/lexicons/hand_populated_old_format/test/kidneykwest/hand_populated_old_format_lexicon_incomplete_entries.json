@@ -1,0 +1,54 @@
+{
+    "node_keys": {
+        "idCattleWranglerCostume": {
+            "comp_fxn": ""
+        },
+        "idOnSwitch": {
+            "comp_fxn": ""
+        },
+        "idPyloricSphincter": {
+            "comp_fxn": ""
+        },
+        "idVilli": {
+            "comp_fxn": ""
+        },
+        "pyloric": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idBinderTakenTurns": {
+            "comp_fxn": ""
+        },
+        "idButtonsPushed": {
+            "comp_fxn": ""
+        },
+        "idCardinality": {
+            "comp_fxn": ""
+        },
+        "idCrystalTurns": {
+            "comp_fxn": ""
+        },
+        "idEatingFoodTurnsRemaining": {
+            "comp_fxn": ""
+        },
+        "idMapX": {
+            "comp_fxn": ""
+        },
+        "idMapY": {
+            "comp_fxn": ""
+        },
+        "idSaltLevel": {
+            "comp_fxn": ""
+        },
+        "idTurnsSinceFood": {
+            "comp_fxn": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}

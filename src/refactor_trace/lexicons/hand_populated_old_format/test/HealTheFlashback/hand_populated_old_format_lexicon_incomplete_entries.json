@@ -1,0 +1,24 @@
+{
+    "node_keys": {
+        "idporcelain": {
+            "comp_fxn": ""
+        },
+        "uncountable": {
+            "comp_fxn": ""
+        },
+        "unmade": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "idArticleType": {
+            "comp_fxn": ""
+        },
+        "isTouching": {
+            "comp_fxn": ""
+        },
+        "onTopOf": {
+            "comp_fxn": ""
+        }
+    }
+}
