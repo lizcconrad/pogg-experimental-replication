@@ -1,0 +1,106 @@
+{
+    "TEMPLATE_Alternative_rock": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prenominal_adjective",
+            "adjective_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_alternative_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "nominal_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_rock_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_Test_pilot": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_pilot_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_test_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_Mayor": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "noun",
+            "predicate": "_mayor_n_of",
+            "intrinsic_variable_properties": {}
+        }
+    },
+    "TEMPLATE_Country_music": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_music_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_country_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_Public_company": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prenominal_adjective",
+            "adjective_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_public_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "nominal_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_company_n_of",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_\"City Administrator\"": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_administrator_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_city_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    },
+    "TEMPLATE_Sweet_potato": {
+        "example": "",
+        "lexical_entry_template": {
+            "comp_fxn": "prenominal_adjective",
+            "adjective_SEMENT": {
+                "comp_fxn": "adjective",
+                "predicate": "_sweet_a_to",
+                "intrinsic_variable_properties": {}
+            },
+            "nominal_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_potato_n_1",
+                "intrinsic_variable_properties": {}
+            }
+        }
+    }
+}
