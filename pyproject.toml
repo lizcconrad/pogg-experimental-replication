@@ -68,7 +68,7 @@ dependencies = [
   "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity"
 ]
 [tool.hatch.envs.post-perplexity.scripts]
-perplexity_refactor_trace = "python experiment_routine__pre_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+perplexity_refactor_trace = "python experiment_routine__pre_refactor.py -c $COMPOSITION_CONFIG -e $EXPERIMENT_CONFIG -r $RUN_NAME"
 
 
 # Environment with POGG after lexicon rework
@@ -77,7 +77,7 @@ dependencies = [
   "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity_lex-refactor"
 ]
 [tool.hatch.envs.post-perplexity-lex-refactor.scripts]
-perplexity_refactor_trace = "python experiment_routine__lex_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+perplexity_refactor_trace = "python experiment_routine__lex_refactor.py -c $COMPOSITION_CONFIG -e $EXPERIMENT_CONFIG -r $RUN_NAME"
 
 
 # Environment with POGG after evaluation rework
@@ -86,7 +86,7 @@ dependencies = [
   "pogg@git+https://github.com/lizcconrad/POGG.git@post-perplexity_eval-refactor"
 ]
 [tool.hatch.envs.post-perplexity-eval-refactor.scripts]
-perplexity_refactor_trace = "python experiment_routine__eval_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+perplexity_refactor_trace = "python experiment_routine__eval_refactor.py -c $COMPOSITION_CONFIG -e $EXPERIMENT_CONFIG -r $RUN_NAME"
 
 
 # Environment with POGG after dividing repos
@@ -96,7 +96,7 @@ dependencies = [
   "pogg-semantics@git+https://github.com/lizcconrad/pogg-semantics.git@post-perplexity"
 ]
 [tool.hatch.envs.post-perplexity-divide-repos.scripts]
-perplexity_refactor_trace = "python experiment_routine__eval_refactor.py -c $COMPOSITION_CONFIG -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
+perplexity_refactor_trace = "python experiment_routine__eval_refactor.py -c $COMPOSITION_CONFIG -e $EXPERIMENT_CONFIG -r $RUN_NAME"
 
 
 # Environment with POGG after improving config setup
@@ -106,9 +106,8 @@ dependencies = [
   "pogg-semantics@git+https://github.com/lizcconrad/pogg-semantics.git@post-perplexity_abspath_patch"
 ]
 [tool.hatch.envs.post-perplexity-config-refactor.scripts]
-perplexity_refactor_trace = "python experiment_routine__config_refactor.py -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
-perplexity = "python experiment_routine.py -e $POST_PERPLEXITY_PERPLEXITY_CONFIG -r $POST_PERPLEXITY_PERPLEXITY_RUN_NAME"
-
+perplexity_refactor_trace = "python experiment_routine__config_refactor.py -e $EXPERIMENT_CONFIG -r $RUN_NAME"
+run_experiments = "python experiment_routine.py -e $EXPERIMENT_CONFIG -r $RUN_NAME"
 
 
 

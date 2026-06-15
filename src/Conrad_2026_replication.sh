@@ -1,10 +1,16 @@
 export COMPOSITION_CONFIG=../configuration_data/pogg_config.json
 
-# run using environment with final post-perplexity version of POGG after the refactor
-export POST_PERPLEXITY_PERPLEXITY_CONFIG=../datasets/perplexity/configs/perplexity_Conrad_2026_config.json
-# run name is prepended to experiment name
-export POST_PERPLEXITY_PERPLEXITY_RUN_NAME="post_perplexity_"
-hatch run post-perplexity-config-refactor:perplexity
+## RUN ALL DATASETS USING post-perplexity VERSION OF POGG ##
+export RUN_NAME="post_perplexity_" # run name is prepended to experiment name
+# perplexity
+export EXPERIMENT_CONFIG=../datasets/perplexity/configs/perplexity_Conrad_2026_config.json
+hatch run post-perplexity-config-refactor:run_experiments
+
+# WebNLG
+export EXPERIMENT_CONFIG=../datasets/WebNLG/configs/WebNLG_Conrad_2026_config.json
+hatch run post-perplexity-config-refactor:run_experiments
+
+
 
 
 # run experiment routine on each dataset
