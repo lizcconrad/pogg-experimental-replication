@@ -1,0 +1,96 @@
+{
+    "node_keys": {
+        "\"County Manager\"": {
+            "comp_fxn": ""
+        },
+        "15100000000": {
+            "comp_fxn": ""
+        },
+        "58.38": {
+            "comp_fxn": ""
+        },
+        "Brazil": {
+            "comp_fxn": ""
+        },
+        "Chinabank": {
+            "comp_fxn": ""
+        },
+        "C\u00e1rmen_L\u00facia": {
+            "comp_fxn": ""
+        },
+        "Dublin_(European_Parliament_constituency)": {
+            "comp_fxn": ""
+        },
+        "Felipe_Gozon": {
+            "comp_fxn": ""
+        },
+        "GMA_New_Media": {
+            "comp_fxn": ""
+        },
+        "La_Crosse,_Wisconsin": {
+            "comp_fxn": ""
+        },
+        "Media_company": {
+            "comp_fxn": ""
+        },
+        "Pangasinense_people": {
+            "comp_fxn": ""
+        },
+        "Philippine_Entertainment_Portal": {
+            "comp_fxn": ""
+        },
+        "Philippines": {
+            "comp_fxn": ""
+        },
+        "Rodrigo_Duterte": {
+            "comp_fxn": ""
+        },
+        "Swords,_Dublin": {
+            "comp_fxn": ""
+        },
+        "United States of America": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "World_Wide_Web": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "areaTotal": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "keyPerson": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "leaderTitle": {
+            "comp_fxn": ""
+        },
+        "longName": {
+            "comp_fxn": ""
+        },
+        "netIncome": {
+            "comp_fxn": ""
+        },
+        "parentCompany": {
+            "comp_fxn": ""
+        },
+        "product": {
+            "comp_fxn": ""
+        },
+        "type": {
+            "comp_fxn": ""
+        }
+    }
+}

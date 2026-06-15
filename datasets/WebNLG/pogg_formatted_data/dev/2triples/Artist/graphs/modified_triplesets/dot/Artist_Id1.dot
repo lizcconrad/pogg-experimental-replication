@@ -1,0 +1,7 @@
+strict digraph {
+Aaron_Bertram [lexicon_key="Aaron_Bertram"];
+Suburban_Legends [lexicon_key="Suburban_Legends"];
+Kids_Imagine_Nation [lexicon_key="Kids_Imagine_Nation"];
+Aaron_Bertram -> Suburban_Legends [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Aaron_Bertram -> Kids_Imagine_Nation [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

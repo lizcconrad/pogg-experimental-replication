@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Alfred_Moore_Scales": {
+            "lexicon_key": "Alfred_Moore_Scales"
+        },
+        "Overland_Campaign": {
+            "lexicon_key": "Overland_Campaign"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Alfred_Moore_Scales",
+            "child_node": "Overland_Campaign",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfred Moore Scales fought in the Overland Campaign."
+        }
+    },
+    "gold_outputs": [
+        "Alfred Moore Scales fought in the Overland Campaign."
+    ]
+}

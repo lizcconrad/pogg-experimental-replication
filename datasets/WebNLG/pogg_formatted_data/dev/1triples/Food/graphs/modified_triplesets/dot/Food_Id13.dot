@@ -1,0 +1,5 @@
+strict digraph {
+Bakso [lexicon_key=Bakso];
+Noodle [lexicon_key=Noodle];
+Bakso -> Noodle [label=ingredient, lexicon_key=ingredient];
+}

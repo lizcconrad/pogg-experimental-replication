@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Albert_B._White": {
+            "lexicon_key": "Albert_B._White"
+        },
+        "Parkersburg,_West_Virginia": {
+            "lexicon_key": "Parkersburg,_West_Virginia"
+        },
+        "William_M._O._Dawson": {
+            "lexicon_key": "William_M._O._Dawson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Albert_B._White",
+            "child_node": "Parkersburg,_West_Virginia",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Albert_B._White",
+            "child_node": "William_M._O._Dawson",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albert B White died at Parkersburg, West Virginia and his successor was William M. O. Dawson."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albert B White died at Parkersburg, West Virginia and he was succeeded by William M.O. Dawson."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "William M.O. Dawson was the successor to Albert B. White, who died in Parkersburg, West Virginia."
+        }
+    },
+    "gold_outputs": [
+        "Albert B White died at Parkersburg, West Virginia and he was succeeded by William M.O. Dawson.",
+        "Albert B White died at Parkersburg, West Virginia and his successor was William M. O. Dawson.",
+        "William M.O. Dawson was the successor to Albert B. White, who died in Parkersburg, West Virginia."
+    ]
+}

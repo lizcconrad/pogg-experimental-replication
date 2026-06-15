@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AIP_Advances": {
+            "lexicon_key": "AIP_Advances"
+        },
+        "A.T._Charlie_Johnson": {
+            "lexicon_key": "A.T._Charlie_Johnson"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "American_Institute_of_Physics": {
+            "lexicon_key": "American_Institute_of_Physics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editor",
+            "parent_node": "AIP_Advances",
+            "child_node": "A.T._Charlie_Johnson",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        },
+        {
+            "edge_name": "residence",
+            "parent_node": "A.T._Charlie_Johnson",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "publisher",
+            "parent_node": "AIP_Advances",
+            "child_node": "American_Institute_of_Physics",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.T. Charlie Johnson, who lives in the US, is the editor of AIP Advances which is published by the American Institute of Physics."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A T Charlie Johnson resides in the United States and is the editor of AIP Advances which is published by the American Institute of Physics."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A T Charlie Johnson lives in the US and is the editor of AIP Advances which was published by the American Institute of Physics."
+        }
+    },
+    "gold_outputs": [
+        "A T Charlie Johnson lives in the US and is the editor of AIP Advances which was published by the American Institute of Physics.",
+        "A T Charlie Johnson resides in the United States and is the editor of AIP Advances which is published by the American Institute of Physics.",
+        "A.T. Charlie Johnson, who lives in the US, is the editor of AIP Advances which is published by the American Institute of Physics."
+    ]
+}

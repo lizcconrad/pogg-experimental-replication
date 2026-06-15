@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AIP_Advances": {
+            "lexicon_key": "AIP_Advances"
+        },
+        "A.T._Charlie_Johnson": {
+            "lexicon_key": "A.T._Charlie_Johnson"
+        },
+        "\"AIP Adv.\"": {
+            "lexicon_key": "\"AIP Adv.\""
+        },
+        "\"AAIDBI\"": {
+            "lexicon_key": "\"AAIDBI\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "editor",
+            "parent_node": "AIP_Advances",
+            "child_node": "A.T._Charlie_Johnson",
+            "edge_properties": {
+                "lexicon_key": "editor"
+            }
+        },
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "AIP_Advances",
+            "child_node": "\"AIP Adv.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "codenCode",
+            "parent_node": "AIP_Advances",
+            "child_node": "\"AAIDBI\"",
+            "edge_properties": {
+                "lexicon_key": "codenCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AIP Advances, or AIP Adv., has a CODEN of AAIDBI and is edited by A. T. Charlie Johnson."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A T Charlie Johnson is the editor of AIP Advances which is abbreviated to AIP Adv and has a CODEN code of AAIDBI."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "\"AIP Adv.\" is the abbreviation of AIP Advances which is edited by A T Charlie Johnson and has the CODEN code AAIDBI."
+        }
+    },
+    "gold_outputs": [
+        "\"AIP Adv.\" is the abbreviation of AIP Advances which is edited by A T Charlie Johnson and has the CODEN code AAIDBI.",
+        "A T Charlie Johnson is the editor of AIP Advances which is abbreviated to AIP Adv and has a CODEN code of AAIDBI.",
+        "AIP Advances, or AIP Adv., has a CODEN of AAIDBI and is edited by A. T. Charlie Johnson."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        },
+        "Garth_Nix": {
+            "lexicon_key": "Garth_Nix"
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        },
+        "\"0-439-17684-0\"": {
+            "lexicon_key": "\"0-439-17684-0\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "Aenir",
+            "child_node": "Garth_Nix",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "Aenir",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "Aenir",
+            "child_node": "\"0-439-17684-0\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aenir has the ISBN number of \"0-439-17684-0\", it was written by Garth Nix and was produced in print."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Garth Nix is the author of Aenir. It appeared in print and can be found by ISBN number 0-439-17684-0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aenir was written by Garth Nix and has an ISBN number of 0-439-17684-0. The book is in the print form."
+        }
+    },
+    "gold_outputs": [
+        "Aenir has the ISBN number of \"0-439-17684-0\", it was written by Garth Nix and was produced in print.",
+        "Aenir was written by Garth Nix and has an ISBN number of 0-439-17684-0. The book is in the print form.",
+        "Garth Nix is the author of Aenir. It appeared in print and can be found by ISBN number 0-439-17684-0."
+    ]
+}

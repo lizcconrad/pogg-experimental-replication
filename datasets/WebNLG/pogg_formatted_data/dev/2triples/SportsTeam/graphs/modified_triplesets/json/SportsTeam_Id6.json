@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A.F.C._Blackpool": {
+            "lexicon_key": "A.F.C._Blackpool"
+        },
+        "Stuart_Parker_(footballer)": {
+            "lexicon_key": "Stuart_Parker_(footballer)"
+        },
+        "Runcorn_F.C._Halton": {
+            "lexicon_key": "Runcorn_F.C._Halton"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.F.C._Blackpool",
+            "child_node": "Stuart_Parker_(footballer)",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Runcorn_F.C._Halton",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The manager of A.F.C. Blackpool is Stuart Parker (footballer) who plays for Runcorn F.C. Halton."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Blackpool have had Stuart Parker as their manager who was a football player for Runcorn FC Halton."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The manager of A.F.C. Blackpool is Stuart Parker (footballer), he played for Runcorn FC Halton."
+        }
+    },
+    "gold_outputs": [
+        "AFC Blackpool have had Stuart Parker as their manager who was a football player for Runcorn FC Halton.",
+        "The manager of A.F.C. Blackpool is Stuart Parker (footballer) who plays for Runcorn F.C. Halton.",
+        "The manager of A.F.C. Blackpool is Stuart Parker (footballer), he played for Runcorn FC Halton."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Point_Fortin": {
+            "lexicon_key": "Point_Fortin"
+        },
+        "Trinidad": {
+            "lexicon_key": "Trinidad"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Point_Fortin",
+            "child_node": "Trinidad",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Point Fortin is in Trinidad."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Point Fortin is located in Trinidad."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Point Fortin is located in the country of Trinidad."
+        }
+    },
+    "gold_outputs": [
+        "Point Fortin is in Trinidad.",
+        "Point Fortin is located in Trinidad.",
+        "Point Fortin is located in the country of Trinidad."
+    ]
+}

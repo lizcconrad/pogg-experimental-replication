@@ -1,0 +1,9 @@
+strict digraph {
+Akita_Museum_of_Art [lexicon_key="Akita_Museum_of_Art"];
+3 [lexicon_key=3];
+"2013-09-28" [lexicon_key="2013-09-28"];
+"3746.66 (square metres)" [lexicon_key="3746.66 (square metres)"];
+Akita_Museum_of_Art -> 3 [label=floorCount, lexicon_key=floorCount];
+Akita_Museum_of_Art -> "2013-09-28" [label=inaugurationDate, lexicon_key=inaugurationDate];
+Akita_Museum_of_Art -> "3746.66 (square metres)" [label=floorArea, lexicon_key=floorArea];
+}

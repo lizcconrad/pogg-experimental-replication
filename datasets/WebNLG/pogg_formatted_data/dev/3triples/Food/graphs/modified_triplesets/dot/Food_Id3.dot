@@ -1,0 +1,9 @@
+strict digraph {
+"Arem-arem" [lexicon_key="Arem-arem"];
+Indonesia [lexicon_key=Indonesia];
+Joko_Widodo [lexicon_key="Joko_Widodo"];
+Jusuf_Kalla [lexicon_key="Jusuf_Kalla"];
+"Arem-arem" -> Indonesia [label=country, lexicon_key=country];
+Indonesia -> Joko_Widodo [label=leader, lexicon_key=leader];
+Indonesia -> Jusuf_Kalla [label=leader, lexicon_key=leader];
+}

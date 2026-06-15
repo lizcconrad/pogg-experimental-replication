@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "Kota_Samarahan": {
+            "lexicon_key": "Kota_Samarahan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Kota_Samarahan",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud is from Kota Samarahan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud is from the region of Kota Samarahan."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud lived in the Kota Samarahan region."
+        }
+    },
+    "gold_outputs": [
+        "Abdul Taib Mahmud is from Kota Samarahan.",
+        "Abdul Taib Mahmud is from the region of Kota Samarahan.",
+        "Abdul Taib Mahmud lived in the Kota Samarahan region."
+    ]
+}

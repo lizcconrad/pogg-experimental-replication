@@ -1,0 +1,5 @@
+strict digraph {
+Andrew_Rayel [lexicon_key="Andrew_Rayel"];
+"Chișinău, Moldova" [lexicon_key="Chișinău, Moldova"];
+Andrew_Rayel -> "Chișinău, Moldova" [label=birthPlace, lexicon_key=birthPlace];
+}

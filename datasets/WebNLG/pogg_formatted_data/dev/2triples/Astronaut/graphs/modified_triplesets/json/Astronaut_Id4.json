@@ -1,0 +1,70 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        },
+        "NASA": {
+            "lexicon_key": "NASA"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "operator",
+            "parent_node": "Apollo_11",
+            "child_node": "NASA",
+            "edge_properties": {
+                "lexicon_key": "operator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Apollo 11 program was organized by NASA and included Buzz Aldrin as one of its crew members."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "NASA operated the Apollo 11 program of which Buzz Aldrin was a member."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Buzz Aldrin was on Apollo 11 which NASA operated."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Buzz Aldrin served as a crew member of Apollo 11 which is operated by NASA."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "Buzz Aldrin was a crew member of Apollo 11 - whose operator was NASA."
+        },
+        "Id6": {
+            "comment": "good",
+            "text": "Buzz aldrin was a crew member of apollo 11, which was operated by NASA."
+        },
+        "Id7": {
+            "comment": "good",
+            "text": "Buzz Aldrin was a crew member of NASA's Apollo 11."
+        }
+    },
+    "gold_outputs": [
+        "Buzz Aldrin served as a crew member of Apollo 11 which is operated by NASA.",
+        "Buzz Aldrin was a crew member of Apollo 11 - whose operator was NASA.",
+        "Buzz Aldrin was a crew member of NASA's Apollo 11.",
+        "Buzz Aldrin was on Apollo 11 which NASA operated.",
+        "Buzz aldrin was a crew member of apollo 11, which was operated by NASA.",
+        "NASA operated the Apollo 11 program of which Buzz Aldrin was a member.",
+        "The Apollo 11 program was organized by NASA and included Buzz Aldrin as one of its crew members."
+    ]
+}

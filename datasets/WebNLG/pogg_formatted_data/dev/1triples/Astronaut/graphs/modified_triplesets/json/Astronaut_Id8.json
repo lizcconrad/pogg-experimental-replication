@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "University_of_Texas_at_Austin": {
+            "lexicon_key": "University_of_Texas_at_Austin"
+        },
+        "Hook_'em_(mascot)": {
+            "lexicon_key": "Hook_'em_(mascot)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mascot",
+            "parent_node": "University_of_Texas_at_Austin",
+            "child_node": "Hook_'em_(mascot)",
+            "edge_properties": {
+                "lexicon_key": "mascot"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The University of Texas at Austin's mascot is called Hook'em."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Hook'em is the mascot for the University of Texas at Austin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The mascot of the University of Texas at Austin is Hook'em."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The Hook 'em is the mascot of University of Texas at Austin."
+        }
+    },
+    "gold_outputs": [
+        "Hook'em is the mascot for the University of Texas at Austin.",
+        "The Hook 'em is the mascot of University of Texas at Austin.",
+        "The University of Texas at Austin's mascot is called Hook'em.",
+        "The mascot of the University of Texas at Austin is Hook'em."
+    ]
+}

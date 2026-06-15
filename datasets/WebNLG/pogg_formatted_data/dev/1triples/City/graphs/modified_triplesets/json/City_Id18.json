@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Antioch,_California": {
+            "lexicon_key": "Antioch,_California"
+        },
+        "California's_11th_State_Assembly_district": {
+            "lexicon_key": "California's_11th_State_Assembly_district"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Antioch,_California",
+            "child_node": "California's_11th_State_Assembly_district",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader title of Antioch, California, is California's 11th State Assembly district."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The leader title of Antioch California is California's 11th State Assembly district."
+        }
+    },
+    "gold_outputs": [
+        "The leader title of Antioch California is California's 11th State Assembly district.",
+        "The leader title of Antioch, California, is California's 11th State Assembly district."
+    ]
+}

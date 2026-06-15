@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "Live_Nation_Entertainment": {
+            "lexicon_key": "Live_Nation_Entertainment"
+        },
+        "Dublin": {
+            "lexicon_key": "Dublin"
+        },
+        "Republic_of_Ireland": {
+            "lexicon_key": "Republic_of_Ireland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "owner",
+            "parent_node": "3Arena",
+            "child_node": "Live_Nation_Entertainment",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Dublin",
+            "child_node": "Republic_of_Ireland",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "3Arena",
+            "child_node": "Dublin",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The owner of 3Arena is Live Nation Entertainment which is located in Dublin, Ireland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "3Arena is owned by Live Nation Entertainment, and is located in Dublin, Republic of Ireland."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "3Arena in Dublin, Republic of Ireland is owned by Live Nation Entertainment."
+        }
+    },
+    "gold_outputs": [
+        "3Arena in Dublin, Republic of Ireland is owned by Live Nation Entertainment.",
+        "3Arena is owned by Live Nation Entertainment, and is located in Dublin, Republic of Ireland.",
+        "The owner of 3Arena is Live Nation Entertainment which is located in Dublin, Ireland."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Swords,_Dublin" [lexicon_key="Swords,_Dublin"];
+"Dublin_(European_Parliament_constituency)" [lexicon_key="Dublin_(European_Parliament_constituency)"];
+"Swords,_Dublin" -> "Dublin_(European_Parliament_constituency)" [label=isPartOf, lexicon_key=isPartOf];
+}

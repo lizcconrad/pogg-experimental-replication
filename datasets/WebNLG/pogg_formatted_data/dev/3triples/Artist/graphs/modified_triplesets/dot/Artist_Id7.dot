@@ -1,0 +1,9 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Black_metal [lexicon_key="Black_metal"];
+Electric_guitar [lexicon_key="Electric_guitar"];
+Death_metal [lexicon_key="Death_metal"];
+Aaron_Turner -> Black_metal [label=genre, lexicon_key=genre];
+Aaron_Turner -> Electric_guitar [label=instrument, lexicon_key=instrument];
+Black_metal -> Death_metal [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

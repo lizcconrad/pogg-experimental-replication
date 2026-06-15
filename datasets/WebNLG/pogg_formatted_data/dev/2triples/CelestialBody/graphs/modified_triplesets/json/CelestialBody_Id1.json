@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "(410777)_2009_FD": {
+            "lexicon_key": "(410777)_2009_FD"
+        },
+        "259776702.47055 (kilometres)": {
+            "lexicon_key": "259776702.47055 (kilometres)"
+        },
+        "211.0 (kelvins)": {
+            "lexicon_key": "211.0 (kelvins)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "(410777)_2009_FD",
+            "child_node": "259776702.47055 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        },
+        {
+            "edge_name": "minimumTemperature",
+            "parent_node": "(410777)_2009_FD",
+            "child_node": "211.0 (kelvins)",
+            "edge_properties": {
+                "lexicon_key": "minimumTemperature"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(410777) 2009 FD has an apoapsis of 259776702.47055 kilometres and a minimum temperature of 211.0 kelvins."
+        }
+    },
+    "gold_outputs": [
+        "(410777) 2009 FD has an apoapsis of 259776702.47055 kilometres and a minimum temperature of 211.0 kelvins."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "\"Blue, White and Orange\"": {
+            "lexicon_key": "\"Blue, White and Orange\""
+        },
+        "All_India_Council_for_Technical_Education": {
+            "lexicon_key": "All_India_Council_for_Technical_Education"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "officialSchoolColour",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"Blue, White and Orange\"",
+            "edge_properties": {
+                "lexicon_key": "officialSchoolColour"
+            }
+        },
+        {
+            "edge_name": "wasGivenTheTechnicalCampusStatusBy",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "All_India_Council_for_Technical_Education",
+            "edge_properties": {
+                "lexicon_key": "wasGivenTheTechnicalCampusStatusBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The All India Council for Technical Education gave the Acharya Institute of Technology the status of \"Technical Campus\". The official school colours are blue, white and orange."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The official school colours for Acharya Institute of Technology are blue, white and orange and the school got its Technical Campus status from the All India Council for Technical Education."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Acharya Institute of Technology (official colour blue, white and orange) has been given the 'Technical Campus' status by All India Council for Technical Education."
+        }
+    },
+    "gold_outputs": [
+        "The Acharya Institute of Technology (official colour blue, white and orange) has been given the 'Technical Campus' status by All India Council for Technical Education.",
+        "The All India Council for Technical Education gave the Acharya Institute of Technology the status of \"Technical Campus\". The official school colours are blue, white and orange.",
+        "The official school colours for Acharya Institute of Technology are blue, white and orange and the school got its Technical Campus status from the All India Council for Technical Education."
+    ]
+}

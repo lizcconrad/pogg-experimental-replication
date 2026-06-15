@@ -1,0 +1,9 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+"Twilight_(band)" [lexicon_key="Twilight_(band)"];
+Greymachine [lexicon_key=Greymachine];
+Drone_music [lexicon_key="Drone_music"];
+Aaron_Turner -> "Twilight_(band)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Aaron_Turner -> Greymachine [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Aaron_Turner -> Drone_music [label=genre, lexicon_key=genre];
+}

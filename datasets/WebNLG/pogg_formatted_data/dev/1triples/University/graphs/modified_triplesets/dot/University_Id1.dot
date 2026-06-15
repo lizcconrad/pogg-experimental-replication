@@ -1,0 +1,5 @@
+strict digraph {
+Accademia_di_Architettura_di_Mendrisio [lexicon_key="Accademia_di_Architettura_di_Mendrisio"];
+100 [lexicon_key=100];
+Accademia_di_Architettura_di_Mendrisio -> 100 [label=academicStaffSize, lexicon_key=academicStaffSize];
+}

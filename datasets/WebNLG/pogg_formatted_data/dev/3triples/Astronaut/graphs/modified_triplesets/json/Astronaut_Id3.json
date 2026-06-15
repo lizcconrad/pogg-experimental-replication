@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "\"Edwin E. Aldrin, Jr.\"": {
+            "lexicon_key": "\"Edwin E. Aldrin, Jr.\""
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        },
+        "\"Massachusetts Institute of Technology, Sc.D. 1963\"": {
+            "lexicon_key": "\"Massachusetts Institute of Technology, Sc.D. 1963\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"Edwin E. Aldrin, Jr.\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"Massachusetts Institute of Technology, Sc.D. 1963\"",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Buzz Aldrin, also called Edwin E. Aldrin Jr., graduated in 1963 from MIT with a Sc.D. and was a crew member on Apollo 11."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Buzz Aldrin, whose real name was Edwin E. Aldrin, Jr., graduated from Massachusetts Institute of Technology in 1963 with a doctorate in Science and later became a crew member of Apollo 11."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Buzz Aldrin (AKA Edwin E Aldrin Jr) graduated in 1963 from MIT with a Sc.D. was a crew member of Apollo 11."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Buzz Aldrin, whose real name is Edwin E. Aldrin Jr., was a member of Apollo 11 who in 1963 graduated with a Sc. D. from MIT."
+        }
+    },
+    "gold_outputs": [
+        "Buzz Aldrin (AKA Edwin E Aldrin Jr) graduated in 1963 from MIT with a Sc.D. was a crew member of Apollo 11.",
+        "Buzz Aldrin, also called Edwin E. Aldrin Jr., graduated in 1963 from MIT with a Sc.D. and was a crew member on Apollo 11.",
+        "Buzz Aldrin, whose real name is Edwin E. Aldrin Jr., was a member of Apollo 11 who in 1963 graduated with a Sc. D. from MIT.",
+        "Buzz Aldrin, whose real name was Edwin E. Aldrin, Jr., graduated from Massachusetts Institute of Technology in 1963 with a doctorate in Science and later became a crew member of Apollo 11."
+    ]
+}

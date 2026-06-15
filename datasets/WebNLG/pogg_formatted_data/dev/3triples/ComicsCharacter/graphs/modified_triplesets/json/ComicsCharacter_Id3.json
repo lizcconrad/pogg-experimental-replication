@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Bill_Oddie": {
+            "lexicon_key": "Bill_Oddie"
+        },
+        "\"1983-10-03\"": {
+            "lexicon_key": "\"1983-10-03\""
+        },
+        "\"STV\"": {
+            "lexicon_key": "\"STV\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Bill_Oddie",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "firstAired",
+            "parent_node": "Bananaman",
+            "child_node": "\"1983-10-03\"",
+            "edge_properties": {
+                "lexicon_key": "firstAired"
+            }
+        },
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "\"STV\"",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bill Oddie starred in Bananaman which first aired on 3 October 1983 and was broadcast by STV."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bill Oddie starred in Bananaman which was first aired on 3 October 1983 and broadcast by STV."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bananaman which first aired on October 3rd, 1983 stars Billie Oddie and is broadcasted by STV."
+        }
+    },
+    "gold_outputs": [
+        "Bananaman which first aired on October 3rd, 1983 stars Billie Oddie and is broadcasted by STV.",
+        "Bill Oddie starred in Bananaman which first aired on 3 October 1983 and was broadcast by STV.",
+        "Bill Oddie starred in Bananaman which was first aired on 3 October 1983 and broadcast by STV."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"A.E_Dimitra_Efxeinoupolis" [lexicon_key="A.E_Dimitra_Efxeinoupolis"];
+Greece [lexicon_key=Greece];
+Nikos_Voutsis [lexicon_key="Nikos_Voutsis"];
+Prokopis_Pavlopoulos [lexicon_key="Prokopis_Pavlopoulos"];
+"A.E_Dimitra_Efxeinoupolis" -> Greece [label=location, lexicon_key=location];
+Greece -> Nikos_Voutsis [label=leader, lexicon_key=leader];
+Greece -> Prokopis_Pavlopoulos [label=leader, lexicon_key=leader];
+}

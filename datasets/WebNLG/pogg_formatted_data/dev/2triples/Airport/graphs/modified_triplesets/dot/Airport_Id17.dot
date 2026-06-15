@@ -1,0 +1,7 @@
+strict digraph {
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+"Flemish department of Mobility and Public Works" [lexicon_key="Flemish department of Mobility and Public Works"];
+12.0 [lexicon_key=12.0];
+Antwerp_International_Airport -> "Flemish department of Mobility and Public Works" [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+Antwerp_International_Airport -> 12.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

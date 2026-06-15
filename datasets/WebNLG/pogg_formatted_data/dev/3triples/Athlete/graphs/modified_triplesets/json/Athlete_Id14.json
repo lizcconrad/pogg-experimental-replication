@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alan_Martin_(footballer)": {
+            "lexicon_key": "Alan_Martin_(footballer)"
+        },
+        "Hamilton_Academical_F.C.": {
+            "lexicon_key": "Hamilton_Academical_F.C."
+        },
+        "1989-01-01": {
+            "lexicon_key": "1989-01-01"
+        },
+        "Crewe_Alexandra_F.C.": {
+            "lexicon_key": "Crewe_Alexandra_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Hamilton_Academical_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "1989-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Crewe_Alexandra_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Martin, born on the 1st January 1989, played for Crewe Alexandra FC. and Hamilton Academical FC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Martin was born on 1 January 1989 and plays football for Hamilton Academical FC and Crewe Alexandra FC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Footballer, Alan Martin, born 1st January 1989, used to play for Hamilton Academical F.C and now plays for Crewe Alexandra F.C."
+        }
+    },
+    "gold_outputs": [
+        "Alan Martin was born on 1 January 1989 and plays football for Hamilton Academical FC and Crewe Alexandra FC.",
+        "Alan Martin, born on the 1st January 1989, played for Crewe Alexandra FC. and Hamilton Academical FC.",
+        "Footballer, Alan Martin, born 1st January 1989, used to play for Hamilton Academical F.C and now plays for Crewe Alexandra F.C."
+    ]
+}

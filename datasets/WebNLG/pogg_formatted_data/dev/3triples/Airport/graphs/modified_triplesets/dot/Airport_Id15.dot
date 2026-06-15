@@ -1,0 +1,9 @@
+strict digraph {
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+Flemish_Government [lexicon_key="Flemish_Government"];
+Flemish_Region [lexicon_key="Flemish_Region"];
+12.0 [lexicon_key=12.0];
+Antwerp_International_Airport -> Flemish_Government [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+Antwerp_International_Airport -> Flemish_Region [label=owner, lexicon_key=owner];
+Antwerp_International_Airport -> 12.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

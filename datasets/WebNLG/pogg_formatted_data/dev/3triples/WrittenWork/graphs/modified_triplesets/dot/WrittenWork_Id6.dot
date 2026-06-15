@@ -1,0 +1,9 @@
+strict digraph {
+ACM_Transactions_on_Information_Systems [lexicon_key="ACM_Transactions_on_Information_Systems"];
+"ACM Trans. Inf. Syst." [lexicon_key="ACM Trans. Inf. Syst."];
+Computer_science [lexicon_key="Computer_science"];
+"1046-8188" [lexicon_key="1046-8188"];
+ACM_Transactions_on_Information_Systems -> "ACM Trans. Inf. Syst." [label=abbreviation, lexicon_key=abbreviation];
+ACM_Transactions_on_Information_Systems -> Computer_science [label=academicDiscipline, lexicon_key=academicDiscipline];
+ACM_Transactions_on_Information_Systems -> "1046-8188" [label=issnNumber, lexicon_key=issnNumber];
+}

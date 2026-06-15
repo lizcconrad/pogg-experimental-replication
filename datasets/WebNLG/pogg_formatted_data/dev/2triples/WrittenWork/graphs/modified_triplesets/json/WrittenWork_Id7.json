@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Glastonbury_Romance": {
+            "lexicon_key": "A_Glastonbury_Romance"
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        },
+        "\"0-7156-3648-0\"": {
+            "lexicon_key": "\"0-7156-3648-0\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "\"0-7156-3648-0\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Glastonbury Romance has the ISBN number 0-7156-3648-0 and is in print."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Glastonbury Romance with ISBN 0-7156-3648-0 is available in print."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The ISBN number of the currently in print book, \"A Glastonbury Romance,\" is 0-7156-3648-0."
+        }
+    },
+    "gold_outputs": [
+        "A Glastonbury Romance has the ISBN number 0-7156-3648-0 and is in print.",
+        "A Glastonbury Romance with ISBN 0-7156-3648-0 is available in print.",
+        "The ISBN number of the currently in print book, \"A Glastonbury Romance,\" is 0-7156-3648-0."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Indiana": {
+            "lexicon_key": "Indiana"
+        },
+        "Indianapolis": {
+            "lexicon_key": "Indianapolis"
+        },
+        "Attica,_Indiana": {
+            "lexicon_key": "Attica,_Indiana"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "Indiana",
+            "child_node": "Indianapolis",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Attica,_Indiana",
+            "child_node": "Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Attica is part of Indiana, where Indianapolis is the capital."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Attica is part of the state of Indiana where the capital is Indianapolis."
+        }
+    },
+    "gold_outputs": [
+        "Attica is part of Indiana, where Indianapolis is the capital.",
+        "Attica is part of the state of Indiana where the capital is Indianapolis."
+    ]
+}

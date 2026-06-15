@@ -1,0 +1,5 @@
+strict digraph {
+"Abilene,_Texas" [lexicon_key="Abilene,_Texas"];
+325 [lexicon_key=325];
+"Abilene,_Texas" -> 325 [label=areaCode, lexicon_key=areaCode];
+}

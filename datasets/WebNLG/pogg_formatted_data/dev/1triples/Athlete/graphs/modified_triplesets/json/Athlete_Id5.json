@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abner_(footballer)": {
+            "lexicon_key": "Abner_(footballer)"
+        },
+        "C.D._FAS": {
+            "lexicon_key": "C.D._FAS"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Abner_(footballer)",
+            "child_node": "C.D._FAS",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The footballer Abner belongs to the club C.D. FAS."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The footballer Abner plays for C.D. FAS."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abner is a footballer for the CD FAS club."
+        }
+    },
+    "gold_outputs": [
+        "Abner is a footballer for the CD FAS club.",
+        "The footballer Abner belongs to the club C.D. FAS.",
+        "The footballer Abner plays for C.D. FAS."
+    ]
+}

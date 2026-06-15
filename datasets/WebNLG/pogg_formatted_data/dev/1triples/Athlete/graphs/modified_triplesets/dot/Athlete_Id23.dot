@@ -1,0 +1,5 @@
+strict digraph {
+Alex_Plante [lexicon_key="Alex_Plante"];
+1.9304 [lexicon_key=1.9304];
+Alex_Plante -> 1.9304 [label=height, lexicon_key=height];
+}

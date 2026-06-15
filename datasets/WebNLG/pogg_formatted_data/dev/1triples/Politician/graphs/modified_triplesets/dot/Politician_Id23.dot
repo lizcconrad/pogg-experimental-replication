@@ -1,0 +1,5 @@
+strict digraph {
+Alfred_Moore_Scales [lexicon_key="Alfred_Moore_Scales"];
+Overland_Campaign [lexicon_key="Overland_Campaign"];
+Alfred_Moore_Scales -> Overland_Campaign [label=battle, lexicon_key=battle];
+}

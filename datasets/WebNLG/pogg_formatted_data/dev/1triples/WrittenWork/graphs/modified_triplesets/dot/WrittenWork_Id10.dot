@@ -1,0 +1,5 @@
+strict digraph {
+"Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg" [lexicon_key="Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg"];
+32024459 [lexicon_key=32024459];
+"Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg" -> 32024459 [label="LCCN_number", lexicon_key="LCCN_number"];
+}

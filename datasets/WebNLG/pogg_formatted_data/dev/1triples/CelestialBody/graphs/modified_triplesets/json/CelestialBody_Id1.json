@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "(29075)_1950_DA": {
+            "lexicon_key": "(29075)_1950_DA"
+        },
+        "Carl_A._Wirtanen": {
+            "lexicon_key": "Carl_A._Wirtanen"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "(29075)_1950_DA",
+            "child_node": "Carl_A._Wirtanen",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(29075) 1950 DA was discovered by Carl A Wirtanen."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Carl A Wirtanen discovered (29075) 1950 DA."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Carl A Wirtanen was the discoverer of 29075 1950 DA."
+        }
+    },
+    "gold_outputs": [
+        "(29075) 1950 DA was discovered by Carl A Wirtanen.",
+        "Carl A Wirtanen discovered (29075) 1950 DA.",
+        "Carl A Wirtanen was the discoverer of 29075 1950 DA."
+    ]
+}

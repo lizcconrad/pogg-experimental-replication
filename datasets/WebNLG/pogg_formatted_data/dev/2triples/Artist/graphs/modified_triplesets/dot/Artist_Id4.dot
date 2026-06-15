@@ -1,0 +1,7 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+"Isis_(band)" [lexicon_key="Isis_(band)"];
+"Lotus_Eaters_(band)" [lexicon_key="Lotus_Eaters_(band)"];
+Aaron_Turner -> "Isis_(band)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Aaron_Turner -> "Lotus_Eaters_(band)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

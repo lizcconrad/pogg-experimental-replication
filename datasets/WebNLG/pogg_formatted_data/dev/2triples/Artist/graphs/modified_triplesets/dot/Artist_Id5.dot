@@ -1,0 +1,7 @@
+strict digraph {
+Abradab [lexicon_key=Abradab];
+Katowice [lexicon_key=Katowice];
+Poland [lexicon_key=Poland];
+Abradab -> Katowice [label=birthPlace, lexicon_key=birthPlace];
+Abradab -> Poland [label=birthPlace, lexicon_key=birthPlace];
+}

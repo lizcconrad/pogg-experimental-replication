@@ -1,0 +1,7 @@
+strict digraph {
+"Ballistic_(comicsCharacter)" [lexicon_key="Ballistic_(comicsCharacter)"];
+Doug_Moench [lexicon_key="Doug_Moench"];
+"Kelvin Mao" [lexicon_key="Kelvin Mao"];
+"Ballistic_(comicsCharacter)" -> Doug_Moench [label=creator, lexicon_key=creator];
+"Ballistic_(comicsCharacter)" -> "Kelvin Mao" [label=alternativeName, lexicon_key=alternativeName];
+}

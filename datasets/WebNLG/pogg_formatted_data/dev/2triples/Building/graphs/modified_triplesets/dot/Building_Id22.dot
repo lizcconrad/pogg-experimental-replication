@@ -1,0 +1,7 @@
+strict digraph {
+Gujarat [lexicon_key=Gujarat];
+Anandiben_Patel [lexicon_key="Anandiben_Patel"];
+Amdavad_ni_Gufa [lexicon_key="Amdavad_ni_Gufa"];
+Gujarat -> Anandiben_Patel [label=leader, lexicon_key=leader];
+Amdavad_ni_Gufa -> Gujarat [label=location, lexicon_key=location];
+}

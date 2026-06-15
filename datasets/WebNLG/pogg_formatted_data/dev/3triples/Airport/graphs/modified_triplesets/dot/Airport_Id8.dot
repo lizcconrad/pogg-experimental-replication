@@ -1,0 +1,9 @@
+strict digraph {
+Al_Asad_Airbase [lexicon_key="Al_Asad_Airbase"];
+United_States_Air_Force [lexicon_key="United_States_Air_Force"];
+Korean_War [lexicon_key="Korean_War"];
+Operation_Enduring_Freedom [lexicon_key="Operation_Enduring_Freedom"];
+Al_Asad_Airbase -> United_States_Air_Force [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+United_States_Air_Force -> Korean_War [label=battle, lexicon_key=battle];
+United_States_Air_Force -> Operation_Enduring_Freedom [label=battle, lexicon_key=battle];
+}

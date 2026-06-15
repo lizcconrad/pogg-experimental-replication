@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "AIDA_Cruises": {
+            "lexicon_key": "AIDA_Cruises"
+        },
+        "Rostock": {
+            "lexicon_key": "Rostock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "AIDA_Cruises",
+            "child_node": "Rostock",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The location of AIDA Cruises is Rostock."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AIDA Cruises are located at Rostock."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AIDA Cruises is based in Rostock."
+        }
+    },
+    "gold_outputs": [
+        "AIDA Cruises are located at Rostock.",
+        "AIDA Cruises is based in Rostock.",
+        "The location of AIDA Cruises is Rostock."
+    ]
+}

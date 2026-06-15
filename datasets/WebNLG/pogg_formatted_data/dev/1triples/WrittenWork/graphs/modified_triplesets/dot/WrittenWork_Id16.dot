@@ -1,0 +1,5 @@
+strict digraph {
+"Addiction_(journal)" [lexicon_key="Addiction_(journal)"];
+"Wiley-Blackwell" [lexicon_key="Wiley-Blackwell"];
+"Addiction_(journal)" -> "Wiley-Blackwell" [label=publisher, lexicon_key=publisher];
+}

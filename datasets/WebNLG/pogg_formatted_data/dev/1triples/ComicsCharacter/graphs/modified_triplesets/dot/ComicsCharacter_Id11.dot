@@ -1,0 +1,5 @@
+strict digraph {
+Bozo_the_Iron_Man [lexicon_key="Bozo_the_Iron_Man"];
+"Hugh Hazzard" [lexicon_key="Hugh Hazzard"];
+Bozo_the_Iron_Man -> "Hugh Hazzard" [label=fullName, lexicon_key=fullName];
+}

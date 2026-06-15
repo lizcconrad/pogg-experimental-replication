@@ -1,0 +1,5 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+Movieplay [lexicon_key=Movieplay];
+Alfredo_Zitarrosa -> Movieplay [label=recordLabel, lexicon_key=recordLabel];
+}

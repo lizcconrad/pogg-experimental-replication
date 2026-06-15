@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Poaceae": {
+            "lexicon_key": "Poaceae"
+        },
+        "Monocotyledon": {
+            "lexicon_key": "Monocotyledon"
+        },
+        "Commelinids": {
+            "lexicon_key": "Commelinids"
+        },
+        "Ardmore_Airport_(New_Zealand)": {
+            "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "class",
+            "parent_node": "Poaceae",
+            "child_node": "Monocotyledon",
+            "edge_properties": {
+                "lexicon_key": "class"
+            }
+        },
+        {
+            "edge_name": "order",
+            "parent_node": "Poaceae",
+            "child_node": "Commelinids",
+            "edge_properties": {
+                "lexicon_key": "order"
+            }
+        },
+        {
+            "edge_name": "2ndRunwaySurfaceType",
+            "parent_node": "Ardmore_Airport_(New_Zealand)",
+            "child_node": "Poaceae",
+            "edge_properties": {
+                "lexicon_key": "2ndRunwaySurfaceType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Poaceae is in the class Monocotyledon and the order of Commelinids. It is also the surface type of the second runway of Ardmore Airport, New Zealand."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae which belongs to the order of Commelinids and the class of Monocotyledon."
+        }
+    },
+    "gold_outputs": [
+        "Poaceae is in the class Monocotyledon and the order of Commelinids. It is also the surface type of the second runway of Ardmore Airport, New Zealand.",
+        "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae which belongs to the order of Commelinids and the class of Monocotyledon."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alhambra": {
+            "lexicon_key": "Alhambra"
+        },
+        "Humphrys,_Tennant_and_Dykes": {
+            "lexicon_key": "Humphrys,_Tennant_and_Dykes"
+        },
+        "Deptford": {
+            "lexicon_key": "Deptford"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "powerType",
+            "parent_node": "Alhambra",
+            "child_node": "Humphrys,_Tennant_and_Dykes",
+            "edge_properties": {
+                "lexicon_key": "powerType"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Humphrys,_Tennant_and_Dykes",
+            "child_node": "Deptford",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Humphrys, Tennant and Dykes are located in Deptford and power the Alhambra."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Humphrys, Tennant & Dykes is in Deptford and the Alhambra is powered by one of their engines."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alhambra is powered by a Humphrys, Tennant and Dykes engine, they are located in Deptford."
+        }
+    },
+    "gold_outputs": [
+        "Humphrys, Tennant & Dykes is in Deptford and the Alhambra is powered by one of their engines.",
+        "Humphrys, Tennant and Dykes are located in Deptford and power the Alhambra.",
+        "The Alhambra is powered by a Humphrys, Tennant and Dykes engine, they are located in Deptford."
+    ]
+}

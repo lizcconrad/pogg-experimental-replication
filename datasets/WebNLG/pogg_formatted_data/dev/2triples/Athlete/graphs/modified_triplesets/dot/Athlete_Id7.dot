@@ -1,0 +1,7 @@
+strict digraph {
+Akeem_Dent [lexicon_key="Akeem_Dent"];
+1987 [lexicon_key=1987];
+"Atlanta, Georgia" [lexicon_key="Atlanta, Georgia"];
+Akeem_Dent -> 1987 [label=birthYear, lexicon_key=birthYear];
+Akeem_Dent -> "Atlanta, Georgia" [label=birthPlace, lexicon_key=birthPlace];
+}

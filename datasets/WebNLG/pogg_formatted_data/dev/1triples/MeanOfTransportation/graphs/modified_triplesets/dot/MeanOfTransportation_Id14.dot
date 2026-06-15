@@ -1,0 +1,5 @@
+strict digraph {
+Acura_TLX [lexicon_key="Acura_TLX"];
+Honda_K_engine [lexicon_key="Honda_K_engine"];
+Acura_TLX -> Honda_K_engine [label=engine, lexicon_key=engine];
+}

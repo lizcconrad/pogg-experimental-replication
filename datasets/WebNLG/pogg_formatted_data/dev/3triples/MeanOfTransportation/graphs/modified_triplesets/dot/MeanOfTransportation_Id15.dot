@@ -1,0 +1,9 @@
+strict digraph {
+American_Motors [lexicon_key="American_Motors"];
+"Eagle_(automobile)" [lexicon_key="Eagle_(automobile)"];
+AMC_Matador [lexicon_key="AMC_Matador"];
+"Roy_D._Chapin,_Jr." [lexicon_key="Roy_D._Chapin,_Jr."];
+American_Motors -> "Eagle_(automobile)" [label=successor, lexicon_key=successor];
+American_Motors -> "Roy_D._Chapin,_Jr." [label=keyPerson, lexicon_key=keyPerson];
+AMC_Matador -> American_Motors [label=manufacturer, lexicon_key=manufacturer];
+}

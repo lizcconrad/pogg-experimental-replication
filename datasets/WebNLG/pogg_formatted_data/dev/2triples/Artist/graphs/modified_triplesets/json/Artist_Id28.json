@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Uruguay": {
+            "lexicon_key": "Uruguay"
+        },
+        "Tabar\u00e9_V\u00e1zquez": {
+            "lexicon_key": "Tabar\u00e9_V\u00e1zquez"
+        },
+        "Alfredo_Zitarrosa": {
+            "lexicon_key": "Alfredo_Zitarrosa"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Uruguay",
+            "child_node": "Tabar\u00e9_V\u00e1zquez",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alfredo_Zitarrosa",
+            "child_node": "Uruguay",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfredo Zitarrosa was born in Tabar\u00e9 V\u00e1zquez led Uruguay."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfredo Zitarrosa's birthplace was Uruguay where the leader is Tabar\u00e9 V\u00e1zquez."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Tabare Vazquez is the leader of Uruguay where Alfredo Zitarrosa was born."
+        }
+    },
+    "gold_outputs": [
+        "Alfredo Zitarrosa was born in Tabar\u00e9 V\u00e1zquez led Uruguay.",
+        "Alfredo Zitarrosa's birthplace was Uruguay where the leader is Tabar\u00e9 V\u00e1zquez.",
+        "Tabare Vazquez is the leader of Uruguay where Alfredo Zitarrosa was born."
+    ]
+}

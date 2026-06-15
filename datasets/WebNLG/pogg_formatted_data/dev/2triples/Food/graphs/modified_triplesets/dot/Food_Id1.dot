@@ -1,0 +1,7 @@
+strict digraph {
+Ajoblanco [lexicon_key=Ajoblanco];
+Spain [lexicon_key=Spain];
+Bread [lexicon_key=Bread];
+Ajoblanco -> Spain [label=country, lexicon_key=country];
+Ajoblanco -> Bread [label=ingredient, lexicon_key=ingredient];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"AFC_Ajax_(amateurs)" [lexicon_key="AFC_Ajax_(amateurs)"];
+"Joden , Godenzonen" [lexicon_key="Joden , Godenzonen"];
+"AFC_Ajax_(amateurs)" -> "Joden , Godenzonen" [label=nickname, lexicon_key=nickname];
+}

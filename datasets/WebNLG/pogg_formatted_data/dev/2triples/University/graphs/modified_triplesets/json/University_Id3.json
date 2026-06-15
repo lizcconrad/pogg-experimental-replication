@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Tennis": {
+            "lexicon_key": "Tennis"
+        },
+        "International_Tennis_Federation": {
+            "lexicon_key": "International_Tennis_Federation"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "sportsOffered",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Tennis",
+            "edge_properties": {
+                "lexicon_key": "sportsOffered"
+            }
+        },
+        {
+            "edge_name": "sportGoverningBody",
+            "parent_node": "Tennis",
+            "child_node": "International_Tennis_Federation",
+            "edge_properties": {
+                "lexicon_key": "sportGoverningBody"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The International Tennis Federation, which is the sport's governing body, has agreed to let Acharya Institute of Technology offer tennis at the school."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Tennis, as governed by the International Tennis Federation, is a sport offered at the Acharya Institute of Technology."
+        }
+    },
+    "gold_outputs": [
+        "Tennis, as governed by the International Tennis Federation, is a sport offered at the Acharya Institute of Technology.",
+        "The International Tennis Federation, which is the sport's governing body, has agreed to let Acharya Institute of Technology offer tennis at the school."
+    ]
+}

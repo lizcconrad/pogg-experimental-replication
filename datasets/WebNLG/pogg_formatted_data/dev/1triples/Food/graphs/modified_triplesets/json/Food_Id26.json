@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "Jusuf_Kalla": {
+            "lexicon_key": "Jusuf_Kalla"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Indonesia",
+            "child_node": "Jusuf_Kalla",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jusuf Kalla is a leader in Indonesia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Jusuf Kalla is the leader of Indonesia."
+        }
+    },
+    "gold_outputs": [
+        "Jusuf Kalla is a leader in Indonesia.",
+        "Jusuf Kalla is the leader of Indonesia."
+    ]
+}

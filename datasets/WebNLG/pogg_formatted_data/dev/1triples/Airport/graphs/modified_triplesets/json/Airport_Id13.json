@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Alpena_County_Regional_Airport": {
+            "lexicon_key": "Alpena_County_Regional_Airport"
+        },
+        "1533.0": {
+            "lexicon_key": "1533.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Alpena_County_Regional_Airport",
+            "child_node": "1533.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The runway length of Alpena County Regional Airport is 1,533."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The runway length of Alpena County Regional airport is 1533.0."
+        }
+    },
+    "gold_outputs": [
+        "The runway length of Alpena County Regional Airport is 1,533.",
+        "The runway length of Alpena County Regional airport is 1533.0."
+    ]
+}

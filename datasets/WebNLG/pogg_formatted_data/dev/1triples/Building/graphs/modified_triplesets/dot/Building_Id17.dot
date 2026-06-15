@@ -1,0 +1,5 @@
+strict digraph {
+Asser_Levy_Public_Baths [lexicon_key="Asser_Levy_Public_Baths"];
+1904 [lexicon_key=1904];
+Asser_Levy_Public_Baths -> 1904 [label=yearOfConstruction, lexicon_key=yearOfConstruction];
+}

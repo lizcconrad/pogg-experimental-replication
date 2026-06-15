@@ -1,0 +1,9 @@
+strict digraph {
+"United_Petrotrin_F.C." [lexicon_key="United_Petrotrin_F.C."];
+Palo_Seco [lexicon_key="Palo_Seco"];
+Akeem_Adams [lexicon_key="Akeem_Adams"];
+"Trinidad_and_Tobago_national_under-20_football_team" [lexicon_key="Trinidad_and_Tobago_national_under-20_football_team"];
+"United_Petrotrin_F.C." -> Palo_Seco [label=ground, lexicon_key=ground];
+Akeem_Adams -> "Trinidad_and_Tobago_national_under-20_football_team" [label=club, lexicon_key=club];
+Akeem_Adams -> "United_Petrotrin_F.C." [label=club, lexicon_key=club];
+}

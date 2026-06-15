@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "\"Dr. G. P. Prabhukumar\"": {
+            "lexicon_key": "\"Dr. G. P. Prabhukumar\""
+        },
+        "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"": {
+            "lexicon_key": "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "director",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"Dr. G. P. Prabhukumar\"",
+            "edge_properties": {
+                "lexicon_key": "director"
+            }
+        },
+        {
+            "edge_name": "campus",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"",
+            "edge_properties": {
+                "lexicon_key": "campus"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acharya Institute of Technology's campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090 and the director is Dr. G. P. Prabhukumar."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The director of the Acharya Institute of Technology is Dr G P Prabhukumar. The campus is located at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090."
+        }
+    },
+    "gold_outputs": [
+        "Acharya Institute of Technology's campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090 and the director is Dr. G. P. Prabhukumar.",
+        "The director of the Acharya Institute of Technology is Dr G P Prabhukumar. The campus is located at In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090."
+    ]
+}

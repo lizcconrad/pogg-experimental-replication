@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Allen_Forrest": {
+            "lexicon_key": "Allen_Forrest"
+        },
+        "Pop_music": {
+            "lexicon_key": "Pop_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Allen_Forrest",
+            "child_node": "Pop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Allen Forrest plays pop music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Allen Forrest was a pop artist."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Allen Forrest is an exponent of Pop music."
+        }
+    },
+    "gold_outputs": [
+        "Allen Forrest is an exponent of Pop music.",
+        "Allen Forrest plays pop music.",
+        "Allen Forrest was a pop artist."
+    ]
+}

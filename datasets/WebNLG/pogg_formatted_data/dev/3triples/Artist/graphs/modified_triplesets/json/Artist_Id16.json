@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albennie_Jones": {
+            "lexicon_key": "Albennie_Jones"
+        },
+        "Jazz": {
+            "lexicon_key": "Jazz"
+        },
+        "Blues": {
+            "lexicon_key": "Blues"
+        },
+        "Afrobeat": {
+            "lexicon_key": "Afrobeat"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Albennie_Jones",
+            "child_node": "Jazz",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Jazz",
+            "child_node": "Blues",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Jazz",
+            "child_node": "Afrobeat",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albennie Jones plays Jazz music which originated from Blues music. A fusion of Jazz is Afrobeat music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albennie Jones is a Jazz musician. Jazz comes from Blues music and the Afrobeat is a fusion genre of that music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albennie Jones plays jazz which originates from Blues music. Afrobeat music also has elements of Jazz."
+        }
+    },
+    "gold_outputs": [
+        "Albennie Jones is a Jazz musician. Jazz comes from Blues music and the Afrobeat is a fusion genre of that music.",
+        "Albennie Jones plays Jazz music which originated from Blues music. A fusion of Jazz is Afrobeat music.",
+        "Albennie Jones plays jazz which originates from Blues music. Afrobeat music also has elements of Jazz."
+    ]
+}

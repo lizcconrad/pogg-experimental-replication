@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "618": {
+            "lexicon_key": "618"
+        },
+        "\"Al Anbar Province, Iraq\"": {
+            "lexicon_key": "\"Al Anbar Province, Iraq\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevelInFeet",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "618",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevelInFeet"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "\"Al Anbar Province, Iraq\"",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Al Asad Airbase is 618 ft above sea level and is located in Al Anbar Province, Iraq."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Al Asad Airbase which is elevated 618 feet above sea level, is located in the Al Anbar Province in Iraq."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Al Asad Airbase, which is 618 ft above sea level, is located in Al Anbar Province, Iraq."
+        }
+    },
+    "gold_outputs": [
+        "Al Asad Airbase is 618 ft above sea level and is located in Al Anbar Province, Iraq.",
+        "The Al Asad Airbase which is elevated 618 feet above sea level, is located in the Al Anbar Province in Iraq.",
+        "The Al Asad Airbase, which is 618 ft above sea level, is located in Al Anbar Province, Iraq."
+    ]
+}

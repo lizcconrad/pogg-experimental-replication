@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Bolt_(comicsCharacter)": {
+            "lexicon_key": "Bolt_(comicsCharacter)"
+        },
+        "Dan_Mishkin": {
+            "lexicon_key": "Dan_Mishkin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bolt_(comicsCharacter)",
+            "child_node": "Dan_Mishkin",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Dan Mishkin is one of the creators of the comic character, Bolt."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The comic book character Bolt was created by Dan Mishkin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The comic character Bolt was created by Dan Mishkin."
+        }
+    },
+    "gold_outputs": [
+        "Dan Mishkin is one of the creators of the comic character, Bolt.",
+        "The comic book character Bolt was created by Dan Mishkin.",
+        "The comic character Bolt was created by Dan Mishkin."
+    ]
+}

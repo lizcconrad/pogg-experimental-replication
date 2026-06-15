@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aleksandra_Kova\u010d": {
+            "lexicon_key": "Aleksandra_Kova\u010d"
+        },
+        "Rhythm_and_blues": {
+            "lexicon_key": "Rhythm_and_blues"
+        },
+        "Bebi_Dol": {
+            "lexicon_key": "Bebi_Dol"
+        },
+        "K2_(Kova\u010d_sisters_duo)": {
+            "lexicon_key": "K2_(Kova\u010d_sisters_duo)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Rhythm_and_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Bebi_Dol",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "K2_(Kova\u010d_sisters_duo)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d is an artist for the band K2 and is associated with the musical artist Bebi Dol. The musical genre of Aleksandra Kovac is rhythm and blues."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandra Kovac; is an exponent of Rhythm and blues, is an artist for the band K2 and is associated with the musical artist Bebi Dol."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Rhythm and blues artist Aleksandra Kova\u010d, who is part of the K2 Kova\u010d sisters duo, is associated with musical artist Bebi Dol."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandra Kovac; is an exponent of Rhythm and blues, is an artist for the band K2 and is associated with the musical artist Bebi Dol.",
+        "Aleksandra Kova\u010d is an artist for the band K2 and is associated with the musical artist Bebi Dol. The musical genre of Aleksandra Kovac is rhythm and blues.",
+        "Rhythm and blues artist Aleksandra Kova\u010d, who is part of the K2 Kova\u010d sisters duo, is associated with musical artist Bebi Dol."
+    ]
+}

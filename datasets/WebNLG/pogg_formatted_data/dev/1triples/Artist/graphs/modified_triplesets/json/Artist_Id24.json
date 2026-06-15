@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Andrew_Rayel": {
+            "lexicon_key": "Andrew_Rayel"
+        },
+        "Jwaydan_Moyine": {
+            "lexicon_key": "Jwaydan_Moyine"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Jwaydan_Moyine",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrew Rayel is associated with the musician Jwaydan Moyine."
+        }
+    },
+    "gold_outputs": [
+        "Andrew Rayel is associated with the musician Jwaydan Moyine."
+    ]
+}

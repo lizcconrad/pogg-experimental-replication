@@ -1,0 +1,5 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+Territorial_Decoration [lexicon_key="Territorial_Decoration"];
+Airey_Neave -> Territorial_Decoration [label=award, lexicon_key=award];
+}

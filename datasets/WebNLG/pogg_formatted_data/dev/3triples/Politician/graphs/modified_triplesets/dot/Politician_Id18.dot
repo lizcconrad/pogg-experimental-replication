@@ -1,0 +1,9 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+Netherlands [lexicon_key=Netherlands];
+Mark_Rutte [lexicon_key="Mark_Rutte"];
+"House_of_Representatives_(Netherlands)" [lexicon_key="House_of_Representatives_(Netherlands)"];
+Agnes_Kant -> Netherlands [label=nationality, lexicon_key=nationality];
+Agnes_Kant -> "House_of_Representatives_(Netherlands)" [label=office, lexicon_key=office];
+Netherlands -> Mark_Rutte [label=leader, lexicon_key=leader];
+}

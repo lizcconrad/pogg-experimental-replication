@@ -1,0 +1,9 @@
+strict digraph {
+Azerbaijan [lexicon_key=Azerbaijan];
+Artur_Rasizade [lexicon_key="Artur_Rasizade"];
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+"Ottoman Army soldiers killed in the Battle of Baku" [lexicon_key="Ottoman Army soldiers killed in the Battle of Baku"];
+Azerbaijan -> Artur_Rasizade [label=leader, lexicon_key=leader];
+"Baku_Turkish_Martyrs'_Memorial" -> "Ottoman Army soldiers killed in the Battle of Baku" [label=dedicatedTo, lexicon_key=dedicatedTo];
+"Baku_Turkish_Martyrs'_Memorial" -> Azerbaijan [label=location, lexicon_key=location];
+}

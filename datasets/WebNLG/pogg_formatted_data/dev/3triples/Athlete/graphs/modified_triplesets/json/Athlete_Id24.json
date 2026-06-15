@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Canada": {
+            "lexicon_key": "Canada"
+        },
+        "O_Canada": {
+            "lexicon_key": "O_Canada"
+        },
+        "Elizabeth_II": {
+            "lexicon_key": "Elizabeth_II"
+        },
+        "Alex_Plante": {
+            "lexicon_key": "Alex_Plante"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "anthem",
+            "parent_node": "Canada",
+            "child_node": "O_Canada",
+            "edge_properties": {
+                "lexicon_key": "anthem"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Canada",
+            "child_node": "Elizabeth_II",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alex_Plante",
+            "child_node": "Canada",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alex Plante was born in Canada; where the national anthem is O Canada and the leader is, Elizabeth II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alex Plante was born in Canada, where the leader is Elizabeth II and the national anthem is O Canada."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Canada, the birthplace of Alex Plante, is led by Elizabeth II and has a national anthem known as \"O Canada\"."
+        }
+    },
+    "gold_outputs": [
+        "Alex Plante was born in Canada, where the leader is Elizabeth II and the national anthem is O Canada.",
+        "Alex Plante was born in Canada; where the national anthem is O Canada and the leader is, Elizabeth II.",
+        "Canada, the birthplace of Alex Plante, is led by Elizabeth II and has a national anthem known as \"O Canada\"."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        },
+        "Williamsburg,_Virginia": {
+            "lexicon_key": "Williamsburg,_Virginia"
+        },
+        "\"30 March 2007\"": {
+            "lexicon_key": "\"30 March 2007\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Williamsburg,_Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "buildingStartDate",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "\"30 March 2007\"",
+            "edge_properties": {
+                "lexicon_key": "buildingStartDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan B. Miller Hall, the building of which began 30 March, 2007, is located in Williamsburg, Virginia and owned by the College of William and Mary."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan B. Miller Hall's building, started on 30th March 2007, is located in Williamsburg, Virginia, and owned by the College of William and Mary."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alan B. Miller Hall, owned by The College of William and Mary, is in Williamsburg, Virginia and was opened on the 30th March 2007."
+        }
+    },
+    "gold_outputs": [
+        "Alan B. Miller Hall's building, started on 30th March 2007, is located in Williamsburg, Virginia, and owned by the College of William and Mary.",
+        "Alan B. Miller Hall, the building of which began 30 March, 2007, is located in Williamsburg, Virginia and owned by the College of William and Mary.",
+        "The Alan B. Miller Hall, owned by The College of William and Mary, is in Williamsburg, Virginia and was opened on the 30th March 2007."
+    ]
+}

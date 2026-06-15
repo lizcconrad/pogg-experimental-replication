@@ -1,0 +1,7 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+Americans [lexicon_key=Americans];
+"Albuquerque,_New_Mexico" [lexicon_key="Albuquerque,_New_Mexico"];
+United_States -> Americans [label=demonym, lexicon_key=demonym];
+"Albuquerque,_New_Mexico" -> United_States [label=country, lexicon_key=country];
+}

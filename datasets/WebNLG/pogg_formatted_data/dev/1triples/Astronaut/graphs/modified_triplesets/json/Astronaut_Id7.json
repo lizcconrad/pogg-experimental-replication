@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "Elliot_See": {
+            "lexicon_key": "Elliot_See"
+        },
+        "Test_pilot": {
+            "lexicon_key": "Test_pilot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "occupation",
+            "parent_node": "Elliot_See",
+            "child_node": "Test_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Elliot See was a test pilot."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Elliot See served as a test pilot."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Elliot See flew as a test pilot."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Elliot See's occupation was a test pilot."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "Elliot See performed as a test pilot."
+        }
+    },
+    "gold_outputs": [
+        "Elliot See flew as a test pilot.",
+        "Elliot See performed as a test pilot.",
+        "Elliot See served as a test pilot.",
+        "Elliot See was a test pilot.",
+        "Elliot See's occupation was a test pilot."
+    ]
+}

@@ -1,0 +1,2414 @@
+{
+   "data_dir": "../datasets/WebNLG/pogg_formatted_data",
+   "dataset_name": "WebNLG",
+   "evaluation_run_anchor": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER",
+   "experimental_setups": {
+      "post_perplexity": {
+         "SEMENT_processing": [ ],
+         "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+         "lexicon_name": "post_perplexity",
+         "result_processing": [ ]
+      },
+      "post_perplexity_no_numbers": {
+         "SEMENT_processing": [ ],
+         "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+         "lexicon_name": "post_perplexity_no_numbers",
+         "result_processing": [ ]
+      }
+   },
+   "graph_rel_dir": "graphs/modified_triplesets",
+   "lexicon_dir": "../datasets/WebNLG/lexicons",
+   "lexicons": {
+      "post_perplexity": {
+         "auto_filler_settings": {
+            "auto_approve": false,
+            "auto_create_templates": false,
+            "auto_fill": true,
+            "blocked_templates": [ ],
+            "template_dump_file": "../configuration_data/lexicon_templates/webnlg/webnlg_post_perplexity_templates.json",
+            "template_files": [
+               "../configuration_data/lexicon_templates/perplexity/perplexity_templates.json",
+               "../configuration_data/lexicon_templates/webnlg/webnlg_post_perplexity_templates.json"
+            ]
+         },
+         "imported_lexicon_paths": [
+            "../datasets/WebNLG/lexicons/post_perplexity_no_numbers"
+         ],
+         "lexicon_dir": "../datasets/WebNLG/lexicons/post_perplexity"
+      },
+      "post_perplexity_no_numbers": {
+         "auto_filler_settings": {
+            "auto_approve": false,
+            "auto_create_templates": false,
+            "auto_fill": true,
+            "blocked_templates": [
+               "TEMPLATE_1"
+            ],
+            "template_dump_file": "../configuration_data/lexicon_templates/webnlg/webnlg_post_perplexity_templates.json",
+            "template_files": [
+               "../configuration_data/lexicon_templates/perplexity/perplexity_templates.json",
+               "../configuration_data/lexicon_templates/webnlg/webnlg_post_perplexity_templates.json"
+            ]
+         },
+         "imported_lexicon_paths": [ ],
+         "lexicon_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers"
+      }
+   },
+   "output_dir": "../output/WebNLG",
+   "reports_dir": "../reports/WebNLG",
+   "reports_run_anchor": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER",
+   "splits": {
+      "WebNLG": {
+         "experiments": {
+            "post_perplexity": {
+               "SEMENT_processing": [ ],
+               "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+               "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+               "experiment_name": "post_perplexity",
+               "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity",
+               "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity",
+               "lexicon_name": "post_perplexity",
+               "result_processing": [ ]
+            },
+            "post_perplexity_no_numbers": {
+               "SEMENT_processing": [ ],
+               "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+               "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+               "experiment_name": "post_perplexity_no_numbers",
+               "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers",
+               "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers",
+               "lexicon_name": "post_perplexity_no_numbers",
+               "result_processing": [ ]
+            }
+         },
+         "split_info": {
+            "data_directories": [
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/json",
+               "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/json"
+            ],
+            "data_split_path": [
+               "WebNLG"
+            ],
+            "full_data_split_name": "WebNLG",
+            "leaf": false,
+            "root": true,
+            "split_data_dir": "../datasets/WebNLG/pogg_formatted_data"
+         },
+         "splits": {
+            "dev": {
+               "experiments": {
+                  "post_perplexity": {
+                     "SEMENT_processing": [ ],
+                     "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                     "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                     "experiment_name": "post_perplexity",
+                     "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev",
+                     "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev",
+                     "lexicon_name": "post_perplexity",
+                     "result_processing": [ ]
+                  },
+                  "post_perplexity_no_numbers": {
+                     "SEMENT_processing": [ ],
+                     "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                     "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                     "experiment_name": "post_perplexity_no_numbers",
+                     "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev",
+                     "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev",
+                     "lexicon_name": "post_perplexity_no_numbers",
+                     "result_processing": [ ]
+                  }
+               },
+               "split_info": {
+                  "data_directories": [
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/json",
+                     "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/json"
+                  ],
+                  "data_split_path": [
+                     "WebNLG",
+                     "dev"
+                  ],
+                  "full_data_split_name": "WebNLG_dev",
+                  "leaf": false,
+                  "root": false,
+                  "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev"
+               },
+               "splits": {
+                  "1triples": {
+                     "experiments": {
+                        "post_perplexity": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                           "experiment_name": "post_perplexity",
+                           "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples",
+                           "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples",
+                           "lexicon_name": "post_perplexity",
+                           "result_processing": [ ]
+                        },
+                        "post_perplexity_no_numbers": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                           "experiment_name": "post_perplexity_no_numbers",
+                           "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples",
+                           "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples",
+                           "lexicon_name": "post_perplexity_no_numbers",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/json"
+                        ],
+                        "data_split_path": [
+                           "WebNLG",
+                           "dev",
+                           "1triples"
+                        ],
+                        "full_data_split_name": "WebNLG_dev_1triples",
+                        "leaf": false,
+                        "root": false,
+                        "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples"
+                     },
+                     "splits": {
+                        "Airport": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Airport",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Airport",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Airport",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Airport",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Airport"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Airport",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Airport"
+                           }
+                        },
+                        "Artist": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Artist",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Artist",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Artist",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Artist",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Artist"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Artist",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Artist"
+                           }
+                        },
+                        "Astronaut": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Astronaut",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Astronaut",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Astronaut",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Astronaut",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Astronaut"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Astronaut",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Astronaut"
+                           }
+                        },
+                        "Athlete": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Athlete",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Athlete",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Athlete",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Athlete",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Athlete"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Athlete",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Athlete"
+                           }
+                        },
+                        "Building": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Building",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Building",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Building",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Building",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Building"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Building",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Building"
+                           }
+                        },
+                        "CelestialBody": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/CelestialBody",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/CelestialBody",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/CelestialBody",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/CelestialBody",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "CelestialBody"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_CelestialBody",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/CelestialBody"
+                           }
+                        },
+                        "City": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/City",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/City",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/City",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/City",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "City"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_City",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/City"
+                           }
+                        },
+                        "ComicsCharacter": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/ComicsCharacter",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/ComicsCharacter",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/ComicsCharacter",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/ComicsCharacter",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "ComicsCharacter"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_ComicsCharacter",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/ComicsCharacter"
+                           }
+                        },
+                        "Company": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Company",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Company",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Company",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Company",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Company"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Company",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Company"
+                           }
+                        },
+                        "Food": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Food",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Food",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Food",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Food",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Food"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Food",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Food"
+                           }
+                        },
+                        "MeanOfTransportation": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/MeanOfTransportation",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/MeanOfTransportation",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "MeanOfTransportation"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_MeanOfTransportation",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/MeanOfTransportation"
+                           }
+                        },
+                        "Monument": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Monument",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Monument",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Monument",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Monument",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Monument"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Monument",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Monument"
+                           }
+                        },
+                        "Politician": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Politician",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/Politician",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Politician",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/Politician",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "Politician"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_Politician",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/Politician"
+                           }
+                        },
+                        "SportsTeam": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/SportsTeam",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/SportsTeam",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/SportsTeam",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/SportsTeam",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "SportsTeam"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_SportsTeam",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/SportsTeam"
+                           }
+                        },
+                        "University": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/University",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/University",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/University",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/University",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "University"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_University",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/University"
+                           }
+                        },
+                        "WrittenWork": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/WrittenWork",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/1triples/WrittenWork",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/WrittenWork",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/1triples/WrittenWork",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "1triples",
+                                 "WrittenWork"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_1triples_WrittenWork",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/1triples/WrittenWork"
+                           }
+                        }
+                     }
+                  },
+                  "2triples": {
+                     "experiments": {
+                        "post_perplexity": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                           "experiment_name": "post_perplexity",
+                           "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples",
+                           "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples",
+                           "lexicon_name": "post_perplexity",
+                           "result_processing": [ ]
+                        },
+                        "post_perplexity_no_numbers": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                           "experiment_name": "post_perplexity_no_numbers",
+                           "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples",
+                           "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples",
+                           "lexicon_name": "post_perplexity_no_numbers",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/json"
+                        ],
+                        "data_split_path": [
+                           "WebNLG",
+                           "dev",
+                           "2triples"
+                        ],
+                        "full_data_split_name": "WebNLG_dev_2triples",
+                        "leaf": false,
+                        "root": false,
+                        "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples"
+                     },
+                     "splits": {
+                        "Airport": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Airport",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Airport",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Airport",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Airport",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Airport"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Airport",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Airport"
+                           }
+                        },
+                        "Artist": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Artist",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Artist",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Artist",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Artist",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Artist"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Artist",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Artist"
+                           }
+                        },
+                        "Astronaut": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Astronaut",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Astronaut",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Astronaut",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Astronaut",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Astronaut"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Astronaut",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Astronaut"
+                           }
+                        },
+                        "Athlete": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Athlete",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Athlete",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Athlete",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Athlete",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Athlete"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Athlete",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Athlete"
+                           }
+                        },
+                        "Building": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Building",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Building",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Building",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Building",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Building"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Building",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Building"
+                           }
+                        },
+                        "CelestialBody": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/CelestialBody",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/CelestialBody",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/CelestialBody",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/CelestialBody",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "CelestialBody"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_CelestialBody",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/CelestialBody"
+                           }
+                        },
+                        "City": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/City",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/City",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/City",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/City",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "City"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_City",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/City"
+                           }
+                        },
+                        "ComicsCharacter": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/ComicsCharacter",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/ComicsCharacter",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/ComicsCharacter",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/ComicsCharacter",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "ComicsCharacter"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_ComicsCharacter",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/ComicsCharacter"
+                           }
+                        },
+                        "Company": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Company",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Company",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Company",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Company",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Company"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Company",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Company"
+                           }
+                        },
+                        "Food": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Food",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Food",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Food",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Food",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Food"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Food",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Food"
+                           }
+                        },
+                        "MeanOfTransportation": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/MeanOfTransportation",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/MeanOfTransportation",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "MeanOfTransportation"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_MeanOfTransportation",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/MeanOfTransportation"
+                           }
+                        },
+                        "Monument": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Monument",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Monument",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Monument",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Monument",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Monument"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Monument",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Monument"
+                           }
+                        },
+                        "Politician": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Politician",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/Politician",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Politician",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/Politician",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "Politician"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_Politician",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/Politician"
+                           }
+                        },
+                        "SportsTeam": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/SportsTeam",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/SportsTeam",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/SportsTeam",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/SportsTeam",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "SportsTeam"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_SportsTeam",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/SportsTeam"
+                           }
+                        },
+                        "University": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/University",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/University",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/University",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/University",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "University"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_University",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/University"
+                           }
+                        },
+                        "WrittenWork": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/WrittenWork",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/2triples/WrittenWork",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/WrittenWork",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/2triples/WrittenWork",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "2triples",
+                                 "WrittenWork"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_2triples_WrittenWork",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/2triples/WrittenWork"
+                           }
+                        }
+                     }
+                  },
+                  "3triples": {
+                     "experiments": {
+                        "post_perplexity": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                           "experiment_name": "post_perplexity",
+                           "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples",
+                           "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples",
+                           "lexicon_name": "post_perplexity",
+                           "result_processing": [ ]
+                        },
+                        "post_perplexity_no_numbers": {
+                           "SEMENT_processing": [ ],
+                           "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                           "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                           "experiment_name": "post_perplexity_no_numbers",
+                           "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples",
+                           "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples",
+                           "lexicon_name": "post_perplexity_no_numbers",
+                           "result_processing": [ ]
+                        }
+                     },
+                     "split_info": {
+                        "data_directories": [
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/json",
+                           "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/json"
+                        ],
+                        "data_split_path": [
+                           "WebNLG",
+                           "dev",
+                           "3triples"
+                        ],
+                        "full_data_split_name": "WebNLG_dev_3triples",
+                        "leaf": false,
+                        "root": false,
+                        "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples"
+                     },
+                     "splits": {
+                        "Airport": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Airport",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Airport",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Airport",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Airport",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Airport"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Airport",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Airport"
+                           }
+                        },
+                        "Artist": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Artist",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Artist",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Artist",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Artist",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Artist"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Artist",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Artist"
+                           }
+                        },
+                        "Astronaut": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Astronaut",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Astronaut",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Astronaut",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Astronaut",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Astronaut"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Astronaut",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Astronaut"
+                           }
+                        },
+                        "Athlete": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Athlete",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Athlete",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Athlete",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Athlete",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Athlete"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Athlete",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Athlete"
+                           }
+                        },
+                        "Building": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Building",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Building",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Building",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Building",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Building"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Building",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Building"
+                           }
+                        },
+                        "CelestialBody": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/CelestialBody",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/CelestialBody",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/CelestialBody",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/CelestialBody",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "CelestialBody"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_CelestialBody",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/CelestialBody"
+                           }
+                        },
+                        "City": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/City",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/City",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/City",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/City",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "City"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_City",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/City"
+                           }
+                        },
+                        "ComicsCharacter": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/ComicsCharacter",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/ComicsCharacter",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/ComicsCharacter",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/ComicsCharacter",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "ComicsCharacter"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_ComicsCharacter",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/ComicsCharacter"
+                           }
+                        },
+                        "Company": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Company",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Company",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Company",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Company",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Company"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Company",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Company"
+                           }
+                        },
+                        "Food": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Food",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Food",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Food",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Food",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Food"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Food",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Food"
+                           }
+                        },
+                        "MeanOfTransportation": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/MeanOfTransportation",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/MeanOfTransportation",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/MeanOfTransportation",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "MeanOfTransportation"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_MeanOfTransportation",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/MeanOfTransportation"
+                           }
+                        },
+                        "Monument": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Monument",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Monument",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Monument",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Monument",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Monument"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Monument",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Monument"
+                           }
+                        },
+                        "Politician": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Politician",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/Politician",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Politician",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/Politician",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "Politician"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_Politician",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/Politician"
+                           }
+                        },
+                        "SportsTeam": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/SportsTeam",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/SportsTeam",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/SportsTeam",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/SportsTeam",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "SportsTeam"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_SportsTeam",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/SportsTeam"
+                           }
+                        },
+                        "University": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/University",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/University",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/University",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/University",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "University"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_University",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/University"
+                           }
+                        },
+                        "WrittenWork": {
+                           "experiments": {
+                              "post_perplexity": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity",
+                                 "experiment_name": "post_perplexity",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/WrittenWork",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity/dev/3triples/WrittenWork",
+                                 "lexicon_name": "post_perplexity",
+                                 "result_processing": [ ]
+                              },
+                              "post_perplexity_no_numbers": {
+                                 "SEMENT_processing": [ ],
+                                 "composition_config": "../ERG_versions/ERG_2023_GP2/ERG_2023_GP2_config.json",
+                                 "experiment_lex_dir": "../datasets/WebNLG/lexicons/post_perplexity_no_numbers",
+                                 "experiment_name": "post_perplexity_no_numbers",
+                                 "experiment_output_dir": "../output/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/WrittenWork",
+                                 "experiment_report_dir": "../reports/WebNLG/EXPERIMENT_RUN_PLACEHOLDER_post_perplexity_no_numbers/dev/3triples/WrittenWork",
+                                 "lexicon_name": "post_perplexity_no_numbers",
+                                 "result_processing": [ ]
+                              }
+                           },
+                           "split_info": {
+                              "data_directories": [
+                                 "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/json"
+                              ],
+                              "data_split_path": [
+                                 "WebNLG",
+                                 "dev",
+                                 "3triples",
+                                 "WrittenWork"
+                              ],
+                              "full_data_split_name": "WebNLG_dev_3triples_WrittenWork",
+                              "graph_dot_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/dot",
+                              "graph_json_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/json",
+                              "graph_png_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork/graphs/modified_triplesets/png",
+                              "leaf": true,
+                              "root": false,
+                              "split_data_dir": "../datasets/WebNLG/pogg_formatted_data/dev/3triples/WrittenWork"
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

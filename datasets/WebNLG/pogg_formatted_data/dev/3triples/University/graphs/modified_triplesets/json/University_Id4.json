@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Tennis": {
+            "lexicon_key": "Tennis"
+        },
+        "2000": {
+            "lexicon_key": "2000"
+        },
+        "International_Tennis_Federation": {
+            "lexicon_key": "International_Tennis_Federation"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "sportsOffered",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Tennis",
+            "edge_properties": {
+                "lexicon_key": "sportsOffered"
+            }
+        },
+        {
+            "edge_name": "established",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "2000",
+            "edge_properties": {
+                "lexicon_key": "established"
+            }
+        },
+        {
+            "edge_name": "sportGoverningBody",
+            "parent_node": "Tennis",
+            "child_node": "International_Tennis_Federation",
+            "edge_properties": {
+                "lexicon_key": "sportGoverningBody"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Acharya Institute of Technology offers tennis and it was established in 2000. The tennis governing body is the International Tennis Federation."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The International Tennis Federation is the governing body for the sport which is offered at the Acharya Institute of Technology which was established in 2000."
+        }
+    },
+    "gold_outputs": [
+        "The Acharya Institute of Technology offers tennis and it was established in 2000. The tennis governing body is the International Tennis Federation.",
+        "The International Tennis Federation is the governing body for the sport which is offered at the Acharya Institute of Technology which was established in 2000."
+    ]
+}

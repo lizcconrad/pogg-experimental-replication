@@ -1,0 +1,7 @@
+strict digraph {
+"Albany,_Oregon" [lexicon_key="Albany,_Oregon"];
+Oregon [lexicon_key=Oregon];
+"Portland,_Oregon" [lexicon_key="Portland,_Oregon"];
+"Albany,_Oregon" -> Oregon [label=isPartOf, lexicon_key=isPartOf];
+Oregon -> "Portland,_Oregon" [label=largestCity, lexicon_key=largestCity];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+"1.2 (litres)" [lexicon_key="1.2 (litres)"];
+Audi_Brussels [lexicon_key="Audi_Brussels"];
+Hatchback [lexicon_key=Hatchback];
+Audi_A1 -> "1.2 (litres)" [label=engine, lexicon_key=engine];
+Audi_A1 -> Audi_Brussels [label=assembly, lexicon_key=assembly];
+Audi_A1 -> Hatchback [label=bodyStyle, lexicon_key=bodyStyle];
+}

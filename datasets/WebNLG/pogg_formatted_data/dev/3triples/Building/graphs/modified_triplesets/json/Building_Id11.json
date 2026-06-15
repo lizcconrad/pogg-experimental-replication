@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Adare_Manor": {
+            "lexicon_key": "Adare_Manor"
+        },
+        "1862": {
+            "lexicon_key": "1862"
+        },
+        "James_Pain": {
+            "lexicon_key": "James_Pain"
+        },
+        "J._P._McManus": {
+            "lexicon_key": "J._P._McManus"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "completionDate",
+            "parent_node": "Adare_Manor",
+            "child_node": "1862",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        },
+        {
+            "edge_name": "architect",
+            "parent_node": "Adare_Manor",
+            "child_node": "James_Pain",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Adare_Manor",
+            "child_node": "J._P._McManus",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "James Pain was the architect of Adare Manor which was completed in 1862 and is owned by J P McManus."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "James Pain was the architect of Adare Manor which was completed in 1862 and owed by J P McManus."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "James Pain designed Adare Manor that was completed in 1862. The owner is J.P. McManus."
+        }
+    },
+    "gold_outputs": [
+        "James Pain designed Adare Manor that was completed in 1862. The owner is J.P. McManus.",
+        "James Pain was the architect of Adare Manor which was completed in 1862 and is owned by J P McManus.",
+        "James Pain was the architect of Adare Manor which was completed in 1862 and owed by J P McManus."
+    ]
+}

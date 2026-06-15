@@ -1,0 +1,9 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+"King_County,_Washington" [lexicon_key="King_County,_Washington"];
+"Auburn,_Washington" [lexicon_key="Auburn,_Washington"];
+United_States -> "Washington,_D.C." [label=capital, lexicon_key=capital];
+"King_County,_Washington" -> United_States [label=country, lexicon_key=country];
+"Auburn,_Washington" -> "King_County,_Washington" [label=isPartOf, lexicon_key=isPartOf];
+}

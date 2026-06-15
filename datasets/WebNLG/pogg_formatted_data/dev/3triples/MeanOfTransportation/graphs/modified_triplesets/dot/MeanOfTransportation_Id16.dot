@@ -1,0 +1,9 @@
+strict digraph {
+"Antares_(rocket)" [lexicon_key="Antares_(rocket)"];
+Yuzhnoye_Design_Office [lexicon_key="Yuzhnoye_Design_Office"];
+"Mid-Atlantic_Regional_Spaceport_Launch_Pad_0" [lexicon_key="Mid-Atlantic_Regional_Spaceport_Launch_Pad_0"];
+"2013-04-21" [lexicon_key="2013-04-21"];
+"Antares_(rocket)" -> Yuzhnoye_Design_Office [label=manufacturer, lexicon_key=manufacturer];
+"Antares_(rocket)" -> "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0" [label=launchSite, lexicon_key=launchSite];
+"Antares_(rocket)" -> "2013-04-21" [label=maidenFlight, lexicon_key=maidenFlight];
+}

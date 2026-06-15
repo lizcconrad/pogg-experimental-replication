@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Acura_TLX": {
+            "lexicon_key": "Acura_TLX"
+        },
+        "Honda_K_engine": {
+            "lexicon_key": "Honda_K_engine"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "Acura_TLX",
+            "child_node": "Honda_K_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Acura TLX has a Honda K engine."
+        }
+    },
+    "gold_outputs": [
+        "The Acura TLX has a Honda K engine."
+    ]
+}

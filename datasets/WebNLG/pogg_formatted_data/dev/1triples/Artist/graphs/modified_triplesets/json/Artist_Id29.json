@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Funk": {
+            "lexicon_key": "Funk"
+        },
+        "Afrobeat": {
+            "lexicon_key": "Afrobeat"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Funk",
+            "child_node": "Afrobeat",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Afrobeat is a fusion of funk music."
+        }
+    },
+    "gold_outputs": [
+        "Afrobeat is a fusion of funk music."
+    ]
+}

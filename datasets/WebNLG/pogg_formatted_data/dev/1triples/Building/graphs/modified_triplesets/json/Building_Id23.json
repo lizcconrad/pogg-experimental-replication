@@ -1,0 +1,33 @@
+{
+    "nodes": {
+        "Japan": {
+            "lexicon_key": "Japan"
+        },
+        "Brazilians_in_Japan": {
+            "lexicon_key": "Brazilians_in_Japan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Japan",
+            "child_node": "Brazilians_in_Japan",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "One of the ethnic groups in Japan is the Brazilians."
+        },
+        "Id2": {
+            "comment": "toFix",
+            "text": "The Brazilians in Japan are an ethnic group found in Japan."
+        }
+    },
+    "gold_outputs": [
+        "One of the ethnic groups in Japan is the Brazilians."
+    ]
+}

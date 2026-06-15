@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Asterix_(comicsCharacter)": {
+            "lexicon_key": "Asterix_(comicsCharacter)"
+        },
+        "Ren\u00e9_Goscinny": {
+            "lexicon_key": "Ren\u00e9_Goscinny"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Asterix_(comicsCharacter)",
+            "child_node": "Ren\u00e9_Goscinny",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Asterix was created by Rene Goscinny."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The creator of Asterix (comics character) is Ren\u00e9 Goscinny."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The comic character Asterix, was created by Ren\u00e9 Goscinny."
+        }
+    },
+    "gold_outputs": [
+        "Asterix was created by Rene Goscinny.",
+        "The comic character Asterix, was created by Ren\u00e9 Goscinny.",
+        "The creator of Asterix (comics character) is Ren\u00e9 Goscinny."
+    ]
+}

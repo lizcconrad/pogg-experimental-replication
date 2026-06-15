@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Alfa_Romeo_164": {
+            "lexicon_key": "Alfa_Romeo_164"
+        },
+        "Fiat_Croma": {
+            "lexicon_key": "Fiat_Croma"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Fiat_Croma",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 and the Fiat Croma are similar means of transport."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 and the Fiat Croma are related means of transportation."
+        }
+    },
+    "gold_outputs": [
+        "The Alfa Romeo 164 and the Fiat Croma are related means of transportation.",
+        "The Alfa Romeo 164 and the Fiat Croma are similar means of transport."
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Ab_Klink": {
+            "lexicon_key": "Ab_Klink"
+        },
+        "Erasmus_University_Rotterdam": {
+            "lexicon_key": "Erasmus_University_Rotterdam"
+        },
+        "Christian_Democratic_Appeal": {
+            "lexicon_key": "Christian_Democratic_Appeal"
+        },
+        "Netherlands": {
+            "lexicon_key": "Netherlands"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Ab_Klink",
+            "child_node": "Erasmus_University_Rotterdam",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "party",
+            "parent_node": "Ab_Klink",
+            "child_node": "Christian_Democratic_Appeal",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Ab_Klink",
+            "child_node": "Netherlands",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ab Klink was born in the Netherlands, belongs to the Christian Democratic Appeal party and graduated from Erasmus University in Rotterdam."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born in the Netherlands, Ab Klink attended Erasmus University Rotterdam and belongs to the Christian Democratic Appeal party."
+        }
+    },
+    "gold_outputs": [
+        "Ab Klink was born in the Netherlands, belongs to the Christian Democratic Appeal party and graduated from Erasmus University in Rotterdam.",
+        "Born in the Netherlands, Ab Klink attended Erasmus University Rotterdam and belongs to the Christian Democratic Appeal party."
+    ]
+}

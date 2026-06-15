@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Mexicans": {
+            "lexicon_key": "Mexicans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "Mexico",
+            "child_node": "Mexicans",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Mexico is inhabited by Mexicans."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Mexicans are people from Mexico."
+        }
+    },
+    "gold_outputs": [
+        "Mexicans are people from Mexico.",
+        "Mexico is inhabited by Mexicans."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Abradab": {
+            "lexicon_key": "Abradab"
+        },
+        "\"solo_singer\"": {
+            "lexicon_key": "\"solo_singer\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "background",
+            "parent_node": "Abradab",
+            "child_node": "\"solo_singer\"",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abradab has a background as a solo singer."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abradab's background is that of solo singer."
+        }
+    },
+    "gold_outputs": [
+        "Abradab has a background as a solo singer.",
+        "Abradab's background is that of solo singer."
+    ]
+}

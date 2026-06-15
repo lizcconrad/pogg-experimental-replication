@@ -1,0 +1,9 @@
+strict digraph {
+"Arem-arem" [lexicon_key="Arem-arem"];
+Indonesia [lexicon_key=Indonesia];
+Jusuf_Kalla [lexicon_key="Jusuf_Kalla"];
+"Nationwide in Indonesia, but more specific to Java" [lexicon_key="Nationwide in Indonesia, but more specific to Java"];
+"Arem-arem" -> Indonesia [label=country, lexicon_key=country];
+"Arem-arem" -> "Nationwide in Indonesia, but more specific to Java" [label=region, lexicon_key=region];
+Indonesia -> Jusuf_Kalla [label=leader, lexicon_key=leader];
+}

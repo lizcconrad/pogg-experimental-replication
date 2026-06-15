@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Appleton_International_Airport": {
+            "lexicon_key": "Appleton_International_Airport"
+        },
+        "Greenville,_Wisconsin": {
+            "lexicon_key": "Greenville,_Wisconsin"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Clayton,_Winnebago_County,_Wisconsin": {
+            "lexicon_key": "Clayton,_Winnebago_County,_Wisconsin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Appleton_International_Airport",
+            "child_node": "Greenville,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Greenville,_Wisconsin",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Greenville,_Wisconsin",
+            "child_node": "Clayton,_Winnebago_County,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Appleton International Airport is in Greenville which is part of Clayton Winnebago County, Wisconsin, in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Appleton International Airport is located in Greenville, Wisconsin, USA, which is part of Clayton, Winnebago county."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Appleton International Airport is in Greenville, Clayton, Winnebago County, Wisconsin, United States."
+        }
+    },
+    "gold_outputs": [
+        "Appleton International Airport is located in Greenville, Wisconsin, USA, which is part of Clayton, Winnebago county.",
+        "The Appleton International Airport is in Greenville which is part of Clayton Winnebago County, Wisconsin, in the United States.",
+        "The Appleton International Airport is in Greenville, Clayton, Winnebago County, Wisconsin, United States."
+    ]
+}

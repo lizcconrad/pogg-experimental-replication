@@ -1,0 +1,5 @@
+strict digraph {
+Marv_Wolfman [lexicon_key="Marv_Wolfman"];
+"Eagle_Award_(comics)" [lexicon_key="Eagle_Award_(comics)"];
+Marv_Wolfman -> "Eagle_Award_(comics)" [label=award, lexicon_key=award];
+}

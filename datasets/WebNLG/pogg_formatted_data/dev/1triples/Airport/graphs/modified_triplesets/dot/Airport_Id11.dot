@@ -1,0 +1,5 @@
+strict digraph {
+Alderney_Airport [lexicon_key="Alderney_Airport"];
+Alderney [lexicon_key=Alderney];
+Alderney_Airport -> Alderney [label=cityServed, lexicon_key=cityServed];
+}

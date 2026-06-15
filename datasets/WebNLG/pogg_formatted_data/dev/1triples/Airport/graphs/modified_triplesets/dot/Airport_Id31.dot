@@ -1,0 +1,5 @@
+strict digraph {
+"Harrietstown,_New_York" [lexicon_key="Harrietstown,_New_York"];
+United_States [lexicon_key="United_States"];
+"Harrietstown,_New_York" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

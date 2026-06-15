@@ -1,0 +1,5 @@
+strict digraph {
+"Maccabi_Tel_Aviv_B.C." [lexicon_key="Maccabi_Tel_Aviv_B.C."];
+"Žan_Tabak" [lexicon_key="Žan_Tabak"];
+"Maccabi_Tel_Aviv_B.C." -> "Žan_Tabak" [label=coach, lexicon_key=coach];
+}

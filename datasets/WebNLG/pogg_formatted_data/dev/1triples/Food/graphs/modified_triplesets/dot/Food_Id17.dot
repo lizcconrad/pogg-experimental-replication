@@ -1,0 +1,5 @@
+strict digraph {
+Barny_Cakes [lexicon_key="Barny_Cakes"];
+Chocolate [lexicon_key=Chocolate];
+Barny_Cakes -> Chocolate [label=dishVariation, lexicon_key=dishVariation];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Long_Long_Way": {
+            "lexicon_key": "A_Long_Long_Way"
+        },
+        "57392246": {
+            "lexicon_key": "57392246"
+        },
+        "\"0-670-03380-4\"": {
+            "lexicon_key": "\"0-670-03380-4\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "A_Long_Long_Way",
+            "child_node": "57392246",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Long_Long_Way",
+            "child_node": "\"0-670-03380-4\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ISBN number of A Long Long Way is 0-670-03380-4, and its OCLC number is 57392246."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The OCLC number of A Long Long Way is 57392246 and the ISBN number is 0-670-03380-4."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The ISBN number of A Long Long Way is 0-670-03380-4; the OCLC number is 57392246."
+        }
+    },
+    "gold_outputs": [
+        "The ISBN number of A Long Long Way is 0-670-03380-4, and its OCLC number is 57392246.",
+        "The ISBN number of A Long Long Way is 0-670-03380-4; the OCLC number is 57392246.",
+        "The OCLC number of A Long Long Way is 57392246 and the ISBN number is 0-670-03380-4."
+    ]
+}

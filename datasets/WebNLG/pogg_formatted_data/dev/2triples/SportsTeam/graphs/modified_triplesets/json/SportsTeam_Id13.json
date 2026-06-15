@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AFC_Ajax": {
+            "lexicon_key": "AFC_Ajax"
+        },
+        "Frank_de_Boer": {
+            "lexicon_key": "Frank_de_Boer"
+        },
+        "Ajax_Youth_Academy": {
+            "lexicon_key": "Ajax_Youth_Academy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "AFC_Ajax",
+            "child_node": "Frank_de_Boer",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Frank_de_Boer",
+            "child_node": "Ajax_Youth_Academy",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The manager of AFC Ajax is Frank de Boer who is in the Ajax Youth Academy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Ajax's manager is Frank de Boer, who played for the Ajax Youth Academy."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Frank de Boer is in the Ajax Youth Academy and manages AFC Ajax."
+        }
+    },
+    "gold_outputs": [
+        "AFC Ajax's manager is Frank de Boer, who played for the Ajax Youth Academy.",
+        "Frank de Boer is in the Ajax Youth Academy and manages AFC Ajax.",
+        "The manager of AFC Ajax is Frank de Boer who is in the Ajax Youth Academy."
+    ]
+}

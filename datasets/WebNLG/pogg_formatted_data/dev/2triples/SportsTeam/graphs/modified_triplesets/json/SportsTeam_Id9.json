@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A.F.C._Fylde": {
+            "lexicon_key": "A.F.C._Fylde"
+        },
+        "3180": {
+            "lexicon_key": "3180"
+        },
+        "\"Bryning Lane\"": {
+            "lexicon_key": "\"Bryning Lane\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "A.F.C._Fylde",
+            "child_node": "3180",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "A.F.C._Fylde",
+            "child_node": "\"Bryning Lane\"",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.F.C. Fylde has 3180 members and are based at Bryning Lane."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Fylde has 3180 members and are based at Bryning Lane."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.F.C. Fylde are based at Bryning Lane and they have 3180 members."
+        }
+    },
+    "gold_outputs": [
+        "A.F.C. Fylde are based at Bryning Lane and they have 3180 members.",
+        "A.F.C. Fylde has 3180 members and are based at Bryning Lane.",
+        "AFC Fylde has 3180 members and are based at Bryning Lane."
+    ]
+}

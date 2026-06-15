@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Ariane_5": {
+            "lexicon_key": "Ariane_5"
+        },
+        "2005-08-11": {
+            "lexicon_key": "2005-08-11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "maidenFlight",
+            "parent_node": "Ariane_5",
+            "child_node": "2005-08-11",
+            "edge_properties": {
+                "lexicon_key": "maidenFlight"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Ariane 5 had its first voyage August 11, 2005."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ariane 5 had its maiden flight on August 11th 2005."
+        }
+    },
+    "gold_outputs": [
+        "Ariane 5 had its maiden flight on August 11th 2005.",
+        "The Ariane 5 had its first voyage August 11, 2005."
+    ]
+}

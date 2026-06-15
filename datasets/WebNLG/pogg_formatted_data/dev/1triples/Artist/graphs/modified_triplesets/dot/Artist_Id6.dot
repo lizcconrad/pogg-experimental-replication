@@ -1,0 +1,5 @@
+strict digraph {
+Abradab [lexicon_key=Abradab];
+"Magik_(rapper)" [lexicon_key="Magik_(rapper)"];
+Abradab -> "Magik_(rapper)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

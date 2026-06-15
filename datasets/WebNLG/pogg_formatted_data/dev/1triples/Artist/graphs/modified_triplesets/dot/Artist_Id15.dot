@@ -1,0 +1,5 @@
+strict digraph {
+"Aleksandra_Kovač" [lexicon_key="Aleksandra_Kovač"];
+Soul_music [lexicon_key="Soul_music"];
+"Aleksandra_Kovač" -> Soul_music [label=genre, lexicon_key=genre];
+}

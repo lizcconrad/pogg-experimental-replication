@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "AIDAluna": {
+            "lexicon_key": "AIDAluna"
+        },
+        "\"Sphinx class cruise ship\"": {
+            "lexicon_key": "\"Sphinx class cruise ship\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "shipClass",
+            "parent_node": "AIDAluna",
+            "child_node": "\"Sphinx class cruise ship\"",
+            "edge_properties": {
+                "lexicon_key": "shipClass"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDAluna is a Sphinx class cruise ship."
+        }
+    },
+    "gold_outputs": [
+        "The AIDAluna is a Sphinx class cruise ship."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+"Abel_Hernández" [lexicon_key="Abel_Hernández"];
+"U.S._Città_di_Palermo" [lexicon_key="U.S._Città_di_Palermo"];
+Peñarol [lexicon_key=Peñarol];
+"Abel_Hernández" -> "U.S._Città_di_Palermo" [label=club, lexicon_key=club];
+"Abel_Hernández" -> Peñarol [label=club, lexicon_key=club];
+}

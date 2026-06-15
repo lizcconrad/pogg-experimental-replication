@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "11_Diagonal_Street": {
+            "lexicon_key": "11_Diagonal_Street"
+        },
+        "South_Africa": {
+            "lexicon_key": "South_Africa"
+        },
+        "Jacob_Zuma": {
+            "lexicon_key": "Jacob_Zuma"
+        },
+        "White_South_African": {
+            "lexicon_key": "White_South_African"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11_Diagonal_Street",
+            "child_node": "South_Africa",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "South_Africa",
+            "child_node": "Jacob_Zuma",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "South_Africa",
+            "child_node": "White_South_African",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "11 Diagonal Street is in South Africa where the leader is Jacob Zuma. An ethnic group found there are white South Africans."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The white South Africans are an ethnic group of the country where Jacob Zuma is leader and where 11 Diagonal Street is located."
+        }
+    },
+    "gold_outputs": [
+        "11 Diagonal Street is in South Africa where the leader is Jacob Zuma. An ethnic group found there are white South Africans.",
+        "The white South Africans are an ethnic group of the country where Jacob Zuma is leader and where 11 Diagonal Street is located."
+    ]
+}

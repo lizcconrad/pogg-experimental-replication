@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Asser_Levy_Public_Baths": {
+            "lexicon_key": "Asser_Levy_Public_Baths"
+        },
+        "New_York_City": {
+            "lexicon_key": "New_York_City"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Manhattan": {
+            "lexicon_key": "Manhattan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Asser_Levy_Public_Baths",
+            "child_node": "New_York_City",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "New_York_City",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "New_York_City",
+            "child_node": "Manhattan",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Asser Levy Public Baths are located in New York City, U.S. Manhattan is a borough in New York City."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Asser Levy Public Baths are located in Manhattan, New York City, United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The location of Asser Levy Public Baths is New York City, Manhattan in the U.S."
+        }
+    },
+    "gold_outputs": [
+        "Asser Levy Public Baths are located in Manhattan, New York City, United States.",
+        "The Asser Levy Public Baths are located in New York City, U.S. Manhattan is a borough in New York City.",
+        "The location of Asser Levy Public Baths is New York City, Manhattan in the U.S."
+    ]
+}

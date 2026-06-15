@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Bozo_the_Iron_Man": {
+            "lexicon_key": "Bozo_the_Iron_Man"
+        },
+        "\"Hugh Hazzard\"": {
+            "lexicon_key": "\"Hugh Hazzard\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "fullName",
+            "parent_node": "Bozo_the_Iron_Man",
+            "child_node": "\"Hugh Hazzard\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bozo the Iron Man\u2019s full name is Hugh Hazzard."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The full name of Bozo the Iron Man is \"Hugh Hazzard\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The comic book character Bozo the Iron Man's alter ego is Hugh Hazzard."
+        }
+    },
+    "gold_outputs": [
+        "Bozo the Iron Man\u2019s full name is Hugh Hazzard.",
+        "The comic book character Bozo the Iron Man's alter ego is Hugh Hazzard.",
+        "The full name of Bozo the Iron Man is \"Hugh Hazzard\"."
+    ]
+}

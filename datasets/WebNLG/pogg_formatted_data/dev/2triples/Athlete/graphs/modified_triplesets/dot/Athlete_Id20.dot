@@ -1,0 +1,7 @@
+strict digraph {
+Alex_Plante [lexicon_key="Alex_Plante"];
+1989 [lexicon_key=1989];
+Manitoba [lexicon_key=Manitoba];
+Alex_Plante -> 1989 [label=birthYear, lexicon_key=birthYear];
+Alex_Plante -> Manitoba [label=birthPlace, lexicon_key=birthPlace];
+}

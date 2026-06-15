@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksandr_Chumakov": {
+            "lexicon_key": "Aleksandr_Chumakov"
+        },
+        "Russia": {
+            "lexicon_key": "Russia"
+        },
+        "Sergey_Naryshkin": {
+            "lexicon_key": "Sergey_Naryshkin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Aleksandr_Chumakov",
+            "child_node": "Russia",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Russia",
+            "child_node": "Sergey_Naryshkin",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Russia is led by Sergey Naryshkin and is where Aleksandr Chumakov died."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandr Chumakov died in Russia where the leader is Sergey Naryshkin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandr Chumakov died in Russia, where the leader is Sergey Naryshkin."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandr Chumakov died in Russia where the leader is Sergey Naryshkin.",
+        "Aleksandr Chumakov died in Russia, where the leader is Sergey Naryshkin.",
+        "Russia is led by Sergey Naryshkin and is where Aleksandr Chumakov died."
+    ]
+}

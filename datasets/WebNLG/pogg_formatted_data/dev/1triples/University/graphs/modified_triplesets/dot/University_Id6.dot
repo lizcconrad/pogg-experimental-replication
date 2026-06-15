@@ -1,0 +1,5 @@
+strict digraph {
+"School of Business and Social Sciences at the Aarhus University" [lexicon_key="School of Business and Social Sciences at the Aarhus University"];
+737 [lexicon_key=737];
+"School of Business and Social Sciences at the Aarhus University" -> 737 [label=academicStaffSize, lexicon_key=academicStaffSize];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+Public_company [lexicon_key="Public_company"];
+Insular_Government_of_the_Philippine_Islands [lexicon_key="Insular_Government_of_the_Philippine_Islands"];
+Chinabank -> Public_company [label=type, lexicon_key=type];
+Chinabank -> Insular_Government_of_the_Philippine_Islands [label=foundationPlace, lexicon_key=foundationPlace];
+}

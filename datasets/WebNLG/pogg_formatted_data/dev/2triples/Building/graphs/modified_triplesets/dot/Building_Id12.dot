@@ -1,0 +1,7 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+Sri_Lanka [lexicon_key="Sri_Lanka"];
+Tamil_language [lexicon_key="Tamil_language"];
+Adisham_Hall -> Sri_Lanka [label=country, lexicon_key=country];
+Sri_Lanka -> Tamil_language [label=language, lexicon_key=language];
+}

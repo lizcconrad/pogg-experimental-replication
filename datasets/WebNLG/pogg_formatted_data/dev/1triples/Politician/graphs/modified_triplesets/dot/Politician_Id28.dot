@@ -1,0 +1,5 @@
+strict digraph {
+Antonis_Samaras [lexicon_key="Antonis_Samaras"];
+Konstantinos_Mitsotakis [lexicon_key="Konstantinos_Mitsotakis"];
+Antonis_Samaras -> Konstantinos_Mitsotakis [label=successor, lexicon_key=successor];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alan_Martin_(footballer)": {
+            "lexicon_key": "Alan_Martin_(footballer)"
+        },
+        "Hamilton_Academical_F.C.": {
+            "lexicon_key": "Hamilton_Academical_F.C."
+        },
+        "Barrow_A.F.C.": {
+            "lexicon_key": "Barrow_A.F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Hamilton_Academical_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Barrow_A.F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Martin plays for Barrow AFC and Hamilton Academical FC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Martin plays for Hamilton Academical F.C. and Barrow A.F.C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The footballer Alan Martin plays for Barrow AFC and also played for Hamilton Academical FC."
+        }
+    },
+    "gold_outputs": [
+        "Alan Martin plays for Barrow AFC and Hamilton Academical FC.",
+        "Alan Martin plays for Hamilton Academical F.C. and Barrow A.F.C.",
+        "The footballer Alan Martin plays for Barrow AFC and also played for Hamilton Academical FC."
+    ]
+}

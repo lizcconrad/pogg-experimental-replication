@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Adam_Koc": {
+            "lexicon_key": "Adam_Koc"
+        },
+        "Polish\u2013Soviet_War": {
+            "lexicon_key": "Polish\u2013Soviet_War"
+        },
+        "Order_of_Polonia_Restituta": {
+            "lexicon_key": "Order_of_Polonia_Restituta"
+        },
+        "Cross_of_Valour_(Poland)": {
+            "lexicon_key": "Cross_of_Valour_(Poland)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Adam_Koc",
+            "child_node": "Polish\u2013Soviet_War",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Adam_Koc",
+            "child_node": "Order_of_Polonia_Restituta",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Adam_Koc",
+            "child_node": "Cross_of_Valour_(Poland)",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Koc fought in battles in the Polish-Soviet War and was awarded the Order of Polonia Restituta and the Cross of Valour for Poland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adam Koc fought in the Polish\u2013Soviet War. He earned two awards: the Order of Polonia Restituta and the Cross of Valour (Poland)."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Having fought in the Polish\u2013Soviet War, Adam Koc was awarded the Order of Polonia Restituta and the Cross of Valour (Poland)."
+        }
+    },
+    "gold_outputs": [
+        "Adam Koc fought in battles in the Polish-Soviet War and was awarded the Order of Polonia Restituta and the Cross of Valour for Poland.",
+        "Adam Koc fought in the Polish\u2013Soviet War. He earned two awards: the Order of Polonia Restituta and the Cross of Valour (Poland).",
+        "Having fought in the Polish\u2013Soviet War, Adam Koc was awarded the Order of Polonia Restituta and the Cross of Valour (Poland)."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Above_the_Veil": {
+            "lexicon_key": "Above_the_Veil"
+        },
+        "Australians": {
+            "lexicon_key": "Australians"
+        },
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Above_the_Veil",
+            "child_node": "Australians",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Above_the_Veil",
+            "child_node": "Aenir",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aenir and its sequel Above the Veil are examples of Australian literature."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Above the Veil, preceded by Aenir, is from the country of Australia."
+        }
+    },
+    "gold_outputs": [
+        "Above the Veil, preceded by Aenir, is from the country of Australia.",
+        "Aenir and its sequel Above the Veil are examples of Australian literature."
+    ]
+}

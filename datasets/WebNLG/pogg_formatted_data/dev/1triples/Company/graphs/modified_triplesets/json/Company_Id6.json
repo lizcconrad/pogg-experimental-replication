@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        },
+        "58.38": {
+            "lexicon_key": "58.38"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "La_Crosse,_Wisconsin",
+            "child_node": "58.38",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "La Crosse is a city in the U.S. state of Wisconsin, and the city has a total area of 58.38."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The total area of La Crosse Wisconsin is 58.38 square kilometers."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The total area of LaCrosse Wisconsin is 58.38."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "La Crosse, Wisconsin has a total area of 58.38."
+        }
+    },
+    "gold_outputs": [
+        "La Crosse is a city in the U.S. state of Wisconsin, and the city has a total area of 58.38.",
+        "La Crosse, Wisconsin has a total area of 58.38.",
+        "The total area of La Crosse Wisconsin is 58.38 square kilometers.",
+        "The total area of LaCrosse Wisconsin is 58.38."
+    ]
+}

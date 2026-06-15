@@ -1,0 +1,5 @@
+strict digraph {
+Philippine_Entertainment_Portal [lexicon_key="Philippine_Entertainment_Portal"];
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Philippine_Entertainment_Portal -> GMA_New_Media [label=parentCompany, lexicon_key=parentCompany];
+}

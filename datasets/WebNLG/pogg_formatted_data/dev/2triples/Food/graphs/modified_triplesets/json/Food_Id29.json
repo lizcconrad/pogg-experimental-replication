@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Binignit": {
+            "lexicon_key": "Binignit"
+        },
+        "Sweet_potato": {
+            "lexicon_key": "Sweet_potato"
+        },
+        "Sago": {
+            "lexicon_key": "Sago"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Binignit",
+            "child_node": "Sweet_potato",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Binignit",
+            "child_node": "Sago",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sago is the main ingredient in binignit but sweet potatoes are also used in it."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Binignit has the ingredients sweet potato and sago."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Sweet potato and sago are main ingredients in Binignit."
+        }
+    },
+    "gold_outputs": [
+        "Binignit has the ingredients sweet potato and sago.",
+        "Sago is the main ingredient in binignit but sweet potatoes are also used in it.",
+        "Sweet potato and sago are main ingredients in Binignit."
+    ]
+}

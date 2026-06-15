@@ -1,0 +1,5 @@
+strict digraph {
+Columbus_Blue_Jackets [lexicon_key="Columbus_Blue_Jackets"];
+"Columbus,_Ohio" [lexicon_key="Columbus,_Ohio"];
+Columbus_Blue_Jackets -> "Columbus,_Ohio" [label=city, lexicon_key=city];
+}

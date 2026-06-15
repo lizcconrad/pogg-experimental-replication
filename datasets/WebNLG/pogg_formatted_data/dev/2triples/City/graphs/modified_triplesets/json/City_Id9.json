@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Ann_Arbor,_Michigan": {
+            "lexicon_key": "Ann_Arbor,_Michigan"
+        },
+        "1580.7 (inhabitants per square kilometre)": {
+            "lexicon_key": "1580.7 (inhabitants per square kilometre)"
+        },
+        "74.33 (square kilometres)": {
+            "lexicon_key": "74.33 (square kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ann_Arbor,_Michigan",
+            "child_node": "1580.7 (inhabitants per square kilometre)",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Ann_Arbor,_Michigan",
+            "child_node": "74.33 (square kilometres)",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ann Arbor, Michigan has a population of 1580.7 per square kilometre and a total area of 74.33 square kilometres."
+        }
+    },
+    "gold_outputs": [
+        "Ann Arbor, Michigan has a population of 1580.7 per square kilometre and a total area of 74.33 square kilometres."
+    ]
+}

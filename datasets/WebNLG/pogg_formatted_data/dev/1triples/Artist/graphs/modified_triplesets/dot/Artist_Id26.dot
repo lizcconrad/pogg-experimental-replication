@@ -1,0 +1,5 @@
+strict digraph {
+"Andrew_White_(musician)" [lexicon_key="Andrew_White_(musician)"];
+Alternative_rock [lexicon_key="Alternative_rock"];
+"Andrew_White_(musician)" -> Alternative_rock [label=genre, lexicon_key=genre];
+}

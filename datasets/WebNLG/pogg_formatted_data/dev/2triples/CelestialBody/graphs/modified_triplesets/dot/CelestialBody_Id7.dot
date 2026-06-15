@@ -1,0 +1,7 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+James_Craig_Watson [lexicon_key="James_Craig_Watson"];
+Canada [lexicon_key=Canada];
+"103_Hera" -> James_Craig_Watson [label=discoverer, lexicon_key=discoverer];
+James_Craig_Watson -> Canada [label=nationality, lexicon_key=nationality];
+}

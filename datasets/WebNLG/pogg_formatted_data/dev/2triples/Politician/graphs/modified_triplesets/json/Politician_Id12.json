@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "Chicago": {
+            "lexicon_key": "Chicago"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Casey_Ribicoff",
+            "child_node": "Chicago",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abraham A. Ribicoff's spouse was Casey Ribicoff, who was born in Chicago."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abraham A. Ribicoff's wife was Casey Ribicoff and she was born in Chicago."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Casey Ribicoff, born in Chicago, was married to Abraham A. Ribicoff."
+        }
+    },
+    "gold_outputs": [
+        "Abraham A. Ribicoff's spouse was Casey Ribicoff, who was born in Chicago.",
+        "Abraham A. Ribicoff's wife was Casey Ribicoff and she was born in Chicago.",
+        "Casey Ribicoff, born in Chicago, was married to Abraham A. Ribicoff."
+    ]
+}

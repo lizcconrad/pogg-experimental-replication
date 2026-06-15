@@ -1,0 +1,7 @@
+strict digraph {
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+Serie_B [lexicon_key="Serie_B"];
+"Carpi_F.C._1909" [lexicon_key="Carpi_F.C._1909"];
+"A.C._Cesena" -> Serie_B [label=league, lexicon_key=league];
+Serie_B -> "Carpi_F.C._1909" [label=champions, lexicon_key=champions];
+}

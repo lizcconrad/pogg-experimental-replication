@@ -1,0 +1,9 @@
+strict digraph {
+"Alan_Martin_(footballer)" [lexicon_key="Alan_Martin_(footballer)"];
+"1989-01-01" [lexicon_key="1989-01-01"];
+"Crewe_Alexandra_F.C." [lexicon_key="Crewe_Alexandra_F.C."];
+"Aldershot_Town_F.C." [lexicon_key="Aldershot_Town_F.C."];
+"Alan_Martin_(footballer)" -> "1989-01-01" [label=birthDate, lexicon_key=birthDate];
+"Alan_Martin_(footballer)" -> "Crewe_Alexandra_F.C." [label=club, lexicon_key=club];
+"Alan_Martin_(footballer)" -> "Aldershot_Town_F.C." [label=club, lexicon_key=club];
+}

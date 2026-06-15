@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Alderney_Airport": {
+            "lexicon_key": "Alderney_Airport"
+        },
+        "Alderney": {
+            "lexicon_key": "Alderney"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Alderney_Airport",
+            "child_node": "Alderney",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alderney Airport serves Alderney."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alderney Airport serves the city of Alderney."
+        }
+    },
+    "gold_outputs": [
+        "Alderney Airport serves the city of Alderney.",
+        "The Alderney Airport serves Alderney."
+    ]
+}

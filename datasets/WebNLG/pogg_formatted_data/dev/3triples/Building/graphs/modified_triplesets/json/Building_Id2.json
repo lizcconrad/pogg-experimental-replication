@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "11_Diagonal_Street": {
+            "lexicon_key": "11_Diagonal_Street"
+        },
+        "South_Africa": {
+            "lexicon_key": "South_Africa"
+        },
+        "Jacob_Zuma": {
+            "lexicon_key": "Jacob_Zuma"
+        },
+        "Coloured": {
+            "lexicon_key": "Coloured"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11_Diagonal_Street",
+            "child_node": "South_Africa",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "South_Africa",
+            "child_node": "Jacob_Zuma",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "South_Africa",
+            "child_node": "Coloured",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "11 Diagonal Street is located in South Africa, a country in which coloureds are one of the ethnic groups and Jacob Zuma is the leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "11 Diagonal Street is located in South Africa, populated by Coloured people and led by Jacob Zuma."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The address, 11 Diagonal Street is located in South Africa where Jacob Zuma is a leader and some coloured people live."
+        }
+    },
+    "gold_outputs": [
+        "11 Diagonal Street is located in South Africa, a country in which coloureds are one of the ethnic groups and Jacob Zuma is the leader.",
+        "11 Diagonal Street is located in South Africa, populated by Coloured people and led by Jacob Zuma.",
+        "The address, 11 Diagonal Street is located in South Africa where Jacob Zuma is a leader and some coloured people live."
+    ]
+}

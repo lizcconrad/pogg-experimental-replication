@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.F.C._Blackpool": {
+            "lexicon_key": "A.F.C._Blackpool"
+        },
+        "Stuart_Parker_(footballer)": {
+            "lexicon_key": "Stuart_Parker_(footballer)"
+        },
+        "Drogheda_United_F.C.": {
+            "lexicon_key": "Drogheda_United_F.C."
+        },
+        "Stockport_County_F.C.": {
+            "lexicon_key": "Stockport_County_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.F.C._Blackpool",
+            "child_node": "Stuart_Parker_(footballer)",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Drogheda_United_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Stockport_County_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The manager of A.F.C. Blackpool is Stuart Parker who was at Drogheda United FC and once played for Stockport County FC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Blackpool have had Stuart Parker as their manager. He plays for Drogheda United F.C. and Stockport County F.C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Stuart Parker (football player of Drogheda United F.C.) managed AFC Blackpool. He was a member of Stockport County F.C."
+        }
+    },
+    "gold_outputs": [
+        "AFC Blackpool have had Stuart Parker as their manager. He plays for Drogheda United F.C. and Stockport County F.C.",
+        "Stuart Parker (football player of Drogheda United F.C.) managed AFC Blackpool. He was a member of Stockport County F.C.",
+        "The manager of A.F.C. Blackpool is Stuart Parker who was at Drogheda United FC and once played for Stockport County FC."
+    ]
+}

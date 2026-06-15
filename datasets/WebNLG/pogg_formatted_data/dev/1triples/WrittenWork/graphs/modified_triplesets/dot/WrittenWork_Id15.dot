@@ -1,0 +1,5 @@
+strict digraph {
+"Addiction_(journal)" [lexicon_key="Addiction_(journal)"];
+27367194 [lexicon_key=27367194];
+"Addiction_(journal)" -> 27367194 [label=oclcNumber, lexicon_key=oclcNumber];
+}

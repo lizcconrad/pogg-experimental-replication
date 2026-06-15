@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Bacon_Explosion": {
+            "lexicon_key": "Bacon_Explosion"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "John_Roberts": {
+            "lexicon_key": "John_Roberts"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "John_Roberts",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Bacon Explosion originated in the United States, where African Americans are an ethnic group and John Roberts is a leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bacon Explosion comes from the United States where African Americans are an ethnic group and John Roberts is a leader."
+        }
+    },
+    "gold_outputs": [
+        "Bacon Explosion comes from the United States where African Americans are an ethnic group and John Roberts is a leader.",
+        "The Bacon Explosion originated in the United States, where African Americans are an ethnic group and John Roberts is a leader."
+    ]
+}

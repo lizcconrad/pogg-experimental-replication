@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Austria": {
+            "lexicon_key": "Austria"
+        },
+        "Austrian_German": {
+            "lexicon_key": "Austrian_German"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Austria",
+            "child_node": "Austrian_German",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "In Austria, the language is Austrian German."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The language in Austria is Austrian German."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The spoken language of Austria is Austrian German."
+        }
+    },
+    "gold_outputs": [
+        "In Austria, the language is Austrian German.",
+        "The language in Austria is Austrian German.",
+        "The spoken language of Austria is Austrian German."
+    ]
+}

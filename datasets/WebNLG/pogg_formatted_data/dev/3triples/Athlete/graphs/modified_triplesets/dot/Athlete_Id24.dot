@@ -1,0 +1,9 @@
+strict digraph {
+Canada [lexicon_key=Canada];
+O_Canada [lexicon_key="O_Canada"];
+Elizabeth_II [lexicon_key="Elizabeth_II"];
+Alex_Plante [lexicon_key="Alex_Plante"];
+Canada -> O_Canada [label=anthem, lexicon_key=anthem];
+Canada -> Elizabeth_II [label=leader, lexicon_key=leader];
+Alex_Plante -> Canada [label=birthPlace, lexicon_key=birthPlace];
+}

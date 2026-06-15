@@ -1,0 +1,7 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+World_War_II [lexicon_key="World_War_II"];
+Knightsbridge [lexicon_key=Knightsbridge];
+Airey_Neave -> World_War_II [label=battle, lexicon_key=battle];
+Airey_Neave -> Knightsbridge [label=birthPlace, lexicon_key=birthPlace];
+}

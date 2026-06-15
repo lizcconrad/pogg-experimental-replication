@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "\"Ruth Ribicoff\"": {
+            "lexicon_key": "\"Ruth Ribicoff\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "\"Ruth Ribicoff\"",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abraham A Ribicoff, born in the U.S., was married to Ruth Ribicoff."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abraham A. Ribicoff, who was born in the U.S., is married to Ruth Ribicoff."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abraham A. Ribicoff was born in the U.S and his spouse is Ruth Ribicoff."
+        }
+    },
+    "gold_outputs": [
+        "Abraham A Ribicoff, born in the U.S., was married to Ruth Ribicoff.",
+        "Abraham A. Ribicoff was born in the U.S and his spouse is Ruth Ribicoff.",
+        "Abraham A. Ribicoff, who was born in the U.S., is married to Ruth Ribicoff."
+    ]
+}

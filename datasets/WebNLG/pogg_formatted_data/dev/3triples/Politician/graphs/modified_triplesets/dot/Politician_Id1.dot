@@ -1,0 +1,9 @@
+strict digraph {
+"Aaron_S._Daggett" [lexicon_key="Aaron_S._Daggett"];
+Purple_Heart [lexicon_key="Purple_Heart"];
+Maine [lexicon_key=Maine];
+Battle_of_Fredericksburg [lexicon_key="Battle_of_Fredericksburg"];
+"Aaron_S._Daggett" -> Purple_Heart [label=award, lexicon_key=award];
+"Aaron_S._Daggett" -> Maine [label=birthPlace, lexicon_key=birthPlace];
+"Aaron_S._Daggett" -> Battle_of_Fredericksburg [label=battle, lexicon_key=battle];
+}

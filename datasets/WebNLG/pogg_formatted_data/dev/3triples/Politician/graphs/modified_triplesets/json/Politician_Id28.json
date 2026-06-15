@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "American_Civil_War": {
+            "lexicon_key": "American_Civil_War"
+        },
+        "Abraham_Lincoln": {
+            "lexicon_key": "Abraham_Lincoln"
+        },
+        "Alfred_Moore_Scales": {
+            "lexicon_key": "Alfred_Moore_Scales"
+        },
+        "Battle_of_Fredericksburg": {
+            "lexicon_key": "Battle_of_Fredericksburg"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "commander",
+            "parent_node": "American_Civil_War",
+            "child_node": "Abraham_Lincoln",
+            "edge_properties": {
+                "lexicon_key": "commander"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "Alfred_Moore_Scales",
+            "child_node": "Battle_of_Fredericksburg",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "isPartOfMilitaryConflict",
+            "parent_node": "Battle_of_Fredericksburg",
+            "child_node": "American_Civil_War",
+            "edge_properties": {
+                "lexicon_key": "isPartOfMilitaryConflict"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abraham Lincoln was a commander in the American Civil War. Alfred Moore Scales fought in the Battle of Fredericksburg during the American Civil War."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfred Moore Scales fought in battles such as the Battle of Fredericksburg, part of the American Civil War military conflict, during which Abraham Lincoln was a commander."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfred Moore Scales fought in the Battle of Fredericksburg, part of the American Civil War in which Abraham Lincoln was a commander."
+        }
+    },
+    "gold_outputs": [
+        "Abraham Lincoln was a commander in the American Civil War. Alfred Moore Scales fought in the Battle of Fredericksburg during the American Civil War.",
+        "Alfred Moore Scales fought in battles such as the Battle of Fredericksburg, part of the American Civil War military conflict, during which Abraham Lincoln was a commander.",
+        "Alfred Moore Scales fought in the Battle of Fredericksburg, part of the American Civil War in which Abraham Lincoln was a commander."
+    ]
+}

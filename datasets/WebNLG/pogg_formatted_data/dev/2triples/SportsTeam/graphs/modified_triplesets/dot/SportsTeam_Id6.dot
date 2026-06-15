@@ -1,0 +1,7 @@
+strict digraph {
+"A.F.C._Blackpool" [lexicon_key="A.F.C._Blackpool"];
+"Stuart_Parker_(footballer)" [lexicon_key="Stuart_Parker_(footballer)"];
+"Runcorn_F.C._Halton" [lexicon_key="Runcorn_F.C._Halton"];
+"A.F.C._Blackpool" -> "Stuart_Parker_(footballer)" [label=manager, lexicon_key=manager];
+"Stuart_Parker_(footballer)" -> "Runcorn_F.C._Halton" [label=club, lexicon_key=club];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Agra_Airport": {
+            "lexicon_key": "Agra_Airport"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "T._S._Thakur": {
+            "lexicon_key": "T._S._Thakur"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Agra_Airport",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "T._S._Thakur",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agra Airport is in India where one of its leaders is T.S. Thakur."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agra Airport is in India, where the leader is TS Thakur."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Agra Airport is located in India, where the leader is T S Thakur."
+        }
+    },
+    "gold_outputs": [
+        "Agra Airport is in India where one of its leaders is T.S. Thakur.",
+        "Agra Airport is in India, where the leader is TS Thakur.",
+        "Agra Airport is located in India, where the leader is T S Thakur."
+    ]
+}

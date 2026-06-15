@@ -1,0 +1,7 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"8.3 m" [lexicon_key="8.3 m"];
+"1855-05-31" [lexicon_key="1855-05-31"];
+Alhambra -> "8.3 m" [label=shipBeam, lexicon_key=shipBeam];
+Alhambra -> "1855-05-31" [label=shipLaunch, lexicon_key=shipLaunch];
+}

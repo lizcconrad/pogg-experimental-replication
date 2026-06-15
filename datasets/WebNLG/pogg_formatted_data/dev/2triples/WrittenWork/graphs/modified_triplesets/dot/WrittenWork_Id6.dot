@@ -1,0 +1,7 @@
+strict digraph {
+A_Fortress_of_Grey_Ice [lexicon_key="A_Fortress_of_Grey_Ice"];
+"J._V._Jones" [lexicon_key="J._V._Jones"];
+"0-7653-0633-6" [lexicon_key="0-7653-0633-6"];
+A_Fortress_of_Grey_Ice -> "J._V._Jones" [label=author, lexicon_key=author];
+A_Fortress_of_Grey_Ice -> "0-7653-0633-6" [label=isbnNumber, lexicon_key=isbnNumber];
+}

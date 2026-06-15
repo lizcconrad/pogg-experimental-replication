@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Antares_(rocket)": {
+            "lexicon_key": "Antares_(rocket)"
+        },
+        "2014-01-09": {
+            "lexicon_key": "2014-01-09"
+        },
+        "Mid-Atlantic_Regional_Spaceport": {
+            "lexicon_key": "Mid-Atlantic_Regional_Spaceport"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "maidenFlight",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "2014-01-09",
+            "edge_properties": {
+                "lexicon_key": "maidenFlight"
+            }
+        },
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "Mid-Atlantic_Regional_Spaceport",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Antares rocket is launched from the Mid-Atlantic Regional Spaceport and its first voyage was on January 9th 2014."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Antares rocket had its maiden flight on January 9th 2014 and was launched from the Mid-Atlantic Regional Spaceport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The rocker Antares was launched on its maiden flight from the Mid-Atlantic Regional Spaceport on 9 January 2014."
+        }
+    },
+    "gold_outputs": [
+        "The Antares rocket had its maiden flight on January 9th 2014 and was launched from the Mid-Atlantic Regional Spaceport.",
+        "The Antares rocket is launched from the Mid-Atlantic Regional Spaceport and its first voyage was on January 9th 2014.",
+        "The rocker Antares was launched on its maiden flight from the Mid-Atlantic Regional Spaceport on 9 January 2014."
+    ]
+}

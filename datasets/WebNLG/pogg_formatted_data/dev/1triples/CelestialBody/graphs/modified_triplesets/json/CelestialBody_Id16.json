@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "109_Felicitas": {
+            "lexicon_key": "109_Felicitas"
+        },
+        "170.0 (kelvins)": {
+            "lexicon_key": "170.0 (kelvins)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "temperature",
+            "parent_node": "109_Felicitas",
+            "child_node": "170.0 (kelvins)",
+            "edge_properties": {
+                "lexicon_key": "temperature"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "109 Felicitas has a temperature of 170 kelvins."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The celestial body known as 109 Felicitas has a temperature of 170 kelvins."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The temperature of the asteroid called 109 Felicitas is 170.0 kelvins."
+        }
+    },
+    "gold_outputs": [
+        "109 Felicitas has a temperature of 170 kelvins.",
+        "The celestial body known as 109 Felicitas has a temperature of 170 kelvins.",
+        "The temperature of the asteroid called 109 Felicitas is 170.0 kelvins."
+    ]
+}

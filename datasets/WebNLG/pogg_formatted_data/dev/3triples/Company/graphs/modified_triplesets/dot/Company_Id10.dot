@@ -1,0 +1,9 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+Ireland [lexicon_key=Ireland];
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+Europe [lexicon_key=Europe];
+Trane -> Ireland [label=location, lexicon_key=location];
+Trane -> "La_Crosse,_Wisconsin" [label=foundationPlace, lexicon_key=foundationPlace];
+Ireland -> Europe [label=location, lexicon_key=location];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Atat\u00fcrk_Monument_(\u0130zmir)": {
+            "lexicon_key": "Atat\u00fcrk_Monument_(\u0130zmir)"
+        },
+        "\"1932-07-27\"": {
+            "lexicon_key": "\"1932-07-27\""
+        },
+        "Turkey": {
+            "lexicon_key": "Turkey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inaugurationDate",
+            "parent_node": "Atat\u00fcrk_Monument_(\u0130zmir)",
+            "child_node": "\"1932-07-27\"",
+            "edge_properties": {
+                "lexicon_key": "inaugurationDate"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Atat\u00fcrk_Monument_(\u0130zmir)",
+            "child_node": "Turkey",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The inauguration date for the Atat\u00fcrk Monument (\u0130zmir, Turkey) is 1932-07-27."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Ataturk Monument is in Izmir Turkey and was founded on July 27, 1932."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The inauguration date for the Atat\u00fcrk Monument (\u0130zmir), which is in Turkey, is 1932-07-27."
+        }
+    },
+    "gold_outputs": [
+        "The Ataturk Monument is in Izmir Turkey and was founded on July 27, 1932.",
+        "The inauguration date for the Atat\u00fcrk Monument (\u0130zmir), which is in Turkey, is 1932-07-27.",
+        "The inauguration date for the Atat\u00fcrk Monument (\u0130zmir, Turkey) is 1932-07-27."
+    ]
+}

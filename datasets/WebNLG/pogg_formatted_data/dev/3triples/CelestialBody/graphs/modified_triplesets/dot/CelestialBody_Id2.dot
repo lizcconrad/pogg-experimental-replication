@@ -1,0 +1,9 @@
+strict digraph {
+"(66063)_1998_RO1" [lexicon_key="(66063)_1998_RO1"];
+"-71.0 (degreeCelsius)" [lexicon_key="-71.0 (degreeCelsius)"];
+"500.0 (kelvins)" [lexicon_key="500.0 (kelvins)"];
+"254989570.60815 (kilometres)" [lexicon_key="254989570.60815 (kilometres)"];
+"(66063)_1998_RO1" -> "-71.0 (degreeCelsius)" [label=minimumTemperature, lexicon_key=minimumTemperature];
+"(66063)_1998_RO1" -> "500.0 (kelvins)" [label=maximumTemperature, lexicon_key=maximumTemperature];
+"(66063)_1998_RO1" -> "254989570.60815 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

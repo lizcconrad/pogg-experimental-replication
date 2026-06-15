@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg": {
+            "lexicon_key": "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg"
+        },
+        "32024459": {
+            "lexicon_key": "32024459"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "LCCN_number",
+            "parent_node": "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg",
+            "child_node": "32024459",
+            "edge_properties": {
+                "lexicon_key": "LCCN_number"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg has the LCCN number 32024459."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg has an LCCN number of 32024459."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The LCCN number of Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg is 32024459."
+        }
+    },
+    "gold_outputs": [
+        "Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg has the LCCN number 32024459.",
+        "The Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg has an LCCN number of 32024459.",
+        "The LCCN number of Abhandlungen aus dem Mathematischen Seminar der Universit\u00e4t Hamburg is 32024459."
+    ]
+}

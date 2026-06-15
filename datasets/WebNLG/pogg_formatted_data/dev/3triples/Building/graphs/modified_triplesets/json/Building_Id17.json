@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Virginia": {
+            "lexicon_key": "Virginia"
+        },
+        "College_of_William_&_Mary": {
+            "lexicon_key": "College_of_William_&_Mary"
+        },
+        "Robert_Gates": {
+            "lexicon_key": "Robert_Gates"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "College_of_William_&_Mary",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        },
+        {
+            "edge_name": "chancellor",
+            "parent_node": "College_of_William_&_Mary",
+            "child_node": "Robert_Gates",
+            "edge_properties": {
+                "lexicon_key": "chancellor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Robert Gates is the chancellor of The College of William and Mary which is owned by Alan B Miller Hall and is located in Virginia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan B. Miller Hall, located in Virginia, is owned by The College of William and Mary; whose chancellor is Robert Gates."
+        }
+    },
+    "gold_outputs": [
+        "Alan B. Miller Hall, located in Virginia, is owned by The College of William and Mary; whose chancellor is Robert Gates.",
+        "Robert Gates is the chancellor of The College of William and Mary which is owned by Alan B Miller Hall and is located in Virginia."
+    ]
+}

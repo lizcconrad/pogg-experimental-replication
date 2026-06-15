@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bandeja_paisa": {
+            "lexicon_key": "Bandeja_paisa"
+        },
+        "Lemon": {
+            "lexicon_key": "Lemon"
+        },
+        "Citrus": {
+            "lexicon_key": "Citrus"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bandeja_paisa",
+            "child_node": "Lemon",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "genus",
+            "parent_node": "Lemon",
+            "child_node": "Citrus",
+            "edge_properties": {
+                "lexicon_key": "genus"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Lemon (part of genus Citrus) is an ingredient in Bandeja paisa."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Lemon, from the genus citrus, is an ingredient in Bandeja paisa."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Lemon (genus; citrus) is an ingredient found in Bandeja paisa."
+        }
+    },
+    "gold_outputs": [
+        "Lemon (genus; citrus) is an ingredient found in Bandeja paisa.",
+        "Lemon (part of genus Citrus) is an ingredient in Bandeja paisa.",
+        "Lemon, from the genus citrus, is an ingredient in Bandeja paisa."
+    ]
+}

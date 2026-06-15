@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alpena_County_Regional_Airport": {
+            "lexicon_key": "Alpena_County_Regional_Airport"
+        },
+        "Wilson_Township,_Alpena_County,_Michigan": {
+            "lexicon_key": "Wilson_Township,_Alpena_County,_Michigan"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Alpena_County_Regional_Airport",
+            "child_node": "Wilson_Township,_Alpena_County,_Michigan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Wilson_Township,_Alpena_County,_Michigan",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The location of Alpena County Regional Airport is Wilson Township, Alpena County, Michigan, United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alpena County Regional Airport is located in Wilson Township, Alpena County, Michigan, United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alpena County Regional Airport is located in the Wilson Township, Alpena County, Michigan, USA."
+        }
+    },
+    "gold_outputs": [
+        "Alpena County Regional Airport is located in Wilson Township, Alpena County, Michigan, United States.",
+        "Alpena County Regional Airport is located in the Wilson Township, Alpena County, Michigan, USA.",
+        "The location of Alpena County Regional Airport is Wilson Township, Alpena County, Michigan, United States."
+    ]
+}

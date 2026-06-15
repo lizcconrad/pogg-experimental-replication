@@ -1,0 +1,5 @@
+strict digraph {
+"A.E_Dimitra_Efxeinoupolis" [lexicon_key="A.E_Dimitra_Efxeinoupolis"];
+"A.E Dimitra Efxeinoupolis" [lexicon_key="A.E Dimitra Efxeinoupolis"];
+"A.E_Dimitra_Efxeinoupolis" -> "A.E Dimitra Efxeinoupolis" [label=fullName, lexicon_key=fullName];
+}

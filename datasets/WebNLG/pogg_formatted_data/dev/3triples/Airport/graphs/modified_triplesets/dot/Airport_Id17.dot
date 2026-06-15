@@ -1,0 +1,9 @@
+strict digraph {
+"Appleton,_Wisconsin" [lexicon_key="Appleton,_Wisconsin"];
+"Kimberly,_Wisconsin" [lexicon_key="Kimberly,_Wisconsin"];
+"Little_Chute,_Wisconsin" [lexicon_key="Little_Chute,_Wisconsin"];
+Appleton_International_Airport [lexicon_key="Appleton_International_Airport"];
+"Appleton,_Wisconsin" -> "Kimberly,_Wisconsin" [label=isPartOf, lexicon_key=isPartOf];
+"Appleton,_Wisconsin" -> "Little_Chute,_Wisconsin" [label=isPartOf, lexicon_key=isPartOf];
+Appleton_International_Airport -> "Appleton,_Wisconsin" [label=cityServed, lexicon_key=cityServed];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Andrew_Rayel [lexicon_key="Andrew_Rayel"];
+Jonathan_Mendelsohn [lexicon_key="Jonathan_Mendelsohn"];
+Mark_Sixma [lexicon_key="Mark_Sixma"];
+Andrew_Rayel -> Jonathan_Mendelsohn [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Andrew_Rayel -> Mark_Sixma [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

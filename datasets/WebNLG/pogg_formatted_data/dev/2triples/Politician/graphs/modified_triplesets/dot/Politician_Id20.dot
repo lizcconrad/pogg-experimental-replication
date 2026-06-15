@@ -1,0 +1,7 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+World_War_II [lexicon_key="World_War_II"];
+"1953-06-30" [lexicon_key="1953-06-30"];
+Airey_Neave -> World_War_II [label=battle, lexicon_key=battle];
+Airey_Neave -> "1953-06-30" [label=activeYearsStartDate, lexicon_key=activeYearsStartDate];
+}

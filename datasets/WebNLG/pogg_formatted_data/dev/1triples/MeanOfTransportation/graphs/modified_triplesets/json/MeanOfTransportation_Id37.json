@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Meyer_Werft": {
+            "lexicon_key": "Meyer_Werft"
+        },
+        "Germany": {
+            "lexicon_key": "Germany"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Meyer_Werft",
+            "child_node": "Germany",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Meyer Werft is located in Germany."
+        }
+    },
+    "gold_outputs": [
+        "Meyer Werft is located in Germany."
+    ]
+}

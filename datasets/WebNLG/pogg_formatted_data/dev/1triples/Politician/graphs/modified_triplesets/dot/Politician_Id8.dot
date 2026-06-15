@@ -1,0 +1,5 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Nigerian_Army [lexicon_key="Nigerian_Army"];
+Abdulsalami_Abubakar -> Nigerian_Army [label=militaryBranch, lexicon_key=militaryBranch];
+}

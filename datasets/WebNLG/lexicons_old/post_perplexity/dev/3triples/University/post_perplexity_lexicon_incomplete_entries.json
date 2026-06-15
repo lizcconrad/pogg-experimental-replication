@@ -1,0 +1,132 @@
+{
+    "node_keys": {
+        "\"B.M. Reddy\"": {
+            "comp_fxn": ""
+        },
+        "\"India\"": {
+            "comp_fxn": ""
+        },
+        "\"Nurturing Excellence\"": {
+            "comp_fxn": ""
+        },
+        "\"Universitas Apulensis\"": {
+            "comp_fxn": ""
+        },
+        "16000": {
+            "comp_fxn": ""
+        },
+        "1928": {
+            "comp_fxn": ""
+        },
+        "1_Decembrie_1918_University": {
+            "comp_fxn": ""
+        },
+        "2000": {
+            "comp_fxn": ""
+        },
+        "600": {
+            "comp_fxn": ""
+        },
+        "737": {
+            "comp_fxn": ""
+        },
+        "AWH_Engineering_College": {
+            "comp_fxn": ""
+        },
+        "Accademia_di_Architettura_di_Mendrisio": {
+            "comp_fxn": ""
+        },
+        "Acharya_Institute_of_Technology": {
+            "comp_fxn": ""
+        },
+        "Andrew_the_Apostle": {
+            "comp_fxn": ""
+        },
+        "Bangalore": {
+            "comp_fxn": ""
+        },
+        "Ganges": {
+            "comp_fxn": ""
+        },
+        "India": {
+            "comp_fxn": ""
+        },
+        "International_Tennis_Federation": {
+            "comp_fxn": ""
+        },
+        "Klaus_Iohannis": {
+            "comp_fxn": ""
+        },
+        "Mario_Botta": {
+            "comp_fxn": ""
+        },
+        "Mumbai": {
+            "comp_fxn": ""
+        },
+        "Prime_Minister_of_Romania": {
+            "comp_fxn": ""
+        },
+        "Romania": {
+            "comp_fxn": ""
+        },
+        "School of Business and Social Sciences at the Aarhus University": {
+            "comp_fxn": ""
+        },
+        "Switzerland": {
+            "comp_fxn": ""
+        },
+        "Tennis": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "academicStaffSize": {
+            "comp_fxn": ""
+        },
+        "city": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "dean": {
+            "comp_fxn": ""
+        },
+        "established": {
+            "comp_fxn": ""
+        },
+        "largestCity": {
+            "comp_fxn": ""
+        },
+        "latinName": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "leaderTitle": {
+            "comp_fxn": ""
+        },
+        "motto": {
+            "comp_fxn": ""
+        },
+        "numberOfStudents": {
+            "comp_fxn": ""
+        },
+        "patronSaint": {
+            "comp_fxn": ""
+        },
+        "president": {
+            "comp_fxn": ""
+        },
+        "river": {
+            "comp_fxn": ""
+        },
+        "sportGoverningBody": {
+            "comp_fxn": ""
+        },
+        "sportsOffered": {
+            "comp_fxn": ""
+        }
+    }
+}

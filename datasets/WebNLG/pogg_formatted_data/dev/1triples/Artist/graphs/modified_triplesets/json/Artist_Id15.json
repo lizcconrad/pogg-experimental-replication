@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Aleksandra_Kova\u010d": {
+            "lexicon_key": "Aleksandra_Kova\u010d"
+        },
+        "Soul_music": {
+            "lexicon_key": "Soul_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Soul_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d's genre is soul music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d performs soul music."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandra Kova\u010d performs soul music.",
+        "Aleksandra Kova\u010d's genre is soul music."
+    ]
+}

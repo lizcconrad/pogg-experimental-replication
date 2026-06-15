@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "FC_Tom_Tomsk": {
+            "lexicon_key": "FC_Tom_Tomsk"
+        },
+        "Russian_Football_National_League": {
+            "lexicon_key": "Russian_Football_National_League"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Tom_Tomsk",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "league",
+            "parent_node": "FC_Tom_Tomsk",
+            "child_node": "Russian_Football_National_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov plays for FC Tom Tomsk, which plays in the Russian National Football League."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov plays for FC Tom Tomsk which plays in the Russian Football National league."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov is with the FC Tom Tomsk which is in the Russian Football National League."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandr Prudnikov is with the FC Tom Tomsk which is in the Russian Football National League.",
+        "Aleksandr Prudnikov plays for FC Tom Tomsk which plays in the Russian Football National league.",
+        "Aleksandr Prudnikov plays for FC Tom Tomsk, which plays in the Russian National Football League."
+    ]
+}

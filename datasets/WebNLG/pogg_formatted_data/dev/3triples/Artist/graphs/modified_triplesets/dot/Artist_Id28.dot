@@ -1,0 +1,9 @@
+strict digraph {
+"Andra_(singer)" [lexicon_key="Andra_(singer)"];
+Rhythm_and_blues [lexicon_key="Rhythm_and_blues"];
+"Puya_(singer)" [lexicon_key="Puya_(singer)"];
+CRBL [lexicon_key=CRBL];
+"Andra_(singer)" -> Rhythm_and_blues [label=genre, lexicon_key=genre];
+"Andra_(singer)" -> "Puya_(singer)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+"Andra_(singer)" -> CRBL [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

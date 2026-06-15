@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Americans": {
+            "lexicon_key": "Americans"
+        },
+        "Albuquerque,_New_Mexico": {
+            "lexicon_key": "Albuquerque,_New_Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "United_States",
+            "child_node": "Americans",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albuquerque is in New Mexico, in the United States, of which the occupants are Americans."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico is located in the United States where the Americans are living."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The United States is the location of Albuquerque, New Mexico and the inhabitants of the country are known as Americans."
+        }
+    },
+    "gold_outputs": [
+        "Albuquerque is in New Mexico, in the United States, of which the occupants are Americans.",
+        "Albuquerque, New Mexico is located in the United States where the Americans are living.",
+        "The United States is the location of Albuquerque, New Mexico and the inhabitants of the country are known as Americans."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Dublin": {
+            "lexicon_key": "Dublin"
+        },
+        "Republic_of_Ireland": {
+            "lexicon_key": "Republic_of_Ireland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Dublin",
+            "child_node": "Republic_of_Ireland",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Dublin is in the Republic of Ireland."
+        }
+    },
+    "gold_outputs": [
+        "Dublin is in the Republic of Ireland."
+    ]
+}

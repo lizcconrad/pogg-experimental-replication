@@ -1,0 +1,9 @@
+strict digraph {
+Akron_Summit_Assault [lexicon_key="Akron_Summit_Assault"];
+3000 [lexicon_key=3000];
+Premier_Development_League [lexicon_key="Premier_Development_League"];
+"K-W_United_FC" [lexicon_key="K-W_United_FC"];
+Akron_Summit_Assault -> 3000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+Akron_Summit_Assault -> Premier_Development_League [label=league, lexicon_key=league];
+Premier_Development_League -> "K-W_United_FC" [label=champions, lexicon_key=champions];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+A_Glastonbury_Romance [lexicon_key="A_Glastonbury_Romance"];
+"1174" [lexicon_key="1174"];
+"Print" [lexicon_key="Print"];
+A_Glastonbury_Romance -> "1174" [label=numberOfPages, lexicon_key=numberOfPages];
+A_Glastonbury_Romance -> "Print" [label=mediaType, lexicon_key=mediaType];
+}

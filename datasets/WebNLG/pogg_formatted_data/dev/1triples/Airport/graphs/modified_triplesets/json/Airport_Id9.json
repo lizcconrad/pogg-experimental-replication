@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Agra_Airport": {
+            "lexicon_key": "Agra_Airport"
+        },
+        "Agra": {
+            "lexicon_key": "Agra"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Agra_Airport",
+            "child_node": "Agra",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agra Airport is in Agra."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agra airport is located in Agra."
+        }
+    },
+    "gold_outputs": [
+        "Agra Airport is in Agra.",
+        "Agra airport is located in Agra."
+    ]
+}

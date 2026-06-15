@@ -1,0 +1,5 @@
+strict digraph {
+Lemon [lexicon_key=Lemon];
+Rosids [lexicon_key=Rosids];
+Lemon -> Rosids [label=order, lexicon_key=order];
+}

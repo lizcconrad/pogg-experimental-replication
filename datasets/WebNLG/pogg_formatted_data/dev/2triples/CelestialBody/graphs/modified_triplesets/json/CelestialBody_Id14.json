@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "10_Hygiea": {
+            "lexicon_key": "10_Hygiea"
+        },
+        "\"A900 GA\"": {
+            "lexicon_key": "\"A900 GA\""
+        },
+        "2015-06-27": {
+            "lexicon_key": "2015-06-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "formerName",
+            "parent_node": "10_Hygiea",
+            "child_node": "\"A900 GA\"",
+            "edge_properties": {
+                "lexicon_key": "formerName"
+            }
+        },
+        {
+            "edge_name": "epoch",
+            "parent_node": "10_Hygiea",
+            "child_node": "2015-06-27",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The asteroid 10 Hygiea, once called A900 GA, has the epoch date of 27th June 2015."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "10 Hygiea has an epoch date of June 27th 2015 and was formerly named A900 GA."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The asteroid, 10 Hygiea, was formally known as A900 GA and has an epoch date of 27th June 2015."
+        }
+    },
+    "gold_outputs": [
+        "10 Hygiea has an epoch date of June 27th 2015 and was formerly named A900 GA.",
+        "The asteroid 10 Hygiea, once called A900 GA, has the epoch date of 27th June 2015.",
+        "The asteroid, 10 Hygiea, was formally known as A900 GA and has an epoch date of 27th June 2015."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Indiana [lexicon_key=Indiana];
+United_States [lexicon_key="United_States"];
+"Anderson,_Indiana" [lexicon_key="Anderson,_Indiana"];
+"Madison_County,_Indiana" [lexicon_key="Madison_County,_Indiana"];
+Indiana -> United_States [label=country, lexicon_key=country];
+"Anderson,_Indiana" -> "Madison_County,_Indiana" [label=isPartOf, lexicon_key=isPartOf];
+"Anderson,_Indiana" -> Indiana [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Abdul_Rahman_Ya'kub" [lexicon_key="Abdul_Rahman_Ya'kub"];
+Tuanku_Bujang_Tuanku_Othman [lexicon_key="Tuanku_Bujang_Tuanku_Othman"];
+"Abdul_Rahman_Ya'kub" -> Tuanku_Bujang_Tuanku_Othman [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+}

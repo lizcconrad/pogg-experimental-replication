@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Americans": {
+            "lexicon_key": "Americans"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Austin,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "demonym",
+            "parent_node": "United_States",
+            "child_node": "Americans",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The country of Austin, Texas, is United States and its inhabitants are called Americans and African Americans are an ethnic group within the country."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Austin, Texas is located in the United States, the country where Americans live and where African Americans are an ethnic group."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The inhabitants of the United States are known as Americans and include the ethnic group of African Americans. The country is the location of Austin, Texas."
+        }
+    },
+    "gold_outputs": [
+        "Austin, Texas is located in the United States, the country where Americans live and where African Americans are an ethnic group.",
+        "The country of Austin, Texas, is United States and its inhabitants are called Americans and African Americans are an ethnic group within the country.",
+        "The inhabitants of the United States are known as Americans and include the ethnic group of African Americans. The country is the location of Austin, Texas."
+    ]
+}

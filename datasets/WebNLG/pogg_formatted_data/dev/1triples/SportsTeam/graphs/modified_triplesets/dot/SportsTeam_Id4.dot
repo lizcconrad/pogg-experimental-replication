@@ -1,0 +1,5 @@
+strict digraph {
+"A.D._Isidro_Metapán" [lexicon_key="A.D._Isidro_Metapán"];
+"Asociación Deportiva" [lexicon_key="Asociación Deportiva"];
+"A.D._Isidro_Metapán" -> "Asociación Deportiva" [label=fullName, lexicon_key=fullName];
+}

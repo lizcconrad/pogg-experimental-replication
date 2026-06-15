@@ -1,0 +1,9 @@
+strict digraph {
+Adam_Holloway [lexicon_key="Adam_Holloway"];
+"Conservative_Party_(UK)" [lexicon_key="Conservative_Party_(UK)"];
+Kent [lexicon_key=Kent];
+"Magdalene_College,_Cambridge" [lexicon_key="Magdalene_College,_Cambridge"];
+Adam_Holloway -> "Conservative_Party_(UK)" [label=party, lexicon_key=party];
+Adam_Holloway -> Kent [label=birthPlace, lexicon_key=birthPlace];
+Adam_Holloway -> "Magdalene_College,_Cambridge" [label=almaMater, lexicon_key=almaMater];
+}

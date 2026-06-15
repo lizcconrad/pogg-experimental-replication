@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AIDA_Cruises": {
+            "lexicon_key": "AIDA_Cruises"
+        },
+        "Rostock": {
+            "lexicon_key": "Rostock"
+        },
+        "AIDAluna": {
+            "lexicon_key": "AIDAluna"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "AIDA_Cruises",
+            "child_node": "Rostock",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "operator",
+            "parent_node": "AIDAluna",
+            "child_node": "AIDA_Cruises",
+            "edge_properties": {
+                "lexicon_key": "operator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDAluna is operated by AIDA Cruises which are located at Rostock."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AIDA Cruises, located in Rostock, are the operator of the ship AIDAluna."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AIDAluna is operated by AIDA Cruises from Rostock."
+        }
+    },
+    "gold_outputs": [
+        "AIDA Cruises, located in Rostock, are the operator of the ship AIDAluna.",
+        "AIDAluna is operated by AIDA Cruises from Rostock.",
+        "The AIDAluna is operated by AIDA Cruises which are located at Rostock."
+    ]
+}

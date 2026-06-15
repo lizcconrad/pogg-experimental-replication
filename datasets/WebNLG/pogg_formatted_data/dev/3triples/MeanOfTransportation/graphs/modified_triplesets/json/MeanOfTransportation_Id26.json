@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Guiana_Space_Centre": {
+            "lexicon_key": "Guiana_Space_Centre"
+        },
+        "Kourou,_French_Guiana": {
+            "lexicon_key": "Kourou,_French_Guiana"
+        },
+        "ELA-3": {
+            "lexicon_key": "ELA-3"
+        },
+        "Ariane_5": {
+            "lexicon_key": "Ariane_5"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "headquarter",
+            "parent_node": "Guiana_Space_Centre",
+            "child_node": "Kourou,_French_Guiana",
+            "edge_properties": {
+                "lexicon_key": "headquarter"
+            }
+        },
+        {
+            "edge_name": "site",
+            "parent_node": "ELA-3",
+            "child_node": "Guiana_Space_Centre",
+            "edge_properties": {
+                "lexicon_key": "site"
+            }
+        },
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Ariane_5",
+            "child_node": "ELA-3",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Ariane 5 was launched at ELA-3 which is located at the Guiana Space Centre whose headquarters are at Kourou in French Guiana."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The launch site of the Ariane 5 was ELA-3 launchpad was is at Guiana Space Centre in Kourou in French Guiana."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Ariane 5 was launched at ELA-3 at the Guiana Space Centre which has its headquarters at Kourou in French Guiana."
+        }
+    },
+    "gold_outputs": [
+        "The Ariane 5 was launched at ELA-3 at the Guiana Space Centre which has its headquarters at Kourou in French Guiana.",
+        "The Ariane 5 was launched at ELA-3 which is located at the Guiana Space Centre whose headquarters are at Kourou in French Guiana.",
+        "The launch site of the Ariane 5 was ELA-3 launchpad was is at Guiana Space Centre in Kourou in French Guiana."
+    ]
+}

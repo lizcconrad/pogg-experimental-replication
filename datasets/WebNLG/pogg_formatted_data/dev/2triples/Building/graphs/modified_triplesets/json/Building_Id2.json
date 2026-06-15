@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "200_Public_Square": {
+            "lexicon_key": "200_Public_Square"
+        },
+        "Cleveland": {
+            "lexicon_key": "Cleveland"
+        },
+        "45": {
+            "lexicon_key": "45"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "200_Public_Square",
+            "child_node": "Cleveland",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "floorCount",
+            "parent_node": "200_Public_Square",
+            "child_node": "45",
+            "edge_properties": {
+                "lexicon_key": "floorCount"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "There are 45 floors at 200 Public Square in Cleveland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "200 Public square, Cleveland, has a floor count of 45."
+        }
+    },
+    "gold_outputs": [
+        "200 Public square, Cleveland, has a floor count of 45.",
+        "There are 45 floors at 200 Public Square in Cleveland."
+    ]
+}

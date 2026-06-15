@@ -1,0 +1,5 @@
+strict digraph {
+"A.S._Gubbio_1910" [lexicon_key="A.S._Gubbio_1910"];
+Italy [lexicon_key=Italy];
+"A.S._Gubbio_1910" -> Italy [label=ground, lexicon_key=ground];
+}

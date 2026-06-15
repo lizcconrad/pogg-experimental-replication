@@ -1,0 +1,9 @@
+strict digraph {
+"Agustín_Barboza" [lexicon_key="Agustín_Barboza"];
+Paraguay [lexicon_key=Paraguay];
+"1913-05-05" [lexicon_key="1913-05-05"];
+Asunción [lexicon_key=Asunción];
+"Agustín_Barboza" -> Paraguay [label=birthPlace, lexicon_key=birthPlace];
+"Agustín_Barboza" -> "1913-05-05" [label=birthDate, lexicon_key=birthDate];
+"Agustín_Barboza" -> Asunción [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"A.F.C._Blackpool" [lexicon_key="A.F.C._Blackpool"];
+"Stuart_Parker_(footballer)" [lexicon_key="Stuart_Parker_(footballer)"];
+KV_Mechelen [lexicon_key="KV_Mechelen"];
+"Irlam_Town_F.C." [lexicon_key="Irlam_Town_F.C."];
+"A.F.C._Blackpool" -> "Stuart_Parker_(footballer)" [label=manager, lexicon_key=manager];
+"Stuart_Parker_(footballer)" -> KV_Mechelen [label=club, lexicon_key=club];
+"Stuart_Parker_(footballer)" -> "Irlam_Town_F.C." [label=club, lexicon_key=club];
+}

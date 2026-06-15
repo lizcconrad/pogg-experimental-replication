@@ -1,0 +1,7 @@
+strict digraph {
+Alex_Tyus [lexicon_key="Alex_Tyus"];
+"Pallacanestro_Cantù" [lexicon_key="Pallacanestro_Cantù"];
+"1988-01-08" [lexicon_key="1988-01-08"];
+Alex_Tyus -> "Pallacanestro_Cantù" [label=club, lexicon_key=club];
+Alex_Tyus -> "1988-01-08" [label=birthDate, lexicon_key=birthDate];
+}

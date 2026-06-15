@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Electric_guitar": {
+            "lexicon_key": "Electric_guitar"
+        },
+        "Death_metal": {
+            "lexicon_key": "Death_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "instrument",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Electric_guitar",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Black_metal",
+            "child_node": "Death_metal",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Turner plays electric guitar in the Black Metal genre. Death metal is a fusion of black metal."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Death metal is a musical fusion of black metal, the music played by electric guitarist, Aaron Turner."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Death metal is a musical fusion of the black metal music performed by Aaron Turner on the electric guitar."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Turner plays electric guitar in the Black Metal genre. Death metal is a fusion of black metal.",
+        "Death metal is a musical fusion of black metal, the music played by electric guitarist, Aaron Turner.",
+        "Death metal is a musical fusion of the black metal music performed by Aaron Turner on the electric guitar."
+    ]
+}

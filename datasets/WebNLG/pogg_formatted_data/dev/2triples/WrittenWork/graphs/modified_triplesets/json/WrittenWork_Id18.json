@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Above_the_Veil": {
+            "lexicon_key": "Above_the_Veil"
+        },
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        },
+        "Castle_(novel)": {
+            "lexicon_key": "Castle_(novel)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Above_the_Veil",
+            "child_node": "Aenir",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Aenir",
+            "child_node": "Castle_(novel)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Above the Veil is the sequel to Aenir, which was written after Castle."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Above the Veil is the sequel to Aenir, which was preceded by the novel Castle."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Above the Veil was preceded by Aenir which was preceded by the novel Castle."
+        }
+    },
+    "gold_outputs": [
+        "Above the Veil is the sequel to Aenir, which was preceded by the novel Castle.",
+        "Above the Veil is the sequel to Aenir, which was written after Castle.",
+        "Above the Veil was preceded by Aenir which was preceded by the novel Castle."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Above_the_Veil": {
+            "lexicon_key": "Above_the_Veil"
+        },
+        "Australians": {
+            "lexicon_key": "Australians"
+        },
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        },
+        "Castle_(novel)": {
+            "lexicon_key": "Castle_(novel)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Above_the_Veil",
+            "child_node": "Australians",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Above_the_Veil",
+            "child_node": "Aenir",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "Aenir",
+            "child_node": "Castle_(novel)",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Above the Veil, from Australia, is the third book in a series after Aenir and Castle."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Above the Veil, from Australia, is the sequel to Aenir, which followed the novel Castle."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Above the Veil is from Australia and was preceded by Aenir and Castle."
+        }
+    },
+    "gold_outputs": [
+        "Above the Veil is from Australia and was preceded by Aenir and Castle.",
+        "Above the Veil, from Australia, is the sequel to Aenir, which followed the novel Castle.",
+        "Above the Veil, from Australia, is the third book in a series after Aenir and Castle."
+    ]
+}

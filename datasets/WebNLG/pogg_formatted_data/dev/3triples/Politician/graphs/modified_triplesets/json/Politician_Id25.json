@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Allan_Shivers": {
+            "lexicon_key": "Allan_Shivers"
+        },
+        "Democratic_Party_(United_States)": {
+            "lexicon_key": "Democratic_Party_(United_States)"
+        },
+        "Price_Daniel": {
+            "lexicon_key": "Price_Daniel"
+        },
+        "\"Member of the Texas State Senate from District 4 (Port Arthur)\"": {
+            "lexicon_key": "\"Member of the Texas State Senate from District 4 (Port Arthur)\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "party",
+            "parent_node": "Allan_Shivers",
+            "child_node": "Democratic_Party_(United_States)",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Allan_Shivers",
+            "child_node": "Price_Daniel",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Allan_Shivers",
+            "child_node": "\"Member of the Texas State Senate from District 4 (Port Arthur)\"",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Allan Shivers, who worked as a member of the Texas State Senate from District 4 (Port Arthur), served in the Democratic Party in the US, where he was succeeded by Price Daniel."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Allan Shivers, a member of the Democratic Party in the United States, worked as a member of the Texas State Senate from District 4 (Port Arthur) and was succeeded by Price Daniel."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Democratic, Texas State Senate District 4 for Port Arthur member Allan Shivers was succeeded by Price Daniel."
+        }
+    },
+    "gold_outputs": [
+        "Allan Shivers, a member of the Democratic Party in the United States, worked as a member of the Texas State Senate from District 4 (Port Arthur) and was succeeded by Price Daniel.",
+        "Allan Shivers, who worked as a member of the Texas State Senate from District 4 (Port Arthur), served in the Democratic Party in the US, where he was succeeded by Price Daniel.",
+        "Democratic, Texas State Senate District 4 for Port Arthur member Allan Shivers was succeeded by Price Daniel."
+    ]
+}

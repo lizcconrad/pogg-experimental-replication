@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Barny_Cakes": {
+            "lexicon_key": "Barny_Cakes"
+        },
+        "Chocolate": {
+            "lexicon_key": "Chocolate"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Barny_Cakes",
+            "child_node": "Chocolate",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Barny Cakes can be chocolate flavoured."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chocolate is one variation of the Barny Cakes dish."
+        }
+    },
+    "gold_outputs": [
+        "Barny Cakes can be chocolate flavoured.",
+        "Chocolate is one variation of the Barny Cakes dish."
+    ]
+}

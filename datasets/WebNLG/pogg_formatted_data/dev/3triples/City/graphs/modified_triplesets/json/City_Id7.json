@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alpharetta,_Georgia": {
+            "lexicon_key": "Alpharetta,_Georgia"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        },
+        "Georgia_(U.S._state)": {
+            "lexicon_key": "Georgia_(U.S._state)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Alpharetta,_Georgia",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Alpharetta,_Georgia",
+            "child_node": "Georgia_(U.S._state)",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alpharetta is part of the U.S. state, Georgia, where African Americans are one of the country's ethnic group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The United States include the ethnic group of African Americans and is the location of Alpharetta, part of the state of Georgia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alpharetta, is part of Georgia, in the United States, where one of the ethnic groups is African Americans."
+        }
+    },
+    "gold_outputs": [
+        "Alpharetta is part of the U.S. state, Georgia, where African Americans are one of the country's ethnic group.",
+        "Alpharetta, is part of Georgia, in the United States, where one of the ethnic groups is African Americans.",
+        "The United States include the ethnic group of African Americans and is the location of Alpharetta, part of the state of Georgia."
+    ]
+}

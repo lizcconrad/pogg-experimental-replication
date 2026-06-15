@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Andrews_County,_Texas": {
+            "lexicon_key": "Andrews_County,_Texas"
+        },
+        "Andrews,_Texas": {
+            "lexicon_key": "Andrews,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "countySeat",
+            "parent_node": "Andrews_County,_Texas",
+            "child_node": "Andrews,_Texas",
+            "edge_properties": {
+                "lexicon_key": "countySeat"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrews County, Texas is country seat to Andrews, Texas."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrews, Texas is the country seat of Andrews County, Texas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andrews County, Texas has its county seat in Andrews, Texas."
+        }
+    },
+    "gold_outputs": [
+        "Andrews County, Texas has its county seat in Andrews, Texas.",
+        "Andrews County, Texas is country seat to Andrews, Texas.",
+        "Andrews, Texas is the country seat of Andrews County, Texas."
+    ]
+}

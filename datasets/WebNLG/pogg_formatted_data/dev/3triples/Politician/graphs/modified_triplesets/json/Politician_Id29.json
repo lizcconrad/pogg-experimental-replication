@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Austria": {
+            "lexicon_key": "Austria"
+        },
+        "Doris_Bures": {
+            "lexicon_key": "Doris_Bures"
+        },
+        "Alfons_Gorbach": {
+            "lexicon_key": "Alfons_Gorbach"
+        },
+        "Austria-Hungary": {
+            "lexicon_key": "Austria-Hungary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Austria",
+            "child_node": "Doris_Bures",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alfons_Gorbach",
+            "child_node": "Austria-Hungary",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alfons_Gorbach",
+            "child_node": "Austria",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfons Gorbach was born in Austria-Hungary and died in Austria, the leader of which, is Doris Bures."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfons Gorbach was born in Austria-Hungary and died in Austria, the country where Doris Bures is a leader."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfons Gorbach was born in Austria-Hungary and died in Austria (led by Doris Bures)."
+        }
+    },
+    "gold_outputs": [
+        "Alfons Gorbach was born in Austria-Hungary and died in Austria (led by Doris Bures).",
+        "Alfons Gorbach was born in Austria-Hungary and died in Austria, the country where Doris Bures is a leader.",
+        "Alfons Gorbach was born in Austria-Hungary and died in Austria, the leader of which, is Doris Bures."
+    ]
+}

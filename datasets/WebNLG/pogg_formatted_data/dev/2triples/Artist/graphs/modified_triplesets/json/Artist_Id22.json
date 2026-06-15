@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Andra_(singer)": {
+            "lexicon_key": "Andra_(singer)"
+        },
+        "Pop_music": {
+            "lexicon_key": "Pop_music"
+        },
+        "2000": {
+            "lexicon_key": "2000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Andra_(singer)",
+            "child_node": "Pop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Andra_(singer)",
+            "child_node": "2000",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andra began her Pop music singing career in 2000."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andra is a pop singer who started in 2000."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andra began her singing career in 2000 and sings pop music."
+        }
+    },
+    "gold_outputs": [
+        "Andra began her Pop music singing career in 2000.",
+        "Andra began her singing career in 2000 and sings pop music.",
+        "Andra is a pop singer who started in 2000."
+    ]
+}

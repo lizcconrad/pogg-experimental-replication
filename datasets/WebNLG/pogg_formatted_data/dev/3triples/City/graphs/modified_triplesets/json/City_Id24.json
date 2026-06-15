@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        },
+        "Albany,_Oregon": {
+            "lexicon_key": "Albany,_Oregon"
+        },
+        "Oregon": {
+            "lexicon_key": "Oregon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "Oregon",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albany is part of Oregon in the United States, where the capital is Washington DC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The United States has the capital city of Washington DC and is the location of the city of Albany in Oregon."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albany is part of Oregon in the United States where the capital city is Washington DC."
+        }
+    },
+    "gold_outputs": [
+        "Albany is part of Oregon in the United States where the capital city is Washington DC.",
+        "Albany is part of Oregon in the United States, where the capital is Washington DC.",
+        "The United States has the capital city of Washington DC and is the location of the city of Albany in Oregon."
+    ]
+}

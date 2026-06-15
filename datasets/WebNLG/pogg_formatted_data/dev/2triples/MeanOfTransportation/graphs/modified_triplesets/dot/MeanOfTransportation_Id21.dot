@@ -1,0 +1,7 @@
+strict digraph {
+"Antares_(rocket)" [lexicon_key="Antares_(rocket)"];
+"2014-01-09" [lexicon_key="2014-01-09"];
+"Mid-Atlantic_Regional_Spaceport" [lexicon_key="Mid-Atlantic_Regional_Spaceport"];
+"Antares_(rocket)" -> "2014-01-09" [label=maidenFlight, lexicon_key=maidenFlight];
+"Antares_(rocket)" -> "Mid-Atlantic_Regional_Spaceport" [label=launchSite, lexicon_key=launchSite];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+Montevideo [lexicon_key=Montevideo];
+"Daniel_Martínez_(politician)" [lexicon_key="Daniel_Martínez_(politician)"];
+Alfredo_Zitarrosa -> Montevideo [label=deathPlace, lexicon_key=deathPlace];
+Montevideo -> "Daniel_Martínez_(politician)" [label=leader, lexicon_key=leader];
+}

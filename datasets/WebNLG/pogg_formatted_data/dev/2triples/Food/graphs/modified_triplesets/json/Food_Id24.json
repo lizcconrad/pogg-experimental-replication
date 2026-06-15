@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Beef_kway_teow": {
+            "lexicon_key": "Beef_kway_teow"
+        },
+        "Singapore": {
+            "lexicon_key": "Singapore"
+        },
+        "Standard_Chinese": {
+            "lexicon_key": "Standard_Chinese"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Singapore",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Singapore",
+            "child_node": "Standard_Chinese",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Beef kway teow originates from Singapore, where Standard Chinese is spoken."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Standard Chinese speaking Singapore is the origin of beef kway teow."
+        }
+    },
+    "gold_outputs": [
+        "Beef kway teow originates from Singapore, where Standard Chinese is spoken.",
+        "Standard Chinese speaking Singapore is the origin of beef kway teow."
+    ]
+}

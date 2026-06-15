@@ -1,0 +1,7 @@
+strict digraph {
+"1097_Vicia" [lexicon_key="1097_Vicia"];
+135589000.0 [lexicon_key=135589000.0];
+"2006-12-31" [lexicon_key="2006-12-31"];
+"1097_Vicia" -> 135589000.0 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+"1097_Vicia" -> "2006-12-31" [label=epoch, lexicon_key=epoch];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Anders_Osborne": {
+            "lexicon_key": "Anders_Osborne"
+        },
+        "Rhythm_and_blues": {
+            "lexicon_key": "Rhythm_and_blues"
+        },
+        "Rabadash_Records": {
+            "lexicon_key": "Rabadash_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Rhythm_and_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Rabadash_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Rhythm and blues artist Anders Osborne is signed with Rabadash Records."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anders Osborne genre is Rhythm and blues and his record label is Rabadash Records."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Anders Osborne's genre is Rhythm and blues and he is signed to the Rabadash Records label."
+        }
+    },
+    "gold_outputs": [
+        "Anders Osborne genre is Rhythm and blues and his record label is Rabadash Records.",
+        "Anders Osborne's genre is Rhythm and blues and he is signed to the Rabadash Records label.",
+        "Rhythm and blues artist Anders Osborne is signed with Rabadash Records."
+    ]
+}

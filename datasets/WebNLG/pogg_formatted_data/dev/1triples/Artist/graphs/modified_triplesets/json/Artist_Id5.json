@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Boston": {
+            "lexicon_key": "Boston"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "origin",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Boston",
+            "edge_properties": {
+                "lexicon_key": "origin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Turner originates from Boston."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Turner was born in Boston."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Turner is originally from Boston."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Turner is originally from Boston.",
+        "Aaron Turner originates from Boston.",
+        "Aaron Turner was born in Boston."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksandr_Chumakov": {
+            "lexicon_key": "Aleksandr_Chumakov"
+        },
+        "FC_Torpedo_Moscow": {
+            "lexicon_key": "FC_Torpedo_Moscow"
+        },
+        "Valery_Petrakov": {
+            "lexicon_key": "Valery_Petrakov"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Chumakov",
+            "child_node": "FC_Torpedo_Moscow",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "FC_Torpedo_Moscow",
+            "child_node": "Valery_Petrakov",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandr Chumakov has played for the club FC Torpedo Moscow, which is managed by Valery Petrakov."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "FC Torpedo Moscow, managed by Valery Petrakov, is a former club of Aleksandr Chumakov."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "FC Torpedo Moscow, managed by Valery Petrakov, is the former club of Aleksandr Chumakov."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandr Chumakov has played for the club FC Torpedo Moscow, which is managed by Valery Petrakov.",
+        "FC Torpedo Moscow, managed by Valery Petrakov, is a former club of Aleksandr Chumakov.",
+        "FC Torpedo Moscow, managed by Valery Petrakov, is the former club of Aleksandr Chumakov."
+    ]
+}

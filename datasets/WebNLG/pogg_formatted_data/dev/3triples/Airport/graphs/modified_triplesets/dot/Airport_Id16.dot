@@ -1,0 +1,9 @@
+strict digraph {
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+Flemish_Region [lexicon_key="Flemish_Region"];
+"Flemish department of Mobility and Public Works" [lexicon_key="Flemish department of Mobility and Public Works"];
+Antwerp [lexicon_key=Antwerp];
+Antwerp_International_Airport -> Flemish_Region [label=owner, lexicon_key=owner];
+Antwerp_International_Airport -> "Flemish department of Mobility and Public Works" [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+Antwerp_International_Airport -> Antwerp [label=cityServed, lexicon_key=cityServed];
+}

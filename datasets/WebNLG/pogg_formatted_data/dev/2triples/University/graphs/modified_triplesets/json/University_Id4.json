@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "European_University_Association": {
+            "lexicon_key": "European_University_Association"
+        },
+        "Brussels": {
+            "lexicon_key": "Brussels"
+        },
+        "School of Business and Social Sciences at the Aarhus University": {
+            "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "headquarter",
+            "parent_node": "European_University_Association",
+            "child_node": "Brussels",
+            "edge_properties": {
+                "lexicon_key": "headquarter"
+            }
+        },
+        {
+            "edge_name": "affiliation",
+            "parent_node": "School of Business and Social Sciences at the Aarhus University",
+            "child_node": "European_University_Association",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The School of Business and Social Sciences at the Aarhus University is affiliated to the European University Association which has its headquarters in Brussels."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The School of Business and Social Sciences at Aarhus University is affiliated with the European University Association in Brussels."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "School of Business and Social Sciences at the Aarhus University is affiliated with the European University Association and is located in Brussels."
+        }
+    },
+    "gold_outputs": [
+        "School of Business and Social Sciences at the Aarhus University is affiliated with the European University Association and is located in Brussels.",
+        "The School of Business and Social Sciences at Aarhus University is affiliated with the European University Association in Brussels.",
+        "The School of Business and Social Sciences at the Aarhus University is affiliated to the European University Association which has its headquarters in Brussels."
+    ]
+}

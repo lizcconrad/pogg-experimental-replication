@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Denmark": {
+            "lexicon_key": "Denmark"
+        },
+        "Lars_L\u00f8kke_Rasmussen": {
+            "lexicon_key": "Lars_L\u00f8kke_Rasmussen"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Denmark",
+            "child_node": "Lars_L\u00f8kke_Rasmussen",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Denmark's leader name is Lars L\u00f8kke Rasmussen."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Lars L\u00f8kke Rasmussen leads Denmark."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Lars L\u00f8kke Rasmussen is the leader of Denmark."
+        }
+    },
+    "gold_outputs": [
+        "Denmark's leader name is Lars L\u00f8kke Rasmussen.",
+        "Lars L\u00f8kke Rasmussen is the leader of Denmark.",
+        "Lars L\u00f8kke Rasmussen leads Denmark."
+    ]
+}

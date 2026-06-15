@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksandra_Kova\u010d": {
+            "lexicon_key": "Aleksandra_Kova\u010d"
+        },
+        "Soul_music": {
+            "lexicon_key": "Soul_music"
+        },
+        "1990": {
+            "lexicon_key": "1990"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Soul_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "1990",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandra Kovac stared in 1990 and she performs soul music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d began her musical career in 1990, she performs soul music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandra Kovac is a soul music performer who began her musical career in 1990."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandra Kovac is a soul music performer who began her musical career in 1990.",
+        "Aleksandra Kovac stared in 1990 and she performs soul music.",
+        "Aleksandra Kova\u010d began her musical career in 1990, she performs soul music."
+    ]
+}

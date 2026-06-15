@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "1097_Vicia": {
+            "lexicon_key": "1097_Vicia"
+        },
+        "2006-12-31": {
+            "lexicon_key": "2006-12-31"
+        },
+        "279142000000.0": {
+            "lexicon_key": "279142000000.0"
+        },
+        "511592000.0 (kilometres)": {
+            "lexicon_key": "511592000.0 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "1097_Vicia",
+            "child_node": "2006-12-31",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1097_Vicia",
+            "child_node": "279142000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1097_Vicia",
+            "child_node": "511592000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The epoch date of 1097 Vicia is 2006.12.31. It has a periapsis of 279142000000.0 and an apoapsis of 511592000.0 kilometres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The epoch date of 1097 Vicia is 2006.12.31. The periapsis measurement of this celestial body is 279142000000.0. It has an apoapsis of 511592000.0 km."
+        }
+    },
+    "gold_outputs": [
+        "The epoch date of 1097 Vicia is 2006.12.31. It has a periapsis of 279142000000.0 and an apoapsis of 511592000.0 kilometres.",
+        "The epoch date of 1097 Vicia is 2006.12.31. The periapsis measurement of this celestial body is 279142000000.0. It has an apoapsis of 511592000.0 km."
+    ]
+}

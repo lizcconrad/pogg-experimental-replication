@@ -1,0 +1,5 @@
+strict digraph {
+Philippines [lexicon_key=Philippines];
+Pangasinense_people [lexicon_key="Pangasinense_people"];
+Philippines -> Pangasinense_people [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

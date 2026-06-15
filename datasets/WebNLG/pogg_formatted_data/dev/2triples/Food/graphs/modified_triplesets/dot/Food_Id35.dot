@@ -1,0 +1,7 @@
+strict digraph {
+Siomay [lexicon_key=Siomay];
+Peanut_sauce [lexicon_key="Peanut_sauce"];
+Batagor [lexicon_key=Batagor];
+Siomay -> Peanut_sauce [label=ingredient, lexicon_key=ingredient];
+Batagor -> Siomay [label=dishVariation, lexicon_key=dishVariation];
+}

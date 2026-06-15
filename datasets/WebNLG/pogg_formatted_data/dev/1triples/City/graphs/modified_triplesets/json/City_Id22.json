@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Auburn,_Alabama": {
+            "lexicon_key": "Auburn,_Alabama"
+        },
+        "Alabama": {
+            "lexicon_key": "Alabama"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Auburn,_Alabama",
+            "child_node": "Alabama",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Auburn is part of Alabama."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Auburn is located in Alabama."
+        }
+    },
+    "gold_outputs": [
+        "Auburn is located in Alabama.",
+        "Auburn is part of Alabama."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Abel_Hernández" [lexicon_key="Abel_Hernández"];
+Uruguay_Olympic_football_team [lexicon_key="Uruguay_Olympic_football_team"];
+"Abel_Hernández" -> Uruguay_Olympic_football_team [label=club, lexicon_key=club];
+}

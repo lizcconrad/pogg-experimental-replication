@@ -1,0 +1,5 @@
+strict digraph {
+FC_Tom_Tomsk [lexicon_key="FC_Tom_Tomsk"];
+Russian_Football_National_League [lexicon_key="Russian_Football_National_League"];
+FC_Tom_Tomsk -> Russian_Football_National_League [label=league, lexicon_key=league];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Aleksander_Barkov,_Jr.": {
+            "lexicon_key": "Aleksander_Barkov,_Jr."
+        },
+        "National_Hockey_League": {
+            "lexicon_key": "National_Hockey_League"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Aleksander_Barkov,_Jr.",
+            "child_node": "National_Hockey_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr played in the National Hockey League."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr. plays in the National Hockey League."
+        }
+    },
+    "gold_outputs": [
+        "Aleksander Barkov Jr played in the National Hockey League.",
+        "Aleksander Barkov Jr. plays in the National Hockey League."
+    ]
+}

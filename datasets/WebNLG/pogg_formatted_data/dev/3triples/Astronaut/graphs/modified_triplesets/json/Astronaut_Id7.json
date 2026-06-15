@@ -1,0 +1,66 @@
+{
+    "nodes": {
+        "Elliot_See": {
+            "lexicon_key": "Elliot_See"
+        },
+        "\"Deceased\"": {
+            "lexicon_key": "\"Deceased\""
+        },
+        "\"1927-07-23\"": {
+            "lexicon_key": "\"1927-07-23\""
+        },
+        "Dallas": {
+            "lexicon_key": "Dallas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "status",
+            "parent_node": "Elliot_See",
+            "child_node": "\"Deceased\"",
+            "edge_properties": {
+                "lexicon_key": "status"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Elliot_See",
+            "child_node": "\"1927-07-23\"",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Elliot_See",
+            "child_node": "Dallas",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Elliot See, born July 23 1927 in Dallas, has died."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Elliot See is deceased, was born on 23rd July 1927 in Dallas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Elliot See (deceased) was born in Dallas 1927-07-23."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Elliot See was born in Dallas on July 23, 1927. He is now deceased."
+        }
+    },
+    "gold_outputs": [
+        "Elliot See (deceased) was born in Dallas 1927-07-23.",
+        "Elliot See is deceased, was born on 23rd July 1927 in Dallas.",
+        "Elliot See was born in Dallas on July 23, 1927. He is now deceased.",
+        "Elliot See, born July 23 1927 in Dallas, has died."
+    ]
+}

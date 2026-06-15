@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abradab": {
+            "lexicon_key": "Abradab"
+        },
+        "Magik_(rapper)": {
+            "lexicon_key": "Magik_(rapper)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Abradab",
+            "child_node": "Magik_(rapper)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abradab is associated with Magik (rapper)."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abradab is musically associated with the rapper Magik."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abradab is associated with the rapper Magik."
+        }
+    },
+    "gold_outputs": [
+        "Abradab is associated with Magik (rapper).",
+        "Abradab is associated with the rapper Magik.",
+        "Abradab is musically associated with the rapper Magik."
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "node_keys": {
+        "\"solo_singer\"": {
+            "comp_fxn": ""
+        },
+        "1990": {
+            "comp_fxn": ""
+        },
+        "2000": {
+            "comp_fxn": ""
+        },
+        "Aaron_Bertram": {
+            "comp_fxn": ""
+        },
+        "Aaron_Deer": {
+            "comp_fxn": ""
+        },
+        "Aaron_Turner": {
+            "comp_fxn": ""
+        },
+        "Abradab": {
+            "comp_fxn": ""
+        },
+        "Ace_Wilder": {
+            "comp_fxn": ""
+        },
+        "Al_Anderson_(NRBQ band)": {
+            "comp_fxn": ""
+        },
+        "Alan_Frew": {
+            "comp_fxn": ""
+        },
+        "Albennie_Jones": {
+            "comp_fxn": ""
+        },
+        "Aleksandra_Kova\u010d": {
+            "comp_fxn": ""
+        },
+        "Alex_Day": {
+            "comp_fxn": ""
+        },
+        "Alfredo_Zitarrosa": {
+            "comp_fxn": ""
+        },
+        "Alison_O'Donnell": {
+            "comp_fxn": ""
+        },
+        "Allen_Forrest": {
+            "comp_fxn": ""
+        },
+        "Alternative_rock": {
+            "comp_fxn": ""
+        },
+        "Anders_Osborne": {
+            "comp_fxn": ""
+        },
+        "Andra_(singer)": {
+            "comp_fxn": ""
+        },
+        "Andrew_Rayel": {
+            "comp_fxn": ""
+        },
+        "Andrew_White_(musician)": {
+            "comp_fxn": ""
+        },
+        "Autoharp": {
+            "comp_fxn": ""
+        },
+        "Billy_Iuso": {
+            "comp_fxn": ""
+        },
+        "Blues": {
+            "comp_fxn": ""
+        },
+        "Christian_Burns": {
+            "comp_fxn": ""
+        },
+        "Country_music": {
+            "comp_fxn": ""
+        },
+        "Daniel_Mart\u00ednez_(politician)": {
+            "comp_fxn": ""
+        },
+        "Disco": {
+            "comp_fxn": ""
+        },
+        "Guitar": {
+            "comp_fxn": ""
+        },
+        "Head_South_By_Weaving": {
+            "comp_fxn": ""
+        },
+        "Hip_hop_music": {
+            "comp_fxn": ""
+        },
+        "Isis_(band)": {
+            "comp_fxn": ""
+        },
+        "Jazz": {
+            "comp_fxn": ""
+        },
+        "Jonathan_Mendelsohn": {
+            "comp_fxn": ""
+        },
+        "Katowice": {
+            "comp_fxn": ""
+        },
+        "Kids_Imagine_Nation": {
+            "comp_fxn": ""
+        },
+        "Lotus_Eaters_(band)": {
+            "comp_fxn": ""
+        },
+        "Mark_Sixma": {
+            "comp_fxn": ""
+        },
+        "Marry_Banilow": {
+            "comp_fxn": ""
+        },
+        "Montevideo": {
+            "comp_fxn": ""
+        },
+        "New_wave_music": {
+            "comp_fxn": ""
+        },
+        "Nu_metal": {
+            "comp_fxn": ""
+        },
+        "Plastik_Mak": {
+            "comp_fxn": ""
+        },
+        "Poland": {
+            "comp_fxn": ""
+        },
+        "Pop_music": {
+            "comp_fxn": ""
+        },
+        "Psychedelia": {
+            "comp_fxn": ""
+        },
+        "Rabadash_Records": {
+            "comp_fxn": ""
+        },
+        "Rhythm_and_blues": {
+            "comp_fxn": ""
+        },
+        "Rock_music": {
+            "comp_fxn": ""
+        },
+        "Ska": {
+            "comp_fxn": ""
+        },
+        "Soul_music": {
+            "comp_fxn": ""
+        },
+        "Suburban_Legends": {
+            "comp_fxn": ""
+        },
+        "Synthpop": {
+            "comp_fxn": ""
+        },
+        "Tabar\u00e9_V\u00e1zquez": {
+            "comp_fxn": ""
+        },
+        "Theresa_Andersson": {
+            "comp_fxn": ""
+        },
+        "Uruguay": {
+            "comp_fxn": ""
+        },
+        "Zamba_(artform)": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "activeYearsStartYear": {
+            "comp_fxn": ""
+        },
+        "associatedBand/associatedMusicalArtist": {
+            "comp_fxn": ""
+        },
+        "background": {
+            "comp_fxn": ""
+        },
+        "birthPlace": {
+            "comp_fxn": ""
+        },
+        "deathPlace": {
+            "comp_fxn": ""
+        },
+        "genre": {
+            "comp_fxn": ""
+        },
+        "instrument": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "musicFusionGenre": {
+            "comp_fxn": ""
+        },
+        "recordLabel": {
+            "comp_fxn": ""
+        },
+        "stylisticOrigin": {
+            "comp_fxn": ""
+        }
+    }
+}

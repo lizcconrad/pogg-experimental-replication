@@ -1,0 +1,7 @@
+strict digraph {
+Arrabbiata_sauce [lexicon_key="Arrabbiata_sauce"];
+Italy [lexicon_key=Italy];
+Rome [lexicon_key=Rome];
+Arrabbiata_sauce -> Italy [label=country, lexicon_key=country];
+Italy -> Rome [label=capital, lexicon_key=capital];
+}

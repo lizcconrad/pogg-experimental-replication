@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Lemon": {
+            "lexicon_key": "Lemon"
+        },
+        "Rosids": {
+            "lexicon_key": "Rosids"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "order",
+            "parent_node": "Lemon",
+            "child_node": "Rosids",
+            "edge_properties": {
+                "lexicon_key": "order"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Lemon is under the order of Rosids."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The order of lemons is Rosids."
+        }
+    },
+    "gold_outputs": [
+        "Lemon is under the order of Rosids.",
+        "The order of lemons is Rosids."
+    ]
+}

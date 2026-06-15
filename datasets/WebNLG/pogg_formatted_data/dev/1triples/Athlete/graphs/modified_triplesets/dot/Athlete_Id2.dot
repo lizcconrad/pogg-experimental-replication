@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Boogaard [lexicon_key="Aaron_Boogaard"];
+Canada [lexicon_key=Canada];
+Aaron_Boogaard -> Canada [label=birthPlace, lexicon_key=birthPlace];
+}

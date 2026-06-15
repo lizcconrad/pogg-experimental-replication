@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Nigerian_Air_Force": {
+            "lexicon_key": "Nigerian_Air_Force"
+        },
+        "Sadique_Abubakar": {
+            "lexicon_key": "Sadique_Abubakar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "commander",
+            "parent_node": "Nigerian_Air_Force",
+            "child_node": "Sadique_Abubakar",
+            "edge_properties": {
+                "lexicon_key": "commander"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sadique Abubakar is a commander in the Nigerian Air Force."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The commander of the Nigerian Air Force is Sadique Abubakar."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Sadique Abubakar was commander of the Nigerian Air Force."
+        }
+    },
+    "gold_outputs": [
+        "Sadique Abubakar is a commander in the Nigerian Air Force.",
+        "Sadique Abubakar was commander of the Nigerian Air Force.",
+        "The commander of the Nigerian Air Force is Sadique Abubakar."
+    ]
+}

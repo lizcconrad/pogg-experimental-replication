@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Aleksandra_Kova\u010d": {
+            "lexicon_key": "Aleksandra_Kova\u010d"
+        },
+        "\"solo_singer\"": {
+            "lexicon_key": "\"solo_singer\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "background",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "\"solo_singer\"",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandra Kovac is a solo singer."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A solo singer is part of Aleksandra Kova\u010d's background."
+        }
+    },
+    "gold_outputs": [
+        "A solo singer is part of Aleksandra Kova\u010d's background.",
+        "Aleksandra Kovac is a solo singer."
+    ]
+}

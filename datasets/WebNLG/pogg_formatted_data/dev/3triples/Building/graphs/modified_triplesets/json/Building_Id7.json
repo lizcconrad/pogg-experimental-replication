@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "Dublin": {
+            "lexicon_key": "Dublin"
+        },
+        "\"HOK SVE\"": {
+            "lexicon_key": "\"HOK SVE\""
+        },
+        "\"December 2008\"": {
+            "lexicon_key": "\"December 2008\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "3Arena",
+            "child_node": "Dublin",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "architect",
+            "parent_node": "3Arena",
+            "child_node": "\"HOK SVE\"",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        },
+        {
+            "edge_name": "completionDate",
+            "parent_node": "3Arena",
+            "child_node": "\"December 2008\"",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Located in Dublin, the 3Arena whose architect was HOK SVE) was completed in December 2008."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The architects of the 3Arena in Dublin was HOK SVE and it was completed in December 2008."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "3Arena, located in Dublin, was designed by HOK SVE and completed December 2008."
+        }
+    },
+    "gold_outputs": [
+        "3Arena, located in Dublin, was designed by HOK SVE and completed December 2008.",
+        "Located in Dublin, the 3Arena whose architect was HOK SVE) was completed in December 2008.",
+        "The architects of the 3Arena in Dublin was HOK SVE and it was completed in December 2008."
+    ]
+}

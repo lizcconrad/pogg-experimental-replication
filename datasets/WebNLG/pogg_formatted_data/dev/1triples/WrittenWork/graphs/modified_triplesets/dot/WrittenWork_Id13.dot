@@ -1,0 +1,5 @@
+strict digraph {
+Acta_Mathematica_Hungarica [lexicon_key="Acta_Mathematica_Hungarica"];
+Mathematics [lexicon_key=Mathematics];
+Acta_Mathematica_Hungarica -> Mathematics [label=academicDiscipline, lexicon_key=academicDiscipline];
+}

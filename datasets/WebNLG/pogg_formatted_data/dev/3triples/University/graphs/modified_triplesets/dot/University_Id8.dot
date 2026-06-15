@@ -1,0 +1,9 @@
+strict digraph {
+"School of Business and Social Sciences at the Aarhus University" [lexicon_key="School of Business and Social Sciences at the Aarhus University"];
+737 [lexicon_key=737];
+16000 [lexicon_key=16000];
+1928 [lexicon_key=1928];
+"School of Business and Social Sciences at the Aarhus University" -> 737 [label=academicStaffSize, lexicon_key=academicStaffSize];
+"School of Business and Social Sciences at the Aarhus University" -> 16000 [label=numberOfStudents, lexicon_key=numberOfStudents];
+"School of Business and Social Sciences at the Aarhus University" -> 1928 [label=established, lexicon_key=established];
+}

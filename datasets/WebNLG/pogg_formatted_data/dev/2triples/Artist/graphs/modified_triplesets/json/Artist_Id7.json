@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Al_Anderson_(NRBQ band)": {
+            "lexicon_key": "Al_Anderson_(NRBQ band)"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Country_music": {
+            "lexicon_key": "Country_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Al_Anderson_(NRBQ band)",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Rock_music",
+            "child_node": "Country_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Al Anderson is a performer of rock music, which has its origins in country music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Al Anderson, a member of the band NRBQ, performs rock music, the genre which originated from country music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Al Anderson is a member of the rock music band NRBQ. Rock music came from country music."
+        }
+    },
+    "gold_outputs": [
+        "Al Anderson is a member of the rock music band NRBQ. Rock music came from country music.",
+        "Al Anderson is a performer of rock music, which has its origins in country music.",
+        "Al Anderson, a member of the band NRBQ, performs rock music, the genre which originated from country music."
+    ]
+}

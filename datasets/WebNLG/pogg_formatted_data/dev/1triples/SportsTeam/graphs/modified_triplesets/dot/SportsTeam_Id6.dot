@@ -1,0 +1,5 @@
+strict digraph {
+"A.E_Dimitra_Efxeinoupolis" [lexicon_key="A.E_Dimitra_Efxeinoupolis"];
+2014 [lexicon_key=2014];
+"A.E_Dimitra_Efxeinoupolis" -> 2014 [label=season, lexicon_key=season];
+}

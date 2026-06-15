@@ -1,0 +1,7 @@
+strict digraph {
+Alfa_Romeo_164 [lexicon_key="Alfa_Romeo_164"];
+Fiat_Croma [lexicon_key="Fiat_Croma"];
+Milan [lexicon_key=Milan];
+Alfa_Romeo_164 -> Fiat_Croma [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+Alfa_Romeo_164 -> Milan [label=assembly, lexicon_key=assembly];
+}

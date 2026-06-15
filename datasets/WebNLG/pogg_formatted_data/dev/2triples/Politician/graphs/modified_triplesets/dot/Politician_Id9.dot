@@ -1,0 +1,7 @@
+strict digraph {
+"Abner_W._Sibal" [lexicon_key="Abner_W._Sibal"];
+United_States_Army [lexicon_key="United_States_Army"];
+World_War_II [lexicon_key="World_War_II"];
+"Abner_W._Sibal" -> United_States_Army [label=militaryBranch, lexicon_key=militaryBranch];
+"Abner_W._Sibal" -> World_War_II [label=battle, lexicon_key=battle];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        },
+        "William_Anders": {
+            "lexicon_key": "William_Anders"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "backupPilot",
+            "parent_node": "Apollo_11",
+            "child_node": "William_Anders",
+            "edge_properties": {
+                "lexicon_key": "backupPilot"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "William Anders was the backup pilot on Apollo 11."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "William Anders was a backup pilot on the Apollo 11 mission."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Apollo 11's backup pilot was William Anders."
+        }
+    },
+    "gold_outputs": [
+        "Apollo 11's backup pilot was William Anders.",
+        "William Anders was a backup pilot on the Apollo 11 mission.",
+        "William Anders was the backup pilot on Apollo 11."
+    ]
+}

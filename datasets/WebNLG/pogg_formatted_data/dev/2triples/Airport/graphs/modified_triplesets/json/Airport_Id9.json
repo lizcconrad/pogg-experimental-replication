@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Alderney_Airport": {
+            "lexicon_key": "Alderney_Airport"
+        },
+        "Poaceae": {
+            "lexicon_key": "Poaceae"
+        },
+        "877.0": {
+            "lexicon_key": "877.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "1stRunwaySurfaceType",
+            "parent_node": "Alderney_Airport",
+            "child_node": "Poaceae",
+            "edge_properties": {
+                "lexicon_key": "1stRunwaySurfaceType"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Alderney_Airport",
+            "child_node": "877.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Poaceae is the surface of the 1st runway at Alderney Airport which has a runway with the length of 877.0 metres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 1st runway length of Alderney Airport is 877.0 and the surface is poaceae."
+        }
+    },
+    "gold_outputs": [
+        "Poaceae is the surface of the 1st runway at Alderney Airport which has a runway with the length of 877.0 metres.",
+        "The 1st runway length of Alderney Airport is 877.0 and the surface is poaceae."
+    ]
+}

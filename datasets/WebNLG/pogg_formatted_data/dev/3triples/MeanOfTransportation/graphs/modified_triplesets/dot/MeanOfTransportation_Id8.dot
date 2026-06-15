@@ -1,0 +1,9 @@
+strict digraph {
+AMC_Matador [lexicon_key="AMC_Matador"];
+"Port_Melbourne,_Victoria" [lexicon_key="Port_Melbourne,_Victoria"];
+1971 [lexicon_key=1971];
+AMC_Ambassador [lexicon_key="AMC_Ambassador"];
+AMC_Matador -> "Port_Melbourne,_Victoria" [label=assembly, lexicon_key=assembly];
+AMC_Matador -> 1971 [label=modelYears, lexicon_key=modelYears];
+AMC_Matador -> AMC_Ambassador [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

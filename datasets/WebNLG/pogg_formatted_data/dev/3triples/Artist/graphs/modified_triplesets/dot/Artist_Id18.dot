@@ -1,0 +1,9 @@
+strict digraph {
+"Aleksandra_Kovač" [lexicon_key="Aleksandra_Kovač"];
+Rhythm_and_blues [lexicon_key="Rhythm_and_blues"];
+Bebi_Dol [lexicon_key="Bebi_Dol"];
+"K2_(Kovač_sisters_duo)" [lexicon_key="K2_(Kovač_sisters_duo)"];
+"Aleksandra_Kovač" -> Rhythm_and_blues [label=genre, lexicon_key=genre];
+"Aleksandra_Kovač" -> Bebi_Dol [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+"Aleksandra_Kovač" -> "K2_(Kovač_sisters_duo)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

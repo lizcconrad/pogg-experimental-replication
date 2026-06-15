@@ -1,0 +1,5 @@
+strict digraph {
+"Olympic_Stadium_(Athens)" [lexicon_key="Olympic_Stadium_(Athens)"];
+Marousi [lexicon_key=Marousi];
+"Olympic_Stadium_(Athens)" -> Marousi [label=location, lexicon_key=location];
+}

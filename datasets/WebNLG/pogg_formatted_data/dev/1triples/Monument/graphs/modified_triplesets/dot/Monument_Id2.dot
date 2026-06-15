@@ -1,0 +1,5 @@
+strict digraph {
+"Atatürk_Monument_(İzmir)" [lexicon_key="Atatürk_Monument_(İzmir)"];
+"Bronze" [lexicon_key="Bronze"];
+"Atatürk_Monument_(İzmir)" -> "Bronze" [label=material, lexicon_key=material];
+}

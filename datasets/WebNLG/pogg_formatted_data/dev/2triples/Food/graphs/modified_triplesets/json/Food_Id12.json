@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bacon_Explosion": {
+            "lexicon_key": "Bacon_Explosion"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Sausage": {
+            "lexicon_key": "Sausage"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "Sausage",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A sausage is used when making a Bacon Explosion which has The United states to thank for inventing it."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bacon Explosion is a dish from the United States that contains sausage."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bacon Explosion comes from the United States and includes sausage among its ingredients."
+        }
+    },
+    "gold_outputs": [
+        "A sausage is used when making a Bacon Explosion which has The United states to thank for inventing it.",
+        "Bacon Explosion comes from the United States and includes sausage among its ingredients.",
+        "Bacon Explosion is a dish from the United States that contains sausage."
+    ]
+}

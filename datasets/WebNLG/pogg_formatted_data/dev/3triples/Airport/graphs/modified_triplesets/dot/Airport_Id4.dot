@@ -1,0 +1,9 @@
+strict digraph {
+Agra_Airport [lexicon_key="Agra_Airport"];
+India [lexicon_key=India];
+Indian_Air_Force [lexicon_key="Indian_Air_Force"];
+"VIAG" [lexicon_key="VIAG"];
+Agra_Airport -> India [label=location, lexicon_key=location];
+Agra_Airport -> Indian_Air_Force [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+Agra_Airport -> "VIAG" [label=icaoLocationIdentifier, lexicon_key=icaoLocationIdentifier];
+}

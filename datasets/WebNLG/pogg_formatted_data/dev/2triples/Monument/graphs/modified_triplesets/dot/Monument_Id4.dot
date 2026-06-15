@@ -1,0 +1,7 @@
+strict digraph {
+"Dead_Man's_Plack" [lexicon_key="Dead_Man's_Plack"];
+"Æthelwald,_Ealdorman_of_East_Anglia" [lexicon_key="Æthelwald,_Ealdorman_of_East_Anglia"];
+"Rock_(geology)" [lexicon_key="Rock_(geology)"];
+"Dead_Man's_Plack" -> "Æthelwald,_Ealdorman_of_East_Anglia" [label=dedicatedTo, lexicon_key=dedicatedTo];
+"Dead_Man's_Plack" -> "Rock_(geology)" [label=material, lexicon_key=material];
+}

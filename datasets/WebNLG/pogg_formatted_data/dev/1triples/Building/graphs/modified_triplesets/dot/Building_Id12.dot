@@ -1,0 +1,5 @@
+strict digraph {
+Akita_Museum_of_Art [lexicon_key="Akita_Museum_of_Art"];
+"2013-09-28" [lexicon_key="2013-09-28"];
+Akita_Museum_of_Art -> "2013-09-28" [label=inaugurationDate, lexicon_key=inaugurationDate];
+}

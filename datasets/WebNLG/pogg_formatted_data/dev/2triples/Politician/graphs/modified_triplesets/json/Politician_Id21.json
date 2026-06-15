@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Airey_Neave": {
+            "lexicon_key": "Airey_Neave"
+        },
+        "World_War_II": {
+            "lexicon_key": "World_War_II"
+        },
+        "Knightsbridge": {
+            "lexicon_key": "Knightsbridge"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Airey_Neave",
+            "child_node": "World_War_II",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Airey_Neave",
+            "child_node": "Knightsbridge",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Airey Neave, who was born in Knightsbridge, fought in World War II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born in Knightsbridge, Airey Neave fought in World War II."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Airey Neave was born in Knightsbridge and fought in World War II."
+        }
+    },
+    "gold_outputs": [
+        "Airey Neave was born in Knightsbridge and fought in World War II.",
+        "Airey Neave, who was born in Knightsbridge, fought in World War II.",
+        "Born in Knightsbridge, Airey Neave fought in World War II."
+    ]
+}

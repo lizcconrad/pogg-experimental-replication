@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Audi_A1": {
+            "lexicon_key": "Audi_A1"
+        },
+        "Audi": {
+            "lexicon_key": "Audi"
+        },
+        "Ducati": {
+            "lexicon_key": "Ducati"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Audi_A1",
+            "child_node": "Audi",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "subsidiary",
+            "parent_node": "Audi",
+            "child_node": "Ducati",
+            "edge_properties": {
+                "lexicon_key": "subsidiary"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Audi A1 is made by Audi who also own Ducati."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Audi A1 is made by Audi who also own Ducati."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ducati is a subsidiary of Audi, which is the manufacturer of the Audi A1."
+        }
+    },
+    "gold_outputs": [
+        "Audi A1 is made by Audi who also own Ducati.",
+        "Ducati is a subsidiary of Audi, which is the manufacturer of the Audi A1.",
+        "The Audi A1 is made by Audi who also own Ducati."
+    ]
+}

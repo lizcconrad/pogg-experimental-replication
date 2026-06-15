@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Akron_Summit_Assault": {
+            "lexicon_key": "Akron_Summit_Assault"
+        },
+        "St._Vincent\u2013St._Mary_High_School": {
+            "lexicon_key": "St._Vincent\u2013St._Mary_High_School"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "Akron_Summit_Assault",
+            "child_node": "St._Vincent\u2013St._Mary_High_School",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akron Summit Assault's ground is St. Vincent-St. Mary High School."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "St Vincent-St Mary High School is the ground of Akron Summit Assault."
+        }
+    },
+    "gold_outputs": [
+        "Akron Summit Assault's ground is St. Vincent-St. Mary High School.",
+        "St Vincent-St Mary High School is the ground of Akron Summit Assault."
+    ]
+}

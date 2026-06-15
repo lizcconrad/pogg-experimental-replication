@@ -1,0 +1,9 @@
+strict digraph {
+Albert_Jennings_Fountain [lexicon_key="Albert_Jennings_Fountain"];
+New_Mexico_Territory [lexicon_key="New_Mexico_Territory"];
+United_States [lexicon_key="United_States"];
+Staten_Island [lexicon_key="Staten_Island"];
+Albert_Jennings_Fountain -> New_Mexico_Territory [label=deathPlace, lexicon_key=deathPlace];
+Albert_Jennings_Fountain -> United_States [label=birthPlace, lexicon_key=birthPlace];
+Albert_Jennings_Fountain -> Staten_Island [label=birthPlace, lexicon_key=birthPlace];
+}

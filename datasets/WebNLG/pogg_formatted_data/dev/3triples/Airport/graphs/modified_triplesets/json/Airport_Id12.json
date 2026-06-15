@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Andrews_County_Airport": {
+            "lexicon_key": "Andrews_County_Airport"
+        },
+        "Texas": {
+            "lexicon_key": "Texas"
+        },
+        "Houston": {
+            "lexicon_key": "Houston"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Andrews_County_Airport",
+            "child_node": "Texas",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "largestCity",
+            "parent_node": "Texas",
+            "child_node": "Houston",
+            "edge_properties": {
+                "lexicon_key": "largestCity"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrews County Airport is located in Texas (United States), where Houston is the largest city."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrews County Airport is in Texas, United States. Houston is the largest city in Texas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The United States Andrews County Airport is located in Texas, whose largest city is Houston."
+        }
+    },
+    "gold_outputs": [
+        "Andrews County Airport is in Texas, United States. Houston is the largest city in Texas.",
+        "Andrews County Airport is located in Texas (United States), where Houston is the largest city.",
+        "The United States Andrews County Airport is located in Texas, whose largest city is Houston."
+    ]
+}

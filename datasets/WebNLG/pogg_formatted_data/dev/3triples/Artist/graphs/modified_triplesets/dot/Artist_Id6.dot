@@ -1,0 +1,9 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Black_metal [lexicon_key="Black_metal"];
+"Sumac_(band)" [lexicon_key="Sumac_(band)"];
+Death_metal [lexicon_key="Death_metal"];
+Aaron_Turner -> Black_metal [label=genre, lexicon_key=genre];
+Aaron_Turner -> "Sumac_(band)" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Black_metal -> Death_metal [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

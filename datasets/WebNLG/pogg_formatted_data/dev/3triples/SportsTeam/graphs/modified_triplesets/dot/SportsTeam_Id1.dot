@@ -1,0 +1,9 @@
+strict digraph {
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+Cesena [lexicon_key=Cesena];
+Serie_B [lexicon_key="Serie_B"];
+23900 [lexicon_key=23900];
+"A.C._Cesena" -> Cesena [label=ground, lexicon_key=ground];
+"A.C._Cesena" -> Serie_B [label=league, lexicon_key=league];
+"A.C._Cesena" -> 23900 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

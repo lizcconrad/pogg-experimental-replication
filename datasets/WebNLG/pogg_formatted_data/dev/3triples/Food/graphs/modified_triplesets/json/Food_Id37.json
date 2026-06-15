@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Java": {
+            "lexicon_key": "Java"
+        },
+        "Baduy": {
+            "lexicon_key": "Baduy"
+        },
+        "Ayam_penyet": {
+            "lexicon_key": "Ayam_penyet"
+        },
+        "Singapore": {
+            "lexicon_key": "Singapore"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Java",
+            "child_node": "Baduy",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Ayam_penyet",
+            "child_node": "Singapore",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Ayam_penyet",
+            "child_node": "Java",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "From the Singapore region, Ayam penyet, is a food found in Java where an ethnic group is the Baduy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ayam penyet is a dish from the region of Singapore and is also found in Java where the Baduy are an ethnic group."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ayam penyet is from Singapore and also Java, where the Baduy are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "Ayam penyet is a dish from the region of Singapore and is also found in Java where the Baduy are an ethnic group.",
+        "Ayam penyet is from Singapore and also Java, where the Baduy are an ethnic group.",
+        "From the Singapore region, Ayam penyet, is a food found in Java where an ethnic group is the Baduy."
+    ]
+}

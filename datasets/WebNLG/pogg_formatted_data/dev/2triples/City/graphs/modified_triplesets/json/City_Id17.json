@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "City_Manager": {
+            "lexicon_key": "City_Manager"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Austin,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Austin,_Texas",
+            "child_node": "City_Manager",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Austin, Texas is located within the country of the United States and is led by the City Manager."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The leader of Austin, Texas, United States is the City Manager."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Austin, Texas is in the United States and is led by the City manager."
+        }
+    },
+    "gold_outputs": [
+        "Austin, Texas is in the United States and is led by the City manager.",
+        "Austin, Texas is located within the country of the United States and is led by the City Manager.",
+        "The leader of Austin, Texas, United States is the City Manager."
+    ]
+}

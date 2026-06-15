@@ -1,0 +1,7 @@
+strict digraph {
+Aleksandr_Chumakov [lexicon_key="Aleksandr_Chumakov"];
+FC_Torpedo_Moscow [lexicon_key="FC_Torpedo_Moscow"];
+Valery_Petrakov [lexicon_key="Valery_Petrakov"];
+Aleksandr_Chumakov -> FC_Torpedo_Moscow [label=club, lexicon_key=club];
+FC_Torpedo_Moscow -> Valery_Petrakov [label=manager, lexicon_key=manager];
+}

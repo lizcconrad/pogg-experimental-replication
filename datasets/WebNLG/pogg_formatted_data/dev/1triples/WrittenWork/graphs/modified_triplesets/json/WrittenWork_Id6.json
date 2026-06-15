@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "A_Long_Long_Way": {
+            "lexicon_key": "A_Long_Long_Way"
+        },
+        "\"0-670-03380-4\"": {
+            "lexicon_key": "\"0-670-03380-4\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Long_Long_Way",
+            "child_node": "\"0-670-03380-4\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ISBN number of A Long Long Way is 0-670-03380-4."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ISBN number to A Long Long Way is 0-670-03380-4."
+        }
+    },
+    "gold_outputs": [
+        "The ISBN number of A Long Long Way is 0-670-03380-4.",
+        "The ISBN number to A Long Long Way is 0-670-03380-4."
+    ]
+}

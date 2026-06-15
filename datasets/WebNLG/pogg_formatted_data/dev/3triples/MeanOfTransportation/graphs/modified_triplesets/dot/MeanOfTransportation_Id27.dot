@@ -1,0 +1,9 @@
+strict digraph {
+Guiana_Space_Centre [lexicon_key="Guiana_Space_Centre"];
+French_Guiana [lexicon_key="French_Guiana"];
+"ELA-3" [lexicon_key="ELA-3"];
+Ariane_5 [lexicon_key="Ariane_5"];
+Guiana_Space_Centre -> French_Guiana [label=location, lexicon_key=location];
+"ELA-3" -> Guiana_Space_Centre [label=site, lexicon_key=site];
+Ariane_5 -> "ELA-3" [label=launchSite, lexicon_key=launchSite];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Allan_Shivers": {
+            "lexicon_key": "Allan_Shivers"
+        },
+        "United_States_Army": {
+            "lexicon_key": "United_States_Army"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "militaryBranch",
+            "parent_node": "Allan_Shivers",
+            "child_node": "United_States_Army",
+            "edge_properties": {
+                "lexicon_key": "militaryBranch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Allan Shivers served in the United States Army."
+        }
+    },
+    "gold_outputs": [
+        "Allan Shivers served in the United States Army."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        },
+        "King_County,_Washington": {
+            "lexicon_key": "King_County,_Washington"
+        },
+        "Auburn,_Washington": {
+            "lexicon_key": "Auburn,_Washington"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "King_County,_Washington",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Auburn,_Washington",
+            "child_node": "King_County,_Washington",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Auburn is part of King County, Washington in the United States, the capital of which is Washington DC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Auburn is part of King County, Washington in the U.S. The capital of the U.S. is Washington, D.C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The capital of the U.S. is Washington D.C. and King County which is in Washington is the location of Auburn, Washington."
+        }
+    },
+    "gold_outputs": [
+        "Auburn is part of King County, Washington in the U.S. The capital of the U.S. is Washington, D.C.",
+        "Auburn is part of King County, Washington in the United States, the capital of which is Washington DC.",
+        "The capital of the U.S. is Washington D.C. and King County which is in Washington is the location of Auburn, Washington."
+    ]
+}

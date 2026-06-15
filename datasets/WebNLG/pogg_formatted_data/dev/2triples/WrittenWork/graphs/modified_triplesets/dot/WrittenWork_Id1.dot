@@ -1,0 +1,7 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+Grantville_Gazette_III [lexicon_key="Grantville_Gazette_III"];
+"Virginia DeMarce and Eric Flint" [lexicon_key="Virginia DeMarce and Eric Flint"];
+1634:_The_Bavarian_Crisis -> Grantville_Gazette_III [label=precededBy, lexicon_key=precededBy];
+1634:_The_Bavarian_Crisis -> "Virginia DeMarce and Eric Flint" [label=author, lexicon_key=author];
+}

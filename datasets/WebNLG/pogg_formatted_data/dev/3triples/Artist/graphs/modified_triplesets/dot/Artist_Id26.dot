@@ -1,0 +1,9 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+Billy_Iuso [lexicon_key="Billy_Iuso"];
+"Voice_of_the_Wetlands_All-Stars" [lexicon_key="Voice_of_the_Wetlands_All-Stars"];
+Tab_Benoit [lexicon_key="Tab_Benoit"];
+Anders_Osborne -> Billy_Iuso [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Anders_Osborne -> "Voice_of_the_Wetlands_All-Stars" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Anders_Osborne -> Tab_Benoit [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

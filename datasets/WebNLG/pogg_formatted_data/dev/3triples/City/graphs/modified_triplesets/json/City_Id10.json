@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Amarillo,_Texas": {
+            "lexicon_key": "Amarillo,_Texas"
+        },
+        "Randall_County,_Texas": {
+            "lexicon_key": "Randall_County,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Native_Americans_in_the_United_States": {
+            "lexicon_key": "Native_Americans_in_the_United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Amarillo,_Texas",
+            "child_node": "Randall_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Amarillo,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Native_Americans_in_the_United_States",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Native Americans are an ethnic group in the United States where Amarillo is located in Randall County, Texas."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amarillo, Texas, is part of Randall County, Texas, United States, where Native Americans are one of the ethnic groups."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Native Americans are one of the ethnic groups in the United States of America which is where Amarillo Texas, part of Randall County, is located."
+        }
+    },
+    "gold_outputs": [
+        "Amarillo, Texas, is part of Randall County, Texas, United States, where Native Americans are one of the ethnic groups.",
+        "Native Americans are one of the ethnic groups in the United States of America which is where Amarillo Texas, part of Randall County, is located.",
+        "The Native Americans are an ethnic group in the United States where Amarillo is located in Randall County, Texas."
+    ]
+}

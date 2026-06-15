@@ -1,0 +1,5 @@
+strict digraph {
+"Arròs_negre" [lexicon_key="Arròs_negre"];
+Cuttlefish [lexicon_key=Cuttlefish];
+"Arròs_negre" -> Cuttlefish [label=ingredient, lexicon_key=ingredient];
+}

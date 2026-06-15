@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "1099_Figneria": {
+            "lexicon_key": "1099_Figneria"
+        },
+        "0.0155 (kilometrePerSeconds)": {
+            "lexicon_key": "0.0155 (kilometrePerSeconds)"
+        },
+        "156.0 (kelvins)": {
+            "lexicon_key": "156.0 (kelvins)"
+        },
+        "605718000.0 (kilometres)": {
+            "lexicon_key": "605718000.0 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "escapeVelocity",
+            "parent_node": "1099_Figneria",
+            "child_node": "0.0155 (kilometrePerSeconds)",
+            "edge_properties": {
+                "lexicon_key": "escapeVelocity"
+            }
+        },
+        {
+            "edge_name": "temperature",
+            "parent_node": "1099_Figneria",
+            "child_node": "156.0 (kelvins)",
+            "edge_properties": {
+                "lexicon_key": "temperature"
+            }
+        },
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "1099_Figneria",
+            "child_node": "605718000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The celestial body known as 1099 Figneria has a temperature of 156 kelvins, an apoapsis of 605718000.0 km and an escape velocity of 0.0155 km per sec."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The celestial body known as 1099 Figneria has a temperature of 156 kelvins, escape velocity of 0.0155 k.p.s. and an apoapsis of 605718000.0 kms."
+        }
+    },
+    "gold_outputs": [
+        "The celestial body known as 1099 Figneria has a temperature of 156 kelvins, an apoapsis of 605718000.0 km and an escape velocity of 0.0155 km per sec.",
+        "The celestial body known as 1099 Figneria has a temperature of 156 kelvins, escape velocity of 0.0155 k.p.s. and an apoapsis of 605718000.0 kms."
+    ]
+}

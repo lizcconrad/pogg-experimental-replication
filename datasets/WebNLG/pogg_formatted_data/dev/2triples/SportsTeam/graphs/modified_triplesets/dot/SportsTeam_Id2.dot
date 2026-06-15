@@ -1,0 +1,7 @@
+strict digraph {
+"A.C._Chievo_Verona" [lexicon_key="A.C._Chievo_Verona"];
+"Stadio_Marc'Antonio_Bentegodi" [lexicon_key="Stadio_Marc'Antonio_Bentegodi"];
+Serie_A [lexicon_key="Serie_A"];
+"A.C._Chievo_Verona" -> "Stadio_Marc'Antonio_Bentegodi" [label=ground, lexicon_key=ground];
+"A.C._Chievo_Verona" -> Serie_A [label=league, lexicon_key=league];
+}

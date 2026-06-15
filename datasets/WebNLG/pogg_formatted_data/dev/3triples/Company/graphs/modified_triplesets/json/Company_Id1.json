@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AmeriGas": {
+            "lexicon_key": "AmeriGas"
+        },
+        "380700000": {
+            "lexicon_key": "380700000"
+        },
+        "Energy_industry": {
+            "lexicon_key": "Energy_industry"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingIncome",
+            "parent_node": "AmeriGas",
+            "child_node": "380700000",
+            "edge_properties": {
+                "lexicon_key": "operatingIncome"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "AmeriGas",
+            "child_node": "Energy_industry",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "AmeriGas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AmeriGas, a United States company in the energy industry, has an operating income of $380,700,000."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AmeriGas is an energy company working in the United States with an operating income of 380700000."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AmeriGas, a United States company in the energy industry, has earned 380,700,000 in operating income."
+        }
+    },
+    "gold_outputs": [
+        "AmeriGas is an energy company working in the United States with an operating income of 380700000.",
+        "AmeriGas, a United States company in the energy industry, has an operating income of $380,700,000.",
+        "AmeriGas, a United States company in the energy industry, has earned 380,700,000 in operating income."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Nigerian_Air_Force [lexicon_key="Nigerian_Air_Force"];
+Sadique_Abubakar [lexicon_key="Sadique_Abubakar"];
+Nigerian_Air_Force -> Sadique_Abubakar [label=commander, lexicon_key=commander];
+}

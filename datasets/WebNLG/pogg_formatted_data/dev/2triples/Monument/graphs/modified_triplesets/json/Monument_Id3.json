@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+        },
+        "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"": {
+            "lexicon_key": "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\""
+        },
+        "\"Red granite and white marble\"": {
+            "lexicon_key": "\"Red granite and white marble\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nativeName",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"",
+            "edge_properties": {
+                "lexicon_key": "nativeName"
+            }
+        },
+        {
+            "edge_name": "material",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"Red granite and white marble\"",
+            "edge_properties": {
+                "lexicon_key": "material"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The native name of the Baku Turkish Martyrs' Memorial is Turk Sehitleri Aniti and is made of red granite and white marble."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial is known in Turkish as Turk Sehitleri Aniti and is created in red granite and white marble."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Baku Turkish Martyrs' Memorial is made from red granite and white marble and is called Turk Sehitleri Aniti."
+        }
+    },
+    "gold_outputs": [
+        "Baku Turkish Martyrs' Memorial is made from red granite and white marble and is called Turk Sehitleri Aniti.",
+        "The Baku Turkish Martyrs' Memorial is known in Turkish as Turk Sehitleri Aniti and is created in red granite and white marble.",
+        "The native name of the Baku Turkish Martyrs' Memorial is Turk Sehitleri Aniti and is made of red granite and white marble."
+    ]
+}

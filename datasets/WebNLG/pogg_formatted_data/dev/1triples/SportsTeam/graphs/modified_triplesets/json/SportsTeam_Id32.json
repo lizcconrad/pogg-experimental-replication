@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Stuart_Parker_(footballer)": {
+            "lexicon_key": "Stuart_Parker_(footballer)"
+        },
+        "Bury_F.C.": {
+            "lexicon_key": "Bury_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Bury_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Stuart Parker played football for Bury FC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The footballer Stuart Parker plays for the Bury FC."
+        }
+    },
+    "gold_outputs": [
+        "Stuart Parker played football for Bury FC.",
+        "The footballer Stuart Parker plays for the Bury FC."
+    ]
+}

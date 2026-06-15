@@ -1,0 +1,5 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+Mason_School_of_Business [lexicon_key="Mason_School_of_Business"];
+"Alan_B._Miller_Hall" -> Mason_School_of_Business [label=currentTenants, lexicon_key=currentTenants];
+}

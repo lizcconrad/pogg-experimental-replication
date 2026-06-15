@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alvah_Sabin": {
+            "lexicon_key": "Alvah_Sabin"
+        },
+        "Whig_Party_(United_States)": {
+            "lexicon_key": "Whig_Party_(United_States)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "party",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Whig_Party_(United_States)",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alvah Sabin was a member of the United States Whig Party."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alvah Sabin belongs to the Whig Party (United States)."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alvah Sabin was a member of the Whig Party of the United States."
+        }
+    },
+    "gold_outputs": [
+        "Alvah Sabin belongs to the Whig Party (United States).",
+        "Alvah Sabin was a member of the United States Whig Party.",
+        "Alvah Sabin was a member of the Whig Party of the United States."
+    ]
+}

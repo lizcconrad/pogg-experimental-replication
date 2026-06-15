@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abel_Hern\u00e1ndez": {
+            "lexicon_key": "Abel_Hern\u00e1ndez"
+        },
+        "Central_Espa\u00f1ol": {
+            "lexicon_key": "Central_Espa\u00f1ol"
+        },
+        "U.S._Citt\u00e0_di_Palermo": {
+            "lexicon_key": "U.S._Citt\u00e0_di_Palermo"
+        },
+        "Pe\u00f1arol": {
+            "lexicon_key": "Pe\u00f1arol"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "Central_Espa\u00f1ol",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "U.S._Citt\u00e0_di_Palermo",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "Pe\u00f1arol",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Hernandez played youth football for Central Espanol. He has since been associated with clubs US Citta di Palermo and Penarol."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Hern\u00e1ndez played football at youth level for Central Espa\u00f1ol. At senior level he has played for US Citta di Palermo and Penarol."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abel Hern\u00e1ndez plays football for U.S. Citt\u00e0 di Palermo, having previously played for Penarol and at youth level for Central Espa\u00f1ol."
+        }
+    },
+    "gold_outputs": [
+        "Abel Hernandez played youth football for Central Espanol. He has since been associated with clubs US Citta di Palermo and Penarol.",
+        "Abel Hern\u00e1ndez played football at youth level for Central Espa\u00f1ol. At senior level he has played for US Citta di Palermo and Penarol.",
+        "Abel Hern\u00e1ndez plays football for U.S. Citt\u00e0 di Palermo, having previously played for Penarol and at youth level for Central Espa\u00f1ol."
+    ]
+}

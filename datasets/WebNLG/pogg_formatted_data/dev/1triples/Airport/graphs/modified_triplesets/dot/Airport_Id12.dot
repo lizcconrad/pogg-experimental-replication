@@ -1,0 +1,5 @@
+strict digraph {
+Allama_Iqbal_International_Airport [lexicon_key="Allama_Iqbal_International_Airport"];
+"18R/36L" [lexicon_key="18R/36L"];
+Allama_Iqbal_International_Airport -> "18R/36L" [label=runwayName, lexicon_key=runwayName];
+}

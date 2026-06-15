@@ -1,0 +1,5 @@
+strict digraph {
+"Georgia_(U.S._state)" [lexicon_key="Georgia_(U.S._state)"];
+United_States [lexicon_key="United_States"];
+"Georgia_(U.S._state)" -> United_States [label=country, lexicon_key=country];
+}

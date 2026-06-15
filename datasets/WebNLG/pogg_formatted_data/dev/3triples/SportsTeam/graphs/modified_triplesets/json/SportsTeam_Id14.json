@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "AZAL_PFK": {
+            "lexicon_key": "AZAL_PFK"
+        },
+        "Azerbaijan_Premier_League": {
+            "lexicon_key": "Azerbaijan_Premier_League"
+        },
+        "Qaraba\u011f_FK": {
+            "lexicon_key": "Qaraba\u011f_FK"
+        },
+        "AZAL_Arena": {
+            "lexicon_key": "AZAL_Arena"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "AZAL_PFK",
+            "child_node": "Azerbaijan_Premier_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "champions",
+            "parent_node": "Azerbaijan_Premier_League",
+            "child_node": "Qaraba\u011f_FK",
+            "edge_properties": {
+                "lexicon_key": "champions"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "AZAL_PFK",
+            "child_node": "AZAL_Arena",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AZAL PFK play their home matches at the AZAL Arena, and are in the Azerbaijan Premier League, whose championships name is the Qarabag FK."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AZAL Arena is the ground of AZAL PFK and competes in The Azerbaijan Premier League, which champions are Qarabag FK."
+        }
+    },
+    "gold_outputs": [
+        "AZAL Arena is the ground of AZAL PFK and competes in The Azerbaijan Premier League, which champions are Qarabag FK.",
+        "AZAL PFK play their home matches at the AZAL Arena, and are in the Azerbaijan Premier League, whose championships name is the Qarabag FK."
+    ]
+}

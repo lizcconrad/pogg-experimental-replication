@@ -1,0 +1,7 @@
+strict digraph {
+Abilene_Regional_Airport [lexicon_key="Abilene_Regional_Airport"];
+"Abilene,_Texas" [lexicon_key="Abilene,_Texas"];
+Texas [lexicon_key=Texas];
+Abilene_Regional_Airport -> "Abilene,_Texas" [label=cityServed, lexicon_key=cityServed];
+"Abilene,_Texas" -> Texas [label=isPartOf, lexicon_key=isPartOf];
+}

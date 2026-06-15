@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "524.0": {
+            "lexicon_key": "524.0"
+        },
+        "429.9 (inhabitants per square kilometre)": {
+            "lexicon_key": "429.9 (inhabitants per square kilometre)"
+        },
+        "286.5 (square kilometres)": {
+            "lexicon_key": "286.5 (square kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "524.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "429.9 (inhabitants per square kilometre)",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "286.5 (square kilometres)",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abilene, Texas is 524 above sea level, is 286.5 square kilometres large and has 429.9 people per square kilometre."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abilene, Texas; is 524m above sea level, has a total area of 286.5 sq km, and a population density of 429.9 inhabitants per square kilometre."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "At 524 metres above sea level, Abilene (Texas) has a total area of 286.5 square kilometres, and a population density of 429.9 inhabitants per square kilometre."
+        }
+    },
+    "gold_outputs": [
+        "Abilene, Texas is 524 above sea level, is 286.5 square kilometres large and has 429.9 people per square kilometre.",
+        "Abilene, Texas; is 524m above sea level, has a total area of 286.5 sq km, and a population density of 429.9 inhabitants per square kilometre.",
+        "At 524 metres above sea level, Abilene (Texas) has a total area of 286.5 square kilometres, and a population density of 429.9 inhabitants per square kilometre."
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Aleksander_Barkov,_Jr.": {
+            "lexicon_key": "Aleksander_Barkov,_Jr."
+        },
+        "1995": {
+            "lexicon_key": "1995"
+        },
+        "1995-09-02": {
+            "lexicon_key": "1995-09-02"
+        },
+        "\"Tampere, Finland\"": {
+            "lexicon_key": "\"Tampere, Finland\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Aleksander_Barkov,_Jr.",
+            "child_node": "1995",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Aleksander_Barkov,_Jr.",
+            "child_node": "1995-09-02",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Aleksander_Barkov,_Jr.",
+            "child_node": "\"Tampere, Finland\"",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr was born in Tampere, Finland on 2 September 1995."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr. was born on the 2nd September 1995 in Tampere, Finland."
+        }
+    },
+    "gold_outputs": [
+        "Aleksander Barkov Jr was born in Tampere, Finland on 2 September 1995.",
+        "Aleksander Barkov Jr. was born on the 2nd September 1995 in Tampere, Finland."
+    ]
+}

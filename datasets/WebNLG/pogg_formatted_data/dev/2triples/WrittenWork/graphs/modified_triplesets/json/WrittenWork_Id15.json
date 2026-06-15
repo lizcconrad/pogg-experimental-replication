@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Wizard_of_Mars": {
+            "lexicon_key": "A_Wizard_of_Mars"
+        },
+        "\"560\"": {
+            "lexicon_key": "\"560\""
+        },
+        "\"978-0-15-204770-2\"": {
+            "lexicon_key": "\"978-0-15-204770-2\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfPages",
+            "parent_node": "A_Wizard_of_Mars",
+            "child_node": "\"560\"",
+            "edge_properties": {
+                "lexicon_key": "numberOfPages"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Wizard_of_Mars",
+            "child_node": "\"978-0-15-204770-2\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Wizard of Mars is 560 pages long and has the ISBN number 978-0-15-204770-2."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Wizard of Mars has 560 pages and the ISBN number 978-0-15-204770-2."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Wizard of Mars with ISBN number \"978-0-15-204770-2 contains 560 pages."
+        }
+    },
+    "gold_outputs": [
+        "A Wizard of Mars has 560 pages and the ISBN number 978-0-15-204770-2.",
+        "A Wizard of Mars is 560 pages long and has the ISBN number 978-0-15-204770-2.",
+        "A Wizard of Mars with ISBN number \"978-0-15-204770-2 contains 560 pages."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Antioquia_Department": {
+            "lexicon_key": "Antioquia_Department"
+        },
+        "Colombia": {
+            "lexicon_key": "Colombia"
+        },
+        "Bandeja_paisa": {
+            "lexicon_key": "Bandeja_paisa"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Antioquia_Department",
+            "child_node": "Colombia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Bandeja_paisa",
+            "child_node": "Antioquia_Department",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bandeja paisa comes from the Antioquia Department of Colombia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bandeja paisa is a dish found in the Antioquia Department of Colombia."
+        }
+    },
+    "gold_outputs": [
+        "Bandeja paisa comes from the Antioquia Department of Colombia.",
+        "Bandeja paisa is a dish found in the Antioquia Department of Colombia."
+    ]
+}

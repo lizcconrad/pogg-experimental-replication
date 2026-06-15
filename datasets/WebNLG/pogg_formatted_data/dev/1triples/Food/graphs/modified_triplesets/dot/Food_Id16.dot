@@ -1,0 +1,5 @@
+strict digraph {
+Barny_Cakes [lexicon_key="Barny_Cakes"];
+Mondelez_International [lexicon_key="Mondelez_International"];
+Barny_Cakes -> Mondelez_International [label=creator, lexicon_key=creator];
+}

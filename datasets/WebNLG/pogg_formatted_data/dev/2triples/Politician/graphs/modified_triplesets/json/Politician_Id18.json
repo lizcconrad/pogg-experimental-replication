@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Adonis_Georgiadis": {
+            "lexicon_key": "Adonis_Georgiadis"
+        },
+        "Antonis_Samaras": {
+            "lexicon_key": "Antonis_Samaras"
+        },
+        "Konstantinos_Mitsotakis": {
+            "lexicon_key": "Konstantinos_Mitsotakis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inOfficeWhilePrimeMinister",
+            "parent_node": "Adonis_Georgiadis",
+            "child_node": "Antonis_Samaras",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhilePrimeMinister"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Antonis_Samaras",
+            "child_node": "Konstantinos_Mitsotakis",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adonis Georgiadis was in office under Prime Minister Antonis Samaras who was succeeded by Konstantinos Mitsotakis."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adonis Georgiadis was in office under Prime Minister, Antonis Samaras, who was succeeded by Konstantinos Mitsotakis."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adonis Georgiadis was in office while Antonis Samaras, later succeeded by Konstantinos Mitsotakis, was Prime Minister."
+        }
+    },
+    "gold_outputs": [
+        "Adonis Georgiadis was in office under Prime Minister Antonis Samaras who was succeeded by Konstantinos Mitsotakis.",
+        "Adonis Georgiadis was in office under Prime Minister, Antonis Samaras, who was succeeded by Konstantinos Mitsotakis.",
+        "Adonis Georgiadis was in office while Antonis Samaras, later succeeded by Konstantinos Mitsotakis, was Prime Minister."
+    ]
+}

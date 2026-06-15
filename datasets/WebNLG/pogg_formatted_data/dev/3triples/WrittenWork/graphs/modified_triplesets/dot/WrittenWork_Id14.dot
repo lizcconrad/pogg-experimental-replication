@@ -1,0 +1,9 @@
+strict digraph {
+A_Loyal_Character_Dancer [lexicon_key="A_Loyal_Character_Dancer"];
+Soho_Press [lexicon_key="Soho_Press"];
+United_States [lexicon_key="United_States"];
+Barack_Obama [lexicon_key="Barack_Obama"];
+A_Loyal_Character_Dancer -> Soho_Press [label=publisher, lexicon_key=publisher];
+Soho_Press -> United_States [label=country, lexicon_key=country];
+United_States -> Barack_Obama [label=leader, lexicon_key=leader];
+}

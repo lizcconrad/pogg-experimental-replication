@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AmeriGas": {
+            "lexicon_key": "AmeriGas"
+        },
+        "King_of_Prussia,_Pennsylvania": {
+            "lexicon_key": "King_of_Prussia,_Pennsylvania"
+        },
+        "Energy_industry": {
+            "lexicon_key": "Energy_industry"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "AmeriGas",
+            "child_node": "King_of_Prussia,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "AmeriGas",
+            "child_node": "Energy_industry",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Located in King of Prussia, Pennsylvania; Amerigas is in the energy industry."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AmeriGas is an energy company in King of Prussia, Pennsylvania."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AmeriGas is an energy company and is located in King of Prussia, Pennsylvania."
+        }
+    },
+    "gold_outputs": [
+        "AmeriGas is an energy company and is located in King of Prussia, Pennsylvania.",
+        "AmeriGas is an energy company in King of Prussia, Pennsylvania.",
+        "Located in King of Prussia, Pennsylvania; Amerigas is in the energy industry."
+    ]
+}

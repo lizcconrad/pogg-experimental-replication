@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Josef_Klaus": {
+            "lexicon_key": "Josef_Klaus"
+        },
+        "University_of_Vienna": {
+            "lexicon_key": "University_of_Vienna"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Josef_Klaus",
+            "child_node": "University_of_Vienna",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The University of Vienna is the Alma mater of Josef Klaus."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Josef Klaus alma mater is the University of Vienna."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The alma mater of Josef Klaus is the University of Vienna."
+        }
+    },
+    "gold_outputs": [
+        "Josef Klaus alma mater is the University of Vienna.",
+        "The University of Vienna is the Alma mater of Josef Klaus.",
+        "The alma mater of Josef Klaus is the University of Vienna."
+    ]
+}

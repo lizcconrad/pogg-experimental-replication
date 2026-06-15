@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ariane_5": {
+            "lexicon_key": "Ariane_5"
+        },
+        "Airbus_Defence_and_Space": {
+            "lexicon_key": "Airbus_Defence_and_Space"
+        },
+        "Airbus_Group": {
+            "lexicon_key": "Airbus_Group"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Ariane_5",
+            "child_node": "Airbus_Defence_and_Space",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "parentCompany",
+            "parent_node": "Airbus_Defence_and_Space",
+            "child_node": "Airbus_Group",
+            "edge_properties": {
+                "lexicon_key": "parentCompany"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Airbus Group is the parent company of Airbus Defence & Space; where Ariane 5 was manufactured."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Airbus Group is the parent company of Airbus Defence and Space who manufactured the Ariane 5."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Airbus Defence and Space, whose parent company is Airbus Group, made the Ariane 5."
+        }
+    },
+    "gold_outputs": [
+        "Airbus Group is the parent company of Airbus Defence & Space; where Ariane 5 was manufactured.",
+        "The Airbus Defence and Space, whose parent company is Airbus Group, made the Ariane 5.",
+        "The Airbus Group is the parent company of Airbus Defence and Space who manufactured the Ariane 5."
+    ]
+}

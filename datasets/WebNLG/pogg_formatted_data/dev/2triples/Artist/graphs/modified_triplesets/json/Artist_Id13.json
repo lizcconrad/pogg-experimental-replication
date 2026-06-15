@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alex_Day": {
+            "lexicon_key": "Alex_Day"
+        },
+        "Synthpop": {
+            "lexicon_key": "Synthpop"
+        },
+        "New_wave_music": {
+            "lexicon_key": "New_wave_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Alex_Day",
+            "child_node": "Synthpop",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Synthpop",
+            "child_node": "New_wave_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alex Day plays Synthpop, which originated from new wave music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alex Day performs Synthpop music which has its stylistic origin in new wave music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alex Day plays Synthpop, which is derived from New Wave music."
+        }
+    },
+    "gold_outputs": [
+        "Alex Day performs Synthpop music which has its stylistic origin in new wave music.",
+        "Alex Day plays Synthpop, which is derived from New Wave music.",
+        "Alex Day plays Synthpop, which originated from new wave music."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"200_Public_Square" [lexicon_key="200_Public_Square"];
+1985 [lexicon_key=1985];
+"200_Public_Square" -> 1985 [label=completionDate, lexicon_key=completionDate];
+}

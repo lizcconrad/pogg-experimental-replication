@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Celery": {
+            "lexicon_key": "Celery"
+        },
+        "Apium": {
+            "lexicon_key": "Apium"
+        },
+        "Bakso": {
+            "lexicon_key": "Bakso"
+        },
+        "Apiaceae": {
+            "lexicon_key": "Apiaceae"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genus",
+            "parent_node": "Celery",
+            "child_node": "Apium",
+            "edge_properties": {
+                "lexicon_key": "genus"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bakso",
+            "child_node": "Celery",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "family",
+            "parent_node": "Celery",
+            "child_node": "Apiaceae",
+            "edge_properties": {
+                "lexicon_key": "family"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "One ingredient in Bakso is celery, which is a member of the genus Apium in the family Apiaceae."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Celery is from the genus apium and the family Apiaceae. It is an ingredient of Bakso."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Celery is a member of the family Apiaceae, it is from the genus apium and is an ingredient of Bakso."
+        }
+    },
+    "gold_outputs": [
+        "Celery is a member of the family Apiaceae, it is from the genus apium and is an ingredient of Bakso.",
+        "Celery is from the genus apium and the family Apiaceae. It is an ingredient of Bakso.",
+        "One ingredient in Bakso is celery, which is a member of the genus Apium in the family Apiaceae."
+    ]
+}

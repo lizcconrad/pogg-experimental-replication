@@ -1,0 +1,9 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"7.9 (kilograms)" [lexicon_key="7.9 (kilograms)"];
+"0.0482 (kilometrePerSeconds)" [lexicon_key="0.0482 (kilometrePerSeconds)"];
+"437170000.0 (kilometres)" [lexicon_key="437170000.0 (kilometres)"];
+"103_Hera" -> "7.9 (kilograms)" [label=mass, lexicon_key=mass];
+"103_Hera" -> "0.0482 (kilometrePerSeconds)" [label=escapeVelocity, lexicon_key=escapeVelocity];
+"103_Hera" -> "437170000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

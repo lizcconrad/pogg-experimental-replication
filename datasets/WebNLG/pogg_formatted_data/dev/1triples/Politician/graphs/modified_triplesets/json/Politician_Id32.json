@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Edmund_J._Davis": {
+            "lexicon_key": "Edmund_J._Davis"
+        },
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Edmund_J._Davis",
+            "child_node": "Austin,_Texas",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The death place of Edmund J. Davis is Austin Texas."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Edmund J. Davis died in Austin, Texas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Edmund J. Davis died in Austin Texas."
+        }
+    },
+    "gold_outputs": [
+        "Edmund J. Davis died in Austin Texas.",
+        "Edmund J. Davis died in Austin, Texas.",
+        "The death place of Edmund J. Davis is Austin Texas."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "David_Cameron": {
+            "lexicon_key": "David_Cameron"
+        },
+        "AIDS_(journal)": {
+            "lexicon_key": "AIDS_(journal)"
+        },
+        "Lippincott_Williams_&_Wilkins": {
+            "lexicon_key": "Lippincott_Williams_&_Wilkins"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "United_Kingdom",
+            "child_node": "David_Cameron",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "AIDS_(journal)",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "publisher",
+            "parent_node": "AIDS_(journal)",
+            "child_node": "Lippincott_Williams_&_Wilkins",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDS (journal), is published by Lippincott Williams & Wilkins who are based in the United Kingdom which is where David Cameron is the leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AIDS journal was published by Lippincott, Williams & Wilkins in the UK. David Cameron is the leader."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AIDS (journal) is published by Lippincott Williams & Wilkins. It was published in the United Kingdom, which leader is David Cameron."
+        }
+    },
+    "gold_outputs": [
+        "The AIDS (journal) is published by Lippincott Williams & Wilkins. It was published in the United Kingdom, which leader is David Cameron.",
+        "The AIDS (journal), is published by Lippincott Williams & Wilkins who are based in the United Kingdom which is where David Cameron is the leader.",
+        "The AIDS journal was published by Lippincott, Williams & Wilkins in the UK. David Cameron is the leader."
+    ]
+}

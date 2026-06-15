@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Asunci\u00f3n": {
+            "lexicon_key": "Asunci\u00f3n"
+        },
+        "Gran_Asunci\u00f3n": {
+            "lexicon_key": "Gran_Asunci\u00f3n"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Asunci\u00f3n",
+            "child_node": "Gran_Asunci\u00f3n",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Asunci\u00f3n is a part of Gran Asunci\u00f3n."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Asunci\u00f3n is part of Gran Asunci\u00f3n."
+        }
+    },
+    "gold_outputs": [
+        "Asunci\u00f3n is a part of Gran Asunci\u00f3n.",
+        "Asunci\u00f3n is part of Gran Asunci\u00f3n."
+    ]
+}

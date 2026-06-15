@@ -1,0 +1,9 @@
+strict digraph {
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+Massimo_Drago [lexicon_key="Massimo_Drago"];
+"S.S.D._Potenza_Calcio" [lexicon_key="S.S.D._Potenza_Calcio"];
+Calcio_Catania [lexicon_key="Calcio_Catania"];
+"A.C._Cesena" -> Massimo_Drago [label=manager, lexicon_key=manager];
+Massimo_Drago -> "S.S.D._Potenza_Calcio" [label=club, lexicon_key=club];
+Massimo_Drago -> Calcio_Catania [label=club, lexicon_key=club];
+}

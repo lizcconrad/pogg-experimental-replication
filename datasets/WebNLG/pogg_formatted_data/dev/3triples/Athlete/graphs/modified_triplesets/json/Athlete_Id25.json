@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "FC_Torpedo_Moscow": {
+            "lexicon_key": "FC_Torpedo_Moscow"
+        },
+        "2014\u201315_Russian_Premier_League": {
+            "lexicon_key": "2014\u201315_Russian_Premier_League"
+        },
+        "Aleksandr_Chumakov": {
+            "lexicon_key": "Aleksandr_Chumakov"
+        },
+        "Valery_Petrakov": {
+            "lexicon_key": "Valery_Petrakov"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "season",
+            "parent_node": "FC_Torpedo_Moscow",
+            "child_node": "2014\u201315_Russian_Premier_League",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Chumakov",
+            "child_node": "FC_Torpedo_Moscow",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "FC_Torpedo_Moscow",
+            "child_node": "Valery_Petrakov",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandr Chumakov's club was FC Torpedo Moscow. The club, which is managed by Valery Petrakov, played the 2014\u201315 season in the Russian Premier League."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandr Chumakov plays for FC Torpedo Moscow who are managed by Valery Petrakov and played in the 2014-15 Russian Premier league."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandr Chumakov's club was FC Torpedo Moscow, the manager of which, is Valery Petrakov. FC Torpedo Moscow played in the 2014-15 Russian Premier League."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandr Chumakov plays for FC Torpedo Moscow who are managed by Valery Petrakov and played in the 2014-15 Russian Premier league.",
+        "Aleksandr Chumakov's club was FC Torpedo Moscow, the manager of which, is Valery Petrakov. FC Torpedo Moscow played in the 2014-15 Russian Premier League.",
+        "Aleksandr Chumakov's club was FC Torpedo Moscow. The club, which is managed by Valery Petrakov, played the 2014\u201315 season in the Russian Premier League."
+    ]
+}

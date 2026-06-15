@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Antonis_Samaras": {
+            "lexicon_key": "Antonis_Samaras"
+        },
+        "Konstantinos_Mitsotakis": {
+            "lexicon_key": "Konstantinos_Mitsotakis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Antonis_Samaras",
+            "child_node": "Konstantinos_Mitsotakis",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Konstantinos Mitsotakis was the successor to Antonis Samaras."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The successor to Antonis Samaras was Konstantinos Mitsotakis."
+        }
+    },
+    "gold_outputs": [
+        "Konstantinos Mitsotakis was the successor to Antonis Samaras.",
+        "The successor to Antonis Samaras was Konstantinos Mitsotakis."
+    ]
+}

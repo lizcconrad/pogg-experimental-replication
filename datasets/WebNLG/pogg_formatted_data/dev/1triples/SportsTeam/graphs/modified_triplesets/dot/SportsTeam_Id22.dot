@@ -1,0 +1,5 @@
+strict digraph {
+Amsterdam [lexicon_key=Amsterdam];
+"Amsterdam-Centrum" [lexicon_key="Amsterdam-Centrum"];
+Amsterdam -> "Amsterdam-Centrum" [label=part, lexicon_key=part];
+}

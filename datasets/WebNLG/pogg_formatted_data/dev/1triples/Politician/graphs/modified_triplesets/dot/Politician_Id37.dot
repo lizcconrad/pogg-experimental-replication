@@ -1,0 +1,5 @@
+strict digraph {
+Poland [lexicon_key=Poland];
+Romani_people [lexicon_key="Romani_people"];
+Poland -> Romani_people [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

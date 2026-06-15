@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+1635 [lexicon_key="1635:_The_Cannon_Law"];
+1634:_The_Ram_Rebellion -> 1635:_The_Cannon_Law [label=followedBy, lexicon_key=followedBy];
+}

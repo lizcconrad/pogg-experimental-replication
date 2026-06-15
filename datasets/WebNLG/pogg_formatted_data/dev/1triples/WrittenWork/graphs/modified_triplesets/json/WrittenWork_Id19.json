@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "lexicon_key": "Alcatraz_Versus_the_Evil_Librarians"
+        },
+        "78771100": {
+            "lexicon_key": "78771100"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "78771100",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians OCLC number is 78771100."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians has the OCLC number of 7877110."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians has an OCLC number of 78771100."
+        }
+    },
+    "gold_outputs": [
+        "Alcatraz Versus the Evil Librarians OCLC number is 78771100.",
+        "Alcatraz Versus the Evil Librarians has an OCLC number of 78771100.",
+        "Alcatraz Versus the Evil Librarians has the OCLC number of 7877110."
+    ]
+}

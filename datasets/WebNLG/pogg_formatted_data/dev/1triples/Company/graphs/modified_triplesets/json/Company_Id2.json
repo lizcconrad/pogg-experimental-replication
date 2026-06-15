@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "15100000000": {
+            "lexicon_key": "15100000000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "netIncome",
+            "parent_node": "Chinabank",
+            "child_node": "15100000000",
+            "edge_properties": {
+                "lexicon_key": "netIncome"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chinabank has a net income of 15,100,000,000."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chinabank\u2019s net income has been 15100000000 currently."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The net income of Chinabank is 15,100,000,000."
+        }
+    },
+    "gold_outputs": [
+        "Chinabank has a net income of 15,100,000,000.",
+        "Chinabank\u2019s net income has been 15100000000 currently.",
+        "The net income of Chinabank is 15,100,000,000."
+    ]
+}

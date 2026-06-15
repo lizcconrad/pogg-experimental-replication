@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Akron_Summit_Assault": {
+            "lexicon_key": "Akron_Summit_Assault"
+        },
+        "Akron,_Ohio": {
+            "lexicon_key": "Akron,_Ohio"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "Akron_Summit_Assault",
+            "child_node": "Akron,_Ohio",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Akron,_Ohio",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The team Akron Summit Assault are based in Akron, Ohio, USA."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Akron Summit Assault team is based in Akron, Ohio which is in the U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Akron Summit Assault team is based in Akron, Ohio in the U.S."
+        }
+    },
+    "gold_outputs": [
+        "The Akron Summit Assault team is based in Akron, Ohio in the U.S.",
+        "The Akron Summit Assault team is based in Akron, Ohio which is in the U.S.",
+        "The team Akron Summit Assault are based in Akron, Ohio, USA."
+    ]
+}

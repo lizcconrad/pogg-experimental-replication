@@ -1,0 +1,9 @@
+strict digraph {
+"Aleksander_Barkov,_Jr." [lexicon_key="Aleksander_Barkov,_Jr."];
+1995 [lexicon_key=1995];
+"1995-09-02" [lexicon_key="1995-09-02"];
+"Tampere, Finland" [lexicon_key="Tampere, Finland"];
+"Aleksander_Barkov,_Jr." -> 1995 [label=birthYear, lexicon_key=birthYear];
+"Aleksander_Barkov,_Jr." -> "1995-09-02" [label=birthDate, lexicon_key=birthDate];
+"Aleksander_Barkov,_Jr." -> "Tampere, Finland" [label=birthPlace, lexicon_key=birthPlace];
+}

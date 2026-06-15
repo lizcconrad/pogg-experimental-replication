@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alhambra": {
+            "lexicon_key": "Alhambra"
+        },
+        "8.3 m": {
+            "lexicon_key": "8.3 m"
+        },
+        "1855-05-31": {
+            "lexicon_key": "1855-05-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "shipBeam",
+            "parent_node": "Alhambra",
+            "child_node": "8.3 m",
+            "edge_properties": {
+                "lexicon_key": "shipBeam"
+            }
+        },
+        {
+            "edge_name": "shipLaunch",
+            "parent_node": "Alhambra",
+            "child_node": "1855-05-31",
+            "edge_properties": {
+                "lexicon_key": "shipLaunch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alhambra was launched May 31st 1855 and had a beam of 8.3m."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ship. Alhambra. was launched on the 31st May 1855 and has a ship beam of 8.3m."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alhambra, with an 8.3m ship beam, was launched May 31, 1955."
+        }
+    },
+    "gold_outputs": [
+        "The Alhambra was launched May 31st 1855 and had a beam of 8.3m.",
+        "The Alhambra, with an 8.3m ship beam, was launched May 31, 1955.",
+        "The ship. Alhambra. was launched on the 31st May 1855 and has a ship beam of 8.3m."
+    ]
+}

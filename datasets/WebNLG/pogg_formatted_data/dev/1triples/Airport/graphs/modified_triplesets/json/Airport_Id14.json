@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alpena_County_Regional_Airport": {
+            "lexicon_key": "Alpena_County_Regional_Airport"
+        },
+        "\"1/19\"": {
+            "lexicon_key": "\"1/19\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Alpena_County_Regional_Airport",
+            "child_node": "\"1/19\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alpena County Regional Airport runway name is 1/19."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1/19 is the runway name of Alpena County Regional Airport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The runway name of Alpena County Regional Airport is 1/19."
+        }
+    },
+    "gold_outputs": [
+        "1/19 is the runway name of Alpena County Regional Airport.",
+        "Alpena County Regional Airport runway name is 1/19.",
+        "The runway name of Alpena County Regional Airport is 1/19."
+    ]
+}

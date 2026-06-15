@@ -1,0 +1,9 @@
+strict digraph {
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+United_States [lexicon_key="United_States"];
+Americans [lexicon_key=Americans];
+African_Americans [lexicon_key="African_Americans"];
+"Austin,_Texas" -> United_States [label=country, lexicon_key=country];
+United_States -> Americans [label=demonym, lexicon_key=demonym];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

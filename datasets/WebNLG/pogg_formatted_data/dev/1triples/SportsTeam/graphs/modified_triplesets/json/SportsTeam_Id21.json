@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Akron_Summit_Assault": {
+            "lexicon_key": "Akron_Summit_Assault"
+        },
+        "3000": {
+            "lexicon_key": "3000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "Akron_Summit_Assault",
+            "child_node": "3000",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akron Summit Assault has 3000 members."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akron Summit Assault has got 3000 members."
+        }
+    },
+    "gold_outputs": [
+        "Akron Summit Assault has 3000 members.",
+        "Akron Summit Assault has got 3000 members."
+    ]
+}

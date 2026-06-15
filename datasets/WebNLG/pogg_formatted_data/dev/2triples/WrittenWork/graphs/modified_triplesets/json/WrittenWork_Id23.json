@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "lexicon_key": "Alcatraz_Versus_the_Evil_Librarians"
+        },
+        "Hardcover": {
+            "lexicon_key": "Hardcover"
+        },
+        "\"0-439-92550-9\"": {
+            "lexicon_key": "\"0-439-92550-9\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mediaType",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "Hardcover",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "\"0-439-92550-9\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians is published in Hardcover and has the ISBN number 0-439-92550-9."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The hardcover edition of, \"Alcatraz Versus the Evil Librarians\", has ISBN number 0-439-92550-9."
+        }
+    },
+    "gold_outputs": [
+        "Alcatraz Versus the Evil Librarians is published in Hardcover and has the ISBN number 0-439-92550-9.",
+        "The hardcover edition of, \"Alcatraz Versus the Evil Librarians\", has ISBN number 0-439-92550-9."
+    ]
+}

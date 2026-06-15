@@ -1,0 +1,9 @@
+strict digraph {
+Java [lexicon_key=Java];
+Banyumasan_people [lexicon_key="Banyumasan_people"];
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+"Nationwide, also can be found in Malaysia and Singapore" [lexicon_key="Nationwide, also can be found in Malaysia and Singapore"];
+Java -> Banyumasan_people [label=ethnicGroup, lexicon_key=ethnicGroup];
+Ayam_penyet -> "Nationwide, also can be found in Malaysia and Singapore" [label=region, lexicon_key=region];
+Ayam_penyet -> Java [label=country, lexicon_key=country];
+}

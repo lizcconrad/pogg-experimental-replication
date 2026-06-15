@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Caterpillar_Inc.": {
+            "lexicon_key": "Caterpillar_Inc."
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "Peoria,_Illinois": {
+            "lexicon_key": "Peoria,_Illinois"
+        },
+        "AIDAluna": {
+            "lexicon_key": "AIDAluna"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Caterpillar_Inc.",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Caterpillar_Inc.",
+            "child_node": "Peoria,_Illinois",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "powerType",
+            "parent_node": "AIDAluna",
+            "child_node": "Caterpillar_Inc.",
+            "edge_properties": {
+                "lexicon_key": "powerType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AIDAluna is powered by Caterpillar Inc. which was founded in California and is located in Peoria, Illinois."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Caterpillar Inc., founded in California and located in Peoria, Illinois, powers the AIDAluna."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AIDAluna is powered by a Caterpillar Inc. engine. Caterpillar Inc was founded in California and is now located in Peoria, Illinois."
+        }
+    },
+    "gold_outputs": [
+        "AIDAluna is powered by Caterpillar Inc. which was founded in California and is located in Peoria, Illinois.",
+        "Caterpillar Inc., founded in California and located in Peoria, Illinois, powers the AIDAluna.",
+        "The AIDAluna is powered by a Caterpillar Inc. engine. Caterpillar Inc was founded in California and is now located in Peoria, Illinois."
+    ]
+}

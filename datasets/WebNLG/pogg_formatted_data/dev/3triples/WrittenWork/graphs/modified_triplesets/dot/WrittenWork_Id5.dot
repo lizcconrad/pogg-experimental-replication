@@ -1,0 +1,9 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+"E-book" [lexicon_key="E-book"];
+"512" [lexicon_key="512"];
+"Eric Flint, Virginia DeMarce, et al." [lexicon_key="Eric Flint, Virginia DeMarce, et al."];
+1634:_The_Ram_Rebellion -> "E-book" [label=mediaType, lexicon_key=mediaType];
+1634:_The_Ram_Rebellion -> "512" [label=numberOfPages, lexicon_key=numberOfPages];
+1634:_The_Ram_Rebellion -> "Eric Flint, Virginia DeMarce, et al." [label=author, lexicon_key=author];
+}

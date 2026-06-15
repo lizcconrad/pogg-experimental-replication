@@ -1,0 +1,7 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+Asian_Americans [lexicon_key="Asian_Americans"];
+"Akron,_Ohio" [lexicon_key="Akron,_Ohio"];
+United_States -> Asian_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+"Akron,_Ohio" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

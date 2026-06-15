@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "New_Jersey": {
+            "lexicon_key": "New_Jersey"
+        },
+        "Trenton,_New_Jersey": {
+            "lexicon_key": "Trenton,_New_Jersey"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "New_Jersey",
+            "child_node": "Trenton,_New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Trenton is the capital of New Jersey."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The capital of the state of New Jersey is Trenton."
+        }
+    },
+    "gold_outputs": [
+        "The capital of the state of New Jersey is Trenton.",
+        "Trenton is the capital of New Jersey."
+    ]
+}

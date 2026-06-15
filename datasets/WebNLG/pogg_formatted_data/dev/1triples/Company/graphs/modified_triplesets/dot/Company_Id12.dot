@@ -1,0 +1,5 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+"United States of America" [lexicon_key="United States of America"];
+United_States -> "United States of America" [label=longName, lexicon_key=longName];
+}

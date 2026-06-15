@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Appleton,_Wisconsin": {
+            "lexicon_key": "Appleton,_Wisconsin"
+        },
+        "Kimberly,_Wisconsin": {
+            "lexicon_key": "Kimberly,_Wisconsin"
+        },
+        "Little_Chute,_Wisconsin": {
+            "lexicon_key": "Little_Chute,_Wisconsin"
+        },
+        "Appleton_International_Airport": {
+            "lexicon_key": "Appleton_International_Airport"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Appleton,_Wisconsin",
+            "child_node": "Kimberly,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Appleton,_Wisconsin",
+            "child_node": "Little_Chute,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Appleton_International_Airport",
+            "child_node": "Appleton,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Appleton International airport serves the city of Appleton which is part of Kimberly, Wisconsin, as is Little Chute."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Appletone International Airport served the city of Appleton, which is part of a little chute in Kimberly, Wisconsin."
+        }
+    },
+    "gold_outputs": [
+        "Appleton International airport serves the city of Appleton which is part of Kimberly, Wisconsin, as is Little Chute.",
+        "Appletone International Airport served the city of Appleton, which is part of a little chute in Kimberly, Wisconsin."
+    ]
+}

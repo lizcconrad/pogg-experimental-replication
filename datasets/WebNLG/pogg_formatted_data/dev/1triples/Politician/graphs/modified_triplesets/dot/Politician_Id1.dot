@@ -1,0 +1,5 @@
+strict digraph {
+"Aaron_S._Daggett" [lexicon_key="Aaron_S._Daggett"];
+Purple_Heart [lexicon_key="Purple_Heart"];
+"Aaron_S._Daggett" -> Purple_Heart [label=award, lexicon_key=award];
+}

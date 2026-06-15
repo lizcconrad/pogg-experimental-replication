@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Sumitra_Mahajan": {
+            "lexicon_key": "Sumitra_Mahajan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "Sumitra_Mahajan",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sumitra Mahajan is an Indian leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The name of the leader in India is Sumitra Mahajan."
+        }
+    },
+    "gold_outputs": [
+        "Sumitra Mahajan is an Indian leader.",
+        "The name of the leader in India is Sumitra Mahajan."
+    ]
+}

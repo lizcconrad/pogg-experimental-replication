@@ -1,0 +1,5 @@
+strict digraph {
+Baymax [lexicon_key=Baymax];
+"Big_Hero_6_(film)" [lexicon_key="Big_Hero_6_(film)"];
+Baymax -> "Big_Hero_6_(film)" [label=series, lexicon_key=series];
+}

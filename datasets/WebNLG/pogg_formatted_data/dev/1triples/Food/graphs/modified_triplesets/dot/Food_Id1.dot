@@ -1,0 +1,5 @@
+strict digraph {
+Ajoblanco [lexicon_key=Ajoblanco];
+"Ajo blanco" [lexicon_key="Ajo blanco"];
+Ajoblanco -> "Ajo blanco" [label=alternativeName, lexicon_key=alternativeName];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Asian_Americans": {
+            "lexicon_key": "Asian_Americans"
+        },
+        "Akron,_Ohio": {
+            "lexicon_key": "Akron,_Ohio"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Asian_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Akron,_Ohio",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akron, Ohio is part of the United States, where Asian Americans are an ethnic group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akron Ohio is part of the United States where one of the ethnic groups are Asian Americans."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The United States include the ethnic group of Asian Americans and is the location of Akron, Ohio."
+        }
+    },
+    "gold_outputs": [
+        "Akron Ohio is part of the United States where one of the ethnic groups are Asian Americans.",
+        "Akron, Ohio is part of the United States, where Asian Americans are an ethnic group.",
+        "The United States include the ethnic group of Asian Americans and is the location of Akron, Ohio."
+    ]
+}

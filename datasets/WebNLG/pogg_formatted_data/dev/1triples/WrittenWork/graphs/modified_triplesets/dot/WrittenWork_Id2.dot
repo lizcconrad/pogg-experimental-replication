@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+The_Grantville_Gazettes [lexicon_key="The_Grantville_Gazettes"];
+1634:_The_Bavarian_Crisis -> The_Grantville_Gazettes [label=precededBy, lexicon_key=precededBy];
+}

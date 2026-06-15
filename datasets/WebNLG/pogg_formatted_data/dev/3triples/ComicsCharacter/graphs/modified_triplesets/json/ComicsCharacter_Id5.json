@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Bibbo_Bibbowski": {
+            "lexicon_key": "Bibbo_Bibbowski"
+        },
+        "Jerry_Ordway": {
+            "lexicon_key": "Jerry_Ordway"
+        },
+        "Marv_Wolfman": {
+            "lexicon_key": "Marv_Wolfman"
+        },
+        "\"Bo Bibbowski\"": {
+            "lexicon_key": "\"Bo Bibbowski\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bibbo_Bibbowski",
+            "child_node": "Jerry_Ordway",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "creator",
+            "parent_node": "Bibbo_Bibbowski",
+            "child_node": "Marv_Wolfman",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "fullName",
+            "parent_node": "Bibbo_Bibbowski",
+            "child_node": "\"Bo Bibbowski\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The creator of Bibbo Bibbowski, who is often called Bibbo, are Jerry Ordway and Marv Wolfman."
+        }
+    },
+    "gold_outputs": [
+        "The creator of Bibbo Bibbowski, who is often called Bibbo, are Jerry Ordway and Marv Wolfman."
+    ]
+}

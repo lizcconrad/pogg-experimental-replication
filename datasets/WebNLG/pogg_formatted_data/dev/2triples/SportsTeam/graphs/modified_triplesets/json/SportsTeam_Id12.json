@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "ACF_Fiorentina": {
+            "lexicon_key": "ACF_Fiorentina"
+        },
+        "Serie_A": {
+            "lexicon_key": "Serie_A"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "ACF_Fiorentina",
+            "child_node": "Serie_A",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Serie_A",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "ACF Fiorentina play in Serie A which is based in Italy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "ACF Fiorentina play in Serie A based in Italy."
+        }
+    },
+    "gold_outputs": [
+        "ACF Fiorentina play in Serie A based in Italy.",
+        "ACF Fiorentina play in Serie A which is based in Italy."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Bakewell_pudding [lexicon_key="Bakewell_pudding"];
+"Rutland Arms, Bakewell, in 1820" [lexicon_key="Rutland Arms, Bakewell, in 1820"];
+"Ground almond, jam, butter, eggs" [lexicon_key="Ground almond, jam, butter, eggs"];
+Bakewell_pudding -> "Rutland Arms, Bakewell, in 1820" [label=creator, lexicon_key=creator];
+Bakewell_pudding -> "Ground almond, jam, butter, eggs" [label=mainIngredient, lexicon_key=mainIngredient];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+"Atatürk_Monument_(İzmir)" [lexicon_key="Atatürk_Monument_(İzmir)"];
+"1932-07-27" [lexicon_key="1932-07-27"];
+Turkey [lexicon_key=Turkey];
+"Atatürk_Monument_(İzmir)" -> "1932-07-27" [label=inaugurationDate, lexicon_key=inaugurationDate];
+"Atatürk_Monument_(İzmir)" -> Turkey [label=location, lexicon_key=location];
+}

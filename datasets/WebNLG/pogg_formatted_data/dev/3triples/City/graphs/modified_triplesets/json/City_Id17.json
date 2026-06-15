@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Auburn,_Alabama": {
+            "lexicon_key": "Auburn,_Alabama"
+        },
+        "Lee_County,_Alabama": {
+            "lexicon_key": "Lee_County,_Alabama"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Alabama": {
+            "lexicon_key": "Alabama"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Auburn,_Alabama",
+            "child_node": "Lee_County,_Alabama",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Auburn,_Alabama",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "state",
+            "parent_node": "Lee_County,_Alabama",
+            "child_node": "Alabama",
+            "edge_properties": {
+                "lexicon_key": "state"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Auburn is part of Lee County, Alabama in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Auburn is part of Lee County, Alabama, located in the United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Auburn is part of Lee County, Alabama, United States."
+        }
+    },
+    "gold_outputs": [
+        "Auburn is part of Lee County, Alabama in the United States.",
+        "Auburn is part of Lee County, Alabama, United States.",
+        "Auburn is part of Lee County, Alabama, located in the United States."
+    ]
+}

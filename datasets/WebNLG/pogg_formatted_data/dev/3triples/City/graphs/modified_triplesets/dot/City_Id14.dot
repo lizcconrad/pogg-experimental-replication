@@ -1,0 +1,9 @@
+strict digraph {
+Atlanta [lexicon_key=Atlanta];
+"404, 678, 470" [lexicon_key="404, 678, 470"];
+"347.1 (square kilometres)" [lexicon_key="347.1 (square kilometres)"];
+"1299.0 (inhabitants per square kilometre)" [lexicon_key="1299.0 (inhabitants per square kilometre)"];
+Atlanta -> "404, 678, 470" [label=areaCode, lexicon_key=areaCode];
+Atlanta -> "347.1 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+Atlanta -> "1299.0 (inhabitants per square kilometre)" [label=populationDensity, lexicon_key=populationDensity];
+}

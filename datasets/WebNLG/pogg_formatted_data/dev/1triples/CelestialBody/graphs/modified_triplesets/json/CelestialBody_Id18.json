@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "1101_Clematis": {
+            "lexicon_key": "1101_Clematis"
+        },
+        "445895000000.0": {
+            "lexicon_key": "445895000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1101_Clematis",
+            "child_node": "445895000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The periapsis of 1101 Clematis is 445895000000.0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1101 Clematis has a periapsis of 445895000000.0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "1101 Clematis has a periapsis of 445895000000."
+        }
+    },
+    "gold_outputs": [
+        "1101 Clematis has a periapsis of 445895000000.",
+        "1101 Clematis has a periapsis of 445895000000.0.",
+        "The periapsis of 1101 Clematis is 445895000000.0."
+    ]
+}

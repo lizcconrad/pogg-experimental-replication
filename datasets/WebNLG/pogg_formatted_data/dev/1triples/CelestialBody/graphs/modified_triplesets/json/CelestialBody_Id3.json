@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "(66063)_1998_RO1": {
+            "lexicon_key": "(66063)_1998_RO1"
+        },
+        "2013-11-04": {
+            "lexicon_key": "2013-11-04"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "(66063)_1998_RO1",
+            "child_node": "2013-11-04",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "66063 1998 RO1 has an epoch date of 4 November 2013."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "(66063) 1998 RO1 has an epoch date of 2013-11-04."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The epoch of (66063) 1998 RO1 is on the 13th of January 2016."
+        }
+    },
+    "gold_outputs": [
+        "(66063) 1998 RO1 has an epoch date of 2013-11-04.",
+        "66063 1998 RO1 has an epoch date of 4 November 2013.",
+        "The epoch of (66063) 1998 RO1 is on the 13th of January 2016."
+    ]
+}

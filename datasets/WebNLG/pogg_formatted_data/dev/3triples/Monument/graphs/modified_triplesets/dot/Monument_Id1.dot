@@ -1,0 +1,9 @@
+strict digraph {
+"Adams_County,_Pennsylvania" [lexicon_key="Adams_County,_Pennsylvania"];
+"Franklin_County,_Pennsylvania" [lexicon_key="Franklin_County,_Pennsylvania"];
+"Frederick_County,_Maryland" [lexicon_key="Frederick_County,_Maryland"];
+"11th_Mississippi_Infantry_Monument" [lexicon_key="11th_Mississippi_Infantry_Monument"];
+"Adams_County,_Pennsylvania" -> "Franklin_County,_Pennsylvania" [label=hasToItsWest, lexicon_key=hasToItsWest];
+"Adams_County,_Pennsylvania" -> "Frederick_County,_Maryland" [label=hasToItsSouthwest, lexicon_key=hasToItsSouthwest];
+"11th_Mississippi_Infantry_Monument" -> "Adams_County,_Pennsylvania" [label=location, lexicon_key=location];
+}

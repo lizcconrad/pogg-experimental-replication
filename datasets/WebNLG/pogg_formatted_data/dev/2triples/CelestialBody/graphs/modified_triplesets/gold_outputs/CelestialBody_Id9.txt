@@ -1,0 +1,3 @@
+103 Hera has a periapsis measurement of 371240000.0 km and its epoch is 31st July 2016.
+103 Hera has a periapsis of 371240000.0 kilometres, and the epoch is on the 31st of July 2016.
+103 Hera has a periapsis of 371240000.0 kilometres and an epoch date of August 27th 2011.

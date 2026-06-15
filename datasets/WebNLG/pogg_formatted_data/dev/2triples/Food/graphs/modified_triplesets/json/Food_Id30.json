@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Binignit": {
+            "lexicon_key": "Binignit"
+        },
+        "Sweet_potato": {
+            "lexicon_key": "Sweet_potato"
+        },
+        "Flowering_plant": {
+            "lexicon_key": "Flowering_plant"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Binignit",
+            "child_node": "Sweet_potato",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "division",
+            "parent_node": "Sweet_potato",
+            "child_node": "Flowering_plant",
+            "edge_properties": {
+                "lexicon_key": "division"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sweet potatoes (a kind of flowering plant) are used in binignit recipes."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Sweet potato belongs to flowering plants and is an ingredient of Binignit."
+        }
+    },
+    "gold_outputs": [
+        "Sweet potato belongs to flowering plants and is an ingredient of Binignit.",
+        "Sweet potatoes (a kind of flowering plant) are used in binignit recipes."
+    ]
+}

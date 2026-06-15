@@ -1,0 +1,7 @@
+strict digraph {
+"300_North_LaSalle" [lexicon_key="300_North_LaSalle"];
+Illinois [lexicon_key=Illinois];
+60 [lexicon_key=60];
+"300_North_LaSalle" -> Illinois [label=location, lexicon_key=location];
+"300_North_LaSalle" -> 60 [label=floorCount, lexicon_key=floorCount];
+}

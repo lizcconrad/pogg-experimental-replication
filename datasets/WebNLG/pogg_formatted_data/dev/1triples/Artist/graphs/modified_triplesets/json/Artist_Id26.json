@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Andrew_White_(musician)": {
+            "lexicon_key": "Andrew_White_(musician)"
+        },
+        "Alternative_rock": {
+            "lexicon_key": "Alternative_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Andrew_White_(musician)",
+            "child_node": "Alternative_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The musician Andrew White's genre is alternative rock."
+        }
+    },
+    "gold_outputs": [
+        "The musician Andrew White's genre is alternative rock."
+    ]
+}

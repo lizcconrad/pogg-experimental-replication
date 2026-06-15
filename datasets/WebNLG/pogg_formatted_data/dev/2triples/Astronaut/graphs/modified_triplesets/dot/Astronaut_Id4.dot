@@ -1,0 +1,7 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+Apollo_11 [lexicon_key="Apollo_11"];
+NASA [lexicon_key=NASA];
+Buzz_Aldrin -> Apollo_11 [label=mission, lexicon_key=mission];
+Apollo_11 -> NASA [label=operator, lexicon_key=operator];
+}

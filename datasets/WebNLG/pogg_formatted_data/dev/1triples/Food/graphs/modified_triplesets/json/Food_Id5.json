@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Arrabbiata_sauce": {
+            "lexicon_key": "Arrabbiata_sauce"
+        },
+        "\"Tomatoes, red chili, garlic, olive oil\"": {
+            "lexicon_key": "\"Tomatoes, red chili, garlic, olive oil\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "\"Tomatoes, red chili, garlic, olive oil\"",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arrabbiata sauce is made with tomatoes, red chili, garlic and olive oil."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The main ingredients in Arrabbiata sauce are Tomatoes, red chili, garlic and olive oil."
+        }
+    },
+    "gold_outputs": [
+        "Arrabbiata sauce is made with tomatoes, red chili, garlic and olive oil.",
+        "The main ingredients in Arrabbiata sauce are Tomatoes, red chili, garlic and olive oil."
+    ]
+}

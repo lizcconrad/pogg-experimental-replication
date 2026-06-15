@@ -1,0 +1,5 @@
+strict digraph {
+Binignit [lexicon_key=Binignit];
+Visayas [lexicon_key=Visayas];
+Binignit -> Visayas [label=region, lexicon_key=region];
+}

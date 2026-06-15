@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Auburn,_Alabama": {
+            "lexicon_key": "Auburn,_Alabama"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Auburn,_Alabama",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Washington DC is the capital of the United States, where Auburn, Alabama is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Auburn Alabama is in the United States with Washington, D.C. as the capital of the U.S."
+        }
+    },
+    "gold_outputs": [
+        "Auburn Alabama is in the United States with Washington, D.C. as the capital of the U.S.",
+        "Washington DC is the capital of the United States, where Auburn, Alabama is located."
+    ]
+}

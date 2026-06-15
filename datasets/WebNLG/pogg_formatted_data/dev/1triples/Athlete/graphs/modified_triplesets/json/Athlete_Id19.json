@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Aleksander_Barkov,_Jr.": {
+            "lexicon_key": "Aleksander_Barkov,_Jr."
+        },
+        "Florida_Panthers": {
+            "lexicon_key": "Florida_Panthers"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksander_Barkov,_Jr.",
+            "child_node": "Florida_Panthers",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr has played for the Florida Panthers."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksander Barkov, Jr's club is the Florida Panthers."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr. plays for the Florida Panthers."
+        }
+    },
+    "gold_outputs": [
+        "Aleksander Barkov Jr has played for the Florida Panthers.",
+        "Aleksander Barkov Jr. plays for the Florida Panthers.",
+        "Aleksander Barkov, Jr's club is the Florida Panthers."
+    ]
+}

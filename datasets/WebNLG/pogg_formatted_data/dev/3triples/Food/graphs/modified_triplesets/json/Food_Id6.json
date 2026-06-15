@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Arrabbiata_sauce": {
+            "lexicon_key": "Arrabbiata_sauce"
+        },
+        "Chili_pepper": {
+            "lexicon_key": "Chili_pepper"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        },
+        "Rome": {
+            "lexicon_key": "Rome"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Chili_pepper",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Rome",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arrabbiata sauce, a traditional dish from Rome in Italy, has chili pepper as one of its important ingredients."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arrabbiata sauce from Rome in Italy contains chili pepper."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Arrabbiata sauce is from the region of Rome in Italy and one of the main ingredients is chili pepper."
+        }
+    },
+    "gold_outputs": [
+        "Arrabbiata sauce from Rome in Italy contains chili pepper.",
+        "Arrabbiata sauce is from the region of Rome in Italy and one of the main ingredients is chili pepper.",
+        "Arrabbiata sauce, a traditional dish from Rome in Italy, has chili pepper as one of its important ingredients."
+    ]
+}

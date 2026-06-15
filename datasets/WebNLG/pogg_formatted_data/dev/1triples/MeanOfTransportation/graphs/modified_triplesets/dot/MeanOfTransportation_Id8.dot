@@ -1,0 +1,5 @@
+strict digraph {
+AIDAstella [lexicon_key=AIDAstella];
+"2013-03-17" [lexicon_key="2013-03-17"];
+AIDAstella -> "2013-03-17" [label=shipInService, lexicon_key=shipInService];
+}

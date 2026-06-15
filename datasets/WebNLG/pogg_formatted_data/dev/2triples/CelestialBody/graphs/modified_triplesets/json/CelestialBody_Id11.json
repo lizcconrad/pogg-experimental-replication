@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "1097_Vicia": {
+            "lexicon_key": "1097_Vicia"
+        },
+        "135589000.0": {
+            "lexicon_key": "135589000.0"
+        },
+        "2006-12-31": {
+            "lexicon_key": "2006-12-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "1097_Vicia",
+            "child_node": "135589000.0",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        },
+        {
+            "edge_name": "epoch",
+            "parent_node": "1097_Vicia",
+            "child_node": "2006-12-31",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The orbital period for 1097 Vicia is 135589000.0 and the epoch date is 31 December 2006."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The epoch date for 1097 Vicia, which has an orbital period of 135589000.0, is 31 December 2016."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The orbital period of 1097 Vicia is 135589000.0 and it epoch date is 2006.12.31."
+        }
+    },
+    "gold_outputs": [
+        "The epoch date for 1097 Vicia, which has an orbital period of 135589000.0, is 31 December 2016.",
+        "The orbital period for 1097 Vicia is 135589000.0 and the epoch date is 31 December 2006.",
+        "The orbital period of 1097 Vicia is 135589000.0 and it epoch date is 2006.12.31."
+    ]
+}

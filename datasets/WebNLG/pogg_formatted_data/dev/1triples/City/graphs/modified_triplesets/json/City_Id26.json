@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Indiana": {
+            "lexicon_key": "Indiana"
+        },
+        "Indianapolis": {
+            "lexicon_key": "Indianapolis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "Indiana",
+            "child_node": "Indianapolis",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Indianapolis is the capital of Indiana."
+        }
+    },
+    "gold_outputs": [
+        "Indianapolis is the capital of Indiana."
+    ]
+}

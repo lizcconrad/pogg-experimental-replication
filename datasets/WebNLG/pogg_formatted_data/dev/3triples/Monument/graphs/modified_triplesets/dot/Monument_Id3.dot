@@ -1,0 +1,9 @@
+strict digraph {
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+"Ottoman Army soldiers killed in the Battle of Baku" [lexicon_key="Ottoman Army soldiers killed in the Battle of Baku"];
+Azerbaijan [lexicon_key=Azerbaijan];
+"Hüseyin Bütüner and Hilmi Güner" [lexicon_key="Hüseyin Bütüner and Hilmi Güner"];
+"Baku_Turkish_Martyrs'_Memorial" -> "Ottoman Army soldiers killed in the Battle of Baku" [label=dedicatedTo, lexicon_key=dedicatedTo];
+"Baku_Turkish_Martyrs'_Memorial" -> Azerbaijan [label=location, lexicon_key=location];
+"Baku_Turkish_Martyrs'_Memorial" -> "Hüseyin Bütüner and Hilmi Güner" [label=designer, lexicon_key=designer];
+}

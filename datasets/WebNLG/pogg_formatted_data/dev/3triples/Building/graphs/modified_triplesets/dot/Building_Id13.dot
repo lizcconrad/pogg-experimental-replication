@@ -1,0 +1,9 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+Sri_Lanka [lexicon_key="Sri_Lanka"];
+Tudor_Revival_architecture [lexicon_key="Tudor_Revival_architecture"];
+1931 [lexicon_key=1931];
+Adisham_Hall -> Sri_Lanka [label=location, lexicon_key=location];
+Adisham_Hall -> Tudor_Revival_architecture [label=architecturalStyle, lexicon_key=architecturalStyle];
+Adisham_Hall -> 1931 [label=completionDate, lexicon_key=completionDate];
+}

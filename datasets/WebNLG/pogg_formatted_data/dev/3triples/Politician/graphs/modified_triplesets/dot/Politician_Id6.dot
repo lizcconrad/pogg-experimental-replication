@@ -1,0 +1,9 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Olusegun_Obasanjo [lexicon_key="Olusegun_Obasanjo"];
+Mike_Akhigbe [lexicon_key="Mike_Akhigbe"];
+Oladipo_Diya [lexicon_key="Oladipo_Diya"];
+Abdulsalami_Abubakar -> Olusegun_Obasanjo [label=successor, lexicon_key=successor];
+Abdulsalami_Abubakar -> Mike_Akhigbe [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+Mike_Akhigbe -> Oladipo_Diya [label=predecessor, lexicon_key=predecessor];
+}

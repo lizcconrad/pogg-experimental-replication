@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alan_Martin_(footballer)": {
+            "lexicon_key": "Alan_Martin_(footballer)"
+        },
+        "1989-01-01": {
+            "lexicon_key": "1989-01-01"
+        },
+        "Crewe_Alexandra_F.C.": {
+            "lexicon_key": "Crewe_Alexandra_F.C."
+        },
+        "Aldershot_Town_F.C.": {
+            "lexicon_key": "Aldershot_Town_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "1989-01-01",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Crewe_Alexandra_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Aldershot_Town_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Footballer, Alan Martin was born on January 1st 1989 and he is a footballer for the Crewe Alexandra FC and for the Aldershot Town F.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Martin (footballer), born 1st January 1989, plays for the club, Crewe Alexandra F.C. He has also played for Aldershot Town FC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Footballer Alan Martin was born on 01/01/1989. plays for Crewe Alexandra F.C and Aldershot Town F.C."
+        }
+    },
+    "gold_outputs": [
+        "Alan Martin (footballer), born 1st January 1989, plays for the club, Crewe Alexandra F.C. He has also played for Aldershot Town FC.",
+        "Footballer Alan Martin was born on 01/01/1989. plays for Crewe Alexandra F.C and Aldershot Town F.C.",
+        "Footballer, Alan Martin was born on January 1st 1989 and he is a footballer for the Crewe Alexandra FC and for the Aldershot Town F.C."
+    ]
+}

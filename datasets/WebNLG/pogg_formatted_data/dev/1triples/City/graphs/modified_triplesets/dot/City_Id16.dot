@@ -1,0 +1,5 @@
+strict digraph {
+"Ann_Arbor,_Michigan" [lexicon_key="Ann_Arbor,_Michigan"];
+"1580.7 (inhabitants per square kilometre)" [lexicon_key="1580.7 (inhabitants per square kilometre)"];
+"Ann_Arbor,_Michigan" -> "1580.7 (inhabitants per square kilometre)" [label=populationDensity, lexicon_key=populationDensity];
+}

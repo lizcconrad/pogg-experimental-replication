@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Agust\u00edn_Barboza": {
+            "lexicon_key": "Agust\u00edn_Barboza"
+        },
+        "Philips_Records": {
+            "lexicon_key": "Philips_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "Philips_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agustin Barboza is signed to Philips Records."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agustin Barboza is signed to the record label of Philips Records."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Agust\u00edn Barboza is signed to Philips Records."
+        }
+    },
+    "gold_outputs": [
+        "Agustin Barboza is signed to Philips Records.",
+        "Agustin Barboza is signed to the record label of Philips Records.",
+        "Agust\u00edn Barboza is signed to Philips Records."
+    ]
+}

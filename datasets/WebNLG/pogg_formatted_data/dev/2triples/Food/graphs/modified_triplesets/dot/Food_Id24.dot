@@ -1,0 +1,7 @@
+strict digraph {
+Beef_kway_teow [lexicon_key="Beef_kway_teow"];
+Singapore [lexicon_key=Singapore];
+Standard_Chinese [lexicon_key="Standard_Chinese"];
+Beef_kway_teow -> Singapore [label=region, lexicon_key=region];
+Singapore -> Standard_Chinese [label=language, lexicon_key=language];
+}

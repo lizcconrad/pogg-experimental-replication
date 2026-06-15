@@ -1,0 +1,5 @@
+strict digraph {
+Germany [lexicon_key=Germany];
+Stanislaw_Tillich [lexicon_key="Stanislaw_Tillich"];
+Germany -> Stanislaw_Tillich [label=leader, lexicon_key=leader];
+}

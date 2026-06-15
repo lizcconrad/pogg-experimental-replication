@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        },
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "Jones_County,_Texas": {
+            "lexicon_key": "Jones_County,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "Jones_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The United States is the location of Abilene, part of Jones County, Texas, and has the capital of Washington DC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abilene is in Jones County, Texas; which is in the United States. Washington, D.C. is the capital."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The city of Abilene is in Jones County, Texas in the United States whose capital city is Washington D.C."
+        }
+    },
+    "gold_outputs": [
+        "Abilene is in Jones County, Texas; which is in the United States. Washington, D.C. is the capital.",
+        "The United States is the location of Abilene, part of Jones County, Texas, and has the capital of Washington DC.",
+        "The city of Abilene is in Jones County, Texas in the United States whose capital city is Washington D.C."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "11264_Claudiomaccone": {
+            "lexicon_key": "11264_Claudiomaccone"
+        },
+        "2005-11-26": {
+            "lexicon_key": "2005-11-26"
+        },
+        "296521000.0 (kilometres)": {
+            "lexicon_key": "296521000.0 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "11264_Claudiomaccone",
+            "child_node": "2005-11-26",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "11264_Claudiomaccone",
+            "child_node": "296521000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "11264 Claudiomaccone has the epoch date of 26 November 2005 and a periapsis of 296521000.0 kilometres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "11264 Claudiomaccone has an epoch date of 26 November 2005 and a periapsis of 296521000.0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "11264 Claudiomaccone has the epoch date of 26 November 2005 and its periapsis is 296521000.0 kilometres."
+        }
+    },
+    "gold_outputs": [
+        "11264 Claudiomaccone has an epoch date of 26 November 2005 and a periapsis of 296521000.0.",
+        "11264 Claudiomaccone has the epoch date of 26 November 2005 and a periapsis of 296521000.0 kilometres.",
+        "11264 Claudiomaccone has the epoch date of 26 November 2005 and its periapsis is 296521000.0 kilometres."
+    ]
+}

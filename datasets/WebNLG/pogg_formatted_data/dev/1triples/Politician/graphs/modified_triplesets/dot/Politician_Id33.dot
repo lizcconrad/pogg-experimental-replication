@@ -1,0 +1,5 @@
+strict digraph {
+Josef_Klaus [lexicon_key="Josef_Klaus"];
+University_of_Vienna [lexicon_key="University_of_Vienna"];
+Josef_Klaus -> University_of_Vienna [label=almaMater, lexicon_key=almaMater];
+}

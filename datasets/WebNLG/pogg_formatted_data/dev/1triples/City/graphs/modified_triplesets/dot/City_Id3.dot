@@ -1,0 +1,5 @@
+strict digraph {
+"Albany,_Georgia" [lexicon_key="Albany,_Georgia"];
+Mayor [lexicon_key=Mayor];
+"Albany,_Georgia" -> Mayor [label=leaderTitle, lexicon_key=leaderTitle];
+}

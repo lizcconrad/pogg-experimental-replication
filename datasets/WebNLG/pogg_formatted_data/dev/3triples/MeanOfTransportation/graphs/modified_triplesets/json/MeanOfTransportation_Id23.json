@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Audi_A1": {
+            "lexicon_key": "Audi_A1"
+        },
+        "Audi": {
+            "lexicon_key": "Audi"
+        },
+        "SEAT_Ibiza": {
+            "lexicon_key": "SEAT_Ibiza"
+        },
+        "Volkswagen_Polo": {
+            "lexicon_key": "Volkswagen_Polo"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Audi_A1",
+            "child_node": "Audi",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Audi_A1",
+            "child_node": "SEAT_Ibiza",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Audi_A1",
+            "child_node": "Volkswagen_Polo",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Audi A1 is manufactured by Audi. It is a similar means of transport as the Seat Ibiza and Volkswagen Polo since they are all cars."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Audi's A1 is similar to the Seat Ibiza and the VW Polo."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Audi is the manufacturer of the Audi A1. It, the Seat Ibiza and VW Polo are all cars and therefore related modes of transportation."
+        }
+    },
+    "gold_outputs": [
+        "Audi is the manufacturer of the Audi A1. It, the Seat Ibiza and VW Polo are all cars and therefore related modes of transportation.",
+        "Audi's A1 is similar to the Seat Ibiza and the VW Polo.",
+        "The Audi A1 is manufactured by Audi. It is a similar means of transport as the Seat Ibiza and Volkswagen Polo since they are all cars."
+    ]
+}

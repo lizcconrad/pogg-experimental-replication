@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "A.F.C._Fylde": {
+            "lexicon_key": "A.F.C._Fylde"
+        },
+        "Warton,_Fylde": {
+            "lexicon_key": "Warton,_Fylde"
+        },
+        "3180": {
+            "lexicon_key": "3180"
+        },
+        "\"Association Football Club Fylde\"": {
+            "lexicon_key": "\"Association Football Club Fylde\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "A.F.C._Fylde",
+            "child_node": "Warton,_Fylde",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "A.F.C._Fylde",
+            "child_node": "3180",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        },
+        {
+            "edge_name": "fullName",
+            "parent_node": "A.F.C._Fylde",
+            "child_node": "\"Association Football Club Fylde\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AFC Fylde has the full name \"Association Football Club Fylde,\" they have 3180 members and their ground is located in Warton, Fylde."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Association Football Club Fylde, abbreviated to A.F.C Fylde, has 3180 members and its ground is Warton Fylde."
+        }
+    },
+    "gold_outputs": [
+        "AFC Fylde has the full name \"Association Football Club Fylde,\" they have 3180 members and their ground is located in Warton, Fylde.",
+        "Association Football Club Fylde, abbreviated to A.F.C Fylde, has 3180 members and its ground is Warton Fylde."
+    ]
+}

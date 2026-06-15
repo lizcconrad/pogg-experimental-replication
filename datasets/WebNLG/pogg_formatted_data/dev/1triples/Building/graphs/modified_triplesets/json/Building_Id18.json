@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Birmingham": {
+            "lexicon_key": "Birmingham"
+        },
+        "B_postcode_area": {
+            "lexicon_key": "B_postcode_area"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "postalCode",
+            "parent_node": "Birmingham",
+            "child_node": "B_postcode_area",
+            "edge_properties": {
+                "lexicon_key": "postalCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Birmingham has the postcode area 'B'."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The B postcode area is the postal code of Birmingham."
+        }
+    },
+    "gold_outputs": [
+        "Birmingham has the postcode area 'B'.",
+        "The B postcode area is the postal code of Birmingham."
+    ]
+}

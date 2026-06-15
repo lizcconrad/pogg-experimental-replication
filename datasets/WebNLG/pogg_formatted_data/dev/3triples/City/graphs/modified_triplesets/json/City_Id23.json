@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        },
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "Taylor_County,_Texas": {
+            "lexicon_key": "Taylor_County,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "Taylor_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abilene is located in Taylor County, Texas, United States whose capital city is Washington D.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Washington, D.C. is the capital of the U.S. and Abilene is located in Taylor county, Texas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abilene, part of Taylor County, Texas, in the United States, where the capital is Washington, D.C."
+        }
+    },
+    "gold_outputs": [
+        "Abilene is located in Taylor County, Texas, United States whose capital city is Washington D.C.",
+        "Abilene, part of Taylor County, Texas, in the United States, where the capital is Washington, D.C.",
+        "Washington, D.C. is the capital of the U.S. and Abilene is located in Taylor county, Texas."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "101_Helena": {
+            "lexicon_key": "101_Helena"
+        },
+        "18.44 (kilometrePerSeconds)": {
+            "lexicon_key": "18.44 (kilometrePerSeconds)"
+        },
+        "441092000.0 (kilometres)": {
+            "lexicon_key": "441092000.0 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "averageSpeed",
+            "parent_node": "101_Helena",
+            "child_node": "18.44 (kilometrePerSeconds)",
+            "edge_properties": {
+                "lexicon_key": "averageSpeed"
+            }
+        },
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "101_Helena",
+            "child_node": "441092000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "101 Helena has an average speed of 18.44 kilometres per second and an apoapsis of 441092000.0 kilometres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "101 Helena has an average speed of 18.44 km per sec and an apoapsis of 441092000.0 km."
+        }
+    },
+    "gold_outputs": [
+        "101 Helena has an average speed of 18.44 kilometres per second and an apoapsis of 441092000.0 kilometres.",
+        "101 Helena has an average speed of 18.44 km per sec and an apoapsis of 441092000.0 km."
+    ]
+}

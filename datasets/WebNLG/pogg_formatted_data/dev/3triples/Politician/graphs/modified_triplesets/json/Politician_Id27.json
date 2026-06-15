@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alvah_Sabin": {
+            "lexicon_key": "Alvah_Sabin"
+        },
+        "Whig_Party_(United_States)": {
+            "lexicon_key": "Whig_Party_(United_States)"
+        },
+        "Daniel_Webster": {
+            "lexicon_key": "Daniel_Webster"
+        },
+        "Georgia,_Vermont": {
+            "lexicon_key": "Georgia,_Vermont"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "party",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Whig_Party_(United_States)",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Whig_Party_(United_States)",
+            "child_node": "Daniel_Webster",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Georgia,_Vermont",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in Georgia, Vermont, Alvah Sabin, was a member of the Whig Party of the United States. Daniel Webster is the leader of the Whig Party in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alvah Sabin was born in Georgia Vermont and became a member of the Whig Party of the United States which is led by Daniel Webster."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alvah Sabin was born in Georgia, Vermont and belongs to the United States Whig party which is led by Daniel Webster."
+        }
+    },
+    "gold_outputs": [
+        "Alvah Sabin was born in Georgia Vermont and became a member of the Whig Party of the United States which is led by Daniel Webster.",
+        "Alvah Sabin was born in Georgia, Vermont and belongs to the United States Whig party which is led by Daniel Webster.",
+        "Born in Georgia, Vermont, Alvah Sabin, was a member of the Whig Party of the United States. Daniel Webster is the leader of the Whig Party in the United States."
+    ]
+}

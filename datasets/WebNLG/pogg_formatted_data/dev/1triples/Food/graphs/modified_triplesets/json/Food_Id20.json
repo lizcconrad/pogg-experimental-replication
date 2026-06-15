@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Batchoy": {
+            "lexicon_key": "Batchoy"
+        },
+        "Chicken": {
+            "lexicon_key": "Chicken"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Batchoy",
+            "child_node": "Chicken",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chicken is an ingredient in Batchoy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Batchoy includes chicken."
+        }
+    },
+    "gold_outputs": [
+        "Batchoy includes chicken.",
+        "Chicken is an ingredient in Batchoy."
+    ]
+}

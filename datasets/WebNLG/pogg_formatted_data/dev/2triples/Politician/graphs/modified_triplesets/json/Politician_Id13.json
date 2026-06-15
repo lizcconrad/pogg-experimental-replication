@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Adam_Koc": {
+            "lexicon_key": "Adam_Koc"
+        },
+        "Polish\u2013Soviet_War": {
+            "lexicon_key": "Polish\u2013Soviet_War"
+        },
+        "Cross_of_Valour_(Poland)": {
+            "lexicon_key": "Cross_of_Valour_(Poland)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Adam_Koc",
+            "child_node": "Polish\u2013Soviet_War",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Adam_Koc",
+            "child_node": "Cross_of_Valour_(Poland)",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Koc, who fought in the Polish\u2013Soviet War, has been awarded the Cross of Valour for Poland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adam Koc fought in the Polish-Soviet War battles and has been awarded the Cross of Valour for Poland."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adam Koc, who fought in the Polish-Soviet War, was awarded the Cross of Valour (Poland)."
+        }
+    },
+    "gold_outputs": [
+        "Adam Koc fought in the Polish-Soviet War battles and has been awarded the Cross of Valour for Poland.",
+        "Adam Koc, who fought in the Polish-Soviet War, was awarded the Cross of Valour (Poland).",
+        "Adam Koc, who fought in the Polish\u2013Soviet War, has been awarded the Cross of Valour for Poland."
+    ]
+}

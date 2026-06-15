@@ -1,0 +1,9 @@
+strict digraph {
+"Addiction_(journal)" [lexicon_key="Addiction_(journal)"];
+Addiction [lexicon_key=Addiction];
+"Addiction" [lexicon_key="Addiction"];
+"0965-2140" [lexicon_key="0965-2140"];
+"Addiction_(journal)" -> Addiction [label=academicDiscipline, lexicon_key=academicDiscipline];
+"Addiction_(journal)" -> "Addiction" [label=abbreviation, lexicon_key=abbreviation];
+"Addiction_(journal)" -> "0965-2140" [label=issnNumber, lexicon_key=issnNumber];
+}

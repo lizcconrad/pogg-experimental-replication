@@ -1,0 +1,5 @@
+strict digraph {
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+58.38 [lexicon_key=58.38];
+"La_Crosse,_Wisconsin" -> 58.38 [label=areaTotal, lexicon_key=areaTotal];
+}

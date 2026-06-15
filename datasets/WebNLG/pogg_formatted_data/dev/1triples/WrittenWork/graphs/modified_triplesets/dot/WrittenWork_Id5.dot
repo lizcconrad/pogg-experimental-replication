@@ -1,0 +1,5 @@
+strict digraph {
+A_Fortress_of_Grey_Ice [lexicon_key="A_Fortress_of_Grey_Ice"];
+Hardcover [lexicon_key=Hardcover];
+A_Fortress_of_Grey_Ice -> Hardcover [label=mediaType, lexicon_key=mediaType];
+}

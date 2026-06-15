@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Anderson,_Indiana": {
+            "lexicon_key": "Anderson,_Indiana"
+        },
+        "\"Adams, Fall Creek, Lafayette, Richland, Union\"": {
+            "lexicon_key": "\"Adams, Fall Creek, Lafayette, Richland, Union\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Anderson,_Indiana",
+            "child_node": "\"Adams, Fall Creek, Lafayette, Richland, Union\"",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anderson, Indiana is part of Adams Fall Creek, Lafayette, Richland, Union."
+        }
+    },
+    "gold_outputs": [
+        "Anderson, Indiana is part of Adams Fall Creek, Lafayette, Richland, Union."
+    ]
+}

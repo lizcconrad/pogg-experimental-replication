@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "AMC_Matador": {
+            "lexicon_key": "AMC_Matador"
+        },
+        "AMC_Ambassador": {
+            "lexicon_key": "AMC_Ambassador"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "AMC_Matador",
+            "child_node": "AMC_Ambassador",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AMC Matador is related to the AMC Ambassador."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AMC Matador and the AMC Ambassador are relative means of transportation."
+        }
+    },
+    "gold_outputs": [
+        "The AMC Matador and the AMC Ambassador are relative means of transportation.",
+        "The AMC Matador is related to the AMC Ambassador."
+    ]
+}

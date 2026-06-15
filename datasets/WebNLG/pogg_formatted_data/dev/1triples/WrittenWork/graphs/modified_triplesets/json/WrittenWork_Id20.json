@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "lexicon_key": "Alcatraz_Versus_the_Evil_Librarians"
+        },
+        "Alcatraz_Versus_the_Scrivener's_Bones": {
+            "lexicon_key": "Alcatraz_Versus_the_Scrivener's_Bones"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "Alcatraz_Versus_the_Scrivener's_Bones",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The book Alcatraz Versus the Evil Librarians is followed by the book Alcatraz Versus the Scrivener's Bones."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians was followed by Alcatraz Versus the Scrivener's Bones."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alcatraz versus the Evil Librarians is followed by Alcatraz Versus the Scrivener's Bones."
+        }
+    },
+    "gold_outputs": [
+        "Alcatraz Versus the Evil Librarians was followed by Alcatraz Versus the Scrivener's Bones.",
+        "Alcatraz versus the Evil Librarians is followed by Alcatraz Versus the Scrivener's Bones.",
+        "The book Alcatraz Versus the Evil Librarians is followed by the book Alcatraz Versus the Scrivener's Bones."
+    ]
+}

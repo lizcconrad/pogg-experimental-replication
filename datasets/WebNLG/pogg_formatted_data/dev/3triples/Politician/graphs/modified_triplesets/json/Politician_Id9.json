@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abel_Caballero": {
+            "lexicon_key": "Abel_Caballero"
+        },
+        "Juan_Carlos_I_of_Spain": {
+            "lexicon_key": "Juan_Carlos_I_of_Spain"
+        },
+        "Francisco_Franco": {
+            "lexicon_key": "Francisco_Franco"
+        },
+        "Galicia_(Spain)": {
+            "lexicon_key": "Galicia_(Spain)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inOfficeWhileMonarch",
+            "parent_node": "Abel_Caballero",
+            "child_node": "Juan_Carlos_I_of_Spain",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhileMonarch"
+            }
+        },
+        {
+            "edge_name": "predecessor",
+            "parent_node": "Juan_Carlos_I_of_Spain",
+            "child_node": "Francisco_Franco",
+            "edge_properties": {
+                "lexicon_key": "predecessor"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abel_Caballero",
+            "child_node": "Galicia_(Spain)",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Caballero was born in Galicia, Spain. He was in office during Monarch, Juan Carlos I of Spain's reign. Francisco Franco was Carlos' predecessor."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born in Galicia, Spain, Abel Caballero, was in office during the reign of Monarch, Juan Carlos I of Spain, who had succeeded Francisco Franco."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abel Caballero, born in Galicia, Spain, was in office during the reign of King Juan Carlos I of Spain. The King was preceded as leader by Francisco Franco."
+        }
+    },
+    "gold_outputs": [
+        "Abel Caballero was born in Galicia, Spain. He was in office during Monarch, Juan Carlos I of Spain's reign. Francisco Franco was Carlos' predecessor.",
+        "Abel Caballero, born in Galicia, Spain, was in office during the reign of King Juan Carlos I of Spain. The King was preceded as leader by Francisco Franco.",
+        "Born in Galicia, Spain, Abel Caballero, was in office during the reign of Monarch, Juan Carlos I of Spain, who had succeeded Francisco Franco."
+    ]
+}

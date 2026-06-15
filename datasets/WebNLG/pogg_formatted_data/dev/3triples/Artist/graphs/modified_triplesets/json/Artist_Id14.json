@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alan_Frew": {
+            "lexicon_key": "Alan_Frew"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Country_music": {
+            "lexicon_key": "Country_music"
+        },
+        "Folk_music": {
+            "lexicon_key": "Folk_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Alan_Frew",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Rock_music",
+            "child_node": "Country_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Rock_music",
+            "child_node": "Folk_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Frews' musical genre is rock music. The genre originated from country music and has its stylistic origins in folk music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Frew's genre is Rock music. It originated from country music and has its stylistic origins in folk music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Rock music is performed by Alan Frew and originated from folk music and country music."
+        }
+    },
+    "gold_outputs": [
+        "Alan Frew's genre is Rock music. It originated from country music and has its stylistic origins in folk music.",
+        "Alan Frews' musical genre is rock music. The genre originated from country music and has its stylistic origins in folk music.",
+        "Rock music is performed by Alan Frew and originated from folk music and country music."
+    ]
+}

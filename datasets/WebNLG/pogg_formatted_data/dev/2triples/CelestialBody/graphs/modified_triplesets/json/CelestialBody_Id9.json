@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "103_Hera": {
+            "lexicon_key": "103_Hera"
+        },
+        "371240000.0 (kilometres)": {
+            "lexicon_key": "371240000.0 (kilometres)"
+        },
+        "2011-08-27": {
+            "lexicon_key": "2011-08-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "103_Hera",
+            "child_node": "371240000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "epoch",
+            "parent_node": "103_Hera",
+            "child_node": "2011-08-27",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "103 Hera has a periapsis measurement of 371240000.0 km and its epoch is 31st July 2016."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "103 Hera has a periapsis of 371240000.0 kilometres, and the epoch is on the 31st of July 2016."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "103 Hera has a periapsis of 371240000.0 kilometres and an epoch date of August 27th 2011."
+        }
+    },
+    "gold_outputs": [
+        "103 Hera has a periapsis measurement of 371240000.0 km and its epoch is 31st July 2016.",
+        "103 Hera has a periapsis of 371240000.0 kilometres and an epoch date of August 27th 2011.",
+        "103 Hera has a periapsis of 371240000.0 kilometres, and the epoch is on the 31st of July 2016."
+    ]
+}

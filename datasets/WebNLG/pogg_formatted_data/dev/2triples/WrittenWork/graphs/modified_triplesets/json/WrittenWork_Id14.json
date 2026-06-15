@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Wizard_of_Mars": {
+            "lexicon_key": "A_Wizard_of_Mars"
+        },
+        "Hardcover": {
+            "lexicon_key": "Hardcover"
+        },
+        "\"978-0-15-204770-2\"": {
+            "lexicon_key": "\"978-0-15-204770-2\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Wizard_of_Mars",
+            "child_node": "Hardcover",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Wizard_of_Mars",
+            "child_node": "\"978-0-15-204770-2\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Wizard of Mars is published in Hardcover and has the ISBN number 978-0-15-204770-2."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Wizard of Mars was published in hardback and has the ISBN number 978-0-15-204770-2."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Wizard of Mars has the ISBN number 978-0-15-204770-2 and was published in hardback."
+        }
+    },
+    "gold_outputs": [
+        "A Wizard of Mars has the ISBN number 978-0-15-204770-2 and was published in hardback.",
+        "A Wizard of Mars is published in Hardcover and has the ISBN number 978-0-15-204770-2.",
+        "A Wizard of Mars was published in hardback and has the ISBN number 978-0-15-204770-2."
+    ]
+}

@@ -1,0 +1,270 @@
+{
+    "node_keys": {
+        "\"Helipad\"": {
+            "comp_fxn": "proper_noun",
+            "name": "Helipad",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "1533.0": {
+            "comp_fxn": "number",
+            "digit": "1533.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "2702.0": {
+            "comp_fxn": "number",
+            "digit": "2702.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "507": {
+            "comp_fxn": "number",
+            "digit": "507",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "84.0": {
+            "comp_fxn": "number",
+            "digit": "84.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "Aarhus": {
+            "comp_fxn": "proper_noun",
+            "name": "Aarhus",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Aarhus_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Aarhus",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Agra": {
+            "comp_fxn": "proper_noun",
+            "name": "Agra",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Agra_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Agra",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Alderney": {
+            "comp_fxn": "proper_noun",
+            "name": "Alderney",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Alderney_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Alderney",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Amsterdam": {
+            "comp_fxn": "proper_noun",
+            "name": "Amsterdam",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Athens": {
+            "comp_fxn": "proper_noun",
+            "name": "Athens",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Auckland": {
+            "comp_fxn": "proper_noun",
+            "name": "Auckland",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Belgium": {
+            "comp_fxn": "proper_noun",
+            "name": "Belgium",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Copenhagen": {
+            "comp_fxn": "proper_noun",
+            "name": "Copenhagen",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Denmark": {
+            "comp_fxn": "proper_noun",
+            "name": "Denmark",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Flemish_Government": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Government",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flemish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Flemish_Region": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Region",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flemish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Greece": {
+            "comp_fxn": "proper_noun",
+            "name": "Greece",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Infraero": {
+            "comp_fxn": "proper_noun",
+            "name": "Infraero",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Luanda": {
+            "comp_fxn": "proper_noun",
+            "name": "Luanda",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Pakistan": {
+            "comp_fxn": "proper_noun",
+            "name": "Pakistan",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Spain": {
+            "comp_fxn": "proper_noun",
+            "name": "Spain",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Spata": {
+            "comp_fxn": "proper_noun",
+            "name": "Spata",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        }
+    },
+    "edge_keys": {}
+}

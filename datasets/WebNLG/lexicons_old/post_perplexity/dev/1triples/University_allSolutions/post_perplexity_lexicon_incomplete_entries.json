@@ -1,0 +1,54 @@
+{
+    "node_keys": {
+        "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"": {
+            "comp_fxn": ""
+        },
+        "100": {
+            "comp_fxn": ""
+        },
+        "737": {
+            "comp_fxn": ""
+        },
+        "Accademia_di_Architettura_di_Mendrisio": {
+            "comp_fxn": ""
+        },
+        "Acharya_Institute_of_Technology": {
+            "comp_fxn": ""
+        },
+        "Alba_County": {
+            "comp_fxn": ""
+        },
+        "Alba_Iulia": {
+            "comp_fxn": ""
+        },
+        "Andrew_the_Apostle": {
+            "comp_fxn": ""
+        },
+        "Denmark": {
+            "comp_fxn": ""
+        },
+        "Romania": {
+            "comp_fxn": ""
+        },
+        "School of Business and Social Sciences at the Aarhus University": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "academicStaffSize": {
+            "comp_fxn": ""
+        },
+        "campus": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "patronSaint": {
+            "comp_fxn": ""
+        }
+    }
+}

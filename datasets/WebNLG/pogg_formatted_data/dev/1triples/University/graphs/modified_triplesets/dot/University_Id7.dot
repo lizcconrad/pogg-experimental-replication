@@ -1,0 +1,5 @@
+strict digraph {
+"School of Business and Social Sciences at the Aarhus University" [lexicon_key="School of Business and Social Sciences at the Aarhus University"];
+Denmark [lexicon_key=Denmark];
+"School of Business and Social Sciences at the Aarhus University" -> Denmark [label=country, lexicon_key=country];
+}

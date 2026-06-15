@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ace_Wilder": {
+            "lexicon_key": "Ace_Wilder"
+        },
+        "1982-07-23": {
+            "lexicon_key": "1982-07-23"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Ace_Wilder",
+            "child_node": "1982-07-23",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ace Wilder was born on July 23, 1982."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ace Wilder was born July 23, 1982."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ace Wilder's date of birth is 1982-07-23."
+        }
+    },
+    "gold_outputs": [
+        "Ace Wilder was born July 23, 1982.",
+        "Ace Wilder was born on July 23, 1982.",
+        "Ace Wilder's date of birth is 1982-07-23."
+    ]
+}

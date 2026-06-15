@@ -1,0 +1,5 @@
+strict digraph {
+South_Jersey_Transportation_Authority [lexicon_key="South_Jersey_Transportation_Authority"];
+Stephen_Dilts [lexicon_key="Stephen_Dilts"];
+South_Jersey_Transportation_Authority -> Stephen_Dilts [label=chief, lexicon_key=chief];
+}

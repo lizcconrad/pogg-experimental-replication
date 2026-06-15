@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_Deer": {
+            "lexicon_key": "Aaron_Deer"
+        },
+        "Indie_rock": {
+            "lexicon_key": "Indie_rock"
+        },
+        "Indiana": {
+            "lexicon_key": "Indiana"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Deer",
+            "child_node": "Indie_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "origin",
+            "parent_node": "Aaron_Deer",
+            "child_node": "Indiana",
+            "edge_properties": {
+                "lexicon_key": "origin"
+            }
+        },
+        {
+            "edge_name": "origin",
+            "parent_node": "Aaron_Deer",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "origin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Deer was born in Indiana, United States and his musical genre is indie rock."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "From Indiana (United States), Aaron Deer's musical genre is, indie rock."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "American Aaron Deer is an Indie rock musician from Indiana."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Deer was born in Indiana, United States and his musical genre is indie rock.",
+        "American Aaron Deer is an Indie rock musician from Indiana.",
+        "From Indiana (United States), Aaron Deer's musical genre is, indie rock."
+    ]
+}

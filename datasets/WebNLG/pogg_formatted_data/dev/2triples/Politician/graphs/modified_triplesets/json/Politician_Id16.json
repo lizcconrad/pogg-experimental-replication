@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Adonis_Georgiadis": {
+            "lexicon_key": "Adonis_Georgiadis"
+        },
+        "Greece": {
+            "lexicon_key": "Greece"
+        },
+        "\"Deputy Parliamentary Spokesman of Popular Orthodox Rally\"": {
+            "lexicon_key": "\"Deputy Parliamentary Spokesman of Popular Orthodox Rally\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Adonis_Georgiadis",
+            "child_node": "Greece",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Adonis_Georgiadis",
+            "child_node": "\"Deputy Parliamentary Spokesman of Popular Orthodox Rally\"",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in Greece, Adonis Georgiadis, worked as the Deputy Parliamentary Spokesman of Popular Orthodox Rally."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Greek born Adonis Georgiadis he has worked as the Deputy Parliamentary Spokesman of Popular Orthodox Rally."
+        }
+    },
+    "gold_outputs": [
+        "Born in Greece, Adonis Georgiadis, worked as the Deputy Parliamentary Spokesman of Popular Orthodox Rally.",
+        "Greek born Adonis Georgiadis he has worked as the Deputy Parliamentary Spokesman of Popular Orthodox Rally."
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "node_keys": {
+        "\"1700\"": {
+            "comp_fxn": ""
+        },
+        "\"1988-11-22\"": {
+            "comp_fxn": ""
+        },
+        "\"2013-09-28\"": {
+            "comp_fxn": ""
+        },
+        "\"East Link Bridge\"": {
+            "comp_fxn": ""
+        },
+        "\"HOK SVE\"": {
+            "comp_fxn": ""
+        },
+        "\"January 2009\"": {
+            "comp_fxn": ""
+        },
+        "103_Colmore_Row": {
+            "comp_fxn": ""
+        },
+        "11_Diagonal_Street": {
+            "comp_fxn": ""
+        },
+        "1904": {
+            "comp_fxn": ""
+        },
+        "1983": {
+            "comp_fxn": ""
+        },
+        "1985": {
+            "comp_fxn": ""
+        },
+        "200_Public_Square": {
+            "comp_fxn": ""
+        },
+        "20_Fenchurch_Street": {
+            "comp_fxn": ""
+        },
+        "300_North_LaSalle": {
+            "comp_fxn": ""
+        },
+        "3Arena": {
+            "comp_fxn": ""
+        },
+        "60": {
+            "comp_fxn": ""
+        },
+        "Adare_Manor": {
+            "comp_fxn": ""
+        },
+        "Akita_Museum_of_Art": {
+            "comp_fxn": ""
+        },
+        "Alan_B._Miller_Hall": {
+            "comp_fxn": ""
+        },
+        "Amdavad_ni_Gufa": {
+            "comp_fxn": ""
+        },
+        "Ampara_Hospital": {
+            "comp_fxn": ""
+        },
+        "Asher_and_Mary_Isabelle_Richardson_House": {
+            "comp_fxn": ""
+        },
+        "Asser_Levy_Public_Baths": {
+            "comp_fxn": ""
+        },
+        "B._V._Doshi": {
+            "comp_fxn": ""
+        },
+        "B_postcode_area": {
+            "comp_fxn": ""
+        },
+        "Bill_Marriott": {
+            "comp_fxn": ""
+        },
+        "Birmingham": {
+            "comp_fxn": ""
+        },
+        "Brazilians_in_Japan": {
+            "comp_fxn": ""
+        },
+        "Cape_Town": {
+            "comp_fxn": ""
+        },
+        "Chicago": {
+            "comp_fxn": ""
+        },
+        "Colmore_Row": {
+            "comp_fxn": ""
+        },
+        "DuPage_County,_Illinois": {
+            "comp_fxn": ""
+        },
+        "Dublin": {
+            "comp_fxn": ""
+        },
+        "English_language": {
+            "comp_fxn": ""
+        },
+        "India": {
+            "comp_fxn": ""
+        },
+        "Japan": {
+            "comp_fxn": ""
+        },
+        "John_Madin": {
+            "comp_fxn": ""
+        },
+        "Leinster": {
+            "comp_fxn": ""
+        },
+        "London": {
+            "comp_fxn": ""
+        },
+        "Marriott_International": {
+            "comp_fxn": ""
+        },
+        "Mason_School_of_Business": {
+            "comp_fxn": ""
+        },
+        "Native_Americans_in_the_United_States": {
+            "comp_fxn": ""
+        },
+        "Paul_Ryan": {
+            "comp_fxn": ""
+        },
+        "Republic_of_Ireland": {
+            "comp_fxn": ""
+        },
+        "South_Africa": {
+            "comp_fxn": ""
+        },
+        "Sri_Lanka": {
+            "comp_fxn": ""
+        },
+        "Sumitra_Mahajan": {
+            "comp_fxn": ""
+        },
+        "Tar\u014d_As\u014d": {
+            "comp_fxn": ""
+        },
+        "United_Kingdom": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "addedToTheNationalRegisterOfHistoricPlaces": {
+            "comp_fxn": ""
+        },
+        "architect": {
+            "comp_fxn": ""
+        },
+        "buildingStartDate": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "completionDate": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "currentTenants": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "floorCount": {
+            "comp_fxn": ""
+        },
+        "inaugurationDate": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "keyPerson": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "postalCode": {
+            "comp_fxn": ""
+        },
+        "yearOfConstruction": {
+            "comp_fxn": ""
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_Bertram": {
+            "lexicon_key": "Aaron_Bertram"
+        },
+        "Kids_Imagine_Nation": {
+            "lexicon_key": "Kids_Imagine_Nation"
+        },
+        "Suburban_Legends": {
+            "lexicon_key": "Suburban_Legends"
+        },
+        "Pop_music": {
+            "lexicon_key": "Pop_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Bertram",
+            "child_node": "Kids_Imagine_Nation",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Bertram",
+            "child_node": "Suburban_Legends",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Suburban_Legends",
+            "child_node": "Pop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "An artist with the band Kids Imagine Nation, Aaron Bertram plays for the Suburban Legends band which plays pop music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for the Suburban Legends pop music band. He is an artist with the band Kids Imagine Nation."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for the Kids Imagine Nation band and the Suburban Legends, a pop music band."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Bertram plays for the Kids Imagine Nation band and the Suburban Legends, a pop music band.",
+        "Aaron Bertram plays for the Suburban Legends pop music band. He is an artist with the band Kids Imagine Nation.",
+        "An artist with the band Kids Imagine Nation, Aaron Bertram plays for the Suburban Legends band which plays pop music."
+    ]
+}

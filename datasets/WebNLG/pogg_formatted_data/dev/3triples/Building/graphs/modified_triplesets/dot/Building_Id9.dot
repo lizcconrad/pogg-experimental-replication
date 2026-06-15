@@ -1,0 +1,9 @@
+strict digraph {
+"3Arena" [lexicon_key="3Arena"];
+Live_Nation_Entertainment [lexicon_key="Live_Nation_Entertainment"];
+Dublin [lexicon_key=Dublin];
+Republic_of_Ireland [lexicon_key="Republic_of_Ireland"];
+"3Arena" -> Live_Nation_Entertainment [label=owner, lexicon_key=owner];
+"3Arena" -> Dublin [label=location, lexicon_key=location];
+Dublin -> Republic_of_Ireland [label=country, lexicon_key=country];
+}

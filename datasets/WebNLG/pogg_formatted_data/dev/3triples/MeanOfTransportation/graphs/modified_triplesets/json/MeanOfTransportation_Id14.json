@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alvis_Speed_25": {
+            "lexicon_key": "Alvis_Speed_25"
+        },
+        "Alvis_Car_and_Engineering_Company": {
+            "lexicon_key": "Alvis_Car_and_Engineering_Company"
+        },
+        "Coventry": {
+            "lexicon_key": "Coventry"
+        },
+        "Rover_Company": {
+            "lexicon_key": "Rover_Company"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Alvis_Speed_25",
+            "child_node": "Alvis_Car_and_Engineering_Company",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Alvis_Car_and_Engineering_Company",
+            "child_node": "Coventry",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Alvis_Car_and_Engineering_Company",
+            "child_node": "Rover_Company",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alvis Car and Engineering Company, founded in Coventry and succeeded by the Rover Company, manufactured the Alvis Speed 25."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alvis Speed 25 was built by Coventry's Alvis Car and Engineering Company, which was succeeded by the Rover Co."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alvis Speed 25 was made by Coventry based Alvis Car and Engineering Company which was succeeded by The Rover Co."
+        }
+    },
+    "gold_outputs": [
+        "The Alvis Car and Engineering Company, founded in Coventry and succeeded by the Rover Company, manufactured the Alvis Speed 25.",
+        "The Alvis Speed 25 was built by Coventry's Alvis Car and Engineering Company, which was succeeded by the Rover Co.",
+        "The Alvis Speed 25 was made by Coventry based Alvis Car and Engineering Company which was succeeded by The Rover Co."
+    ]
+}

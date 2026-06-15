@@ -1,0 +1,9 @@
+strict digraph {
+"Arròs_negre" [lexicon_key="Arròs_negre"];
+Valencian_Community [lexicon_key="Valencian_Community"];
+Spain [lexicon_key=Spain];
+Cuttlefish [lexicon_key=Cuttlefish];
+"Arròs_negre" -> Valencian_Community [label=region, lexicon_key=region];
+"Arròs_negre" -> Spain [label=country, lexicon_key=country];
+"Arròs_negre" -> Cuttlefish [label=ingredient, lexicon_key=ingredient];
+}

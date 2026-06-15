@@ -1,0 +1,9 @@
+strict digraph {
+A_Severed_Wasp [lexicon_key="A_Severed_Wasp"];
+8805735 [lexicon_key=8805735];
+"PS3523.E55 S4 1982" [lexicon_key="PS3523.E55 S4 1982"];
+"Print" [lexicon_key="Print"];
+A_Severed_Wasp -> 8805735 [label=oclcNumber, lexicon_key=oclcNumber];
+A_Severed_Wasp -> "PS3523.E55 S4 1982" [label=libraryofCongressClassification, lexicon_key=libraryofCongressClassification];
+A_Severed_Wasp -> "Print" [label=mediaType, lexicon_key=mediaType];
+}

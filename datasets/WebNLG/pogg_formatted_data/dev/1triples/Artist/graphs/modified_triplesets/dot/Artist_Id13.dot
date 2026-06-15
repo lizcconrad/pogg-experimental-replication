@@ -1,0 +1,5 @@
+strict digraph {
+"Aleksandra_Kovač" [lexicon_key="Aleksandra_Kovač"];
+"Kornelije_Kovač" [lexicon_key="Kornelije_Kovač"];
+"Aleksandra_Kovač" -> "Kornelije_Kovač" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

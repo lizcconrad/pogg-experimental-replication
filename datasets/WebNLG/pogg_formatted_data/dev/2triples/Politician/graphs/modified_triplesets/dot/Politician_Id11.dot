@@ -1,0 +1,7 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+United_States [lexicon_key="United_States"];
+"Ruth Ribicoff" [lexicon_key="Ruth Ribicoff"];
+"Abraham_A._Ribicoff" -> United_States [label=birthPlace, lexicon_key=birthPlace];
+"Abraham_A._Ribicoff" -> "Ruth Ribicoff" [label=spouse, lexicon_key=spouse];
+}

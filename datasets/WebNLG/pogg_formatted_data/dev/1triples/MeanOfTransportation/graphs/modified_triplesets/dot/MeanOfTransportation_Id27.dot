@@ -1,0 +1,5 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+Audi_Brussels [lexicon_key="Audi_Brussels"];
+Audi_A1 -> Audi_Brussels [label=assembly, lexicon_key=assembly];
+}

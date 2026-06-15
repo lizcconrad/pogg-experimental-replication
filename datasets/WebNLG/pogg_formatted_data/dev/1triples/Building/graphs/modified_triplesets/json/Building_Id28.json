@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "London": {
+            "lexicon_key": "London"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "United_Kingdom",
+            "child_node": "London",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The capital of the United Kingdom is London."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "London is the capital of the United Kingdom."
+        }
+    },
+    "gold_outputs": [
+        "London is the capital of the United Kingdom.",
+        "The capital of the United Kingdom is London."
+    ]
+}

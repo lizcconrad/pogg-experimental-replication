@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Gujarat": {
+            "lexicon_key": "Gujarat"
+        },
+        "Anandiben_Patel": {
+            "lexicon_key": "Anandiben_Patel"
+        },
+        "Amdavad_ni_Gufa": {
+            "lexicon_key": "Amdavad_ni_Gufa"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Gujarat",
+            "child_node": "Anandiben_Patel",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Amdavad_ni_Gufa",
+            "child_node": "Gujarat",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anandiben Patel was the leader of Gujarat where Amdavad ni Gufa is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amdavad ni Gufa is located in Gujarat and its leader is Anandiben Patel."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Amdavad ni Gufa is in Gujarat and its leader is Anandiben Patel."
+        }
+    },
+    "gold_outputs": [
+        "Amdavad ni Gufa is in Gujarat and its leader is Anandiben Patel.",
+        "Amdavad ni Gufa is located in Gujarat and its leader is Anandiben Patel.",
+        "Anandiben Patel was the leader of Gujarat where Amdavad ni Gufa is located."
+    ]
+}

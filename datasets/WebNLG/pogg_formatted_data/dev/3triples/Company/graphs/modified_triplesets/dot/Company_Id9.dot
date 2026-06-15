@@ -1,0 +1,9 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+58.38 [lexicon_key=58.38];
+Subsidiary [lexicon_key=Subsidiary];
+Trane -> "La_Crosse,_Wisconsin" [label=foundationPlace, lexicon_key=foundationPlace];
+Trane -> Subsidiary [label=type, lexicon_key=type];
+"La_Crosse,_Wisconsin" -> 58.38 [label=areaTotal, lexicon_key=areaTotal];
+}

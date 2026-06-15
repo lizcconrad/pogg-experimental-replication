@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alvah_Sabin": {
+            "lexicon_key": "Alvah_Sabin"
+        },
+        "Secretary_of_State_of_Vermont": {
+            "lexicon_key": "Secretary_of_State_of_Vermont"
+        },
+        "Homer_Elihu_Royce": {
+            "lexicon_key": "Homer_Elihu_Royce"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "office",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Secretary_of_State_of_Vermont",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Homer_Elihu_Royce",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alvah Sabin was the Secretary of State of Vermont before Homer Elihu Royce."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alvah Sabin worked as the Secretary of State of Vermont and was succeeded by Homer Elihu Royce."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alvah Sabin was the Secretary of the State of Vermont he was succeeded by Homer Elihu Royce."
+        }
+    },
+    "gold_outputs": [
+        "Alvah Sabin was the Secretary of State of Vermont before Homer Elihu Royce.",
+        "Alvah Sabin was the Secretary of the State of Vermont he was succeeded by Homer Elihu Royce.",
+        "Alvah Sabin worked as the Secretary of State of Vermont and was succeeded by Homer Elihu Royce."
+    ]
+}

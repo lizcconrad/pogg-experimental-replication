@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Belgium": {
+            "lexicon_key": "Belgium"
+        },
+        "Philippe_of_Belgium": {
+            "lexicon_key": "Philippe_of_Belgium"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Belgium",
+            "child_node": "Philippe_of_Belgium",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Philippe of Belgium is the leader of Belgium."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The leader of Belgium is Philippe of Belgium."
+        }
+    },
+    "gold_outputs": [
+        "Philippe of Belgium is the leader of Belgium.",
+        "The leader of Belgium is Philippe of Belgium."
+    ]
+}

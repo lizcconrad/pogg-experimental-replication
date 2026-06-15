@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        },
+        "Eric_Flint": {
+            "lexicon_key": "Eric_Flint"
+        },
+        "1634:_The_Baltic_War": {
+            "lexicon_key": "1634:_The_Baltic_War"
+        },
+        "Burbank,_California": {
+            "lexicon_key": "Burbank,_California"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "Eric_Flint",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "precededBy",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "1634:_The_Baltic_War",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Eric_Flint",
+            "child_node": "Burbank,_California",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in Burbank, California, Eric Flint wrote 1634: The Bavarian Crisis which was preceded by 1634: The Baltic War."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1634: The Bavarian Crisis and its predecessor, 1634: The Baltic War, was written by Eric Flint who was born in Burbank California."
+        }
+    },
+    "gold_outputs": [
+        "1634: The Bavarian Crisis and its predecessor, 1634: The Baltic War, was written by Eric Flint who was born in Burbank California.",
+        "Born in Burbank, California, Eric Flint wrote 1634: The Bavarian Crisis which was preceded by 1634: The Baltic War."
+    ]
+}

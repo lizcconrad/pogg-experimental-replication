@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Arem-arem": {
+            "lexicon_key": "Arem-arem"
+        },
+        "\"Nationwide in Indonesia, but more specific to Java\"": {
+            "lexicon_key": "\"Nationwide in Indonesia, but more specific to Java\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Arem-arem",
+            "child_node": "\"Nationwide in Indonesia, but more specific to Java\"",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arem-arem is found nationwide in Indonesia, but is more specific to Java."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arem-arem is nationwide in Indonesia, but more specific to Java."
+        }
+    },
+    "gold_outputs": [
+        "Arem-arem is found nationwide in Indonesia, but is more specific to Java.",
+        "Arem-arem is nationwide in Indonesia, but more specific to Java."
+    ]
+}

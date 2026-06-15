@@ -1,0 +1,5 @@
+strict digraph {
+Arrabbiata_sauce [lexicon_key="Arrabbiata_sauce"];
+"Tomatoes, red chili, garlic, olive oil" [lexicon_key="Tomatoes, red chili, garlic, olive oil"];
+Arrabbiata_sauce -> "Tomatoes, red chili, garlic, olive oil" [label=mainIngredient, lexicon_key=mainIngredient];
+}

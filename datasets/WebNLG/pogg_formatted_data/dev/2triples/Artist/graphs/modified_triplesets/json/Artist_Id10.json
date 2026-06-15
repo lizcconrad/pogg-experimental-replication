@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Albennie_Jones": {
+            "lexicon_key": "Albennie_Jones"
+        },
+        "Rhythm_and_blues": {
+            "lexicon_key": "Rhythm_and_blues"
+        },
+        "Blues": {
+            "lexicon_key": "Blues"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Albennie_Jones",
+            "child_node": "Rhythm_and_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Rhythm_and_blues",
+            "child_node": "Blues",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albennie Jones performs rhythm and blues music, a genre that originated from blues music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Originating from blues music, rhythm and blues is the music genre of Albennie Jones."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albennie Jones plays rhythm and blues, derived from the blues."
+        }
+    },
+    "gold_outputs": [
+        "Albennie Jones performs rhythm and blues music, a genre that originated from blues music.",
+        "Albennie Jones plays rhythm and blues, derived from the blues.",
+        "Originating from blues music, rhythm and blues is the music genre of Albennie Jones."
+    ]
+}

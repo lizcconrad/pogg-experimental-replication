@@ -1,0 +1,5 @@
+strict digraph {
+"Aaron_S._Daggett" [lexicon_key="Aaron_S._Daggett"];
+Battle_of_Mine_Run [lexicon_key="Battle_of_Mine_Run"];
+"Aaron_S._Daggett" -> Battle_of_Mine_Run [label=battle, lexicon_key=battle];
+}

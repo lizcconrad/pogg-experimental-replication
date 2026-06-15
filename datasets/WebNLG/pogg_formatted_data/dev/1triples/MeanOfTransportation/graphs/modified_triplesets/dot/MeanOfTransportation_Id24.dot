@@ -1,0 +1,5 @@
+strict digraph {
+Atlas_II [lexicon_key="Atlas_II"];
+United_States [lexicon_key="United_States"];
+Atlas_II -> United_States [label=countryOrigin, lexicon_key=countryOrigin];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+United_Kingdom [lexicon_key="United_Kingdom"];
+David_Cameron [lexicon_key="David_Cameron"];
+"AIDS_(journal)" [lexicon_key="AIDS_(journal)"];
+"Lippincott_Williams_&_Wilkins" [lexicon_key="Lippincott_Williams_&_Wilkins"];
+United_Kingdom -> David_Cameron [label=leader, lexicon_key=leader];
+"AIDS_(journal)" -> United_Kingdom [label=country, lexicon_key=country];
+"AIDS_(journal)" -> "Lippincott_Williams_&_Wilkins" [label=publisher, lexicon_key=publisher];
+}

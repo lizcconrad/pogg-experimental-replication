@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Black_Pirate": {
+            "lexicon_key": "Black_Pirate"
+        },
+        "Sheldon_Moldoff": {
+            "lexicon_key": "Sheldon_Moldoff"
+        },
+        "\"Jon Valor\"": {
+            "lexicon_key": "\"Jon Valor\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Black_Pirate",
+            "child_node": "Sheldon_Moldoff",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Black_Pirate",
+            "child_node": "\"Jon Valor\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Black Pirate, also known as Jon Valor, was created by Sheldon Moldoff."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Black Pirate (Jon Valor) was created by Sheldon Moldoff."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Sheldon Moldoff is the creator of Black Pirate, who is also known as Jon Valor."
+        }
+    },
+    "gold_outputs": [
+        "Black Pirate, also known as Jon Valor, was created by Sheldon Moldoff.",
+        "Sheldon Moldoff is the creator of Black Pirate, who is also known as Jon Valor.",
+        "The Black Pirate (Jon Valor) was created by Sheldon Moldoff."
+    ]
+}

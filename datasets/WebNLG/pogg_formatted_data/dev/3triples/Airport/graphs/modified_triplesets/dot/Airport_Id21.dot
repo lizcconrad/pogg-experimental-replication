@@ -1,0 +1,9 @@
+strict digraph {
+Athens_International_Airport [lexicon_key="Athens_International_Airport"];
+Athens [lexicon_key=Athens];
+Greece [lexicon_key=Greece];
+Alexis_Tsipras [lexicon_key="Alexis_Tsipras"];
+Athens_International_Airport -> Athens [label=cityServed, lexicon_key=cityServed];
+Athens -> Greece [label=country, lexicon_key=country];
+Greece -> Alexis_Tsipras [label=leader, lexicon_key=leader];
+}

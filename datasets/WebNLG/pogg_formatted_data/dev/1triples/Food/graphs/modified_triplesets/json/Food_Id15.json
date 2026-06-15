@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Bandeja_paisa": {
+            "lexicon_key": "Bandeja_paisa"
+        },
+        "Chorizo": {
+            "lexicon_key": "Chorizo"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bandeja_paisa",
+            "child_node": "Chorizo",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chorizo is an ingredient in the dish Bandeja paisa."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chorizo is an ingredient in Bandeja paisa."
+        }
+    },
+    "gold_outputs": [
+        "Chorizo is an ingredient in Bandeja paisa.",
+        "Chorizo is an ingredient in the dish Bandeja paisa."
+    ]
+}

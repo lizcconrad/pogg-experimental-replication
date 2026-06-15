@@ -1,0 +1,9 @@
+strict digraph {
+Abel_Caballero [lexicon_key="Abel_Caballero"];
+Spain [lexicon_key=Spain];
+"Minister of Transport" [lexicon_key="Minister of Transport"];
+"Galicia_(Spain)" [lexicon_key="Galicia_(Spain)"];
+Abel_Caballero -> Spain [label=birthPlace, lexicon_key=birthPlace];
+Abel_Caballero -> "Minister of Transport" [label=office, lexicon_key=office];
+Abel_Caballero -> "Galicia_(Spain)" [label=birthPlace, lexicon_key=birthPlace];
+}

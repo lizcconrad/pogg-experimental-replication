@@ -1,0 +1,5 @@
+strict digraph {
+"ALCO_RS-3" [lexicon_key="ALCO_RS-3"];
+"Four-stroke_engine" [lexicon_key="Four-stroke_engine"];
+"ALCO_RS-3" -> "Four-stroke_engine" [label=engine, lexicon_key=engine];
+}

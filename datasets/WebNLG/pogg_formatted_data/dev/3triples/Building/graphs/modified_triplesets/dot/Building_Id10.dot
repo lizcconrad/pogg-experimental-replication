@@ -1,0 +1,9 @@
+strict digraph {
+AC_Hotel_Bella_Sky_Copenhagen [lexicon_key="AC_Hotel_Bella_Sky_Copenhagen"];
+Denmark [lexicon_key=Denmark];
+Marriott_International [lexicon_key="Marriott_International"];
+"3XN" [lexicon_key="3XN"];
+AC_Hotel_Bella_Sky_Copenhagen -> Denmark [label=location, lexicon_key=location];
+AC_Hotel_Bella_Sky_Copenhagen -> Marriott_International [label=tenant, lexicon_key=tenant];
+AC_Hotel_Bella_Sky_Copenhagen -> "3XN" [label=architect, lexicon_key=architect];
+}

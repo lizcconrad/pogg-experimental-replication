@@ -1,0 +1,9 @@
+strict digraph {
+"1097_Vicia" [lexicon_key="1097_Vicia"];
+"0.0112 (kilometrePerSeconds)" [lexicon_key="0.0112 (kilometrePerSeconds)"];
+"171.0 (kelvins)" [lexicon_key="171.0 (kelvins)"];
+"511592000.0 (kilometres)" [lexicon_key="511592000.0 (kilometres)"];
+"1097_Vicia" -> "0.0112 (kilometrePerSeconds)" [label=escapeVelocity, lexicon_key=escapeVelocity];
+"1097_Vicia" -> "171.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+"1097_Vicia" -> "511592000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

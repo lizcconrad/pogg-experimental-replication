@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Akita_Museum_of_Art": {
+            "lexicon_key": "Akita_Museum_of_Art"
+        },
+        "Akita,_Akita": {
+            "lexicon_key": "Akita,_Akita"
+        },
+        "Akita_Prefecture": {
+            "lexicon_key": "Akita_Prefecture"
+        },
+        "Japan": {
+            "lexicon_key": "Japan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Akita_Museum_of_Art",
+            "child_node": "Akita,_Akita",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Akita_Museum_of_Art",
+            "child_node": "Akita_Prefecture",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Akita,_Akita",
+            "child_node": "Japan",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Akita Museum of art is located in Akita, within the Akita Prefecture, Japan."
+        }
+    },
+    "gold_outputs": [
+        "The Akita Museum of art is located in Akita, within the Akita Prefecture, Japan."
+    ]
+}

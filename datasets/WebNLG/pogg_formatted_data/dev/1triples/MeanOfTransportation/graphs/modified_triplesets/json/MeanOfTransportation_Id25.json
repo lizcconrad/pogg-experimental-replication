@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Atlas_II": {
+            "lexicon_key": "Atlas_II"
+        },
+        "1998-03-16": {
+            "lexicon_key": "1998-03-16"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "finalFlight",
+            "parent_node": "Atlas_II",
+            "child_node": "1998-03-16",
+            "edge_properties": {
+                "lexicon_key": "finalFlight"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Atlas II had its final flight on March 16th 1998."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The final flight of Atlas II was on 1998-03-16."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The final flight of the Atlas II was on the 16th March 1998."
+        }
+    },
+    "gold_outputs": [
+        "Atlas II had its final flight on March 16th 1998.",
+        "The final flight of Atlas II was on 1998-03-16.",
+        "The final flight of the Atlas II was on the 16th March 1998."
+    ]
+}

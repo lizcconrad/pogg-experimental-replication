@@ -1,0 +1,7 @@
+strict digraph {
+"Antares_(rocket)" [lexicon_key="Antares_(rocket)"];
+Delta_II [lexicon_key="Delta_II"];
+"Mid-Atlantic_Regional_Spaceport_Launch_Pad_0" [lexicon_key="Mid-Atlantic_Regional_Spaceport_Launch_Pad_0"];
+"Antares_(rocket)" -> Delta_II [label=comparable, lexicon_key=comparable];
+"Antares_(rocket)" -> "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0" [label=launchSite, lexicon_key=launchSite];
+}

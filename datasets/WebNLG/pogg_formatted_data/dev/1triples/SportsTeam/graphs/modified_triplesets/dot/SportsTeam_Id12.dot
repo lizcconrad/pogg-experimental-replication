@@ -1,0 +1,5 @@
+strict digraph {
+"A.S._Roma" [lexicon_key="A.S._Roma"];
+"2014–15_Serie_A" [lexicon_key="2014–15_Serie_A"];
+"A.S._Roma" -> "2014–15_Serie_A" [label=season, lexicon_key=season];
+}

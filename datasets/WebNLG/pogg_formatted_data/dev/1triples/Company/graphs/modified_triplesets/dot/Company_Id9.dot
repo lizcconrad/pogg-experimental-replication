@@ -1,0 +1,5 @@
+strict digraph {
+Philippines [lexicon_key=Philippines];
+Rodrigo_Duterte [lexicon_key="Rodrigo_Duterte"];
+Philippines -> Rodrigo_Duterte [label=leader, lexicon_key=leader];
+}

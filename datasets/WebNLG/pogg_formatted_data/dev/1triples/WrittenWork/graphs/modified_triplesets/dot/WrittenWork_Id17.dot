@@ -1,0 +1,5 @@
+strict digraph {
+Administrative_Science_Quarterly [lexicon_key="Administrative_Science_Quarterly"];
+57059226 [lexicon_key=57059226];
+Administrative_Science_Quarterly -> 57059226 [label="LCCN_number", lexicon_key="LCCN_number"];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+"A.D._Isidro_Metapán" [lexicon_key="A.D._Isidro_Metapán"];
+"Jorge_Humberto_Rodríguez" [lexicon_key="Jorge_Humberto_Rodríguez"];
+"C.D._FAS" [lexicon_key="C.D._FAS"];
+"A.D._Isidro_Metapán" -> "Jorge_Humberto_Rodríguez" [label=manager, lexicon_key=manager];
+"Jorge_Humberto_Rodríguez" -> "C.D._FAS" [label=club, lexicon_key=club];
+}

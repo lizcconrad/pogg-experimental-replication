@@ -1,0 +1,231 @@
+{
+    "node_keys": {
+        "\"Ait Ikkou, Morocco\"": {
+            "comp_fxn": ""
+        },
+        "1.9304": {
+            "comp_fxn": ""
+        },
+        "A.C._Milan": {
+            "comp_fxn": ""
+        },
+        "Aaron_Boogaard": {
+            "comp_fxn": ""
+        },
+        "Abel_Hern\u00e1ndez": {
+            "comp_fxn": ""
+        },
+        "Abner_(footballer)": {
+            "comp_fxn": ""
+        },
+        "Accrington_Stanley_F.C.": {
+            "comp_fxn": ""
+        },
+        "Adam_Maher": {
+            "comp_fxn": ""
+        },
+        "Adam_McQuaid": {
+            "comp_fxn": ""
+        },
+        "Ahmad_Kadhim_Assad": {
+            "comp_fxn": ""
+        },
+        "Akeem_Ayers": {
+            "comp_fxn": ""
+        },
+        "Akeem_Priestley": {
+            "comp_fxn": ""
+        },
+        "Al-Khor_Sports_Club": {
+            "comp_fxn": ""
+        },
+        "Alaa_Abdul-Zahra": {
+            "comp_fxn": ""
+        },
+        "Alan_Martin_(footballer)": {
+            "comp_fxn": ""
+        },
+        "Aleksander_Barkov,_Jr.": {
+            "comp_fxn": ""
+        },
+        "Aleksandre_Guruli": {
+            "comp_fxn": ""
+        },
+        "Alex_Plante": {
+            "comp_fxn": ""
+        },
+        "Baghdad": {
+            "comp_fxn": ""
+        },
+        "Brandon,_Manitoba": {
+            "comp_fxn": ""
+        },
+        "Budapest": {
+            "comp_fxn": ""
+        },
+        "C.D._FAS": {
+            "comp_fxn": ""
+        },
+        "Canada": {
+            "comp_fxn": ""
+        },
+        "Charlottetown": {
+            "comp_fxn": ""
+        },
+        "Columbus,_Ohio": {
+            "comp_fxn": ""
+        },
+        "Columbus_Blue_Jackets": {
+            "comp_fxn": ""
+        },
+        "Crewe_Alexandra_F.C.": {
+            "comp_fxn": ""
+        },
+        "Dale_Tallon": {
+            "comp_fxn": ""
+        },
+        "Diemen": {
+            "comp_fxn": ""
+        },
+        "Drew_Caldwell": {
+            "comp_fxn": ""
+        },
+        "FC_Samtredia": {
+            "comp_fxn": ""
+        },
+        "FC_Terek_Grozny": {
+            "comp_fxn": ""
+        },
+        "FC_Tom_Tomsk": {
+            "comp_fxn": ""
+        },
+        "FC_Torpedo_Moscow": {
+            "comp_fxn": ""
+        },
+        "FK_Mughan": {
+            "comp_fxn": ""
+        },
+        "Finland": {
+            "comp_fxn": ""
+        },
+        "Florida_Panthers": {
+            "comp_fxn": ""
+        },
+        "Grozny": {
+            "comp_fxn": ""
+        },
+        "Hungary": {
+            "comp_fxn": ""
+        },
+        "Inuktitut": {
+            "comp_fxn": ""
+        },
+        "Iraq": {
+            "comp_fxn": ""
+        },
+        "Jacksonville_Dolphins": {
+            "comp_fxn": ""
+        },
+        "Jorge_Orosm\u00e1n_da_Silva": {
+            "comp_fxn": ""
+        },
+        "Linebacker": {
+            "comp_fxn": ""
+        },
+        "Maccabi_Tel_Aviv_B.C.": {
+            "comp_fxn": ""
+        },
+        "Manitoba": {
+            "comp_fxn": ""
+        },
+        "National_Hockey_League": {
+            "comp_fxn": ""
+        },
+        "Olympique_Lyonnais": {
+            "comp_fxn": ""
+        },
+        "PAS_Tehran_F.C.": {
+            "comp_fxn": ""
+        },
+        "Parc_Olympique_Lyonnais": {
+            "comp_fxn": ""
+        },
+        "Pe\u00f1arol": {
+            "comp_fxn": ""
+        },
+        "Point_Fortin": {
+            "comp_fxn": ""
+        },
+        "Qatar_Stars_League": {
+            "comp_fxn": ""
+        },
+        "Russian_Football_National_League": {
+            "comp_fxn": ""
+        },
+        "Silvio_Berlusconi": {
+            "comp_fxn": ""
+        },
+        "Trinidad": {
+            "comp_fxn": ""
+        },
+        "Uruguay_Olympic_football_team": {
+            "comp_fxn": ""
+        },
+        "Uruguay_national_football_team": {
+            "comp_fxn": ""
+        },
+        "Valery_Petrakov": {
+            "comp_fxn": ""
+        },
+        "\u017dan_Tabak": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "birthPlace": {
+            "comp_fxn": ""
+        },
+        "chairman": {
+            "comp_fxn": ""
+        },
+        "city": {
+            "comp_fxn": ""
+        },
+        "club": {
+            "comp_fxn": ""
+        },
+        "coach": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "generalManager": {
+            "comp_fxn": ""
+        },
+        "ground": {
+            "comp_fxn": ""
+        },
+        "height": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "league": {
+            "comp_fxn": ""
+        },
+        "manager": {
+            "comp_fxn": ""
+        },
+        "position": {
+            "comp_fxn": ""
+        },
+        "youthclub": {
+            "comp_fxn": ""
+        }
+    }
+}

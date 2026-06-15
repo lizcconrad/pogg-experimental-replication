@@ -1,0 +1,9 @@
+strict digraph {
+Bandeja_paisa [lexicon_key="Bandeja_paisa"];
+Colombian_cuisine [lexicon_key="Colombian_cuisine"];
+Kidney_bean [lexicon_key="Kidney_bean"];
+Antioquia_Department [lexicon_key="Antioquia_Department"];
+Bandeja_paisa -> Colombian_cuisine [label=country, lexicon_key=country];
+Bandeja_paisa -> Kidney_bean [label=ingredient, lexicon_key=ingredient];
+Bandeja_paisa -> Antioquia_Department [label=region, lexicon_key=region];
+}

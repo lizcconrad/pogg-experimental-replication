@@ -1,0 +1,7 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+World_War_II [lexicon_key="World_War_II"];
+Joseph_Stalin [lexicon_key="Joseph_Stalin"];
+Airey_Neave -> World_War_II [label=battle, lexicon_key=battle];
+World_War_II -> Joseph_Stalin [label=commander, lexicon_key=commander];
+}

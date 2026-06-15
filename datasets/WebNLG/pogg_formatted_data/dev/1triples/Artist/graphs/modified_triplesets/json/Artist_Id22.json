@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Anders_Osborne": {
+            "lexicon_key": "Anders_Osborne"
+        },
+        "Alligator_Records": {
+            "lexicon_key": "Alligator_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Alligator_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anders Osborne was signed to the record label 'Alligator Records'."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anders Osborne is signed to the record label Alligator Records."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Anders Osborne's record label is Alligator Records."
+        }
+    },
+    "gold_outputs": [
+        "Anders Osborne is signed to the record label Alligator Records.",
+        "Anders Osborne was signed to the record label 'Alligator Records'.",
+        "Anders Osborne's record label is Alligator Records."
+    ]
+}

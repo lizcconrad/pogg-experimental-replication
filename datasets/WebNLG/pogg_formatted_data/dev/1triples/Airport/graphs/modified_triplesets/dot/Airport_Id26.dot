@@ -1,0 +1,5 @@
+strict digraph {
+Denmark [lexicon_key=Denmark];
+Copenhagen [lexicon_key=Copenhagen];
+Denmark -> Copenhagen [label=capital, lexicon_key=capital];
+}

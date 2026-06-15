@@ -1,0 +1,9 @@
+strict digraph {
+Albennie_Jones [lexicon_key="Albennie_Jones"];
+Jazz [lexicon_key=Jazz];
+"solo_singer" [lexicon_key="solo_singer"];
+"Errata,_Mississippi" [lexicon_key="Errata,_Mississippi"];
+Albennie_Jones -> Jazz [label=genre, lexicon_key=genre];
+Albennie_Jones -> "solo_singer" [label=background, lexicon_key=background];
+Albennie_Jones -> "Errata,_Mississippi" [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Agremiação_Sportiva_Arapiraquense" [lexicon_key="Agremiação_Sportiva_Arapiraquense"];
+Vica [lexicon_key=Vica];
+"Agremiação_Sportiva_Arapiraquense" -> Vica [label=manager, lexicon_key=manager];
+}

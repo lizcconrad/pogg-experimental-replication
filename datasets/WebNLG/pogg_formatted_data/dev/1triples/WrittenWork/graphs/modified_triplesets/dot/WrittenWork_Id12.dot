@@ -1,0 +1,5 @@
+strict digraph {
+Acta_Mathematica_Hungarica [lexicon_key="Acta_Mathematica_Hungarica"];
+"Acta Math. Hungar." [lexicon_key="Acta Math. Hungar."];
+Acta_Mathematica_Hungarica -> "Acta Math. Hungar." [label=abbreviation, lexicon_key=abbreviation];
+}

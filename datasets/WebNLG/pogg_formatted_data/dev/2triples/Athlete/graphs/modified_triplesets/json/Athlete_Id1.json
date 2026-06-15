@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aaron_Hunt": {
+            "lexicon_key": "Aaron_Hunt"
+        },
+        "VfL_Wolfsburg": {
+            "lexicon_key": "VfL_Wolfsburg"
+        },
+        "SV_Werder_Bremen_II": {
+            "lexicon_key": "SV_Werder_Bremen_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aaron_Hunt",
+            "child_node": "VfL_Wolfsburg",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aaron_Hunt",
+            "child_node": "SV_Werder_Bremen_II",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Hunt plays for Vfl Wolfsburg and used to play for SV Werder Bremen II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Hunt's club is VfL Wolfsburg and he plays for SV Werder Bremen II."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Hunt plays for Vfl Wolfsburg and SV Werder Bremen II."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Hunt plays for Vfl Wolfsburg and SV Werder Bremen II.",
+        "Aaron Hunt plays for Vfl Wolfsburg and used to play for SV Werder Bremen II.",
+        "Aaron Hunt's club is VfL Wolfsburg and he plays for SV Werder Bremen II."
+    ]
+}

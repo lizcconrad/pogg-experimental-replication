@@ -1,0 +1,5 @@
+strict digraph {
+Chicago [lexicon_key=Chicago];
+"DuPage_County,_Illinois" [lexicon_key="DuPage_County,_Illinois"];
+Chicago -> "DuPage_County,_Illinois" [label=isPartOf, lexicon_key=isPartOf];
+}

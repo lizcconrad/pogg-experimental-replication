@@ -1,0 +1,5 @@
+strict digraph {
+Battle_of_Fredericksburg [lexicon_key="Battle_of_Fredericksburg"];
+American_Civil_War [lexicon_key="American_Civil_War"];
+Battle_of_Fredericksburg -> American_Civil_War [label=isPartOfMilitaryConflict, lexicon_key=isPartOfMilitaryConflict];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Ariane_5 [lexicon_key="Ariane_5"];
+Airbus_Defence_and_Space [lexicon_key="Airbus_Defence_and_Space"];
+Airbus_Group [lexicon_key="Airbus_Group"];
+Ariane_5 -> Airbus_Defence_and_Space [label=manufacturer, lexicon_key=manufacturer];
+Airbus_Defence_and_Space -> Airbus_Group [label=parentCompany, lexicon_key=parentCompany];
+}

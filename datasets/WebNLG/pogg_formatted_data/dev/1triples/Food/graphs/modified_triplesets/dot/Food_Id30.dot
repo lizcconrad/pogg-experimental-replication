@@ -1,0 +1,5 @@
+strict digraph {
+Mexico [lexicon_key=Mexico];
+Mexicans [lexicon_key=Mexicans];
+Mexico -> Mexicans [label=demonym, lexicon_key=demonym];
+}

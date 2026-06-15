@@ -1,0 +1,5 @@
+strict digraph {
+Akeem_Priestley [lexicon_key="Akeem_Priestley"];
+Jacksonville_Dolphins [lexicon_key="Jacksonville_Dolphins"];
+Akeem_Priestley -> Jacksonville_Dolphins [label=youthclub, lexicon_key=youthclub];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alison_O'Donnell": {
+            "lexicon_key": "Alison_O'Donnell"
+        },
+        "Jazz": {
+            "lexicon_key": "Jazz"
+        },
+        "Autoharp": {
+            "lexicon_key": "Autoharp"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "Jazz",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "instrument",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "Autoharp",
+            "edge_properties": {
+                "lexicon_key": "instrument"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alison O'Donnell is a jazz artist who plays the autoharp."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alison O'Donnell plays the autoharp and performs jazz music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alison O'Donnell is a jazz musician who plays the autoharp."
+        }
+    },
+    "gold_outputs": [
+        "Alison O'Donnell is a jazz artist who plays the autoharp.",
+        "Alison O'Donnell is a jazz musician who plays the autoharp.",
+        "Alison O'Donnell plays the autoharp and performs jazz music."
+    ]
+}

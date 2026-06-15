@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Baked_Alaska": {
+            "lexicon_key": "Baked_Alaska"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Baked_Alaska",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Baked Alaska is a dessert."
+        }
+    },
+    "gold_outputs": [
+        "Baked Alaska is a dessert."
+    ]
+}

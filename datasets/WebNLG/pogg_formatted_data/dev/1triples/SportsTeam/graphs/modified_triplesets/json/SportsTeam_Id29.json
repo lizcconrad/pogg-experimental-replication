@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Massimo_Drago": {
+            "lexicon_key": "Massimo_Drago"
+        },
+        "S.S._Chieti_Calcio": {
+            "lexicon_key": "S.S._Chieti_Calcio"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Massimo_Drago",
+            "child_node": "S.S._Chieti_Calcio",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Massimo Drago plays for S.S.Chieti Calcio."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Massimo Drago's club is the S.S. Chieti Calcio."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Massimo Drago plays for S.S. Chieti Calcio."
+        }
+    },
+    "gold_outputs": [
+        "Massimo Drago plays for S.S. Chieti Calcio.",
+        "Massimo Drago plays for S.S.Chieti Calcio.",
+        "Massimo Drago's club is the S.S. Chieti Calcio."
+    ]
+}

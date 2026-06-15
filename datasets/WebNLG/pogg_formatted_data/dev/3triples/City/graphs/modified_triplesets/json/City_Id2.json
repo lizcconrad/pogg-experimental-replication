@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "Texas": {
+            "lexicon_key": "Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abilene is located in Texas in the United States. Washington, D. C. is the country's capital."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abilene is part of Texas which is in the US, the capital of which is Washington DC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abilene is a part of Texas, in the United States, of which Washington, D.C. is the capital."
+        }
+    },
+    "gold_outputs": [
+        "Abilene is a part of Texas, in the United States, of which Washington, D.C. is the capital.",
+        "Abilene is located in Texas in the United States. Washington, D. C. is the country's capital.",
+        "Abilene is part of Texas which is in the US, the capital of which is Washington DC."
+    ]
+}

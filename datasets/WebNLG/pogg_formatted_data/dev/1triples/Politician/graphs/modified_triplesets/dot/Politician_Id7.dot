@@ -1,0 +1,5 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+Sulaiman_Abdul_Rahman_Taib [lexicon_key="Sulaiman_Abdul_Rahman_Taib"];
+Abdul_Taib_Mahmud -> Sulaiman_Abdul_Rahman_Taib [label=successor, lexicon_key=successor];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Albuquerque,_New_Mexico" [lexicon_key="Albuquerque,_New_Mexico"];
+"State Senate" [lexicon_key="State Senate"];
+"Albuquerque,_New_Mexico" -> "State Senate" [label=leaderTitle, lexicon_key=leaderTitle];
+}

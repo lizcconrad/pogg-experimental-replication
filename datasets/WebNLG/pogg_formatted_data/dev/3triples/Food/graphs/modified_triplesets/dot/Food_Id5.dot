@@ -1,0 +1,9 @@
+strict digraph {
+Arrabbiata_sauce [lexicon_key="Arrabbiata_sauce"];
+Italy [lexicon_key=Italy];
+Italian_language [lexicon_key="Italian_language"];
+Sergio_Mattarella [lexicon_key="Sergio_Mattarella"];
+Arrabbiata_sauce -> Italy [label=country, lexicon_key=country];
+Italy -> Italian_language [label=language, lexicon_key=language];
+Italy -> Sergio_Mattarella [label=leader, lexicon_key=leader];
+}

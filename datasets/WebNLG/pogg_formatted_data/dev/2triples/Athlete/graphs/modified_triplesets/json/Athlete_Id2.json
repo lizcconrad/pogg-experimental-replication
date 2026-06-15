@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abel_Hern\u00e1ndez": {
+            "lexicon_key": "Abel_Hern\u00e1ndez"
+        },
+        "U.S._Citt\u00e0_di_Palermo": {
+            "lexicon_key": "U.S._Citt\u00e0_di_Palermo"
+        },
+        "Pe\u00f1arol": {
+            "lexicon_key": "Pe\u00f1arol"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "U.S._Citt\u00e0_di_Palermo",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "Pe\u00f1arol",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Hernandez plays for the US Citta di Palermo club and also played for Penarol."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Hernandez's club is US Citta di Palermo and Penarol."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abel Hern\u00e1ndez has played for the clubs US Citt\u00e0 di Palermo and Penarol."
+        }
+    },
+    "gold_outputs": [
+        "Abel Hernandez plays for the US Citta di Palermo club and also played for Penarol.",
+        "Abel Hernandez's club is US Citta di Palermo and Penarol.",
+        "Abel Hern\u00e1ndez has played for the clubs US Citt\u00e0 di Palermo and Penarol."
+    ]
+}

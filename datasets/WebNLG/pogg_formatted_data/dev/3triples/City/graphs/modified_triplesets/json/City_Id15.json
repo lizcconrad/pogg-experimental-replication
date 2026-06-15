@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Atlanta": {
+            "lexicon_key": "Atlanta"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        },
+        "Georgia_(U.S._state)": {
+            "lexicon_key": "Georgia_(U.S._state)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Atlanta",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Atlanta",
+            "child_node": "Georgia_(U.S._state)",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The United States, which includes the African Americans among its ethnic groups, is the location of Atlanta, Georgia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The African Americans are an ethnic group in the United States which is the location of Atlanta in the state of Georgia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The African Americans are an ethnic group in the United States where Atlanta is located within the state of Georgia."
+        }
+    },
+    "gold_outputs": [
+        "The African Americans are an ethnic group in the United States where Atlanta is located within the state of Georgia.",
+        "The African Americans are an ethnic group in the United States which is the location of Atlanta in the state of Georgia.",
+        "The United States, which includes the African Americans among its ethnic groups, is the location of Atlanta, Georgia."
+    ]
+}

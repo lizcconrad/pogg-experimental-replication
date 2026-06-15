@@ -1,0 +1,9 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+Manila [lexicon_key=Manila];
+Philippines [lexicon_key=Philippines];
+Insular_Government_of_the_Philippine_Islands [lexicon_key="Insular_Government_of_the_Philippine_Islands"];
+Chinabank -> Manila [label=foundationPlace, lexicon_key=foundationPlace];
+Chinabank -> Philippines [label=location, lexicon_key=location];
+Chinabank -> Insular_Government_of_the_Philippine_Islands [label=foundationPlace, lexicon_key=foundationPlace];
+}

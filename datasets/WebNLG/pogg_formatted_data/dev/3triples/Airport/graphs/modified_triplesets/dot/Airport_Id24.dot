@@ -1,0 +1,9 @@
+strict digraph {
+Poaceae [lexicon_key=Poaceae];
+Monocotyledon [lexicon_key=Monocotyledon];
+Commelinids [lexicon_key=Commelinids];
+"Ardmore_Airport_(New_Zealand)" [lexicon_key="Ardmore_Airport_(New_Zealand)"];
+Poaceae -> Monocotyledon [label=class, lexicon_key=class];
+Poaceae -> Commelinids [label=order, lexicon_key=order];
+"Ardmore_Airport_(New_Zealand)" -> Poaceae [label="2ndRunwaySurfaceType", lexicon_key="2ndRunwaySurfaceType"];
+}

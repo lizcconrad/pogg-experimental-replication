@@ -1,0 +1,5 @@
+strict digraph {
+"10_Hygiea" [lexicon_key="10_Hygiea"];
+"5.57 (days)" [lexicon_key="5.57 (days)"];
+"10_Hygiea" -> "5.57 (days)" [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

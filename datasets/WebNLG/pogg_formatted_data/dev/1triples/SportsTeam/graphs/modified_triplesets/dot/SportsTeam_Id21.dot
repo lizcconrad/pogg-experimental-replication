@@ -1,0 +1,5 @@
+strict digraph {
+Akron_Summit_Assault [lexicon_key="Akron_Summit_Assault"];
+3000 [lexicon_key=3000];
+Akron_Summit_Assault -> 3000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

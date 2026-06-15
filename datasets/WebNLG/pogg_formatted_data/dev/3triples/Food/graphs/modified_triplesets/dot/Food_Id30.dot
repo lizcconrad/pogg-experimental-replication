@@ -1,0 +1,9 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+Karnataka [lexicon_key=Karnataka];
+"Gram flour, vegetables" [lexicon_key="Gram flour, vegetables"];
+Gram_flour [lexicon_key="Gram_flour"];
+Bhajji -> Karnataka [label=region, lexicon_key=region];
+Bhajji -> "Gram flour, vegetables" [label=mainIngredient, lexicon_key=mainIngredient];
+Bhajji -> Gram_flour [label=ingredient, lexicon_key=ingredient];
+}

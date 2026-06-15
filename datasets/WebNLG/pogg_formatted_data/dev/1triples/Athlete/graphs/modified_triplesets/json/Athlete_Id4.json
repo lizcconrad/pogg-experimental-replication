@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Abel_Hern\u00e1ndez": {
+            "lexicon_key": "Abel_Hern\u00e1ndez"
+        },
+        "Uruguay_national_football_team": {
+            "lexicon_key": "Uruguay_national_football_team"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "Uruguay_national_football_team",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Hernandez's club is the Uruguay National football team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Hernandez plays for the Uruguay national football team."
+        }
+    },
+    "gold_outputs": [
+        "Abel Hernandez plays for the Uruguay national football team.",
+        "Abel Hernandez's club is the Uruguay National football team."
+    ]
+}

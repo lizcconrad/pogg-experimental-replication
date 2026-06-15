@@ -1,0 +1,55 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Glen_Ridge,_New_Jersey": {
+            "lexicon_key": "Glen_Ridge,_New_Jersey"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Glen_Ridge,_New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Buzz Aldrin is a US national because he was born in Glen Ridge, New Jersey."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "American Buzz Aldrin hails from Glen Ridge, New Jersey."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Buzz Aldrin was born in Glen Ridge, New Jersey in the United States."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Buzz Aldrin was a US citizen born in Glen Ridge, New Jersey."
+        }
+    },
+    "gold_outputs": [
+        "American Buzz Aldrin hails from Glen Ridge, New Jersey.",
+        "Buzz Aldrin is a US national because he was born in Glen Ridge, New Jersey.",
+        "Buzz Aldrin was a US citizen born in Glen Ridge, New Jersey.",
+        "Buzz Aldrin was born in Glen Ridge, New Jersey in the United States."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+380700000 [lexicon_key=380700000];
+Energy_industry [lexicon_key="Energy_industry"];
+United_States [lexicon_key="United_States"];
+AmeriGas -> 380700000 [label=operatingIncome, lexicon_key=operatingIncome];
+AmeriGas -> Energy_industry [label=industry, lexicon_key=industry];
+AmeriGas -> United_States [label=country, lexicon_key=country];
+}

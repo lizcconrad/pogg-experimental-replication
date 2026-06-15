@@ -1,0 +1,9 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Bangalore [lexicon_key=Bangalore];
+"Nurturing Excellence" [lexicon_key="Nurturing Excellence"];
+"India" [lexicon_key="India"];
+Acharya_Institute_of_Technology -> Bangalore [label=city, lexicon_key=city];
+Acharya_Institute_of_Technology -> "Nurturing Excellence" [label=motto, lexicon_key=motto];
+Acharya_Institute_of_Technology -> "India" [label=country, lexicon_key=country];
+}

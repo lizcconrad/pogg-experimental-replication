@@ -1,0 +1,7 @@
+strict digraph {
+Batchoy [lexicon_key=Batchoy];
+Philippines [lexicon_key=Philippines];
+Chinese_Filipino [lexicon_key="Chinese_Filipino"];
+Batchoy -> Philippines [label=country, lexicon_key=country];
+Philippines -> Chinese_Filipino [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

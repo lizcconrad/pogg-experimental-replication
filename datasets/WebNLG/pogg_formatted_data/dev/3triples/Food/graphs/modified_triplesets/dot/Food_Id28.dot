@@ -1,0 +1,9 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+India [lexicon_key=India];
+Indian_people [lexicon_key="Indian_people"];
+"T._S._Thakur" [lexicon_key="T._S._Thakur"];
+Bhajji -> India [label=country, lexicon_key=country];
+India -> Indian_people [label=demonym, lexicon_key=demonym];
+India -> "T._S._Thakur" [label=leader, lexicon_key=leader];
+}

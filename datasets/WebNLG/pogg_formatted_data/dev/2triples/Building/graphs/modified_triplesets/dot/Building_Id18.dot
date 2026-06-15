@@ -1,0 +1,7 @@
+strict digraph {
+Asher_and_Mary_Isabelle_Richardson_House [lexicon_key="Asher_and_Mary_Isabelle_Richardson_House"];
+"U.S._Route_83" [lexicon_key="U.S._Route_83"];
+"88002539" [lexicon_key="88002539"];
+Asher_and_Mary_Isabelle_Richardson_House -> "U.S._Route_83" [label=location, lexicon_key=location];
+Asher_and_Mary_Isabelle_Richardson_House -> "88002539" [label=NationalRegisterOfHistoricPlacesReferenceNumber, lexicon_key=NationalRegisterOfHistoricPlacesReferenceNumber];
+}

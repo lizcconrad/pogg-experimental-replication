@@ -1,0 +1,9 @@
+strict digraph {
+"200_Public_Square" [lexicon_key="200_Public_Square"];
+Cleveland [lexicon_key=Cleveland];
+"Frank_G._Jackson" [lexicon_key="Frank_G._Jackson"];
+United_States [lexicon_key="United_States"];
+"200_Public_Square" -> Cleveland [label=location, lexicon_key=location];
+Cleveland -> "Frank_G._Jackson" [label=leader, lexicon_key=leader];
+Cleveland -> United_States [label=country, lexicon_key=country];
+}

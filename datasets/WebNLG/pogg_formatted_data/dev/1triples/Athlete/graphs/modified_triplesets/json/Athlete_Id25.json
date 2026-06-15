@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Budapest": {
+            "lexicon_key": "Budapest"
+        },
+        "Hungary": {
+            "lexicon_key": "Hungary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Budapest",
+            "child_node": "Hungary",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Budapest is a city in Hungary."
+        }
+    },
+    "gold_outputs": [
+        "Budapest is a city in Hungary."
+    ]
+}

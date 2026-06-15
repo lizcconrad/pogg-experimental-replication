@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "1099_Figneria": {
+            "lexicon_key": "1099_Figneria"
+        },
+        "349206000000.0": {
+            "lexicon_key": "349206000000.0"
+        },
+        "2006-12-31": {
+            "lexicon_key": "2006-12-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "1099_Figneria",
+            "child_node": "349206000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "epoch",
+            "parent_node": "1099_Figneria",
+            "child_node": "2006-12-31",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1099 Figneria has a periapsis of 349206000000.0 and an epoch date of 31st December 2006."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The epoch date for 1099 Figneria, which has a periapsis measurement of 349206000000.0, is 31 December 2006."
+        }
+    },
+    "gold_outputs": [
+        "1099 Figneria has a periapsis of 349206000000.0 and an epoch date of 31st December 2006.",
+        "The epoch date for 1099 Figneria, which has a periapsis measurement of 349206000000.0, is 31 December 2006."
+    ]
+}

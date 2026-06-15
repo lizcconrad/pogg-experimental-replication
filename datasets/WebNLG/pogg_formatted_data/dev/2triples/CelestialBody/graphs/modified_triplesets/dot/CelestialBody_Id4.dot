@@ -1,0 +1,7 @@
+strict digraph {
+"(66391)_1999_KW4" [lexicon_key="(66391)_1999_KW4"];
+"2004-07-14" [lexicon_key="2004-07-14"];
+9953.28 [lexicon_key=9953.28];
+"(66391)_1999_KW4" -> "2004-07-14" [label=epoch, lexicon_key=epoch];
+"(66391)_1999_KW4" -> 9953.28 [label=rotationPeriod, lexicon_key=rotationPeriod];
+}

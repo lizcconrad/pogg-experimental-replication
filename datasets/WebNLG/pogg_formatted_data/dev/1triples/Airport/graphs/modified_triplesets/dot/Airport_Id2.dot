@@ -1,0 +1,5 @@
+strict digraph {
+Aarhus_Airport [lexicon_key="Aarhus_Airport"];
+2702.0 [lexicon_key=2702.0];
+Aarhus_Airport -> 2702.0 [label=runwayLength, lexicon_key=runwayLength];
+}

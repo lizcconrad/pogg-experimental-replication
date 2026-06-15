@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "Dublin": {
+            "lexicon_key": "Dublin"
+        },
+        "Populous_(company)": {
+            "lexicon_key": "Populous_(company)"
+        },
+        "\"December 2008\"": {
+            "lexicon_key": "\"December 2008\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "3Arena",
+            "child_node": "Dublin",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "architect",
+            "parent_node": "3Arena",
+            "child_node": "Populous_(company)",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        },
+        {
+            "edge_name": "completionDate",
+            "parent_node": "3Arena",
+            "child_node": "\"December 2008\"",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Populous was the architect of 3Arena in Dublin which was completed in December 2008."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The company Populous were the architects who designed the 3Arena in Dublin which was completed in December 2008."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The 3Arena in Dublin was designed by architects from the Populous company and completed in December 2008."
+        }
+    },
+    "gold_outputs": [
+        "Populous was the architect of 3Arena in Dublin which was completed in December 2008.",
+        "The 3Arena in Dublin was designed by architects from the Populous company and completed in December 2008.",
+        "The company Populous were the architects who designed the 3Arena in Dublin which was completed in December 2008."
+    ]
+}

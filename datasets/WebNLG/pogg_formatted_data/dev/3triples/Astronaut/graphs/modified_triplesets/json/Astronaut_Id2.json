@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "\"1998-07-21\"": {
+            "lexicon_key": "\"1998-07-21\""
+        },
+        "California": {
+            "lexicon_key": "California"
+        },
+        "Dianne_Feinstein": {
+            "lexicon_key": "Dianne_Feinstein"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathDate",
+            "parent_node": "Alan_Shepard",
+            "child_node": "\"1998-07-21\"",
+            "edge_properties": {
+                "lexicon_key": "deathDate"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alan_Shepard",
+            "child_node": "California",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "senators",
+            "parent_node": "California",
+            "child_node": "Dianne_Feinstein",
+            "edge_properties": {
+                "lexicon_key": "senators"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Dianne Feinstein is a senator in California where Alan Shepard died on July 21 1998."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Shepard died on the 21st of July, 1998 in California (whose Senator was Dianne Feinstein)."
+        }
+    },
+    "gold_outputs": [
+        "Alan Shepard died on the 21st of July, 1998 in California (whose Senator was Dianne Feinstein).",
+        "Dianne Feinstein is a senator in California where Alan Shepard died on July 21 1998."
+    ]
+}

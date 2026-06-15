@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Anthony_J._Celebrezze": {
+            "lexicon_key": "Anthony_J._Celebrezze"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Anthony_J._Celebrezze",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The successor to Abraham A. Ribicoff is Anthony J. Celebrezze."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anthony J. Celebrezze succeeded Abraham A. Ribicoff."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abraham A. Ribicoff's successor was Anthony J. Celebrezze."
+        }
+    },
+    "gold_outputs": [
+        "Abraham A. Ribicoff's successor was Anthony J. Celebrezze.",
+        "Anthony J. Celebrezze succeeded Abraham A. Ribicoff.",
+        "The successor to Abraham A. Ribicoff is Anthony J. Celebrezze."
+    ]
+}

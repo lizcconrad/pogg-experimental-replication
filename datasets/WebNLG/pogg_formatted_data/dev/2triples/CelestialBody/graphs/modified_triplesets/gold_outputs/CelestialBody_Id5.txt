@@ -1,0 +1,2 @@
+101 Helena has an average speed of 18.44 kilometres per second and an apoapsis of 441092000.0 kilometres.
+101 Helena has an average speed of 18.44 km per sec and an apoapsis of 441092000.0 km.

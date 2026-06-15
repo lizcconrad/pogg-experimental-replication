@@ -1,0 +1,219 @@
+{
+    "node_keys": {
+        "\"Georgia\"": {
+            "comp_fxn": ""
+        },
+        "1299.0 (inhabitants per square kilometre)": {
+            "comp_fxn": ""
+        },
+        "286.5 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "347.1 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "404, 678, 470": {
+            "comp_fxn": ""
+        },
+        "429.9 (inhabitants per square kilometre)": {
+            "comp_fxn": ""
+        },
+        "524.0": {
+            "comp_fxn": ""
+        },
+        "Abilene,_Texas": {
+            "comp_fxn": ""
+        },
+        "African_Americans": {
+            "comp_fxn": ""
+        },
+        "Alabama": {
+            "comp_fxn": ""
+        },
+        "Albany,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Albany,_Oregon": {
+            "comp_fxn": ""
+        },
+        "Albuquerque,_New_Mexico": {
+            "comp_fxn": ""
+        },
+        "Albuquerque_City_Council": {
+            "comp_fxn": ""
+        },
+        "Alexandria,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Alpharetta,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Amarillo,_Texas": {
+            "comp_fxn": ""
+        },
+        "Americans": {
+            "comp_fxn": ""
+        },
+        "Anaheim,_California": {
+            "comp_fxn": ""
+        },
+        "Anderson,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Angola,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Asian_Americans": {
+            "comp_fxn": ""
+        },
+        "Atlanta": {
+            "comp_fxn": ""
+        },
+        "Auburn,_Alabama": {
+            "comp_fxn": ""
+        },
+        "Auburn,_Washington": {
+            "comp_fxn": ""
+        },
+        "Austin,_Texas": {
+            "comp_fxn": ""
+        },
+        "Barack_Obama": {
+            "comp_fxn": ""
+        },
+        "Benton_County,_Oregon": {
+            "comp_fxn": ""
+        },
+        "DeKalb_County,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Don_Tripp": {
+            "comp_fxn": ""
+        },
+        "Dougherty_County,_Georgia": {
+            "comp_fxn": ""
+        },
+        "English_language": {
+            "comp_fxn": ""
+        },
+        "Georgia_(U.S._state)": {
+            "comp_fxn": ""
+        },
+        "Greater_Los_Angeles_Area": {
+            "comp_fxn": ""
+        },
+        "Indiana": {
+            "comp_fxn": ""
+        },
+        "Jones_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "King_County,_Washington": {
+            "comp_fxn": ""
+        },
+        "Lee_County,_Alabama": {
+            "comp_fxn": ""
+        },
+        "Linn_County,_Oregon": {
+            "comp_fxn": ""
+        },
+        "Madison_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Native_Americans_in_the_United_States": {
+            "comp_fxn": ""
+        },
+        "New_Mexico_House_of_Representatives": {
+            "comp_fxn": ""
+        },
+        "Olympia,_Washington": {
+            "comp_fxn": ""
+        },
+        "Orange_County,_California": {
+            "comp_fxn": ""
+        },
+        "Oregon": {
+            "comp_fxn": ""
+        },
+        "Potter_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Randall_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Richard_J._Berry": {
+            "comp_fxn": ""
+        },
+        "Steuben_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Taylor_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Texas": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "United_States_Congress": {
+            "comp_fxn": ""
+        },
+        "United_States_House_of_Representatives": {
+            "comp_fxn": ""
+        },
+        "Washington,_D.C.": {
+            "comp_fxn": ""
+        },
+        "Washington_(state)": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "areaCode": {
+            "comp_fxn": ""
+        },
+        "areaTotal": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "demonym": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevel": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "largestCity": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "leaderTitle": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "populationDensity": {
+            "comp_fxn": ""
+        },
+        "state": {
+            "comp_fxn": ""
+        }
+    }
+}

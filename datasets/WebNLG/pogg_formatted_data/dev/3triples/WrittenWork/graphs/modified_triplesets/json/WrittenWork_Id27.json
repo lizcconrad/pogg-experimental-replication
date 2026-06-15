@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "American_Journal_of_Mathematics": {
+            "lexicon_key": "American_Journal_of_Mathematics"
+        },
+        "\"Am. J. Math.\"": {
+            "lexicon_key": "\"Am. J. Math.\""
+        },
+        "1878": {
+            "lexicon_key": "1878"
+        },
+        "\"1080-6377\"": {
+            "lexicon_key": "\"1080-6377\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "\"Am. J. Math.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "firstPublicationYear",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "1878",
+            "edge_properties": {
+                "lexicon_key": "firstPublicationYear"
+            }
+        },
+        {
+            "edge_name": "issnNumber",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "\"1080-6377\"",
+            "edge_properties": {
+                "lexicon_key": "issnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The American Journal of Mathematics was first published in 1878 and is also known by the abbreviated title of Am. J. Math. It has an ISSN number of 1080-6377."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The American Journal of Mathematics was first published in 1878 and has the abbreviation Am. J. Math. The ISSN number for the journal is 1080-6377."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Also known by the abbreviated title of Am. J. Math, the American Journal of Mathematics was first published in 1878 and has the ISSN number 1080-6377."
+        }
+    },
+    "gold_outputs": [
+        "Also known by the abbreviated title of Am. J. Math, the American Journal of Mathematics was first published in 1878 and has the ISSN number 1080-6377.",
+        "The American Journal of Mathematics was first published in 1878 and has the abbreviation Am. J. Math. The ISSN number for the journal is 1080-6377.",
+        "The American Journal of Mathematics was first published in 1878 and is also known by the abbreviated title of Am. J. Math. It has an ISSN number of 1080-6377."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ardmore_Airport_(New_Zealand)": {
+            "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+        },
+        "Poaceae": {
+            "lexicon_key": "Poaceae"
+        },
+        "Monocotyledon": {
+            "lexicon_key": "Monocotyledon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "3rdRunwaySurfaceType",
+            "parent_node": "Ardmore_Airport_(New_Zealand)",
+            "child_node": "Poaceae",
+            "edge_properties": {
+                "lexicon_key": "3rdRunwaySurfaceType"
+            }
+        },
+        {
+            "edge_name": "class",
+            "parent_node": "Poaceae",
+            "child_node": "Monocotyledon",
+            "edge_properties": {
+                "lexicon_key": "class"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ardmore Airport (New Zealand)'s 3rd runway surface type is Poaceae of the class Monocotyledon."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is included in the class Monocotyledon."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ardmore Airport (New Zealand)'s 3rd runway surface type is Poaceae which is included in the class of Monocotyledon."
+        }
+    },
+    "gold_outputs": [
+        "Ardmore Airport (New Zealand)'s 3rd runway surface type is Poaceae of the class Monocotyledon.",
+        "Ardmore Airport (New Zealand)'s 3rd runway surface type is Poaceae which is included in the class of Monocotyledon.",
+        "The 3rd runway at Ardmore Airport (New Zealand) is made of Poaceae which is included in the class Monocotyledon."
+    ]
+}

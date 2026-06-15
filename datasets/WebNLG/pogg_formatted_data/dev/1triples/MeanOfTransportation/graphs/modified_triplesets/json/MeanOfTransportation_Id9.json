@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "Four-stroke_engine": {
+            "lexicon_key": "Four-stroke_engine"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Four-stroke_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ALCO RS-3 has a four-stroke engine."
+        }
+    },
+    "gold_outputs": [
+        "The ALCO RS-3 has a four-stroke engine."
+    ]
+}

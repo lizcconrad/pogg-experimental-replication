@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bacon_sandwich": {
+            "lexicon_key": "Bacon_sandwich"
+        },
+        "BLT": {
+            "lexicon_key": "BLT"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "Condiment": {
+            "lexicon_key": "Condiment"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Bacon_sandwich",
+            "child_node": "BLT",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bacon_sandwich",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bacon_sandwich",
+            "child_node": "Condiment",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bacon sandwiches are variations of BLT and come from the U.K. Condiments are found in these sandwiches."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The UK dish, the bacon sandwich uses condiments as an ingredient and has the variation BLT."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The bacon sandwich, a variation of the BLT, comes from the UK and contains condiments."
+        }
+    },
+    "gold_outputs": [
+        "Bacon sandwiches are variations of BLT and come from the U.K. Condiments are found in these sandwiches.",
+        "The UK dish, the bacon sandwich uses condiments as an ingredient and has the variation BLT.",
+        "The bacon sandwich, a variation of the BLT, comes from the UK and contains condiments."
+    ]
+}

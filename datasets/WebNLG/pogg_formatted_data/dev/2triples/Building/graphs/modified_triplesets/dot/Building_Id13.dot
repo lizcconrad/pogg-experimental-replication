@@ -1,0 +1,7 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"30 March 2007" [lexicon_key="30 March 2007"];
+"101 Ukrop Way" [lexicon_key="101 Ukrop Way"];
+"Alan_B._Miller_Hall" -> "30 March 2007" [label=buildingStartDate, lexicon_key=buildingStartDate];
+"Alan_B._Miller_Hall" -> "101 Ukrop Way" [label=address, lexicon_key=address];
+}

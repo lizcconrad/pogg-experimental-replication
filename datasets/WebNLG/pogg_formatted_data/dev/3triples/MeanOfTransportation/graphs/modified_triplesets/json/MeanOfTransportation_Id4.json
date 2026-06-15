@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AIDA_Cruises": {
+            "lexicon_key": "AIDA_Cruises"
+        },
+        "Germany": {
+            "lexicon_key": "Germany"
+        },
+        "AIDAstella": {
+            "lexicon_key": "AIDAstella"
+        },
+        "Costa_Crociere": {
+            "lexicon_key": "Costa_Crociere"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "AIDA_Cruises",
+            "child_node": "Germany",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "operator",
+            "parent_node": "AIDAstella",
+            "child_node": "AIDA_Cruises",
+            "edge_properties": {
+                "lexicon_key": "operator"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "AIDAstella",
+            "child_node": "Costa_Crociere",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The operator of AIDAstella is German-based AIDA Cruises. The AIDAstella is owned by Costa Crociere."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AIDAstella is owned by Costa Crociere and its operator is German-based AIDA Cruises."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AIDA Cruises are based in Germany and owned by Costa Crociere. They operate the AIDAstella."
+        }
+    },
+    "gold_outputs": [
+        "AIDA Cruises are based in Germany and owned by Costa Crociere. They operate the AIDAstella.",
+        "The AIDAstella is owned by Costa Crociere and its operator is German-based AIDA Cruises.",
+        "The operator of AIDAstella is German-based AIDA Cruises. The AIDAstella is owned by Costa Crociere."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Aston_Martin_V8 [lexicon_key="Aston_Martin_V8"];
+"Aston_Martin_RHAM/1" [lexicon_key="Aston_Martin_RHAM/1"];
+Aston_Martin_Virage [lexicon_key="Aston_Martin_Virage"];
+Aston_Martin [lexicon_key="Aston_Martin"];
+Aston_Martin_V8 -> "Aston_Martin_RHAM/1" [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+Aston_Martin_V8 -> Aston_Martin_Virage [label=successor, lexicon_key=successor];
+Aston_Martin_Virage -> Aston_Martin [label=manufacturer, lexicon_key=manufacturer];
+}

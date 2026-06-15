@@ -1,0 +1,5 @@
+strict digraph {
+Wolf_Solent [lexicon_key="Wolf_Solent"];
+John_Cowper_Powys [lexicon_key="John_Cowper_Powys"];
+Wolf_Solent -> John_Cowper_Powys [label=author, lexicon_key=author];
+}

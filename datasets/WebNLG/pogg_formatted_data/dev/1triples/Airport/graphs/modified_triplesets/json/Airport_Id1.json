@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Aarhus": {
+            "lexicon_key": "Aarhus"
+        },
+        "Jacob_Bundsgaard": {
+            "lexicon_key": "Jacob_Bundsgaard"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Aarhus",
+            "child_node": "Jacob_Bundsgaard",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader of Aarhus is Jacob Bundsgaard."
+        }
+    },
+    "gold_outputs": [
+        "The leader of Aarhus is Jacob Bundsgaard."
+    ]
+}

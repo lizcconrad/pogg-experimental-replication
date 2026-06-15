@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Hull_City_A.F.C.": {
+            "lexicon_key": "Hull_City_A.F.C."
+        },
+        "Steve_Bruce": {
+            "lexicon_key": "Steve_Bruce"
+        },
+        "Abel_Hern\u00e1ndez": {
+            "lexicon_key": "Abel_Hern\u00e1ndez"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "Hull_City_A.F.C.",
+            "child_node": "Steve_Bruce",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "Hull_City_A.F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Hernandez plays for Hull City AFC who are managed by Steve Bruce."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Hernandez plays for Hull City AFC where the manager is Steve Bruce."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Steve Bruce is the manager of Hull City AFC, where one of the players is Abel Hern\u00e1ndez."
+        }
+    },
+    "gold_outputs": [
+        "Abel Hernandez plays for Hull City AFC where the manager is Steve Bruce.",
+        "Abel Hernandez plays for Hull City AFC who are managed by Steve Bruce.",
+        "Steve Bruce is the manager of Hull City AFC, where one of the players is Abel Hern\u00e1ndez."
+    ]
+}

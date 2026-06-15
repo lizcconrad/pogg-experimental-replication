@@ -1,0 +1,7 @@
+strict digraph {
+Akron_Summit_Assault [lexicon_key="Akron_Summit_Assault"];
+"Akron,_Ohio" [lexicon_key="Akron,_Ohio"];
+United_States [lexicon_key="United_States"];
+Akron_Summit_Assault -> "Akron,_Ohio" [label=ground, lexicon_key=ground];
+"Akron,_Ohio" -> United_States [label=country, lexicon_key=country];
+}

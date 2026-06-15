@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Alfred_Garth_Jones": {
+            "lexicon_key": "Alfred_Garth_Jones"
+        },
+        "London": {
+            "lexicon_key": "London"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alfred_Garth_Jones",
+            "child_node": "London",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfred Garth Jones died in London."
+        }
+    },
+    "gold_outputs": [
+        "Alfred Garth Jones died in London."
+    ]
+}

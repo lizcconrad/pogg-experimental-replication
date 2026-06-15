@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bandeja_paisa": {
+            "lexicon_key": "Bandeja_paisa"
+        },
+        "Colombian_cuisine": {
+            "lexicon_key": "Colombian_cuisine"
+        },
+        "Kidney_bean": {
+            "lexicon_key": "Kidney_bean"
+        },
+        "Antioquia_Department": {
+            "lexicon_key": "Antioquia_Department"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bandeja_paisa",
+            "child_node": "Colombian_cuisine",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bandeja_paisa",
+            "child_node": "Kidney_bean",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Bandeja_paisa",
+            "child_node": "Antioquia_Department",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Part of Colombian cuisine, Bandeja paisa (which has kidney beans as one of the ingredients), comes from Antioquia Department area."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bandeja paisa, which contains kidney beans, is a traditional dish found in the Antioquia Department of Colombia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Kidney beans are an ingredient of Bandeja paisa which is a Colombian dish from the Antioquia department."
+        }
+    },
+    "gold_outputs": [
+        "Bandeja paisa, which contains kidney beans, is a traditional dish found in the Antioquia Department of Colombia.",
+        "Kidney beans are an ingredient of Bandeja paisa which is a Colombian dish from the Antioquia department.",
+        "Part of Colombian cuisine, Bandeja paisa (which has kidney beans as one of the ingredients), comes from Antioquia Department area."
+    ]
+}

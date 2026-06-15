@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Hip_hop_music": {
+            "lexicon_key": "Hip_hop_music"
+        },
+        "Gangsta_rap": {
+            "lexicon_key": "Gangsta_rap"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Hip_hop_music",
+            "child_node": "Gangsta_rap",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Hip hop music has the sub genre Gangsta rap."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Gangsta rap is a sub genre of Hip Hop music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Hip hop music has a sub genre called Gangsta rap."
+        }
+    },
+    "gold_outputs": [
+        "Gangsta rap is a sub genre of Hip Hop music.",
+        "Hip hop music has a sub genre called Gangsta rap.",
+        "Hip hop music has the sub genre Gangsta rap."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bacon_Explosion": {
+            "lexicon_key": "Bacon_Explosion"
+        },
+        "Bacon": {
+            "lexicon_key": "Bacon"
+        },
+        "\"Main course\"": {
+            "lexicon_key": "\"Main course\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "Bacon",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "course",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "\"Main course\"",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bacon is an ingredient in the main course dish 'Bacon Explosion'."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bacon is an ingredient in a main course called Bacon Explosion."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bacon Explosion is an entree that includes bacon, the main ingredient."
+        }
+    },
+    "gold_outputs": [
+        "Bacon Explosion is an entree that includes bacon, the main ingredient.",
+        "Bacon is an ingredient in a main course called Bacon Explosion.",
+        "Bacon is an ingredient in the main course dish 'Bacon Explosion'."
+    ]
+}

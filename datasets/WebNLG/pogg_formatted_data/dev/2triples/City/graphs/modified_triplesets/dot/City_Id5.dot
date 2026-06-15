@@ -1,0 +1,7 @@
+strict digraph {
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+48.0 [lexicon_key=48.0];
+"131.6 (square kilometres)" [lexicon_key="131.6 (square kilometres)"];
+"Anaheim,_California" -> 48.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+"Anaheim,_California" -> "131.6 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+}

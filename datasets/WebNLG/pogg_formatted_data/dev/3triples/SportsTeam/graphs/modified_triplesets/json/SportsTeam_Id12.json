@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AEK_Athens_F.C.": {
+            "lexicon_key": "AEK_Athens_F.C."
+        },
+        "Superleague_Greece": {
+            "lexicon_key": "Superleague_Greece"
+        },
+        "Athens": {
+            "lexicon_key": "Athens"
+        },
+        "69618": {
+            "lexicon_key": "69618"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "AEK_Athens_F.C.",
+            "child_node": "Superleague_Greece",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "AEK_Athens_F.C.",
+            "child_node": "Athens",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "AEK_Athens_F.C.",
+            "child_node": "69618",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AEK Athens F.C. ground is in Athens, they have 69618 members and they compete in the Superleague Greece."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AEK Athens F.C., with 69618 members, play in the Superleague Greece. Their ground is in Athens."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AEK Athens F.C. has 69618 members, their ground is in Athens and they play in the Superleague of Greece."
+        }
+    },
+    "gold_outputs": [
+        "AEK Athens F.C. ground is in Athens, they have 69618 members and they compete in the Superleague Greece.",
+        "AEK Athens F.C. has 69618 members, their ground is in Athens and they play in the Superleague of Greece.",
+        "AEK Athens F.C., with 69618 members, play in the Superleague Greece. Their ground is in Athens."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Bacon_sandwich [lexicon_key="Bacon_sandwich"];
+"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin" [lexicon_key="Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin"];
+Bread [lexicon_key=Bread];
+Bacon_sandwich -> "Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin" [label=alternativeName, lexicon_key=alternativeName];
+Bacon_sandwich -> Bread [label=ingredient, lexicon_key=ingredient];
+}

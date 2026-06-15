@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Karnataka": {
+            "lexicon_key": "Karnataka"
+        },
+        "Arabian_Sea": {
+            "lexicon_key": "Arabian_Sea"
+        },
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "hasToItsWest",
+            "parent_node": "Karnataka",
+            "child_node": "Arabian_Sea",
+            "edge_properties": {
+                "lexicon_key": "hasToItsWest"
+            }
+        },
+        {
+            "edge_name": "state",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Karnataka",
+            "edge_properties": {
+                "lexicon_key": "state"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acharya Institute of Technology is located in the state of Karnataka which has the Arabian Sea to the west."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Acharya Institute of Technology is in the state of Karnataka which has the Arabian Sea to its west."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Acharya Institute of Technology is located in the state of Karnataka, which has to its west the Arabian Sea."
+        }
+    },
+    "gold_outputs": [
+        "Acharya Institute of Technology is in the state of Karnataka which has the Arabian Sea to its west.",
+        "Acharya Institute of Technology is located in the state of Karnataka which has the Arabian Sea to the west.",
+        "Acharya Institute of Technology is located in the state of Karnataka, which has to its west the Arabian Sea."
+    ]
+}

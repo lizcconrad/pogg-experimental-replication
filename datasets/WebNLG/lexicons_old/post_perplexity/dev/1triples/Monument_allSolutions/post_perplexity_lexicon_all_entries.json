@@ -1,0 +1,39 @@
+{
+    "node_keys": {
+        "\"Bronze\"": {
+            "comp_fxn": ""
+        },
+        "\"Red granite and white marble\"": {
+            "comp_fxn": ""
+        },
+        "Artur_Rasizade": {
+            "comp_fxn": ""
+        },
+        "Atat\u00fcrk_Monument_(\u0130zmir)": {
+            "comp_fxn": ""
+        },
+        "Azerbaijan": {
+            "comp_fxn": ""
+        },
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "comp_fxn": ""
+        },
+        "Pietro_Canonica": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "designer": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "material": {
+            "comp_fxn": ""
+        }
+    }
+}

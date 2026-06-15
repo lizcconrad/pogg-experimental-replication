@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "A_Severed_Wasp": {
+            "lexicon_key": "A_Severed_Wasp"
+        },
+        "Madeleine_L'Engle": {
+            "lexicon_key": "Madeleine_L'Engle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "Madeleine_L'Engle",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Madeleine L'Engle wrote \"A Severed Wasp\"."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Madeleine L'Engle is the author of A Severed Wasp."
+        }
+    },
+    "gold_outputs": [
+        "Madeleine L'Engle is the author of A Severed Wasp.",
+        "Madeleine L'Engle wrote \"A Severed Wasp\"."
+    ]
+}

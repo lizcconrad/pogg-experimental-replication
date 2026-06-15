@@ -1,0 +1,9 @@
+strict digraph {
+Baymax [lexicon_key=Baymax];
+"Big_Hero_6_(film)" [lexicon_key="Big_Hero_6_(film)"];
+Duncan_Rouleau [lexicon_key="Duncan_Rouleau"];
+"Steven_T._Seagle" [lexicon_key="Steven_T._Seagle"];
+Baymax -> "Big_Hero_6_(film)" [label=firstAppearanceInFilm, lexicon_key=firstAppearanceInFilm];
+Baymax -> Duncan_Rouleau [label=creator, lexicon_key=creator];
+Baymax -> "Steven_T._Seagle" [label=creator, lexicon_key=creator];
+}

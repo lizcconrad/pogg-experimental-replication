@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Adisham_Hall": {
+            "lexicon_key": "Adisham_Hall"
+        },
+        "Sri_Lanka": {
+            "lexicon_key": "Sri_Lanka"
+        },
+        "Tudor_Revival_architecture": {
+            "lexicon_key": "Tudor_Revival_architecture"
+        },
+        "1931": {
+            "lexicon_key": "1931"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Adisham_Hall",
+            "child_node": "Sri_Lanka",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "architecturalStyle",
+            "parent_node": "Adisham_Hall",
+            "child_node": "Tudor_Revival_architecture",
+            "edge_properties": {
+                "lexicon_key": "architecturalStyle"
+            }
+        },
+        {
+            "edge_name": "completionDate",
+            "parent_node": "Adisham_Hall",
+            "child_node": "1931",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Adisham hall, which is located in Sri Lanka, was completed in 1931 and architectural style is Tudor Revival."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adisham Hall, completed in 1931 and located in Sri Lanka, is in the Tudor Revival architecture style."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adisham Hall, with its Tudor Revival style of architecture, was built in 1931 in Sri Lanka."
+        }
+    },
+    "gold_outputs": [
+        "Adisham Hall, completed in 1931 and located in Sri Lanka, is in the Tudor Revival architecture style.",
+        "Adisham Hall, with its Tudor Revival style of architecture, was built in 1931 in Sri Lanka.",
+        "The Adisham hall, which is located in Sri Lanka, was completed in 1931 and architectural style is Tudor Revival."
+    ]
+}

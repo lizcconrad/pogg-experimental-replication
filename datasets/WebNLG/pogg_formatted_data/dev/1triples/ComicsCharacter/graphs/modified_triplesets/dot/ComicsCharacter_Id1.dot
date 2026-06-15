@@ -1,0 +1,5 @@
+strict digraph {
+"Asterix_(comicsCharacter)" [lexicon_key="Asterix_(comicsCharacter)"];
+"René_Goscinny" [lexicon_key="René_Goscinny"];
+"Asterix_(comicsCharacter)" -> "René_Goscinny" [label=creator, lexicon_key=creator];
+}

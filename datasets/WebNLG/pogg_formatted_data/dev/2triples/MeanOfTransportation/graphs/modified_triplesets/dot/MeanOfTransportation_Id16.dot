@@ -1,0 +1,7 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"Humphrys,_Tennant_and_Dykes" [lexicon_key="Humphrys,_Tennant_and_Dykes"];
+Deptford [lexicon_key=Deptford];
+Alhambra -> "Humphrys,_Tennant_and_Dykes" [label=powerType, lexicon_key=powerType];
+"Humphrys,_Tennant_and_Dykes" -> Deptford [label=location, lexicon_key=location];
+}

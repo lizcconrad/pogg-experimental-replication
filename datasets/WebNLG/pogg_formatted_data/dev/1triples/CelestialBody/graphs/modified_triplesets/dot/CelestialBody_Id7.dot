@@ -1,0 +1,5 @@
+strict digraph {
+"1036_Ganymed" [lexicon_key="1036_Ganymed"];
+"16.86 (kilometrePerSeconds)" [lexicon_key="16.86 (kilometrePerSeconds)"];
+"1036_Ganymed" -> "16.86 (kilometrePerSeconds)" [label=averageSpeed, lexicon_key=averageSpeed];
+}

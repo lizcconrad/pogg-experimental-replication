@@ -1,0 +1,219 @@
+{
+    "node_keys": {
+        "\"Ajo blanco\"": {
+            "comp_fxn": ""
+        },
+        "\"Bread, almonds, garlic, water, olive oil\"": {
+            "comp_fxn": ""
+        },
+        "\"Hot\"": {
+            "comp_fxn": ""
+        },
+        "\"Nationwide in Indonesia, but more specific to Java\"": {
+            "comp_fxn": ""
+        },
+        "\"Tomatoes, red chili, garlic, olive oil\"": {
+            "comp_fxn": ""
+        },
+        "1.8 g": {
+            "comp_fxn": ""
+        },
+        "Ajoblanco": {
+            "comp_fxn": ""
+        },
+        "Arabic": {
+            "comp_fxn": ""
+        },
+        "Arem-arem": {
+            "comp_fxn": ""
+        },
+        "Arrabbiata_sauce": {
+            "comp_fxn": ""
+        },
+        "Arr\u00f2s_negre": {
+            "comp_fxn": ""
+        },
+        "Asam_pedas": {
+            "comp_fxn": ""
+        },
+        "Avocado": {
+            "comp_fxn": ""
+        },
+        "Ayam_penyet": {
+            "comp_fxn": ""
+        },
+        "Baduy": {
+            "comp_fxn": ""
+        },
+        "Baked_Alaska": {
+            "comp_fxn": ""
+        },
+        "Bakewell_tart": {
+            "comp_fxn": ""
+        },
+        "Bakso": {
+            "comp_fxn": ""
+        },
+        "Bandeja_paisa": {
+            "comp_fxn": ""
+        },
+        "Barny_Cakes": {
+            "comp_fxn": ""
+        },
+        "Batchoy": {
+            "comp_fxn": ""
+        },
+        "Binignit": {
+            "comp_fxn": ""
+        },
+        "Cake": {
+            "comp_fxn": ""
+        },
+        "Chicken": {
+            "comp_fxn": ""
+        },
+        "Chocolate": {
+            "comp_fxn": ""
+        },
+        "Chorizo": {
+            "comp_fxn": ""
+        },
+        "Cuttlefish": {
+            "comp_fxn": ""
+        },
+        "Derbyshire_Dales": {
+            "comp_fxn": ""
+        },
+        "Dessert": {
+            "comp_fxn": ""
+        },
+        "Frangipane": {
+            "comp_fxn": ""
+        },
+        "Ice_cream": {
+            "comp_fxn": ""
+        },
+        "Indonesia": {
+            "comp_fxn": ""
+        },
+        "Italians": {
+            "comp_fxn": ""
+        },
+        "Italy": {
+            "comp_fxn": ""
+        },
+        "Java": {
+            "comp_fxn": ""
+        },
+        "Jusuf_Kalla": {
+            "comp_fxn": ""
+        },
+        "Lemon": {
+            "comp_fxn": ""
+        },
+        "Malaysia": {
+            "comp_fxn": ""
+        },
+        "Mexicans": {
+            "comp_fxn": ""
+        },
+        "Mexico": {
+            "comp_fxn": ""
+        },
+        "Mondelez_International": {
+            "comp_fxn": ""
+        },
+        "Native_Americans_in_the_United_States": {
+            "comp_fxn": ""
+        },
+        "Noodle": {
+            "comp_fxn": ""
+        },
+        "Patrick_McLoughlin": {
+            "comp_fxn": ""
+        },
+        "Persea": {
+            "comp_fxn": ""
+        },
+        "Philippines": {
+            "comp_fxn": ""
+        },
+        "Rosids": {
+            "comp_fxn": ""
+        },
+        "Shumai": {
+            "comp_fxn": ""
+        },
+        "Siomay": {
+            "comp_fxn": ""
+        },
+        "Spanish_language": {
+            "comp_fxn": ""
+        },
+        "Squid": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "Vegetable": {
+            "comp_fxn": ""
+        },
+        "Vermicelli": {
+            "comp_fxn": ""
+        },
+        "Visayas": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "alternativeName": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "course": {
+            "comp_fxn": ""
+        },
+        "creator": {
+            "comp_fxn": ""
+        },
+        "demonym": {
+            "comp_fxn": ""
+        },
+        "dishVariation": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "genus": {
+            "comp_fxn": ""
+        },
+        "ingredient": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "mainIngredient": {
+            "comp_fxn": ""
+        },
+        "order": {
+            "comp_fxn": ""
+        },
+        "protein": {
+            "comp_fxn": ""
+        },
+        "region": {
+            "comp_fxn": ""
+        },
+        "servingTemperature": {
+            "comp_fxn": ""
+        }
+    }
+}

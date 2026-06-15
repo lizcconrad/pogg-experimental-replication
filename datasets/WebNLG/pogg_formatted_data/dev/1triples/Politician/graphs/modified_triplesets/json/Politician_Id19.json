@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Airey_Neave": {
+            "lexicon_key": "Airey_Neave"
+        },
+        "\"Knightsbridge, London\"": {
+            "lexicon_key": "\"Knightsbridge, London\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Airey_Neave",
+            "child_node": "\"Knightsbridge, London\"",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Knightsbridge, London is the birthplace of Airey Neave."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Airey Neave was born in Knightsbridge, London."
+        }
+    },
+    "gold_outputs": [
+        "Airey Neave was born in Knightsbridge, London.",
+        "Knightsbridge, London is the birthplace of Airey Neave."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bolt_(comicsCharacter)": {
+            "lexicon_key": "Bolt_(comicsCharacter)"
+        },
+        "Ernie_Col\u00f3n": {
+            "lexicon_key": "Ernie_Col\u00f3n"
+        },
+        "\"Larry Bolatinsky\"": {
+            "lexicon_key": "\"Larry Bolatinsky\""
+        },
+        "Dan_Mishkin": {
+            "lexicon_key": "Dan_Mishkin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bolt_(comicsCharacter)",
+            "child_node": "Ernie_Col\u00f3n",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Bolt_(comicsCharacter)",
+            "child_node": "\"Larry Bolatinsky\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        },
+        {
+            "edge_name": "creator",
+            "parent_node": "Bolt_(comicsCharacter)",
+            "child_node": "Dan_Mishkin",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The comic character Bolt has the alternative name of Larry Bolatinsky and was created by Ernie Colon and Dan Mishkin."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bolt, a comic character AKA Larry Bolatinsky was created by Dan Mishkin and Ernie Col\u00f3n."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The comic character Bolt whose alternative name is Larry Bolatinsky was created by Ernie Colon and Dan Mishkin."
+        }
+    },
+    "gold_outputs": [
+        "Bolt, a comic character AKA Larry Bolatinsky was created by Dan Mishkin and Ernie Col\u00f3n.",
+        "The comic character Bolt has the alternative name of Larry Bolatinsky and was created by Ernie Colon and Dan Mishkin.",
+        "The comic character Bolt whose alternative name is Larry Bolatinsky was created by Ernie Colon and Dan Mishkin."
+    ]
+}

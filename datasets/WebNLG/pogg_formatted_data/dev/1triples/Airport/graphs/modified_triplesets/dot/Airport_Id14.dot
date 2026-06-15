@@ -1,0 +1,5 @@
+strict digraph {
+Alpena_County_Regional_Airport [lexicon_key="Alpena_County_Regional_Airport"];
+"1/19" [lexicon_key="1/19"];
+Alpena_County_Regional_Airport -> "1/19" [label=runwayName, lexicon_key=runwayName];
+}

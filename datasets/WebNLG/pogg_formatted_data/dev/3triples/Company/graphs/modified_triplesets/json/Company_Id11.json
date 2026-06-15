@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "10264000000": {
+            "lexicon_key": "10264000000"
+        },
+        "556300000": {
+            "lexicon_key": "556300000"
+        },
+        "29000": {
+            "lexicon_key": "29000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "revenue",
+            "parent_node": "Trane",
+            "child_node": "10264000000",
+            "edge_properties": {
+                "lexicon_key": "revenue"
+            }
+        },
+        {
+            "edge_name": "netIncome",
+            "parent_node": "Trane",
+            "child_node": "556300000",
+            "edge_properties": {
+                "lexicon_key": "netIncome"
+            }
+        },
+        {
+            "edge_name": "numberOfEmployees",
+            "parent_node": "Trane",
+            "child_node": "29000",
+            "edge_properties": {
+                "lexicon_key": "numberOfEmployees"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Trane has 29,000 employees, its net income is $556,300,000 and revenue is $10,264,000,000."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Trane has a net income of $556,300,000 and a total revenue of 10264000000, earned by its 29,000 employees."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Trane, which has a total of 290000 employees, has a revenue of $10,264,000,000 and a net income of approximately $556 million."
+        }
+    },
+    "gold_outputs": [
+        "Trane has 29,000 employees, its net income is $556,300,000 and revenue is $10,264,000,000.",
+        "Trane has a net income of $556,300,000 and a total revenue of 10264000000, earned by its 29,000 employees.",
+        "Trane, which has a total of 290000 employees, has a revenue of $10,264,000,000 and a net income of approximately $556 million."
+    ]
+}

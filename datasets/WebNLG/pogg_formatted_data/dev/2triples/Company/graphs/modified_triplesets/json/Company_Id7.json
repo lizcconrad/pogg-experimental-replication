@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "CEO": {
+            "lexicon_key": "CEO"
+        },
+        "S.A._(corporation)": {
+            "lexicon_key": "S.A._(corporation)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Hypermarcas",
+            "child_node": "CEO",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Hypermarcas",
+            "child_node": "S.A._(corporation)",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Hypermarcas, a type of S.A (corporation) is managed by their CEO."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Hypermarcas is an S.A. corporation with its CEO as its key person."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Hypermarcas is a type of S.A. corporation, and their CEO acts as their key person."
+        }
+    },
+    "gold_outputs": [
+        "Hypermarcas is a type of S.A. corporation, and their CEO acts as their key person.",
+        "Hypermarcas is an S.A. corporation with its CEO as its key person.",
+        "Hypermarcas, a type of S.A (corporation) is managed by their CEO."
+    ]
+}

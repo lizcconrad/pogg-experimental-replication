@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alison_O'Donnell": {
+            "lexicon_key": "Alison_O'Donnell"
+        },
+        "Jazz": {
+            "lexicon_key": "Jazz"
+        },
+        "Funk": {
+            "lexicon_key": "Funk"
+        },
+        "Static_Caravan_Recordings": {
+            "lexicon_key": "Static_Caravan_Recordings"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "Jazz",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "derivative",
+            "parent_node": "Jazz",
+            "child_node": "Funk",
+            "edge_properties": {
+                "lexicon_key": "derivative"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "Static_Caravan_Recordings",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jazz musician Alison O'Donnell is signed with Static Caravan Recordings. Jazz is the origin of Funk."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Funk is a derivative of Jazz, the music Alison O'Donnell performs. Alison O'Donnell recorded on the record label, Static Caravan Recordings."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Funk is a derivative of Jazz, the music Alison O'Donnell plays. Alison O'Donnell recorded on the record label, Static Caravan Recordings."
+        }
+    },
+    "gold_outputs": [
+        "Funk is a derivative of Jazz, the music Alison O'Donnell performs. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+        "Funk is a derivative of Jazz, the music Alison O'Donnell plays. Alison O'Donnell recorded on the record label, Static Caravan Recordings.",
+        "Jazz musician Alison O'Donnell is signed with Static Caravan Recordings. Jazz is the origin of Funk."
+    ]
+}

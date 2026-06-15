@@ -1,0 +1,5 @@
+strict digraph {
+Philippines [lexicon_key=Philippines];
+Arabic [lexicon_key=Arabic];
+Philippines -> Arabic [label=language, lexicon_key=language];
+}

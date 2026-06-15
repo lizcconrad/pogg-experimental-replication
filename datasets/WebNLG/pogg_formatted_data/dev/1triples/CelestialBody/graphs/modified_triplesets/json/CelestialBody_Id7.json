@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "1036_Ganymed": {
+            "lexicon_key": "1036_Ganymed"
+        },
+        "16.86 (kilometrePerSeconds)": {
+            "lexicon_key": "16.86 (kilometrePerSeconds)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "averageSpeed",
+            "parent_node": "1036_Ganymed",
+            "child_node": "16.86 (kilometrePerSeconds)",
+            "edge_properties": {
+                "lexicon_key": "averageSpeed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1036 Ganymed has an average speed of 16.86 km per sec."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1036 Ganymed travels at an average speed of 16.86 kilometres per second."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The celestial body known as 1036 Ganymed has an average speed of 16.86 k.p.s."
+        }
+    },
+    "gold_outputs": [
+        "1036 Ganymed has an average speed of 16.86 km per sec.",
+        "1036 Ganymed travels at an average speed of 16.86 kilometres per second.",
+        "The celestial body known as 1036 Ganymed has an average speed of 16.86 k.p.s."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Batchoy [lexicon_key=Batchoy];
+Chicken [lexicon_key=Chicken];
+Batchoy -> Chicken [label=ingredient, lexicon_key=ingredient];
+}

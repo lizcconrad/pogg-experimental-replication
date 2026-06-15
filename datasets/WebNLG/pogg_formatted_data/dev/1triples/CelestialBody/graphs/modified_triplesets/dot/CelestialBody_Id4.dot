@@ -1,0 +1,5 @@
+strict digraph {
+"(66391)_1999_KW4" [lexicon_key="(66391)_1999_KW4"];
+29919600000.0 [lexicon_key=29919600000.0];
+"(66391)_1999_KW4" -> 29919600000.0 [label=periapsis, lexicon_key=periapsis];
+}

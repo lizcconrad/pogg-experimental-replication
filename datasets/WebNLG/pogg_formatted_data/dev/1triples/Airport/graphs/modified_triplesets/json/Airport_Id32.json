@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Pakistan": {
+            "lexicon_key": "Pakistan"
+        },
+        "Anwar_Zaheer_Jamali": {
+            "lexicon_key": "Anwar_Zaheer_Jamali"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Pakistan",
+            "child_node": "Anwar_Zaheer_Jamali",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader of Pakistan is Anwar Zaheer Jamali."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Pakistan has a leader called Anwar Zaheer Jamali."
+        }
+    },
+    "gold_outputs": [
+        "Pakistan has a leader called Anwar Zaheer Jamali.",
+        "The leader of Pakistan is Anwar Zaheer Jamali."
+    ]
+}

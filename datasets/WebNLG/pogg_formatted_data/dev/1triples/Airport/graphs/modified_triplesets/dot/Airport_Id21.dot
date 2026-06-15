@@ -1,0 +1,5 @@
+strict digraph {
+"Ardmore_Airport_(New_Zealand)" [lexicon_key="Ardmore_Airport_(New_Zealand)"];
+Auckland [lexicon_key=Auckland];
+"Ardmore_Airport_(New_Zealand)" -> Auckland [label=location, lexicon_key=location];
+}

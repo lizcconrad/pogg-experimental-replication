@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alan_Martin_(footballer)": {
+            "lexicon_key": "Alan_Martin_(footballer)"
+        },
+        "Accrington_Stanley_F.C.": {
+            "lexicon_key": "Accrington_Stanley_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Accrington_Stanley_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Martin played football for Accrington Stanley F.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Footballer, Alan Martin plays for the club, Accrington Stanley F.C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alan Martin played for Accrington Stanley F.C."
+        }
+    },
+    "gold_outputs": [
+        "Alan Martin played football for Accrington Stanley F.C.",
+        "Alan Martin played for Accrington Stanley F.C.",
+        "Footballer, Alan Martin plays for the club, Accrington Stanley F.C."
+    ]
+}

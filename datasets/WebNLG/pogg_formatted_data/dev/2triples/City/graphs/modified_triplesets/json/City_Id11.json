@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Atlanta": {
+            "lexicon_key": "Atlanta"
+        },
+        "Georgia_(U.S._state)": {
+            "lexicon_key": "Georgia_(U.S._state)"
+        },
+        "Fulton_County,_Georgia": {
+            "lexicon_key": "Fulton_County,_Georgia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Atlanta",
+            "child_node": "Georgia_(U.S._state)",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Atlanta",
+            "child_node": "Fulton_County,_Georgia",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Atlanta is part of Fulton County, Georgia, United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Atlanta is part of Fulton County, Georgia, US."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Atlanta is part of Fulton County, Georgia U.S."
+        }
+    },
+    "gold_outputs": [
+        "Atlanta is part of Fulton County, Georgia U.S.",
+        "Atlanta is part of Fulton County, Georgia, US.",
+        "Atlanta is part of Fulton County, Georgia, United States."
+    ]
+}

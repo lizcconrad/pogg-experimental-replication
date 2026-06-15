@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Mumbai": {
+            "lexicon_key": "Mumbai"
+        },
+        "AWH_Engineering_College": {
+            "lexicon_key": "AWH_Engineering_College"
+        },
+        "Ganges": {
+            "lexicon_key": "Ganges"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "largestCity",
+            "parent_node": "India",
+            "child_node": "Mumbai",
+            "edge_properties": {
+                "lexicon_key": "largestCity"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "AWH_Engineering_College",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "river",
+            "parent_node": "India",
+            "child_node": "Ganges",
+            "edge_properties": {
+                "lexicon_key": "river"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AWH Engineering College is in India. Mumbai is the largest city in India. The river Ganges runs through India."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AWH Engineering College is located in the country of India, whose capital city is Mumbai. One of the rivers in India is called the Ganges."
+        }
+    },
+    "gold_outputs": [
+        "AWH Engineering College is in India. Mumbai is the largest city in India. The river Ganges runs through India.",
+        "AWH Engineering College is located in the country of India, whose capital city is Mumbai. One of the rivers in India is called the Ganges."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+Eric_Flint [lexicon_key="Eric_Flint"];
+Hardcover [lexicon_key=Hardcover];
+"1-4165-2060-0" [lexicon_key="1-4165-2060-0"];
+1634:_The_Ram_Rebellion -> Eric_Flint [label=author, lexicon_key=author];
+1634:_The_Ram_Rebellion -> Hardcover [label=mediaType, lexicon_key=mediaType];
+1634:_The_Ram_Rebellion -> "1-4165-2060-0" [label=isbnNumber, lexicon_key=isbnNumber];
+}

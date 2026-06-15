@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Airey_Neave": {
+            "lexicon_key": "Airey_Neave"
+        },
+        "1935": {
+            "lexicon_key": "1935"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "serviceStartYear",
+            "parent_node": "Airey_Neave",
+            "child_node": "1935",
+            "edge_properties": {
+                "lexicon_key": "serviceStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Airey Neave began his military career in 1935."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Airey Neave started serving in military in 1935."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Airey Neave began his service in 1935."
+        }
+    },
+    "gold_outputs": [
+        "Airey Neave began his military career in 1935.",
+        "Airey Neave began his service in 1935.",
+        "Airey Neave started serving in military in 1935."
+    ]
+}

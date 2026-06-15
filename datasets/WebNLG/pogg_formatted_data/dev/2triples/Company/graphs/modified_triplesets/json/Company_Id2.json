@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AmeriGas": {
+            "lexicon_key": "AmeriGas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Energy_industry": {
+            "lexicon_key": "Energy_industry"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "regionServed",
+            "parent_node": "AmeriGas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "regionServed"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "AmeriGas",
+            "child_node": "Energy_industry",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AmeriGas is a company in the energy industry, and they serve all regions of the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AmeriGas is in the energy business and is located in the United States where its services are provided."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AmeriGas's industry is classified as the energy industry. They serve the United States."
+        }
+    },
+    "gold_outputs": [
+        "AmeriGas is a company in the energy industry, and they serve all regions of the United States.",
+        "AmeriGas is in the energy business and is located in the United States where its services are provided.",
+        "AmeriGas's industry is classified as the energy industry. They serve the United States."
+    ]
+}

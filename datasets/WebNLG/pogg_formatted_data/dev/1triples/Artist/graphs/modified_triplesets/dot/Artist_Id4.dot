@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Black_metal [lexicon_key="Black_metal"];
+Aaron_Turner -> Black_metal [label=genre, lexicon_key=genre];
+}

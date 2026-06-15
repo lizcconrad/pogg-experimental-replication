@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Mike_Akhigbe": {
+            "lexicon_key": "Mike_Akhigbe"
+        },
+        "Oladipo_Diya": {
+            "lexicon_key": "Oladipo_Diya"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "predecessor",
+            "parent_node": "Mike_Akhigbe",
+            "child_node": "Oladipo_Diya",
+            "edge_properties": {
+                "lexicon_key": "predecessor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Oladipo Diya was Mike Akhigbe's predecessor."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Oladipo Diya was the predecessor of Mike Akhigbe."
+        }
+    },
+    "gold_outputs": [
+        "Oladipo Diya was Mike Akhigbe's predecessor.",
+        "Oladipo Diya was the predecessor of Mike Akhigbe."
+    ]
+}

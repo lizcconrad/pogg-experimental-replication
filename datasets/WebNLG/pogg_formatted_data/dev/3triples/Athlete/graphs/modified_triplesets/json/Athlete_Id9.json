@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Akeem_Dent": {
+            "lexicon_key": "Akeem_Dent"
+        },
+        "Atlanta_Falcons": {
+            "lexicon_key": "Atlanta_Falcons"
+        },
+        "1987-09-27": {
+            "lexicon_key": "1987-09-27"
+        },
+        "\"Atlanta, Georgia\"": {
+            "lexicon_key": "\"Atlanta, Georgia\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "debutTeam",
+            "parent_node": "Akeem_Dent",
+            "child_node": "Atlanta_Falcons",
+            "edge_properties": {
+                "lexicon_key": "debutTeam"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Akeem_Dent",
+            "child_node": "1987-09-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Akeem_Dent",
+            "child_node": "\"Atlanta, Georgia\"",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Dent, who made his debut with the Atlanta Falcons, was born in Atlanta, Georgia on 27 September 1987."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Dent, who was born on 27 September 1987 in Atlanta, Georgia, made his debut with the Atlanta Falcons."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Akeem Dent, who was born in Atlanta Georgia on 27 September 1987, made his debut with the Atlanta Falcons."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Dent, who made his debut with the Atlanta Falcons, was born in Atlanta, Georgia on 27 September 1987.",
+        "Akeem Dent, who was born in Atlanta Georgia on 27 September 1987, made his debut with the Atlanta Falcons.",
+        "Akeem Dent, who was born on 27 September 1987 in Atlanta, Georgia, made his debut with the Atlanta Falcons."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "ALV_X-1": {
+            "lexicon_key": "ALV_X-1"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        },
+        "Americans": {
+            "lexicon_key": "Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "countryOrigin",
+            "parent_node": "ALV_X-1",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "countryOrigin"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "demonym",
+            "parent_node": "United_States",
+            "child_node": "Americans",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Originating in the United States and by Americans, some of African decent is the ALV X-1."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "ALV X-1 comes from the US where Americans live and African Americans are an ethnic group."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The country of origin of the ALV X-1 is the United States, home to Americans and where African Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "ALV X-1 comes from the US where Americans live and African Americans are an ethnic group.",
+        "Originating in the United States and by Americans, some of African decent is the ALV X-1.",
+        "The country of origin of the ALV X-1 is the United States, home to Americans and where African Americans are an ethnic group."
+    ]
+}

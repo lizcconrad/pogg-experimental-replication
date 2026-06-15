@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abner_W._Sibal": {
+            "lexicon_key": "Abner_W._Sibal"
+        },
+        "World_War_II": {
+            "lexicon_key": "World_War_II"
+        },
+        "Chiang_Kai-shek": {
+            "lexicon_key": "Chiang_Kai-shek"
+        },
+        "United_States_Army": {
+            "lexicon_key": "United_States_Army"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Abner_W._Sibal",
+            "child_node": "World_War_II",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "commander",
+            "parent_node": "World_War_II",
+            "child_node": "Chiang_Kai-shek",
+            "edge_properties": {
+                "lexicon_key": "commander"
+            }
+        },
+        {
+            "edge_name": "militaryBranch",
+            "parent_node": "Abner_W._Sibal",
+            "child_node": "United_States_Army",
+            "edge_properties": {
+                "lexicon_key": "militaryBranch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "World War II had Chiang Kai-shek as a commander and United States Army soldier Abner W. Sibal."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abner W. Sibal served in the United States Army during the Second World War and during that war Chiang Kai-shek was one of the commanders."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abner W. Sibal, served in the United States Army and fought in World War II, one of the commanders of which, was Chiang Kai-shek."
+        }
+    },
+    "gold_outputs": [
+        "Abner W. Sibal served in the United States Army during the Second World War and during that war Chiang Kai-shek was one of the commanders.",
+        "Abner W. Sibal, served in the United States Army and fought in World War II, one of the commanders of which, was Chiang Kai-shek.",
+        "World War II had Chiang Kai-shek as a commander and United States Army soldier Abner W. Sibal."
+    ]
+}

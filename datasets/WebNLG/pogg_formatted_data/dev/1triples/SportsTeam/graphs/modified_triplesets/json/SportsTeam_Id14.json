@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "AFC_Ajax_(amateurs)": {
+            "lexicon_key": "AFC_Ajax_(amateurs)"
+        },
+        "\"Joden , Godenzonen\"": {
+            "lexicon_key": "\"Joden , Godenzonen\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nickname",
+            "parent_node": "AFC_Ajax_(amateurs)",
+            "child_node": "\"Joden , Godenzonen\"",
+            "edge_properties": {
+                "lexicon_key": "nickname"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AFC Ajax (amateurs) have the nickname \"Joden, Godenzonen\"."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AFC Ajax team's nickname is Joden, Godenzonen."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AFC Ajax (amateurs) nickname is Joden, Godenzonen."
+        }
+    },
+    "gold_outputs": [
+        "AFC Ajax (amateurs) have the nickname \"Joden, Godenzonen\".",
+        "AFC Ajax (amateurs) nickname is Joden, Godenzonen.",
+        "The AFC Ajax team's nickname is Joden, Godenzonen."
+    ]
+}

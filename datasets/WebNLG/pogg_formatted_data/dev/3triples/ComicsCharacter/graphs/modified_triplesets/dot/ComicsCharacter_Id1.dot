@@ -1,0 +1,9 @@
+strict digraph {
+"Auron_(comicsCharacter)" [lexicon_key="Auron_(comicsCharacter)"];
+Karl_Kesel [lexicon_key="Karl_Kesel"];
+Americans [lexicon_key=Americans];
+Walt_Simonson [lexicon_key="Walt_Simonson"];
+"Auron_(comicsCharacter)" -> Karl_Kesel [label=creator, lexicon_key=creator];
+"Auron_(comicsCharacter)" -> Walt_Simonson [label=creator, lexicon_key=creator];
+Karl_Kesel -> Americans [label=nationality, lexicon_key=nationality];
+}

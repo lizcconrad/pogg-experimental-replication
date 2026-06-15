@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Akita_Museum_of_Art": {
+            "lexicon_key": "Akita_Museum_of_Art"
+        },
+        "\"2013-09-28\"": {
+            "lexicon_key": "\"2013-09-28\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inaugurationDate",
+            "parent_node": "Akita_Museum_of_Art",
+            "child_node": "\"2013-09-28\"",
+            "edge_properties": {
+                "lexicon_key": "inaugurationDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Akita Museum of Art was inaugurated on 28th September 2013."
+        }
+    },
+    "gold_outputs": [
+        "The Akita Museum of Art was inaugurated on 28th September 2013."
+    ]
+}

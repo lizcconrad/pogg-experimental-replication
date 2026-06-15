@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Andrew_White_(musician)": {
+            "lexicon_key": "Andrew_White_(musician)"
+        },
+        "Marry_Banilow": {
+            "lexicon_key": "Marry_Banilow"
+        },
+        "Alternative_rock": {
+            "lexicon_key": "Alternative_rock"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_White_(musician)",
+            "child_node": "Marry_Banilow",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Andrew_White_(musician)",
+            "child_node": "Alternative_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrew White whose genre is alternative rock, is associated with the musical artist Marry Banilow."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrew White is and alternative rock musician who is associated with Marry Banilow."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andrew White, whose genre is alternative rock, is associated with the musical artist Marry Banilow."
+        }
+    },
+    "gold_outputs": [
+        "Andrew White is and alternative rock musician who is associated with Marry Banilow.",
+        "Andrew White whose genre is alternative rock, is associated with the musical artist Marry Banilow.",
+        "Andrew White, whose genre is alternative rock, is associated with the musical artist Marry Banilow."
+    ]
+}

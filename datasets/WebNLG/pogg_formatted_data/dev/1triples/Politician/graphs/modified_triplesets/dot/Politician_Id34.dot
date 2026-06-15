@@ -1,0 +1,5 @@
+strict digraph {
+"Juan_Perón" [lexicon_key="Juan_Perón"];
+"Labour_Party_(Argentina)" [lexicon_key="Labour_Party_(Argentina)"];
+"Juan_Perón" -> "Labour_Party_(Argentina)" [label=party, lexicon_key=party];
+}

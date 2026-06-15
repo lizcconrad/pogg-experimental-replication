@@ -1,0 +1,7 @@
+strict digraph {
+Trane [lexicon_key=Trane];
+"1913-01-01" [lexicon_key="1913-01-01"];
+"La_Crosse,_Wisconsin" [lexicon_key="La_Crosse,_Wisconsin"];
+Trane -> "1913-01-01" [label=foundingDate, lexicon_key=foundingDate];
+Trane -> "La_Crosse,_Wisconsin" [label=foundationPlace, lexicon_key=foundationPlace];
+}

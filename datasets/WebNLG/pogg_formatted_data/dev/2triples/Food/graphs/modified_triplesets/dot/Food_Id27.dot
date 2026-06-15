@@ -1,0 +1,7 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+"Pakora and other fritters made from wheat or corn flour" [lexicon_key="Pakora and other fritters made from wheat or corn flour"];
+Gram_flour [lexicon_key="Gram_flour"];
+Bhajji -> "Pakora and other fritters made from wheat or corn flour" [label=similarDish, lexicon_key=similarDish];
+Bhajji -> Gram_flour [label=ingredient, lexicon_key=ingredient];
+}

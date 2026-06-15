@@ -1,0 +1,9 @@
+strict digraph {
+"1955_Dodge" [lexicon_key="1955_Dodge"];
+V8_engine [lexicon_key="V8_engine"];
+"3-speed automatic" [lexicon_key="3-speed automatic"];
+"Dodge Coronet" [lexicon_key="Dodge Coronet"];
+"1955_Dodge" -> V8_engine [label=engine, lexicon_key=engine];
+"1955_Dodge" -> "3-speed automatic" [label=transmission, lexicon_key=transmission];
+"1955_Dodge" -> "Dodge Coronet" [label=alternativeName, lexicon_key=alternativeName];
+}

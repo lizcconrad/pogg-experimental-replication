@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "250_Delaware_Avenue": {
+            "lexicon_key": "250_Delaware_Avenue"
+        },
+        "Buffalo,_New_York": {
+            "lexicon_key": "Buffalo,_New_York"
+        },
+        "Erie_County,_New_York": {
+            "lexicon_key": "Erie_County,_New_York"
+        },
+        "New_York": {
+            "lexicon_key": "New_York"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "250_Delaware_Avenue",
+            "child_node": "Buffalo,_New_York",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Buffalo,_New_York",
+            "child_node": "Erie_County,_New_York",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Buffalo,_New_York",
+            "child_node": "New_York",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "250 Delaware Avenue is located in Buffalo, Erie County, New York."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "250 Delaware avenue is in Buffalo, Erie County, New York."
+        }
+    },
+    "gold_outputs": [
+        "250 Delaware Avenue is located in Buffalo, Erie County, New York.",
+        "250 Delaware avenue is in Buffalo, Erie County, New York."
+    ]
+}

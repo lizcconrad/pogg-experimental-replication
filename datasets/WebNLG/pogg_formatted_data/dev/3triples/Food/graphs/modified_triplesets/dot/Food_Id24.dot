@@ -1,0 +1,9 @@
+strict digraph {
+Beef_kway_teow [lexicon_key="Beef_kway_teow"];
+Singapore [lexicon_key=Singapore];
+Singapore_dollar [lexicon_key="Singapore_dollar"];
+Halimah_Yacob [lexicon_key="Halimah_Yacob"];
+Beef_kway_teow -> Singapore [label=country, lexicon_key=country];
+Singapore -> Singapore_dollar [label=currency, lexicon_key=currency];
+Singapore -> Halimah_Yacob [label=leader, lexicon_key=leader];
+}

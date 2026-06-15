@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "3500.0": {
+            "lexicon_key": "3500.0"
+        },
+        "San_Sebasti\u00e1n_de_los_Reyes": {
+            "lexicon_key": "San_Sebasti\u00e1n_de_los_Reyes"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "3500.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "San_Sebasti\u00e1n_de_los_Reyes",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport located at San Sebastian de los Reyes has a runway length of 3500."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in San Sebasti\u00e1n de los Reyes and has a runway length of 3500.0 metres."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adolfo Suarez Madrid-Barajas airport is located at San Sebastian de los Reyes and has a runway length of 3500."
+        }
+    },
+    "gold_outputs": [
+        "Adolfo Suarez Madrid-Barajas airport is located at San Sebastian de los Reyes and has a runway length of 3500.",
+        "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in San Sebasti\u00e1n de los Reyes and has a runway length of 3500.0 metres.",
+        "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport located at San Sebastian de los Reyes has a runway length of 3500."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Bananaman [lexicon_key=Bananaman];
+Bill_Oddie [lexicon_key="Bill_Oddie"];
+Lancashire [lexicon_key=Lancashire];
+Bananaman -> Bill_Oddie [label=starring, lexicon_key=starring];
+Bill_Oddie -> Lancashire [label=birthPlace, lexicon_key=birthPlace];
+}

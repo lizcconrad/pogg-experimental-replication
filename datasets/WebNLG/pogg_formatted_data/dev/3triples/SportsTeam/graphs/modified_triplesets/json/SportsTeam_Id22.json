@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Olympic_Stadium_(Athens)": {
+            "lexicon_key": "Olympic_Stadium_(Athens)"
+        },
+        "Athens": {
+            "lexicon_key": "Athens"
+        },
+        "Giorgos_Kaminis": {
+            "lexicon_key": "Giorgos_Kaminis"
+        },
+        "AEK_Athens_F.C.": {
+            "lexicon_key": "AEK_Athens_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Olympic_Stadium_(Athens)",
+            "child_node": "Athens",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "mayor",
+            "parent_node": "Athens",
+            "child_node": "Giorgos_Kaminis",
+            "edge_properties": {
+                "lexicon_key": "mayor"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "AEK_Athens_F.C.",
+            "child_node": "Olympic_Stadium_(Athens)",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ground for AEK Athens FC is the Olympic Stadium (Athens) in Athens whose mayor is Giorgos Kaminis."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Home ground of AEK Athens FC, the Olympic Stadium is located in Athens, whose mayor is Giorgos Kaminis."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Olympic Stadium in Athens is the home ground of AEK Athens FC. The mayor of Athens is Giorgos Kaminis."
+        }
+    },
+    "gold_outputs": [
+        "Home ground of AEK Athens FC, the Olympic Stadium is located in Athens, whose mayor is Giorgos Kaminis.",
+        "The Olympic Stadium in Athens is the home ground of AEK Athens FC. The mayor of Athens is Giorgos Kaminis.",
+        "The ground for AEK Athens FC is the Olympic Stadium (Athens) in Athens whose mayor is Giorgos Kaminis."
+    ]
+}

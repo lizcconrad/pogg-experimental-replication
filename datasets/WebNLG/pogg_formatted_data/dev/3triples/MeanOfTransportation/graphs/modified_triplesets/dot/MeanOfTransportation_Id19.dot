@@ -1,0 +1,9 @@
+strict digraph {
+Aston_Martin_V8 [lexicon_key="Aston_Martin_V8"];
+Aston_Martin_DBS [lexicon_key="Aston_Martin_DBS"];
+"Newport Pagnell, Buckinghamshire, England, United Kingdom" [lexicon_key="Newport Pagnell, Buckinghamshire, England, United Kingdom"];
+"5.3 (litres)" [lexicon_key="5.3 (litres)"];
+Aston_Martin_V8 -> Aston_Martin_DBS [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+Aston_Martin_V8 -> "Newport Pagnell, Buckinghamshire, England, United Kingdom" [label=assembly, lexicon_key=assembly];
+Aston_Martin_V8 -> "5.3 (litres)" [label=engine, lexicon_key=engine];
+}

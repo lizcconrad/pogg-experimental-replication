@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+        },
+        "\"Ottoman Army soldiers killed in the Battle of Baku\"": {
+            "lexicon_key": "\"Ottoman Army soldiers killed in the Battle of Baku\""
+        },
+        "Azerbaijan": {
+            "lexicon_key": "Azerbaijan"
+        },
+        "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"": {
+            "lexicon_key": "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dedicatedTo",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"Ottoman Army soldiers killed in the Battle of Baku\"",
+            "edge_properties": {
+                "lexicon_key": "dedicatedTo"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "Azerbaijan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "designer",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"",
+            "edge_properties": {
+                "lexicon_key": "designer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs Memorial in Azerbaijan was designed by H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner and is dedicated to Ottoman Army soldiers killed in the Battle of Baku."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial in Azerbaijan was designed by H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner and is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial in Azerbaijan, designed by H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner, is dedicated to the Ottoman Army soldiers killed in the Battle of Baku."
+        }
+    },
+    "gold_outputs": [
+        "The Baku Turkish Martyrs Memorial in Azerbaijan was designed by H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner and is dedicated to Ottoman Army soldiers killed in the Battle of Baku.",
+        "The Baku Turkish Martyrs' Memorial in Azerbaijan was designed by H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner and is dedicated to the Ottoman Army Soldiers killed in the Battle of Baku.",
+        "The Baku Turkish Martyrs' Memorial in Azerbaijan, designed by H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner, is dedicated to the Ottoman Army soldiers killed in the Battle of Baku."
+    ]
+}

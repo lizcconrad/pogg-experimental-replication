@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alessio_Romagnoli": {
+            "lexicon_key": "Alessio_Romagnoli"
+        },
+        "A.S._Roma": {
+            "lexicon_key": "A.S._Roma"
+        },
+        "Serie_A": {
+            "lexicon_key": "Serie_A"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Alessio_Romagnoli",
+            "child_node": "A.S._Roma",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        },
+        {
+            "edge_name": "league",
+            "parent_node": "A.S._Roma",
+            "child_node": "Serie_A",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AS Roma play in the Serie A league and Alessio Romagnoli played for their youth team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.S. Roma play in Serie A and Alessio Romagnoli plays for the club's youth team."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.S. Roma plays in the Serie A and Alessio Romagnoli played in their youth team."
+        }
+    },
+    "gold_outputs": [
+        "A.S. Roma play in Serie A and Alessio Romagnoli plays for the club's youth team.",
+        "A.S. Roma plays in the Serie A and Alessio Romagnoli played in their youth team.",
+        "AS Roma play in the Serie A league and Alessio Romagnoli played for their youth team."
+    ]
+}

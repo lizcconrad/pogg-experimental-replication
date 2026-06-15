@@ -1,0 +1,5 @@
+strict digraph {
+"Al-Khor_Sports_Club" [lexicon_key="Al-Khor_Sports_Club"];
+Qatar_Stars_League [lexicon_key="Qatar_Stars_League"];
+"Al-Khor_Sports_Club" -> Qatar_Stars_League [label=league, lexicon_key=league];
+}

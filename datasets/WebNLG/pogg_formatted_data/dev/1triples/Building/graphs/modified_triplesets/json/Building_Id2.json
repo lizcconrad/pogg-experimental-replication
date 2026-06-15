@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "103_Colmore_Row": {
+            "lexicon_key": "103_Colmore_Row"
+        },
+        "Colmore_Row": {
+            "lexicon_key": "Colmore_Row"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "103_Colmore_Row",
+            "child_node": "Colmore_Row",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "103 Colmore Row is located at Colmore Row."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "103 Colmore Row is located in Colmore Row."
+        }
+    },
+    "gold_outputs": [
+        "103 Colmore Row is located at Colmore Row.",
+        "103 Colmore Row is located in Colmore Row."
+    ]
+}

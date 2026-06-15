@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alfred_Garth_Jones": {
+            "lexicon_key": "Alfred_Garth_Jones"
+        },
+        "London": {
+            "lexicon_key": "London"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "Manchester": {
+            "lexicon_key": "Manchester"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alfred_Garth_Jones",
+            "child_node": "London",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Alfred_Garth_Jones",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alfred_Garth_Jones",
+            "child_node": "Manchester",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfred Garth Jones was born in Manchester in the UK, and died in London."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfred Garth Jones, was born in Manchester, in the United Kingdom and died in London."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfred Garth Jones was born in Manchester, United Kingdom and he passed away in London."
+        }
+    },
+    "gold_outputs": [
+        "Alfred Garth Jones was born in Manchester in the UK, and died in London.",
+        "Alfred Garth Jones was born in Manchester, United Kingdom and he passed away in London.",
+        "Alfred Garth Jones, was born in Manchester, in the United Kingdom and died in London."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Caterpillar_Inc." [lexicon_key="Caterpillar_Inc."];
+California [lexicon_key=California];
+"Caterpillar_Inc." -> California [label=foundationPlace, lexicon_key=foundationPlace];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Armin_van_Buuren [lexicon_key="Armin_van_Buuren"];
+House_music [lexicon_key="House_music"];
+Andrew_Rayel [lexicon_key="Andrew_Rayel"];
+Jwaydan_Moyine [lexicon_key="Jwaydan_Moyine"];
+Armin_van_Buuren -> House_music [label=genre, lexicon_key=genre];
+Andrew_Rayel -> Armin_van_Buuren [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Andrew_Rayel -> Jwaydan_Moyine [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

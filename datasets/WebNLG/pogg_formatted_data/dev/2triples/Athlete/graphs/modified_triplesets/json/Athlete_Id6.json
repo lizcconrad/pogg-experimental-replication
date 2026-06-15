@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Akeem_Dent": {
+            "lexicon_key": "Akeem_Dent"
+        },
+        "1987": {
+            "lexicon_key": "1987"
+        },
+        "1987-09-27": {
+            "lexicon_key": "1987-09-27"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Akeem_Dent",
+            "child_node": "1987",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Akeem_Dent",
+            "child_node": "1987-09-27",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Dent was born September 27, 1987."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Dent date of birth is the 27th September 1987."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Akeem Dent was born on 27 September 1987."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Dent date of birth is the 27th September 1987.",
+        "Akeem Dent was born September 27, 1987.",
+        "Akeem Dent was born on 27 September 1987."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Apollo_11 [lexicon_key="Apollo_11"];
+William_Anders [lexicon_key="William_Anders"];
+Apollo_11 -> William_Anders [label=backupPilot, lexicon_key=backupPilot];
+}

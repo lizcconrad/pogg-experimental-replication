@@ -1,0 +1,3941 @@
+{
+    "node_entries": {
+        "\"Asphalt\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_asphalt_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "\"Asphalt\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Bronze\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_bronze_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [
+                    "TEMPLATE_blue"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "\"Bronze\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"City Administrator\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_administrator_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_city_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"City Administrator\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "\"County Manager\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_manager_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_county_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Test_pilot",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"County Manager\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Deceased\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "adjective",
+                "predicate": "_deceased_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [
+                    "TEMPLATE_cake"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Deceased\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Hot\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "adjective",
+                "predicate": "_hot_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Hot\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Main course\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_main_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_course_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Public_company",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Main course\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Minister of Transport\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "object_of_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_minister_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "object_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_transport_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_idBagOfChips",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Minister of Transport\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Print\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_print_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "\"Print\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"South Runway\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_runway_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_south_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Country_music",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"South Runway\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Wrecked\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "adjective",
+                "predicate": "_wrecked_a_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Wrecked\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"solo_singer\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_singer_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_solo_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "\"solo singer\""
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Acoustic_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_acoustic_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Acoustic music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Addiction": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_addiction_n_to",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Mayor",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Addiction"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "African_Americans": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_african_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_american_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "African Americans"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Almond": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_almond_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [
+                    "TEMPLATE_blue"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Almond"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Alternative_rock": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_alternative_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_rock_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Alternative rock"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "American_Motors": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_american_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_motor_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "American Motors"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Americans": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_american_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Americans"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Apple": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_apple_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Apple"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Arabian_Sea": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_arabian_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_sea_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Public_company",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Arabian Sea"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Asian_Americans": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_asian_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_american_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Asian Americans"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Australians": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_australian_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Australians"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Avant-garde_metal": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_avantgarde_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_metal_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Avant-garde metal"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Bacon": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_bacon_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Bacon"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Bacon_sandwich": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_sandwich_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_bacon_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Bacon sandwich"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Banana": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_banana_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Banana"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Banana_leaf": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_leaf_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_banana_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Banana leaf"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Banking": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_banking_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Banking"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Black_metal": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_black_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_metal_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Black metal"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Bread": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_bread_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Bread"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "British_people": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_british_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_people_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "British people"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "CEO": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_ceo_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "CEO"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Cake": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_cake_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Cake"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Celery": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_celery_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Celery"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Chicken": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_chicken_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Chicken"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Chili_pepper": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_pepper_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_chili_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Chili pepper"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Chocolate": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_chocolate_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [
+                    "TEMPLATE_blue"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Chocolate"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "City_Manager": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_manager_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_city_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_\"City Administrator\"",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "City Manager"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Colombian_cuisine": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_colombian_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cuisine_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Colombian cuisine"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Computer_science": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_science_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_computer_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Computer science"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Cookie": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_cookie_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Cookie"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Cosmetics": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_cosmetics_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Cosmetics"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Country_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_country_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Country music"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "Cruise_ship": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_ship_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cruise_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_\"City Administrator\"",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Cruise ship"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Cuttlefish": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_cuttlefish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Cuttlefish"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Death_metal": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_metal_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_death_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Death metal"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Defender_(football)": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_defender_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Defender (football)"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Dessert": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_dessert_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Dessert"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Disco": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_disco_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Disco"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Drone_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_drone_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Drone music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Drugs": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_drug_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Drugs"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Electric_guitar": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_electric_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_guitar_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Electric guitar"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Energy_industry": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_industry_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_energy_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Energy industry"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Entertainment": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_entertainment_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Entertainment"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "European_Parliament": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_european_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_parliament_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "European Parliament"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "European_University_Association": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "prenominal_adjective",
+                    "adjective_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_european_a_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "nominal_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_university_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                },
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_association_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "European University Association"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Executive_car": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_car_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_executive_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Executive car"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Fighter_pilot": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_pilot_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_fighter_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_\"City Administrator\"",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Fighter pilot"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Finns": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_finn_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Finns"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Flowering_plant": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "present_participle_modifier",
+                "participle_SEMENT": {
+                    "comp_fxn": "verb",
+                    "predicate": "_flower_v_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "modified_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_plant_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_glowing_toy",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Flowering plant"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Folk_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_folk_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Folk music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Garlic": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_garlic_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Garlic"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Gram_flour": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_gram_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_flour_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Gram flour"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Guitar": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_guitar_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Guitar"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Hardcover": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_hardcover_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Hardcover"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Hip_hop_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_hip+hop_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Hip hop music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Honey": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_honey_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Honey"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "House_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_house_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Country_music",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "House music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Ice_cream": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_ice+cream_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Ice cream"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Indian_Air_Force": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_indian_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_force_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_air_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Indian Air Force"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Indian_people": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_indian_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_people_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Indian people"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Indie_rock": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_rock_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_indie_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Indie rock"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "International_Tennis_Federation": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_international_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_federation_n_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_tennis_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "International Tennis Federation"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Italians": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_italian_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Italians"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Jazz": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_jazz_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Jazz"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Kidney_bean": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_bean_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_kidney_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Kidney bean"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Korean_War": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_korean_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_war_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Korean War"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Lemon": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_lemon_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [
+                    "TEMPLATE_blue"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Lemon"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mass_Media": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_media_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_mass_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Country_music",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Mass Media"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mathematics": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_mathematics_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Mathematics"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mayor": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_mayor_n_of",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Mayor"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "Media_company": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_company_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_media_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_\"City Administrator\"",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Media company"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mexicans": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_mexican_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Mexicans"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mobile_Applications": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_mobile_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_application_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Public_company",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Mobile Applications"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "National_Hockey_League": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_national_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_league_n_of",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_hockey_n_1",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "National Hockey League"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "New_wave_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "prenominal_adjective",
+                    "adjective_SEMENT": {
+                        "comp_fxn": "adjective",
+                        "predicate": "_new_a_1",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "nominal_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_wave_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "New wave music"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Noodle": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_noodle_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Noodle"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Olive_oil": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_oil_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_olive_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Olive oil"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Oyster_sauce": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_sauce_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_oyster_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Oyster sauce"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Peanut_sauce": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_sauce_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_peanut_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Peanut sauce"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Pharmaceuticals": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_pharmaceuticals_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Pharmaceuticals"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Pop_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_pop_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Pop music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Premier_Development_League": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_premier_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "compound_noun",
+                    "head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_league_n_of",
+                        "intrinsic_variable_properties": {}
+                    },
+                    "non_head_noun_SEMENT": {
+                        "comp_fxn": "noun",
+                        "predicate": "_development_n_of",
+                        "intrinsic_variable_properties": {}
+                    }
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Premier Development League"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Public_company": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_public_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_company_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Public company"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "Raisin": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_raisin_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Raisin"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Rock_(geology)": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_rock_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Rock (geology)"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Rock_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_rock_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Rock music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Sausage": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_sausage_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Sausage"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Shrimp": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_shrimp_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Shrimp"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Ska": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_ska_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Ska"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Soul_music": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_music_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_soul_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Soul music"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Sour_cream": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_sour_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cream_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Sour cream"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Sponge_cake": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_cake_n_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_sponge_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_car_key",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy"
+                ],
+                "string_to_parse": "Sponge cake"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Squid": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_squid_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Squid"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Subsidiary": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_subsidiary_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Subsidiary"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Sweet_potato": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_sweet_a_to",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_potato_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [
+                    "TEMPLATE_car_key"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Sweet potato"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "Tennis": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_tennis_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Tennis"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Test_pilot": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "compound_noun",
+                "head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_pilot_n_of",
+                    "intrinsic_variable_properties": {}
+                },
+                "non_head_noun_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_test_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Test pilot"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": true
+            }
+        },
+        "Tomato": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_tomato_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Tomato"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Vegetable": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_vegetable_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Vegetable"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Water": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "noun",
+                "predicate": "_water_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_cake",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake"
+                ],
+                "string_to_parse": "Water"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "White_Americans": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_white_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_american_n_1",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Alternative_rock",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "White Americans"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": true,
+                "valid": true,
+                "create_template_from": false
+            }
+        }
+    },
+    "edge_entries": {}
+}

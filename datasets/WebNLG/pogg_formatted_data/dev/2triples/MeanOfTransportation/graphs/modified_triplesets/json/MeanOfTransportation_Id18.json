@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alvis_Speed_25": {
+            "lexicon_key": "Alvis_Speed_25"
+        },
+        "\"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle\"": {
+            "lexicon_key": "\"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle\""
+        },
+        "4387.0 (cubicCentimetres)": {
+            "lexicon_key": "4387.0 (cubicCentimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "transmission",
+            "parent_node": "Alvis_Speed_25",
+            "child_node": "\"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle\"",
+            "edge_properties": {
+                "lexicon_key": "transmission"
+            }
+        },
+        {
+            "edge_name": "engine",
+            "parent_node": "Alvis_Speed_25",
+            "child_node": "4387.0 (cubicCentimetres)",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alvis Speed 25 has a 4387.00 cc engine and an impressive transmission coined as \"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints, spiral bevel fully floating back axle\"."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alvis Speed 25 has an engine of 4387 cubic centimeters and a transmission system comprising a single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints and spiral bevel fully floating back axle."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alvis Speed 25, which has a 4387.0 cubic centimetres engine, has a transmission system that comprises of a single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints and spiral bevel fully floating back axle."
+        }
+    },
+    "gold_outputs": [
+        "The Alvis Speed 25 has a 4387.00 cc engine and an impressive transmission coined as \"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints, spiral bevel fully floating back axle\".",
+        "The Alvis Speed 25 has an engine of 4387 cubic centimeters and a transmission system comprising a single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints and spiral bevel fully floating back axle.",
+        "The Alvis Speed 25, which has a 4387.0 cubic centimetres engine, has a transmission system that comprises of a single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints and spiral bevel fully floating back axle."
+    ]
+}

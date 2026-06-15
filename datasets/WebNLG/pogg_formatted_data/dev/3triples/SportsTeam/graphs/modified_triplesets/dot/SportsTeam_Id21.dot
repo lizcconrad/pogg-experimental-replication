@@ -1,0 +1,9 @@
+strict digraph {
+Italy [lexicon_key=Italy];
+Italians [lexicon_key=Italians];
+Sergio_Mattarella [lexicon_key="Sergio_Mattarella"];
+"A.S._Gubbio_1910" [lexicon_key="A.S._Gubbio_1910"];
+Italy -> Italians [label=demonym, lexicon_key=demonym];
+Italy -> Sergio_Mattarella [label=leader, lexicon_key=leader];
+"A.S._Gubbio_1910" -> Italy [label=ground, lexicon_key=ground];
+}

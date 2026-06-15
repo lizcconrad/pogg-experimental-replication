@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Asher_and_Mary_Isabelle_Richardson_House": {
+            "lexicon_key": "Asher_and_Mary_Isabelle_Richardson_House"
+        },
+        "U.S._Route_83": {
+            "lexicon_key": "U.S._Route_83"
+        },
+        "\"1988-11-22\"": {
+            "lexicon_key": "\"1988-11-22\""
+        },
+        "1911": {
+            "lexicon_key": "1911"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Asher_and_Mary_Isabelle_Richardson_House",
+            "child_node": "U.S._Route_83",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "addedToTheNationalRegisterOfHistoricPlaces",
+            "parent_node": "Asher_and_Mary_Isabelle_Richardson_House",
+            "child_node": "\"1988-11-22\"",
+            "edge_properties": {
+                "lexicon_key": "addedToTheNationalRegisterOfHistoricPlaces"
+            }
+        },
+        {
+            "edge_name": "yearOfConstruction",
+            "parent_node": "Asher_and_Mary_Isabelle_Richardson_House",
+            "child_node": "1911",
+            "edge_properties": {
+                "lexicon_key": "yearOfConstruction"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Asher and Mary Isabelle Richardson House located on US Route 83 and built in 1911 was added to the National Register of Historic Places, on 22nd November 1988."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Asher and Mary Isabelle Richardson House on U.S. Route 83 was constructed in 1911 and added to the National Register of Historic Places on 22 November 1988."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Asher and Mary Isabelle Richardson House on U.S. Route 83 was built in 1911 and added to the National Register of Historic Places on 22 November 1988."
+        }
+    },
+    "gold_outputs": [
+        "The Asher and Mary Isabelle Richardson House located on US Route 83 and built in 1911 was added to the National Register of Historic Places, on 22nd November 1988.",
+        "The Asher and Mary Isabelle Richardson House on U.S. Route 83 was built in 1911 and added to the National Register of Historic Places on 22 November 1988.",
+        "The Asher and Mary Isabelle Richardson House on U.S. Route 83 was constructed in 1911 and added to the National Register of Historic Places on 22 November 1988."
+    ]
+}

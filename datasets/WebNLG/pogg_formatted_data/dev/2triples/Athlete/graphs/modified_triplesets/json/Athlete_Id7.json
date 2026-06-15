@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Akeem_Dent": {
+            "lexicon_key": "Akeem_Dent"
+        },
+        "1987": {
+            "lexicon_key": "1987"
+        },
+        "\"Atlanta, Georgia\"": {
+            "lexicon_key": "\"Atlanta, Georgia\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Akeem_Dent",
+            "child_node": "1987",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Akeem_Dent",
+            "child_node": "\"Atlanta, Georgia\"",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Dent was born in Atlanta, Georgia in 1987."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Dent was born in Atlanta Georgia in 1987."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Dent was born in Atlanta Georgia in 1987.",
+        "Akeem Dent was born in Atlanta, Georgia in 1987."
+    ]
+}

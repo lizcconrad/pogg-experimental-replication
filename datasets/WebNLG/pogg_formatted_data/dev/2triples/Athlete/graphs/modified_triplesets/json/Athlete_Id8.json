@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Akeem_Dent": {
+            "lexicon_key": "Akeem_Dent"
+        },
+        "Atlanta_Falcons": {
+            "lexicon_key": "Atlanta_Falcons"
+        },
+        "Arthur_Blank": {
+            "lexicon_key": "Arthur_Blank"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "debutTeam",
+            "parent_node": "Akeem_Dent",
+            "child_node": "Atlanta_Falcons",
+            "edge_properties": {
+                "lexicon_key": "debutTeam"
+            }
+        },
+        {
+            "edge_name": "owner",
+            "parent_node": "Atlanta_Falcons",
+            "child_node": "Arthur_Blank",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Dent started with the Atlanta Falcons which is owned by Arthur Blank."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Dent made his debut with the Atlanta Falcons who are owned by Arthur Blank."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Akeem Dent's first team were the Atlanta Falcons owned by Arthur Blank."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Dent made his debut with the Atlanta Falcons who are owned by Arthur Blank.",
+        "Akeem Dent started with the Atlanta Falcons which is owned by Arthur Blank.",
+        "Akeem Dent's first team were the Atlanta Falcons owned by Arthur Blank."
+    ]
+}

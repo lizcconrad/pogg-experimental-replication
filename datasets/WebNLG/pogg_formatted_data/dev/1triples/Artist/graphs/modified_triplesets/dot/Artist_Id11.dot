@@ -1,0 +1,5 @@
+strict digraph {
+Alan_Frew [lexicon_key="Alan_Frew"];
+Glass_Tiger [lexicon_key="Glass_Tiger"];
+Alan_Frew -> Glass_Tiger [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Albuquerque,_New_Mexico" [lexicon_key="Albuquerque,_New_Mexico"];
+New_Mexico_House_of_Representatives [lexicon_key="New_Mexico_House_of_Representatives"];
+Don_Tripp [lexicon_key="Don_Tripp"];
+United_States [lexicon_key="United_States"];
+"Albuquerque,_New_Mexico" -> New_Mexico_House_of_Representatives [label=leaderTitle, lexicon_key=leaderTitle];
+"Albuquerque,_New_Mexico" -> United_States [label=country, lexicon_key=country];
+New_Mexico_House_of_Representatives -> Don_Tripp [label=leader, lexicon_key=leader];
+}

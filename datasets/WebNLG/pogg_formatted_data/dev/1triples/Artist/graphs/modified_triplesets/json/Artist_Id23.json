@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Anders_Osborne": {
+            "lexicon_key": "Anders_Osborne"
+        },
+        "Shanachie_Records": {
+            "lexicon_key": "Shanachie_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Shanachie_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anders Osborne is signed to Shanachie Records."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The record label of Anders Osborne is Shanachie Records."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Anders Osborne was signed to the Shanachie Records label."
+        }
+    },
+    "gold_outputs": [
+        "Anders Osborne is signed to Shanachie Records.",
+        "Anders Osborne was signed to the Shanachie Records label.",
+        "The record label of Anders Osborne is Shanachie Records."
+    ]
+}

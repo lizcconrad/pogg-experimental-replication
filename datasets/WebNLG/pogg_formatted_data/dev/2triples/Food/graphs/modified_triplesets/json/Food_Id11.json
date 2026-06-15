@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Ayam_penyet": {
+            "lexicon_key": "Ayam_penyet"
+        },
+        "Java": {
+            "lexicon_key": "Java"
+        },
+        "\"Squeezed\" or \"smashed\" fried chicken served with sambal": {
+            "lexicon_key": "\"Squeezed\" or \"smashed\" fried chicken served with sambal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ayam_penyet",
+            "child_node": "Java",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Ayam_penyet",
+            "child_node": "\"Squeezed\" or \"smashed\" fried chicken served with sambal",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ayam penyet is a food found in Java and the main ingredients are \"squeezed\" or \"smashed\" chicken served with sambal."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ayam penyet (Javanese) includes squeezed/smashed fried chicken and is served with sambal."
+        }
+    },
+    "gold_outputs": [
+        "Ayam penyet (Javanese) includes squeezed/smashed fried chicken and is served with sambal.",
+        "Ayam penyet is a food found in Java and the main ingredients are \"squeezed\" or \"smashed\" chicken served with sambal."
+    ]
+}

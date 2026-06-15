@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aaron_Bertram": {
+            "lexicon_key": "Aaron_Bertram"
+        },
+        "Suburban_Legends": {
+            "lexicon_key": "Suburban_Legends"
+        },
+        "Kids_Imagine_Nation": {
+            "lexicon_key": "Kids_Imagine_Nation"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Bertram",
+            "child_node": "Suburban_Legends",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Bertram",
+            "child_node": "Kids_Imagine_Nation",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for the Suburban Legends band and Kids Imagine Nation."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Bertram is an artist with the band Kids Imagine Nation and plays for the Suburban Legends band."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for both the Suburban Legends band and the Kids Imagine Nation band."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Bertram is an artist with the band Kids Imagine Nation and plays for the Suburban Legends band.",
+        "Aaron Bertram plays for both the Suburban Legends band and the Kids Imagine Nation band.",
+        "Aaron Bertram plays for the Suburban Legends band and Kids Imagine Nation."
+    ]
+}

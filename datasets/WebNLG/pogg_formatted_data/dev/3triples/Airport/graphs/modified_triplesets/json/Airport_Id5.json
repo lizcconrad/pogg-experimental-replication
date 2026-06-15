@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "United_States_Air_Force": {
+            "lexicon_key": "United_States_Air_Force"
+        },
+        "Iraq": {
+            "lexicon_key": "Iraq"
+        },
+        "3078.48": {
+            "lexicon_key": "3078.48"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "United_States_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "Iraq",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "3078.48",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Operated by the United States Air Force, Al Asad Airbase, in Iraq, has a runway length of 3078.48 metres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The USAF operated the Al Asad Airbase, located in iraq, with a length of 3078.48."
+        }
+    },
+    "gold_outputs": [
+        "Operated by the United States Air Force, Al Asad Airbase, in Iraq, has a runway length of 3078.48 metres.",
+        "The USAF operated the Al Asad Airbase, located in iraq, with a length of 3078.48."
+    ]
+}

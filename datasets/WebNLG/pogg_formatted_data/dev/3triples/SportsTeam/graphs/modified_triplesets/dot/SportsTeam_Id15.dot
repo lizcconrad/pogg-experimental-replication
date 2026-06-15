@@ -1,0 +1,9 @@
+strict digraph {
+AZ_Alkmaar [lexicon_key="AZ_Alkmaar"];
+"Alkmaar Zaanstreek" [lexicon_key="Alkmaar Zaanstreek"];
+2014 [lexicon_key=2014];
+17023 [lexicon_key=17023];
+AZ_Alkmaar -> "Alkmaar Zaanstreek" [label=fullName, lexicon_key=fullName];
+AZ_Alkmaar -> 2014 [label=season, lexicon_key=season];
+AZ_Alkmaar -> 17023 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

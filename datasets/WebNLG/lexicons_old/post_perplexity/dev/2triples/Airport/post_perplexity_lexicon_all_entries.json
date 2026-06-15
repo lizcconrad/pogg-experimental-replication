@@ -1,0 +1,222 @@
+{
+    "node_keys": {
+        "\"Al Anbar Province, Iraq\"": {
+            "comp_fxn": ""
+        },
+        "\"Asphalt\"": {
+            "comp_fxn": ""
+        },
+        "\"Flemish department of Mobility and Public Works\"": {
+            "comp_fxn": ""
+        },
+        "-3.3528": {
+            "comp_fxn": ""
+        },
+        "12.0": {
+            "comp_fxn": ""
+        },
+        "159": {
+            "comp_fxn": ""
+        },
+        "3500.0": {
+            "comp_fxn": ""
+        },
+        "3800.0": {
+            "comp_fxn": ""
+        },
+        "618": {
+            "comp_fxn": ""
+        },
+        "877.0": {
+            "comp_fxn": ""
+        },
+        "973.0": {
+            "comp_fxn": ""
+        },
+        "Abilene,_Texas": {
+            "comp_fxn": ""
+        },
+        "Abilene_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "comp_fxn": ""
+        },
+        "Agra_Airport": {
+            "comp_fxn": ""
+        },
+        "Al_Asad_Airbase": {
+            "comp_fxn": ""
+        },
+        "Alcobendas": {
+            "comp_fxn": ""
+        },
+        "Alderney_Airport": {
+            "comp_fxn": ""
+        },
+        "Allama_Iqbal_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Alpena_County_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Amsterdam_Airport_Schiphol": {
+            "comp_fxn": ""
+        },
+        "Andrews_County_Airport": {
+            "comp_fxn": ""
+        },
+        "Angola": {
+            "comp_fxn": ""
+        },
+        "Angola_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Antwerp_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Appleton,_Wisconsin": {
+            "comp_fxn": ""
+        },
+        "Appleton_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Ardmore_Airport_(New_Zealand)": {
+            "comp_fxn": ""
+        },
+        "Ashgabat": {
+            "comp_fxn": ""
+        },
+        "Ashgabat_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Athens": {
+            "comp_fxn": ""
+        },
+        "Athens_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Austin,_Texas": {
+            "comp_fxn": ""
+        },
+        "Community_of_Madrid": {
+            "comp_fxn": ""
+        },
+        "Grand_Chute,_Wisconsin": {
+            "comp_fxn": ""
+        },
+        "India": {
+            "comp_fxn": ""
+        },
+        "Jinnah_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Luanda": {
+            "comp_fxn": ""
+        },
+        "Monocotyledon": {
+            "comp_fxn": ""
+        },
+        "Operation_Enduring_Freedom": {
+            "comp_fxn": ""
+        },
+        "Pakistan_Civil_Aviation_Authority": {
+            "comp_fxn": ""
+        },
+        "Poaceae": {
+            "comp_fxn": ""
+        },
+        "Poales": {
+            "comp_fxn": ""
+        },
+        "San_Sebasti\u00e1n_de_los_Reyes": {
+            "comp_fxn": ""
+        },
+        "Schiphol_Group": {
+            "comp_fxn": ""
+        },
+        "Spata": {
+            "comp_fxn": ""
+        },
+        "T._S._Thakur": {
+            "comp_fxn": ""
+        },
+        "Texas": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "United_States_Air_Force": {
+            "comp_fxn": ""
+        },
+        "United_States_invasion_of_Panama": {
+            "comp_fxn": ""
+        },
+        "Wilson_Township,_Alpena_County,_Michigan": {
+            "comp_fxn": ""
+        },
+        "\u00cdcolo_e_Bengo": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "1stRunwaySurfaceType": {
+            "comp_fxn": ""
+        },
+        "2ndRunwaySurfaceType": {
+            "comp_fxn": ""
+        },
+        "3rdRunwaySurfaceType": {
+            "comp_fxn": ""
+        },
+        "4thRunwaySurfaceType": {
+            "comp_fxn": ""
+        },
+        "battle": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "cityServed": {
+            "comp_fxn": ""
+        },
+        "class": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevel": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevelInFeet": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevelInMetres": {
+            "comp_fxn": ""
+        },
+        "headquarter": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "operatingOrganisation": {
+            "comp_fxn": ""
+        },
+        "order": {
+            "comp_fxn": ""
+        },
+        "runwayLength": {
+            "comp_fxn": ""
+        }
+    }
+}

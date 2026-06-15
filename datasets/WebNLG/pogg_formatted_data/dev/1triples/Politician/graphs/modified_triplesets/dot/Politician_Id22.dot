@@ -1,0 +1,5 @@
+strict digraph {
+Alfred_Moore_Scales [lexicon_key="Alfred_Moore_Scales"];
+Battle_of_Chancellorsville [lexicon_key="Battle_of_Chancellorsville"];
+Alfred_Moore_Scales -> Battle_of_Chancellorsville [label=battle, lexicon_key=battle];
+}

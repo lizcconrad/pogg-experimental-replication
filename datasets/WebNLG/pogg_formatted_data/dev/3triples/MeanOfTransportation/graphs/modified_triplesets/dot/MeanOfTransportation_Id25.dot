@@ -1,0 +1,9 @@
+strict digraph {
+"Caterpillar_Inc." [lexicon_key="Caterpillar_Inc."];
+"Douglas_R._Oberhelman" [lexicon_key="Douglas_R._Oberhelman"];
+United_States [lexicon_key="United_States"];
+AIDAluna [lexicon_key=AIDAluna];
+"Caterpillar_Inc." -> "Douglas_R._Oberhelman" [label=keyPerson, lexicon_key=keyPerson];
+"Caterpillar_Inc." -> United_States [label=location, lexicon_key=location];
+AIDAluna -> "Caterpillar_Inc." [label=powerType, lexicon_key=powerType];
+}

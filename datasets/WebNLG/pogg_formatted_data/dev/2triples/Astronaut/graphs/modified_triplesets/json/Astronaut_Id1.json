@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Alan_Shepard": {
+            "lexicon_key": "Alan_Shepard"
+        },
+        "Apollo_14": {
+            "lexicon_key": "Apollo_14"
+        },
+        "\"1974-08-01\"": {
+            "lexicon_key": "\"1974-08-01\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Alan_Shepard",
+            "child_node": "Apollo_14",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "dateOfRetirement",
+            "parent_node": "Alan_Shepard",
+            "child_node": "\"1974-08-01\"",
+            "edge_properties": {
+                "lexicon_key": "dateOfRetirement"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Apollo 14 crew member Alan Shepard retired on the first of August, 1974."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Shepard, who served as a crew member of Apollo 14, retired 1974-08-01."
+        }
+    },
+    "gold_outputs": [
+        "Alan Shepard, who served as a crew member of Apollo 14, retired 1974-08-01.",
+        "Apollo 14 crew member Alan Shepard retired on the first of August, 1974."
+    ]
+}

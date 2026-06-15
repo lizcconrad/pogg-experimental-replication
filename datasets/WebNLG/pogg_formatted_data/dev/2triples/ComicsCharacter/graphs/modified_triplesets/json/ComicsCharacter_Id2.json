@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Aurakles": {
+            "lexicon_key": "Aurakles"
+        },
+        "Len_Wein": {
+            "lexicon_key": "Len_Wein"
+        },
+        "\"Aurakles\"": {
+            "lexicon_key": "\"Aurakles\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Aurakles",
+            "child_node": "Len_Wein",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Aurakles",
+            "child_node": "\"Aurakles\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Created by Len Wein, Aurakles's alternative name is also Aurakles."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The character Aurakles, also known as Aurakles, was created by Len Wein."
+        }
+    },
+    "gold_outputs": [
+        "Created by Len Wein, Aurakles's alternative name is also Aurakles.",
+        "The character Aurakles, also known as Aurakles, was created by Len Wein."
+    ]
+}

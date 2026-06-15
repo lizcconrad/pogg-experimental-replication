@@ -1,0 +1,5 @@
+strict digraph {
+Delta_II [lexicon_key="Delta_II"];
+Cape_Canaveral_Air_Force_Station [lexicon_key="Cape_Canaveral_Air_Force_Station"];
+Delta_II -> Cape_Canaveral_Air_Force_Station [label=launchSite, lexicon_key=launchSite];
+}

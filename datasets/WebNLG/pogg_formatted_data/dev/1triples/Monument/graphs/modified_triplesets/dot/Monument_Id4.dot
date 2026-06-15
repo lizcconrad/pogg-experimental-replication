@@ -1,0 +1,5 @@
+strict digraph {
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+Azerbaijan [lexicon_key=Azerbaijan];
+"Baku_Turkish_Martyrs'_Memorial" -> Azerbaijan [label=location, lexicon_key=location];
+}

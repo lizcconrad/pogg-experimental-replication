@@ -1,0 +1,9 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+"Polish–Soviet_War" [lexicon_key="Polish–Soviet_War"];
+Order_of_Polonia_Restituta [lexicon_key="Order_of_Polonia_Restituta"];
+"Cross_of_Valour_(Poland)" [lexicon_key="Cross_of_Valour_(Poland)"];
+Adam_Koc -> "Polish–Soviet_War" [label=battle, lexicon_key=battle];
+Adam_Koc -> Order_of_Polonia_Restituta [label=award, lexicon_key=award];
+Adam_Koc -> "Cross_of_Valour_(Poland)" [label=award, lexicon_key=award];
+}

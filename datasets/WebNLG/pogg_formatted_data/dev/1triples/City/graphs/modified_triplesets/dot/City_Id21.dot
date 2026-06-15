@@ -1,0 +1,5 @@
+strict digraph {
+"Attica,_Indiana" [lexicon_key="Attica,_Indiana"];
+"Fountain_County,_Indiana" [lexicon_key="Fountain_County,_Indiana"];
+"Attica,_Indiana" -> "Fountain_County,_Indiana" [label=isPartOf, lexicon_key=isPartOf];
+}

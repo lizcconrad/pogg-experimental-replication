@@ -1,0 +1,2553 @@
+{
+    "node_keys": {
+        "\"0-670-03380-4\"": {
+            "comp_fxn": ""
+        },
+        "\"1-56947-301-3\"": {
+            "comp_fxn": ""
+        },
+        "\"1.337\"": {
+            "comp_fxn": ""
+        },
+        "\"1/19\"": {
+            "comp_fxn": ""
+        },
+        "\"11/29\"": {
+            "comp_fxn": ""
+        },
+        "\"14L/32R\"": {
+            "comp_fxn": ""
+        },
+        "\"14R/32L\"": {
+            "comp_fxn": ""
+        },
+        "\"1700\"": {
+            "comp_fxn": ""
+        },
+        "\"18R/36L\"": {
+            "comp_fxn": ""
+        },
+        "\"1983-10-03\"": {
+            "comp_fxn": ""
+        },
+        "\"1988-11-22\"": {
+            "comp_fxn": ""
+        },
+        "\"2013-09-28\"": {
+            "comp_fxn": ""
+        },
+        "\"9-speed ZF 9HP automatic (V6)\"": {
+            "comp_fxn": ""
+        },
+        "\"A.E Dimitra Efxeinoupolis\"": {
+            "comp_fxn": ""
+        },
+        "\"APGPAC\"": {
+            "comp_fxn": ""
+        },
+        "\"Acta Math. Hungar.\"": {
+            "comp_fxn": ""
+        },
+        "\"Adams, Fall Creek, Lafayette, Richland, Union\"": {
+            "comp_fxn": ""
+        },
+        "\"Ait Ikkou, Morocco\"": {
+            "comp_fxn": ""
+        },
+        "\"Ajo blanco\"": {
+            "comp_fxn": ""
+        },
+        "\"Asociaci\u00f3n Deportiva\"": {
+            "comp_fxn": ""
+        },
+        "\"Bread, almonds, garlic, water, olive oil\"": {
+            "comp_fxn": ""
+        },
+        "\"Bronze\"": {
+            "comp_fxn": ""
+        },
+        "\"Chi\u0219in\u0103u, Moldova\"": {
+            "comp_fxn": ""
+        },
+        "\"City Administrator\"": {
+            "comp_fxn": ""
+        },
+        "\"County Manager\"": {
+            "comp_fxn": ""
+        },
+        "\"Deputy Minister for Development, Competitiveness and Shipping\"": {
+            "comp_fxn": ""
+        },
+        "\"Dodge Coronet\"": {
+            "comp_fxn": ""
+        },
+        "\"East Link Bridge\"": {
+            "comp_fxn": ""
+        },
+        "\"HOK SVE\"": {
+            "comp_fxn": ""
+        },
+        "\"Helipad\"": {
+            "comp_fxn": "proper_noun",
+            "name": "Helipad",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "\"Hot\"": {
+            "comp_fxn": ""
+        },
+        "\"Hugh Hazzard\"": {
+            "comp_fxn": ""
+        },
+        "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"": {
+            "comp_fxn": ""
+        },
+        "\"January 2009\"": {
+            "comp_fxn": ""
+        },
+        "\"Joden , Godenzonen\"": {
+            "comp_fxn": ""
+        },
+        "\"Knightsbridge, London\"": {
+            "comp_fxn": ""
+        },
+        "\"Nationwide in Indonesia, but more specific to Java\"": {
+            "comp_fxn": ""
+        },
+        "\"Red granite and white marble\"": {
+            "comp_fxn": ""
+        },
+        "\"STV\"": {
+            "comp_fxn": ""
+        },
+        "\"Shuvalan, Baku, Azerbaijan\"": {
+            "comp_fxn": ""
+        },
+        "\"Sphinx class cruise ship\"": {
+            "comp_fxn": ""
+        },
+        "\"State Senate\"": {
+            "comp_fxn": ""
+        },
+        "\"Tomatoes, red chili, garlic, olive oil\"": {
+            "comp_fxn": ""
+        },
+        "\"solo_singer\"": {
+            "comp_fxn": ""
+        },
+        "(29075)_1950_DA": {
+            "comp_fxn": ""
+        },
+        "(410777)_2009_FD": {
+            "comp_fxn": ""
+        },
+        "(66063)_1998_RO1": {
+            "comp_fxn": ""
+        },
+        "(66391)_1999_KW4": {
+            "comp_fxn": ""
+        },
+        "0.0068 (kilometrePerSeconds)": {
+            "comp_fxn": ""
+        },
+        "0.0155 (kilometrePerSeconds)": {
+            "comp_fxn": ""
+        },
+        "1.8 g": {
+            "comp_fxn": ""
+        },
+        "1.9304": {
+            "comp_fxn": ""
+        },
+        "1._FC_K\u00f6ln": {
+            "comp_fxn": ""
+        },
+        "1._FC_Magdeburg": {
+            "comp_fxn": ""
+        },
+        "100": {
+            "comp_fxn": ""
+        },
+        "101_Helena": {
+            "comp_fxn": ""
+        },
+        "1036_Ganymed": {
+            "comp_fxn": ""
+        },
+        "103_Colmore_Row": {
+            "comp_fxn": ""
+        },
+        "107_Camilla": {
+            "comp_fxn": ""
+        },
+        "1089_Tama": {
+            "comp_fxn": ""
+        },
+        "1097_Vicia": {
+            "comp_fxn": ""
+        },
+        "1099_Figneria": {
+            "comp_fxn": ""
+        },
+        "109_Felicitas": {
+            "comp_fxn": ""
+        },
+        "10_Hygiea": {
+            "comp_fxn": ""
+        },
+        "1101_Clematis": {
+            "comp_fxn": ""
+        },
+        "110_Lydia": {
+            "comp_fxn": ""
+        },
+        "11_Diagonal_Street": {
+            "comp_fxn": ""
+        },
+        "13.0": {
+            "comp_fxn": ""
+        },
+        "1500": {
+            "comp_fxn": ""
+        },
+        "15100000000": {
+            "comp_fxn": ""
+        },
+        "1516.6700000000003 (days)": {
+            "comp_fxn": ""
+        },
+        "1533.0": {
+            "comp_fxn": "number",
+            "digit": "1533.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "1580.7 (inhabitants per square kilometre)": {
+            "comp_fxn": ""
+        },
+        "16.86 (kilometrePerSeconds)": {
+            "comp_fxn": ""
+        },
+        "160.0 (kelvins)": {
+            "comp_fxn": ""
+        },
+        "1634:_The_Bavarian_Crisis": {
+            "comp_fxn": ""
+        },
+        "1634:_The_Ram_Rebellion": {
+            "comp_fxn": ""
+        },
+        "1635:_The_Cannon_Law": {
+            "comp_fxn": ""
+        },
+        "170.0 (kelvins)": {
+            "comp_fxn": ""
+        },
+        "17023": {
+            "comp_fxn": ""
+        },
+        "18.52": {
+            "comp_fxn": ""
+        },
+        "184.0": {
+            "comp_fxn": ""
+        },
+        "1855-07-07": {
+            "comp_fxn": ""
+        },
+        "1857-03-03": {
+            "comp_fxn": ""
+        },
+        "1904": {
+            "comp_fxn": ""
+        },
+        "19238": {
+            "comp_fxn": ""
+        },
+        "1935": {
+            "comp_fxn": ""
+        },
+        "1955_Dodge": {
+            "comp_fxn": ""
+        },
+        "1958": {
+            "comp_fxn": ""
+        },
+        "1963": {
+            "comp_fxn": ""
+        },
+        "1982-07-23": {
+            "comp_fxn": ""
+        },
+        "1983": {
+            "comp_fxn": ""
+        },
+        "1985": {
+            "comp_fxn": ""
+        },
+        "1998": {
+            "comp_fxn": ""
+        },
+        "1998-03-16": {
+            "comp_fxn": ""
+        },
+        "2.7 (kilograms)": {
+            "comp_fxn": ""
+        },
+        "2005-08-11": {
+            "comp_fxn": ""
+        },
+        "2006-12-31": {
+            "comp_fxn": ""
+        },
+        "2009-03-22": {
+            "comp_fxn": ""
+        },
+        "200_Public_Square": {
+            "comp_fxn": ""
+        },
+        "2013-03-16": {
+            "comp_fxn": ""
+        },
+        "2013-03-17": {
+            "comp_fxn": ""
+        },
+        "2013-11-04": {
+            "comp_fxn": ""
+        },
+        "2014": {
+            "comp_fxn": ""
+        },
+        "2014-10-28": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_A_EPSTH,_Greece": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_Lega_Pro": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_Serie_A": {
+            "comp_fxn": ""
+        },
+        "2015_Campeonato_Brasileiro_S\u00e9rie_C": {
+            "comp_fxn": ""
+        },
+        "20_Fenchurch_Street": {
+            "comp_fxn": ""
+        },
+        "2158": {
+            "comp_fxn": ""
+        },
+        "230 (cubic inches)": {
+            "comp_fxn": ""
+        },
+        "259776702.47055 (kilometres)": {
+            "comp_fxn": ""
+        },
+        "2702.0": {
+            "comp_fxn": "number",
+            "digit": "2702.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "27367194": {
+            "comp_fxn": ""
+        },
+        "283326000000.0": {
+            "comp_fxn": ""
+        },
+        "29919600000.0": {
+            "comp_fxn": ""
+        },
+        "3.0 (kilograms)": {
+            "comp_fxn": ""
+        },
+        "3.5 (litres)": {
+            "comp_fxn": ""
+        },
+        "3000": {
+            "comp_fxn": ""
+        },
+        "300_North_LaSalle": {
+            "comp_fxn": ""
+        },
+        "32024459": {
+            "comp_fxn": ""
+        },
+        "325": {
+            "comp_fxn": ""
+        },
+        "377016000000.0": {
+            "comp_fxn": ""
+        },
+        "3Arena": {
+            "comp_fxn": ""
+        },
+        "445895000000.0": {
+            "comp_fxn": ""
+        },
+        "45.97 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "45644811": {
+            "comp_fxn": ""
+        },
+        "5.57 (days)": {
+            "comp_fxn": ""
+        },
+        "5000": {
+            "comp_fxn": ""
+        },
+        "507": {
+            "comp_fxn": "number",
+            "digit": "507",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "57059226": {
+            "comp_fxn": ""
+        },
+        "58.38": {
+            "comp_fxn": ""
+        },
+        "60": {
+            "comp_fxn": ""
+        },
+        "657": {
+            "comp_fxn": ""
+        },
+        "737": {
+            "comp_fxn": ""
+        },
+        "78771100": {
+            "comp_fxn": ""
+        },
+        "8.3 m": {
+            "comp_fxn": ""
+        },
+        "84.0": {
+            "comp_fxn": "number",
+            "digit": "84.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "95040.0": {
+            "comp_fxn": ""
+        },
+        "A.C._Lumezzane": {
+            "comp_fxn": ""
+        },
+        "A.C._Milan": {
+            "comp_fxn": ""
+        },
+        "A.D._Isidro_Metap\u00e1n": {
+            "comp_fxn": ""
+        },
+        "A.E_Dimitra_Efxeinoupolis": {
+            "comp_fxn": ""
+        },
+        "A.F.C._Blackpool": {
+            "comp_fxn": ""
+        },
+        "A.F.C._Fylde": {
+            "comp_fxn": ""
+        },
+        "A.S._Gubbio_1910": {
+            "comp_fxn": ""
+        },
+        "A.S._Livorno_Calcio": {
+            "comp_fxn": ""
+        },
+        "A.S._Roma": {
+            "comp_fxn": ""
+        },
+        "AEK_Athens_F.C.": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax_(amateurs)": {
+            "comp_fxn": ""
+        },
+        "AIDA_Cruises": {
+            "comp_fxn": ""
+        },
+        "AIDAluna": {
+            "comp_fxn": ""
+        },
+        "AIDAstella": {
+            "comp_fxn": ""
+        },
+        "AIP_Advances": {
+            "comp_fxn": ""
+        },
+        "ALCO_RS-3": {
+            "comp_fxn": ""
+        },
+        "ALV_X-1": {
+            "comp_fxn": ""
+        },
+        "AMC_Ambassador": {
+            "comp_fxn": ""
+        },
+        "AMC_Matador": {
+            "comp_fxn": ""
+        },
+        "AZAL_PFK": {
+            "comp_fxn": ""
+        },
+        "AZ_Alkmaar": {
+            "comp_fxn": ""
+        },
+        "A_Fortress_of_Grey_Ice": {
+            "comp_fxn": ""
+        },
+        "A_Long_Long_Way": {
+            "comp_fxn": ""
+        },
+        "A_Loyal_Character_Dancer": {
+            "comp_fxn": ""
+        },
+        "A_Severed_Wasp": {
+            "comp_fxn": ""
+        },
+        "A_Wizard_of_Mars": {
+            "comp_fxn": ""
+        },
+        "Aarhus": {
+            "comp_fxn": "proper_noun",
+            "name": "Aarhus",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Aarhus_Airport": {
+            "comp_fxn": "compound_noun",
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Aarhus",
+                "intrinsic_variable_properties": {}
+            },
+            "head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": false
+            }
+        },
+        "Aaron_Bertram": {
+            "comp_fxn": ""
+        },
+        "Aaron_Boogaard": {
+            "comp_fxn": ""
+        },
+        "Aaron_Deer": {
+            "comp_fxn": ""
+        },
+        "Aaron_S._Daggett": {
+            "comp_fxn": ""
+        },
+        "Aaron_Turner": {
+            "comp_fxn": ""
+        },
+        "Abarth_1000_GT_Coup\u00e9": {
+            "comp_fxn": ""
+        },
+        "Abdul_Rahman_Ya'kub": {
+            "comp_fxn": ""
+        },
+        "Abdul_Taib_Mahmud": {
+            "comp_fxn": ""
+        },
+        "Abdulsalami_Abubakar": {
+            "comp_fxn": ""
+        },
+        "Abel_Caballero": {
+            "comp_fxn": ""
+        },
+        "Abel_Hern\u00e1ndez": {
+            "comp_fxn": ""
+        },
+        "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg": {
+            "comp_fxn": ""
+        },
+        "Abilene,_Texas": {
+            "comp_fxn": ""
+        },
+        "Abner_(footballer)": {
+            "comp_fxn": ""
+        },
+        "Abner_W._Sibal": {
+            "comp_fxn": ""
+        },
+        "Above_the_Veil": {
+            "comp_fxn": ""
+        },
+        "Abradab": {
+            "comp_fxn": ""
+        },
+        "Abraham_A._Ribicoff": {
+            "comp_fxn": ""
+        },
+        "Accademia_di_Architettura_di_Mendrisio": {
+            "comp_fxn": ""
+        },
+        "Accrington_Stanley_F.C.": {
+            "comp_fxn": ""
+        },
+        "Ace_Wilder": {
+            "comp_fxn": ""
+        },
+        "Acharya_Institute_of_Technology": {
+            "comp_fxn": ""
+        },
+        "Acta_Mathematica_Hungarica": {
+            "comp_fxn": ""
+        },
+        "Acta_Palaeontologica_Polonica": {
+            "comp_fxn": ""
+        },
+        "Acura": {
+            "comp_fxn": ""
+        },
+        "Acura_TLX": {
+            "comp_fxn": ""
+        },
+        "Adam_Koc": {
+            "comp_fxn": ""
+        },
+        "Adam_Maher": {
+            "comp_fxn": ""
+        },
+        "Adam_McQuaid": {
+            "comp_fxn": ""
+        },
+        "Adare_Manor": {
+            "comp_fxn": ""
+        },
+        "Addiction_(journal)": {
+            "comp_fxn": ""
+        },
+        "Adenan_Satem": {
+            "comp_fxn": ""
+        },
+        "Adirondack_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Administrative_Science_Quarterly": {
+            "comp_fxn": ""
+        },
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "comp_fxn": ""
+        },
+        "Adonis_Georgiadis": {
+            "comp_fxn": ""
+        },
+        "Aenir": {
+            "comp_fxn": ""
+        },
+        "Afonso_Pena_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Afrobeat": {
+            "comp_fxn": ""
+        },
+        "Agnes_Kant": {
+            "comp_fxn": ""
+        },
+        "Agra": {
+            "comp_fxn": "proper_noun",
+            "name": "Agra",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Agra_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Agra",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "comp_fxn": ""
+        },
+        "Agust\u00edn_Barboza": {
+            "comp_fxn": ""
+        },
+        "Ahmad_Kadhim_Assad": {
+            "comp_fxn": ""
+        },
+        "Airbus_Defence_and_Space": {
+            "comp_fxn": ""
+        },
+        "Airey_Neave": {
+            "comp_fxn": ""
+        },
+        "Ajoblanco": {
+            "comp_fxn": ""
+        },
+        "Akeem_Ayers": {
+            "comp_fxn": ""
+        },
+        "Akeem_Priestley": {
+            "comp_fxn": ""
+        },
+        "Akita_Museum_of_Art": {
+            "comp_fxn": ""
+        },
+        "Akron_Summit_Assault": {
+            "comp_fxn": ""
+        },
+        "Al-Khor_Sports_Club": {
+            "comp_fxn": ""
+        },
+        "Al-Taqaddum_Air_Base": {
+            "comp_fxn": ""
+        },
+        "Alaa_Abdul-Zahra": {
+            "comp_fxn": ""
+        },
+        "Alabama": {
+            "comp_fxn": ""
+        },
+        "Alan_B._Miller_Hall": {
+            "comp_fxn": ""
+        },
+        "Alan_Frew": {
+            "comp_fxn": ""
+        },
+        "Alan_Martin_(footballer)": {
+            "comp_fxn": ""
+        },
+        "Alan_Shepard": {
+            "comp_fxn": ""
+        },
+        "Alba_County": {
+            "comp_fxn": ""
+        },
+        "Alba_Iulia": {
+            "comp_fxn": ""
+        },
+        "Albany,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Albany,_Oregon": {
+            "comp_fxn": ""
+        },
+        "Albennie_Jones": {
+            "comp_fxn": ""
+        },
+        "Alberto_Teisaire": {
+            "comp_fxn": ""
+        },
+        "Albuquerque,_New_Mexico": {
+            "comp_fxn": ""
+        },
+        "Albuquerque_City_Council": {
+            "comp_fxn": ""
+        },
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "comp_fxn": ""
+        },
+        "Alcatraz_Versus_the_Scrivener's_Bones": {
+            "comp_fxn": ""
+        },
+        "Alderney": {
+            "comp_fxn": "proper_noun",
+            "name": "Alderney",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Alderney_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Alderney",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Aleksander_Barkov,_Jr.": {
+            "comp_fxn": ""
+        },
+        "Aleksandra_Kova\u010d": {
+            "comp_fxn": ""
+        },
+        "Aleksandre_Guruli": {
+            "comp_fxn": ""
+        },
+        "Alex_Plante": {
+            "comp_fxn": ""
+        },
+        "Alfa_Romeo_164": {
+            "comp_fxn": ""
+        },
+        "Alfred_Garth_Jones": {
+            "comp_fxn": ""
+        },
+        "Alfred_Moore_Scales": {
+            "comp_fxn": ""
+        },
+        "Alfredo_Zitarrosa": {
+            "comp_fxn": ""
+        },
+        "Alhambra": {
+            "comp_fxn": ""
+        },
+        "Alison_O'Donnell": {
+            "comp_fxn": ""
+        },
+        "Allama_Iqbal_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Allan_Shivers": {
+            "comp_fxn": ""
+        },
+        "Allen_Forrest": {
+            "comp_fxn": ""
+        },
+        "Alliant_Techsystems": {
+            "comp_fxn": ""
+        },
+        "Alligator_Records": {
+            "comp_fxn": ""
+        },
+        "Alpena_County_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Alternative_rock": {
+            "comp_fxn": ""
+        },
+        "Alvah_Sabin": {
+            "comp_fxn": ""
+        },
+        "Amarillo,_Texas": {
+            "comp_fxn": ""
+        },
+        "Amdavad_ni_Gufa": {
+            "comp_fxn": ""
+        },
+        "American_Civil_War": {
+            "comp_fxn": ""
+        },
+        "American_Journal_of_Mathematics": {
+            "comp_fxn": ""
+        },
+        "Ampara_Hospital": {
+            "comp_fxn": ""
+        },
+        "Amsterdam": {
+            "comp_fxn": "proper_noun",
+            "name": "Amsterdam",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Amsterdam-Centrum": {
+            "comp_fxn": ""
+        },
+        "Amsterdam_Airport_Schiphol": {
+            "comp_fxn": ""
+        },
+        "Anaheim,_California": {
+            "comp_fxn": ""
+        },
+        "Anders_Osborne": {
+            "comp_fxn": ""
+        },
+        "Anderson,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Andrew_Rayel": {
+            "comp_fxn": ""
+        },
+        "Andrew_White_(musician)": {
+            "comp_fxn": ""
+        },
+        "Andrew_the_Apostle": {
+            "comp_fxn": ""
+        },
+        "Andrews,_Texas": {
+            "comp_fxn": ""
+        },
+        "Andrews_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Andrews_County_Airport": {
+            "comp_fxn": ""
+        },
+        "Angola,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Angola_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Ann_Arbor,_Michigan": {
+            "comp_fxn": ""
+        },
+        "Antares_(rocket)": {
+            "comp_fxn": ""
+        },
+        "Anthony_J._Celebrezze": {
+            "comp_fxn": ""
+        },
+        "Antioch,_California": {
+            "comp_fxn": ""
+        },
+        "Antonis_Samaras": {
+            "comp_fxn": ""
+        },
+        "Anwar_Zaheer_Jamali": {
+            "comp_fxn": ""
+        },
+        "Apollo_11": {
+            "comp_fxn": ""
+        },
+        "Apollo_14": {
+            "comp_fxn": ""
+        },
+        "Apollo_8": {
+            "comp_fxn": ""
+        },
+        "Arabic": {
+            "comp_fxn": ""
+        },
+        "Ardmore_Airport_(New_Zealand)": {
+            "comp_fxn": ""
+        },
+        "Arem-arem": {
+            "comp_fxn": ""
+        },
+        "Argentina": {
+            "comp_fxn": ""
+        },
+        "Ariane_5": {
+            "comp_fxn": ""
+        },
+        "Arlington,_Texas": {
+            "comp_fxn": ""
+        },
+        "Arrabbiata_sauce": {
+            "comp_fxn": ""
+        },
+        "Arr\u00f2s_negre": {
+            "comp_fxn": ""
+        },
+        "Artur_Rasizade": {
+            "comp_fxn": ""
+        },
+        "Asam_pedas": {
+            "comp_fxn": ""
+        },
+        "Asher_and_Mary_Isabelle_Richardson_House": {
+            "comp_fxn": ""
+        },
+        "Asser_Levy_Public_Baths": {
+            "comp_fxn": ""
+        },
+        "Asterix_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Asunci\u00f3n": {
+            "comp_fxn": ""
+        },
+        "Atat\u00fcrk_Monument_(\u0130zmir)": {
+            "comp_fxn": ""
+        },
+        "Athens": {
+            "comp_fxn": "proper_noun",
+            "name": "Athens",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Athens_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Atlanta": {
+            "comp_fxn": ""
+        },
+        "Atlantic_County,_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "Atlas_II": {
+            "comp_fxn": ""
+        },
+        "Attica,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Auburn,_Alabama": {
+            "comp_fxn": ""
+        },
+        "Auckland": {
+            "comp_fxn": "proper_noun",
+            "name": "Auckland",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Audi": {
+            "comp_fxn": ""
+        },
+        "Audi_A1": {
+            "comp_fxn": ""
+        },
+        "Audi_Brussels": {
+            "comp_fxn": ""
+        },
+        "Audi_e-tron": {
+            "comp_fxn": ""
+        },
+        "Auron_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Austin,_Texas": {
+            "comp_fxn": ""
+        },
+        "Austria": {
+            "comp_fxn": ""
+        },
+        "Austrian_German": {
+            "comp_fxn": ""
+        },
+        "Avant-garde_metal": {
+            "comp_fxn": ""
+        },
+        "Avocado": {
+            "comp_fxn": ""
+        },
+        "Ayam_penyet": {
+            "comp_fxn": ""
+        },
+        "Azerbaijan": {
+            "comp_fxn": ""
+        },
+        "B._V._Doshi": {
+            "comp_fxn": ""
+        },
+        "B_postcode_area": {
+            "comp_fxn": ""
+        },
+        "Baduy": {
+            "comp_fxn": ""
+        },
+        "Baghdad": {
+            "comp_fxn": ""
+        },
+        "Baked_Alaska": {
+            "comp_fxn": ""
+        },
+        "Bakewell_tart": {
+            "comp_fxn": ""
+        },
+        "Bakso": {
+            "comp_fxn": ""
+        },
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "comp_fxn": ""
+        },
+        "Balder_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Bananaman": {
+            "comp_fxn": ""
+        },
+        "Bandeja_paisa": {
+            "comp_fxn": ""
+        },
+        "Barny_Cakes": {
+            "comp_fxn": ""
+        },
+        "Batchoy": {
+            "comp_fxn": ""
+        },
+        "Battle_of_Chancellorsville": {
+            "comp_fxn": ""
+        },
+        "Battle_of_Fredericksburg": {
+            "comp_fxn": ""
+        },
+        "Battle_of_Mine_Run": {
+            "comp_fxn": ""
+        },
+        "Baymax": {
+            "comp_fxn": ""
+        },
+        "Belgium": {
+            "comp_fxn": "proper_noun",
+            "name": "Belgium",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Big_Hero_6_(film)": {
+            "comp_fxn": ""
+        },
+        "Bill_Everett": {
+            "comp_fxn": ""
+        },
+        "Bill_Marriott": {
+            "comp_fxn": ""
+        },
+        "Bill_Oddie": {
+            "comp_fxn": ""
+        },
+        "Binignit": {
+            "comp_fxn": ""
+        },
+        "Birmingham": {
+            "comp_fxn": ""
+        },
+        "Black_metal": {
+            "comp_fxn": ""
+        },
+        "Blues": {
+            "comp_fxn": ""
+        },
+        "Bolt_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Boston": {
+            "comp_fxn": ""
+        },
+        "Bozo_the_Iron_Man": {
+            "comp_fxn": ""
+        },
+        "Brandon,_Manitoba": {
+            "comp_fxn": ""
+        },
+        "Brazil": {
+            "comp_fxn": ""
+        },
+        "Brazilians_in_Japan": {
+            "comp_fxn": ""
+        },
+        "British_people": {
+            "comp_fxn": ""
+        },
+        "Budapest": {
+            "comp_fxn": ""
+        },
+        "Bury_F.C.": {
+            "comp_fxn": ""
+        },
+        "Buzz_Aldrin": {
+            "comp_fxn": ""
+        },
+        "C.D._FAS": {
+            "comp_fxn": ""
+        },
+        "Cake": {
+            "comp_fxn": ""
+        },
+        "California": {
+            "comp_fxn": ""
+        },
+        "California's_11th_State_Assembly_district": {
+            "comp_fxn": ""
+        },
+        "Canada": {
+            "comp_fxn": ""
+        },
+        "Cape_Canaveral_Air_Force_Station": {
+            "comp_fxn": ""
+        },
+        "Cape_Town": {
+            "comp_fxn": ""
+        },
+        "Carl_A._Wirtanen": {
+            "comp_fxn": ""
+        },
+        "Castle_(novel)": {
+            "comp_fxn": ""
+        },
+        "Caterpillar_Inc.": {
+            "comp_fxn": ""
+        },
+        "Charlottetown": {
+            "comp_fxn": ""
+        },
+        "Chicago": {
+            "comp_fxn": ""
+        },
+        "Chicken": {
+            "comp_fxn": ""
+        },
+        "Chinabank": {
+            "comp_fxn": ""
+        },
+        "Chocolate": {
+            "comp_fxn": ""
+        },
+        "Chorizo": {
+            "comp_fxn": ""
+        },
+        "Colmore_Row": {
+            "comp_fxn": ""
+        },
+        "Columbus,_Ohio": {
+            "comp_fxn": ""
+        },
+        "Columbus_Blue_Jackets": {
+            "comp_fxn": ""
+        },
+        "Community_of_Madrid": {
+            "comp_fxn": ""
+        },
+        "Copenhagen": {
+            "comp_fxn": "proper_noun",
+            "name": "Copenhagen",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Cornell_Big_Red": {
+            "comp_fxn": ""
+        },
+        "Cornell_University": {
+            "comp_fxn": ""
+        },
+        "Crewe_Alexandra_F.C.": {
+            "comp_fxn": ""
+        },
+        "Cross_of_Valour_(Poland)": {
+            "comp_fxn": ""
+        },
+        "Cuttlefish": {
+            "comp_fxn": ""
+        },
+        "C\u00e1rmen_L\u00facia": {
+            "comp_fxn": ""
+        },
+        "Dale_Tallon": {
+            "comp_fxn": ""
+        },
+        "Dan_Mishkin": {
+            "comp_fxn": ""
+        },
+        "Delfino_Pescara_1936": {
+            "comp_fxn": ""
+        },
+        "Delta_II": {
+            "comp_fxn": ""
+        },
+        "Denmark": {
+            "comp_fxn": "proper_noun",
+            "name": "Denmark",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Deram_Records": {
+            "comp_fxn": ""
+        },
+        "Derbyshire_Dales": {
+            "comp_fxn": ""
+        },
+        "Dessert": {
+            "comp_fxn": ""
+        },
+        "Diemen": {
+            "comp_fxn": ""
+        },
+        "Distinguished_Service_Medal_(United_States_Navy)": {
+            "comp_fxn": ""
+        },
+        "Douglas_R._Oberhelman": {
+            "comp_fxn": ""
+        },
+        "Drew_Caldwell": {
+            "comp_fxn": ""
+        },
+        "DuPage_County,_Illinois": {
+            "comp_fxn": ""
+        },
+        "Dublin": {
+            "comp_fxn": ""
+        },
+        "Dublin_(European_Parliament_constituency)": {
+            "comp_fxn": ""
+        },
+        "EMI_Records": {
+            "comp_fxn": ""
+        },
+        "Eagle_Award_(comics)": {
+            "comp_fxn": ""
+        },
+        "Edmund_J._Davis": {
+            "comp_fxn": ""
+        },
+        "Eisner_Award": {
+            "comp_fxn": ""
+        },
+        "Elizabeth_II": {
+            "comp_fxn": ""
+        },
+        "Elliot_See": {
+            "comp_fxn": ""
+        },
+        "England": {
+            "comp_fxn": ""
+        },
+        "English_language": {
+            "comp_fxn": ""
+        },
+        "Eric_Flint": {
+            "comp_fxn": ""
+        },
+        "Errata,_Mississippi": {
+            "comp_fxn": ""
+        },
+        "Executive_car": {
+            "comp_fxn": ""
+        },
+        "F._Vilas": {
+            "comp_fxn": ""
+        },
+        "FC_Samtredia": {
+            "comp_fxn": ""
+        },
+        "FC_Terek_Grozny": {
+            "comp_fxn": ""
+        },
+        "FC_Tom_Tomsk": {
+            "comp_fxn": ""
+        },
+        "FC_Torpedo_Moscow": {
+            "comp_fxn": ""
+        },
+        "FK_Mughan": {
+            "comp_fxn": ""
+        },
+        "Felipe_Gozon": {
+            "comp_fxn": ""
+        },
+        "Fiat_Croma": {
+            "comp_fxn": ""
+        },
+        "Finland": {
+            "comp_fxn": ""
+        },
+        "Flemish_Government": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Government",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flemish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Flemish_Region": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Region",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flemish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Florida_Panthers": {
+            "comp_fxn": ""
+        },
+        "Fountain_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Four-stroke_engine": {
+            "comp_fxn": ""
+        },
+        "Four_World_Trade_Center": {
+            "comp_fxn": ""
+        },
+        "Frangipane": {
+            "comp_fxn": ""
+        },
+        "Frank_de_Boer": {
+            "comp_fxn": ""
+        },
+        "Fulton_County,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Funk": {
+            "comp_fxn": ""
+        },
+        "GMA_New_Media": {
+            "comp_fxn": ""
+        },
+        "Gabriela_Michetti": {
+            "comp_fxn": ""
+        },
+        "Gangsta_rap": {
+            "comp_fxn": ""
+        },
+        "Georgia_(U.S._state)": {
+            "comp_fxn": ""
+        },
+        "German_language": {
+            "comp_fxn": ""
+        },
+        "Germany": {
+            "comp_fxn": ""
+        },
+        "Giorgos_Kaminis": {
+            "comp_fxn": ""
+        },
+        "Glass_Tiger": {
+            "comp_fxn": ""
+        },
+        "Gran_Asunci\u00f3n": {
+            "comp_fxn": ""
+        },
+        "Greece": {
+            "comp_fxn": "proper_noun",
+            "name": "Greece",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Greek_language": {
+            "comp_fxn": ""
+        },
+        "Grozny": {
+            "comp_fxn": ""
+        },
+        "Guiana_Space_Centre": {
+            "comp_fxn": ""
+        },
+        "Gus_Poyet": {
+            "comp_fxn": ""
+        },
+        "HIV": {
+            "comp_fxn": ""
+        },
+        "Hardcover": {
+            "comp_fxn": ""
+        },
+        "Harrietstown,_New_York": {
+            "comp_fxn": ""
+        },
+        "Hilario_P\u00e9rez": {
+            "comp_fxn": ""
+        },
+        "Hip_hop_music": {
+            "comp_fxn": ""
+        },
+        "Honda": {
+            "comp_fxn": ""
+        },
+        "Honda_K_engine": {
+            "comp_fxn": ""
+        },
+        "Hook_'em_(mascot)": {
+            "comp_fxn": ""
+        },
+        "House_of_Representatives_(Netherlands)": {
+            "comp_fxn": ""
+        },
+        "Hungary": {
+            "comp_fxn": ""
+        },
+        "Ice_cream": {
+            "comp_fxn": ""
+        },
+        "India": {
+            "comp_fxn": ""
+        },
+        "Indiana": {
+            "comp_fxn": ""
+        },
+        "Indianapolis": {
+            "comp_fxn": ""
+        },
+        "Indonesia": {
+            "comp_fxn": ""
+        },
+        "Infraero": {
+            "comp_fxn": "proper_noun",
+            "name": "Infraero",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Inuktitut": {
+            "comp_fxn": ""
+        },
+        "Iraq": {
+            "comp_fxn": ""
+        },
+        "Italians": {
+            "comp_fxn": ""
+        },
+        "Italy": {
+            "comp_fxn": ""
+        },
+        "Jack_Kirby": {
+            "comp_fxn": ""
+        },
+        "Jacksonville_Dolphins": {
+            "comp_fxn": ""
+        },
+        "Jacob_Bundsgaard": {
+            "comp_fxn": ""
+        },
+        "Japan": {
+            "comp_fxn": ""
+        },
+        "Java": {
+            "comp_fxn": ""
+        },
+        "Jazz": {
+            "comp_fxn": ""
+        },
+        "Jens_H\u00e4rtel": {
+            "comp_fxn": ""
+        },
+        "Joe_Biden": {
+            "comp_fxn": ""
+        },
+        "John_Buscema": {
+            "comp_fxn": ""
+        },
+        "John_Cowper_Powys": {
+            "comp_fxn": ""
+        },
+        "John_Madin": {
+            "comp_fxn": ""
+        },
+        "John_van_den_Brom": {
+            "comp_fxn": ""
+        },
+        "Jorge_Humberto_Rodr\u00edguez": {
+            "comp_fxn": ""
+        },
+        "Jorge_Orosm\u00e1n_da_Silva": {
+            "comp_fxn": ""
+        },
+        "Josef_Klaus": {
+            "comp_fxn": ""
+        },
+        "Juan_Carlos_I_of_Spain": {
+            "comp_fxn": ""
+        },
+        "Juan_Per\u00f3n": {
+            "comp_fxn": ""
+        },
+        "Jusuf_Kalla": {
+            "comp_fxn": ""
+        },
+        "Jwaydan_Moyine": {
+            "comp_fxn": ""
+        },
+        "K-W_United_FC": {
+            "comp_fxn": ""
+        },
+        "Kashubian_language": {
+            "comp_fxn": ""
+        },
+        "Kate_Hardie": {
+            "comp_fxn": ""
+        },
+        "Konstantinos_Mitsotakis": {
+            "comp_fxn": ""
+        },
+        "Kornelije_Kova\u010d": {
+            "comp_fxn": ""
+        },
+        "Kota_Samarahan": {
+            "comp_fxn": ""
+        },
+        "Kourou,_French_Guiana": {
+            "comp_fxn": ""
+        },
+        "La_Crosse,_Wisconsin": {
+            "comp_fxn": ""
+        },
+        "Labour_Party_(Argentina)": {
+            "comp_fxn": ""
+        },
+        "Lancia_Thema": {
+            "comp_fxn": ""
+        },
+        "Lars_L\u00f8kke_Rasmussen": {
+            "comp_fxn": ""
+        },
+        "Lee_County,_Alabama": {
+            "comp_fxn": ""
+        },
+        "Legacy_Recordings": {
+            "comp_fxn": ""
+        },
+        "Leinster": {
+            "comp_fxn": ""
+        },
+        "Lemon": {
+            "comp_fxn": ""
+        },
+        "Lentivirus": {
+            "comp_fxn": ""
+        },
+        "Linebacker": {
+            "comp_fxn": ""
+        },
+        "London": {
+            "comp_fxn": ""
+        },
+        "Luanda": {
+            "comp_fxn": "proper_noun",
+            "name": "Luanda",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Maccabi_Tel_Aviv_B.C.": {
+            "comp_fxn": ""
+        },
+        "Madeleine_L'Engle": {
+            "comp_fxn": ""
+        },
+        "Magik_(rapper)": {
+            "comp_fxn": ""
+        },
+        "Malaysia": {
+            "comp_fxn": ""
+        },
+        "Manitoba": {
+            "comp_fxn": ""
+        },
+        "Marousi": {
+            "comp_fxn": ""
+        },
+        "Marriott_International": {
+            "comp_fxn": ""
+        },
+        "Marv_Wolfman": {
+            "comp_fxn": ""
+        },
+        "Mason_School_of_Business": {
+            "comp_fxn": ""
+        },
+        "Massimo_Drago": {
+            "comp_fxn": ""
+        },
+        "Mathematics": {
+            "comp_fxn": ""
+        },
+        "Mayor": {
+            "comp_fxn": ""
+        },
+        "Media_company": {
+            "comp_fxn": ""
+        },
+        "Mexicans": {
+            "comp_fxn": ""
+        },
+        "Mexico": {
+            "comp_fxn": ""
+        },
+        "Meyer_Werft": {
+            "comp_fxn": ""
+        },
+        "Mike_Akhigbe": {
+            "comp_fxn": ""
+        },
+        "Milonga_(music)": {
+            "comp_fxn": ""
+        },
+        "Mondelez_International": {
+            "comp_fxn": ""
+        },
+        "Movieplay": {
+            "comp_fxn": ""
+        },
+        "N._R._Pogson": {
+            "comp_fxn": ""
+        },
+        "NASA": {
+            "comp_fxn": ""
+        },
+        "National_Hockey_League": {
+            "comp_fxn": ""
+        },
+        "Native_Americans_in_the_United_States": {
+            "comp_fxn": ""
+        },
+        "Netherlands": {
+            "comp_fxn": ""
+        },
+        "New_Jersey": {
+            "comp_fxn": ""
+        },
+        "New_York_City": {
+            "comp_fxn": ""
+        },
+        "Nigerian_Air_Force": {
+            "comp_fxn": ""
+        },
+        "Nigerian_Army": {
+            "comp_fxn": ""
+        },
+        "Nikos_Voutsis": {
+            "comp_fxn": ""
+        },
+        "Noodle": {
+            "comp_fxn": ""
+        },
+        "Oladipo_Diya": {
+            "comp_fxn": ""
+        },
+        "Olympic_Stadium_(Athens)": {
+            "comp_fxn": ""
+        },
+        "Olympique_Lyonnais": {
+            "comp_fxn": ""
+        },
+        "Overland_Campaign": {
+            "comp_fxn": ""
+        },
+        "PAS_Tehran_F.C.": {
+            "comp_fxn": ""
+        },
+        "Pakistan": {
+            "comp_fxn": "proper_noun",
+            "name": "Pakistan",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Pangasinense_people": {
+            "comp_fxn": ""
+        },
+        "Papenburg": {
+            "comp_fxn": ""
+        },
+        "Paracuellos_de_Jarama": {
+            "comp_fxn": ""
+        },
+        "Parc_Olympique_Lyonnais": {
+            "comp_fxn": ""
+        },
+        "Patrick_McLoughlin": {
+            "comp_fxn": ""
+        },
+        "Paul_Ryan": {
+            "comp_fxn": ""
+        },
+        "Peoria,_Illinois": {
+            "comp_fxn": ""
+        },
+        "Persea": {
+            "comp_fxn": ""
+        },
+        "Peter_St\u00f6ger": {
+            "comp_fxn": ""
+        },
+        "Pe\u00f1arol": {
+            "comp_fxn": ""
+        },
+        "Philippe_of_Belgium": {
+            "comp_fxn": ""
+        },
+        "Philippine_Entertainment_Portal": {
+            "comp_fxn": ""
+        },
+        "Philippines": {
+            "comp_fxn": ""
+        },
+        "Philips_Records": {
+            "comp_fxn": ""
+        },
+        "Pietro_Canonica": {
+            "comp_fxn": ""
+        },
+        "Pleasant_Township,_Steuben_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Point_Fortin": {
+            "comp_fxn": ""
+        },
+        "Poland": {
+            "comp_fxn": ""
+        },
+        "Pop_music": {
+            "comp_fxn": ""
+        },
+        "Port_Authority_of_New_York_and_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "Potter_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Premier_Development_League": {
+            "comp_fxn": ""
+        },
+        "Purple_Heart": {
+            "comp_fxn": ""
+        },
+        "Qatar_Stars_League": {
+            "comp_fxn": ""
+        },
+        "RCA_Records": {
+            "comp_fxn": ""
+        },
+        "Ren\u00e9_Goscinny": {
+            "comp_fxn": ""
+        },
+        "Republic_of_Ireland": {
+            "comp_fxn": ""
+        },
+        "Rodrigo_Duterte": {
+            "comp_fxn": ""
+        },
+        "Romani_people": {
+            "comp_fxn": ""
+        },
+        "Romania": {
+            "comp_fxn": ""
+        },
+        "Rosids": {
+            "comp_fxn": ""
+        },
+        "Rostock": {
+            "comp_fxn": ""
+        },
+        "Russian_Football_National_League": {
+            "comp_fxn": ""
+        },
+        "S.S._Chieti_Calcio": {
+            "comp_fxn": ""
+        },
+        "SV_Germania_Sch\u00f6neiche": {
+            "comp_fxn": ""
+        },
+        "Sadique_Abubakar": {
+            "comp_fxn": ""
+        },
+        "Sami_languages": {
+            "comp_fxn": ""
+        },
+        "San_Sebasti\u00e1n_de_los_Reyes": {
+            "comp_fxn": ""
+        },
+        "Saranac_Lake,_New_York": {
+            "comp_fxn": ""
+        },
+        "School of Business and Social Sciences at the Aarhus University": {
+            "comp_fxn": ""
+        },
+        "Shanachie_Records": {
+            "comp_fxn": ""
+        },
+        "Shumai": {
+            "comp_fxn": ""
+        },
+        "Silvio_Berlusconi": {
+            "comp_fxn": ""
+        },
+        "Siomay": {
+            "comp_fxn": ""
+        },
+        "Soul_music": {
+            "comp_fxn": ""
+        },
+        "South_Africa": {
+            "comp_fxn": ""
+        },
+        "South_Jersey_Transportation_Authority": {
+            "comp_fxn": ""
+        },
+        "Spain": {
+            "comp_fxn": "proper_noun",
+            "name": "Spain",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Spanish_language": {
+            "comp_fxn": ""
+        },
+        "Spata": {
+            "comp_fxn": "proper_noun",
+            "name": "Spata",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Squid": {
+            "comp_fxn": ""
+        },
+        "Sri_Lanka": {
+            "comp_fxn": ""
+        },
+        "St._Vincent\u2013St._Mary_High_School": {
+            "comp_fxn": ""
+        },
+        "Stanislaw_Tillich": {
+            "comp_fxn": ""
+        },
+        "Stephen_Dilts": {
+            "comp_fxn": ""
+        },
+        "Stuart_Parker_(footballer)": {
+            "comp_fxn": ""
+        },
+        "Sulaiman_Abdul_Rahman_Taib": {
+            "comp_fxn": ""
+        },
+        "Sumitra_Mahajan": {
+            "comp_fxn": ""
+        },
+        "Swords,_Dublin": {
+            "comp_fxn": ""
+        },
+        "Tarrant_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Tar\u014d_As\u014d": {
+            "comp_fxn": ""
+        },
+        "Territorial_Decoration": {
+            "comp_fxn": ""
+        },
+        "Test_pilot": {
+            "comp_fxn": ""
+        },
+        "Texas": {
+            "comp_fxn": ""
+        },
+        "The_Fylde": {
+            "comp_fxn": ""
+        },
+        "The_Grantville_Gazettes": {
+            "comp_fxn": ""
+        },
+        "The_Horns_of_Happiness": {
+            "comp_fxn": ""
+        },
+        "Trenton,_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "Trinidad": {
+            "comp_fxn": ""
+        },
+        "Tuanku_Bujang_Tuanku_Othman": {
+            "comp_fxn": ""
+        },
+        "Twilight_(band)": {
+            "comp_fxn": ""
+        },
+        "United States of America": {
+            "comp_fxn": ""
+        },
+        "United_Kingdom": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "United_States_Army": {
+            "comp_fxn": ""
+        },
+        "University_of_Adelaide": {
+            "comp_fxn": ""
+        },
+        "University_of_Texas_at_Austin": {
+            "comp_fxn": ""
+        },
+        "University_of_Vienna": {
+            "comp_fxn": ""
+        },
+        "Uruguay_Olympic_football_team": {
+            "comp_fxn": ""
+        },
+        "Uruguay_national_football_team": {
+            "comp_fxn": ""
+        },
+        "Valery_Petrakov": {
+            "comp_fxn": ""
+        },
+        "Vegetable": {
+            "comp_fxn": ""
+        },
+        "Vermicelli": {
+            "comp_fxn": ""
+        },
+        "Vica": {
+            "comp_fxn": ""
+        },
+        "Visayas": {
+            "comp_fxn": ""
+        },
+        "Washtenaw_County,_Michigan": {
+            "comp_fxn": ""
+        },
+        "Whig_Party_(United_States)": {
+            "comp_fxn": ""
+        },
+        "Wiley-Blackwell": {
+            "comp_fxn": ""
+        },
+        "William_Anders": {
+            "comp_fxn": ""
+        },
+        "Wolf_Solent": {
+            "comp_fxn": ""
+        },
+        "World_War_II": {
+            "comp_fxn": ""
+        },
+        "World_Wide_Web": {
+            "comp_fxn": ""
+        },
+        "\u017dan_Tabak": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "LCCN_number": {
+            "comp_fxn": ""
+        },
+        "abbreviation": {
+            "comp_fxn": ""
+        },
+        "academicDiscipline": {
+            "comp_fxn": ""
+        },
+        "academicStaffSize": {
+            "comp_fxn": ""
+        },
+        "activeYearsEndDate": {
+            "comp_fxn": ""
+        },
+        "activeYearsStartDate": {
+            "comp_fxn": ""
+        },
+        "activeYearsStartYear": {
+            "comp_fxn": ""
+        },
+        "addedToTheNationalRegisterOfHistoricPlaces": {
+            "comp_fxn": ""
+        },
+        "almaMater": {
+            "comp_fxn": ""
+        },
+        "alternativeName": {
+            "comp_fxn": ""
+        },
+        "apoapsis": {
+            "comp_fxn": ""
+        },
+        "architect": {
+            "comp_fxn": ""
+        },
+        "areaCode": {
+            "comp_fxn": ""
+        },
+        "areaTotal": {
+            "comp_fxn": ""
+        },
+        "assembly": {
+            "comp_fxn": ""
+        },
+        "associatedBand/associatedMusicalArtist": {
+            "comp_fxn": ""
+        },
+        "author": {
+            "comp_fxn": ""
+        },
+        "averageSpeed": {
+            "comp_fxn": ""
+        },
+        "award": {
+            "comp_fxn": ""
+        },
+        "background": {
+            "comp_fxn": ""
+        },
+        "backupPilot": {
+            "comp_fxn": ""
+        },
+        "battle": {
+            "comp_fxn": ""
+        },
+        "birthDate": {
+            "comp_fxn": ""
+        },
+        "birthPlace": {
+            "comp_fxn": ""
+        },
+        "broadcastedBy": {
+            "comp_fxn": ""
+        },
+        "builder": {
+            "comp_fxn": ""
+        },
+        "buildingStartDate": {
+            "comp_fxn": ""
+        },
+        "campus": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "chairman": {
+            "comp_fxn": ""
+        },
+        "champions": {
+            "comp_fxn": ""
+        },
+        "chief": {
+            "comp_fxn": ""
+        },
+        "child": {
+            "comp_fxn": ""
+        },
+        "christeningDate": {
+            "comp_fxn": ""
+        },
+        "city": {
+            "comp_fxn": ""
+        },
+        "cityServed": {
+            "comp_fxn": ""
+        },
+        "class": {
+            "comp_fxn": ""
+        },
+        "club": {
+            "comp_fxn": ""
+        },
+        "coach": {
+            "comp_fxn": ""
+        },
+        "codenCode": {
+            "comp_fxn": ""
+        },
+        "commander": {
+            "comp_fxn": ""
+        },
+        "completionDate": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "countryOrigin": {
+            "comp_fxn": ""
+        },
+        "countySeat": {
+            "comp_fxn": ""
+        },
+        "course": {
+            "comp_fxn": ""
+        },
+        "creator": {
+            "comp_fxn": ""
+        },
+        "currentTenants": {
+            "comp_fxn": ""
+        },
+        "deathPlace": {
+            "comp_fxn": ""
+        },
+        "demonym": {
+            "comp_fxn": ""
+        },
+        "designer": {
+            "comp_fxn": ""
+        },
+        "discoverer": {
+            "comp_fxn": ""
+        },
+        "dishVariation": {
+            "comp_fxn": ""
+        },
+        "distributingCompany": {
+            "comp_fxn": ""
+        },
+        "division": {
+            "comp_fxn": ""
+        },
+        "eissnNumber": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevel": {
+            "comp_fxn": ""
+        },
+        "engine": {
+            "comp_fxn": ""
+        },
+        "epoch": {
+            "comp_fxn": ""
+        },
+        "escapeVelocity": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "finalFlight": {
+            "comp_fxn": ""
+        },
+        "firstAired": {
+            "comp_fxn": ""
+        },
+        "floorCount": {
+            "comp_fxn": ""
+        },
+        "followedBy": {
+            "comp_fxn": ""
+        },
+        "foundationPlace": {
+            "comp_fxn": ""
+        },
+        "fullName": {
+            "comp_fxn": ""
+        },
+        "generalManager": {
+            "comp_fxn": ""
+        },
+        "genre": {
+            "comp_fxn": ""
+        },
+        "genus": {
+            "comp_fxn": ""
+        },
+        "ground": {
+            "comp_fxn": ""
+        },
+        "headquarter": {
+            "comp_fxn": ""
+        },
+        "height": {
+            "comp_fxn": ""
+        },
+        "impactFactor": {
+            "comp_fxn": ""
+        },
+        "inOfficeWhileMonarch": {
+            "comp_fxn": ""
+        },
+        "inOfficeWhileVicePresident": {
+            "comp_fxn": ""
+        },
+        "inaugurationDate": {
+            "comp_fxn": ""
+        },
+        "ingredient": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "isPartOfMilitaryConflict": {
+            "comp_fxn": ""
+        },
+        "isbnNumber": {
+            "comp_fxn": ""
+        },
+        "keyPerson": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "largestCity": {
+            "comp_fxn": ""
+        },
+        "launchSite": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "leaderTitle": {
+            "comp_fxn": ""
+        },
+        "league": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "longName": {
+            "comp_fxn": ""
+        },
+        "maidenFlight": {
+            "comp_fxn": ""
+        },
+        "maidenVoyage": {
+            "comp_fxn": ""
+        },
+        "mainIngredient": {
+            "comp_fxn": ""
+        },
+        "manager": {
+            "comp_fxn": ""
+        },
+        "manufacturer": {
+            "comp_fxn": ""
+        },
+        "mascot": {
+            "comp_fxn": ""
+        },
+        "mass": {
+            "comp_fxn": ""
+        },
+        "material": {
+            "comp_fxn": ""
+        },
+        "mayor": {
+            "comp_fxn": ""
+        },
+        "mediaType": {
+            "comp_fxn": ""
+        },
+        "militaryBranch": {
+            "comp_fxn": ""
+        },
+        "musicFusionGenre": {
+            "comp_fxn": ""
+        },
+        "musicSubgenre": {
+            "comp_fxn": ""
+        },
+        "nationality": {
+            "comp_fxn": ""
+        },
+        "netIncome": {
+            "comp_fxn": ""
+        },
+        "nickname": {
+            "comp_fxn": ""
+        },
+        "notableWork": {
+            "comp_fxn": ""
+        },
+        "numberOfMembers": {
+            "comp_fxn": ""
+        },
+        "occupation": {
+            "comp_fxn": ""
+        },
+        "oclcNumber": {
+            "comp_fxn": ""
+        },
+        "office": {
+            "comp_fxn": ""
+        },
+        "operatingOrganisation": {
+            "comp_fxn": ""
+        },
+        "operator": {
+            "comp_fxn": ""
+        },
+        "orbitalPeriod": {
+            "comp_fxn": ""
+        },
+        "order": {
+            "comp_fxn": ""
+        },
+        "origin": {
+            "comp_fxn": ""
+        },
+        "parentCompany": {
+            "comp_fxn": ""
+        },
+        "part": {
+            "comp_fxn": ""
+        },
+        "party": {
+            "comp_fxn": ""
+        },
+        "patronSaint": {
+            "comp_fxn": ""
+        },
+        "periapsis": {
+            "comp_fxn": ""
+        },
+        "populationDensity": {
+            "comp_fxn": ""
+        },
+        "position": {
+            "comp_fxn": ""
+        },
+        "postalCode": {
+            "comp_fxn": ""
+        },
+        "precededBy": {
+            "comp_fxn": ""
+        },
+        "predecessor": {
+            "comp_fxn": ""
+        },
+        "product": {
+            "comp_fxn": ""
+        },
+        "productionEndYear": {
+            "comp_fxn": ""
+        },
+        "protein": {
+            "comp_fxn": ""
+        },
+        "publisher": {
+            "comp_fxn": ""
+        },
+        "recordLabel": {
+            "comp_fxn": ""
+        },
+        "region": {
+            "comp_fxn": ""
+        },
+        "relatedMeanOfTransportation": {
+            "comp_fxn": ""
+        },
+        "residence": {
+            "comp_fxn": ""
+        },
+        "rotationPeriod": {
+            "comp_fxn": ""
+        },
+        "runwayLength": {
+            "comp_fxn": ""
+        },
+        "runwayName": {
+            "comp_fxn": ""
+        },
+        "season": {
+            "comp_fxn": ""
+        },
+        "series": {
+            "comp_fxn": ""
+        },
+        "serviceStartYear": {
+            "comp_fxn": ""
+        },
+        "servingTemperature": {
+            "comp_fxn": ""
+        },
+        "shipBeam": {
+            "comp_fxn": ""
+        },
+        "shipClass": {
+            "comp_fxn": ""
+        },
+        "shipInService": {
+            "comp_fxn": ""
+        },
+        "starring": {
+            "comp_fxn": ""
+        },
+        "state": {
+            "comp_fxn": ""
+        },
+        "stylisticOrigin": {
+            "comp_fxn": ""
+        },
+        "successor": {
+            "comp_fxn": ""
+        },
+        "temperature": {
+            "comp_fxn": ""
+        },
+        "topSpeed": {
+            "comp_fxn": ""
+        },
+        "transmission": {
+            "comp_fxn": ""
+        },
+        "type": {
+            "comp_fxn": ""
+        },
+        "yearOfConstruction": {
+            "comp_fxn": ""
+        },
+        "youthclub": {
+            "comp_fxn": ""
+        }
+    }
+}

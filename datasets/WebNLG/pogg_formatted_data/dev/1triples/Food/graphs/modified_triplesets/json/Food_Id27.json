@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Italy": {
+            "lexicon_key": "Italy"
+        },
+        "Italians": {
+            "lexicon_key": "Italians"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "Italy",
+            "child_node": "Italians",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Italians are from Italy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Italians is the name given to people from Italy."
+        }
+    },
+    "gold_outputs": [
+        "Italians are from Italy.",
+        "Italians is the name given to people from Italy."
+    ]
+}

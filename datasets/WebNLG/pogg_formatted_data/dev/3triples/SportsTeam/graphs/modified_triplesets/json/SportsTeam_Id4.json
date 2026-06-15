@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.D._Isidro_Metap\u00e1n": {
+            "lexicon_key": "A.D._Isidro_Metap\u00e1n"
+        },
+        "Estadio_Jorge_Calero_Su\u00e1rez": {
+            "lexicon_key": "Estadio_Jorge_Calero_Su\u00e1rez"
+        },
+        "\"Isidro Metap\u00e1n\"": {
+            "lexicon_key": "\"Isidro Metap\u00e1n\""
+        },
+        "10000": {
+            "lexicon_key": "10000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "A.D._Isidro_Metap\u00e1n",
+            "child_node": "Estadio_Jorge_Calero_Su\u00e1rez",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "fullName",
+            "parent_node": "A.D._Isidro_Metap\u00e1n",
+            "child_node": "\"Isidro Metap\u00e1n\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        },
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "A.D._Isidro_Metap\u00e1n",
+            "child_node": "10000",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.D. Isidro Metap\u00e1n are based at the Estadio Jorge Calero Su\u00e1rez ground. Its full name is Isidro Metapan and it has 10000 members."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.D. Isidro Metapan (full name, Isidro Metapan) has 10000 members and play their home games at the Estadio Jorge Calero Suarez stadium."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Isidro Metapan (A.D. Isidro Metapan) has 10000 members and are at Estadio Jorge Calero Suarez."
+        }
+    },
+    "gold_outputs": [
+        "A.D. Isidro Metapan (full name, Isidro Metapan) has 10000 members and play their home games at the Estadio Jorge Calero Suarez stadium.",
+        "A.D. Isidro Metap\u00e1n are based at the Estadio Jorge Calero Su\u00e1rez ground. Its full name is Isidro Metapan and it has 10000 members.",
+        "Isidro Metapan (A.D. Isidro Metapan) has 10000 members and are at Estadio Jorge Calero Suarez."
+    ]
+}

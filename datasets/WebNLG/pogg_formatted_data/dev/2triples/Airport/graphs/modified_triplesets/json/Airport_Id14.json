@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Andrews_County_Airport": {
+            "lexicon_key": "Andrews_County_Airport"
+        },
+        "Texas": {
+            "lexicon_key": "Texas"
+        },
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Andrews_County_Airport",
+            "child_node": "Texas",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "Texas",
+            "child_node": "Austin,_Texas",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrews County Airport is located in Texas, the capital of which is Austin."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrews County Airport is located in Texas which has the capital of Austin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andrews County Airport is located in Texas, where Austin is the capital."
+        }
+    },
+    "gold_outputs": [
+        "Andrews County Airport is located in Texas which has the capital of Austin.",
+        "Andrews County Airport is located in Texas, the capital of which is Austin.",
+        "Andrews County Airport is located in Texas, where Austin is the capital."
+    ]
+}

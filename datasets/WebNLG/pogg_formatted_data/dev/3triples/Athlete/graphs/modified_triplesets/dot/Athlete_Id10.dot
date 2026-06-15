@@ -1,0 +1,9 @@
+strict digraph {
+Akeem_Priestley [lexicon_key="Akeem_Priestley"];
+Jamaica [lexicon_key=Jamaica];
+"Patrick_Allen_(politician)" [lexicon_key="Patrick_Allen_(politician)"];
+Elizabeth_II [lexicon_key="Elizabeth_II"];
+Akeem_Priestley -> Jamaica [label=birthPlace, lexicon_key=birthPlace];
+Jamaica -> "Patrick_Allen_(politician)" [label=leader, lexicon_key=leader];
+Jamaica -> Elizabeth_II [label=leader, lexicon_key=leader];
+}

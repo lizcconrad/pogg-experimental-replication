@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Ace_Wilder": {
+            "lexicon_key": "Ace_Wilder"
+        },
+        "Warner_Music_Group": {
+            "lexicon_key": "Warner_Music_Group"
+        },
+        "Sweden": {
+            "lexicon_key": "Sweden"
+        },
+        "\"solo_singer\"": {
+            "lexicon_key": "\"solo_singer\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Ace_Wilder",
+            "child_node": "Warner_Music_Group",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Ace_Wilder",
+            "child_node": "Sweden",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "background",
+            "parent_node": "Ace_Wilder",
+            "child_node": "\"solo_singer\"",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ace Wilder, born in Sweden, is a solo singer on the record label Warner Music group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ace Wilder (of Sweden) is a solo singer and his record label is Warner Music Group."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Sweden is the birthplace of Ace Wilder who has a background as a solo singer. Ace Wilder uses the record label Warner Music group."
+        }
+    },
+    "gold_outputs": [
+        "Ace Wilder (of Sweden) is a solo singer and his record label is Warner Music Group.",
+        "Ace Wilder, born in Sweden, is a solo singer on the record label Warner Music group.",
+        "Sweden is the birthplace of Ace Wilder who has a background as a solo singer. Ace Wilder uses the record label Warner Music group."
+    ]
+}

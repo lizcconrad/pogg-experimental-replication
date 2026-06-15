@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abarth_1000_GT_Coup\u00e9": {
+            "lexicon_key": "Abarth_1000_GT_Coup\u00e9"
+        },
+        "Gruppo_Bertone": {
+            "lexicon_key": "Gruppo_Bertone"
+        },
+        "Turin": {
+            "lexicon_key": "Turin"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "designCompany",
+            "parent_node": "Abarth_1000_GT_Coup\u00e9",
+            "child_node": "Gruppo_Bertone",
+            "edge_properties": {
+                "lexicon_key": "designCompany"
+            }
+        },
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Gruppo_Bertone",
+            "child_node": "Turin",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Gruppo_Bertone",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Gruppo Bertone, of Turin Italy, designed the Abarth 1000 GT Coupe."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Abarth 1000 GT Coupe was designed by Gruppo Bertone (Italy). The Gruppo Bertone originates from Turin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Gruppo Bertone, founded in Turin, Italy, was the designer of the Abarth 1000 GT Coup\u00e9."
+        }
+    },
+    "gold_outputs": [
+        "Gruppo Bertone, founded in Turin, Italy, was the designer of the Abarth 1000 GT Coup\u00e9.",
+        "Gruppo Bertone, of Turin Italy, designed the Abarth 1000 GT Coupe.",
+        "The Abarth 1000 GT Coupe was designed by Gruppo Bertone (Italy). The Gruppo Bertone originates from Turin."
+    ]
+}

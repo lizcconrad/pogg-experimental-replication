@@ -1,0 +1,7 @@
+strict digraph {
+"10_Hygiea" [lexicon_key="10_Hygiea"];
+"A900 GA" [lexicon_key="A900 GA"];
+"2015-06-27" [lexicon_key="2015-06-27"];
+"10_Hygiea" -> "A900 GA" [label=formerName, lexicon_key=formerName];
+"10_Hygiea" -> "2015-06-27" [label=epoch, lexicon_key=epoch];
+}

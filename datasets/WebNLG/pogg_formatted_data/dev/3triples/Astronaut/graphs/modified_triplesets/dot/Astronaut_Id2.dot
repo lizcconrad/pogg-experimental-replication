@@ -1,0 +1,9 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+"1998-07-21" [lexicon_key="1998-07-21"];
+California [lexicon_key=California];
+Dianne_Feinstein [lexicon_key="Dianne_Feinstein"];
+Alan_Shepard -> "1998-07-21" [label=deathDate, lexicon_key=deathDate];
+Alan_Shepard -> California [label=deathPlace, lexicon_key=deathPlace];
+California -> Dianne_Feinstein [label=senators, lexicon_key=senators];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+657 [lexicon_key=657];
+"Anaheim,_California" -> 657 [label=areaCode, lexicon_key=areaCode];
+}

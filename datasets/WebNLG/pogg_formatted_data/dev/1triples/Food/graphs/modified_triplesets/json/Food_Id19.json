@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Batchoy": {
+            "lexicon_key": "Batchoy"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Batchoy",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Batchoy is eaten in the Philippines."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Philippines is the country Batchoy comes from."
+        }
+    },
+    "gold_outputs": [
+        "Batchoy is eaten in the Philippines.",
+        "Philippines is the country Batchoy comes from."
+    ]
+}

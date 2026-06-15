@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "101_Helena": {
+            "lexicon_key": "101_Helena"
+        },
+        "3.0 (kilograms)": {
+            "lexicon_key": "3.0 (kilograms)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mass",
+            "parent_node": "101_Helena",
+            "child_node": "3.0 (kilograms)",
+            "edge_properties": {
+                "lexicon_key": "mass"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "101 Helena has a mass of 3.0 kgs."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "101 Helena has a mass of 3.0 kilograms."
+        }
+    },
+    "gold_outputs": [
+        "101 Helena has a mass of 3.0 kgs.",
+        "101 Helena has a mass of 3.0 kilograms."
+    ]
+}

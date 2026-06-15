@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        },
+        "45644811": {
+            "lexicon_key": "45644811"
+        },
+        "Garth_Nix": {
+            "lexicon_key": "Garth_Nix"
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "Aenir",
+            "child_node": "45644811",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "Aenir",
+            "child_node": "Garth_Nix",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "Aenir",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aenir, written by Garth Nix, was produced in print and has the OCLC number 45644811."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aenir was written by Garth Nix and produced in print. It has an OCLC number of 45644811."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aenir, OCLC number 45644811, by author Garth Nix is available in print."
+        }
+    },
+    "gold_outputs": [
+        "Aenir was written by Garth Nix and produced in print. It has an OCLC number of 45644811.",
+        "Aenir, OCLC number 45644811, by author Garth Nix is available in print.",
+        "Aenir, written by Garth Nix, was produced in print and has the OCLC number 45644811."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "\"East Link Bridge\"": {
+            "lexicon_key": "\"East Link Bridge\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "3Arena",
+            "child_node": "\"East Link Bridge\"",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The 3Arena is located at East Link Bridge."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 3Arena is located on the East Link Bridge."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "3Arena is located at East Link Bridge."
+        }
+    },
+    "gold_outputs": [
+        "3Arena is located at East Link Bridge.",
+        "The 3Arena is located at East Link Bridge.",
+        "The 3Arena is located on the East Link Bridge."
+    ]
+}

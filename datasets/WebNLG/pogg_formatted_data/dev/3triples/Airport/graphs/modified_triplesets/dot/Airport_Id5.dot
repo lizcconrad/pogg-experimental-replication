@@ -1,0 +1,9 @@
+strict digraph {
+Al_Asad_Airbase [lexicon_key="Al_Asad_Airbase"];
+United_States_Air_Force [lexicon_key="United_States_Air_Force"];
+Iraq [lexicon_key=Iraq];
+3078.48 [lexicon_key=3078.48];
+Al_Asad_Airbase -> United_States_Air_Force [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+Al_Asad_Airbase -> Iraq [label=location, lexicon_key=location];
+Al_Asad_Airbase -> 3078.48 [label=runwayLength, lexicon_key=runwayLength];
+}

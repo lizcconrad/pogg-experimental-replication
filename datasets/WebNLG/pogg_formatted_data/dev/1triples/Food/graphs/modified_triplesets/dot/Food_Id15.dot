@@ -1,0 +1,5 @@
+strict digraph {
+Bandeja_paisa [lexicon_key="Bandeja_paisa"];
+Chorizo [lexicon_key=Chorizo];
+Bandeja_paisa -> Chorizo [label=ingredient, lexicon_key=ingredient];
+}

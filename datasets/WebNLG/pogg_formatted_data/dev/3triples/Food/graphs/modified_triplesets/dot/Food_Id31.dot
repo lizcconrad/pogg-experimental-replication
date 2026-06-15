@@ -1,0 +1,9 @@
+strict digraph {
+Binignit [lexicon_key=Binignit];
+Sweet_potato [lexicon_key="Sweet_potato"];
+Banana [lexicon_key=Banana];
+Philippines [lexicon_key=Philippines];
+Binignit -> Sweet_potato [label=ingredient, lexicon_key=ingredient];
+Binignit -> Banana [label=mainIngredient, lexicon_key=mainIngredient];
+Binignit -> Philippines [label=country, lexicon_key=country];
+}

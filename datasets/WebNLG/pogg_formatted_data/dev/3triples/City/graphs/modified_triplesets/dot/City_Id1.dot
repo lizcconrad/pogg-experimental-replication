@@ -1,0 +1,9 @@
+strict digraph {
+"Abilene,_Texas" [lexicon_key="Abilene,_Texas"];
+524.0 [lexicon_key=524.0];
+"429.9 (inhabitants per square kilometre)" [lexicon_key="429.9 (inhabitants per square kilometre)"];
+"286.5 (square kilometres)" [lexicon_key="286.5 (square kilometres)"];
+"Abilene,_Texas" -> 524.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+"Abilene,_Texas" -> "429.9 (inhabitants per square kilometre)" [label=populationDensity, lexicon_key=populationDensity];
+"Abilene,_Texas" -> "286.5 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+}

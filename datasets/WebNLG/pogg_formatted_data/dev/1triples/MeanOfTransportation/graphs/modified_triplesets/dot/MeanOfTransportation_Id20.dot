@@ -1,0 +1,5 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+18.52 [lexicon_key=18.52];
+Alhambra -> 18.52 [label=topSpeed, lexicon_key=topSpeed];
+}

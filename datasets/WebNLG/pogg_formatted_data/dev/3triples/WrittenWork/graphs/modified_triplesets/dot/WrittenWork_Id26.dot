@@ -1,0 +1,9 @@
+strict digraph {
+American_Journal_of_Mathematics [lexicon_key="American_Journal_of_Mathematics"];
+"Am. J. Math." [lexicon_key="Am. J. Math."];
+Mathematics [lexicon_key=Mathematics];
+"1080-6377" [lexicon_key="1080-6377"];
+American_Journal_of_Mathematics -> "Am. J. Math." [label=abbreviation, lexicon_key=abbreviation];
+American_Journal_of_Mathematics -> Mathematics [label=academicDiscipline, lexicon_key=academicDiscipline];
+American_Journal_of_Mathematics -> "1080-6377" [label=issnNumber, lexicon_key=issnNumber];
+}

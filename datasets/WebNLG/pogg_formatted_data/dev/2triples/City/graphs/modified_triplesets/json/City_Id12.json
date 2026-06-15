@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Attica,_Indiana": {
+            "lexicon_key": "Attica,_Indiana"
+        },
+        "Indiana": {
+            "lexicon_key": "Indiana"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Attica,_Indiana",
+            "child_node": "Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Attica,_Indiana",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Attica is located in the state of Indiana in the U.S."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Attica is part of Indiana in the US."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Attica is part of Indiana in the United States."
+        }
+    },
+    "gold_outputs": [
+        "Attica is located in the state of Indiana in the U.S.",
+        "Attica is part of Indiana in the US.",
+        "Attica is part of Indiana in the United States."
+    ]
+}

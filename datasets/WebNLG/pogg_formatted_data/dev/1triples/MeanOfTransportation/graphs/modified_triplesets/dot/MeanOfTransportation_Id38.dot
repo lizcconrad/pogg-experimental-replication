@@ -1,0 +1,5 @@
+strict digraph {
+Meyer_Werft [lexicon_key="Meyer_Werft"];
+Papenburg [lexicon_key=Papenburg];
+Meyer_Werft -> Papenburg [label=location, lexicon_key=location];
+}

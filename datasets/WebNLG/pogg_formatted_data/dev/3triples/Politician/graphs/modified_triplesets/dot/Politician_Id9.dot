@@ -1,0 +1,9 @@
+strict digraph {
+Abel_Caballero [lexicon_key="Abel_Caballero"];
+Juan_Carlos_I_of_Spain [lexicon_key="Juan_Carlos_I_of_Spain"];
+Francisco_Franco [lexicon_key="Francisco_Franco"];
+"Galicia_(Spain)" [lexicon_key="Galicia_(Spain)"];
+Abel_Caballero -> Juan_Carlos_I_of_Spain [label=inOfficeWhileMonarch, lexicon_key=inOfficeWhileMonarch];
+Abel_Caballero -> "Galicia_(Spain)" [label=birthPlace, lexicon_key=birthPlace];
+Juan_Carlos_I_of_Spain -> Francisco_Franco [label=predecessor, lexicon_key=predecessor];
+}

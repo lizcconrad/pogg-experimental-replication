@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Angola,_Indiana": {
+            "lexicon_key": "Angola,_Indiana"
+        },
+        "Pleasant_Township,_Steuben_County,_Indiana": {
+            "lexicon_key": "Pleasant_Township,_Steuben_County,_Indiana"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Angola,_Indiana",
+            "child_node": "Pleasant_Township,_Steuben_County,_Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Angola is in Pleasant Township which is part of Steuben County, in Indiana."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Angola, Indiana is part of Pleasant Township, which is in Steuben County."
+        }
+    },
+    "gold_outputs": [
+        "Angola is in Pleasant Township which is part of Steuben County, in Indiana.",
+        "Angola, Indiana is part of Pleasant Township, which is in Steuben County."
+    ]
+}

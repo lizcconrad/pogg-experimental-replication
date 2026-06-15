@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Baked_Alaska": {
+            "lexicon_key": "Baked_Alaska"
+        },
+        "China": {
+            "lexicon_key": "China"
+        },
+        "Standard_Chinese": {
+            "lexicon_key": "Standard_Chinese"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Baked_Alaska",
+            "child_node": "China",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "China",
+            "child_node": "Standard_Chinese",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Baked Alaska comes from China, where Standard Chinese is spoken."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Standard Chinese is spoken in China where baked Alaska is a dish."
+        }
+    },
+    "gold_outputs": [
+        "Baked Alaska comes from China, where Standard Chinese is spoken.",
+        "Standard Chinese is spoken in China where baked Alaska is a dish."
+    ]
+}

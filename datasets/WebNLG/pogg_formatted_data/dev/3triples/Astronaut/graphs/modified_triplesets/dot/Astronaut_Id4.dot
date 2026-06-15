@@ -1,0 +1,9 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+"Glen_Ridge,_New_Jersey" [lexicon_key="Glen_Ridge,_New_Jersey"];
+"\"52.0\"(minutes)" [lexicon_key="\"52.0\"(minutes)"];
+Apollo_11 [lexicon_key="Apollo_11"];
+Buzz_Aldrin -> "Glen_Ridge,_New_Jersey" [label=birthPlace, lexicon_key=birthPlace];
+Buzz_Aldrin -> "\"52.0\"(minutes)" [label=timeInSpace, lexicon_key=timeInSpace];
+Buzz_Aldrin -> Apollo_11 [label=mission, lexicon_key=mission];
+}

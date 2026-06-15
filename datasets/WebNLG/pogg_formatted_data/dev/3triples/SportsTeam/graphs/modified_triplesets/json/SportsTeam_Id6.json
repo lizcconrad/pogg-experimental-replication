@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.F.C._Blackpool": {
+            "lexicon_key": "A.F.C._Blackpool"
+        },
+        "Stuart_Parker_(footballer)": {
+            "lexicon_key": "Stuart_Parker_(footballer)"
+        },
+        "Drogheda_United_F.C.": {
+            "lexicon_key": "Drogheda_United_F.C."
+        },
+        "Runcorn_F.C._Halton": {
+            "lexicon_key": "Runcorn_F.C._Halton"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.F.C._Blackpool",
+            "child_node": "Stuart_Parker_(footballer)",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Drogheda_United_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Runcorn_F.C._Halton",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The manager of A.F.C. Blackpool is Stuart Parker who is with Drogheda United F.C and plays for Runcorn F.C. Halton."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Footballer Stuart Parker, the manager of AFC Blackpool, was at Drogheda United FC and plays for Runcorn F.C. Halton."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Stuart Parker is a footballer with the Drogheda United F.C., also plays for Runcorn F.C. Halton and has managed AFC Blackpool."
+        }
+    },
+    "gold_outputs": [
+        "Footballer Stuart Parker, the manager of AFC Blackpool, was at Drogheda United FC and plays for Runcorn F.C. Halton.",
+        "Stuart Parker is a footballer with the Drogheda United F.C., also plays for Runcorn F.C. Halton and has managed AFC Blackpool.",
+        "The manager of A.F.C. Blackpool is Stuart Parker who is with Drogheda United F.C and plays for Runcorn F.C. Halton."
+    ]
+}

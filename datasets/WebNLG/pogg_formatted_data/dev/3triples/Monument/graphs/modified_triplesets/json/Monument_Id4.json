@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+        },
+        "Azerbaijan": {
+            "lexicon_key": "Azerbaijan"
+        },
+        "Artur_Rasizade": {
+            "lexicon_key": "Artur_Rasizade"
+        },
+        "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"": {
+            "lexicon_key": "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "Azerbaijan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Azerbaijan",
+            "child_node": "Artur_Rasizade",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "designer",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"",
+            "edge_properties": {
+                "lexicon_key": "designer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Azerbaijan, where the leader is Artur Rasizade, is the location of the Baku Turkish Martyrs Memorial. The memorial was designed by Huseyin Butuner and Hilmi Guner."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial, designed by Huseyin Butuner and Hilmi Guner, is located in Azerbaijan, where the leader is Artur Rasizade."
+        }
+    },
+    "gold_outputs": [
+        "Azerbaijan, where the leader is Artur Rasizade, is the location of the Baku Turkish Martyrs Memorial. The memorial was designed by Huseyin Butuner and Hilmi Guner.",
+        "The Baku Turkish Martyrs' Memorial, designed by Huseyin Butuner and Hilmi Guner, is located in Azerbaijan, where the leader is Artur Rasizade."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"AEK_Athens_F.C." [lexicon_key="AEK_Athens_F.C."];
+Superleague_Greece [lexicon_key="Superleague_Greece"];
+Athens [lexicon_key=Athens];
+69618 [lexicon_key=69618];
+"AEK_Athens_F.C." -> Superleague_Greece [label=league, lexicon_key=league];
+"AEK_Athens_F.C." -> Athens [label=ground, lexicon_key=ground];
+"AEK_Athens_F.C." -> 69618 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

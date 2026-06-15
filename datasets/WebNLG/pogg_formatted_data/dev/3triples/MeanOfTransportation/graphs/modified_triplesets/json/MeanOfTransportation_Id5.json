@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "ALCO_RS-3": {
+            "lexicon_key": "ALCO_RS-3"
+        },
+        "12": {
+            "lexicon_key": "12"
+        },
+        "Montreal_Locomotive_Works": {
+            "lexicon_key": "Montreal_Locomotive_Works"
+        },
+        "17068.8 (millimetres)": {
+            "lexicon_key": "17068.8 (millimetres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cylinderCount",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "12",
+            "edge_properties": {
+                "lexicon_key": "cylinderCount"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "Montreal_Locomotive_Works",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "ALCO_RS-3",
+            "child_node": "17068.8 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ALCO RS-3 was built by the Montreal Locomotive Works, has 12 cylinders and is 17068.8 mms long."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ALCO RS-3 was built by the Montreal Locomotive Works, has a cylinder count of 12 and is 17068.8 mms in length."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Built by the Montreal Locomotive Works, the ALCO RS-3 has 12 cylinders and is 17068.8 (millimetres) in length."
+        }
+    },
+    "gold_outputs": [
+        "Built by the Montreal Locomotive Works, the ALCO RS-3 has 12 cylinders and is 17068.8 (millimetres) in length.",
+        "The ALCO RS-3 was built by the Montreal Locomotive Works, has 12 cylinders and is 17068.8 mms long.",
+        "The ALCO RS-3 was built by the Montreal Locomotive Works, has a cylinder count of 12 and is 17068.8 mms in length."
+    ]
+}

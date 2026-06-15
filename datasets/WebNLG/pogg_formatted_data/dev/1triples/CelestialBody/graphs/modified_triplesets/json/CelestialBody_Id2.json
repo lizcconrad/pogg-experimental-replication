@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "(410777)_2009_FD": {
+            "lexicon_key": "(410777)_2009_FD"
+        },
+        "259776702.47055 (kilometres)": {
+            "lexicon_key": "259776702.47055 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "(410777)_2009_FD",
+            "child_node": "259776702.47055 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(410777) 2009 FD has an apoapsis of 259776702.47055 kilometres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The apoapsis of (410777) 2009 FD is 259776702.47055 kilometers."
+        }
+    },
+    "gold_outputs": [
+        "(410777) 2009 FD has an apoapsis of 259776702.47055 kilometres.",
+        "The apoapsis of (410777) 2009 FD is 259776702.47055 kilometers."
+    ]
+}

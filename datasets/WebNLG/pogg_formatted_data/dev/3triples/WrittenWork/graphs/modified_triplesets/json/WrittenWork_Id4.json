@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "1634:_The_Ram_Rebellion": {
+            "lexicon_key": "1634:_The_Ram_Rebellion"
+        },
+        "Eric_Flint": {
+            "lexicon_key": "Eric_Flint"
+        },
+        "Hardcover": {
+            "lexicon_key": "Hardcover"
+        },
+        "\"1-4165-2060-0\"": {
+            "lexicon_key": "\"1-4165-2060-0\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Ram_Rebellion",
+            "child_node": "Eric_Flint",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "1634:_The_Ram_Rebellion",
+            "child_node": "Hardcover",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "1634:_The_Ram_Rebellion",
+            "child_node": "\"1-4165-2060-0\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The hardcover book 1634: The Ram Rebellion was written by Eric Flint and has the ISBN number 1-4165-2060-0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1634: The Ram Rebellion, ISBN number 1-4165-2060-0, was written by Eric Flint and is available in hardcover."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Eric Flint wrote 1634: The Ram Rebellion found in hardcover with an ISBN of 1-4165-2060-0."
+        }
+    },
+    "gold_outputs": [
+        "1634: The Ram Rebellion, ISBN number 1-4165-2060-0, was written by Eric Flint and is available in hardcover.",
+        "Eric Flint wrote 1634: The Ram Rebellion found in hardcover with an ISBN of 1-4165-2060-0.",
+        "The hardcover book 1634: The Ram Rebellion was written by Eric Flint and has the ISBN number 1-4165-2060-0."
+    ]
+}

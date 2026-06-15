@@ -1,0 +1,5 @@
+strict digraph {
+Argentina [lexicon_key=Argentina];
+Gabriela_Michetti [lexicon_key="Gabriela_Michetti"];
+Argentina -> Gabriela_Michetti [label=leader, lexicon_key=leader];
+}

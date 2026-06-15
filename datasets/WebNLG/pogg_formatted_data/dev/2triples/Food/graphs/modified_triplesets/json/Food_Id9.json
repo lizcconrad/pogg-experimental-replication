@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Arr\u00f2s_negre": {
+            "lexicon_key": "Arr\u00f2s_negre"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "Squid": {
+            "lexicon_key": "Squid"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Squid",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arr\u00f2s negre is from Spain, it includes squid."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arr\u00f2s negre is a traditional dish from Spain, it includes squid."
+        }
+    },
+    "gold_outputs": [
+        "Arr\u00f2s negre is a traditional dish from Spain, it includes squid.",
+        "Arr\u00f2s negre is from Spain, it includes squid."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Asser_Levy_Public_Baths [lexicon_key="Asser_Levy_Public_Baths"];
+New_York_City [lexicon_key="New_York_City"];
+United_States [lexicon_key="United_States"];
+Manhattan [lexicon_key=Manhattan];
+Asser_Levy_Public_Baths -> New_York_City [label=location, lexicon_key=location];
+New_York_City -> United_States [label=country, lexicon_key=country];
+New_York_City -> Manhattan [label=isPartOf, lexicon_key=isPartOf];
+}

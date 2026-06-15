@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "200_Public_Square": {
+            "lexicon_key": "200_Public_Square"
+        },
+        "1985": {
+            "lexicon_key": "1985"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "completionDate",
+            "parent_node": "200_Public_Square",
+            "child_node": "1985",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The 200 Public Square was completed in 1985."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "200 Public Square was completed in 1985."
+        }
+    },
+    "gold_outputs": [
+        "200 Public Square was completed in 1985.",
+        "The 200 Public Square was completed in 1985."
+    ]
+}

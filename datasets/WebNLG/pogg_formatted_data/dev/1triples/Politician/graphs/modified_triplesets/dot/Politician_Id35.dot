@@ -1,0 +1,5 @@
+strict digraph {
+Mike_Akhigbe [lexicon_key="Mike_Akhigbe"];
+Oladipo_Diya [lexicon_key="Oladipo_Diya"];
+Mike_Akhigbe -> Oladipo_Diya [label=predecessor, lexicon_key=predecessor];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Adirondack_Regional_Airport": {
+            "lexicon_key": "Adirondack_Regional_Airport"
+        },
+        "Harrietstown,_New_York": {
+            "lexicon_key": "Harrietstown,_New_York"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Adirondack_Regional_Airport",
+            "child_node": "Harrietstown,_New_York",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adirondack Regional airport is located at Harrietstown, New York."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adirondack Regional Airport is located in Harrietstown, New York."
+        }
+    },
+    "gold_outputs": [
+        "Adirondack Regional Airport is located in Harrietstown, New York.",
+        "Adirondack Regional airport is located at Harrietstown, New York."
+    ]
+}

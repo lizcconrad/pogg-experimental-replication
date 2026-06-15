@@ -1,0 +1,5 @@
+strict digraph {
+"(410777)_2009_FD" [lexicon_key="(410777)_2009_FD"];
+"259776702.47055 (kilometres)" [lexicon_key="259776702.47055 (kilometres)"];
+"(410777)_2009_FD" -> "259776702.47055 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "1955_Dodge": {
+            "lexicon_key": "1955_Dodge"
+        },
+        "\"Dodge Coronet\"": {
+            "lexicon_key": "\"Dodge Coronet\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "1955_Dodge",
+            "child_node": "\"Dodge Coronet\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Dodge Coronet is the alternative name for the 1955 Dodge."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 1955 Dodge is also named the Dodge Coronet."
+        }
+    },
+    "gold_outputs": [
+        "Dodge Coronet is the alternative name for the 1955 Dodge.",
+        "The 1955 Dodge is also named the Dodge Coronet."
+    ]
+}

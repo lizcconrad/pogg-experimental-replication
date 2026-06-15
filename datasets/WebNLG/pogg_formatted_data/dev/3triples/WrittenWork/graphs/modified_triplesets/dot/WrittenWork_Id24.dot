@@ -1,0 +1,9 @@
+strict digraph {
+Aenir [lexicon_key=Aenir];
+45644811 [lexicon_key=45644811];
+Garth_Nix [lexicon_key="Garth_Nix"];
+"Print" [lexicon_key="Print"];
+Aenir -> 45644811 [label=oclcNumber, lexicon_key=oclcNumber];
+Aenir -> Garth_Nix [label=author, lexicon_key=author];
+Aenir -> "Print" [label=mediaType, lexicon_key=mediaType];
+}

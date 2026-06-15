@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "1._FC_K\u00f6ln": {
+            "lexicon_key": "1._FC_K\u00f6ln"
+        },
+        "Peter_St\u00f6ger": {
+            "lexicon_key": "Peter_St\u00f6ger"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "1._FC_K\u00f6ln",
+            "child_node": "Peter_St\u00f6ger",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Peter Stoger is the manager of FC Koln."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Peter St\u00f6ger is manager of 1. FC K\u00f6ln."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The manager of 1. FC Koln is Peter Stoger."
+        }
+    },
+    "gold_outputs": [
+        "Peter Stoger is the manager of FC Koln.",
+        "Peter St\u00f6ger is manager of 1. FC K\u00f6ln.",
+        "The manager of 1. FC Koln is Peter Stoger."
+    ]
+}

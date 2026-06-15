@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alhambra": {
+            "lexicon_key": "Alhambra"
+        },
+        "8.3 m": {
+            "lexicon_key": "8.3 m"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "shipBeam",
+            "parent_node": "Alhambra",
+            "child_node": "8.3 m",
+            "edge_properties": {
+                "lexicon_key": "shipBeam"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alhambra ship beam is 8.3m."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alhambra has a ship beam of 8.3m."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alhambra has an 8.3m ship beam."
+        }
+    },
+    "gold_outputs": [
+        "The Alhambra has a ship beam of 8.3m.",
+        "The Alhambra has an 8.3m ship beam.",
+        "The Alhambra ship beam is 8.3m."
+    ]
+}

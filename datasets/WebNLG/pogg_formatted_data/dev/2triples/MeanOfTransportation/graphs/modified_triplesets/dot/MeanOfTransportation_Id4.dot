@@ -1,0 +1,7 @@
+strict digraph {
+AIDAstella [lexicon_key=AIDAstella];
+"2013-03-16" [lexicon_key="2013-03-16"];
+"253260.0 (millimetres)" [lexicon_key="253260.0 (millimetres)"];
+AIDAstella -> "2013-03-16" [label=christeningDate, lexicon_key=christeningDate];
+AIDAstella -> "253260.0 (millimetres)" [label=length, lexicon_key=length];
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Beef_kway_teow": {
+            "lexicon_key": "Beef_kway_teow"
+        },
+        "Singapore": {
+            "lexicon_key": "Singapore"
+        },
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "Tony_Tan": {
+            "lexicon_key": "Tony_Tan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Singapore",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Singapore",
+            "child_node": "Tony_Tan",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A popular food in Indonesia, Beef kway teow originates from Singapore. The country where Tony Tan is the leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Tony Tan is a leader in Singapore where the dish Beef kway teow originates from. It is also found in Indonesia."
+        }
+    },
+    "gold_outputs": [
+        "A popular food in Indonesia, Beef kway teow originates from Singapore. The country where Tony Tan is the leader.",
+        "Tony Tan is a leader in Singapore where the dish Beef kway teow originates from. It is also found in Indonesia."
+    ]
+}

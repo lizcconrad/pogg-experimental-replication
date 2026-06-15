@@ -1,0 +1,204 @@
+{
+    "node_keys": {
+        "\"0-670-03380-4\"": {
+            "comp_fxn": ""
+        },
+        "\"1-56947-301-3\"": {
+            "comp_fxn": ""
+        },
+        "\"1.337\"": {
+            "comp_fxn": ""
+        },
+        "\"APGPAC\"": {
+            "comp_fxn": ""
+        },
+        "\"Acta Math. Hungar.\"": {
+            "comp_fxn": ""
+        },
+        "1634:_The_Bavarian_Crisis": {
+            "comp_fxn": ""
+        },
+        "1634:_The_Ram_Rebellion": {
+            "comp_fxn": ""
+        },
+        "1635:_The_Cannon_Law": {
+            "comp_fxn": ""
+        },
+        "2158": {
+            "comp_fxn": ""
+        },
+        "27367194": {
+            "comp_fxn": ""
+        },
+        "32024459": {
+            "comp_fxn": ""
+        },
+        "45644811": {
+            "comp_fxn": ""
+        },
+        "57059226": {
+            "comp_fxn": ""
+        },
+        "78771100": {
+            "comp_fxn": ""
+        },
+        "AIP_Advances": {
+            "comp_fxn": ""
+        },
+        "A_Fortress_of_Grey_Ice": {
+            "comp_fxn": ""
+        },
+        "A_Long_Long_Way": {
+            "comp_fxn": ""
+        },
+        "A_Loyal_Character_Dancer": {
+            "comp_fxn": ""
+        },
+        "A_Severed_Wasp": {
+            "comp_fxn": ""
+        },
+        "A_Wizard_of_Mars": {
+            "comp_fxn": ""
+        },
+        "Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universit\u00e4t_Hamburg": {
+            "comp_fxn": ""
+        },
+        "Above_the_Veil": {
+            "comp_fxn": ""
+        },
+        "Acta_Mathematica_Hungarica": {
+            "comp_fxn": ""
+        },
+        "Acta_Palaeontologica_Polonica": {
+            "comp_fxn": ""
+        },
+        "Addiction_(journal)": {
+            "comp_fxn": ""
+        },
+        "Administrative_Science_Quarterly": {
+            "comp_fxn": ""
+        },
+        "Aenir": {
+            "comp_fxn": ""
+        },
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "comp_fxn": ""
+        },
+        "Alcatraz_Versus_the_Scrivener's_Bones": {
+            "comp_fxn": ""
+        },
+        "American_Journal_of_Mathematics": {
+            "comp_fxn": ""
+        },
+        "Castle_(novel)": {
+            "comp_fxn": ""
+        },
+        "Cornell_Big_Red": {
+            "comp_fxn": ""
+        },
+        "Cornell_University": {
+            "comp_fxn": ""
+        },
+        "Elizabeth_II": {
+            "comp_fxn": ""
+        },
+        "English_language": {
+            "comp_fxn": ""
+        },
+        "Eric_Flint": {
+            "comp_fxn": ""
+        },
+        "HIV": {
+            "comp_fxn": ""
+        },
+        "Hardcover": {
+            "comp_fxn": ""
+        },
+        "Joe_Biden": {
+            "comp_fxn": ""
+        },
+        "John_Cowper_Powys": {
+            "comp_fxn": ""
+        },
+        "Lentivirus": {
+            "comp_fxn": ""
+        },
+        "Madeleine_L'Engle": {
+            "comp_fxn": ""
+        },
+        "Mathematics": {
+            "comp_fxn": ""
+        },
+        "The_Grantville_Gazettes": {
+            "comp_fxn": ""
+        },
+        "United_Kingdom": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "Wiley-Blackwell": {
+            "comp_fxn": ""
+        },
+        "Wolf_Solent": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "LCCN_number": {
+            "comp_fxn": ""
+        },
+        "abbreviation": {
+            "comp_fxn": ""
+        },
+        "academicDiscipline": {
+            "comp_fxn": ""
+        },
+        "author": {
+            "comp_fxn": ""
+        },
+        "codenCode": {
+            "comp_fxn": ""
+        },
+        "eissnNumber": {
+            "comp_fxn": ""
+        },
+        "followedBy": {
+            "comp_fxn": ""
+        },
+        "genus": {
+            "comp_fxn": ""
+        },
+        "impactFactor": {
+            "comp_fxn": ""
+        },
+        "isbnNumber": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "mediaType": {
+            "comp_fxn": ""
+        },
+        "nickname": {
+            "comp_fxn": ""
+        },
+        "notableWork": {
+            "comp_fxn": ""
+        },
+        "oclcNumber": {
+            "comp_fxn": ""
+        },
+        "precededBy": {
+            "comp_fxn": ""
+        },
+        "publisher": {
+            "comp_fxn": ""
+        }
+    }
+}

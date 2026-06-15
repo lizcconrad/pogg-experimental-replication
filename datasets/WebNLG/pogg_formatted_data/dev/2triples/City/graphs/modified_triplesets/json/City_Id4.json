@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Amarillo,_Texas": {
+            "lexicon_key": "Amarillo,_Texas"
+        },
+        "Potter_County,_Texas": {
+            "lexicon_key": "Potter_County,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Amarillo,_Texas",
+            "child_node": "Potter_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Potter_County,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Amarillo can be located in Potter County, Texas which is in the United States of America."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amarillo is part of Potter County, Texas, U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Amarillo is located in Potter County, Texas in the United States of America."
+        }
+    },
+    "gold_outputs": [
+        "Amarillo can be located in Potter County, Texas which is in the United States of America.",
+        "Amarillo is located in Potter County, Texas in the United States of America.",
+        "Amarillo is part of Potter County, Texas, U.S."
+    ]
+}

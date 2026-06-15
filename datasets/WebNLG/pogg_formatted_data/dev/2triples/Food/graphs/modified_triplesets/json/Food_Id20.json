@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bakewell_pudding": {
+            "lexicon_key": "Bakewell_pudding"
+        },
+        "Bakewell_tart": {
+            "lexicon_key": "Bakewell_tart"
+        },
+        "Shortcrust_pastry": {
+            "lexicon_key": "Shortcrust_pastry"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Bakewell_pudding",
+            "child_node": "Bakewell_tart",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bakewell_tart",
+            "child_node": "Shortcrust_pastry",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bakewell tart, made with shortcrust pastry, is a variation of Bakewell pudding."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A variant of bakewell pudding is bakewell tart, made with shortcrust pastry."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A variant of bakewell pudding is bakewell tart which uses shortcrust pastry."
+        }
+    },
+    "gold_outputs": [
+        "A variant of bakewell pudding is bakewell tart which uses shortcrust pastry.",
+        "A variant of bakewell pudding is bakewell tart, made with shortcrust pastry.",
+        "Bakewell tart, made with shortcrust pastry, is a variation of Bakewell pudding."
+    ]
+}

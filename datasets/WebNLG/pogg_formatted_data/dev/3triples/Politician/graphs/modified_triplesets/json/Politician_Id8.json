@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abel_Caballero": {
+            "lexicon_key": "Abel_Caballero"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "\"Minister of Transport\"": {
+            "lexicon_key": "\"Minister of Transport\""
+        },
+        "Galicia_(Spain)": {
+            "lexicon_key": "Galicia_(Spain)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abel_Caballero",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Abel_Caballero",
+            "child_node": "\"Minister of Transport\"",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abel_Caballero",
+            "child_node": "Galicia_(Spain)",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Caballero was born in Galicia, Spain and worked as Minister of Transport."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Caballero, was born in Galicia, Spain, and worked as Minister of Transport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Galician and Spanish born Abel Caballero, while in office, was the Minister of Transport."
+        }
+    },
+    "gold_outputs": [
+        "Abel Caballero was born in Galicia, Spain and worked as Minister of Transport.",
+        "Abel Caballero, was born in Galicia, Spain, and worked as Minister of Transport.",
+        "Galician and Spanish born Abel Caballero, while in office, was the Minister of Transport."
+    ]
+}

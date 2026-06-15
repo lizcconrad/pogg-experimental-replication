@@ -1,0 +1,9 @@
+strict digraph {
+Akeem_Ayers [lexicon_key="Akeem_Ayers"];
+"St._Louis_Rams" [lexicon_key="St._Louis_Rams"];
+"St._Louis" [lexicon_key="St._Louis"];
+Tennessee_Titans [lexicon_key="Tennessee_Titans"];
+Akeem_Ayers -> "St._Louis_Rams" [label=formerTeam, lexicon_key=formerTeam];
+Akeem_Ayers -> Tennessee_Titans [label=debutTeam, lexicon_key=debutTeam];
+"St._Louis_Rams" -> "St._Louis" [label=city, lexicon_key=city];
+}

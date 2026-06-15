@@ -1,0 +1,9 @@
+strict digraph {
+"Al_Anderson_(NRBQ band)" [lexicon_key="Al_Anderson_(NRBQ band)"];
+NRBQ [lexicon_key=NRBQ];
+The_Wildweeds [lexicon_key="The_Wildweeds"];
+1966 [lexicon_key=1966];
+"Al_Anderson_(NRBQ band)" -> NRBQ [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+"Al_Anderson_(NRBQ band)" -> The_Wildweeds [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+"Al_Anderson_(NRBQ band)" -> 1966 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Poland [lexicon_key=Poland];
+Kashubian_language [lexicon_key="Kashubian_language"];
+Poland -> Kashubian_language [label=language, lexicon_key=language];
+}

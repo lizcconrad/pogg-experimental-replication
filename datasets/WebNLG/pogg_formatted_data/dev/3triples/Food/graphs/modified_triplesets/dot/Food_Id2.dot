@@ -1,0 +1,9 @@
+strict digraph {
+Ajoblanco [lexicon_key=Ajoblanco];
+Spain [lexicon_key=Spain];
+Andalusia [lexicon_key=Andalusia];
+Water [lexicon_key=Water];
+Ajoblanco -> Spain [label=country, lexicon_key=country];
+Ajoblanco -> Andalusia [label=region, lexicon_key=region];
+Ajoblanco -> Water [label=ingredient, lexicon_key=ingredient];
+}

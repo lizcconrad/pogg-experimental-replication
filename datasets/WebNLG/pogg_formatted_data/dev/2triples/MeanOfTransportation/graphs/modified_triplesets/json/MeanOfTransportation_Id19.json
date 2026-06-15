@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "American_Motors": {
+            "lexicon_key": "American_Motors"
+        },
+        "Eagle_(automobile)": {
+            "lexicon_key": "Eagle_(automobile)"
+        },
+        "AMC_Matador": {
+            "lexicon_key": "AMC_Matador"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "fate",
+            "parent_node": "American_Motors",
+            "child_node": "Eagle_(automobile)",
+            "edge_properties": {
+                "lexicon_key": "fate"
+            }
+        },
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "AMC_Matador",
+            "child_node": "American_Motors",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Eagle was the successor for American Motors who make the AMC Matador."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "American Motors Co, who manufactured the AMC Matador, was succeeded by Eagle."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "American Motors Co was succeeded by Eagle and manufactured AMC Matador."
+        }
+    },
+    "gold_outputs": [
+        "American Motors Co was succeeded by Eagle and manufactured AMC Matador.",
+        "American Motors Co, who manufactured the AMC Matador, was succeeded by Eagle.",
+        "Eagle was the successor for American Motors who make the AMC Matador."
+    ]
+}

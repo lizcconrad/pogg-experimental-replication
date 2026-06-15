@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Adam_Maher": {
+            "lexicon_key": "Adam_Maher"
+        },
+        "PSV_Eindhoven": {
+            "lexicon_key": "PSV_Eindhoven"
+        },
+        "Netherlands_national_under-17_football_team": {
+            "lexicon_key": "Netherlands_national_under-17_football_team"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Adam_Maher",
+            "child_node": "PSV_Eindhoven",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Adam_Maher",
+            "child_node": "Netherlands_national_under-17_football_team",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Maher's club is PSV Eindhoven and he played for the Netherlands national under-17 football team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adam Maher played for PSV Eindhoven and represented the Netherlands under 17 football team."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adam Maher, whose club is PSV Eindhoven, plays for Netherlands National under 17 club."
+        }
+    },
+    "gold_outputs": [
+        "Adam Maher played for PSV Eindhoven and represented the Netherlands under 17 football team.",
+        "Adam Maher's club is PSV Eindhoven and he played for the Netherlands national under-17 football team.",
+        "Adam Maher, whose club is PSV Eindhoven, plays for Netherlands National under 17 club."
+    ]
+}

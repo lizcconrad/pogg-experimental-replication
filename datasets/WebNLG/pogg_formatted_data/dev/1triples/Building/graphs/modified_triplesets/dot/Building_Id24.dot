@@ -1,0 +1,5 @@
+strict digraph {
+Japan [lexicon_key=Japan];
+"Tarō_Asō" [lexicon_key="Tarō_Asō"];
+Japan -> "Tarō_Asō" [label=leader, lexicon_key=leader];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+"A.F.C._Fylde" [lexicon_key="A.F.C._Fylde"];
+3180 [lexicon_key=3180];
+"Bryning Lane" [lexicon_key="Bryning Lane"];
+"A.F.C._Fylde" -> 3180 [label=numberOfMembers, lexicon_key=numberOfMembers];
+"A.F.C._Fylde" -> "Bryning Lane" [label=ground, lexicon_key=ground];
+}

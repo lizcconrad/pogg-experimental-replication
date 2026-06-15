@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Jazz": {
+            "lexicon_key": "Jazz"
+        },
+        "Blues": {
+            "lexicon_key": "Blues"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Jazz",
+            "child_node": "Blues",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jazz originated its style from Blues music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The stylistic origins of Jazz come from Blues."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jazz style originates from the Blues."
+        }
+    },
+    "gold_outputs": [
+        "Jazz originated its style from Blues music.",
+        "Jazz style originates from the Blues.",
+        "The stylistic origins of Jazz come from Blues."
+    ]
+}

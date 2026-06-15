@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alfa_Romeo_164": {
+            "lexicon_key": "Alfa_Romeo_164"
+        },
+        "Fiat_Croma": {
+            "lexicon_key": "Fiat_Croma"
+        },
+        "Milan": {
+            "lexicon_key": "Milan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Fiat_Croma",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        },
+        {
+            "edge_name": "assembly",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Milan",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164, which was assembled in Milan, and the Fiat Croma are related means of transportation."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164, assembled in Milan, and the Fiat Croma are related means of transportation."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Milan assembled, Alfa Romeo 164, is a similar means of transport to the Fiat Croma."
+        }
+    },
+    "gold_outputs": [
+        "Milan assembled, Alfa Romeo 164, is a similar means of transport to the Fiat Croma.",
+        "The Alfa Romeo 164, assembled in Milan, and the Fiat Croma are related means of transportation.",
+        "The Alfa Romeo 164, which was assembled in Milan, and the Fiat Croma are related means of transportation."
+    ]
+}

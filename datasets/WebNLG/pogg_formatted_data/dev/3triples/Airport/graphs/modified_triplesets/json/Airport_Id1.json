@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abilene_Regional_Airport": {
+            "lexicon_key": "Abilene_Regional_Airport"
+        },
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "Taylor_County,_Texas": {
+            "lexicon_key": "Taylor_County,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Abilene_Regional_Airport",
+            "child_node": "Abilene,_Texas",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "Taylor_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abilene Regional Airport serves the city of Abilene which is part of Taylor County, Texas, in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abilene Regional Airport serves the city of Abilene which is part of Taylor County, Texas, United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Abilene regional airport serves Abilene, Texas, which is a part of Taylor County, Texas in the United States."
+        }
+    },
+    "gold_outputs": [
+        "Abilene Regional Airport serves the city of Abilene which is part of Taylor County, Texas, United States.",
+        "Abilene Regional Airport serves the city of Abilene which is part of Taylor County, Texas, in the United States.",
+        "The Abilene regional airport serves Abilene, Texas, which is a part of Taylor County, Texas in the United States."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+ACF_Fiorentina [lexicon_key="ACF_Fiorentina"];
+Serie_A [lexicon_key="Serie_A"];
+Italy [lexicon_key=Italy];
+ACF_Fiorentina -> Serie_A [label=league, lexicon_key=league];
+Serie_A -> Italy [label=country, lexicon_key=country];
+}

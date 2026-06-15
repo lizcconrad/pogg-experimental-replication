@@ -1,0 +1,3 @@
+The footballer Abner belongs to the club C.D. FAS.
+The footballer Abner plays for C.D. FAS.
+Abner is a footballer for the CD FAS club.

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "White_Americans": {
+            "lexicon_key": "White_Americans"
+        },
+        "ALV_X-1": {
+            "lexicon_key": "ALV_X-1"
+        },
+        "Americans": {
+            "lexicon_key": "Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "White_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "countryOrigin",
+            "parent_node": "ALV_X-1",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "countryOrigin"
+            }
+        },
+        {
+            "edge_name": "demonym",
+            "parent_node": "United_States",
+            "child_node": "Americans",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ALV X-1 originated in the United States where the people are called Americans and include the ethnic group of White Americans."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ALV X-1 is from the Us where Americans live and where White Americans are an ethnic group."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The country of origin of the ALV X-1 is the United States where the people are called Americans and White Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "The ALV X-1 is from the Us where Americans live and where White Americans are an ethnic group.",
+        "The ALV X-1 originated in the United States where the people are called Americans and include the ethnic group of White Americans.",
+        "The country of origin of the ALV X-1 is the United States where the people are called Americans and White Americans are an ethnic group."
+    ]
+}

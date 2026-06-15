@@ -1,0 +1,9 @@
+strict digraph {
+"Olympic_Stadium_(Athens)" [lexicon_key="Olympic_Stadium_(Athens)"];
+Athens [lexicon_key=Athens];
+Giorgos_Kaminis [lexicon_key="Giorgos_Kaminis"];
+"AEK_Athens_F.C." [lexicon_key="AEK_Athens_F.C."];
+"Olympic_Stadium_(Athens)" -> Athens [label=location, lexicon_key=location];
+Athens -> Giorgos_Kaminis [label=mayor, lexicon_key=mayor];
+"AEK_Athens_F.C." -> "Olympic_Stadium_(Athens)" [label=ground, lexicon_key=ground];
+}

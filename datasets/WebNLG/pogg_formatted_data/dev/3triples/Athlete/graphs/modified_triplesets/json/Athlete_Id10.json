@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Akeem_Priestley": {
+            "lexicon_key": "Akeem_Priestley"
+        },
+        "Jamaica": {
+            "lexicon_key": "Jamaica"
+        },
+        "Patrick_Allen_(politician)": {
+            "lexicon_key": "Patrick_Allen_(politician)"
+        },
+        "Elizabeth_II": {
+            "lexicon_key": "Elizabeth_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Akeem_Priestley",
+            "child_node": "Jamaica",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Jamaica",
+            "child_node": "Patrick_Allen_(politician)",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Jamaica",
+            "child_node": "Elizabeth_II",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jamaica, whose queen is Elizabeth II, is led by Patrick Allen and is the birth place of Akeem Priestley."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Patrick Allen and Elizabeth II led Jamaica, is the birthplace of Akeem Priestley."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jamaica, which is led by Patrick Allen and Elizabeth II, is the birthplace of Akeem Priestley."
+        }
+    },
+    "gold_outputs": [
+        "Jamaica, which is led by Patrick Allen and Elizabeth II, is the birthplace of Akeem Priestley.",
+        "Jamaica, whose queen is Elizabeth II, is led by Patrick Allen and is the birth place of Akeem Priestley.",
+        "Patrick Allen and Elizabeth II led Jamaica, is the birthplace of Akeem Priestley."
+    ]
+}

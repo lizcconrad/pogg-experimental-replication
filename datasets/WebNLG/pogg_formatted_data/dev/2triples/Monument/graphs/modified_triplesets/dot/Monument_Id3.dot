@@ -1,0 +1,7 @@
+strict digraph {
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+"Türk Şehitleri Anıtı" [lexicon_key="Türk Şehitleri Anıtı"];
+"Red granite and white marble" [lexicon_key="Red granite and white marble"];
+"Baku_Turkish_Martyrs'_Memorial" -> "Türk Şehitleri Anıtı" [label=nativeName, lexicon_key=nativeName];
+"Baku_Turkish_Martyrs'_Memorial" -> "Red granite and white marble" [label=material, lexicon_key=material];
+}

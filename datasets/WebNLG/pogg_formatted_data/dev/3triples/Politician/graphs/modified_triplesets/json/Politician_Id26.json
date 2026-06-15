@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alvah_Sabin": {
+            "lexicon_key": "Alvah_Sabin"
+        },
+        "Georgia,_Vermont": {
+            "lexicon_key": "Georgia,_Vermont"
+        },
+        "1793-10-23": {
+            "lexicon_key": "1793-10-23"
+        },
+        "Secretary_of_State_of_Vermont": {
+            "lexicon_key": "Secretary_of_State_of_Vermont"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Georgia,_Vermont",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "1793-10-23",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "Secretary_of_State_of_Vermont",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alvah Sabin, who was born on 23rd October 1793, in Georgia, Vermont, worked as the secretary of the State of Vermont."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alvah Sabin was born on 23 October 1793 in Georgia, Vermont and later worked as the Secretary of State of Vermont."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alvah Sabin, secretary of the State of Vermont, was born on October 23, 1793 in Georgia, Vermont."
+        }
+    },
+    "gold_outputs": [
+        "Alvah Sabin was born on 23 October 1793 in Georgia, Vermont and later worked as the Secretary of State of Vermont.",
+        "Alvah Sabin, secretary of the State of Vermont, was born on October 23, 1793 in Georgia, Vermont.",
+        "Alvah Sabin, who was born on 23rd October 1793, in Georgia, Vermont, worked as the secretary of the State of Vermont."
+    ]
+}

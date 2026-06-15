@@ -1,0 +1,9 @@
+strict digraph {
+Alfa_Romeo_164 [lexicon_key="Alfa_Romeo_164"];
+Fiat_Croma [lexicon_key="Fiat_Croma"];
+Arese [lexicon_key=Arese];
+Lancia_Thema [lexicon_key="Lancia_Thema"];
+Alfa_Romeo_164 -> Fiat_Croma [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+Alfa_Romeo_164 -> Arese [label=assembly, lexicon_key=assembly];
+Alfa_Romeo_164 -> Lancia_Thema [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

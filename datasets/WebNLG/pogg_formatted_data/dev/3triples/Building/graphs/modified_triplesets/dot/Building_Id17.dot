@@ -1,0 +1,9 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+Virginia [lexicon_key=Virginia];
+"College_of_William_&_Mary" [lexicon_key="College_of_William_&_Mary"];
+Robert_Gates [lexicon_key="Robert_Gates"];
+"Alan_B._Miller_Hall" -> Virginia [label=location, lexicon_key=location];
+"Alan_B._Miller_Hall" -> "College_of_William_&_Mary" [label=owner, lexicon_key=owner];
+"College_of_William_&_Mary" -> Robert_Gates [label=chancellor, lexicon_key=chancellor];
+}

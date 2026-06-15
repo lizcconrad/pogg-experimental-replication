@@ -1,0 +1,7 @@
+strict digraph {
+Amatriciana_sauce [lexicon_key="Amatriciana_sauce"];
+Lazio [lexicon_key=Lazio];
+Tomato [lexicon_key=Tomato];
+Amatriciana_sauce -> Lazio [label=region, lexicon_key=region];
+Amatriciana_sauce -> Tomato [label=ingredient, lexicon_key=ingredient];
+}

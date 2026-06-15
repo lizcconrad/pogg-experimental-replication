@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "250_Delaware_Avenue": {
+            "lexicon_key": "250_Delaware_Avenue"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Barack_Obama": {
+            "lexicon_key": "Barack_Obama"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "250_Delaware_Avenue",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "Barack_Obama",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "250 Delaware Avenue is located in the United States, the leader of which was Barack Obama."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "250 Delaware Avenue is located in the United States - which is led by Barack Obama."
+        }
+    },
+    "gold_outputs": [
+        "250 Delaware Avenue is located in the United States - which is led by Barack Obama.",
+        "250 Delaware Avenue is located in the United States, the leader of which was Barack Obama."
+    ]
+}

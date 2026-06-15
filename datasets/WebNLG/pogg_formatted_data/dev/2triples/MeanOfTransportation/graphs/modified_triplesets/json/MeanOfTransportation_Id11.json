@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Acura_TLX": {
+            "lexicon_key": "Acura_TLX"
+        },
+        "Honda": {
+            "lexicon_key": "Honda"
+        },
+        "Honda_J_engine": {
+            "lexicon_key": "Honda_J_engine"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Acura_TLX",
+            "child_node": "Honda",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "engine",
+            "parent_node": "Acura_TLX",
+            "child_node": "Honda_J_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Honda is the manufacturer of the Acura TLX and has a Honda J engine."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Honda makes the Acura TLX which has the Honda J engine type."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Honda manufactured, Acura TLX, has a Honda J type engine."
+        }
+    },
+    "gold_outputs": [
+        "Honda is the manufacturer of the Acura TLX and has a Honda J engine.",
+        "Honda makes the Acura TLX which has the Honda J engine type.",
+        "The Honda manufactured, Acura TLX, has a Honda J type engine."
+    ]
+}

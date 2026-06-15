@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Albuquerque,_New_Mexico": {
+            "lexicon_key": "Albuquerque,_New_Mexico"
+        },
+        "\"State Senate\"": {
+            "lexicon_key": "\"State Senate\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "\"State Senate\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico is led by the State Senate."
+        }
+    },
+    "gold_outputs": [
+        "Albuquerque, New Mexico is led by the State Senate."
+    ]
+}

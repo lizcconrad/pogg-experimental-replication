@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Arlington,_Texas": {
+            "lexicon_key": "Arlington,_Texas"
+        },
+        "184.0": {
+            "lexicon_key": "184.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Arlington,_Texas",
+            "child_node": "184.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arlington Texas is has an elevation of 184 above sea level."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arlington in Texas is located at 184.0 above sea level."
+        }
+    },
+    "gold_outputs": [
+        "Arlington Texas is has an elevation of 184 above sea level.",
+        "Arlington in Texas is located at 184.0 above sea level."
+    ]
+}

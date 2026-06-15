@@ -1,0 +1,7 @@
+strict digraph {
+"Aleksey_Chirikov_(icebreaker)" [lexicon_key="Aleksey_Chirikov_(icebreaker)"];
+Finland [lexicon_key=Finland];
+"Sauli_Niinistö" [lexicon_key="Sauli_Niinistö"];
+"Aleksey_Chirikov_(icebreaker)" -> Finland [label=builder, lexicon_key=builder];
+Finland -> "Sauli_Niinistö" [label=leader, lexicon_key=leader];
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Aleksey_Chirikov_(icebreaker)": {
+            "lexicon_key": "Aleksey_Chirikov_(icebreaker)"
+        },
+        "Finland": {
+            "lexicon_key": "Finland"
+        },
+        "Finns": {
+            "lexicon_key": "Finns"
+        },
+        "Arctech_Helsinki_Shipyard": {
+            "lexicon_key": "Arctech_Helsinki_Shipyard"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "builder",
+            "parent_node": "Aleksey_Chirikov_(icebreaker)",
+            "child_node": "Finland",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        },
+        {
+            "edge_name": "demonym",
+            "parent_node": "Finland",
+            "child_node": "Finns",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "Aleksey_Chirikov_(icebreaker)",
+            "child_node": "Arctech_Helsinki_Shipyard",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Finland is home to the Finns and the icebreaker Aleksey Chirikov, built at the Arctech Helsinki Shipyard."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The icebreaker ship Aleksey Chirikov was built in Finland where the natives are known as Finns by Arctech Helsinki Shipyard."
+        }
+    },
+    "gold_outputs": [
+        "Finland is home to the Finns and the icebreaker Aleksey Chirikov, built at the Arctech Helsinki Shipyard.",
+        "The icebreaker ship Aleksey Chirikov was built in Finland where the natives are known as Finns by Arctech Helsinki Shipyard."
+    ]
+}

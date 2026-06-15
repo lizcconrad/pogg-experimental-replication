@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Marv_Wolfman": {
+            "lexicon_key": "Marv_Wolfman"
+        },
+        "Eagle_Award_(comics)": {
+            "lexicon_key": "Eagle_Award_(comics)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "award",
+            "parent_node": "Marv_Wolfman",
+            "child_node": "Eagle_Award_(comics)",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Marv Wolfman is a recipient of the Eagle Award."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Marv Wolfman won the Eagle Award for comics."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Marv Wolfman has received the Eagle Award for comics."
+        }
+    },
+    "gold_outputs": [
+        "Marv Wolfman has received the Eagle Award for comics.",
+        "Marv Wolfman is a recipient of the Eagle Award.",
+        "Marv Wolfman won the Eagle Award for comics."
+    ]
+}

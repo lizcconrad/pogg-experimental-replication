@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Romania": {
+            "lexicon_key": "Romania"
+        },
+        "Andrew_the_Apostle": {
+            "lexicon_key": "Andrew_the_Apostle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "patronSaint",
+            "parent_node": "Romania",
+            "child_node": "Andrew_the_Apostle",
+            "edge_properties": {
+                "lexicon_key": "patronSaint"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The patron saint of Romania is Andrew the Apostle."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrew the Apostle is the patron saint of Romania."
+        }
+    },
+    "gold_outputs": [
+        "Andrew the Apostle is the patron saint of Romania.",
+        "The patron saint of Romania is Andrew the Apostle."
+    ]
+}

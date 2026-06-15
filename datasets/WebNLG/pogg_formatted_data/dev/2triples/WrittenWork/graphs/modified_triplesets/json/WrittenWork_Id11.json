@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Loyal_Character_Dancer": {
+            "lexicon_key": "A_Loyal_Character_Dancer"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Asian_Americans": {
+            "lexicon_key": "Asian_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "A_Loyal_Character_Dancer",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Asian_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Loyal Character Dancer is published in the United States where the Asian Americans are one of the ethnic groups."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Loyal Character Dancer is published in the United States, which includes among its ethnic groups Asian Americans."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Loyal Character Dancer is published in the United States, where many Asian Americans live."
+        }
+    },
+    "gold_outputs": [
+        "A Loyal Character Dancer is published in the United States where the Asian Americans are one of the ethnic groups.",
+        "A Loyal Character Dancer is published in the United States, where many Asian Americans live.",
+        "A Loyal Character Dancer is published in the United States, which includes among its ethnic groups Asian Americans."
+    ]
+}

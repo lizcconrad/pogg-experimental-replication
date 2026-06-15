@@ -1,0 +1,7 @@
+strict digraph {
+Atlas_II [lexicon_key="Atlas_II"];
+Cape_Canaveral_Air_Force_Station [lexicon_key="Cape_Canaveral_Air_Force_Station"];
+Lockheed_Martin [lexicon_key="Lockheed_Martin"];
+Atlas_II -> Cape_Canaveral_Air_Force_Station [label=launchSite, lexicon_key=launchSite];
+Atlas_II -> Lockheed_Martin [label=manufacturer, lexicon_key=manufacturer];
+}

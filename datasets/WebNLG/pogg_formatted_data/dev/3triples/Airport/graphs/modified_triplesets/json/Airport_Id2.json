@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Adirondack_Regional_Airport": {
+            "lexicon_key": "Adirondack_Regional_Airport"
+        },
+        "1219.0": {
+            "lexicon_key": "1219.0"
+        },
+        "Lake_Placid,_New_York": {
+            "lexicon_key": "Lake_Placid,_New_York"
+        },
+        "Saranac_Lake,_New_York": {
+            "lexicon_key": "Saranac_Lake,_New_York"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Adirondack_Regional_Airport",
+            "child_node": "1219.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Adirondack_Regional_Airport",
+            "child_node": "Lake_Placid,_New_York",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Adirondack_Regional_Airport",
+            "child_node": "Saranac_Lake,_New_York",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adirondack Regional Airport has a runway length of 1219.0 and serves the cities of Saranac Lake and Lake Placid, New York."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adirondack Regional Airport serves the city of Saranac Lake, New York and the residents of Lake Placid and has a runway that's 1,219 long."
+        }
+    },
+    "gold_outputs": [
+        "Adirondack Regional Airport has a runway length of 1219.0 and serves the cities of Saranac Lake and Lake Placid, New York.",
+        "Adirondack Regional Airport serves the city of Saranac Lake, New York and the residents of Lake Placid and has a runway that's 1,219 long."
+    ]
+}

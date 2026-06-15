@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "John_Cowper_Powys": {
+            "lexicon_key": "John_Cowper_Powys"
+        },
+        "Wolf_Solent": {
+            "lexicon_key": "Wolf_Solent"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "notableWork",
+            "parent_node": "John_Cowper_Powys",
+            "child_node": "Wolf_Solent",
+            "edge_properties": {
+                "lexicon_key": "notableWork"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Wolf Solent is a notable work by John Cowper Powys."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Wolf Solent is one of John Cowper Powys notable works."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Wolf Solent is a notable work of author John Cowper Powys."
+        }
+    },
+    "gold_outputs": [
+        "Wolf Solent is a notable work by John Cowper Powys.",
+        "Wolf Solent is a notable work of author John Cowper Powys.",
+        "Wolf Solent is one of John Cowper Powys notable works."
+    ]
+}

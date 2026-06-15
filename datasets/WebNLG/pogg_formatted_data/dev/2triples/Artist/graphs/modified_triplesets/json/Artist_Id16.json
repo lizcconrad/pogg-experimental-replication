@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alison_O'Donnell": {
+            "lexicon_key": "Alison_O'Donnell"
+        },
+        "Plastik_Mak": {
+            "lexicon_key": "Plastik_Mak"
+        },
+        "Head_South_By_Weaving": {
+            "lexicon_key": "Head_South_By_Weaving"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "Plastik_Mak",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "Head_South_By_Weaving",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alison O'Donnell is associated with Plastik Mak and the band Head South By Weaving."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alison O'Donnell is associated with Plastik Mak and is musically associated with the band Head South By Weaving."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alison O'Donnell is musically associated with Plastik Mak and Head South By Weaving."
+        }
+    },
+    "gold_outputs": [
+        "Alison O'Donnell is associated with Plastik Mak and is musically associated with the band Head South By Weaving.",
+        "Alison O'Donnell is associated with Plastik Mak and the band Head South By Weaving.",
+        "Alison O'Donnell is musically associated with Plastik Mak and Head South By Weaving."
+    ]
+}

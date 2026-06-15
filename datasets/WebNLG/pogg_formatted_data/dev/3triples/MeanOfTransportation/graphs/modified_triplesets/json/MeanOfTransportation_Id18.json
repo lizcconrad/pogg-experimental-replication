@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Aston_Martin_V8": {
+            "lexicon_key": "Aston_Martin_V8"
+        },
+        "\"Newport Pagnell, Buckinghamshire, England, United Kingdom\"": {
+            "lexicon_key": "\"Newport Pagnell, Buckinghamshire, England, United Kingdom\""
+        },
+        "5.3 (litres)": {
+            "lexicon_key": "5.3 (litres)"
+        },
+        "Aston_Martin_RHAM/1": {
+            "lexicon_key": "Aston_Martin_RHAM/1"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "\"Newport Pagnell, Buckinghamshire, England, United Kingdom\"",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "engine",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "5.3 (litres)",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "Aston_Martin_RHAM/1",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Aston Martin V8, related to the Aston Martin RHAM/1, is assembled in Newport Pagnell, Buckinghamshire, England, United Kingdom and has a 5.3 litre engine."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Aston Martin V8, (related to the Aston Martin RHAM/1), assembled in Newport Pagnell, Buckinghamshire, England, United Kingdom, has a 5.3 liter engine."
+        }
+    },
+    "gold_outputs": [
+        "The Aston Martin V8, (related to the Aston Martin RHAM/1), assembled in Newport Pagnell, Buckinghamshire, England, United Kingdom, has a 5.3 liter engine.",
+        "The Aston Martin V8, related to the Aston Martin RHAM/1, is assembled in Newport Pagnell, Buckinghamshire, England, United Kingdom and has a 5.3 litre engine."
+    ]
+}

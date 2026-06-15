@@ -1,0 +1,5 @@
+strict digraph {
+Atlas_II [lexicon_key="Atlas_II"];
+"1998-03-16" [lexicon_key="1998-03-16"];
+Atlas_II -> "1998-03-16" [label=finalFlight, lexicon_key=finalFlight];
+}

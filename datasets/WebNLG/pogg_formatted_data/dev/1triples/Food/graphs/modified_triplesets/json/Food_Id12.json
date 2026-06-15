@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Bakewell_tart": {
+            "lexicon_key": "Bakewell_tart"
+        },
+        "Frangipane": {
+            "lexicon_key": "Frangipane"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bakewell_tart",
+            "child_node": "Frangipane",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "An ingredient of bakewell tart is frangipane."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Frangipane is an ingredient in a Bakewell tart."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Frangipane is an ingredient of Bakewell tart."
+        }
+    },
+    "gold_outputs": [
+        "An ingredient of bakewell tart is frangipane.",
+        "Frangipane is an ingredient in a Bakewell tart.",
+        "Frangipane is an ingredient of Bakewell tart."
+    ]
+}

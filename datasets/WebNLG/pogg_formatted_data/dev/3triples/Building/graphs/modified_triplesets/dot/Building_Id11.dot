@@ -1,0 +1,9 @@
+strict digraph {
+Adare_Manor [lexicon_key="Adare_Manor"];
+1862 [lexicon_key=1862];
+James_Pain [lexicon_key="James_Pain"];
+"J._P._McManus" [lexicon_key="J._P._McManus"];
+Adare_Manor -> 1862 [label=completionDate, lexicon_key=completionDate];
+Adare_Manor -> James_Pain [label=architect, lexicon_key=architect];
+Adare_Manor -> "J._P._McManus" [label=owner, lexicon_key=owner];
+}

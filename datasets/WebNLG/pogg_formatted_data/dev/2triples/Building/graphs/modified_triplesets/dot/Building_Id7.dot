@@ -1,0 +1,7 @@
+strict digraph {
+"3Arena" [lexicon_key="3Arena"];
+Live_Nation_Entertainment [lexicon_key="Live_Nation_Entertainment"];
+"East Link Bridge" [lexicon_key="East Link Bridge"];
+"3Arena" -> Live_Nation_Entertainment [label=owner, lexicon_key=owner];
+"3Arena" -> "East Link Bridge" [label=location, lexicon_key=location];
+}

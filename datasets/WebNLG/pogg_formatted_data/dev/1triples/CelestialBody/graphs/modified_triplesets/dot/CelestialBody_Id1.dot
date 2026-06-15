@@ -1,0 +1,5 @@
+strict digraph {
+"(29075)_1950_DA" [lexicon_key="(29075)_1950_DA"];
+"Carl_A._Wirtanen" [lexicon_key="Carl_A._Wirtanen"];
+"(29075)_1950_DA" -> "Carl_A._Wirtanen" [label=discoverer, lexicon_key=discoverer];
+}

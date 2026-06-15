@@ -1,0 +1,9 @@
+strict digraph {
+"10_Hygiea" [lexicon_key="10_Hygiea"];
+"837080.744 (squareKilometres)" [lexicon_key="837080.744 (squareKilometres)"];
+"523951582.33968 (kilometres)" [lexicon_key="523951582.33968 (kilometres)"];
+"164.0 (kelvins)" [lexicon_key="164.0 (kelvins)"];
+"10_Hygiea" -> "837080.744 (squareKilometres)" [label=surfaceArea, lexicon_key=surfaceArea];
+"10_Hygiea" -> "523951582.33968 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+"10_Hygiea" -> "164.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+}

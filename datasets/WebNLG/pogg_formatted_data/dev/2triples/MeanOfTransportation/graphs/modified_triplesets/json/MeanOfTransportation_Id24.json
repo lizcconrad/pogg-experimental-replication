@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Atlas_II": {
+            "lexicon_key": "Atlas_II"
+        },
+        "Cape_Canaveral_Air_Force_Station": {
+            "lexicon_key": "Cape_Canaveral_Air_Force_Station"
+        },
+        "Lockheed_Martin": {
+            "lexicon_key": "Lockheed_Martin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Atlas_II",
+            "child_node": "Cape_Canaveral_Air_Force_Station",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        },
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Atlas_II",
+            "child_node": "Lockheed_Martin",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Lockheed Martin manufactured Atlas II was launched from Cape Canaveral Air Force Station."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Atlas II, manufactured by Lockheed Martin, was launched from Cape Canaveral Air Force Station."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Atlas II was manufactured by Lockheed Martin and launched from the Cape Canaveral Air Force Station."
+        }
+    },
+    "gold_outputs": [
+        "The Atlas II was manufactured by Lockheed Martin and launched from the Cape Canaveral Air Force Station.",
+        "The Atlas II, manufactured by Lockheed Martin, was launched from Cape Canaveral Air Force Station.",
+        "The Lockheed Martin manufactured Atlas II was launched from Cape Canaveral Air Force Station."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Java [lexicon_key=Java];
+Baduy [lexicon_key=Baduy];
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+Singapore [lexicon_key=Singapore];
+Java -> Baduy [label=ethnicGroup, lexicon_key=ethnicGroup];
+Ayam_penyet -> Singapore [label=region, lexicon_key=region];
+Ayam_penyet -> Java [label=country, lexicon_key=country];
+}

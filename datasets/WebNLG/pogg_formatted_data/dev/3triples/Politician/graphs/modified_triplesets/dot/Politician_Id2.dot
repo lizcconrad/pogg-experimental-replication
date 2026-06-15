@@ -1,0 +1,9 @@
+strict digraph {
+Ab_Klink [lexicon_key="Ab_Klink"];
+Erasmus_University_Rotterdam [lexicon_key="Erasmus_University_Rotterdam"];
+Christian_Democratic_Appeal [lexicon_key="Christian_Democratic_Appeal"];
+Netherlands [lexicon_key=Netherlands];
+Ab_Klink -> Erasmus_University_Rotterdam [label=almaMater, lexicon_key=almaMater];
+Ab_Klink -> Christian_Democratic_Appeal [label=party, lexicon_key=party];
+Ab_Klink -> Netherlands [label=birthPlace, lexicon_key=birthPlace];
+}

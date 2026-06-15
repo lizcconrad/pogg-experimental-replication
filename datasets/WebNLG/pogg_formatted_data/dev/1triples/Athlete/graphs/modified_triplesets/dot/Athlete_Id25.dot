@@ -1,0 +1,5 @@
+strict digraph {
+Budapest [lexicon_key=Budapest];
+Hungary [lexicon_key=Hungary];
+Budapest -> Hungary [label=country, lexicon_key=country];
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Agra_Airport": {
+            "lexicon_key": "Agra_Airport"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Indian_Air_Force": {
+            "lexicon_key": "Indian_Air_Force"
+        },
+        "\"VIAG\"": {
+            "lexicon_key": "\"VIAG\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Agra_Airport",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Agra_Airport",
+            "child_node": "Indian_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "icaoLocationIdentifier",
+            "parent_node": "Agra_Airport",
+            "child_node": "\"VIAG\"",
+            "edge_properties": {
+                "lexicon_key": "icaoLocationIdentifier"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Indian Air Force in India, operates Agra Airport which uses VIAG as its ICAO location identifier."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agra Airport, located in India, is operated by the Indian Air Force, and has an ICAO identifier is VIAG."
+        }
+    },
+    "gold_outputs": [
+        "Agra Airport, located in India, is operated by the Indian Air Force, and has an ICAO identifier is VIAG.",
+        "The Indian Air Force in India, operates Agra Airport which uses VIAG as its ICAO location identifier."
+    ]
+}

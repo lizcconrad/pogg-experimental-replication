@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "South_Jersey_Transportation_Authority": {
+            "lexicon_key": "South_Jersey_Transportation_Authority"
+        },
+        "Stephen_Dilts": {
+            "lexicon_key": "Stephen_Dilts"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "chief",
+            "parent_node": "South_Jersey_Transportation_Authority",
+            "child_node": "Stephen_Dilts",
+            "edge_properties": {
+                "lexicon_key": "chief"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "South Jersey Transportation Authority chief is Stephen Dilts."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Stephen Dilts is the chief of the South Jersey Transportation Authority."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Stephen Dilts is the chief of South Jersey Transportation Authority."
+        }
+    },
+    "gold_outputs": [
+        "South Jersey Transportation Authority chief is Stephen Dilts.",
+        "Stephen Dilts is the chief of South Jersey Transportation Authority.",
+        "Stephen Dilts is the chief of the South Jersey Transportation Authority."
+    ]
+}

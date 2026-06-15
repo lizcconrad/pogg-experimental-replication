@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alhambra": {
+            "lexicon_key": "Alhambra"
+        },
+        "8.3 m": {
+            "lexicon_key": "8.3 m"
+        },
+        "63800.0 (millimetres)": {
+            "lexicon_key": "63800.0 (millimetres)"
+        },
+        "\"Wrecked\"": {
+            "lexicon_key": "\"Wrecked\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "shipBeam",
+            "parent_node": "Alhambra",
+            "child_node": "8.3 m",
+            "edge_properties": {
+                "lexicon_key": "shipBeam"
+            }
+        },
+        {
+            "edge_name": "length",
+            "parent_node": "Alhambra",
+            "child_node": "63800.0 (millimetres)",
+            "edge_properties": {
+                "lexicon_key": "length"
+            }
+        },
+        {
+            "edge_name": "status",
+            "parent_node": "Alhambra",
+            "child_node": "\"Wrecked\"",
+            "edge_properties": {
+                "lexicon_key": "status"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alhambra, which was wrecked, had an 8.3 m ship beam and was 63800.0 mms in length."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Before it was wrecked the Alhambra had a length of 63800.0 millimetres and a beam of 8.3m."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alhambra had wrecked, it had a ship beam of 8.3m and was 63800.0 millimetres long."
+        }
+    },
+    "gold_outputs": [
+        "Before it was wrecked the Alhambra had a length of 63800.0 millimetres and a beam of 8.3m.",
+        "The Alhambra had wrecked, it had a ship beam of 8.3m and was 63800.0 millimetres long.",
+        "The Alhambra, which was wrecked, had an 8.3 m ship beam and was 63800.0 mms in length."
+    ]
+}

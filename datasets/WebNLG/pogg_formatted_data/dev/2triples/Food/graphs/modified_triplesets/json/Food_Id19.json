@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Bakewell_pudding": {
+            "lexicon_key": "Bakewell_pudding"
+        },
+        "\"Rutland Arms, Bakewell, in 1820\"": {
+            "lexicon_key": "\"Rutland Arms, Bakewell, in 1820\""
+        },
+        "\"Ground almond, jam, butter, eggs\"": {
+            "lexicon_key": "\"Ground almond, jam, butter, eggs\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bakewell_pudding",
+            "child_node": "\"Rutland Arms, Bakewell, in 1820\"",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Bakewell_pudding",
+            "child_node": "\"Ground almond, jam, butter, eggs\"",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bakewell pudding was created in 1820 at the Rutland Arms, Bakewell and has ground almond, jam, butter and eggs as main ingredients."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The main ingredients of Bakewell pudding, which was invented in Rutland Arms, Bakewell, in 1820, are ground almond, jam, butter and eggs."
+        }
+    },
+    "gold_outputs": [
+        "Bakewell pudding was created in 1820 at the Rutland Arms, Bakewell and has ground almond, jam, butter and eggs as main ingredients.",
+        "The main ingredients of Bakewell pudding, which was invented in Rutland Arms, Bakewell, in 1820, are ground almond, jam, butter and eggs."
+    ]
+}

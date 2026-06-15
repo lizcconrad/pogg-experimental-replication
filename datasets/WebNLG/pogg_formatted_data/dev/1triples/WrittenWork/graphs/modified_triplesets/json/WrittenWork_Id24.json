@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "HIV": {
+            "lexicon_key": "HIV"
+        },
+        "Lentivirus": {
+            "lexicon_key": "Lentivirus"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genus",
+            "parent_node": "HIV",
+            "child_node": "Lentivirus",
+            "edge_properties": {
+                "lexicon_key": "genus"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The HIV virus is from the genus Lentivirus."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "HIV is genus Lentivirus."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "HIV genus is categorised as Lentivirus."
+        }
+    },
+    "gold_outputs": [
+        "HIV genus is categorised as Lentivirus.",
+        "HIV is genus Lentivirus.",
+        "The HIV virus is from the genus Lentivirus."
+    ]
+}

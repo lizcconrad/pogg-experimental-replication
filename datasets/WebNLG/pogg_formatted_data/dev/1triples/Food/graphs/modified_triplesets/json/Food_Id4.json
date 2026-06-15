@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Arem-arem": {
+            "lexicon_key": "Arem-arem"
+        },
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Arem-arem",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arem arem comes from Indonesia."
+        }
+    },
+    "gold_outputs": [
+        "Arem arem comes from Indonesia."
+    ]
+}

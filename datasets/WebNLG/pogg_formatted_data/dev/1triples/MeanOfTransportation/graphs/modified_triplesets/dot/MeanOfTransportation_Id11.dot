@@ -1,0 +1,5 @@
+strict digraph {
+AMC_Matador [lexicon_key="AMC_Matador"];
+AMC_Ambassador [lexicon_key="AMC_Ambassador"];
+AMC_Matador -> AMC_Ambassador [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

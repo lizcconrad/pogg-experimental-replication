@@ -1,0 +1,5 @@
+strict digraph {
+Paracuellos_de_Jarama [lexicon_key="Paracuellos_de_Jarama"];
+Community_of_Madrid [lexicon_key="Community_of_Madrid"];
+Paracuellos_de_Jarama -> Community_of_Madrid [label=isPartOf, lexicon_key=isPartOf];
+}

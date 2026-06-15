@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "Public_company": {
+            "lexicon_key": "Public_company"
+        },
+        "Insular_Government_of_the_Philippine_Islands": {
+            "lexicon_key": "Insular_Government_of_the_Philippine_Islands"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "type",
+            "parent_node": "Chinabank",
+            "child_node": "Public_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Chinabank",
+            "child_node": "Insular_Government_of_the_Philippine_Islands",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chinabank, a publicly traded company, was founded in the Insular Government of the Philippine Islands."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chinabank is a publicly traded company that was founded in the Insular Government of the Philippine Islands."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Chinabank is a public company with the Insular Government of the Philippine Islands being its foundation place."
+        }
+    },
+    "gold_outputs": [
+        "Chinabank is a public company with the Insular Government of the Philippine Islands being its foundation place.",
+        "Chinabank is a publicly traded company that was founded in the Insular Government of the Philippine Islands.",
+        "Chinabank, a publicly traded company, was founded in the Insular Government of the Philippine Islands."
+    ]
+}

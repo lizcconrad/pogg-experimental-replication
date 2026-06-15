@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abarth_1000_GT_Coup\u00e9": {
+            "lexicon_key": "Abarth_1000_GT_Coup\u00e9"
+        },
+        "Gruppo_Bertone": {
+            "lexicon_key": "Gruppo_Bertone"
+        },
+        "Abarth": {
+            "lexicon_key": "Abarth"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "designCompany",
+            "parent_node": "Abarth_1000_GT_Coup\u00e9",
+            "child_node": "Gruppo_Bertone",
+            "edge_properties": {
+                "lexicon_key": "designCompany"
+            }
+        },
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Abarth_1000_GT_Coup\u00e9",
+            "child_node": "Abarth",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Abarth 1000 GT Coupe was made by Abarth and designed by Gruppo Bertone."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Abarth 1000 GT Coup\u00e9 was manufactured by Abarth and designed by Gruppo Bertone."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Abarth 1000 GT Coup\u00e9 was designed by Gruppo Bertone and made by Abarth."
+        }
+    },
+    "gold_outputs": [
+        "The Abarth 1000 GT Coupe was made by Abarth and designed by Gruppo Bertone.",
+        "The Abarth 1000 GT Coup\u00e9 was designed by Gruppo Bertone and made by Abarth.",
+        "The Abarth 1000 GT Coup\u00e9 was manufactured by Abarth and designed by Gruppo Bertone."
+    ]
+}

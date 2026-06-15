@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "School of Business and Social Sciences at the Aarhus University": {
+            "lexicon_key": "School of Business and Social Sciences at the Aarhus University"
+        },
+        "Denmark": {
+            "lexicon_key": "Denmark"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "School of Business and Social Sciences at the Aarhus University",
+            "child_node": "Denmark",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Aarhus University School of Business and Social Sciences is in the country of Denmark."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The School of Business and Social Sciences at the Aarhus University is situated in Denmark."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The School of Business and Social Sciences at the Aarhus University is located in Denmark."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The School of Business and Social Sciences at the Aarhus University is in Denmark."
+        }
+    },
+    "gold_outputs": [
+        "The Aarhus University School of Business and Social Sciences is in the country of Denmark.",
+        "The School of Business and Social Sciences at the Aarhus University is in Denmark.",
+        "The School of Business and Social Sciences at the Aarhus University is located in Denmark.",
+        "The School of Business and Social Sciences at the Aarhus University is situated in Denmark."
+    ]
+}

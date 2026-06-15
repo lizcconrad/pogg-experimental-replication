@@ -1,0 +1,7 @@
+strict digraph {
+"200_Public_Square" [lexicon_key="200_Public_Square"];
+Cleveland [lexicon_key=Cleveland];
+45 [lexicon_key=45];
+"200_Public_Square" -> Cleveland [label=location, lexicon_key=location];
+"200_Public_Square" -> 45 [label=floorCount, lexicon_key=floorCount];
+}

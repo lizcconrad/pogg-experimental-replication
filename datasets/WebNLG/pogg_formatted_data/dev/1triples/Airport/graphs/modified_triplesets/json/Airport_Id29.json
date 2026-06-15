@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Greece": {
+            "lexicon_key": "Greece"
+        },
+        "Greek_language": {
+            "lexicon_key": "Greek_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Greece",
+            "child_node": "Greek_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Greek is the language spoken in Greece."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The language spoken in Greece is Greek."
+        }
+    },
+    "gold_outputs": [
+        "Greek is the language spoken in Greece.",
+        "The language spoken in Greece is Greek."
+    ]
+}

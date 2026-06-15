@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Battle_of_Fredericksburg": {
+            "lexicon_key": "Battle_of_Fredericksburg"
+        },
+        "American_Civil_War": {
+            "lexicon_key": "American_Civil_War"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOfMilitaryConflict",
+            "parent_node": "Battle_of_Fredericksburg",
+            "child_node": "American_Civil_War",
+            "edge_properties": {
+                "lexicon_key": "isPartOfMilitaryConflict"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Battle of Fredericksburg was fought during the American Civil War."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The battle of Fredericksburg was part of the American Civil War military conflict."
+        }
+    },
+    "gold_outputs": [
+        "The Battle of Fredericksburg was fought during the American Civil War.",
+        "The battle of Fredericksburg was part of the American Civil War military conflict."
+    ]
+}

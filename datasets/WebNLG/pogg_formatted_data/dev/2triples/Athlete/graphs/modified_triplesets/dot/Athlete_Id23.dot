@@ -1,0 +1,7 @@
+strict digraph {
+Canada [lexicon_key=Canada];
+English_language [lexicon_key="English_language"];
+Adam_McQuaid [lexicon_key="Adam_McQuaid"];
+Canada -> English_language [label=language, lexicon_key=language];
+Adam_McQuaid -> Canada [label=birthPlace, lexicon_key=birthPlace];
+}

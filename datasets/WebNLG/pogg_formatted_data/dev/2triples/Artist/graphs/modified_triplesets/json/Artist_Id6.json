@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ace_Wilder": {
+            "lexicon_key": "Ace_Wilder"
+        },
+        "Hip_hop_music": {
+            "lexicon_key": "Hip_hop_music"
+        },
+        "Disco": {
+            "lexicon_key": "Disco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Ace_Wilder",
+            "child_node": "Hip_hop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Hip_hop_music",
+            "child_node": "Disco",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ace Wilder is an exponent of hip hop music, a style that originated from disco."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The musical genre of Ace Wilder is hip hop music which has its origins in Disco."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ace Wilder's musical genre is Hip hop music which has its origins in Disco."
+        }
+    },
+    "gold_outputs": [
+        "Ace Wilder is an exponent of hip hop music, a style that originated from disco.",
+        "Ace Wilder's musical genre is Hip hop music which has its origins in Disco.",
+        "The musical genre of Ace Wilder is hip hop music which has its origins in Disco."
+    ]
+}

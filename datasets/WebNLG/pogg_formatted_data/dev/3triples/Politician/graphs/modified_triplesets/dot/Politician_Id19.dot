@@ -1,0 +1,9 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+Battle_of_France [lexicon_key="Battle_of_France"];
+"1979-03-30" [lexicon_key="1979-03-30"];
+Order_of_the_British_Empire [lexicon_key="Order_of_the_British_Empire"];
+Airey_Neave -> Battle_of_France [label=battle, lexicon_key=battle];
+Airey_Neave -> "1979-03-30" [label=activeYearsEndDate, lexicon_key=activeYearsEndDate];
+Airey_Neave -> Order_of_the_British_Empire [label=award, lexicon_key=award];
+}

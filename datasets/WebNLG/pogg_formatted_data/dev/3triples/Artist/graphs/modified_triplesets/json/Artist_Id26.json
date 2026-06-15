@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Anders_Osborne": {
+            "lexicon_key": "Anders_Osborne"
+        },
+        "Billy_Iuso": {
+            "lexicon_key": "Billy_Iuso"
+        },
+        "Voice_of_the_Wetlands_All-Stars": {
+            "lexicon_key": "Voice_of_the_Wetlands_All-Stars"
+        },
+        "Tab_Benoit": {
+            "lexicon_key": "Tab_Benoit"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Billy_Iuso",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Voice_of_the_Wetlands_All-Stars",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Tab_Benoit",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anders Osborne has worked with Tab Benoit and is associated with the Voice of the Wetlands All-Stars and Billy Iuso."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anders Osborne is associated with the musical artist Billy Iuso, with the band Voice of the Wetlands All-Stars and with Tab Benoit."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Associated with Tab Benoit, Anders Osborne is associated with the musical artist Billy Iuso and with Voice of the Wetlands All-Stars."
+        }
+    },
+    "gold_outputs": [
+        "Anders Osborne has worked with Tab Benoit and is associated with the Voice of the Wetlands All-Stars and Billy Iuso.",
+        "Anders Osborne is associated with the musical artist Billy Iuso, with the band Voice of the Wetlands All-Stars and with Tab Benoit.",
+        "Associated with Tab Benoit, Anders Osborne is associated with the musical artist Billy Iuso and with Voice of the Wetlands All-Stars."
+    ]
+}

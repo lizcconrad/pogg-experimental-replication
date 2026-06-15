@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Asser_Levy_Public_Baths": {
+            "lexicon_key": "Asser_Levy_Public_Baths"
+        },
+        "1904": {
+            "lexicon_key": "1904"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "yearOfConstruction",
+            "parent_node": "Asser_Levy_Public_Baths",
+            "child_node": "1904",
+            "edge_properties": {
+                "lexicon_key": "yearOfConstruction"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Asser Levy Public Baths was built in 1904."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Asser Levy Public Baths were constructed in 1904."
+        }
+    },
+    "gold_outputs": [
+        "Asser Levy Public Baths were constructed in 1904.",
+        "The Asser Levy Public Baths was built in 1904."
+    ]
+}

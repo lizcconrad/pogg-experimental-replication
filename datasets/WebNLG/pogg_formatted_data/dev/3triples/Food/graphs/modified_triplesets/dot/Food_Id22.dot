@@ -1,0 +1,9 @@
+strict digraph {
+Barny_Cakes [lexicon_key="Barny_Cakes"];
+France [lexicon_key=France];
+"Gérard_Larcher" [lexicon_key="Gérard_Larcher"];
+Claude_Bartolone [lexicon_key="Claude_Bartolone"];
+Barny_Cakes -> France [label=country, lexicon_key=country];
+France -> "Gérard_Larcher" [label=leader, lexicon_key=leader];
+France -> Claude_Bartolone [label=leader, lexicon_key=leader];
+}

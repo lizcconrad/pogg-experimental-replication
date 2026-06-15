@@ -1,0 +1,5 @@
+strict digraph {
+"Twilight_(band)" [lexicon_key="Twilight_(band)"];
+Black_metal [lexicon_key="Black_metal"];
+"Twilight_(band)" -> Black_metal [label=genre, lexicon_key=genre];
+}

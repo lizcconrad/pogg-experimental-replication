@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "A.E_Dimitra_Efxeinoupolis": {
+            "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+        },
+        "2014": {
+            "lexicon_key": "2014"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "season",
+            "parent_node": "A.E_Dimitra_Efxeinoupolis",
+            "child_node": "2014",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis played in the 2014 season."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis were in the 2014 season."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis played in season 2014."
+        }
+    },
+    "gold_outputs": [
+        "A.E Dimitra Efxeinoupolis played in season 2014.",
+        "A.E Dimitra Efxeinoupolis played in the 2014 season.",
+        "A.E Dimitra Efxeinoupolis were in the 2014 season."
+    ]
+}

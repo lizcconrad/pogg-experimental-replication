@@ -1,0 +1,9 @@
+strict digraph {
+"Amarillo,_Texas" [lexicon_key="Amarillo,_Texas"];
+"Potter_County,_Texas" [lexicon_key="Potter_County,_Texas"];
+United_States [lexicon_key="United_States"];
+Native_Americans_in_the_United_States [lexicon_key="Native_Americans_in_the_United_States"];
+"Amarillo,_Texas" -> "Potter_County,_Texas" [label=isPartOf, lexicon_key=isPartOf];
+"Potter_County,_Texas" -> United_States [label=country, lexicon_key=country];
+United_States -> Native_Americans_in_the_United_States [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

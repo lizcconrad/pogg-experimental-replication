@@ -1,0 +1,9 @@
+strict digraph {
+"A.D._Isidro_Metapán" [lexicon_key="A.D._Isidro_Metapán"];
+"Estadio_Jorge_Calero_Suárez" [lexicon_key="Estadio_Jorge_Calero_Suárez"];
+"Isidro Metapán" [lexicon_key="Isidro Metapán"];
+10000 [lexicon_key=10000];
+"A.D._Isidro_Metapán" -> "Estadio_Jorge_Calero_Suárez" [label=ground, lexicon_key=ground];
+"A.D._Isidro_Metapán" -> "Isidro Metapán" [label=fullName, lexicon_key=fullName];
+"A.D._Isidro_Metapán" -> 10000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

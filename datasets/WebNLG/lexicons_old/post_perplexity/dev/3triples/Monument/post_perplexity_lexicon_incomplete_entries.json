@@ -1,0 +1,57 @@
+{
+    "node_keys": {
+        "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"": {
+            "comp_fxn": ""
+        },
+        "\"Ottoman Army soldiers killed in the Battle of Baku\"": {
+            "comp_fxn": ""
+        },
+        "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"": {
+            "comp_fxn": ""
+        },
+        "11th_Mississippi_Infantry_Monument": {
+            "comp_fxn": ""
+        },
+        "Adams_County,_Pennsylvania": {
+            "comp_fxn": ""
+        },
+        "Artur_Rasizade": {
+            "comp_fxn": ""
+        },
+        "Azerbaijan": {
+            "comp_fxn": ""
+        },
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "comp_fxn": ""
+        },
+        "Franklin_County,_Pennsylvania": {
+            "comp_fxn": ""
+        },
+        "Frederick_County,_Maryland": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "dedicatedTo": {
+            "comp_fxn": ""
+        },
+        "designer": {
+            "comp_fxn": ""
+        },
+        "hasToItsSouthwest": {
+            "comp_fxn": ""
+        },
+        "hasToItsWest": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "nativeName": {
+            "comp_fxn": ""
+        }
+    }
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Port_Authority_of_New_York_and_New_Jersey [lexicon_key="Port_Authority_of_New_York_and_New_Jersey"];
+Four_World_Trade_Center [lexicon_key="Four_World_Trade_Center"];
+Port_Authority_of_New_York_and_New_Jersey -> Four_World_Trade_Center [label=headquarter, lexicon_key=headquarter];
+}

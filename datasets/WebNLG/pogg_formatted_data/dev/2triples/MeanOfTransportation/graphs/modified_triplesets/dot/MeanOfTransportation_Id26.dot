@@ -1,0 +1,7 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+Audi [lexicon_key=Audi];
+SEAT_Ibiza [lexicon_key="SEAT_Ibiza"];
+Audi_A1 -> Audi [label=manufacturer, lexicon_key=manufacturer];
+Audi_A1 -> SEAT_Ibiza [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

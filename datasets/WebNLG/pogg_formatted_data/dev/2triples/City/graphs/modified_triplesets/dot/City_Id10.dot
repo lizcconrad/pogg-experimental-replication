@@ -1,0 +1,7 @@
+strict digraph {
+Atlanta [lexicon_key=Atlanta];
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+Atlanta -> United_States [label=country, lexicon_key=country];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

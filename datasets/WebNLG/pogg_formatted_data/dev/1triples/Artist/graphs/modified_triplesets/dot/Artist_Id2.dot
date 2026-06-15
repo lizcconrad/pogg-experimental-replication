@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Deer [lexicon_key="Aaron_Deer"];
+The_Horns_of_Happiness [lexicon_key="The_Horns_of_Happiness"];
+Aaron_Deer -> The_Horns_of_Happiness [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

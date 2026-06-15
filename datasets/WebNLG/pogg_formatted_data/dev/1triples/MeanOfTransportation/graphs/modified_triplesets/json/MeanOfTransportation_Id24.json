@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Atlas_II": {
+            "lexicon_key": "Atlas_II"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "countryOrigin",
+            "parent_node": "Atlas_II",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "countryOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Atlas II originated from the U.S."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Atlas II originates from the United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Atlas II is from the United States."
+        }
+    },
+    "gold_outputs": [
+        "Atlas II originates from the United States.",
+        "The Atlas II is from the United States.",
+        "The Atlas II originated from the U.S."
+    ]
+}

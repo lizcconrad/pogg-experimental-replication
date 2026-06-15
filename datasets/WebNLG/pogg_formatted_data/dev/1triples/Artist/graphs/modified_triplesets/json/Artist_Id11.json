@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Alan_Frew": {
+            "lexicon_key": "Alan_Frew"
+        },
+        "Glass_Tiger": {
+            "lexicon_key": "Glass_Tiger"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Alan_Frew",
+            "child_node": "Glass_Tiger",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Frew plays with Glass Tiger."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Frew is a musician with the Glass Tiger band."
+        }
+    },
+    "gold_outputs": [
+        "Alan Frew is a musician with the Glass Tiger band.",
+        "Alan Frew plays with Glass Tiger."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Atatürk_Monument_(İzmir)" [lexicon_key="Atatürk_Monument_(İzmir)"];
+Pietro_Canonica [lexicon_key="Pietro_Canonica"];
+"Atatürk_Monument_(İzmir)" -> Pietro_Canonica [label=designer, lexicon_key=designer];
+}

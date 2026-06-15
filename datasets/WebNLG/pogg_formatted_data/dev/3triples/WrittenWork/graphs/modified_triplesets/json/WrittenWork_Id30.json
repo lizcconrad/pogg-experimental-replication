@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        },
+        "Barack_Obama": {
+            "lexicon_key": "Barack_Obama"
+        },
+        "A_Fortress_of_Grey_Ice": {
+            "lexicon_key": "A_Fortress_of_Grey_Ice"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "Barack_Obama",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "A_Fortress_of_Grey_Ice",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice is from the United States where Barack Obama is the leader and the African Americans are one of the ethnic groups."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Barack Obama is both president of the US and African American, which is an ethnic group of the United States. A Fortress of Grey Ice originates from the US."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "In the United States, one of the ethnic groups is African American, Barack Obamais President and it is where A Fortress of Grey Ice originates."
+        }
+    },
+    "gold_outputs": [
+        "A Fortress of Grey Ice is from the United States where Barack Obama is the leader and the African Americans are one of the ethnic groups.",
+        "Barack Obama is both president of the US and African American, which is an ethnic group of the United States. A Fortress of Grey Ice originates from the US.",
+        "In the United States, one of the ethnic groups is African American, Barack Obamais President and it is where A Fortress of Grey Ice originates."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+Battle_of_France [lexicon_key="Battle_of_France"];
+"1974-03-04" [lexicon_key="1974-03-04"];
+"1979-03-30" [lexicon_key="1979-03-30"];
+Airey_Neave -> Battle_of_France [label=battle, lexicon_key=battle];
+Airey_Neave -> "1974-03-04" [label=activeYearsStartDate, lexicon_key=activeYearsStartDate];
+Airey_Neave -> "1979-03-30" [label=activeYearsEndDate, lexicon_key=activeYearsEndDate];
+}

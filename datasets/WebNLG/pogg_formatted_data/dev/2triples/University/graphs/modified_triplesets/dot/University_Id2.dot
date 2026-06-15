@@ -1,0 +1,7 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"Blue, White and Orange" [lexicon_key="Blue, White and Orange"];
+All_India_Council_for_Technical_Education [lexicon_key="All_India_Council_for_Technical_Education"];
+Acharya_Institute_of_Technology -> "Blue, White and Orange" [label=officialSchoolColour, lexicon_key=officialSchoolColour];
+Acharya_Institute_of_Technology -> All_India_Council_for_Technical_Education [label=wasGivenTheTechnicalCampusStatusBy, lexicon_key=wasGivenTheTechnicalCampusStatusBy];
+}

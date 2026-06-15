@@ -1,0 +1,153 @@
+{
+    "node_keys": {
+        "10252": {
+            "comp_fxn": ""
+        },
+        "10264000000": {
+            "comp_fxn": ""
+        },
+        "108600000": {
+            "comp_fxn": ""
+        },
+        "1800000000": {
+            "comp_fxn": ""
+        },
+        "2001-01-01": {
+            "comp_fxn": ""
+        },
+        "29000": {
+            "comp_fxn": ""
+        },
+        "380700000": {
+            "comp_fxn": ""
+        },
+        "556300000": {
+            "comp_fxn": ""
+        },
+        "58.38": {
+            "comp_fxn": ""
+        },
+        "AmeriGas": {
+            "comp_fxn": ""
+        },
+        "Chinabank": {
+            "comp_fxn": ""
+        },
+        "Energy_industry": {
+            "comp_fxn": ""
+        },
+        "Entertainment": {
+            "comp_fxn": ""
+        },
+        "Europe": {
+            "comp_fxn": ""
+        },
+        "Felipe_Gozon": {
+            "comp_fxn": ""
+        },
+        "GMA_Network_(company)": {
+            "comp_fxn": ""
+        },
+        "GMA_New_Media": {
+            "comp_fxn": ""
+        },
+        "Hypermarcas": {
+            "comp_fxn": ""
+        },
+        "Insular_Government_of_the_Philippine_Islands": {
+            "comp_fxn": ""
+        },
+        "Ireland": {
+            "comp_fxn": ""
+        },
+        "La_Crosse,_Wisconsin": {
+            "comp_fxn": ""
+        },
+        "Manila": {
+            "comp_fxn": ""
+        },
+        "Mantecorp": {
+            "comp_fxn": ""
+        },
+        "Mass_Media": {
+            "comp_fxn": ""
+        },
+        "Media_company": {
+            "comp_fxn": ""
+        },
+        "Philippines": {
+            "comp_fxn": ""
+        },
+        "Public_company": {
+            "comp_fxn": ""
+        },
+        "Quezon_City": {
+            "comp_fxn": ""
+        },
+        "S.A._(corporation)": {
+            "comp_fxn": ""
+        },
+        "Subsidiary": {
+            "comp_fxn": ""
+        },
+        "S\u00e3o_Paulo": {
+            "comp_fxn": ""
+        },
+        "Trane": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "World_Wide_Web": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "areaTotal": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "foundationPlace": {
+            "comp_fxn": ""
+        },
+        "foundingDate": {
+            "comp_fxn": ""
+        },
+        "industry": {
+            "comp_fxn": ""
+        },
+        "keyPerson": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "netIncome": {
+            "comp_fxn": ""
+        },
+        "numberOfEmployees": {
+            "comp_fxn": ""
+        },
+        "operatingIncome": {
+            "comp_fxn": ""
+        },
+        "parentCompany": {
+            "comp_fxn": ""
+        },
+        "product": {
+            "comp_fxn": ""
+        },
+        "revenue": {
+            "comp_fxn": ""
+        },
+        "subsidiary": {
+            "comp_fxn": ""
+        },
+        "type": {
+            "comp_fxn": ""
+        }
+    }
+}

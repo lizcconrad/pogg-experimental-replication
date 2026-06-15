@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Arem-arem": {
+            "lexicon_key": "Arem-arem"
+        },
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "Joko_Widodo": {
+            "lexicon_key": "Joko_Widodo"
+        },
+        "Jusuf_Kalla": {
+            "lexicon_key": "Jusuf_Kalla"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Arem-arem",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Indonesia",
+            "child_node": "Joko_Widodo",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Indonesia",
+            "child_node": "Jusuf_Kalla",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arem arem originates from the country of Indonesia, where two of the leaders are, Joko Widodo and Jusuf Kalla."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arem arem originates from Indonesia where two of the leaders are Joko Widodo and Jusuf Kalla."
+        }
+    },
+    "gold_outputs": [
+        "Arem arem originates from Indonesia where two of the leaders are Joko Widodo and Jusuf Kalla.",
+        "Arem arem originates from the country of Indonesia, where two of the leaders are, Joko Widodo and Jusuf Kalla."
+    ]
+}

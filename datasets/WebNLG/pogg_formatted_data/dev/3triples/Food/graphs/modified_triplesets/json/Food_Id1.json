@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Ajoblanco": {
+            "lexicon_key": "Ajoblanco"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "\"Ajo blanco\"": {
+            "lexicon_key": "\"Ajo blanco\""
+        },
+        "Bread": {
+            "lexicon_key": "Bread"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ajoblanco",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Ajoblanco",
+            "child_node": "\"Ajo blanco\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Ajoblanco",
+            "child_node": "Bread",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "From Spain, Ajoblanco (alternatively known as Ajo blanco) has bread as an ingredient."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ajoblanco, also known as \"Ajo blanco\", comes from Spain. Bread is one of the ingredients."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bread is an ingredient of Ajoblanco, which is from Spain and an alternative name to Ajo blanco."
+        }
+    },
+    "gold_outputs": [
+        "Ajoblanco, also known as \"Ajo blanco\", comes from Spain. Bread is one of the ingredients.",
+        "Bread is an ingredient of Ajoblanco, which is from Spain and an alternative name to Ajo blanco.",
+        "From Spain, Ajoblanco (alternatively known as Ajo blanco) has bread as an ingredient."
+    ]
+}

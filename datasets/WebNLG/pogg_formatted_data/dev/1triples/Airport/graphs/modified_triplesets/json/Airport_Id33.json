@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Paracuellos_de_Jarama": {
+            "lexicon_key": "Paracuellos_de_Jarama"
+        },
+        "Community_of_Madrid": {
+            "lexicon_key": "Community_of_Madrid"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Paracuellos_de_Jarama",
+            "child_node": "Community_of_Madrid",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Paracuellos de Jarama is part of the community of Madrid."
+        }
+    },
+    "gold_outputs": [
+        "Paracuellos de Jarama is part of the community of Madrid."
+    ]
+}

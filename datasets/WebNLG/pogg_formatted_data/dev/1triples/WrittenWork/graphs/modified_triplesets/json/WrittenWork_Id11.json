@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Above_the_Veil": {
+            "lexicon_key": "Above_the_Veil"
+        },
+        "Hardcover": {
+            "lexicon_key": "Hardcover"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mediaType",
+            "parent_node": "Above_the_Veil",
+            "child_node": "Hardcover",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Above the Veil is available in hardcover."
+        }
+    },
+    "gold_outputs": [
+        "Above the Veil is available in hardcover."
+    ]
+}

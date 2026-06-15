@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Mobile_Applications": {
+            "lexicon_key": "Mobile_Applications"
+        },
+        "Mass_Media": {
+            "lexicon_key": "Mass_Media"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Mobile_Applications",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "industry",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Mass_Media",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "GMA new media is a mass media industry that makes mobile applications."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "GMA New Media is a company in the mass media industry that offers products such as mobile applications."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "GMA New Media makes mobile apps and is in the mass media industry."
+        }
+    },
+    "gold_outputs": [
+        "GMA New Media is a company in the mass media industry that offers products such as mobile applications.",
+        "GMA New Media makes mobile apps and is in the mass media industry.",
+        "GMA new media is a mass media industry that makes mobile applications."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Abdulsalami_Abubakar": {
+            "lexicon_key": "Abdulsalami_Abubakar"
+        },
+        "Chief_of_the_Defence_Staff_(Nigeria)": {
+            "lexicon_key": "Chief_of_the_Defence_Staff_(Nigeria)"
+        },
+        "Niger_State": {
+            "lexicon_key": "Niger_State"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "office",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Chief_of_the_Defence_Staff_(Nigeria)",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Niger_State",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar was born in Niger State and was the Chief of the Defence Staff in Nigeria."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar, who was born in Niger State, was the Chief of the Defence Staff in Nigeria."
+        }
+    },
+    "gold_outputs": [
+        "Abdulsalami Abubakar was born in Niger State and was the Chief of the Defence Staff in Nigeria.",
+        "Abdulsalami Abubakar, who was born in Niger State, was the Chief of the Defence Staff in Nigeria."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Elliot_See [lexicon_key="Elliot_See"];
+"St._Louis" [lexicon_key="St._Louis"];
+"1966-02-28" [lexicon_key="1966-02-28"];
+1962 [lexicon_key=1962];
+Elliot_See -> "St._Louis" [label=deathPlace, lexicon_key=deathPlace];
+Elliot_See -> "1966-02-28" [label=deathDate, lexicon_key=deathDate];
+Elliot_See -> 1962 [label=selectedByNasa, lexicon_key=selectedByNasa];
+}

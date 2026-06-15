@@ -1,0 +1,9 @@
+strict digraph {
+"1036_Ganymed" [lexicon_key="1036_Ganymed"];
+Walter_Baade [lexicon_key="Walter_Baade"];
+Germany [lexicon_key=Germany];
+"University_of_Göttingen" [lexicon_key="University_of_Göttingen"];
+"1036_Ganymed" -> Walter_Baade [label=discoverer, lexicon_key=discoverer];
+Walter_Baade -> Germany [label=nationality, lexicon_key=nationality];
+Walter_Baade -> "University_of_Göttingen" [label=almaMater, lexicon_key=almaMater];
+}

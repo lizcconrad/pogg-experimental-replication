@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AZ_Alkmaar": {
+            "lexicon_key": "AZ_Alkmaar"
+        },
+        "John_van_den_Brom": {
+            "lexicon_key": "John_van_den_Brom"
+        },
+        "Vitesse_Arnhem": {
+            "lexicon_key": "Vitesse_Arnhem"
+        },
+        "De_Graafschap": {
+            "lexicon_key": "De_Graafschap"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "AZ_Alkmaar",
+            "child_node": "John_van_den_Brom",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "John_van_den_Brom",
+            "child_node": "Vitesse_Arnhem",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "John_van_den_Brom",
+            "child_node": "De_Graafschap",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "John van den Brom manages the AZ Alkmaar and plays for Vitesse Arnhem and De Graafschap."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "John van den Brom, the manager of AZ Alkmaar, is in Vitesse Arnhem and plays for De Graafschap."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "John van den Brom has been manager of AZ Alkmaar, he is in Vitesse Arnhem and plays for De Graafschap."
+        }
+    },
+    "gold_outputs": [
+        "John van den Brom has been manager of AZ Alkmaar, he is in Vitesse Arnhem and plays for De Graafschap.",
+        "John van den Brom manages the AZ Alkmaar and plays for Vitesse Arnhem and De Graafschap.",
+        "John van den Brom, the manager of AZ Alkmaar, is in Vitesse Arnhem and plays for De Graafschap."
+    ]
+}

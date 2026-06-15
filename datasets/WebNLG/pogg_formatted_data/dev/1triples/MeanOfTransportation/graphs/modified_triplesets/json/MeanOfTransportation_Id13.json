@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Acura_TLX": {
+            "lexicon_key": "Acura_TLX"
+        },
+        "3.5 (litres)": {
+            "lexicon_key": "3.5 (litres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "Acura_TLX",
+            "child_node": "3.5 (litres)",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The engine size of the Acura TLX is 3.5 litres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Acura TLX has a 3.5 litre engine."
+        }
+    },
+    "gold_outputs": [
+        "The Acura TLX has a 3.5 litre engine.",
+        "The engine size of the Acura TLX is 3.5 litres."
+    ]
+}

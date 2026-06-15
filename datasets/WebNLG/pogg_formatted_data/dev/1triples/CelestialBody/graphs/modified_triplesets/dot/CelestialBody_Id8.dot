@@ -1,0 +1,5 @@
+strict digraph {
+"1036_Ganymed" [lexicon_key="1036_Ganymed"];
+"160.0 (kelvins)" [lexicon_key="160.0 (kelvins)"];
+"1036_Ganymed" -> "160.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+}

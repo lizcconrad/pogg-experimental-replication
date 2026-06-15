@@ -1,0 +1,7 @@
+strict digraph {
+Aleksandr_Prudnikov [lexicon_key="Aleksandr_Prudnikov"];
+FC_Tom_Tomsk [lexicon_key="FC_Tom_Tomsk"];
+Russian_Football_National_League [lexicon_key="Russian_Football_National_League"];
+Aleksandr_Prudnikov -> FC_Tom_Tomsk [label=club, lexicon_key=club];
+FC_Tom_Tomsk -> Russian_Football_National_League [label=league, lexicon_key=league];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aaron_Bertram": {
+            "lexicon_key": "Aaron_Bertram"
+        },
+        "Suburban_Legends": {
+            "lexicon_key": "Suburban_Legends"
+        },
+        "Ska": {
+            "lexicon_key": "Ska"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Bertram",
+            "child_node": "Suburban_Legends",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Suburban_Legends",
+            "child_node": "Ska",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for the Suburban Legends band and their genre is Ska."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for the Suburban Legends band which play Ska music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Bertram plays for the Suburban Legends band who perform Ska music."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Bertram plays for the Suburban Legends band and their genre is Ska.",
+        "Aaron Bertram plays for the Suburban Legends band which play Ska music.",
+        "Aaron Bertram plays for the Suburban Legends band who perform Ska music."
+    ]
+}

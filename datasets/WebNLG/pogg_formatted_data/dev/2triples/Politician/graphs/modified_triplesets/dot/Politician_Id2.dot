@@ -1,0 +1,7 @@
+strict digraph {
+"Aaron_S._Daggett" [lexicon_key="Aaron_S._Daggett"];
+Battle_of_Gettysburg [lexicon_key="Battle_of_Gettysburg"];
+Purple_Heart [lexicon_key="Purple_Heart"];
+"Aaron_S._Daggett" -> Battle_of_Gettysburg [label=battle, lexicon_key=battle];
+"Aaron_S._Daggett" -> Purple_Heart [label=award, lexicon_key=award];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Bakso [lexicon_key=Bakso];
+Vermicelli [lexicon_key=Vermicelli];
+Bakso -> Vermicelli [label=ingredient, lexicon_key=ingredient];
+}

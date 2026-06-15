@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Meyer_Werft": {
+            "lexicon_key": "Meyer_Werft"
+        },
+        "Papenburg": {
+            "lexicon_key": "Papenburg"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Meyer_Werft",
+            "child_node": "Papenburg",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The location of Meyer Werft is Papenburg."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Meyer Werft is located in Papenburg."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Meyer Werft is situated in Papenburg."
+        }
+    },
+    "gold_outputs": [
+        "Meyer Werft is located in Papenburg.",
+        "Meyer Werft is situated in Papenburg.",
+        "The location of Meyer Werft is Papenburg."
+    ]
+}

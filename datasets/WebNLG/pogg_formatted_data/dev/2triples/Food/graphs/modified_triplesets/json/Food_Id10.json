@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Arr\u00f2s_negre": {
+            "lexicon_key": "Arr\u00f2s_negre"
+        },
+        "Valencian_Community": {
+            "lexicon_key": "Valencian_Community"
+        },
+        "Cuttlefish": {
+            "lexicon_key": "Cuttlefish"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Valencian_Community",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Cuttlefish",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Cuttlefish is an ingredient in Arros negre which comes from the region of Valencian Community."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "An ingredient of arros negre is cuttlefish, the dish comes from the Valencian community region."
+        }
+    },
+    "gold_outputs": [
+        "An ingredient of arros negre is cuttlefish, the dish comes from the Valencian community region.",
+        "Cuttlefish is an ingredient in Arros negre which comes from the region of Valencian Community."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_Petrotrin_F.C.": {
+            "lexicon_key": "United_Petrotrin_F.C."
+        },
+        "Palo_Seco": {
+            "lexicon_key": "Palo_Seco"
+        },
+        "Akeem_Adams": {
+            "lexicon_key": "Akeem_Adams"
+        },
+        "Trinidad_and_Tobago_national_under-20_football_team": {
+            "lexicon_key": "Trinidad_and_Tobago_national_under-20_football_team"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "United_Petrotrin_F.C.",
+            "child_node": "Palo_Seco",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Akeem_Adams",
+            "child_node": "Trinidad_and_Tobago_national_under-20_football_team",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Akeem_Adams",
+            "child_node": "United_Petrotrin_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Adams, who has represented Trinidad and Tobago at under 20 level, played for United Petrotrin FC, whose ground is Palo Seco."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Adams, who plays for the Trinidad and Tobago national under-20 football team previously played for United Petrotrin FC whose ground is at Palo Seco."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Akeem Adams played for United Petrotrin F.C., who play their home games at Palo Seco ground. He also played for the Trinidad and Tobago national under 20 team."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Adams played for United Petrotrin F.C., who play their home games at Palo Seco ground. He also played for the Trinidad and Tobago national under 20 team.",
+        "Akeem Adams, who has represented Trinidad and Tobago at under 20 level, played for United Petrotrin FC, whose ground is Palo Seco.",
+        "Akeem Adams, who plays for the Trinidad and Tobago national under-20 football team previously played for United Petrotrin FC whose ground is at Palo Seco."
+    ]
+}

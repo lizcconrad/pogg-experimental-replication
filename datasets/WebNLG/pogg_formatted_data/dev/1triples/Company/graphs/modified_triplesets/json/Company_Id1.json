@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "C\u00e1rmen_L\u00facia": {
+            "lexicon_key": "C\u00e1rmen_L\u00facia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Brazil",
+            "child_node": "C\u00e1rmen_L\u00facia",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "C\u00e1rmen L\u00facia is the leader of Brazil."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The leader of Brazil is C\u00e1rmen L\u00facia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The name of the leader of Brazil is C\u00e1rmen L\u00facia."
+        }
+    },
+    "gold_outputs": [
+        "C\u00e1rmen L\u00facia is the leader of Brazil.",
+        "The leader of Brazil is C\u00e1rmen L\u00facia.",
+        "The name of the leader of Brazil is C\u00e1rmen L\u00facia."
+    ]
+}

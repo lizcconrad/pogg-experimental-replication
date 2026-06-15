@@ -1,0 +1,5 @@
+strict digraph {
+"Aleksandra_Kovač" [lexicon_key="Aleksandra_Kovač"];
+"solo_singer" [lexicon_key="solo_singer"];
+"Aleksandra_Kovač" -> "solo_singer" [label=background, lexicon_key=background];
+}

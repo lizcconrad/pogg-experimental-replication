@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_S._Daggett": {
+            "lexicon_key": "Aaron_S._Daggett"
+        },
+        "Purple_Heart": {
+            "lexicon_key": "Purple_Heart"
+        },
+        "Maine": {
+            "lexicon_key": "Maine"
+        },
+        "Battle_of_Fredericksburg": {
+            "lexicon_key": "Battle_of_Fredericksburg"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "award",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Purple_Heart",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Maine",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Battle_of_Fredericksburg",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Purple Heart recipient Aaron S. Daggett was born in Maine and, most notably, fought in the Battle of Fredericksburg."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born in Maine, Purple Heart recipient, Aaron S Daggett has fought in battles, the most notable being the Battle of Fredericksburg."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron S Daggett, born in Maine, fought in the Battle of Fredericksburg. He was given the Purple Heart."
+        }
+    },
+    "gold_outputs": [
+        "Aaron S Daggett, born in Maine, fought in the Battle of Fredericksburg. He was given the Purple Heart.",
+        "Born in Maine, Purple Heart recipient, Aaron S Daggett has fought in battles, the most notable being the Battle of Fredericksburg.",
+        "Purple Heart recipient Aaron S. Daggett was born in Maine and, most notably, fought in the Battle of Fredericksburg."
+    ]
+}

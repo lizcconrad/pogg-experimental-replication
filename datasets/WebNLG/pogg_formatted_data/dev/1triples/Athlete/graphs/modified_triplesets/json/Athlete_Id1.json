@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "A.C._Milan": {
+            "lexicon_key": "A.C._Milan"
+        },
+        "Silvio_Berlusconi": {
+            "lexicon_key": "Silvio_Berlusconi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "chairman",
+            "parent_node": "A.C._Milan",
+            "child_node": "Silvio_Berlusconi",
+            "edge_properties": {
+                "lexicon_key": "chairman"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Chairman of A C Milan is Silvio Berlusconi."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Silvio Berlusconi is the chairman of A.C. Milan."
+        }
+    },
+    "gold_outputs": [
+        "Silvio Berlusconi is the chairman of A.C. Milan.",
+        "The Chairman of A C Milan is Silvio Berlusconi."
+    ]
+}

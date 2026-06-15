@@ -1,0 +1,9 @@
+strict digraph {
+Belgium [lexicon_key=Belgium];
+Philippe_of_Belgium [lexicon_key="Philippe_of_Belgium"];
+Antwerp_International_Airport [lexicon_key="Antwerp_International_Airport"];
+Antwerp [lexicon_key=Antwerp];
+Belgium -> Philippe_of_Belgium [label=leader, lexicon_key=leader];
+Antwerp_International_Airport -> Antwerp [label=cityServed, lexicon_key=cityServed];
+Antwerp -> Belgium [label=country, lexicon_key=country];
+}

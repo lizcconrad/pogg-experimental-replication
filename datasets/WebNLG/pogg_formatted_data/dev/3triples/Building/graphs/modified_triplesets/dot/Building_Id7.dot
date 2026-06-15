@@ -1,0 +1,9 @@
+strict digraph {
+"3Arena" [lexicon_key="3Arena"];
+Dublin [lexicon_key=Dublin];
+"HOK SVE" [lexicon_key="HOK SVE"];
+"December 2008" [lexicon_key="December 2008"];
+"3Arena" -> Dublin [label=location, lexicon_key=location];
+"3Arena" -> "HOK SVE" [label=architect, lexicon_key=architect];
+"3Arena" -> "December 2008" [label=completionDate, lexicon_key=completionDate];
+}

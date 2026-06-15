@@ -1,0 +1,9 @@
+strict digraph {
+"103_Hera" [lexicon_key="103_Hera"];
+"0.0482 (kilometrePerSeconds)" [lexicon_key="0.0482 (kilometrePerSeconds)"];
+"170.0 (kelvins)" [lexicon_key="170.0 (kelvins)"];
+"437170000.0 (kilometres)" [lexicon_key="437170000.0 (kilometres)"];
+"103_Hera" -> "0.0482 (kilometrePerSeconds)" [label=escapeVelocity, lexicon_key=escapeVelocity];
+"103_Hera" -> "170.0 (kelvins)" [label=temperature, lexicon_key=temperature];
+"103_Hera" -> "437170000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

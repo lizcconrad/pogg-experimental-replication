@@ -1,0 +1,7 @@
+strict digraph {
+"Attica,_Indiana" [lexicon_key="Attica,_Indiana"];
+Indiana [lexicon_key=Indiana];
+United_States [lexicon_key="United_States"];
+"Attica,_Indiana" -> Indiana [label=isPartOf, lexicon_key=isPartOf];
+"Attica,_Indiana" -> United_States [label=country, lexicon_key=country];
+}

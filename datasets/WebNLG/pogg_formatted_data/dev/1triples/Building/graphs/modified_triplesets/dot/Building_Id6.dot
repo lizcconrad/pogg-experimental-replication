@@ -1,0 +1,5 @@
+strict digraph {
+"20_Fenchurch_Street" [lexicon_key="20_Fenchurch_Street"];
+United_Kingdom [lexicon_key="United_Kingdom"];
+"20_Fenchurch_Street" -> United_Kingdom [label=location, lexicon_key=location];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+AFC_Ajax [lexicon_key="AFC_Ajax"];
+"AFC_Ajax_N.V." [lexicon_key="AFC_Ajax_N.V."];
+53502 [lexicon_key=53502];
+AFC_Ajax -> "AFC_Ajax_N.V." [label=owner, lexicon_key=owner];
+AFC_Ajax -> 53502 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

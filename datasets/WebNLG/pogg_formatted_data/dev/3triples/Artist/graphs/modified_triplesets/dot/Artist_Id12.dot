@@ -1,0 +1,9 @@
+strict digraph {
+Ahmet_Ertegun [lexicon_key="Ahmet_Ertegun"];
+Blues [lexicon_key=Blues];
+United_States [lexicon_key="United_States"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+Ahmet_Ertegun -> Blues [label=genre, lexicon_key=genre];
+Ahmet_Ertegun -> United_States [label=origin, lexicon_key=origin];
+Ahmet_Ertegun -> "Washington,_D.C." [label=origin, lexicon_key=origin];
+}

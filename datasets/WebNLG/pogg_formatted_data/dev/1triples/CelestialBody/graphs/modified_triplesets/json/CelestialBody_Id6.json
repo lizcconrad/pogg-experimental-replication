@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "101_Helena": {
+            "lexicon_key": "101_Helena"
+        },
+        "1516.6700000000003 (days)": {
+            "lexicon_key": "1516.6700000000003 (days)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "101_Helena",
+            "child_node": "1516.6700000000003 (days)",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "101 Helena has an orbital period of 1516.6700000000003 days."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The orbital period for 101 Helena is 1516.6700000000003 (days)."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "101 Helena has an orbit of 1516.6700000000003 days."
+        }
+    },
+    "gold_outputs": [
+        "101 Helena has an orbit of 1516.6700000000003 days.",
+        "101 Helena has an orbital period of 1516.6700000000003 days.",
+        "The orbital period for 101 Helena is 1516.6700000000003 (days)."
+    ]
+}

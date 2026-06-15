@@ -1,0 +1,7 @@
+strict digraph {
+Alan_Frew [lexicon_key="Alan_Frew"];
+Rock_music [lexicon_key="Rock_music"];
+Country_music [lexicon_key="Country_music"];
+Alan_Frew -> Rock_music [label=genre, lexicon_key=genre];
+Rock_music -> Country_music [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

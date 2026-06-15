@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Beef_kway_teow": {
+            "lexicon_key": "Beef_kway_teow"
+        },
+        "Singapore": {
+            "lexicon_key": "Singapore"
+        },
+        "Singapore_dollar": {
+            "lexicon_key": "Singapore_dollar"
+        },
+        "Halimah_Yacob": {
+            "lexicon_key": "Halimah_Yacob"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Singapore",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "currency",
+            "parent_node": "Singapore",
+            "child_node": "Singapore_dollar",
+            "edge_properties": {
+                "lexicon_key": "currency"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Singapore",
+            "child_node": "Halimah_Yacob",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Beef kway teow is a dish from the country of Singapore, where the leader is Halimah Yacob and the currency is the Singapore dollar."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Beef kway teow is a popular dish in Singapore, where the Singapore dollar is the currency and the leader is Halimah Yacob."
+        }
+    },
+    "gold_outputs": [
+        "Beef kway teow is a dish from the country of Singapore, where the leader is Halimah Yacob and the currency is the Singapore dollar.",
+        "Beef kway teow is a popular dish in Singapore, where the Singapore dollar is the currency and the leader is Halimah Yacob."
+    ]
+}

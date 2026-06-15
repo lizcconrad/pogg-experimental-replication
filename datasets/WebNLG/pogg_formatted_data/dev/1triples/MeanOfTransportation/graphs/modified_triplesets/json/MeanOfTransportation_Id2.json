@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "1955_Dodge": {
+            "lexicon_key": "1955_Dodge"
+        },
+        "230 (cubic inches)": {
+            "lexicon_key": "230 (cubic inches)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "1955_Dodge",
+            "child_node": "230 (cubic inches)",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The 1955 Dodge engine is 230 cubic inches."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The size of the engine in the 1955 Dodge is 230 cubic inches."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The 1955 Dodge has an engine size of 230 cubic inches."
+        }
+    },
+    "gold_outputs": [
+        "The 1955 Dodge engine is 230 cubic inches.",
+        "The 1955 Dodge has an engine size of 230 cubic inches.",
+        "The size of the engine in the 1955 Dodge is 230 cubic inches."
+    ]
+}

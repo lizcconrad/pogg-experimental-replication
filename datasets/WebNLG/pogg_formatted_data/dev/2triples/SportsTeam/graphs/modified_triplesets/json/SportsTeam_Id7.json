@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A.F.C._Blackpool": {
+            "lexicon_key": "A.F.C._Blackpool"
+        },
+        "Stuart_Parker_(footballer)": {
+            "lexicon_key": "Stuart_Parker_(footballer)"
+        },
+        "Sparta_Rotterdam": {
+            "lexicon_key": "Sparta_Rotterdam"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.F.C._Blackpool",
+            "child_node": "Stuart_Parker_(footballer)",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Sparta_Rotterdam",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The manager of A.F.C. Blackpool is Stuart Parker (footballer), who plays at the Sparta Rotterdam club."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Stuart Parker, who plays at the Sparta Rotterdam Club, has also managed AFC Blackpool."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AFC Blackpool have had the manager Stuart Parker who currently plays for Sparta Rotterdam."
+        }
+    },
+    "gold_outputs": [
+        "AFC Blackpool have had the manager Stuart Parker who currently plays for Sparta Rotterdam.",
+        "Stuart Parker, who plays at the Sparta Rotterdam Club, has also managed AFC Blackpool.",
+        "The manager of A.F.C. Blackpool is Stuart Parker (footballer), who plays at the Sparta Rotterdam club."
+    ]
+}

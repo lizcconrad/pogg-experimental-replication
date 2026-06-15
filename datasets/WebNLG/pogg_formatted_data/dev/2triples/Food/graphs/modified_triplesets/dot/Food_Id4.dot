@@ -1,0 +1,7 @@
+strict digraph {
+Antioquia_Department [lexicon_key="Antioquia_Department"];
+Colombia [lexicon_key=Colombia];
+Bandeja_paisa [lexicon_key="Bandeja_paisa"];
+Antioquia_Department -> Colombia [label=country, lexicon_key=country];
+Bandeja_paisa -> Antioquia_Department [label=region, lexicon_key=region];
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "RCA_Records": {
+            "lexicon_key": "RCA_Records"
+        },
+        "Legacy_Recordings": {
+            "lexicon_key": "Legacy_Recordings"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "distributingCompany",
+            "parent_node": "RCA_Records",
+            "child_node": "Legacy_Recordings",
+            "edge_properties": {
+                "lexicon_key": "distributingCompany"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Legacy Recordings is the distributing company for RCA Records."
+        }
+    },
+    "gold_outputs": [
+        "Legacy Recordings is the distributing company for RCA Records."
+    ]
+}

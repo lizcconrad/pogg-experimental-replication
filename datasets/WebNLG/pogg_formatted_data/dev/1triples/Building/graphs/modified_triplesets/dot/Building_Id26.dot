@@ -1,0 +1,5 @@
+strict digraph {
+Republic_of_Ireland [lexicon_key="Republic_of_Ireland"];
+English_language [lexicon_key="English_language"];
+Republic_of_Ireland -> English_language [label=language, lexicon_key=language];
+}

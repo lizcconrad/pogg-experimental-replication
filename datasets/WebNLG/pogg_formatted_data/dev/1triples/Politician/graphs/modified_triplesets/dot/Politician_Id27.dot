@@ -1,0 +1,5 @@
+strict digraph {
+Alvah_Sabin [lexicon_key="Alvah_Sabin"];
+"Whig_Party_(United_States)" [lexicon_key="Whig_Party_(United_States)"];
+Alvah_Sabin -> "Whig_Party_(United_States)" [label=party, lexicon_key=party];
+}

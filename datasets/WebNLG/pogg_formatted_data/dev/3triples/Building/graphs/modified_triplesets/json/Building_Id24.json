@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Asser_Levy_Public_Baths": {
+            "lexicon_key": "Asser_Levy_Public_Baths"
+        },
+        "\"Asser Levy Place and East 23rd Street\"": {
+            "lexicon_key": "\"Asser Levy Place and East 23rd Street\""
+        },
+        "\"80002709\"": {
+            "lexicon_key": "\"80002709\""
+        },
+        "\"1980-04-23\"": {
+            "lexicon_key": "\"1980-04-23\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Asser_Levy_Public_Baths",
+            "child_node": "\"Asser Levy Place and East 23rd Street\"",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "NationalRegisterOfHistoricPlacesReferenceNumber",
+            "parent_node": "Asser_Levy_Public_Baths",
+            "child_node": "\"80002709\"",
+            "edge_properties": {
+                "lexicon_key": "NationalRegisterOfHistoricPlacesReferenceNumber"
+            }
+        },
+        {
+            "edge_name": "addedToTheNationalRegisterOfHistoricPlaces",
+            "parent_node": "Asser_Levy_Public_Baths",
+            "child_node": "\"1980-04-23\"",
+            "edge_properties": {
+                "lexicon_key": "addedToTheNationalRegisterOfHistoricPlaces"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Asser Levy Public Baths are located in Asser Levy Place, East 23rd Street and were added to the National Register of Historic Places on 1980-04-23, with the number 80002709."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Asser Levy Public Baths are located in Asser Levy Place, East 23rd Street and were added to the National Register of Historic Places on 23rd April 1980 with the reference number 80002709."
+        }
+    },
+    "gold_outputs": [
+        "The Asser Levy Public Baths are located in Asser Levy Place, East 23rd Street and were added to the National Register of Historic Places on 1980-04-23, with the number 80002709.",
+        "The Asser Levy Public Baths are located in Asser Levy Place, East 23rd Street and were added to the National Register of Historic Places on 23rd April 1980 with the reference number 80002709."
+    ]
+}

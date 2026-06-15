@@ -1,0 +1,5 @@
+strict digraph {
+Flemish_Region [lexicon_key="Flemish_Region"];
+Flemish_Government [lexicon_key="Flemish_Government"];
+Flemish_Region -> Flemish_Government [label=leader, lexicon_key=leader];
+}

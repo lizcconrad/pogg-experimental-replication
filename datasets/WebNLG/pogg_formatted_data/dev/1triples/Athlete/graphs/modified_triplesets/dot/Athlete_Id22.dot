@@ -1,0 +1,5 @@
+strict digraph {
+Alex_Plante [lexicon_key="Alex_Plante"];
+Manitoba [lexicon_key=Manitoba];
+Alex_Plante -> Manitoba [label=birthPlace, lexicon_key=birthPlace];
+}

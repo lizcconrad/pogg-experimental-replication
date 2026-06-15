@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abdulsalami_Abubakar": {
+            "lexicon_key": "Abdulsalami_Abubakar"
+        },
+        "Mike_Akhigbe": {
+            "lexicon_key": "Mike_Akhigbe"
+        },
+        "Oladipo_Diya": {
+            "lexicon_key": "Oladipo_Diya"
+        },
+        "Atiku_Abubakar": {
+            "lexicon_key": "Atiku_Abubakar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inOfficeWhileVicePresident",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Mike_Akhigbe",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhileVicePresident"
+            }
+        },
+        {
+            "edge_name": "predecessor",
+            "parent_node": "Mike_Akhigbe",
+            "child_node": "Oladipo_Diya",
+            "edge_properties": {
+                "lexicon_key": "predecessor"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Mike_Akhigbe",
+            "child_node": "Atiku_Abubakar",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Oladipo Diya was the predecessor of Mike Akhigbe, whose successor was Atiku Abubakar. Abdulsalami Abubakar was in office while Mike Akhigbe was the Vice President."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar was in office whilst Mike Akhigbe was Vice President. Oladipo Diya was the predecessor of Mike Akhigbe, who was succeeded by Atiku Abubakar."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who took over from Oladipo Diya and then was succeeded by Atiku Abubakar."
+        }
+    },
+    "gold_outputs": [
+        "Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who took over from Oladipo Diya and then was succeeded by Atiku Abubakar.",
+        "Abdulsalami Abubakar was in office whilst Mike Akhigbe was Vice President. Oladipo Diya was the predecessor of Mike Akhigbe, who was succeeded by Atiku Abubakar.",
+        "Oladipo Diya was the predecessor of Mike Akhigbe, whose successor was Atiku Abubakar. Abdulsalami Abubakar was in office while Mike Akhigbe was the Vice President."
+    ]
+}

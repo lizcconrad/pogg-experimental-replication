@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "World_Wide_Web": {
+            "lexicon_key": "World_Wide_Web"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "World_Wide_Web",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "GMA New Media produces web services."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "GMA New Media offers services concerning the World Wide Web."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "GMA New Media makes web sites."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "GMA New Media is a company that offers products related to the World Wide Web."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "GMA New Media produces websites."
+        }
+    },
+    "gold_outputs": [
+        "GMA New Media is a company that offers products related to the World Wide Web.",
+        "GMA New Media makes web sites.",
+        "GMA New Media offers services concerning the World Wide Web.",
+        "GMA New Media produces web services.",
+        "GMA New Media produces websites."
+    ]
+}

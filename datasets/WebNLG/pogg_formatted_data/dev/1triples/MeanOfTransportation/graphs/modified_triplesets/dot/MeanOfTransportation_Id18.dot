@@ -1,0 +1,5 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"1855-07-07" [lexicon_key="1855-07-07"];
+Alhambra -> "1855-07-07" [label=maidenVoyage, lexicon_key=maidenVoyage];
+}

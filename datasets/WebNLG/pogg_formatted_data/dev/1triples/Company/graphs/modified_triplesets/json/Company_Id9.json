@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Rodrigo_Duterte": {
+            "lexicon_key": "Rodrigo_Duterte"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Philippines",
+            "child_node": "Rodrigo_Duterte",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Rodrigo Duterte is the leader's name of the Philippines."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Rodrigo Duterte is the leader of the Philippines."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Rodrigo Duterte is the leader of the Philippines ."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The leader of the Philippines is named Rodrigo Duterte."
+        }
+    },
+    "gold_outputs": [
+        "Rodrigo Duterte is the leader of the Philippines .",
+        "Rodrigo Duterte is the leader of the Philippines.",
+        "Rodrigo Duterte is the leader's name of the Philippines.",
+        "The leader of the Philippines is named Rodrigo Duterte."
+    ]
+}

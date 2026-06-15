@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aaron_S._Daggett": {
+            "lexicon_key": "Aaron_S._Daggett"
+        },
+        "Battle_of_Gettysburg": {
+            "lexicon_key": "Battle_of_Gettysburg"
+        },
+        "Purple_Heart": {
+            "lexicon_key": "Purple_Heart"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Battle_of_Gettysburg",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Purple_Heart",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron S Daggett fought at the Battle of Gettysburg and was awarded the Purple Heart."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron S. Daggett fought in the Battle of Gettysburg and was awarded the Purple Heart."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron S. Daggett, who fought in the Battle of Gettysburg, was awarded the Purple Heart."
+        }
+    },
+    "gold_outputs": [
+        "Aaron S Daggett fought at the Battle of Gettysburg and was awarded the Purple Heart.",
+        "Aaron S. Daggett fought in the Battle of Gettysburg and was awarded the Purple Heart.",
+        "Aaron S. Daggett, who fought in the Battle of Gettysburg, was awarded the Purple Heart."
+    ]
+}

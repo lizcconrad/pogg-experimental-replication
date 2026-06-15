@@ -1,0 +1,9 @@
+strict digraph {
+Battle_of_Cold_Harbor [lexicon_key="Battle_of_Cold_Harbor"];
+American_Civil_War [lexicon_key="American_Civil_War"];
+"Aaron_S._Daggett" [lexicon_key="Aaron_S._Daggett"];
+"Robert_E._Lee" [lexicon_key="Robert_E._Lee"];
+Battle_of_Cold_Harbor -> American_Civil_War [label=isPartOfMilitaryConflict, lexicon_key=isPartOfMilitaryConflict];
+American_Civil_War -> "Robert_E._Lee" [label=commander, lexicon_key=commander];
+"Aaron_S._Daggett" -> Battle_of_Cold_Harbor [label=battle, lexicon_key=battle];
+}

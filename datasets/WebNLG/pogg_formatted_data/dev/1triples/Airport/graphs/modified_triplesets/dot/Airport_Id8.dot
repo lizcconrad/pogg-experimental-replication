@@ -1,0 +1,5 @@
+strict digraph {
+Afonso_Pena_International_Airport [lexicon_key="Afonso_Pena_International_Airport"];
+Infraero [lexicon_key=Infraero];
+Afonso_Pena_International_Airport -> Infraero [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+}

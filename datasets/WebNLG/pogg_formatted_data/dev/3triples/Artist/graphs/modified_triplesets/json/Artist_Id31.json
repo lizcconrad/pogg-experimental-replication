@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Armin_van_Buuren": {
+            "lexicon_key": "Armin_van_Buuren"
+        },
+        "House_music": {
+            "lexicon_key": "House_music"
+        },
+        "Andrew_Rayel": {
+            "lexicon_key": "Andrew_Rayel"
+        },
+        "Jwaydan_Moyine": {
+            "lexicon_key": "Jwaydan_Moyine"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Armin_van_Buuren",
+            "child_node": "House_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Armin_van_Buuren",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Jwaydan_Moyine",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrew Rayel is associated with the musicians Jwaydan Moyine and Armin van Buuren (who plays House music)."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrew Rayel is associated with the musician Jwaydan Moyine and house musician, Armin van Buuren."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Armin van Buuren performs house music and is associated with the musical artist Andrew Rayel who is associated with the musician Jwaydan Moyine."
+        }
+    },
+    "gold_outputs": [
+        "Andrew Rayel is associated with the musician Jwaydan Moyine and house musician, Armin van Buuren.",
+        "Andrew Rayel is associated with the musicians Jwaydan Moyine and Armin van Buuren (who plays House music).",
+        "Armin van Buuren performs house music and is associated with the musical artist Andrew Rayel who is associated with the musician Jwaydan Moyine."
+    ]
+}

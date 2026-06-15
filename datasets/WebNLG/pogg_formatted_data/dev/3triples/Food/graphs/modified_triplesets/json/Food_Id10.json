@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Asam_pedas": {
+            "lexicon_key": "Asam_pedas"
+        },
+        "Malaysia": {
+            "lexicon_key": "Malaysia"
+        },
+        "\"Sumatra and Malay Peninsula\"": {
+            "lexicon_key": "\"Sumatra and Malay Peninsula\""
+        },
+        "\"Fish cooked in sour and hot sauce\"": {
+            "lexicon_key": "\"Fish cooked in sour and hot sauce\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Asam_pedas",
+            "child_node": "Malaysia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Asam_pedas",
+            "child_node": "\"Sumatra and Malay Peninsula\"",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Asam_pedas",
+            "child_node": "\"Fish cooked in sour and hot sauce\"",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The main ingredients of asam pedas, a food from the Sumatra and Malay Peninsula regions of Malaysia, consist of fish cooked in a sour and hot sauce."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Asam pedas is made from fish cooked in a sour and hot sauce and comes from the Sumatra and Malay Peninsula regions in Malaysia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The dish Asam pedas comes from the region of Sumatra and the Malay Peninsula. Malaysia and the main ingredients are fish cooked in sour and hot sauce."
+        }
+    },
+    "gold_outputs": [
+        "Asam pedas is made from fish cooked in a sour and hot sauce and comes from the Sumatra and Malay Peninsula regions in Malaysia.",
+        "The dish Asam pedas comes from the region of Sumatra and the Malay Peninsula. Malaysia and the main ingredients are fish cooked in sour and hot sauce.",
+        "The main ingredients of asam pedas, a food from the Sumatra and Malay Peninsula regions of Malaysia, consist of fish cooked in a sour and hot sauce."
+    ]
+}

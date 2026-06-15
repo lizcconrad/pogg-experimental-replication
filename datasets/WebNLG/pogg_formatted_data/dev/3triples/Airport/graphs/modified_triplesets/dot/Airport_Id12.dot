@@ -1,0 +1,9 @@
+strict digraph {
+Andrews_County_Airport [lexicon_key="Andrews_County_Airport"];
+Texas [lexicon_key=Texas];
+Houston [lexicon_key=Houston];
+United_States [lexicon_key="United_States"];
+Andrews_County_Airport -> Texas [label=location, lexicon_key=location];
+Texas -> Houston [label=largestCity, lexicon_key=largestCity];
+Texas -> United_States [label=country, lexicon_key=country];
+}

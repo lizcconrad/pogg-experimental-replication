@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Ampara_Hospital": {
+            "lexicon_key": "Ampara_Hospital"
+        },
+        "Sri_Lanka": {
+            "lexicon_key": "Sri_Lanka"
+        },
+        "Ampara_District": {
+            "lexicon_key": "Ampara_District"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ampara_Hospital",
+            "child_node": "Sri_Lanka",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Ampara_Hospital",
+            "child_node": "Ampara_District",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ampara Hospital is located in the Ampara District in Sri Lanka."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ampara Hospital is located in the Ampara District of Sri Lanka."
+        }
+    },
+    "gold_outputs": [
+        "Ampara Hospital is located in the Ampara District in Sri Lanka.",
+        "Ampara Hospital is located in the Ampara District of Sri Lanka."
+    ]
+}

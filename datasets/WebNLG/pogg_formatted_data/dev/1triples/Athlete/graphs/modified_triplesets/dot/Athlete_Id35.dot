@@ -1,0 +1,5 @@
+strict digraph {
+Point_Fortin [lexicon_key="Point_Fortin"];
+Trinidad [lexicon_key=Trinidad];
+Point_Fortin -> Trinidad [label=country, lexicon_key=country];
+}

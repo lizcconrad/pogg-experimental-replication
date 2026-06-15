@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Atlanta": {
+            "lexicon_key": "Atlanta"
+        },
+        "DeKalb_County,_Georgia": {
+            "lexicon_key": "DeKalb_County,_Georgia"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "\"Georgia\"": {
+            "lexicon_key": "\"Georgia\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Atlanta",
+            "child_node": "DeKalb_County,_Georgia",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Atlanta",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Atlanta",
+            "child_node": "\"Georgia\"",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Most of Atlanta is part of DeKalb County in Georgia, United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Atlanta is part of DeKalb County in Georgia, United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Most of Atlanta is part of DeKalb County in Georgia, in the U.S."
+        }
+    },
+    "gold_outputs": [
+        "Atlanta is part of DeKalb County in Georgia, United States.",
+        "Most of Atlanta is part of DeKalb County in Georgia, United States.",
+        "Most of Atlanta is part of DeKalb County in Georgia, in the U.S."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Honey": {
+            "lexicon_key": "Honey"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Bionico",
+            "child_node": "Honey",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A popular dessert is Bionico and a variation of this dish can be honey."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Honey can be used as a variation in Bionico which is a dessert."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Honey can be added to bionico, a dessert dish."
+        }
+    },
+    "gold_outputs": [
+        "A popular dessert is Bionico and a variation of this dish can be honey.",
+        "Honey can be added to bionico, a dessert dish.",
+        "Honey can be used as a variation in Bionico which is a dessert."
+    ]
+}

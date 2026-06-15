@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        },
+        "45644811": {
+            "lexicon_key": "45644811"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "Aenir",
+            "child_node": "45644811",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "OCLC number 45644811 is Aenir."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "OCLC number 45644811 is for Aenir."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The OCLC number of Aenir is 45644811."
+        }
+    },
+    "gold_outputs": [
+        "OCLC number 45644811 is Aenir.",
+        "OCLC number 45644811 is for Aenir.",
+        "The OCLC number of Aenir is 45644811."
+    ]
+}

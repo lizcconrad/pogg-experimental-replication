@@ -1,0 +1,5 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+Eric_Flint [lexicon_key="Eric_Flint"];
+1634:_The_Bavarian_Crisis -> Eric_Flint [label=author, lexicon_key=author];
+}

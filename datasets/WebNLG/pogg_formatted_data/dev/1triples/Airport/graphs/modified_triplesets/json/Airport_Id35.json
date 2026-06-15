@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "San_Sebasti\u00e1n_de_los_Reyes": {
+            "lexicon_key": "San_Sebasti\u00e1n_de_los_Reyes"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "San_Sebasti\u00e1n_de_los_Reyes",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "San Sebasti\u00e1n de los Reyes is in Spain."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "San Sebastian de los Reyes is located in Spain."
+        }
+    },
+    "gold_outputs": [
+        "San Sebastian de los Reyes is located in Spain.",
+        "San Sebasti\u00e1n de los Reyes is in Spain."
+    ]
+}

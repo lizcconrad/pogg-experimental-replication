@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ardmore_Airport_(New_Zealand)": {
+            "lexicon_key": "Ardmore_Airport_(New_Zealand)"
+        },
+        "Poaceae": {
+            "lexicon_key": "Poaceae"
+        },
+        "Poales": {
+            "lexicon_key": "Poales"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "2ndRunwaySurfaceType",
+            "parent_node": "Ardmore_Airport_(New_Zealand)",
+            "child_node": "Poaceae",
+            "edge_properties": {
+                "lexicon_key": "2ndRunwaySurfaceType"
+            }
+        },
+        {
+            "edge_name": "order",
+            "parent_node": "Poaceae",
+            "child_node": "Poales",
+            "edge_properties": {
+                "lexicon_key": "order"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "New Zealand's Ardmore Airport's second runway has the surface type Poaceae which is part of the Poales order."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae, which is a member of the order of Poales."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Poaceae (part of the Poales order) is the surface type of the second runway of Ardmore Airport, New Zealand."
+        }
+    },
+    "gold_outputs": [
+        "New Zealand's Ardmore Airport's second runway has the surface type Poaceae which is part of the Poales order.",
+        "Poaceae (part of the Poales order) is the surface type of the second runway of Ardmore Airport, New Zealand.",
+        "The 2nd runway at Ardmore Airport (New Zealand) is made of Poaceae, which is a member of the order of Poales."
+    ]
+}

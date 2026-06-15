@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Blockbuster_(comicsCharacter)": {
+            "lexicon_key": "Blockbuster_(comicsCharacter)"
+        },
+        "Roger_Stern": {
+            "lexicon_key": "Roger_Stern"
+        },
+        "Tom_Lyle": {
+            "lexicon_key": "Tom_Lyle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Blockbuster_(comicsCharacter)",
+            "child_node": "Roger_Stern",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "creator",
+            "parent_node": "Blockbuster_(comicsCharacter)",
+            "child_node": "Tom_Lyle",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The comic character Blockbuster was created by Roger Stern and Tom Lyle."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Blockbuster is a comic book character which was created by both Roger Stern and Tom Lyle."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The comic book character Blockbuster was created by Roger Stern and Tom Lyle."
+        }
+    },
+    "gold_outputs": [
+        "Blockbuster is a comic book character which was created by both Roger Stern and Tom Lyle.",
+        "The comic book character Blockbuster was created by Roger Stern and Tom Lyle.",
+        "The comic character Blockbuster was created by Roger Stern and Tom Lyle."
+    ]
+}

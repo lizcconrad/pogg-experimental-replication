@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Allama_Iqbal_International_Airport": {
+            "lexicon_key": "Allama_Iqbal_International_Airport"
+        },
+        "Pakistan_Civil_Aviation_Authority": {
+            "lexicon_key": "Pakistan_Civil_Aviation_Authority"
+        },
+        "Jinnah_International_Airport": {
+            "lexicon_key": "Jinnah_International_Airport"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Allama_Iqbal_International_Airport",
+            "child_node": "Pakistan_Civil_Aviation_Authority",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "headquarter",
+            "parent_node": "Pakistan_Civil_Aviation_Authority",
+            "child_node": "Jinnah_International_Airport",
+            "edge_properties": {
+                "lexicon_key": "headquarter"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Allama Iqbal International Airport is operated by Pakistan Civil Aviation Authority, the HQ of which is at Jinnah International Airport."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Pakistan Civil Aviation Authority, which has its HQ at Jinnah International Airport, governs Allama Iqbal International Airport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Allama Iqbal International Airport is operated by the Pakistan Civil Aviation Authority, which is headquartered at Jinnah International Airport."
+        }
+    },
+    "gold_outputs": [
+        "Allama Iqbal International Airport is operated by Pakistan Civil Aviation Authority, the HQ of which is at Jinnah International Airport.",
+        "Allama Iqbal International Airport is operated by the Pakistan Civil Aviation Authority, which is headquartered at Jinnah International Airport.",
+        "The Pakistan Civil Aviation Authority, which has its HQ at Jinnah International Airport, governs Allama Iqbal International Airport."
+    ]
+}

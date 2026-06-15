@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Washtenaw_County,_Michigan": {
+            "lexicon_key": "Washtenaw_County,_Michigan"
+        },
+        "Ann_Arbor,_Michigan": {
+            "lexicon_key": "Ann_Arbor,_Michigan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "largestCity",
+            "parent_node": "Washtenaw_County,_Michigan",
+            "child_node": "Ann_Arbor,_Michigan",
+            "edge_properties": {
+                "lexicon_key": "largestCity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ann Arbor is the largest city in Washtenaw County, Michigan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The largest town in Washtenaw county Michigan is Ann Arbor."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The largest city in Washtenaw County, Michigan is Ann Arbor."
+        }
+    },
+    "gold_outputs": [
+        "Ann Arbor is the largest city in Washtenaw County, Michigan.",
+        "The largest city in Washtenaw County, Michigan is Ann Arbor.",
+        "The largest town in Washtenaw county Michigan is Ann Arbor."
+    ]
+}

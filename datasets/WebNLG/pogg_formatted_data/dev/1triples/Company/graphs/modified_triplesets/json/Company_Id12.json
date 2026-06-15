@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "United States of America": {
+            "lexicon_key": "United States of America"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "longName",
+            "parent_node": "United_States",
+            "child_node": "United States of America",
+            "edge_properties": {
+                "lexicon_key": "longName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The full name of the United States is the United States of America."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The long name of the United States is the United States of America."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The long name of the United States is the United States of America ."
+        }
+    },
+    "gold_outputs": [
+        "The full name of the United States is the United States of America.",
+        "The long name of the United States is the United States of America .",
+        "The long name of the United States is the United States of America."
+    ]
+}

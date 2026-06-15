@@ -1,0 +1,9 @@
+strict digraph {
+India [lexicon_key=India];
+"T._S._Thakur" [lexicon_key="T._S._Thakur"];
+Amdavad_ni_Gufa [lexicon_key="Amdavad_ni_Gufa"];
+Sumitra_Mahajan [lexicon_key="Sumitra_Mahajan"];
+India -> "T._S._Thakur" [label=leader, lexicon_key=leader];
+India -> Sumitra_Mahajan [label=leader, lexicon_key=leader];
+Amdavad_ni_Gufa -> India [label=country, lexicon_key=country];
+}

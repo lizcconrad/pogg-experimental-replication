@@ -1,0 +1,7 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+Pharmaceuticals [lexicon_key=Pharmaceuticals];
+Cosmetics [lexicon_key=Cosmetics];
+Hypermarcas -> Pharmaceuticals [label=industry, lexicon_key=industry];
+Hypermarcas -> Cosmetics [label=product, lexicon_key=product];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+"Hot" [lexicon_key="Hot"];
+Ayam_penyet -> "Hot" [label=servingTemperature, lexicon_key=servingTemperature];
+}

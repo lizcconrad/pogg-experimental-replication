@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Batchoy": {
+            "lexicon_key": "Batchoy"
+        },
+        "Vegetable": {
+            "lexicon_key": "Vegetable"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Batchoy",
+            "child_node": "Vegetable",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Vegetable are used in the preparation of Batchoy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Vegetables are an ingredient in Batchoy."
+        }
+    },
+    "gold_outputs": [
+        "Vegetable are used in the preparation of Batchoy.",
+        "Vegetables are an ingredient in Batchoy."
+    ]
+}

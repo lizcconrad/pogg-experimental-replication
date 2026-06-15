@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksey_Chirikov_(icebreaker)": {
+            "lexicon_key": "Aleksey_Chirikov_(icebreaker)"
+        },
+        "Finland": {
+            "lexicon_key": "Finland"
+        },
+        "Sauli_Niinist\u00f6": {
+            "lexicon_key": "Sauli_Niinist\u00f6"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "builder",
+            "parent_node": "Aleksey_Chirikov_(icebreaker)",
+            "child_node": "Finland",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Finland",
+            "child_node": "Sauli_Niinist\u00f6",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The icebreaker Aleksey Chirikov was built in Finland, where Sauli Niinisto is a leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The icebreaker ship Aleksey Chirikov was built in Finland which is led by Sauli Niinisto."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksey Chirikov, an icebreaker, was built in Finland whose leader is Sauli Niinist\u00f6."
+        }
+    },
+    "gold_outputs": [
+        "Aleksey Chirikov, an icebreaker, was built in Finland whose leader is Sauli Niinist\u00f6.",
+        "The icebreaker Aleksey Chirikov was built in Finland, where Sauli Niinisto is a leader.",
+        "The icebreaker ship Aleksey Chirikov was built in Finland which is led by Sauli Niinisto."
+    ]
+}

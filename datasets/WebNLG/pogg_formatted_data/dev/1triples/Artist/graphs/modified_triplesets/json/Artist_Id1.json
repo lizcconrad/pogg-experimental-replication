@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Aaron_Bertram": {
+            "lexicon_key": "Aaron_Bertram"
+        },
+        "1998": {
+            "lexicon_key": "1998"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Aaron_Bertram",
+            "child_node": "1998",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Bertram started performing in 1998."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Bertram started performing in 1998."
+    ]
+}

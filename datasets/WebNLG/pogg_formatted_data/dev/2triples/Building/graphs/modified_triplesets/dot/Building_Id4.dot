@@ -1,0 +1,7 @@
+strict digraph {
+"250_Delaware_Avenue" [lexicon_key="250_Delaware_Avenue"];
+United_States [lexicon_key="United_States"];
+Barack_Obama [lexicon_key="Barack_Obama"];
+"250_Delaware_Avenue" -> United_States [label=location, lexicon_key=location];
+United_States -> Barack_Obama [label=leader, lexicon_key=leader];
+}

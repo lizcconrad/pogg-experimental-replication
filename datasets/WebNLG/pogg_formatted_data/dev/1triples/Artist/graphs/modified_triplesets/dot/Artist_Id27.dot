@@ -1,0 +1,5 @@
+strict digraph {
+Asunción [lexicon_key=Asunción];
+"Gran_Asunción" [lexicon_key="Gran_Asunción"];
+Asunción -> "Gran_Asunción" [label=isPartOf, lexicon_key=isPartOf];
+}

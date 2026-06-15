@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "300_North_LaSalle": {
+            "lexicon_key": "300_North_LaSalle"
+        },
+        "Chicago": {
+            "lexicon_key": "Chicago"
+        },
+        "Rahm_Emanuel": {
+            "lexicon_key": "Rahm_Emanuel"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "300_North_LaSalle",
+            "child_node": "Chicago",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Chicago",
+            "child_node": "Rahm_Emanuel",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Chicago",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "300 North LaSalle is located in Chicago (the leader of which is Rahm Emanuel), United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Rahm Emanuel is a leader in Chicago, US where 300 North LaSalle is located."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "300 North Lasalle is in Chicago, U.S. Rahm Emanuel leads Chicago."
+        }
+    },
+    "gold_outputs": [
+        "300 North LaSalle is located in Chicago (the leader of which is Rahm Emanuel), United States.",
+        "300 North Lasalle is in Chicago, U.S. Rahm Emanuel leads Chicago.",
+        "Rahm Emanuel is a leader in Chicago, US where 300 North LaSalle is located."
+    ]
+}

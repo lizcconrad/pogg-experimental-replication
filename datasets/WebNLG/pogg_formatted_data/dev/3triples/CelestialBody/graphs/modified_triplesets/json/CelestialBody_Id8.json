@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "103_Hera": {
+            "lexicon_key": "103_Hera"
+        },
+        "7.9 (kilograms)": {
+            "lexicon_key": "7.9 (kilograms)"
+        },
+        "0.0482 (kilometrePerSeconds)": {
+            "lexicon_key": "0.0482 (kilometrePerSeconds)"
+        },
+        "437170000.0 (kilometres)": {
+            "lexicon_key": "437170000.0 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mass",
+            "parent_node": "103_Hera",
+            "child_node": "7.9 (kilograms)",
+            "edge_properties": {
+                "lexicon_key": "mass"
+            }
+        },
+        {
+            "edge_name": "escapeVelocity",
+            "parent_node": "103_Hera",
+            "child_node": "0.0482 (kilometrePerSeconds)",
+            "edge_properties": {
+                "lexicon_key": "escapeVelocity"
+            }
+        },
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "103_Hera",
+            "child_node": "437170000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "103 Hera has a mass of 7.9kg and an escape velocity of 0.0482 km per sec. It has an apoapsis of 437170000.0 (kilometres)."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The celestial body known as 103 Hera has an escape velocity of 0.0482 k.p.s. and a mass of 7.9 kg. The apoapsis is 437170000.0 kilometres."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "103 Hera has an escape velocity of 0.0482 km per sec, an apoapsis of 437170000.0 kms and a mass of 7.9 kgs."
+        }
+    },
+    "gold_outputs": [
+        "103 Hera has a mass of 7.9kg and an escape velocity of 0.0482 km per sec. It has an apoapsis of 437170000.0 (kilometres).",
+        "103 Hera has an escape velocity of 0.0482 km per sec, an apoapsis of 437170000.0 kms and a mass of 7.9 kgs.",
+        "The celestial body known as 103 Hera has an escape velocity of 0.0482 k.p.s. and a mass of 7.9 kg. The apoapsis is 437170000.0 kilometres."
+    ]
+}

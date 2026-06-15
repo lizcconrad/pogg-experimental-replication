@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abdulsalami_Abubakar": {
+            "lexicon_key": "Abdulsalami_Abubakar"
+        },
+        "Olusegun_Obasanjo": {
+            "lexicon_key": "Olusegun_Obasanjo"
+        },
+        "Nigerian_Air_Force": {
+            "lexicon_key": "Nigerian_Air_Force"
+        },
+        "Atiku_Abubakar": {
+            "lexicon_key": "Atiku_Abubakar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Olusegun_Obasanjo",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        },
+        {
+            "edge_name": "militaryBranch",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Nigerian_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "militaryBranch"
+            }
+        },
+        {
+            "edge_name": "inOfficeWhileVicePresident",
+            "parent_node": "Olusegun_Obasanjo",
+            "child_node": "Atiku_Abubakar",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhileVicePresident"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar, who served in the Nigerian Air Force, was succeeded by Olusegun Obasanjo, who was in office at the same time that Atiku Abubakar was Vice President."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Nigerian Air Force member Abdulsalami Abubakar was succeeded by Olusegun Obasanjo who was in office whilst Atiku Abubakar was Vice President."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar served in the Nigerian Air Force. Olusegun Obasanjo succeeded him. When Mr. Obasanjo was in office, Atiku Abubakar was Vice-President."
+        }
+    },
+    "gold_outputs": [
+        "Abdulsalami Abubakar served in the Nigerian Air Force. Olusegun Obasanjo succeeded him. When Mr. Obasanjo was in office, Atiku Abubakar was Vice-President.",
+        "Abdulsalami Abubakar, who served in the Nigerian Air Force, was succeeded by Olusegun Obasanjo, who was in office at the same time that Atiku Abubakar was Vice President.",
+        "Nigerian Air Force member Abdulsalami Abubakar was succeeded by Olusegun Obasanjo who was in office whilst Atiku Abubakar was Vice President."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Bill_Oddie": {
+            "lexicon_key": "Bill_Oddie"
+        },
+        "Kate_Hardie": {
+            "lexicon_key": "Kate_Hardie"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "child",
+            "parent_node": "Bill_Oddie",
+            "child_node": "Kate_Hardie",
+            "edge_properties": {
+                "lexicon_key": "child"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bill Oddie's daughter is Kate Hardie."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Kate Hardie is Bill Oddie's child."
+        }
+    },
+    "gold_outputs": [
+        "Bill Oddie's daughter is Kate Hardie.",
+        "Kate Hardie is Bill Oddie's child."
+    ]
+}

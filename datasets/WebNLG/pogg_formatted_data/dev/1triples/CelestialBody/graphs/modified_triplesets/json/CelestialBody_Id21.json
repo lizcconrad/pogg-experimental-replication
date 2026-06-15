@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "N._R._Pogson": {
+            "lexicon_key": "N._R._Pogson"
+        },
+        "England": {
+            "lexicon_key": "England"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "N._R._Pogson",
+            "child_node": "England",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "N. R. Pogson was English."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "N. R. Pogson is British."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "N.R. Pogson was an English national."
+        }
+    },
+    "gold_outputs": [
+        "N. R. Pogson is British.",
+        "N. R. Pogson was English.",
+        "N.R. Pogson was an English national."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Akeem_Priestley": {
+            "lexicon_key": "Akeem_Priestley"
+        },
+        "Jacksonville_Dolphins": {
+            "lexicon_key": "Jacksonville_Dolphins"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Akeem_Priestley",
+            "child_node": "Jacksonville_Dolphins",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Priestley played for the Jacksonville Dolphins youth team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Priestley is in the Jacksonville Dolphins youth club."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Akeem Priestley's youth club is the Jacksonville Dolphins."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Priestley is in the Jacksonville Dolphins youth club.",
+        "Akeem Priestley played for the Jacksonville Dolphins youth team.",
+        "Akeem Priestley's youth club is the Jacksonville Dolphins."
+    ]
+}

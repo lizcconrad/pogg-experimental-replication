@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ahmad_Kadhim_Assad": {
+            "lexicon_key": "Ahmad_Kadhim_Assad"
+        },
+        "Iraq": {
+            "lexicon_key": "Iraq"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Ahmad_Kadhim_Assad",
+            "child_node": "Iraq",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad's birthplace is Iraq."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad was born in Iraq."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad's place of birth is Iraq."
+        }
+    },
+    "gold_outputs": [
+        "Ahmad Kadhim Assad was born in Iraq.",
+        "Ahmad Kadhim Assad's birthplace is Iraq.",
+        "Ahmad Kadhim Assad's place of birth is Iraq."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+"Bolt_(comicsCharacter)" [lexicon_key="Bolt_(comicsCharacter)"];
+Paris_Cullins [lexicon_key="Paris_Cullins"];
+"Gary_Cohn_(comics)" [lexicon_key="Gary_Cohn_(comics)"];
+"Bolt_(comicsCharacter)" -> Paris_Cullins [label=creator, lexicon_key=creator];
+"Bolt_(comicsCharacter)" -> "Gary_Cohn_(comics)" [label=creator, lexicon_key=creator];
+}

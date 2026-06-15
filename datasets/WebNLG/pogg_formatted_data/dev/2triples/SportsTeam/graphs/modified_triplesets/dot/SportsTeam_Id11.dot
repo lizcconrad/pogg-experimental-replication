@@ -1,0 +1,7 @@
+strict digraph {
+"A.S._Roma" [lexicon_key="A.S._Roma"];
+"Rome, Italy" [lexicon_key="Rome, Italy"];
+Serie_A [lexicon_key="Serie_A"];
+"A.S._Roma" -> "Rome, Italy" [label=ground, lexicon_key=ground];
+"A.S._Roma" -> Serie_A [label=league, lexicon_key=league];
+}

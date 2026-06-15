@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Tarrant_County,_Texas": {
+            "lexicon_key": "Tarrant_County,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Tarrant_County,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Tarrant County, Texas is situated in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Tarrant County in Texas is in the U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Tarrant County, Texas is located within the United States."
+        }
+    },
+    "gold_outputs": [
+        "Tarrant County in Texas is in the U.S.",
+        "Tarrant County, Texas is located within the United States.",
+        "Tarrant County, Texas is situated in the United States."
+    ]
+}

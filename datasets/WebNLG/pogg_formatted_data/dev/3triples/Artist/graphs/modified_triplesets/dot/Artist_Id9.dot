@@ -1,0 +1,9 @@
+strict digraph {
+Ace_Wilder [lexicon_key="Ace_Wilder"];
+Warner_Music_Group [lexicon_key="Warner_Music_Group"];
+Sweden [lexicon_key=Sweden];
+"solo_singer" [lexicon_key="solo_singer"];
+Ace_Wilder -> Warner_Music_Group [label=recordLabel, lexicon_key=recordLabel];
+Ace_Wilder -> Sweden [label=birthPlace, lexicon_key=birthPlace];
+Ace_Wilder -> "solo_singer" [label=background, lexicon_key=background];
+}

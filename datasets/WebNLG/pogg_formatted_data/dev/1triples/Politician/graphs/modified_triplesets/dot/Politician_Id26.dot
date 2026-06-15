@@ -1,0 +1,5 @@
+strict digraph {
+Alvah_Sabin [lexicon_key="Alvah_Sabin"];
+"1857-03-03" [lexicon_key="1857-03-03"];
+Alvah_Sabin -> "1857-03-03" [label=activeYearsEndDate, lexicon_key=activeYearsEndDate];
+}

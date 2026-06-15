@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Addiction_(journal)": {
+            "lexicon_key": "Addiction_(journal)"
+        },
+        "27367194": {
+            "lexicon_key": "27367194"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "Addiction_(journal)",
+            "child_node": "27367194",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The OCLC number of Addiction (journal) is 27367194."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The OCLC number for Addiction journal is 27367194."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Addiction (journal) has an OCLC number 27367194."
+        }
+    },
+    "gold_outputs": [
+        "Addiction (journal) has an OCLC number 27367194.",
+        "The OCLC number for Addiction journal is 27367194.",
+        "The OCLC number of Addiction (journal) is 27367194."
+    ]
+}

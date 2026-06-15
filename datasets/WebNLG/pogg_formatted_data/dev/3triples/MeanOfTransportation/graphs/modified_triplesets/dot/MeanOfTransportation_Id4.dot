@@ -1,0 +1,9 @@
+strict digraph {
+AIDA_Cruises [lexicon_key="AIDA_Cruises"];
+Germany [lexicon_key=Germany];
+AIDAstella [lexicon_key=AIDAstella];
+Costa_Crociere [lexicon_key="Costa_Crociere"];
+AIDA_Cruises -> Germany [label=location, lexicon_key=location];
+AIDAstella -> AIDA_Cruises [label=operator, lexicon_key=operator];
+AIDAstella -> Costa_Crociere [label=owner, lexicon_key=owner];
+}

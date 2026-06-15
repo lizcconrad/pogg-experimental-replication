@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Adare_Manor": {
+            "lexicon_key": "Adare_Manor"
+        },
+        "\"1700\"": {
+            "lexicon_key": "\"1700\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildingStartDate",
+            "parent_node": "Adare_Manor",
+            "child_node": "\"1700\"",
+            "edge_properties": {
+                "lexicon_key": "buildingStartDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adare Manor's building start was in 1700."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The building of the Adare Manor was started in 1700."
+        }
+    },
+    "gold_outputs": [
+        "Adare Manor's building start was in 1700.",
+        "The building of the Adare Manor was started in 1700."
+    ]
+}

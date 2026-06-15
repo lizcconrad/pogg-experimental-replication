@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A_Glastonbury_Romance": {
+            "lexicon_key": "A_Glastonbury_Romance"
+        },
+        "Hardcover": {
+            "lexicon_key": "Hardcover"
+        },
+        "76798317": {
+            "lexicon_key": "76798317"
+        },
+        "\"0-7156-3648-0\"": {
+            "lexicon_key": "\"0-7156-3648-0\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "Hardcover",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "76798317",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "\"0-7156-3648-0\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Glastonbury Romance, which can be found in hardcover, has the ISBN number 0-7156-3648-0 as well as the OCLC number 76798317."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Glastonbury Romance is available in hardcover and has the OCLC number of 76798317. and the ISBN number of 0-7156-3648-0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Glastonbury Romance is available in hardcover and has the OCLC number 76798317 and the ISBN number 0-7156-3648-0."
+        }
+    },
+    "gold_outputs": [
+        "A Glastonbury Romance is available in hardcover and has the OCLC number 76798317 and the ISBN number 0-7156-3648-0.",
+        "A Glastonbury Romance is available in hardcover and has the OCLC number of 76798317. and the ISBN number of 0-7156-3648-0.",
+        "A Glastonbury Romance, which can be found in hardcover, has the ISBN number 0-7156-3648-0 as well as the OCLC number 76798317."
+    ]
+}

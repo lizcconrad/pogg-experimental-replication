@@ -1,0 +1,5 @@
+strict digraph {
+South_Africa [lexicon_key="South_Africa"];
+Cape_Town [lexicon_key="Cape_Town"];
+South_Africa -> Cape_Town [label=capital, lexicon_key=capital];
+}

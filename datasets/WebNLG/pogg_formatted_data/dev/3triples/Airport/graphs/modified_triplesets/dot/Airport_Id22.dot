@@ -1,0 +1,9 @@
+strict digraph {
+Atlantic_City_International_Airport [lexicon_key="Atlantic_City_International_Airport"];
+"4/22" [lexicon_key="4/22"];
+"Egg_Harbor_Township,_New_Jersey" [lexicon_key="Egg_Harbor_Township,_New_Jersey"];
+United_States [lexicon_key="United_States"];
+Atlantic_City_International_Airport -> "4/22" [label=runwayName, lexicon_key=runwayName];
+Atlantic_City_International_Airport -> "Egg_Harbor_Township,_New_Jersey" [label=location, lexicon_key=location];
+"Egg_Harbor_Township,_New_Jersey" -> United_States [label=country, lexicon_key=country];
+}

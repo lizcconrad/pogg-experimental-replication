@@ -1,0 +1,7 @@
+strict digraph {
+Alcatraz_Versus_the_Evil_Librarians [lexicon_key="Alcatraz_Versus_the_Evil_Librarians"];
+"320" [lexicon_key="320"];
+"0-439-92550-9" [lexicon_key="0-439-92550-9"];
+Alcatraz_Versus_the_Evil_Librarians -> "320" [label=numberOfPages, lexicon_key=numberOfPages];
+Alcatraz_Versus_the_Evil_Librarians -> "0-439-92550-9" [label=isbnNumber, lexicon_key=isbnNumber];
+}

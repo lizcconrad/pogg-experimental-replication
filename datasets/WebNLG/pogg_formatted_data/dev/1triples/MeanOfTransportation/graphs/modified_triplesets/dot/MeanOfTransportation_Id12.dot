@@ -1,0 +1,5 @@
+strict digraph {
+"Abarth_1000_GT_Coupé" [lexicon_key="Abarth_1000_GT_Coupé"];
+1958 [lexicon_key=1958];
+"Abarth_1000_GT_Coupé" -> 1958 [label=productionEndYear, lexicon_key=productionEndYear];
+}

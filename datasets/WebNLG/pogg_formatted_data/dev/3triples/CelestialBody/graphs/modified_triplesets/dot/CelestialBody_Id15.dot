@@ -1,0 +1,9 @@
+strict digraph {
+"1101_Clematis" [lexicon_key="1101_Clematis"];
+"2006-12-31" [lexicon_key="2006-12-31"];
+183309000.0 [lexicon_key=183309000.0];
+"520906000.0 (kilometres)" [lexicon_key="520906000.0 (kilometres)"];
+"1101_Clematis" -> "2006-12-31" [label=epoch, lexicon_key=epoch];
+"1101_Clematis" -> 183309000.0 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+"1101_Clematis" -> "520906000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

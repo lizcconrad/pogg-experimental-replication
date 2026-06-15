@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "10_Hygiea": {
+            "lexicon_key": "10_Hygiea"
+        },
+        "5.57 (days)": {
+            "lexicon_key": "5.57 (days)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "orbitalPeriod",
+            "parent_node": "10_Hygiea",
+            "child_node": "5.57 (days)",
+            "edge_properties": {
+                "lexicon_key": "orbitalPeriod"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "10 Hygiea has an orbital period of 5.57 days."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "5.57 days is the orbital period for 10 Hygiea."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "10 Hygiea takes 5.57 days to orbit."
+        }
+    },
+    "gold_outputs": [
+        "10 Hygiea has an orbital period of 5.57 days.",
+        "10 Hygiea takes 5.57 days to orbit.",
+        "5.57 days is the orbital period for 10 Hygiea."
+    ]
+}

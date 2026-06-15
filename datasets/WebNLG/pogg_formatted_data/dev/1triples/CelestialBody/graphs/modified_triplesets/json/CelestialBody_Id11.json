@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "1089_Tama": {
+            "lexicon_key": "1089_Tama"
+        },
+        "0.0068 (kilometrePerSeconds)": {
+            "lexicon_key": "0.0068 (kilometrePerSeconds)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "escapeVelocity",
+            "parent_node": "1089_Tama",
+            "child_node": "0.0068 (kilometrePerSeconds)",
+            "edge_properties": {
+                "lexicon_key": "escapeVelocity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1089 Tama has an escape velocity of 0.0068 kilometres per second."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The escape velocity of 1089 Tama is 0.0068 km/sec."
+        }
+    },
+    "gold_outputs": [
+        "1089 Tama has an escape velocity of 0.0068 kilometres per second.",
+        "The escape velocity of 1089 Tama is 0.0068 km/sec."
+    ]
+}

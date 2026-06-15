@@ -1,0 +1,9 @@
+strict digraph {
+Alfa_Romeo_164 [lexicon_key="Alfa_Romeo_164"];
+Italy [lexicon_key=Italy];
+Rome [lexicon_key=Rome];
+Lancia_Thema [lexicon_key="Lancia_Thema"];
+Alfa_Romeo_164 -> Italy [label=assembly, lexicon_key=assembly];
+Alfa_Romeo_164 -> Lancia_Thema [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+Italy -> Rome [label=capital, lexicon_key=capital];
+}

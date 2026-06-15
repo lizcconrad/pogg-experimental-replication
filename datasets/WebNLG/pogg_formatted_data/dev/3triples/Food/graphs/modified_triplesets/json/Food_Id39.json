@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "Spanish_language": {
+            "lexicon_key": "Spanish_language"
+        },
+        "Arr\u00f2s_negre": {
+            "lexicon_key": "Arr\u00f2s_negre"
+        },
+        "Felipe_VI_of_Spain": {
+            "lexicon_key": "Felipe_VI_of_Spain"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Spain",
+            "child_node": "Spanish_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Spain",
+            "child_node": "Felipe_VI_of_Spain",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader of Spain is Felipe VI and it is also where Spanish is spoken and the dish arros negre is from."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arros Negre is a traditional dish from Spain where they speak Spanish and the leader is Felipe VI."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Arros negre comes from Spain where Felipe VI is the leader and the Spanish language is spoken."
+        }
+    },
+    "gold_outputs": [
+        "Arros Negre is a traditional dish from Spain where they speak Spanish and the leader is Felipe VI.",
+        "Arros negre comes from Spain where Felipe VI is the leader and the Spanish language is spoken.",
+        "The leader of Spain is Felipe VI and it is also where Spanish is spoken and the dish arros negre is from."
+    ]
+}

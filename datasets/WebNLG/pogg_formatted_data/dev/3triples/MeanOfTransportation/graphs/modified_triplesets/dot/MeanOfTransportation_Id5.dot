@@ -1,0 +1,9 @@
+strict digraph {
+"ALCO_RS-3" [lexicon_key="ALCO_RS-3"];
+12 [lexicon_key=12];
+Montreal_Locomotive_Works [lexicon_key="Montreal_Locomotive_Works"];
+"17068.8 (millimetres)" [lexicon_key="17068.8 (millimetres)"];
+"ALCO_RS-3" -> 12 [label=cylinderCount, lexicon_key=cylinderCount];
+"ALCO_RS-3" -> Montreal_Locomotive_Works [label=builder, lexicon_key=builder];
+"ALCO_RS-3" -> "17068.8 (millimetres)" [label=length, lexicon_key=length];
+}

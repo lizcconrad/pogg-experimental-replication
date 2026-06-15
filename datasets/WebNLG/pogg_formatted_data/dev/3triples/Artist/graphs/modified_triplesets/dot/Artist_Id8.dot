@@ -1,0 +1,9 @@
+strict digraph {
+Abradab [lexicon_key=Abradab];
+Hip_hop_music [lexicon_key="Hip_hop_music"];
+Gangsta_rap [lexicon_key="Gangsta_rap"];
+Drum_and_bass [lexicon_key="Drum_and_bass"];
+Abradab -> Hip_hop_music [label=genre, lexicon_key=genre];
+Hip_hop_music -> Gangsta_rap [label=musicSubgenre, lexicon_key=musicSubgenre];
+Hip_hop_music -> Drum_and_bass [label=derivative, lexicon_key=derivative];
+}

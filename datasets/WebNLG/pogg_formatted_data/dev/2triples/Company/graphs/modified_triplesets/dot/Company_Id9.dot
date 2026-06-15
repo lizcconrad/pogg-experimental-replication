@@ -1,0 +1,7 @@
+strict digraph {
+Hypermarcas [lexicon_key=Hypermarcas];
+Drugs [lexicon_key=Drugs];
+"São_Paulo" [lexicon_key="São_Paulo"];
+Hypermarcas -> Drugs [label=product, lexicon_key=product];
+Hypermarcas -> "São_Paulo" [label=location, lexicon_key=location];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Guiana_Space_Centre": {
+            "lexicon_key": "Guiana_Space_Centre"
+        },
+        "Kourou,_French_Guiana": {
+            "lexicon_key": "Kourou,_French_Guiana"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "headquarter",
+            "parent_node": "Guiana_Space_Centre",
+            "child_node": "Kourou,_French_Guiana",
+            "edge_properties": {
+                "lexicon_key": "headquarter"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Guiana Space Centre has its headquarters at Kourou in French Guiana."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Guiana Space Centre's headquarters are located in Kourou, French Guiana."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The headquarters of the Guiana Space Centre is in Kourou, French Guiana."
+        }
+    },
+    "gold_outputs": [
+        "The Guiana Space Centre has its headquarters at Kourou in French Guiana.",
+        "The Guiana Space Centre's headquarters are located in Kourou, French Guiana.",
+        "The headquarters of the Guiana Space Centre is in Kourou, French Guiana."
+    ]
+}

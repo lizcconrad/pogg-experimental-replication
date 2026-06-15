@@ -1,0 +1,9 @@
+strict digraph {
+Alvah_Sabin [lexicon_key="Alvah_Sabin"];
+"Whig_Party_(United_States)" [lexicon_key="Whig_Party_(United_States)"];
+Daniel_Webster [lexicon_key="Daniel_Webster"];
+"Georgia,_Vermont" [lexicon_key="Georgia,_Vermont"];
+Alvah_Sabin -> "Whig_Party_(United_States)" [label=party, lexicon_key=party];
+Alvah_Sabin -> "Georgia,_Vermont" [label=birthPlace, lexicon_key=birthPlace];
+"Whig_Party_(United_States)" -> Daniel_Webster [label=leader, lexicon_key=leader];
+}

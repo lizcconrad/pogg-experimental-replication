@@ -1,0 +1,9 @@
+strict digraph {
+Abilene_Regional_Airport [lexicon_key="Abilene_Regional_Airport"];
+"Abilene,_Texas" [lexicon_key="Abilene,_Texas"];
+"Taylor_County,_Texas" [lexicon_key="Taylor_County,_Texas"];
+United_States [lexicon_key="United_States"];
+Abilene_Regional_Airport -> "Abilene,_Texas" [label=cityServed, lexicon_key=cityServed];
+"Abilene,_Texas" -> "Taylor_County,_Texas" [label=isPartOf, lexicon_key=isPartOf];
+"Abilene,_Texas" -> United_States [label=country, lexicon_key=country];
+}

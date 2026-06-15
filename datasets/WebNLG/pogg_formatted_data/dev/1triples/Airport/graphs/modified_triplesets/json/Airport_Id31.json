@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Harrietstown,_New_York": {
+            "lexicon_key": "Harrietstown,_New_York"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Harrietstown,_New_York",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Harrietstown, New York is part of the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Harrietstown, N.Y. is part of the U.S."
+        }
+    },
+    "gold_outputs": [
+        "Harrietstown, N.Y. is part of the U.S.",
+        "Harrietstown, New York is part of the United States."
+    ]
+}

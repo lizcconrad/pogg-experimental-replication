@@ -1,0 +1,5 @@
+strict digraph {
+A_Long_Long_Way [lexicon_key="A_Long_Long_Way"];
+"0-670-03380-4" [lexicon_key="0-670-03380-4"];
+A_Long_Long_Way -> "0-670-03380-4" [label=isbnNumber, lexicon_key=isbnNumber];
+}

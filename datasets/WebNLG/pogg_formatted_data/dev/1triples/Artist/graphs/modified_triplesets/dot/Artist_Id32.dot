@@ -1,0 +1,5 @@
+strict digraph {
+RCA_Records [lexicon_key="RCA_Records"];
+Legacy_Recordings [lexicon_key="Legacy_Recordings"];
+RCA_Records -> Legacy_Recordings [label=distributingCompany, lexicon_key=distributingCompany];
+}

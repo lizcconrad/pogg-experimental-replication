@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aston_Martin_V8": {
+            "lexicon_key": "Aston_Martin_V8"
+        },
+        "Aston_Martin_RHAM/1": {
+            "lexicon_key": "Aston_Martin_RHAM/1"
+        },
+        "Aston_Martin_Virage": {
+            "lexicon_key": "Aston_Martin_Virage"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "Aston_Martin_RHAM/1",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        },
+        {
+            "edge_name": "successor",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "Aston_Martin_Virage",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Aston Martin Virage succeeded the Aston Martin V8 which is a related means of transport to the Aston Martin RHAM/1."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Aston Martin V8, which was succeeded by the Aston Martin Virage, and the Aston Martin RHAM/1 are related means of transportation."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Aston Martin Virage succeeded the Aston Martin V8 which is related to the Aston Martin RHAM/1."
+        }
+    },
+    "gold_outputs": [
+        "The Aston Martin V8, which was succeeded by the Aston Martin Virage, and the Aston Martin RHAM/1 are related means of transportation.",
+        "The Aston Martin Virage succeeded the Aston Martin V8 which is a related means of transport to the Aston Martin RHAM/1.",
+        "The Aston Martin Virage succeeded the Aston Martin V8 which is related to the Aston Martin RHAM/1."
+    ]
+}

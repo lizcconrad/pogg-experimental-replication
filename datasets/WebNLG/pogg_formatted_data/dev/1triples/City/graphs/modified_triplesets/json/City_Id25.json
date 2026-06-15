@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Georgia_(U.S._state)": {
+            "lexicon_key": "Georgia_(U.S._state)"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Georgia_(U.S._state)",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The state of Georgia is in the U.S."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Georgia is in the country of United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The state of Georgia is located within the United States."
+        }
+    },
+    "gold_outputs": [
+        "Georgia is in the country of United States.",
+        "The state of Georgia is in the U.S.",
+        "The state of Georgia is located within the United States."
+    ]
+}

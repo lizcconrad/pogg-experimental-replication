@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "Campeonato_Brasileiro_S\u00e9rie_C": {
+            "lexicon_key": "Campeonato_Brasileiro_S\u00e9rie_C"
+        },
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        },
+        "Vila_Nova_Futebol_Clube": {
+            "lexicon_key": "Vila_Nova_Futebol_Clube"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "child_node": "Brazil",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "champions",
+            "parent_node": "Campeonato_Brasileiro_S\u00e9rie_C",
+            "child_node": "Vila_Nova_Futebol_Clube",
+            "edge_properties": {
+                "lexicon_key": "champions"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league in Brazil. Vila Nova Futebol Clube are the champions of this league."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league in brazil. The Vila Nova Futebol Clube were champions at the Campeonato Brasileiro S\u00e9rie C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league, that is based in Brazil. The champions are Vila Nova Futebol Clube."
+        }
+    },
+    "gold_outputs": [
+        "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league in Brazil. Vila Nova Futebol Clube are the champions of this league.",
+        "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league in brazil. The Vila Nova Futebol Clube were champions at the Campeonato Brasileiro S\u00e9rie C.",
+        "Agremia\u00e7\u00e3o Sportiva Arapiraquense play in the Campeonato Brasileiro S\u00e9rie C league, that is based in Brazil. The champions are Vila Nova Futebol Clube."
+    ]
+}

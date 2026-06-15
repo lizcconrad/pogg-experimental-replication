@@ -1,0 +1,5 @@
+strict digraph {
+Adenan_Satem [lexicon_key="Adenan_Satem"];
+University_of_Adelaide [lexicon_key="University_of_Adelaide"];
+Adenan_Satem -> University_of_Adelaide [label=almaMater, lexicon_key=almaMater];
+}

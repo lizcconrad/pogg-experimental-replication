@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ajoblanco": {
+            "lexicon_key": "Ajoblanco"
+        },
+        "\"Bread, almonds, garlic, water, olive oil\"": {
+            "lexicon_key": "\"Bread, almonds, garlic, water, olive oil\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Ajoblanco",
+            "child_node": "\"Bread, almonds, garlic, water, olive oil\"",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The main ingredients in ajoblanco are bread, almonds, garlic, water and olive oil."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bread, almonds, garlic, water, and olive oil are the main ingredients in Ajoblanco."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The main ingredients of Ajoblanco are bread, almonds, garlic, water, olive oil."
+        }
+    },
+    "gold_outputs": [
+        "Bread, almonds, garlic, water, and olive oil are the main ingredients in Ajoblanco.",
+        "The main ingredients in ajoblanco are bread, almonds, garlic, water and olive oil.",
+        "The main ingredients of Ajoblanco are bread, almonds, garlic, water, olive oil."
+    ]
+}

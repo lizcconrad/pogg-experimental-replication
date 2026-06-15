@@ -1,0 +1,7 @@
+strict digraph {
+Akeem_Adams [lexicon_key="Akeem_Adams"];
+"Ferencvárosi_TC" [lexicon_key="Ferencvárosi_TC"];
+Thomas_Doll [lexicon_key="Thomas_Doll"];
+Akeem_Adams -> "Ferencvárosi_TC" [label=club, lexicon_key=club];
+"Ferencvárosi_TC" -> Thomas_Doll [label=manager, lexicon_key=manager];
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "300_North_LaSalle": {
+            "lexicon_key": "300_North_LaSalle"
+        },
+        "Illinois": {
+            "lexicon_key": "Illinois"
+        },
+        "60": {
+            "lexicon_key": "60"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "300_North_LaSalle",
+            "child_node": "Illinois",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "floorCount",
+            "parent_node": "300_North_LaSalle",
+            "child_node": "60",
+            "edge_properties": {
+                "lexicon_key": "floorCount"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "There are 60 floors at 300 North LaSalle in Illinois."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "300 North LaSalle in Illinois has 60 floors."
+        }
+    },
+    "gold_outputs": [
+        "300 North LaSalle in Illinois has 60 floors.",
+        "There are 60 floors at 300 North LaSalle in Illinois."
+    ]
+}

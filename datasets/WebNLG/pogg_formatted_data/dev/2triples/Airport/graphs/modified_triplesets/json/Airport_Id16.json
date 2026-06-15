@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Angola_International_Airport": {
+            "lexicon_key": "Angola_International_Airport"
+        },
+        "\u00cdcolo_e_Bengo": {
+            "lexicon_key": "\u00cdcolo_e_Bengo"
+        },
+        "Angola": {
+            "lexicon_key": "Angola"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Angola_International_Airport",
+            "child_node": "\u00cdcolo_e_Bengo",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "\u00cdcolo_e_Bengo",
+            "child_node": "Angola",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Angola International Airport is located in \u00cdcolo e Bengo, Angola."
+        }
+    },
+    "gold_outputs": [
+        "Angola International Airport is located in \u00cdcolo e Bengo, Angola."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Philippine_Entertainment_Portal": {
+            "lexicon_key": "Philippine_Entertainment_Portal"
+        },
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "parentCompany",
+            "parent_node": "Philippine_Entertainment_Portal",
+            "child_node": "GMA_New_Media",
+            "edge_properties": {
+                "lexicon_key": "parentCompany"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "GMA New Media is the parent company of Philippine Entertainment Portal."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Philippine Entertainment Portal is a branch of GMA New Media."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Philippine Entertainment Portal's parent company is GMA New Media."
+        }
+    },
+    "gold_outputs": [
+        "GMA New Media is the parent company of Philippine Entertainment Portal.",
+        "Philippine Entertainment Portal is a branch of GMA New Media.",
+        "Philippine Entertainment Portal's parent company is GMA New Media."
+    ]
+}

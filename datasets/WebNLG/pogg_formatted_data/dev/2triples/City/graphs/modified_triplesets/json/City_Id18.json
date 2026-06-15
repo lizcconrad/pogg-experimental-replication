@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        },
+        "Texas": {
+            "lexicon_key": "Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Austin,_Texas",
+            "child_node": "Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Austin,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Austin is located in Texas, in the country of the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Austin is part of the state of Texas in the United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Austin is part of the state of Texas, in the United States."
+        }
+    },
+    "gold_outputs": [
+        "Austin is located in Texas, in the country of the United States.",
+        "Austin is part of the state of Texas in the United States.",
+        "Austin is part of the state of Texas, in the United States."
+    ]
+}

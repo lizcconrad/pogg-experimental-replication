@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Beef_kway_teow": {
+            "lexicon_key": "Beef_kway_teow"
+        },
+        "Singapore": {
+            "lexicon_key": "Singapore"
+        },
+        "Tony_Tan": {
+            "lexicon_key": "Tony_Tan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Singapore",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Singapore",
+            "child_node": "Tony_Tan",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Beef kway teow is a dish of Singapore where Tony Tan is a leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Tony Tan is the leader of Singapore, from where Beef kway teow originates."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Beef kway teow originates from Singapore and its leader is Tony Tan."
+        }
+    },
+    "gold_outputs": [
+        "Beef kway teow is a dish of Singapore where Tony Tan is a leader.",
+        "Beef kway teow originates from Singapore and its leader is Tony Tan.",
+        "Tony Tan is the leader of Singapore, from where Beef kway teow originates."
+    ]
+}

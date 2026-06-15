@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "A.S._Gubbio_1910": {
+            "lexicon_key": "A.S._Gubbio_1910"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "A.S._Gubbio_1910",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ground of A.S. Gubbio 1910 is located in Italy."
+        }
+    },
+    "gold_outputs": [
+        "The ground of A.S. Gubbio 1910 is located in Italy."
+    ]
+}

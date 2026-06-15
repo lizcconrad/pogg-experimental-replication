@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksey_Chirikov_(icebreaker)": {
+            "lexicon_key": "Aleksey_Chirikov_(icebreaker)"
+        },
+        "21.2": {
+            "lexicon_key": "21.2"
+        },
+        "Arctech_Helsinki_Shipyard": {
+            "lexicon_key": "Arctech_Helsinki_Shipyard"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "shipBeam",
+            "parent_node": "Aleksey_Chirikov_(icebreaker)",
+            "child_node": "21.2",
+            "edge_properties": {
+                "lexicon_key": "shipBeam"
+            }
+        },
+        {
+            "edge_name": "builder",
+            "parent_node": "Aleksey_Chirikov_(icebreaker)",
+            "child_node": "Arctech_Helsinki_Shipyard",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The icebreaker Aleksey Chirikov was built at the Arctech Helsinki shipyard has a ship beam of 21.2m."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arctech Helsinki Shipyard built the icebreaker, Aleksey Chirikov and has a ship beam of 21.2 metres."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Arctech Helsinki Shipyard built the icebreaker, Aleksey Chirikov, whose ship beam is 21.2."
+        }
+    },
+    "gold_outputs": [
+        "Arctech Helsinki Shipyard built the icebreaker, Aleksey Chirikov and has a ship beam of 21.2 metres.",
+        "Arctech Helsinki Shipyard built the icebreaker, Aleksey Chirikov, whose ship beam is 21.2.",
+        "The icebreaker Aleksey Chirikov was built at the Arctech Helsinki shipyard has a ship beam of 21.2m."
+    ]
+}

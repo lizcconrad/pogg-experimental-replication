@@ -1,0 +1,5 @@
+strict digraph {
+Peñarol [lexicon_key=Peñarol];
+"Jorge_Orosmán_da_Silva" [lexicon_key="Jorge_Orosmán_da_Silva"];
+Peñarol -> "Jorge_Orosmán_da_Silva" [label=manager, lexicon_key=manager];
+}

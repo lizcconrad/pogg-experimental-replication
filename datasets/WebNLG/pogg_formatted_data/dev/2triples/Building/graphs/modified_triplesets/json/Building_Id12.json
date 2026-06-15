@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Adisham_Hall": {
+            "lexicon_key": "Adisham_Hall"
+        },
+        "Sri_Lanka": {
+            "lexicon_key": "Sri_Lanka"
+        },
+        "Tamil_language": {
+            "lexicon_key": "Tamil_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Adisham_Hall",
+            "child_node": "Sri_Lanka",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Sri_Lanka",
+            "child_node": "Tamil_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adisham Hall is located in Sri Lanka, where they speak the Tamil language."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adisham Hall is located in the country of Sri Lanka where they speak Tamil."
+        }
+    },
+    "gold_outputs": [
+        "Adisham Hall is located in Sri Lanka, where they speak the Tamil language.",
+        "Adisham Hall is located in the country of Sri Lanka where they speak Tamil."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A_Severed_Wasp": {
+            "lexicon_key": "A_Severed_Wasp"
+        },
+        "\"388\"": {
+            "lexicon_key": "\"388\""
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        },
+        "\"0-374-26131-8\"": {
+            "lexicon_key": "\"0-374-26131-8\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfPages",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "\"388\"",
+            "edge_properties": {
+                "lexicon_key": "numberOfPages"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "\"0-374-26131-8\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Severed Wasp has an ISBN number of \"0-374-26131-8\", 388 pages and can be found in print."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "\"A Severed Wasp\" is in print, has 388 pages and has an ISBN number of \"0-374-26131-8\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Severed Wasp (ISBN number 0-374-26131-8) has 388 pages altogether and is available in print."
+        }
+    },
+    "gold_outputs": [
+        "\"A Severed Wasp\" is in print, has 388 pages and has an ISBN number of \"0-374-26131-8\".",
+        "A Severed Wasp (ISBN number 0-374-26131-8) has 388 pages altogether and is available in print.",
+        "A Severed Wasp has an ISBN number of \"0-374-26131-8\", 388 pages and can be found in print."
+    ]
+}

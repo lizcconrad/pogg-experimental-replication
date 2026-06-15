@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Acta_Palaeontologica_Polonica": {
+            "lexicon_key": "Acta_Palaeontologica_Polonica"
+        },
+        "\"APGPAC\"": {
+            "lexicon_key": "\"APGPAC\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "codenCode",
+            "parent_node": "Acta_Palaeontologica_Polonica",
+            "child_node": "\"APGPAC\"",
+            "edge_properties": {
+                "lexicon_key": "codenCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acta Palaeontologica Polonica has the CODEN code APGPAC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Acta Palaeontologica Polonica CODEN code is \"APGPAC\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The CODEN code for the Acta Palaeontologica Polonica is APGPAC."
+        }
+    },
+    "gold_outputs": [
+        "Acta Palaeontologica Polonica has the CODEN code APGPAC.",
+        "The Acta Palaeontologica Polonica CODEN code is \"APGPAC\".",
+        "The CODEN code for the Acta Palaeontologica Polonica is APGPAC."
+    ]
+}

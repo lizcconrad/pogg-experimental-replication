@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Agnes_Kant": {
+            "lexicon_key": "Agnes_Kant"
+        },
+        "Radboud_University_Nijmegen": {
+            "lexicon_key": "Radboud_University_Nijmegen"
+        },
+        "West_Germany": {
+            "lexicon_key": "West_Germany"
+        },
+        "Socialist_Party_(Netherlands)": {
+            "lexicon_key": "Socialist_Party_(Netherlands)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Agnes_Kant",
+            "child_node": "Radboud_University_Nijmegen",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Agnes_Kant",
+            "child_node": "West_Germany",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Agnes_Kant",
+            "child_node": "Socialist_Party_(Netherlands)",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in West Germany, Agnes Kant worked at the Socialist Party in the Netherlands, and her alma mater is the Radboud University Nijmegen."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agnes Kant, who was born in West Germany, attended Radboud University in Nijmegen and later worked with the Socialist Party in Netherlands."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "West Germany born Agnes Kant, a leader of Netherlands's Socialist Party, attended Radboud University Nijmegen."
+        }
+    },
+    "gold_outputs": [
+        "Agnes Kant, who was born in West Germany, attended Radboud University in Nijmegen and later worked with the Socialist Party in Netherlands.",
+        "Born in West Germany, Agnes Kant worked at the Socialist Party in the Netherlands, and her alma mater is the Radboud University Nijmegen.",
+        "West Germany born Agnes Kant, a leader of Netherlands's Socialist Party, attended Radboud University Nijmegen."
+    ]
+}

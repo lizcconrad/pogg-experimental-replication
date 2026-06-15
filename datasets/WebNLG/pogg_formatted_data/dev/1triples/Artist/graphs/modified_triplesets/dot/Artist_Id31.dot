@@ -1,0 +1,5 @@
+strict digraph {
+Jazz [lexicon_key=Jazz];
+Blues [lexicon_key=Blues];
+Jazz -> Blues [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

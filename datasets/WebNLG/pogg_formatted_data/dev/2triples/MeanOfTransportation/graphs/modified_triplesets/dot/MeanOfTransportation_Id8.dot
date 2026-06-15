@@ -1,0 +1,7 @@
+strict digraph {
+AMC_Matador [lexicon_key="AMC_Matador"];
+"Richard_A._Teague" [lexicon_key="Richard_A._Teague"];
+General_Motors [lexicon_key="General_Motors"];
+AMC_Matador -> "Richard_A._Teague" [label=designer, lexicon_key=designer];
+"Richard_A._Teague" -> General_Motors [label=employer, lexicon_key=employer];
+}

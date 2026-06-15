@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Fortress_of_Grey_Ice": {
+            "lexicon_key": "A_Fortress_of_Grey_Ice"
+        },
+        "J._V._Jones": {
+            "lexicon_key": "J._V._Jones"
+        },
+        "\"0-7653-0633-6\"": {
+            "lexicon_key": "\"0-7653-0633-6\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "A_Fortress_of_Grey_Ice",
+            "child_node": "J._V._Jones",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "A_Fortress_of_Grey_Ice",
+            "child_node": "\"0-7653-0633-6\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice was written by J. V. Jones and has the ISBN number 0-7653-0633-6."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "J.V. Jones authored A Fortress of Grey Ice, which has the ISBN number 0-7653-0633-6."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "J. V. Jones is the author of \"A Fortress of Grey Ice,\" ISBN number 0-7653-0633-6."
+        }
+    },
+    "gold_outputs": [
+        "A Fortress of Grey Ice was written by J. V. Jones and has the ISBN number 0-7653-0633-6.",
+        "J. V. Jones is the author of \"A Fortress of Grey Ice,\" ISBN number 0-7653-0633-6.",
+        "J.V. Jones authored A Fortress of Grey Ice, which has the ISBN number 0-7653-0633-6."
+    ]
+}

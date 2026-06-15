@@ -1,0 +1,9 @@
+strict digraph {
+"Albany,_Oregon" [lexicon_key="Albany,_Oregon"];
+United_States [lexicon_key="United_States"];
+"Linn_County,_Oregon" [lexicon_key="Linn_County,_Oregon"];
+"Benton_County,_Oregon" [lexicon_key="Benton_County,_Oregon"];
+"Albany,_Oregon" -> United_States [label=country, lexicon_key=country];
+"Albany,_Oregon" -> "Linn_County,_Oregon" [label=isPartOf, lexicon_key=isPartOf];
+"Albany,_Oregon" -> "Benton_County,_Oregon" [label=isPartOf, lexicon_key=isPartOf];
+}

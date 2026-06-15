@@ -1,0 +1,9 @@
+strict digraph {
+Indonesia [lexicon_key=Indonesia];
+Jakarta [lexicon_key=Jakarta];
+Jusuf_Kalla [lexicon_key="Jusuf_Kalla"];
+Bakso [lexicon_key=Bakso];
+Indonesia -> Jakarta [label=capital, lexicon_key=capital];
+Indonesia -> Jusuf_Kalla [label=leader, lexicon_key=leader];
+Bakso -> Indonesia [label=country, lexicon_key=country];
+}

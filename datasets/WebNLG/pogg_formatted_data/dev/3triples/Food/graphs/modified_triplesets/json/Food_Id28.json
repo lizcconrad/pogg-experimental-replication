@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bhajji": {
+            "lexicon_key": "Bhajji"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Indian_people": {
+            "lexicon_key": "Indian_people"
+        },
+        "T._S._Thakur": {
+            "lexicon_key": "T._S._Thakur"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bhajji",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "demonym",
+            "parent_node": "India",
+            "child_node": "Indian_people",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "T._S._Thakur",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bhajji originates from India, country of Indians where the leader is T. S. Thakur."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bhajji originates from India, where the leader is called T S Thakur and the people who live there are called Indians."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bhajji originate from India where T S Thakur leads the Indian people."
+        }
+    },
+    "gold_outputs": [
+        "Bhajji originate from India where T S Thakur leads the Indian people.",
+        "Bhajji originates from India, country of Indians where the leader is T. S. Thakur.",
+        "Bhajji originates from India, where the leader is called T S Thakur and the people who live there are called Indians."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Alfred_Garth_Jones [lexicon_key="Alfred_Garth_Jones"];
+London [lexicon_key=London];
+Alfred_Garth_Jones -> London [label=deathPlace, lexicon_key=deathPlace];
+}

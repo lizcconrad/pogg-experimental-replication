@@ -1,0 +1,9 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+"Polish–Soviet_War" [lexicon_key="Polish–Soviet_War"];
+Congress_Poland [lexicon_key="Congress_Poland"];
+Leon_Trotsky [lexicon_key="Leon_Trotsky"];
+Adam_Koc -> "Polish–Soviet_War" [label=battle, lexicon_key=battle];
+Adam_Koc -> Congress_Poland [label=birthPlace, lexicon_key=birthPlace];
+"Polish–Soviet_War" -> Leon_Trotsky [label=commander, lexicon_key=commander];
+}

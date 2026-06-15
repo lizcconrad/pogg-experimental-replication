@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Caterpillar_Inc.": {
+            "lexicon_key": "Caterpillar_Inc."
+        },
+        "Douglas_R._Oberhelman": {
+            "lexicon_key": "Douglas_R._Oberhelman"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Caterpillar_Inc.",
+            "child_node": "Douglas_R._Oberhelman",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The key person of Caterpillar Inc. is Douglas R. Oberhelman."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Douglas R. Oberhelman is a key person at Caterpillar Inc."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Douglas R Oberhelman is a key person at Caterpillar Inc."
+        }
+    },
+    "gold_outputs": [
+        "Douglas R Oberhelman is a key person at Caterpillar Inc.",
+        "Douglas R. Oberhelman is a key person at Caterpillar Inc.",
+        "The key person of Caterpillar Inc. is Douglas R. Oberhelman."
+    ]
+}

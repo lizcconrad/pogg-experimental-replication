@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Antares_(rocket)": {
+            "lexicon_key": "Antares_(rocket)"
+        },
+        "Delta_II": {
+            "lexicon_key": "Delta_II"
+        },
+        "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0": {
+            "lexicon_key": "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "comparable",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "Delta_II",
+            "edge_properties": {
+                "lexicon_key": "comparable"
+            }
+        },
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Antares rocket is comparable with the Delta II and was launched at the Mid-Atlantic Regional Spaceport Launch Pad 0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Comparable with the Delta II, the Antares rocket, was launched from the Mid-Atlantic Regional Spaceport Launch Pad 0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Antares rocket, launched from the Mid-Atlantic Regional Spaceport Launch Pad 0, is similar to the Delta II rocket."
+        }
+    },
+    "gold_outputs": [
+        "Comparable with the Delta II, the Antares rocket, was launched from the Mid-Atlantic Regional Spaceport Launch Pad 0.",
+        "The Antares rocket is comparable with the Delta II and was launched at the Mid-Atlantic Regional Spaceport Launch Pad 0.",
+        "The Antares rocket, launched from the Mid-Atlantic Regional Spaceport Launch Pad 0, is similar to the Delta II rocket."
+    ]
+}

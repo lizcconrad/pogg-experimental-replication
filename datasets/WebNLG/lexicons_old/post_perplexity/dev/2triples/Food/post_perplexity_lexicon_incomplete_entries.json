@@ -1,0 +1,270 @@
+{
+    "node_keys": {
+        "\"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin\"": {
+            "comp_fxn": ""
+        },
+        "\"France, United States or China\"": {
+            "comp_fxn": ""
+        },
+        "\"Ground almond, jam, butter, eggs\"": {
+            "comp_fxn": ""
+        },
+        "\"Main course\"": {
+            "comp_fxn": ""
+        },
+        "\"Pakora and other fritters made from wheat or corn flour\"": {
+            "comp_fxn": ""
+        },
+        "\"Rutland Arms, Bakewell, in 1820\"": {
+            "comp_fxn": ""
+        },
+        "\"Squeezed\" or \"smashed\" fried chicken served with sambal": {
+            "comp_fxn": ""
+        },
+        "Ajoblanco": {
+            "comp_fxn": ""
+        },
+        "Almond": {
+            "comp_fxn": ""
+        },
+        "Amatriciana_sauce": {
+            "comp_fxn": ""
+        },
+        "Andalusia": {
+            "comp_fxn": ""
+        },
+        "Antioquia_Department": {
+            "comp_fxn": ""
+        },
+        "Arem-arem": {
+            "comp_fxn": ""
+        },
+        "Arrabbiata_sauce": {
+            "comp_fxn": ""
+        },
+        "Arr\u00f2s_negre": {
+            "comp_fxn": ""
+        },
+        "Ayam_penyet": {
+            "comp_fxn": ""
+        },
+        "Bacon": {
+            "comp_fxn": ""
+        },
+        "Bacon_Explosion": {
+            "comp_fxn": ""
+        },
+        "Bacon_sandwich": {
+            "comp_fxn": ""
+        },
+        "Baked_Alaska": {
+            "comp_fxn": ""
+        },
+        "Bakewell_pudding": {
+            "comp_fxn": ""
+        },
+        "Bakewell_tart": {
+            "comp_fxn": ""
+        },
+        "Banana": {
+            "comp_fxn": ""
+        },
+        "Banana_leaf": {
+            "comp_fxn": ""
+        },
+        "Bandeja_paisa": {
+            "comp_fxn": ""
+        },
+        "Batagor": {
+            "comp_fxn": ""
+        },
+        "Batchoy": {
+            "comp_fxn": ""
+        },
+        "Beef_kway_teow": {
+            "comp_fxn": ""
+        },
+        "Bhajji": {
+            "comp_fxn": ""
+        },
+        "Binignit": {
+            "comp_fxn": ""
+        },
+        "Bionico": {
+            "comp_fxn": ""
+        },
+        "Bread": {
+            "comp_fxn": ""
+        },
+        "China": {
+            "comp_fxn": ""
+        },
+        "Chinese_Filipino": {
+            "comp_fxn": ""
+        },
+        "Christmas_pudding": {
+            "comp_fxn": ""
+        },
+        "Citrus": {
+            "comp_fxn": ""
+        },
+        "Colombia": {
+            "comp_fxn": ""
+        },
+        "Cookie": {
+            "comp_fxn": ""
+        },
+        "Cuttlefish": {
+            "comp_fxn": ""
+        },
+        "Dessert": {
+            "comp_fxn": ""
+        },
+        "Flowering_plant": {
+            "comp_fxn": ""
+        },
+        "Gram_flour": {
+            "comp_fxn": ""
+        },
+        "Granola": {
+            "comp_fxn": ""
+        },
+        "Honey": {
+            "comp_fxn": ""
+        },
+        "Ice_cream": {
+            "comp_fxn": ""
+        },
+        "India": {
+            "comp_fxn": ""
+        },
+        "Indonesia": {
+            "comp_fxn": ""
+        },
+        "Italy": {
+            "comp_fxn": ""
+        },
+        "Java": {
+            "comp_fxn": ""
+        },
+        "John_Roberts": {
+            "comp_fxn": ""
+        },
+        "Lazio": {
+            "comp_fxn": ""
+        },
+        "Lemon": {
+            "comp_fxn": ""
+        },
+        "Olive_oil": {
+            "comp_fxn": ""
+        },
+        "Peanut_sauce": {
+            "comp_fxn": ""
+        },
+        "Philippines": {
+            "comp_fxn": ""
+        },
+        "Rome": {
+            "comp_fxn": ""
+        },
+        "Sago": {
+            "comp_fxn": ""
+        },
+        "Sausage": {
+            "comp_fxn": ""
+        },
+        "Shortcrust_pastry": {
+            "comp_fxn": ""
+        },
+        "Shrimp": {
+            "comp_fxn": ""
+        },
+        "Singapore": {
+            "comp_fxn": ""
+        },
+        "Siomay": {
+            "comp_fxn": ""
+        },
+        "Solanales": {
+            "comp_fxn": ""
+        },
+        "Spain": {
+            "comp_fxn": ""
+        },
+        "Squid": {
+            "comp_fxn": ""
+        },
+        "Standard_Chinese": {
+            "comp_fxn": ""
+        },
+        "Sumitra_Mahajan": {
+            "comp_fxn": ""
+        },
+        "Sweet_potato": {
+            "comp_fxn": ""
+        },
+        "Tomato": {
+            "comp_fxn": ""
+        },
+        "Tony_Tan": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "Valencian_Community": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "alternativeName": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "course": {
+            "comp_fxn": ""
+        },
+        "creator": {
+            "comp_fxn": ""
+        },
+        "dishVariation": {
+            "comp_fxn": ""
+        },
+        "division": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "genus": {
+            "comp_fxn": ""
+        },
+        "ingredient": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "mainIngredient": {
+            "comp_fxn": ""
+        },
+        "order": {
+            "comp_fxn": ""
+        },
+        "region": {
+            "comp_fxn": ""
+        },
+        "similarDish": {
+            "comp_fxn": ""
+        }
+    }
+}

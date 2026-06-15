@@ -1,0 +1,7 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+"Glen_Ridge,_New_Jersey" [lexicon_key="Glen_Ridge,_New_Jersey"];
+United_States [lexicon_key="United_States"];
+Buzz_Aldrin -> "Glen_Ridge,_New_Jersey" [label=birthPlace, lexicon_key=birthPlace];
+Buzz_Aldrin -> United_States [label=nationality, lexicon_key=nationality];
+}

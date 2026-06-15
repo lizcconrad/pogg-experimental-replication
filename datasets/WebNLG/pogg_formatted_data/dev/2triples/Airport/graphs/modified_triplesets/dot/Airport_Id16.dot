@@ -1,0 +1,7 @@
+strict digraph {
+Angola_International_Airport [lexicon_key="Angola_International_Airport"];
+"Ícolo_e_Bengo" [lexicon_key="Ícolo_e_Bengo"];
+Angola [lexicon_key=Angola];
+Angola_International_Airport -> "Ícolo_e_Bengo" [label=location, lexicon_key=location];
+"Ícolo_e_Bengo" -> Angola [label=country, lexicon_key=country];
+}

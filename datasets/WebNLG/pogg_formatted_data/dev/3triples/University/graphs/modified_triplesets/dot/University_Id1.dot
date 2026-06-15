@@ -1,0 +1,9 @@
+strict digraph {
+Accademia_di_Architettura_di_Mendrisio [lexicon_key="Accademia_di_Architettura_di_Mendrisio"];
+Switzerland [lexicon_key=Switzerland];
+Mario_Botta [lexicon_key="Mario_Botta"];
+600 [lexicon_key=600];
+Accademia_di_Architettura_di_Mendrisio -> Switzerland [label=country, lexicon_key=country];
+Accademia_di_Architettura_di_Mendrisio -> Mario_Botta [label=dean, lexicon_key=dean];
+Accademia_di_Architettura_di_Mendrisio -> 600 [label=numberOfStudents, lexicon_key=numberOfStudents];
+}

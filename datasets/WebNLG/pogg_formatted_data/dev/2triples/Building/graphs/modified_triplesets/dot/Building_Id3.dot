@@ -1,0 +1,7 @@
+strict digraph {
+"20_Fenchurch_Street" [lexicon_key="20_Fenchurch_Street"];
+London [lexicon_key=London];
+European_Parliament [lexicon_key="European_Parliament"];
+"20_Fenchurch_Street" -> London [label=location, lexicon_key=location];
+London -> European_Parliament [label=leaderTitle, lexicon_key=leaderTitle];
+}

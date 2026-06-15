@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Adam_Koc": {
+            "lexicon_key": "Adam_Koc"
+        },
+        "New_York_City": {
+            "lexicon_key": "New_York_City"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Adam_Koc",
+            "child_node": "New_York_City",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Koc died in New York City."
+        }
+    },
+    "gold_outputs": [
+        "Adam Koc died in New York City."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Austria": {
+            "lexicon_key": "Austria"
+        },
+        "Doris_Bures": {
+            "lexicon_key": "Doris_Bures"
+        },
+        "Alfons_Gorbach": {
+            "lexicon_key": "Alfons_Gorbach"
+        },
+        "Imst": {
+            "lexicon_key": "Imst"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Austria",
+            "child_node": "Doris_Bures",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alfons_Gorbach",
+            "child_node": "Imst",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alfons_Gorbach",
+            "child_node": "Austria",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfons Gorbach was born in Imst and died in Austria, where Doris Bures is a leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfons Gorbach was born in Imst and died in Austria, where the leader is Doris Bures."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfons Gorbach was born in Imst and later died in Austria where Doris Bures is the leader."
+        }
+    },
+    "gold_outputs": [
+        "Alfons Gorbach was born in Imst and died in Austria, where Doris Bures is a leader.",
+        "Alfons Gorbach was born in Imst and died in Austria, where the leader is Doris Bures.",
+        "Alfons Gorbach was born in Imst and later died in Austria where Doris Bures is the leader."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albany,_Georgia": {
+            "lexicon_key": "Albany,_Georgia"
+        },
+        "Dougherty_County,_Georgia": {
+            "lexicon_key": "Dougherty_County,_Georgia"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Albany,_Georgia",
+            "child_node": "Dougherty_County,_Georgia",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albany,_Georgia",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albany is a city in Dougherty County, Georgia in the United States where African Americans are an ethnic group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albany is part of Dougherty County in Georgia in the United States where African Americans are one of the ethnic groups."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The United States is home to an ethnic group called African Americans and is where you will find Albany, Dougherty County in Georgia."
+        }
+    },
+    "gold_outputs": [
+        "Albany is a city in Dougherty County, Georgia in the United States where African Americans are an ethnic group.",
+        "Albany is part of Dougherty County in Georgia in the United States where African Americans are one of the ethnic groups.",
+        "The United States is home to an ethnic group called African Americans and is where you will find Albany, Dougherty County in Georgia."
+    ]
+}

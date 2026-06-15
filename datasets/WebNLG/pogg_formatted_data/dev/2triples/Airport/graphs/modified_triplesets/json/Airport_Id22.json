@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Athens_International_Airport": {
+            "lexicon_key": "Athens_International_Airport"
+        },
+        "Athens": {
+            "lexicon_key": "Athens"
+        },
+        "Spata": {
+            "lexicon_key": "Spata"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Athens_International_Airport",
+            "child_node": "Athens",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Athens_International_Airport",
+            "child_node": "Spata",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Athens International Airport is in Spata and serves the city of Athens."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Athens International Airport, which is located in Spata, serves the city of Athens."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Athens International Airport in Spata serves the city of Athens."
+        }
+    },
+    "gold_outputs": [
+        "Athens International Airport in Spata serves the city of Athens.",
+        "Athens International Airport is in Spata and serves the city of Athens.",
+        "Athens International Airport, which is located in Spata, serves the city of Athens."
+    ]
+}

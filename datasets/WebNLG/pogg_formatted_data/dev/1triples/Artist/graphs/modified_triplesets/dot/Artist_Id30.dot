@@ -1,0 +1,5 @@
+strict digraph {
+Hip_hop_music [lexicon_key="Hip_hop_music"];
+Gangsta_rap [lexicon_key="Gangsta_rap"];
+Hip_hop_music -> Gangsta_rap [label=musicSubgenre, lexicon_key=musicSubgenre];
+}

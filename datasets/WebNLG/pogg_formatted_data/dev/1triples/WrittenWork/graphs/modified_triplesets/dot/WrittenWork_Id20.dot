@@ -1,0 +1,5 @@
+strict digraph {
+Alcatraz_Versus_the_Evil_Librarians [lexicon_key="Alcatraz_Versus_the_Evil_Librarians"];
+"Alcatraz_Versus_the_Scrivener's_Bones" [lexicon_key="Alcatraz_Versus_the_Scrivener's_Bones"];
+Alcatraz_Versus_the_Evil_Librarians -> "Alcatraz_Versus_the_Scrivener's_Bones" [label=followedBy, lexicon_key=followedBy];
+}

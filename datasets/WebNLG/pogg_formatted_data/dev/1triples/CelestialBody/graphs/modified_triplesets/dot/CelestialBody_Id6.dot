@@ -1,0 +1,5 @@
+strict digraph {
+"101_Helena" [lexicon_key="101_Helena"];
+"1516.6700000000003 (days)" [lexicon_key="1516.6700000000003 (days)"];
+"101_Helena" -> "1516.6700000000003 (days)" [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+}

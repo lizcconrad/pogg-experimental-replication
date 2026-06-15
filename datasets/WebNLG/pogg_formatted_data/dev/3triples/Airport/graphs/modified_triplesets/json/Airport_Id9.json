@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Alderney_Airport": {
+            "lexicon_key": "Alderney_Airport"
+        },
+        "Poaceae": {
+            "lexicon_key": "Poaceae"
+        },
+        "733.0": {
+            "lexicon_key": "733.0"
+        },
+        "Alderney": {
+            "lexicon_key": "Alderney"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "1stRunwaySurfaceType",
+            "parent_node": "Alderney_Airport",
+            "child_node": "Poaceae",
+            "edge_properties": {
+                "lexicon_key": "1stRunwaySurfaceType"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Alderney_Airport",
+            "child_node": "733.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Alderney_Airport",
+            "child_node": "Alderney",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The 1st runway at Alderney Airport is made from Poaceae and has a length of 733.0. Alderney Airport serves the city of Alderney."
+        }
+    },
+    "gold_outputs": [
+        "The 1st runway at Alderney Airport is made from Poaceae and has a length of 733.0. Alderney Airport serves the city of Alderney."
+    ]
+}

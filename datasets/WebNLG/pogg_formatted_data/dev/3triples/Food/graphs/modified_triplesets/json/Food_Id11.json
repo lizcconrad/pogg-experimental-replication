@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Ayam_penyet": {
+            "lexicon_key": "Ayam_penyet"
+        },
+        "Malaysia": {
+            "lexicon_key": "Malaysia"
+        },
+        "Java": {
+            "lexicon_key": "Java"
+        },
+        "\"Squeezed\" or \"smashed\" fried chicken served with sambal": {
+            "lexicon_key": "\"Squeezed\" or \"smashed\" fried chicken served with sambal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Ayam_penyet",
+            "child_node": "Malaysia",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Ayam_penyet",
+            "child_node": "Java",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Ayam_penyet",
+            "child_node": "\"Squeezed\" or \"smashed\" fried chicken served with sambal",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ayam penyet is made from squeezed or squashed chicken served with sambal and is a popular dish in Java, Malaysia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ayam penyet's main ingredients are squeezed or smashed fried chicken served with sambal. It is a popular dish in Malaysia and also found in Java."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ayam penyet originates from Malaysia and Java. The main ingredients are squeezed or smashed fried chicken served with sambal."
+        }
+    },
+    "gold_outputs": [
+        "Ayam penyet is made from squeezed or squashed chicken served with sambal and is a popular dish in Java, Malaysia.",
+        "Ayam penyet originates from Malaysia and Java. The main ingredients are squeezed or smashed fried chicken served with sambal.",
+        "Ayam penyet's main ingredients are squeezed or smashed fried chicken served with sambal. It is a popular dish in Malaysia and also found in Java."
+    ]
+}

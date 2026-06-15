@@ -1,0 +1,5 @@
+strict digraph {
+"1955_Dodge" [lexicon_key="1955_Dodge"];
+"230 (cubic inches)" [lexicon_key="230 (cubic inches)"];
+"1955_Dodge" -> "230 (cubic inches)" [label=engine, lexicon_key=engine];
+}

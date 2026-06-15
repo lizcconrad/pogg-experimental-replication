@@ -1,0 +1,7 @@
+strict digraph {
+Chinabank [lexicon_key=Chinabank];
+Banking [lexicon_key=Banking];
+15100000000 [lexicon_key=15100000000];
+Chinabank -> Banking [label=service, lexicon_key=service];
+Chinabank -> 15100000000 [label=netIncome, lexicon_key=netIncome];
+}

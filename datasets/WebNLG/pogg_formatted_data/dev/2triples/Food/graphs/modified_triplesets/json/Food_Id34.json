@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Ice_cream": {
+            "lexicon_key": "Ice_cream"
+        },
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Dessert",
+            "child_node": "Ice_cream",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bionico and ice cream are both served as a dessert course."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bionico and ice cream are types of dessert."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bionico and Ice Cream are served at the dessert course."
+        }
+    },
+    "gold_outputs": [
+        "Bionico and Ice Cream are served at the dessert course.",
+        "Bionico and ice cream are both served as a dessert course.",
+        "Bionico and ice cream are types of dessert."
+    ]
+}

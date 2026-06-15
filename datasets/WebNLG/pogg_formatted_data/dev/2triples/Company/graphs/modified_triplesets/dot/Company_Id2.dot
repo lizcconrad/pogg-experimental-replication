@@ -1,0 +1,7 @@
+strict digraph {
+AmeriGas [lexicon_key=AmeriGas];
+United_States [lexicon_key="United_States"];
+Energy_industry [lexicon_key="Energy_industry"];
+AmeriGas -> United_States [label=regionServed, lexicon_key=regionServed];
+AmeriGas -> Energy_industry [label=industry, lexicon_key=industry];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Al-Khor_Sports_Club": {
+            "lexicon_key": "Al-Khor_Sports_Club"
+        },
+        "Qatar_Stars_League": {
+            "lexicon_key": "Qatar_Stars_League"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Al-Khor_Sports_Club",
+            "child_node": "Qatar_Stars_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Al-Khor Sports Club is in the Qatar Stars League."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Al-Khor Sports Club play in the Qatar Stars League."
+        }
+    },
+    "gold_outputs": [
+        "Al-Khor Sports Club is in the Qatar Stars League.",
+        "Al-Khor Sports Club play in the Qatar Stars League."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Honda [lexicon_key=Honda];
+Acura [lexicon_key=Acura];
+Honda -> Acura [label=division, lexicon_key=division];
+}

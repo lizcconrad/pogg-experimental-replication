@@ -1,0 +1,5 @@
+strict digraph {
+Athens [lexicon_key=Athens];
+Giorgos_Kaminis [lexicon_key="Giorgos_Kaminis"];
+Athens -> Giorgos_Kaminis [label=mayor, lexicon_key=mayor];
+}

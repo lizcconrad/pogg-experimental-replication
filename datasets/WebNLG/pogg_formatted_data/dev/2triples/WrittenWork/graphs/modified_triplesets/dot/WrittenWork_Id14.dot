@@ -1,0 +1,7 @@
+strict digraph {
+A_Wizard_of_Mars [lexicon_key="A_Wizard_of_Mars"];
+Hardcover [lexicon_key=Hardcover];
+"978-0-15-204770-2" [lexicon_key="978-0-15-204770-2"];
+A_Wizard_of_Mars -> Hardcover [label=mediaType, lexicon_key=mediaType];
+A_Wizard_of_Mars -> "978-0-15-204770-2" [label=isbnNumber, lexicon_key=isbnNumber];
+}

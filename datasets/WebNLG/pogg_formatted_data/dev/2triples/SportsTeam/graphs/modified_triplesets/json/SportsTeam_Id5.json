@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "A.E_Dimitra_Efxeinoupolis": {
+            "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+        },
+        "1500": {
+            "lexicon_key": "1500"
+        },
+        "A_EPSTH_2nd_GROUP": {
+            "lexicon_key": "A_EPSTH_2nd_GROUP"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "A.E_Dimitra_Efxeinoupolis",
+            "child_node": "1500",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        },
+        {
+            "edge_name": "league",
+            "parent_node": "A.E_Dimitra_Efxeinoupolis",
+            "child_node": "A_EPSTH_2nd_GROUP",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.E. Dimitra Efxeinoupolis has 1500 members and is in the EPSTH 2nd GROUP league."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "With 1500 members, A.E Dimitra Efxeinoupolis, play in the A EPSTH 2nd GROUP."
+        }
+    },
+    "gold_outputs": [
+        "A.E. Dimitra Efxeinoupolis has 1500 members and is in the EPSTH 2nd GROUP league.",
+        "With 1500 members, A.E Dimitra Efxeinoupolis, play in the A EPSTH 2nd GROUP."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abdulsalami_Abubakar": {
+            "lexicon_key": "Abdulsalami_Abubakar"
+        },
+        "Olusegun_Obasanjo": {
+            "lexicon_key": "Olusegun_Obasanjo"
+        },
+        "Mike_Akhigbe": {
+            "lexicon_key": "Mike_Akhigbe"
+        },
+        "Oladipo_Diya": {
+            "lexicon_key": "Oladipo_Diya"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Olusegun_Obasanjo",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        },
+        {
+            "edge_name": "inOfficeWhileVicePresident",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Mike_Akhigbe",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhileVicePresident"
+            }
+        },
+        {
+            "edge_name": "predecessor",
+            "parent_node": "Mike_Akhigbe",
+            "child_node": "Oladipo_Diya",
+            "edge_properties": {
+                "lexicon_key": "predecessor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar served while Mike Akhigbe, who was preceded by Oladipo Diya, was Vice President. He was succeeded by Olusegun Obasanjo."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar's successor was Olusegun Obasanjo. Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who, in turn, was the predecessor of Oladipo Diya."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Olusegun Obasanjo succeeded Abdulsalami Abubakar, who was in office while Mike Akhigbe was the Vice President. Oladipo Diya was the predecessor of Mike Akhigbe."
+        }
+    },
+    "gold_outputs": [
+        "Abdulsalami Abubakar served while Mike Akhigbe, who was preceded by Oladipo Diya, was Vice President. He was succeeded by Olusegun Obasanjo.",
+        "Abdulsalami Abubakar's successor was Olusegun Obasanjo. Abdulsalami Abubakar was in office while Mike Akhigbe was Vice President who, in turn, was the predecessor of Oladipo Diya.",
+        "Olusegun Obasanjo succeeded Abdulsalami Abubakar, who was in office while Mike Akhigbe was the Vice President. Oladipo Diya was the predecessor of Mike Akhigbe."
+    ]
+}

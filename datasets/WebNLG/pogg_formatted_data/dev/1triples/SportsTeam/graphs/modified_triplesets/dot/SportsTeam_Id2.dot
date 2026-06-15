@@ -1,0 +1,5 @@
+strict digraph {
+"1._FC_Magdeburg" [lexicon_key="1._FC_Magdeburg"];
+2014 [lexicon_key=2014];
+"1._FC_Magdeburg" -> 2014 [label=season, lexicon_key=season];
+}

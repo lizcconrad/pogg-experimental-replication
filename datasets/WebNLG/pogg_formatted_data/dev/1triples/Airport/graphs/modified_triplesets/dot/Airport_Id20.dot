@@ -1,0 +1,5 @@
+strict digraph {
+Angola_International_Airport [lexicon_key="Angola_International_Airport"];
+Luanda [lexicon_key=Luanda];
+Angola_International_Airport -> Luanda [label=cityServed, lexicon_key=cityServed];
+}

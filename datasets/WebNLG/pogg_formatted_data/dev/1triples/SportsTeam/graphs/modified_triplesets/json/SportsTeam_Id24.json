@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Gus_Poyet": {
+            "lexicon_key": "Gus_Poyet"
+        },
+        "AEK_Athens_F.C.": {
+            "lexicon_key": "AEK_Athens_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Gus_Poyet",
+            "child_node": "AEK_Athens_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Gus Poyet is in AEK Athens F.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Gus Poyet plays for AEK Athens F.C."
+        }
+    },
+    "gold_outputs": [
+        "Gus Poyet is in AEK Athens F.C.",
+        "Gus Poyet plays for AEK Athens F.C."
+    ]
+}

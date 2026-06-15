@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "Sarawak": {
+            "lexicon_key": "Sarawak"
+        },
+        "Kingdom_of_Sarawak": {
+            "lexicon_key": "Kingdom_of_Sarawak"
+        },
+        "\"Barisan Ra'ayat Jati Sarawak\"": {
+            "lexicon_key": "\"Barisan Ra'ayat Jati Sarawak\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "residence",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Sarawak",
+            "edge_properties": {
+                "lexicon_key": "residence"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Kingdom_of_Sarawak",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "party",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "\"Barisan Ra'ayat Jati Sarawak\"",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in the Kingdom of Sarawak, Abdul Taib Mahmud, resides in Sarawak and is a member of Barisan Ra'ayat Jati Sarawak party."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud was born and lives in the Kingdom of Sarawak and is a member of the \"Barisan Ra'ayat Jati Sarawak\" party."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud, a member of Barisan Ra'ayat Jati Sarawak party, was born in Kingdom of Sarawak and lives in Sarawak."
+        }
+    },
+    "gold_outputs": [
+        "Abdul Taib Mahmud was born and lives in the Kingdom of Sarawak and is a member of the \"Barisan Ra'ayat Jati Sarawak\" party.",
+        "Abdul Taib Mahmud, a member of Barisan Ra'ayat Jati Sarawak party, was born in Kingdom of Sarawak and lives in Sarawak.",
+        "Born in the Kingdom of Sarawak, Abdul Taib Mahmud, resides in Sarawak and is a member of Barisan Ra'ayat Jati Sarawak party."
+    ]
+}

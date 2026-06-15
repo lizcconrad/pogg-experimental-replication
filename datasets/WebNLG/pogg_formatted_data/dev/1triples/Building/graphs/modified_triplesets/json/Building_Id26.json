@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Republic_of_Ireland": {
+            "lexicon_key": "Republic_of_Ireland"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Republic_of_Ireland",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ireland official language is English."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The English language is the main language of the Republic of Ireland."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "One language used in the Republic of Ireland is English."
+        }
+    },
+    "gold_outputs": [
+        "Ireland official language is English.",
+        "One language used in the Republic of Ireland is English.",
+        "The English language is the main language of the Republic of Ireland."
+    ]
+}

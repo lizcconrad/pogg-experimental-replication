@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Italy": {
+            "lexicon_key": "Italy"
+        },
+        "Italians": {
+            "lexicon_key": "Italians"
+        },
+        "Sergio_Mattarella": {
+            "lexicon_key": "Sergio_Mattarella"
+        },
+        "A.S._Gubbio_1910": {
+            "lexicon_key": "A.S._Gubbio_1910"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "Italy",
+            "child_node": "Italians",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Italy",
+            "child_node": "Sergio_Mattarella",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "A.S._Gubbio_1910",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ground of A.S. Gubbio 1910 is located in Italy where Sergio Mattarella is a leader and where the Italian people live."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ground of A.S. Gubbio 1910 is located in Italy which is led by Sergio Mattarella and inhabited by Italians."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The ground of A.S. Gubbio 1910 is located in Italy, country of Italians where the leader is Sergio Mattarella."
+        }
+    },
+    "gold_outputs": [
+        "The ground of A.S. Gubbio 1910 is located in Italy where Sergio Mattarella is a leader and where the Italian people live.",
+        "The ground of A.S. Gubbio 1910 is located in Italy which is led by Sergio Mattarella and inhabited by Italians.",
+        "The ground of A.S. Gubbio 1910 is located in Italy, country of Italians where the leader is Sergio Mattarella."
+    ]
+}

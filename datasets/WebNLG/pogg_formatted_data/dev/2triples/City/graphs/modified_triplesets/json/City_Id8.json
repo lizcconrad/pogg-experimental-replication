@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Anderson,_Indiana": {
+            "lexicon_key": "Anderson,_Indiana"
+        },
+        "Union_Township,_Madison_County,_Indiana": {
+            "lexicon_key": "Union_Township,_Madison_County,_Indiana"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Anderson,_Indiana",
+            "child_node": "Union_Township,_Madison_County,_Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Union_Township,_Madison_County,_Indiana",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anderson is part of Union Township, Madison County, Indiana, United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anderson is part of Union Township, Madison County, Indiana in the United States."
+        }
+    },
+    "gold_outputs": [
+        "Anderson is part of Union Township, Madison County, Indiana in the United States.",
+        "Anderson is part of Union Township, Madison County, Indiana, United States."
+    ]
+}

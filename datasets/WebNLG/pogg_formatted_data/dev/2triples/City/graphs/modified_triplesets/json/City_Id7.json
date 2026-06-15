@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Anderson,_Indiana": {
+            "lexicon_key": "Anderson,_Indiana"
+        },
+        "Fall_Creek_Township,_Madison_County,_Indiana": {
+            "lexicon_key": "Fall_Creek_Township,_Madison_County,_Indiana"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Anderson,_Indiana",
+            "child_node": "Fall_Creek_Township,_Madison_County,_Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Fall_Creek_Township,_Madison_County,_Indiana",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anderson, Indiana, is part of Fall Creek Township, Madison County Indiana, United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anderson is part of Fall Creek Township, Madison County, Indiana in the U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Anderson, is part of Fall Creek Township, Madison County, Indiana, in the U.S."
+        }
+    },
+    "gold_outputs": [
+        "Anderson is part of Fall Creek Township, Madison County, Indiana in the U.S.",
+        "Anderson, Indiana, is part of Fall Creek Township, Madison County Indiana, United States.",
+        "Anderson, is part of Fall Creek Township, Madison County, Indiana, in the U.S."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alessio_Romagnoli": {
+            "lexicon_key": "Alessio_Romagnoli"
+        },
+        "A.C._Milan": {
+            "lexicon_key": "A.C._Milan"
+        },
+        "Defender_(football)": {
+            "lexicon_key": "Defender_(football)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alessio_Romagnoli",
+            "child_node": "A.C._Milan",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "position",
+            "parent_node": "Alessio_Romagnoli",
+            "child_node": "Defender_(football)",
+            "edge_properties": {
+                "lexicon_key": "position"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alessio Romagnoli is a defender for A.C. Milan football club."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Footballer Alessio Romagnoli plays for A.C. Milan as a Defender."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alessio Romagnoli was a defender in his club AC Milan."
+        }
+    },
+    "gold_outputs": [
+        "Alessio Romagnoli is a defender for A.C. Milan football club.",
+        "Alessio Romagnoli was a defender in his club AC Milan.",
+        "Footballer Alessio Romagnoli plays for A.C. Milan as a Defender."
+    ]
+}

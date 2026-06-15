@@ -1,0 +1,9 @@
+strict digraph {
+Alvah_Sabin [lexicon_key="Alvah_Sabin"];
+"Georgia,_Vermont" [lexicon_key="Georgia,_Vermont"];
+"1793-10-23" [lexicon_key="1793-10-23"];
+Secretary_of_State_of_Vermont [lexicon_key="Secretary_of_State_of_Vermont"];
+Alvah_Sabin -> "Georgia,_Vermont" [label=birthPlace, lexicon_key=birthPlace];
+Alvah_Sabin -> "1793-10-23" [label=birthDate, lexicon_key=birthDate];
+Alvah_Sabin -> Secretary_of_State_of_Vermont [label=office, lexicon_key=office];
+}

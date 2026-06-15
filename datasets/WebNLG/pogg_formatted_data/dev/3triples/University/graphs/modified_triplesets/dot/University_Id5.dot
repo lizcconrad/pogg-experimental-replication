@@ -1,0 +1,9 @@
+strict digraph {
+India [lexicon_key=India];
+Mumbai [lexicon_key=Mumbai];
+AWH_Engineering_College [lexicon_key="AWH_Engineering_College"];
+Ganges [lexicon_key=Ganges];
+India -> Mumbai [label=largestCity, lexicon_key=largestCity];
+India -> Ganges [label=river, lexicon_key=river];
+AWH_Engineering_College -> India [label=country, lexicon_key=country];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Afonso_Pena_International_Airport": {
+            "lexicon_key": "Afonso_Pena_International_Airport"
+        },
+        "Infraero": {
+            "lexicon_key": "Infraero"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Afonso_Pena_International_Airport",
+            "child_node": "Infraero",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The operating organization for Afonso Pena International Airport is Infraero."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Afonso Pena International Airport is operated by Infraero."
+        }
+    },
+    "gold_outputs": [
+        "Afonso Pena International Airport is operated by Infraero.",
+        "The operating organization for Afonso Pena International Airport is Infraero."
+    ]
+}

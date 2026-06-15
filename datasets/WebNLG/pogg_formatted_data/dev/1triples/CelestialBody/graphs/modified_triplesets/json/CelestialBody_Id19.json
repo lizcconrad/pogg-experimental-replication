@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "110_Lydia": {
+            "lexicon_key": "110_Lydia"
+        },
+        "2006-12-31": {
+            "lexicon_key": "2006-12-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "110_Lydia",
+            "child_node": "2006-12-31",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "110 Lydia has an epoch date of December 31st 2006."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "31 December 2006 is the epoch of 110 Lydia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "110 Lydia's epoch is 31st December 2006."
+        }
+    },
+    "gold_outputs": [
+        "110 Lydia has an epoch date of December 31st 2006.",
+        "110 Lydia's epoch is 31st December 2006.",
+        "31 December 2006 is the epoch of 110 Lydia."
+    ]
+}

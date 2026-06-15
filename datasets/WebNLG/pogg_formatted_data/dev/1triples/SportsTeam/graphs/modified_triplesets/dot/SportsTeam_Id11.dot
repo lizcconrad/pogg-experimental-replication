@@ -1,0 +1,5 @@
+strict digraph {
+"A.S._Livorno_Calcio" [lexicon_key="A.S._Livorno_Calcio"];
+19238 [lexicon_key=19238];
+"A.S._Livorno_Calcio" -> 19238 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

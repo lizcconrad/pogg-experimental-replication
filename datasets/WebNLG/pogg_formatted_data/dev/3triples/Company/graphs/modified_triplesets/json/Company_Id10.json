@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "Ireland": {
+            "lexicon_key": "Ireland"
+        },
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        },
+        "Europe": {
+            "lexicon_key": "Europe"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Trane",
+            "child_node": "Ireland",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Trane",
+            "child_node": "La_Crosse,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Ireland",
+            "child_node": "Europe",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The company Trane was founded in La Crosse, Wisconsin and is in Ireland in Europe."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Trane was founded in La Crosse, Wisconsin, but is now located in the European nation of Ireland."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Trane, founded in La Crosse, Wisconsin, is located in Europe in the country Ireland."
+        }
+    },
+    "gold_outputs": [
+        "The company Trane was founded in La Crosse, Wisconsin and is in Ireland in Europe.",
+        "Trane was founded in La Crosse, Wisconsin, but is now located in the European nation of Ireland.",
+        "Trane, founded in La Crosse, Wisconsin, is located in Europe in the country Ireland."
+    ]
+}

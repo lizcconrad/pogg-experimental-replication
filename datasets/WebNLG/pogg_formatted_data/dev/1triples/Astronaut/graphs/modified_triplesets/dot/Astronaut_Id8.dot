@@ -1,0 +1,5 @@
+strict digraph {
+University_of_Texas_at_Austin [lexicon_key="University_of_Texas_at_Austin"];
+"Hook_'em_(mascot)" [lexicon_key="Hook_'em_(mascot)"];
+University_of_Texas_at_Austin -> "Hook_'em_(mascot)" [label=mascot, lexicon_key=mascot];
+}

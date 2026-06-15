@@ -1,0 +1,9 @@
+strict digraph {
+"Andra_(singer)" [lexicon_key="Andra_(singer)"];
+Rhythm_and_blues [lexicon_key="Rhythm_and_blues"];
+"solo_singer" [lexicon_key="solo_singer"];
+Disco [lexicon_key=Disco];
+"Andra_(singer)" -> Rhythm_and_blues [label=genre, lexicon_key=genre];
+"Andra_(singer)" -> "solo_singer" [label=background, lexicon_key=background];
+Rhythm_and_blues -> Disco [label=derivative, lexicon_key=derivative];
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        },
+        "686.0 (square kilometres)": {
+            "lexicon_key": "686.0 (square kilometres)"
+        },
+        "703.95 (square kilometres)": {
+            "lexicon_key": "703.95 (square kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaOfLand",
+            "parent_node": "Austin,_Texas",
+            "child_node": "686.0 (square kilometres)",
+            "edge_properties": {
+                "lexicon_key": "areaOfLand"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Austin,_Texas",
+            "child_node": "703.95 (square kilometres)",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The area of Austin, Texas is 703.95km2 and the land area is 686km2."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Austin, Texas has a total area of 703.95 sq km including a land area of 686 sq km."
+        }
+    },
+    "gold_outputs": [
+        "Austin, Texas has a total area of 703.95 sq km including a land area of 686 sq km.",
+        "The area of Austin, Texas is 703.95km2 and the land area is 686km2."
+    ]
+}

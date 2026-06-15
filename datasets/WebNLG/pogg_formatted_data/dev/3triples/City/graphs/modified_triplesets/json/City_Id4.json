@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albany,_Oregon": {
+            "lexicon_key": "Albany,_Oregon"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Linn_County,_Oregon": {
+            "lexicon_key": "Linn_County,_Oregon"
+        },
+        "Benton_County,_Oregon": {
+            "lexicon_key": "Benton_County,_Oregon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "Linn_County,_Oregon",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "Benton_County,_Oregon",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albany is a city in Linn County and part of Benton County, Oregon in the U.S."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The city of Albany is part of both Linn County and Benton County, in Oregon, in the United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Part of Linn County, the city of Albany, is also part of Benton County, Oregon, in the U.S."
+        }
+    },
+    "gold_outputs": [
+        "Albany is a city in Linn County and part of Benton County, Oregon in the U.S.",
+        "Part of Linn County, the city of Albany, is also part of Benton County, Oregon, in the U.S.",
+        "The city of Albany is part of both Linn County and Benton County, in Oregon, in the United States."
+    ]
+}

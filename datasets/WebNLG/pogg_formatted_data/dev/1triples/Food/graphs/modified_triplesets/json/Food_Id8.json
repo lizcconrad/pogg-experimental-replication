@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Asam_pedas": {
+            "lexicon_key": "Asam_pedas"
+        },
+        "Malaysia": {
+            "lexicon_key": "Malaysia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Asam_pedas",
+            "child_node": "Malaysia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Asam pedas is a food found in Malaysia."
+        }
+    },
+    "gold_outputs": [
+        "Asam pedas is a food found in Malaysia."
+    ]
+}

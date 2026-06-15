@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A.D._Isidro_Metap\u00e1n": {
+            "lexicon_key": "A.D._Isidro_Metap\u00e1n"
+        },
+        "Jorge_Humberto_Rodr\u00edguez": {
+            "lexicon_key": "Jorge_Humberto_Rodr\u00edguez"
+        },
+        "C.D._FAS": {
+            "lexicon_key": "C.D._FAS"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.D._Isidro_Metap\u00e1n",
+            "child_node": "Jorge_Humberto_Rodr\u00edguez",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Jorge_Humberto_Rodr\u00edguez",
+            "child_node": "C.D._FAS",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jorge Humberto Rodr\u00edguez manages the A.D. Isidro Metapan, he played for the C.D. FAS."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Jorge Humberto Rodriguez manages A.D. Isidro Metapan. He is in the C.D. FAS."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jorge Humberto Rodr\u00edguez manages the A.D. Isidro Metapan and plays for C.D. FAS."
+        }
+    },
+    "gold_outputs": [
+        "Jorge Humberto Rodriguez manages A.D. Isidro Metapan. He is in the C.D. FAS.",
+        "Jorge Humberto Rodr\u00edguez manages the A.D. Isidro Metapan and plays for C.D. FAS.",
+        "Jorge Humberto Rodr\u00edguez manages the A.D. Isidro Metapan, he played for the C.D. FAS."
+    ]
+}

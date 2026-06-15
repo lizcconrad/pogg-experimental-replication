@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alfa_Romeo_164": {
+            "lexicon_key": "Alfa_Romeo_164"
+        },
+        "Fiat_Croma": {
+            "lexicon_key": "Fiat_Croma"
+        },
+        "Arese": {
+            "lexicon_key": "Arese"
+        },
+        "Lancia_Thema": {
+            "lexicon_key": "Lancia_Thema"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Fiat_Croma",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        },
+        {
+            "edge_name": "assembly",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Arese",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Lancia_Thema",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 was assembled in Arese and is a similar means of transport to the Fiat Croma and also related to the Lancia Thema."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Arese assembled, Alfa Romeo 164 and the Fiat Croma as well as the Lancia Thema, are related types of transportation."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Arese assembled Alfa Romeo 164, the Fiat Croma and the Lancia Thema are all related."
+        }
+    },
+    "gold_outputs": [
+        "The Alfa Romeo 164 was assembled in Arese and is a similar means of transport to the Fiat Croma and also related to the Lancia Thema.",
+        "The Arese assembled Alfa Romeo 164, the Fiat Croma and the Lancia Thema are all related.",
+        "The Arese assembled, Alfa Romeo 164 and the Fiat Croma as well as the Lancia Thema, are related types of transportation."
+    ]
+}

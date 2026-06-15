@@ -1,0 +1,7 @@
+strict digraph {
+Adam_Maher [lexicon_key="Adam_Maher"];
+PSV_Eindhoven [lexicon_key="PSV_Eindhoven"];
+"Netherlands_national_under-17_football_team" [lexicon_key="Netherlands_national_under-17_football_team"];
+Adam_Maher -> PSV_Eindhoven [label=club, lexicon_key=club];
+Adam_Maher -> "Netherlands_national_under-17_football_team" [label=club, lexicon_key=club];
+}

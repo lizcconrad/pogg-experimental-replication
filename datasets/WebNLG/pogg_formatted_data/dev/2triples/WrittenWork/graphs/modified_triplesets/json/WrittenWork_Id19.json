@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Acta_Mathematica_Hungarica": {
+            "lexicon_key": "Acta_Mathematica_Hungarica"
+        },
+        "Springer_Science+Business_Media": {
+            "lexicon_key": "Springer_Science+Business_Media"
+        },
+        "Julius_Springer": {
+            "lexicon_key": "Julius_Springer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "Springer_Science+Business_Media",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        },
+        {
+            "edge_name": "founder",
+            "parent_node": "Springer_Science+Business_Media",
+            "child_node": "Julius_Springer",
+            "edge_properties": {
+                "lexicon_key": "founder"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica is the publisher of Springer Science+Business Media, founded by Julius Springer."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Springer Science and Business Media, founded by Julius Springer, publishes Acta Mathematica Hungarica."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Springer Science+Business Media founded by Julius Springer is the publisher of Acta Mathematica Hungarica."
+        }
+    },
+    "gold_outputs": [
+        "Acta Mathematica Hungarica is the publisher of Springer Science+Business Media, founded by Julius Springer.",
+        "Springer Science and Business Media, founded by Julius Springer, publishes Acta Mathematica Hungarica.",
+        "Springer Science+Business Media founded by Julius Springer is the publisher of Acta Mathematica Hungarica."
+    ]
+}

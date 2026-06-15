@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bhajji": {
+            "lexicon_key": "Bhajji"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "T._S._Thakur": {
+            "lexicon_key": "T._S._Thakur"
+        },
+        "Narendra_Modi": {
+            "lexicon_key": "Narendra_Modi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bhajji",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "T._S._Thakur",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "Narendra_Modi",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bhajji comes from the country of India, where two of the leaders are, T. S. Thakur and Narendra Modi."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bhajji originates from India, where two of the leaders are Narendra Modi and T.S. Thakur."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The dish bhajji originates in India where T.S. Thakur and Narendra Modi are leaders."
+        }
+    },
+    "gold_outputs": [
+        "Bhajji comes from the country of India, where two of the leaders are, T. S. Thakur and Narendra Modi.",
+        "Bhajji originates from India, where two of the leaders are Narendra Modi and T.S. Thakur.",
+        "The dish bhajji originates in India where T.S. Thakur and Narendra Modi are leaders."
+    ]
+}

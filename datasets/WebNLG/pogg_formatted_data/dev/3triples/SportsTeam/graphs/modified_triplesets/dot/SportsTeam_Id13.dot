@@ -1,0 +1,9 @@
+strict digraph {
+"AFC_Ajax_(amateurs)" [lexicon_key="AFC_Ajax_(amateurs)"];
+5000 [lexicon_key=5000];
+Hoofdklasse [lexicon_key=Hoofdklasse];
+2014 [lexicon_key=2014];
+"AFC_Ajax_(amateurs)" -> 5000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+"AFC_Ajax_(amateurs)" -> Hoofdklasse [label=league, lexicon_key=league];
+"AFC_Ajax_(amateurs)" -> 2014 [label=season, lexicon_key=season];
+}

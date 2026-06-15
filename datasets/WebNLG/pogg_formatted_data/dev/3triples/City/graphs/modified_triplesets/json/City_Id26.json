@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Albuquerque,_New_Mexico": {
+            "lexicon_key": "Albuquerque,_New_Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico is in the United States, where English is the official language and Africann Americans are one of the country's ethnic group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The United States include the ethnic group of African Americans, uses the English language, and is the location of Albuquerque in New Mexico."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico, is in the, English speaking, United States, where African Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "Albuquerque, New Mexico is in the United States, where English is the official language and Africann Americans are one of the country's ethnic group.",
+        "Albuquerque, New Mexico, is in the, English speaking, United States, where African Americans are an ethnic group.",
+        "The United States include the ethnic group of African Americans, uses the English language, and is the location of Albuquerque in New Mexico."
+    ]
+}

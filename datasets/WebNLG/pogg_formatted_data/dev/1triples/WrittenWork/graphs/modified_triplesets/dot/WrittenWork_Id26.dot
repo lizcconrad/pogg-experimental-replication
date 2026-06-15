@@ -1,0 +1,5 @@
+strict digraph {
+United_Kingdom [lexicon_key="United_Kingdom"];
+Elizabeth_II [lexicon_key="Elizabeth_II"];
+United_Kingdom -> Elizabeth_II [label=leader, lexicon_key=leader];
+}

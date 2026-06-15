@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Honda": {
+            "lexicon_key": "Honda"
+        },
+        "Acura": {
+            "lexicon_key": "Acura"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "division",
+            "parent_node": "Honda",
+            "child_node": "Acura",
+            "edge_properties": {
+                "lexicon_key": "division"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acura is a division of the Honda Co."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Acura is a division of Honda."
+        }
+    },
+    "gold_outputs": [
+        "Acura is a division of Honda.",
+        "Acura is a division of the Honda Co."
+    ]
+}

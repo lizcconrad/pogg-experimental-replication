@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Belgium": {
+            "lexicon_key": "Belgium"
+        },
+        "Philippe_of_Belgium": {
+            "lexicon_key": "Philippe_of_Belgium"
+        },
+        "Antwerp_International_Airport": {
+            "lexicon_key": "Antwerp_International_Airport"
+        },
+        "Antwerp": {
+            "lexicon_key": "Antwerp"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Belgium",
+            "child_node": "Philippe_of_Belgium",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Antwerp_International_Airport",
+            "child_node": "Antwerp",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Antwerp",
+            "child_node": "Belgium",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Antwerp International Airport serves the city of Antwerp in Belgium where the leader is Philippe of Belgium."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Antwerp, Belgium, is led by Philippe of Belgium and served by Antwerp International Airport."
+        }
+    },
+    "gold_outputs": [
+        "Antwerp International Airport serves the city of Antwerp in Belgium where the leader is Philippe of Belgium.",
+        "Antwerp, Belgium, is led by Philippe of Belgium and served by Antwerp International Airport."
+    ]
+}

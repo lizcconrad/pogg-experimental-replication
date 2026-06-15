@@ -1,0 +1,9 @@
+strict digraph {
+"Aleksandra_Kovač" [lexicon_key="Aleksandra_Kovač"];
+Bebi_Dol [lexicon_key="Bebi_Dol"];
+"Kornelije_Kovač" [lexicon_key="Kornelije_Kovač"];
+Pop_music [lexicon_key="Pop_music"];
+"Aleksandra_Kovač" -> Bebi_Dol [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+"Aleksandra_Kovač" -> "Kornelije_Kovač" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+"Aleksandra_Kovač" -> Pop_music [label=genre, lexicon_key=genre];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Ajoblanco [lexicon_key=Ajoblanco];
+"Bread, almonds, garlic, water, olive oil" [lexicon_key="Bread, almonds, garlic, water, olive oil"];
+Ajoblanco -> "Bread, almonds, garlic, water, olive oil" [label=mainIngredient, lexicon_key=mainIngredient];
+}

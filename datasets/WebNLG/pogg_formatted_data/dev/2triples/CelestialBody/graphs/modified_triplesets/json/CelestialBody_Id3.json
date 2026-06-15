@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "(66063)_1998_RO1": {
+            "lexicon_key": "(66063)_1998_RO1"
+        },
+        "2013-11-04": {
+            "lexicon_key": "2013-11-04"
+        },
+        "0.0999 (kilometrePerSeconds)": {
+            "lexicon_key": "0.0999 (kilometrePerSeconds)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "(66063)_1998_RO1",
+            "child_node": "2013-11-04",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        },
+        {
+            "edge_name": "escapeVelocity",
+            "parent_node": "(66063)_1998_RO1",
+            "child_node": "0.0999 (kilometrePerSeconds)",
+            "edge_properties": {
+                "lexicon_key": "escapeVelocity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(66063) 1998 RO1, with the epoch date 2013-11-04, has an escape velocity of 0.0999 km/s."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The escape velocity of (66063) 1998 RO1 is 0.0999 km/sec and its epoch is on the 13th of January 2016."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The epoch of (66063) 1998 RO1 is on the 13th of January 2016 and it has an escape velocity of 0.0999 kilometres per second."
+        }
+    },
+    "gold_outputs": [
+        "(66063) 1998 RO1, with the epoch date 2013-11-04, has an escape velocity of 0.0999 km/s.",
+        "The epoch of (66063) 1998 RO1 is on the 13th of January 2016 and it has an escape velocity of 0.0999 kilometres per second.",
+        "The escape velocity of (66063) 1998 RO1 is 0.0999 km/sec and its epoch is on the 13th of January 2016."
+    ]
+}

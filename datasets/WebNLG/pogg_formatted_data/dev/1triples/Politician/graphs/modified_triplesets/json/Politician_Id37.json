@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Poland": {
+            "lexicon_key": "Poland"
+        },
+        "Romani_people": {
+            "lexicon_key": "Romani_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Poland",
+            "child_node": "Romani_people",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Romani are an ethnic group in Poland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Romani people are an ethnic group in Poland."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "An ethnic group in Poland is the Romani people."
+        }
+    },
+    "gold_outputs": [
+        "An ethnic group in Poland is the Romani people.",
+        "Romani are an ethnic group in Poland.",
+        "The Romani people are an ethnic group in Poland."
+    ]
+}

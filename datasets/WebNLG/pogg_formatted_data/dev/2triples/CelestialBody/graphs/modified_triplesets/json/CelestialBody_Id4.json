@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "(66391)_1999_KW4": {
+            "lexicon_key": "(66391)_1999_KW4"
+        },
+        "2004-07-14": {
+            "lexicon_key": "2004-07-14"
+        },
+        "9953.28": {
+            "lexicon_key": "9953.28"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "epoch",
+            "parent_node": "(66391)_1999_KW4",
+            "child_node": "2004-07-14",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        },
+        {
+            "edge_name": "rotationPeriod",
+            "parent_node": "(66391)_1999_KW4",
+            "child_node": "9953.28",
+            "edge_properties": {
+                "lexicon_key": "rotationPeriod"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The rotation period of (66391) 1999 KW4 is 9953.28 and its epoch date is July 14th 2004."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The epoch date for 66391 1999 KW4 is 2004-07.14 and it has a rotation period of 9953.28."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "(66391) 1999 KW4 which has an epoch date of July 14th 2004 has a rotation period of 9953.28."
+        }
+    },
+    "gold_outputs": [
+        "(66391) 1999 KW4 which has an epoch date of July 14th 2004 has a rotation period of 9953.28.",
+        "The epoch date for 66391 1999 KW4 is 2004-07.14 and it has a rotation period of 9953.28.",
+        "The rotation period of (66391) 1999 KW4 is 9953.28 and its epoch date is July 14th 2004."
+    ]
+}

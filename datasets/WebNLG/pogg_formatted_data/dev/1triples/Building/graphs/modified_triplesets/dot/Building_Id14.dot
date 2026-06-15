@@ -1,0 +1,5 @@
+strict digraph {
+Amdavad_ni_Gufa [lexicon_key="Amdavad_ni_Gufa"];
+"B._V._Doshi" [lexicon_key="B._V._Doshi"];
+Amdavad_ni_Gufa -> "B._V._Doshi" [label=architect, lexicon_key=architect];
+}

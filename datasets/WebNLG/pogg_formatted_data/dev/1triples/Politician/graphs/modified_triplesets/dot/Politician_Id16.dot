@@ -1,0 +1,5 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+"House_of_Representatives_(Netherlands)" [lexicon_key="House_of_Representatives_(Netherlands)"];
+Agnes_Kant -> "House_of_Representatives_(Netherlands)" [label=office, lexicon_key=office];
+}

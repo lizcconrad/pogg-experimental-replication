@@ -1,0 +1,5 @@
+strict digraph {
+Abradab [lexicon_key=Abradab];
+"solo_singer" [lexicon_key="solo_singer"];
+Abradab -> "solo_singer" [label=background, lexicon_key=background];
+}

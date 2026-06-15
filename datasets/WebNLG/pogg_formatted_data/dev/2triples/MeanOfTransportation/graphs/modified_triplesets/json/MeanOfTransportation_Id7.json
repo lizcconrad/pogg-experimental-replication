@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AMC_Matador": {
+            "lexicon_key": "AMC_Matador"
+        },
+        "Richard_A._Teague": {
+            "lexicon_key": "Richard_A._Teague"
+        },
+        "Chrysler": {
+            "lexicon_key": "Chrysler"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "designer",
+            "parent_node": "AMC_Matador",
+            "child_node": "Richard_A._Teague",
+            "edge_properties": {
+                "lexicon_key": "designer"
+            }
+        },
+        {
+            "edge_name": "employer",
+            "parent_node": "Richard_A._Teague",
+            "child_node": "Chrysler",
+            "edge_properties": {
+                "lexicon_key": "employer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Richard A. Teague is employed by Chrysler and designed the AMC Matador."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Richard A. Teague is the Chrysler employee who designed the AMC Matador."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AMC Matador was designed by Richard A Teague who workes for Chrysler."
+        }
+    },
+    "gold_outputs": [
+        "Richard A. Teague is employed by Chrysler and designed the AMC Matador.",
+        "Richard A. Teague is the Chrysler employee who designed the AMC Matador.",
+        "The AMC Matador was designed by Richard A Teague who workes for Chrysler."
+    ]
+}

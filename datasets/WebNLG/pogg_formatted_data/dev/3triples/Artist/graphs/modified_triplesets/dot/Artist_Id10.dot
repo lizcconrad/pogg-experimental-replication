@@ -1,0 +1,9 @@
+strict digraph {
+"Agustín_Barboza" [lexicon_key="Agustín_Barboza"];
+"solo_singer" [lexicon_key="solo_singer"];
+"Guarania_(music)" [lexicon_key="Guarania_(music)"];
+Philips_Records [lexicon_key="Philips_Records"];
+"Agustín_Barboza" -> "solo_singer" [label=background, lexicon_key=background];
+"Agustín_Barboza" -> "Guarania_(music)" [label=genre, lexicon_key=genre];
+"Agustín_Barboza" -> Philips_Records [label=recordLabel, lexicon_key=recordLabel];
+}

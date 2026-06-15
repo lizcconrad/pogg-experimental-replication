@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Arem-arem": {
+            "lexicon_key": "Arem-arem"
+        },
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "Banana_leaf": {
+            "lexicon_key": "Banana_leaf"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Arem-arem",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arem-arem",
+            "child_node": "Banana_leaf",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arem-arem uses the ingredient banana leaf, it is a common dish in Indonesia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Banana leaf is an ingredient in arem arem, which comes from Indonesia."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Arem arem which includes banana leaf, comes from Indonesia."
+        }
+    },
+    "gold_outputs": [
+        "Arem arem which includes banana leaf, comes from Indonesia.",
+        "Arem-arem uses the ingredient banana leaf, it is a common dish in Indonesia.",
+        "Banana leaf is an ingredient in arem arem, which comes from Indonesia."
+    ]
+}

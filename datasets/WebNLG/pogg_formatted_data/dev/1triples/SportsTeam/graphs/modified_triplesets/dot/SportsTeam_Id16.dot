@@ -1,0 +1,5 @@
+strict digraph {
+AZAL_PFK [lexicon_key="AZAL_PFK"];
+"Shuvalan, Baku, Azerbaijan" [lexicon_key="Shuvalan, Baku, Azerbaijan"];
+AZAL_PFK -> "Shuvalan, Baku, Azerbaijan" [label=location, lexicon_key=location];
+}

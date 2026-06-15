@@ -1,0 +1,5 @@
+strict digraph {
+Audi [lexicon_key=Audi];
+"Audi_e-tron" [lexicon_key="Audi_e-tron"];
+Audi -> "Audi_e-tron" [label=division, lexicon_key=division];
+}

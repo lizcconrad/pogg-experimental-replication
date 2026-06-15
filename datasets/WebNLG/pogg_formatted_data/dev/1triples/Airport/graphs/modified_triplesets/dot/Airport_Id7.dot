@@ -1,0 +1,5 @@
+strict digraph {
+"Adolfo_Suárez_Madrid–Barajas_Airport" [lexicon_key="Adolfo_Suárez_Madrid–Barajas_Airport"];
+"14R/32L" [lexicon_key="14R/32L"];
+"Adolfo_Suárez_Madrid–Barajas_Airport" -> "14R/32L" [label=runwayName, lexicon_key=runwayName];
+}

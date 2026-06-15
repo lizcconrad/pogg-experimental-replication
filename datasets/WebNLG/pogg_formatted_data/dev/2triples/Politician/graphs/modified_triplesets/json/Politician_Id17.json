@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Adonis_Georgiadis": {
+            "lexicon_key": "Adonis_Georgiadis"
+        },
+        "Antonis_Samaras": {
+            "lexicon_key": "Antonis_Samaras"
+        },
+        "Konstantinos_Mitsotakis": {
+            "lexicon_key": "Konstantinos_Mitsotakis"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inOfficeWhilePrimeMinister",
+            "parent_node": "Adonis_Georgiadis",
+            "child_node": "Antonis_Samaras",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhilePrimeMinister"
+            }
+        },
+        {
+            "edge_name": "inOfficeWhilePrimeMinister",
+            "parent_node": "Antonis_Samaras",
+            "child_node": "Konstantinos_Mitsotakis",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhilePrimeMinister"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adonis Georgiadis was in office while Antonis Samaras was Prime Minister. Antonis Samaras was in office under Konstantinos Mitsotakis, Prime Minister."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Antonis Samaras, was in office while Konstantinos Mitsotakis was Prime Minister, he was then Prime Minister, when Adonis Georgiadis served in office."
+        }
+    },
+    "gold_outputs": [
+        "Adonis Georgiadis was in office while Antonis Samaras was Prime Minister. Antonis Samaras was in office under Konstantinos Mitsotakis, Prime Minister.",
+        "Antonis Samaras, was in office while Konstantinos Mitsotakis was Prime Minister, he was then Prime Minister, when Adonis Georgiadis served in office."
+    ]
+}

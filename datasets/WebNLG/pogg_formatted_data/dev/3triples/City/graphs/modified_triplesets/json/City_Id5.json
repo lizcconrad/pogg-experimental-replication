@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albuquerque,_New_Mexico": {
+            "lexicon_key": "Albuquerque,_New_Mexico"
+        },
+        "New_Mexico_House_of_Representatives": {
+            "lexicon_key": "New_Mexico_House_of_Representatives"
+        },
+        "Don_Tripp": {
+            "lexicon_key": "Don_Tripp"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "New_Mexico_House_of_Representatives",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "New_Mexico_House_of_Representatives",
+            "child_node": "Don_Tripp",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The New Mexico House of Representatives, led by Don Tripp, is the leader of Albuquerque, New Mexico in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico, U.S. is led by the New Mexico house of representatives, whose leader is Don Tripp."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico is in the United States and led by the New Mexico House of Representatives. Don Tripp leads that house."
+        }
+    },
+    "gold_outputs": [
+        "Albuquerque, New Mexico is in the United States and led by the New Mexico House of Representatives. Don Tripp leads that house.",
+        "Albuquerque, New Mexico, U.S. is led by the New Mexico house of representatives, whose leader is Don Tripp.",
+        "The New Mexico House of Representatives, led by Don Tripp, is the leader of Albuquerque, New Mexico in the United States."
+    ]
+}

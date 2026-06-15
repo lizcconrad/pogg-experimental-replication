@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "\"30 March 2007\"": {
+            "lexicon_key": "\"30 March 2007\""
+        },
+        "\"101 Ukrop Way\"": {
+            "lexicon_key": "\"101 Ukrop Way\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "buildingStartDate",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "\"30 March 2007\"",
+            "edge_properties": {
+                "lexicon_key": "buildingStartDate"
+            }
+        },
+        {
+            "edge_name": "address",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "\"101 Ukrop Way\"",
+            "edge_properties": {
+                "lexicon_key": "address"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The construction of Alan B Miller Hall, 101 Ukrop Way, began on 30th March 2007."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan B. Miller Hall's building start date was in 30th March 2007 and is located at 101 Ukrop Way."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alan B. Miller Hall at 101 Ukrop Way opened on March 30, 2007."
+        }
+    },
+    "gold_outputs": [
+        "Alan B. Miller Hall at 101 Ukrop Way opened on March 30, 2007.",
+        "Alan B. Miller Hall's building start date was in 30th March 2007 and is located at 101 Ukrop Way.",
+        "The construction of Alan B Miller Hall, 101 Ukrop Way, began on 30th March 2007."
+    ]
+}

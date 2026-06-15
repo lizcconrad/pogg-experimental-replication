@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "1._FC_Magdeburg": {
+            "lexicon_key": "1._FC_Magdeburg"
+        },
+        "2014": {
+            "lexicon_key": "2014"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "season",
+            "parent_node": "1._FC_Magdeburg",
+            "child_node": "2014",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1 FC Magdeburg played in the 2014 season."
+        }
+    },
+    "gold_outputs": [
+        "1 FC Magdeburg played in the 2014 season."
+    ]
+}

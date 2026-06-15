@@ -1,0 +1,7 @@
+strict digraph {
+"Agremiação_Sportiva_Arapiraquense" [lexicon_key="Agremiação_Sportiva_Arapiraquense"];
+17000 [lexicon_key=17000];
+"Agremiação Sportiva Arapiraquense" [lexicon_key="Agremiação Sportiva Arapiraquense"];
+"Agremiação_Sportiva_Arapiraquense" -> 17000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+"Agremiação_Sportiva_Arapiraquense" -> "Agremiação Sportiva Arapiraquense" [label=fullName, lexicon_key=fullName];
+}

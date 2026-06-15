@@ -1,0 +1,7 @@
+strict digraph {
+HIV [lexicon_key=HIV];
+Orthoretrovirinae [lexicon_key=Orthoretrovirinae];
+"AIDS_(journal)" [lexicon_key="AIDS_(journal)"];
+HIV -> Orthoretrovirinae [label=family, lexicon_key=family];
+"AIDS_(journal)" -> HIV [label=academicDiscipline, lexicon_key=academicDiscipline];
+}

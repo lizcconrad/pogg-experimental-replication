@@ -1,0 +1,7 @@
+strict digraph {
+Karnataka [lexicon_key=Karnataka];
+Arabian_Sea [lexicon_key="Arabian_Sea"];
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Karnataka -> Arabian_Sea [label=hasToItsWest, lexicon_key=hasToItsWest];
+Acharya_Institute_of_Technology -> Karnataka [label=state, lexicon_key=state];
+}

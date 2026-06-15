@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Amsterdam_Airport_Schiphol": {
+            "lexicon_key": "Amsterdam_Airport_Schiphol"
+        },
+        "Amsterdam": {
+            "lexicon_key": "Amsterdam"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Amsterdam_Airport_Schiphol",
+            "child_node": "Amsterdam",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Amsterdam Airport Schiphol serves the city of Amsterdam."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amsterdam airport, Schiphol serves the city of Amsterdam."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Amsterdam Airport Schiphol serves Amsterdam."
+        }
+    },
+    "gold_outputs": [
+        "Amsterdam Airport Schiphol serves Amsterdam.",
+        "Amsterdam Airport Schiphol serves the city of Amsterdam.",
+        "Amsterdam airport, Schiphol serves the city of Amsterdam."
+    ]
+}

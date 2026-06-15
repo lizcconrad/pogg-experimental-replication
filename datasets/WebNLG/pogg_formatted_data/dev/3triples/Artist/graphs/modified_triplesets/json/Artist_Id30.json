@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Andrew_Rayel": {
+            "lexicon_key": "Andrew_Rayel"
+        },
+        "Jwaydan_Moyine": {
+            "lexicon_key": "Jwaydan_Moyine"
+        },
+        "Christian_Burns": {
+            "lexicon_key": "Christian_Burns"
+        },
+        "House_music": {
+            "lexicon_key": "House_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Jwaydan_Moyine",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Christian_Burns",
+            "child_node": "House_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andrew_Rayel",
+            "child_node": "Christian_Burns",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Christian Burns plays house music and is associated with Andrew Rayel. Mr. Rayel is connected with Jwaydan Moyine, musician."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Musicians Andrew Rayel and Christian Burns are associates and while the latter plays house music, the former is associated with musician Jwaydan Moyine."
+        }
+    },
+    "gold_outputs": [
+        "Christian Burns plays house music and is associated with Andrew Rayel. Mr. Rayel is connected with Jwaydan Moyine, musician.",
+        "Musicians Andrew Rayel and Christian Burns are associates and while the latter plays house music, the former is associated with musician Jwaydan Moyine."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "110_Lydia": {
+            "lexicon_key": "110_Lydia"
+        },
+        "377016000000.0": {
+            "lexicon_key": "377016000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "110_Lydia",
+            "child_node": "377016000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "110 Lydia has a periapsis measurement of 377016000000.0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "110 Lydia has a periapsis of 377016000000.0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The periapsis of 110 Lydia is 377016000000.0."
+        }
+    },
+    "gold_outputs": [
+        "110 Lydia has a periapsis measurement of 377016000000.0.",
+        "110 Lydia has a periapsis of 377016000000.0.",
+        "The periapsis of 110 Lydia is 377016000000.0."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Blockbuster_(comicsCharacter)" [lexicon_key="Blockbuster_(comicsCharacter)"];
+Roger_Stern [lexicon_key="Roger_Stern"];
+"Roland Desmond" [lexicon_key="Roland Desmond"];
+Tom_Lyle [lexicon_key="Tom_Lyle"];
+"Blockbuster_(comicsCharacter)" -> Roger_Stern [label=creator, lexicon_key=creator];
+"Blockbuster_(comicsCharacter)" -> "Roland Desmond" [label=alternativeName, lexicon_key=alternativeName];
+"Blockbuster_(comicsCharacter)" -> Tom_Lyle [label=creator, lexicon_key=creator];
+}

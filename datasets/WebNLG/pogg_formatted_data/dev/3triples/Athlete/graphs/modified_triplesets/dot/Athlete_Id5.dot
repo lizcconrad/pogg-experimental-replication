@@ -1,0 +1,9 @@
+strict digraph {
+Ahmad_Kadhim_Assad [lexicon_key="Ahmad_Kadhim_Assad"];
+Iraq_national_football_team [lexicon_key="Iraq_national_football_team"];
+"Esteghlal_Ahvaz_F.C." [lexicon_key="Esteghlal_Ahvaz_F.C."];
+Adnan_Hamad [lexicon_key="Adnan_Hamad"];
+Ahmad_Kadhim_Assad -> Iraq_national_football_team [label=club, lexicon_key=club];
+Ahmad_Kadhim_Assad -> "Esteghlal_Ahvaz_F.C." [label=club, lexicon_key=club];
+"Esteghlal_Ahvaz_F.C." -> Adnan_Hamad [label=manager, lexicon_key=manager];
+}

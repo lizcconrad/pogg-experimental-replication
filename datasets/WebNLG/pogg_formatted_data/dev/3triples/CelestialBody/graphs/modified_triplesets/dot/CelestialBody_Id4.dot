@@ -1,0 +1,9 @@
+strict digraph {
+"1001_Gaussia" [lexicon_key="1001_Gaussia"];
+"2015-06-27" [lexicon_key="2015-06-27"];
+"1923 OAA907 XC" [lexicon_key="1923 OAA907 XC"];
+"419113394.55312 (kilometres)" [lexicon_key="419113394.55312 (kilometres)"];
+"1001_Gaussia" -> "2015-06-27" [label=epoch, lexicon_key=epoch];
+"1001_Gaussia" -> "1923 OAA907 XC" [label=formerName, lexicon_key=formerName];
+"1001_Gaussia" -> "419113394.55312 (kilometres)" [label=periapsis, lexicon_key=periapsis];
+}

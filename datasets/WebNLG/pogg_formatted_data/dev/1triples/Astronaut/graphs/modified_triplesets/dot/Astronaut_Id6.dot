@@ -1,0 +1,5 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+United_States [lexicon_key="United_States"];
+Buzz_Aldrin -> United_States [label=nationality, lexicon_key=nationality];
+}

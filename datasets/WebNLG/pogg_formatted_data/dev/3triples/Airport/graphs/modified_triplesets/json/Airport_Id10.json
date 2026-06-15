@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alpena_County_Regional_Airport": {
+            "lexicon_key": "Alpena_County_Regional_Airport"
+        },
+        "Wilson_Township,_Alpena_County,_Michigan": {
+            "lexicon_key": "Wilson_Township,_Alpena_County,_Michigan"
+        },
+        "1533.0": {
+            "lexicon_key": "1533.0"
+        },
+        "210": {
+            "lexicon_key": "210"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Alpena_County_Regional_Airport",
+            "child_node": "Wilson_Township,_Alpena_County,_Michigan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Alpena_County_Regional_Airport",
+            "child_node": "1533.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Alpena_County_Regional_Airport",
+            "child_node": "210",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Located in Wilson Township, Alpena County, Michigan, Alpena County Regional Airport has an elevation of 210 metres above sea level and a runway length of 1,533 metres."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alpena County Regional Airport is elevated 210 metres above sea level, has a runway length of 1,533 metres and is located in Wilson Township, Alpena County, Michigan."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alpena County Regional Airport is located in the Wilson Township, Alpena County, Michigan. It is 210 m above sea level and its runway length is 1533 feet."
+        }
+    },
+    "gold_outputs": [
+        "Alpena County Regional Airport is elevated 210 metres above sea level, has a runway length of 1,533 metres and is located in Wilson Township, Alpena County, Michigan.",
+        "Alpena County Regional Airport is located in the Wilson Township, Alpena County, Michigan. It is 210 m above sea level and its runway length is 1533 feet.",
+        "Located in Wilson Township, Alpena County, Michigan, Alpena County Regional Airport has an elevation of 210 metres above sea level and a runway length of 1,533 metres."
+    ]
+}

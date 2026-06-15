@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AZAL_Arena": {
+            "lexicon_key": "AZAL_Arena"
+        },
+        "Shuvalan": {
+            "lexicon_key": "Shuvalan"
+        },
+        "AZAL_PFK": {
+            "lexicon_key": "AZAL_PFK"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "AZAL_Arena",
+            "child_node": "Shuvalan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "AZAL_PFK",
+            "child_node": "AZAL_Arena",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AZAL PFK play their home matches at the AZAL Arena in Shuvalan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AZAL Arena is located in Shuvalan and is the ground of AZAL PFK."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AZAL Arena in Shuvalan is the ground of AZAL PFK."
+        }
+    },
+    "gold_outputs": [
+        "AZAL PFK play their home matches at the AZAL Arena in Shuvalan.",
+        "The AZAL Arena in Shuvalan is the ground of AZAL PFK.",
+        "The AZAL Arena is located in Shuvalan and is the ground of AZAL PFK."
+    ]
+}

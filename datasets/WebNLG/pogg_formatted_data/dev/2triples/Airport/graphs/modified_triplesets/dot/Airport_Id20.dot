@@ -1,0 +1,7 @@
+strict digraph {
+"Ardmore_Airport_(New_Zealand)" [lexicon_key="Ardmore_Airport_(New_Zealand)"];
+Poaceae [lexicon_key=Poaceae];
+Monocotyledon [lexicon_key=Monocotyledon];
+"Ardmore_Airport_(New_Zealand)" -> Poaceae [label="3rdRunwaySurfaceType", lexicon_key="3rdRunwaySurfaceType"];
+Poaceae -> Monocotyledon [label=class, lexicon_key=class];
+}

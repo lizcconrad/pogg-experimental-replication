@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Adare_Manor": {
+            "lexicon_key": "Adare_Manor"
+        },
+        "Republic_of_Ireland": {
+            "lexicon_key": "Republic_of_Ireland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Adare_Manor",
+            "child_node": "Republic_of_Ireland",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adare Manor is located in the Republic of Ireland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Adare Manor is in the Republic of Ireland."
+        }
+    },
+    "gold_outputs": [
+        "Adare Manor is located in the Republic of Ireland.",
+        "The Adare Manor is in the Republic of Ireland."
+    ]
+}

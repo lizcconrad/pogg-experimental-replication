@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Isis_(band)": {
+            "lexicon_key": "Isis_(band)"
+        },
+        "Lotus_Eaters_(band)": {
+            "lexicon_key": "Lotus_Eaters_(band)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Isis_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Lotus_Eaters_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Turner is an artist for the band Isis and a musician in the Lotus Eaters band."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Turner, is a musician in the Lotus Eaters band and is an artist for the band Isis."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Turner has played for Isis and the Lotus Eaters band."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Turner has played for Isis and the Lotus Eaters band.",
+        "Aaron Turner is an artist for the band Isis and a musician in the Lotus Eaters band.",
+        "Aaron Turner, is a musician in the Lotus Eaters band and is an artist for the band Isis."
+    ]
+}

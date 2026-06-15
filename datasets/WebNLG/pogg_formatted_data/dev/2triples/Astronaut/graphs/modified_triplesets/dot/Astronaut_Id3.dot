@@ -1,0 +1,7 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+Fighter_pilot [lexicon_key="Fighter_pilot"];
+"Retired" [lexicon_key="Retired"];
+Buzz_Aldrin -> Fighter_pilot [label=occupation, lexicon_key=occupation];
+Buzz_Aldrin -> "Retired" [label=status, lexicon_key=status];
+}

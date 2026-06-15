@@ -1,0 +1,5 @@
+strict digraph {
+United_Kingdom [lexicon_key="United_Kingdom"];
+British_people [lexicon_key="British_people"];
+United_Kingdom -> British_people [label=demonym, lexicon_key=demonym];
+}

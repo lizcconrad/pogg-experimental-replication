@@ -1,0 +1,5 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+Alligator_Records [lexicon_key="Alligator_Records"];
+Anders_Osborne -> Alligator_Records [label=recordLabel, lexicon_key=recordLabel];
+}

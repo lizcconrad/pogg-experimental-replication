@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "Atat\u00fcrk_Monument_(\u0130zmir)": {
+            "lexicon_key": "Atat\u00fcrk_Monument_(\u0130zmir)"
+        },
+        "\"Bronze\"": {
+            "lexicon_key": "\"Bronze\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "material",
+            "parent_node": "Atat\u00fcrk_Monument_(\u0130zmir)",
+            "child_node": "\"Bronze\"",
+            "edge_properties": {
+                "lexicon_key": "material"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Atat\u00fcrk Monument in Izmir is made of bronze."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The material of the Ataturk Monument (Izmir) is bronze."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Ataturk Monument is made from Bronze."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The Atat\u00fcrk Monument (\u0130zmir) is made of Bronze."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "Ataturk Monument is made of Bronze."
+        }
+    },
+    "gold_outputs": [
+        "Ataturk Monument is made of Bronze.",
+        "The Ataturk Monument is made from Bronze.",
+        "The Atat\u00fcrk Monument (\u0130zmir) is made of Bronze.",
+        "The Atat\u00fcrk Monument in Izmir is made of bronze.",
+        "The material of the Ataturk Monument (Izmir) is bronze."
+    ]
+}

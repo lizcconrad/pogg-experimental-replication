@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abel_Caballero": {
+            "lexicon_key": "Abel_Caballero"
+        },
+        "Galicia_(Spain)": {
+            "lexicon_key": "Galicia_(Spain)"
+        },
+        "Ponteareas": {
+            "lexicon_key": "Ponteareas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abel_Caballero",
+            "child_node": "Galicia_(Spain)",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abel_Caballero",
+            "child_node": "Ponteareas",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Caballero came from Ponteareas in Galicia, Spain."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Caballero was born in Ponteareas, in Galicia in Spain."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abel Caballero was born in Ponteareas, in Galicia, Spain."
+        }
+    },
+    "gold_outputs": [
+        "Abel Caballero came from Ponteareas in Galicia, Spain.",
+        "Abel Caballero was born in Ponteareas, in Galicia in Spain.",
+        "Abel Caballero was born in Ponteareas, in Galicia, Spain."
+    ]
+}

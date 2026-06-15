@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Turner [lexicon_key="Aaron_Turner"];
+Boston [lexicon_key=Boston];
+Aaron_Turner -> Boston [label=origin, lexicon_key=origin];
+}

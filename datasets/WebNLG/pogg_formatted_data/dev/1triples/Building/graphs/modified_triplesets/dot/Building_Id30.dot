@@ -1,0 +1,5 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+Paul_Ryan [lexicon_key="Paul_Ryan"];
+United_States -> Paul_Ryan [label=leader, lexicon_key=leader];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Fulton_County,_Georgia" [lexicon_key="Fulton_County,_Georgia"];
+Atlanta [lexicon_key=Atlanta];
+"Fulton_County,_Georgia" -> Atlanta [label=largestCity, lexicon_key=largestCity];
+}

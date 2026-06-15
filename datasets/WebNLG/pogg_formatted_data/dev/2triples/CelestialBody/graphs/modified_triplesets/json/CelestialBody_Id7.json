@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "103_Hera": {
+            "lexicon_key": "103_Hera"
+        },
+        "James_Craig_Watson": {
+            "lexicon_key": "James_Craig_Watson"
+        },
+        "Canada": {
+            "lexicon_key": "Canada"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "103_Hera",
+            "child_node": "James_Craig_Watson",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "James_Craig_Watson",
+            "child_node": "Canada",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "James Craig Watson, a Canadian national, discovered 103 Hera."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "103 Hera was discovered by the Canadian James Craig Watson."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Canadian, James Craig Watson, discovered 103 Hera."
+        }
+    },
+    "gold_outputs": [
+        "103 Hera was discovered by the Canadian James Craig Watson.",
+        "Canadian, James Craig Watson, discovered 103 Hera.",
+        "James Craig Watson, a Canadian national, discovered 103 Hera."
+    ]
+}

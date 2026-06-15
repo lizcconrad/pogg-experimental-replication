@@ -1,0 +1,9 @@
+strict digraph {
+Akeem_Dent [lexicon_key="Akeem_Dent"];
+Atlanta_Falcons [lexicon_key="Atlanta_Falcons"];
+"1987-09-27" [lexicon_key="1987-09-27"];
+"Atlanta, Georgia" [lexicon_key="Atlanta, Georgia"];
+Akeem_Dent -> Atlanta_Falcons [label=debutTeam, lexicon_key=debutTeam];
+Akeem_Dent -> "1987-09-27" [label=birthDate, lexicon_key=birthDate];
+Akeem_Dent -> "Atlanta, Georgia" [label=birthPlace, lexicon_key=birthPlace];
+}

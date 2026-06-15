@@ -1,0 +1,7 @@
+strict digraph {
+"Adolfo_Suárez_Madrid–Barajas_Airport" [lexicon_key="Adolfo_Suárez_Madrid–Barajas_Airport"];
+Alcobendas [lexicon_key=Alcobendas];
+3500.0 [lexicon_key=3500.0];
+"Adolfo_Suárez_Madrid–Barajas_Airport" -> Alcobendas [label=location, lexicon_key=location];
+"Adolfo_Suárez_Madrid–Barajas_Airport" -> 3500.0 [label=runwayLength, lexicon_key=runwayLength];
+}

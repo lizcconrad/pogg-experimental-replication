@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Batchoy": {
+            "lexicon_key": "Batchoy"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Chinese_Filipino": {
+            "lexicon_key": "Chinese_Filipino"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Batchoy",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Philippines",
+            "child_node": "Chinese_Filipino",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Chinese Filipino is an ethnic group in the Philippines, where batchoy is a traditional dish."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chinese Filipino are from the Philippines, where batchoy is eaten."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Batchoy is a food from the Philippines, the country where there is an ethnic group called the Chinese Filipino."
+        }
+    },
+    "gold_outputs": [
+        "Batchoy is a food from the Philippines, the country where there is an ethnic group called the Chinese Filipino.",
+        "Chinese Filipino are from the Philippines, where batchoy is eaten.",
+        "The Chinese Filipino is an ethnic group in the Philippines, where batchoy is a traditional dish."
+    ]
+}

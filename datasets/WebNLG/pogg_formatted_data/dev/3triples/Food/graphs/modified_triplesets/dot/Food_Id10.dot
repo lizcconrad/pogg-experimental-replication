@@ -1,0 +1,9 @@
+strict digraph {
+Asam_pedas [lexicon_key="Asam_pedas"];
+Malaysia [lexicon_key=Malaysia];
+"Sumatra and Malay Peninsula" [lexicon_key="Sumatra and Malay Peninsula"];
+"Fish cooked in sour and hot sauce" [lexicon_key="Fish cooked in sour and hot sauce"];
+Asam_pedas -> Malaysia [label=country, lexicon_key=country];
+Asam_pedas -> "Sumatra and Malay Peninsula" [label=region, lexicon_key=region];
+Asam_pedas -> "Fish cooked in sour and hot sauce" [label=mainIngredient, lexicon_key=mainIngredient];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Cornell_University [lexicon_key="Cornell_University"];
+Cornell_Big_Red [lexicon_key="Cornell_Big_Red"];
+Cornell_University -> Cornell_Big_Red [label=nickname, lexicon_key=nickname];
+}

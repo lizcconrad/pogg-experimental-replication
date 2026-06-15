@@ -1,0 +1,7 @@
+strict digraph {
+Alvah_Sabin [lexicon_key="Alvah_Sabin"];
+Secretary_of_State_of_Vermont [lexicon_key="Secretary_of_State_of_Vermont"];
+Homer_Elihu_Royce [lexicon_key="Homer_Elihu_Royce"];
+Alvah_Sabin -> Secretary_of_State_of_Vermont [label=office, lexicon_key=office];
+Alvah_Sabin -> Homer_Elihu_Royce [label=successor, lexicon_key=successor];
+}

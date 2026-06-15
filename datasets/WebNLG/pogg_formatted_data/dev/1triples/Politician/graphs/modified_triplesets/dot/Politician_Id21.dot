@@ -1,0 +1,5 @@
+strict digraph {
+Alberto_Teisaire [lexicon_key="Alberto_Teisaire"];
+Argentina [lexicon_key=Argentina];
+Alberto_Teisaire -> Argentina [label=nationality, lexicon_key=nationality];
+}

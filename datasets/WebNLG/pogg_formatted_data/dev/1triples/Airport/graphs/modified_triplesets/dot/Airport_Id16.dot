@@ -1,0 +1,5 @@
+strict digraph {
+"Andrews_County,_Texas" [lexicon_key="Andrews_County,_Texas"];
+"Andrews,_Texas" [lexicon_key="Andrews,_Texas"];
+"Andrews_County,_Texas" -> "Andrews,_Texas" [label=countySeat, lexicon_key=countySeat];
+}

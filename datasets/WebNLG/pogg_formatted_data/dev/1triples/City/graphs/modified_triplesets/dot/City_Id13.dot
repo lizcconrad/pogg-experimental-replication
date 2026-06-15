@@ -1,0 +1,5 @@
+strict digraph {
+"Angola,_Indiana" [lexicon_key="Angola,_Indiana"];
+"Pleasant_Township,_Steuben_County,_Indiana" [lexicon_key="Pleasant_Township,_Steuben_County,_Indiana"];
+"Angola,_Indiana" -> "Pleasant_Township,_Steuben_County,_Indiana" [label=isPartOf, lexicon_key=isPartOf];
+}

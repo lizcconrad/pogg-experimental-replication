@@ -1,0 +1,5 @@
+strict digraph {
+Aarhus [lexicon_key=Aarhus];
+Jacob_Bundsgaard [lexicon_key="Jacob_Bundsgaard"];
+Aarhus -> Jacob_Bundsgaard [label=leader, lexicon_key=leader];
+}

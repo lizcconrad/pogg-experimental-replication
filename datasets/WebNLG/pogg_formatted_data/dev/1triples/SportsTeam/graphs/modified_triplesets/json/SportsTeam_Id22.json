@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Amsterdam": {
+            "lexicon_key": "Amsterdam"
+        },
+        "Amsterdam-Centrum": {
+            "lexicon_key": "Amsterdam-Centrum"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "part",
+            "parent_node": "Amsterdam",
+            "child_node": "Amsterdam-Centrum",
+            "edge_properties": {
+                "lexicon_key": "part"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Amsterdam-Centrum is part of Amsterdam."
+        }
+    },
+    "gold_outputs": [
+        "Amsterdam-Centrum is part of Amsterdam."
+    ]
+}

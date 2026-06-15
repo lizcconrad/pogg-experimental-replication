@@ -1,0 +1,9 @@
+strict digraph {
+SAGE_Publications [lexicon_key="SAGE_Publications"];
+Sara_Miller_McCune [lexicon_key="Sara_Miller_McCune"];
+Administrative_Science_Quarterly [lexicon_key="Administrative_Science_Quarterly"];
+"Admin. Sci. Q." [lexicon_key="Admin. Sci. Q."];
+SAGE_Publications -> Sara_Miller_McCune [label=founder, lexicon_key=founder];
+Administrative_Science_Quarterly -> "Admin. Sci. Q." [label=abbreviation, lexicon_key=abbreviation];
+Administrative_Science_Quarterly -> SAGE_Publications [label=publisher, lexicon_key=publisher];
+}

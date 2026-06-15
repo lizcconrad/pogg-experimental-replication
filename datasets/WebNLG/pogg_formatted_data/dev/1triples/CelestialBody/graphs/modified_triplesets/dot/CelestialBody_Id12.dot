@@ -1,0 +1,5 @@
+strict digraph {
+"1097_Vicia" [lexicon_key="1097_Vicia"];
+95040.0 [lexicon_key=95040.0];
+"1097_Vicia" -> 95040.0 [label=rotationPeriod, lexicon_key=rotationPeriod];
+}

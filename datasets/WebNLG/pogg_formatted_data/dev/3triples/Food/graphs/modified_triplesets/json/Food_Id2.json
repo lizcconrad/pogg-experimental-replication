@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Ajoblanco": {
+            "lexicon_key": "Ajoblanco"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "Andalusia": {
+            "lexicon_key": "Andalusia"
+        },
+        "Water": {
+            "lexicon_key": "Water"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ajoblanco",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Ajoblanco",
+            "child_node": "Andalusia",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Ajoblanco",
+            "child_node": "Water",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ajoblanco is from Andalusia, in Spain. Ajoblanco contains water."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Water is an ingredient in Ajoblanco, which is a food found in Andalusia, in Spain."
+        }
+    },
+    "gold_outputs": [
+        "Ajoblanco is from Andalusia, in Spain. Ajoblanco contains water.",
+        "Water is an ingredient in Ajoblanco, which is a food found in Andalusia, in Spain."
+    ]
+}

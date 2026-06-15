@@ -1,0 +1,5 @@
+strict digraph {
+"Antioch,_California" [lexicon_key="Antioch,_California"];
+"California's_11th_State_Assembly_district" [lexicon_key="California's_11th_State_Assembly_district"];
+"Antioch,_California" -> "California's_11th_State_Assembly_district" [label=leaderTitle, lexicon_key=leaderTitle];
+}

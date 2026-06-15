@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        },
+        "Grantville_Gazette_III": {
+            "lexicon_key": "Grantville_Gazette_III"
+        },
+        "\"Virginia DeMarce and Eric Flint\"": {
+            "lexicon_key": "\"Virginia DeMarce and Eric Flint\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "precededBy",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "Grantville_Gazette_III",
+            "edge_properties": {
+                "lexicon_key": "precededBy"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "\"Virginia DeMarce and Eric Flint\"",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1634: The Bavarian Crisis is written by Virginia DeMarce and Eric Flint and was preceded by Grantville Gazette III."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1634: the Bavarian Crisis, authored by Virginia DeMarce and Eric Flint, was preceded by Grantville Gazette III."
+        }
+    },
+    "gold_outputs": [
+        "1634: The Bavarian Crisis is written by Virginia DeMarce and Eric Flint and was preceded by Grantville Gazette III.",
+        "1634: the Bavarian Crisis, authored by Virginia DeMarce and Eric Flint, was preceded by Grantville Gazette III."
+    ]
+}

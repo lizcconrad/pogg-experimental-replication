@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Aaron_Boogaard": {
+            "lexicon_key": "Aaron_Boogaard"
+        },
+        "Canada": {
+            "lexicon_key": "Canada"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Aaron_Boogaard",
+            "child_node": "Canada",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Boogaard's birthplace is Canada."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Boogaard was born in Canada."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Boogaard was born in Canada.",
+        "Aaron Boogaard's birthplace is Canada."
+    ]
+}

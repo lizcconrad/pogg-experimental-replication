@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ballistic_(comicsCharacter)": {
+            "lexicon_key": "Ballistic_(comicsCharacter)"
+        },
+        "Doug_Moench": {
+            "lexicon_key": "Doug_Moench"
+        },
+        "\"Kelvin Mao\"": {
+            "lexicon_key": "\"Kelvin Mao\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Ballistic_(comicsCharacter)",
+            "child_node": "Doug_Moench",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Ballistic_(comicsCharacter)",
+            "child_node": "\"Kelvin Mao\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Doug Moench was the creator of the comic character Ballistic, who has the alternative name Kelvin Mao."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ballistic (also known as Kelvin Mao) is a fictional comic superhero created by Doug Moench."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Doug Moench created the character Ballistic, the fictional superhero whose alter ego is Kelvin Mao."
+        }
+    },
+    "gold_outputs": [
+        "Ballistic (also known as Kelvin Mao) is a fictional comic superhero created by Doug Moench.",
+        "Doug Moench created the character Ballistic, the fictional superhero whose alter ego is Kelvin Mao.",
+        "Doug Moench was the creator of the comic character Ballistic, who has the alternative name Kelvin Mao."
+    ]
+}

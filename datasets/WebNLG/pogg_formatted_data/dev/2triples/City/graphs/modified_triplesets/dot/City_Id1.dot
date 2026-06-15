@@ -1,0 +1,7 @@
+strict digraph {
+"Albany,_Georgia" [lexicon_key="Albany,_Georgia"];
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+"Albany,_Georgia" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

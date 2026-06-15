@@ -1,0 +1,7 @@
+strict digraph {
+"Aleksandra_Kovač" [lexicon_key="Aleksandra_Kovač"];
+Soul_music [lexicon_key="Soul_music"];
+1990 [lexicon_key=1990];
+"Aleksandra_Kovač" -> Soul_music [label=genre, lexicon_key=genre];
+"Aleksandra_Kovač" -> 1990 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

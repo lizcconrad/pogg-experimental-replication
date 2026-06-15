@@ -1,0 +1,9 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+Alligator_Records [lexicon_key="Alligator_Records"];
+Okeh_Records [lexicon_key="Okeh_Records"];
+Rock_music [lexicon_key="Rock_music"];
+Anders_Osborne -> Alligator_Records [label=recordLabel, lexicon_key=recordLabel];
+Anders_Osborne -> Okeh_Records [label=recordLabel, lexicon_key=recordLabel];
+Anders_Osborne -> Rock_music [label=genre, lexicon_key=genre];
+}

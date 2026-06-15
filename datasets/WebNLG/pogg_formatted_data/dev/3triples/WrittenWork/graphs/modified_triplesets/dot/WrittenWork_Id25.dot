@@ -1,0 +1,9 @@
+strict digraph {
+Aenir [lexicon_key=Aenir];
+Garth_Nix [lexicon_key="Garth_Nix"];
+"Print" [lexicon_key="Print"];
+"0-439-17684-0" [lexicon_key="0-439-17684-0"];
+Aenir -> Garth_Nix [label=author, lexicon_key=author];
+Aenir -> "Print" [label=mediaType, lexicon_key=mediaType];
+Aenir -> "0-439-17684-0" [label=isbnNumber, lexicon_key=isbnNumber];
+}

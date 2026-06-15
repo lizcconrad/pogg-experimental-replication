@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alfa_Romeo_164": {
+            "lexicon_key": "Alfa_Romeo_164"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        },
+        "Rome": {
+            "lexicon_key": "Rome"
+        },
+        "Lancia_Thema": {
+            "lexicon_key": "Lancia_Thema"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "Italy",
+            "child_node": "Rome",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Lancia_Thema",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164, which was assembled in Italy, and the Lancia Thema are related types of transportation. The capital of Italy is Rome."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Lancia Thema and the Alfa Romeo 164 are related. The latter is built in Italy where the capital is Rome."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 was made in Italy and is related to the Lancia Thema vehicle. Rome is the capital of Italy."
+        }
+    },
+    "gold_outputs": [
+        "The Alfa Romeo 164 was made in Italy and is related to the Lancia Thema vehicle. Rome is the capital of Italy.",
+        "The Alfa Romeo 164, which was assembled in Italy, and the Lancia Thema are related types of transportation. The capital of Italy is Rome.",
+        "The Lancia Thema and the Alfa Romeo 164 are related. The latter is built in Italy where the capital is Rome."
+    ]
+}

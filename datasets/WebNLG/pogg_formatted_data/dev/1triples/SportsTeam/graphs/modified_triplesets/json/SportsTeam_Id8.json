@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "A.F.C._Blackpool": {
+            "lexicon_key": "A.F.C._Blackpool"
+        },
+        "1500": {
+            "lexicon_key": "1500"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "A.F.C._Blackpool",
+            "child_node": "1500",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.F.C. Blackpool has 1500 members."
+        }
+    },
+    "gold_outputs": [
+        "A.F.C. Blackpool has 1500 members."
+    ]
+}

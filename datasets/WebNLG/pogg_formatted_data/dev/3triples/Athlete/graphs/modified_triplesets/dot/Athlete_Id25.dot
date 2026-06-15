@@ -1,0 +1,9 @@
+strict digraph {
+FC_Torpedo_Moscow [lexicon_key="FC_Torpedo_Moscow"];
+"2014–15_Russian_Premier_League" [lexicon_key="2014–15_Russian_Premier_League"];
+Aleksandr_Chumakov [lexicon_key="Aleksandr_Chumakov"];
+Valery_Petrakov [lexicon_key="Valery_Petrakov"];
+FC_Torpedo_Moscow -> "2014–15_Russian_Premier_League" [label=season, lexicon_key=season];
+FC_Torpedo_Moscow -> Valery_Petrakov [label=manager, lexicon_key=manager];
+Aleksandr_Chumakov -> FC_Torpedo_Moscow [label=club, lexicon_key=club];
+}

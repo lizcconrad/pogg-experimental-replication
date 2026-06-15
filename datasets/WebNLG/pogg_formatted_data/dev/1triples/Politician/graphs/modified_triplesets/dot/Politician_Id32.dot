@@ -1,0 +1,5 @@
+strict digraph {
+"Edmund_J._Davis" [lexicon_key="Edmund_J._Davis"];
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+"Edmund_J._Davis" -> "Austin,_Texas" [label=deathPlace, lexicon_key=deathPlace];
+}

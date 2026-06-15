@@ -1,0 +1,9 @@
+strict digraph {
+Above_the_Veil [lexicon_key="Above_the_Veil"];
+Australians [lexicon_key=Australians];
+Aenir [lexicon_key=Aenir];
+"Castle_(novel)" [lexicon_key="Castle_(novel)"];
+Above_the_Veil -> Australians [label=country, lexicon_key=country];
+Above_the_Veil -> Aenir [label=precededBy, lexicon_key=precededBy];
+Aenir -> "Castle_(novel)" [label=precededBy, lexicon_key=precededBy];
+}

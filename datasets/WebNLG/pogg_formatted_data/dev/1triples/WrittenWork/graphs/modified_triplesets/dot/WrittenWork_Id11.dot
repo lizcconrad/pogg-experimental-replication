@@ -1,0 +1,5 @@
+strict digraph {
+Above_the_Veil [lexicon_key="Above_the_Veil"];
+Hardcover [lexicon_key=Hardcover];
+Above_the_Veil -> Hardcover [label=mediaType, lexicon_key=mediaType];
+}

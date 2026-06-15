@@ -1,0 +1,72 @@
+{
+    "node_keys": {
+        "\"Blue, White and Orange\"": {
+            "comp_fxn": ""
+        },
+        "\"Dr. G. P. Prabhukumar\"": {
+            "comp_fxn": ""
+        },
+        "\"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore \u2013 560090.\"": {
+            "comp_fxn": ""
+        },
+        "Acharya_Institute_of_Technology": {
+            "comp_fxn": ""
+        },
+        "All_India_Council_for_Technical_Education": {
+            "comp_fxn": ""
+        },
+        "Arabian_Sea": {
+            "comp_fxn": ""
+        },
+        "Brussels": {
+            "comp_fxn": ""
+        },
+        "European_University_Association": {
+            "comp_fxn": ""
+        },
+        "International_Tennis_Federation": {
+            "comp_fxn": ""
+        },
+        "Karnataka": {
+            "comp_fxn": ""
+        },
+        "School of Business and Social Sciences at the Aarhus University": {
+            "comp_fxn": ""
+        },
+        "Tennis": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "affiliation": {
+            "comp_fxn": ""
+        },
+        "campus": {
+            "comp_fxn": ""
+        },
+        "director": {
+            "comp_fxn": ""
+        },
+        "hasToItsWest": {
+            "comp_fxn": ""
+        },
+        "headquarter": {
+            "comp_fxn": ""
+        },
+        "officialSchoolColour": {
+            "comp_fxn": ""
+        },
+        "sportGoverningBody": {
+            "comp_fxn": ""
+        },
+        "sportsOffered": {
+            "comp_fxn": ""
+        },
+        "state": {
+            "comp_fxn": ""
+        },
+        "wasGivenTheTechnicalCampusStatusBy": {
+            "comp_fxn": ""
+        }
+    }
+}

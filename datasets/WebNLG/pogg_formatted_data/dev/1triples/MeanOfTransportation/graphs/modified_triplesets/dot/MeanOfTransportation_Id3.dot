@@ -1,0 +1,5 @@
+strict digraph {
+AIDA_Cruises [lexicon_key="AIDA_Cruises"];
+Rostock [lexicon_key=Rostock];
+AIDA_Cruises -> Rostock [label=location, lexicon_key=location];
+}

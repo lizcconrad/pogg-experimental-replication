@@ -1,0 +1,5 @@
+strict digraph {
+A_Loyal_Character_Dancer [lexicon_key="A_Loyal_Character_Dancer"];
+"1-56947-301-3" [lexicon_key="1-56947-301-3"];
+A_Loyal_Character_Dancer -> "1-56947-301-3" [label=isbnNumber, lexicon_key=isbnNumber];
+}

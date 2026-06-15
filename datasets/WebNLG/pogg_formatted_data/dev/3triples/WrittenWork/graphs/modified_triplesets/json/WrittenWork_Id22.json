@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Acta_Palaeontologica_Polonica": {
+            "lexicon_key": "Acta_Palaeontologica_Polonica"
+        },
+        "\"1732-2421\"": {
+            "lexicon_key": "\"1732-2421\""
+        },
+        "60040714": {
+            "lexicon_key": "60040714"
+        },
+        "\"Acta Palaeontol. Pol.\"": {
+            "lexicon_key": "\"Acta Palaeontol. Pol.\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "issnNumber",
+            "parent_node": "Acta_Palaeontologica_Polonica",
+            "child_node": "\"1732-2421\"",
+            "edge_properties": {
+                "lexicon_key": "issnNumber"
+            }
+        },
+        {
+            "edge_name": "LCCN_number",
+            "parent_node": "Acta_Palaeontologica_Polonica",
+            "child_node": "60040714",
+            "edge_properties": {
+                "lexicon_key": "LCCN_number"
+            }
+        },
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "Acta_Palaeontologica_Polonica",
+            "child_node": "\"Acta Palaeontol. Pol.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acta Palaeontologica Polonica has the ISSN number 1732-2421 and an LCCN number of 60040714. The abbreviated name is Acta Palaeontol. Pol."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Acta Palaeontologica Polonica (abbreviated to Acta Palaeontol. Pol) has the ISSN number 1732-2421 and the LCCN number 60040714."
+        }
+    },
+    "gold_outputs": [
+        "Acta Palaeontologica Polonica (abbreviated to Acta Palaeontol. Pol) has the ISSN number 1732-2421 and the LCCN number 60040714.",
+        "Acta Palaeontologica Polonica has the ISSN number 1732-2421 and an LCCN number of 60040714. The abbreviated name is Acta Palaeontol. Pol."
+    ]
+}

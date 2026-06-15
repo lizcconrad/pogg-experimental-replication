@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Bacon_sandwich": {
+            "lexicon_key": "Bacon_sandwich"
+        },
+        "\"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin\"": {
+            "lexicon_key": "\"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin\""
+        },
+        "Bread": {
+            "lexicon_key": "Bread"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Bacon_sandwich",
+            "child_node": "\"Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bacon_sandwich",
+            "child_node": "Bread",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A bacon sandwich on bread is also known as bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, or bacon muffin."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The bacon sandwich, which one of two ingredients is bread, has different names including: Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm and bacon muffin."
+        }
+    },
+    "gold_outputs": [
+        "A bacon sandwich on bread is also known as bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, or bacon muffin.",
+        "The bacon sandwich, which one of two ingredients is bread, has different names including: Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm and bacon muffin."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Alison_O'Donnell" [lexicon_key="Alison_O'Donnell"];
+1963 [lexicon_key=1963];
+"Alison_O'Donnell" -> 1963 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

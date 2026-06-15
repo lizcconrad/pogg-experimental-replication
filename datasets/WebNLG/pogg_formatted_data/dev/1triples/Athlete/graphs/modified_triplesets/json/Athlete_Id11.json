@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Akeem_Ayers": {
+            "lexicon_key": "Akeem_Ayers"
+        },
+        "Linebacker": {
+            "lexicon_key": "Linebacker"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "position",
+            "parent_node": "Akeem_Ayers",
+            "child_node": "Linebacker",
+            "edge_properties": {
+                "lexicon_key": "position"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Ayers plays as a linebacker."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Ayers' position is linebacker."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Ayers plays as a linebacker.",
+        "Akeem Ayers' position is linebacker."
+    ]
+}

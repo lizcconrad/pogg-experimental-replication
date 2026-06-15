@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Albany,_Oregon": {
+            "lexicon_key": "Albany,_Oregon"
+        },
+        "Oregon": {
+            "lexicon_key": "Oregon"
+        },
+        "Portland,_Oregon": {
+            "lexicon_key": "Portland,_Oregon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "Oregon",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "largestCity",
+            "parent_node": "Oregon",
+            "child_node": "Portland,_Oregon",
+            "edge_properties": {
+                "lexicon_key": "largestCity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Portland is the largest city in Oregon which also includes Albany."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Portland is the largest city in Oregon, the state which is home to Albany."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albany is a city in Oregon along with Portland which is the largest."
+        }
+    },
+    "gold_outputs": [
+        "Albany is a city in Oregon along with Portland which is the largest.",
+        "Portland is the largest city in Oregon which also includes Albany.",
+        "Portland is the largest city in Oregon, the state which is home to Albany."
+    ]
+}

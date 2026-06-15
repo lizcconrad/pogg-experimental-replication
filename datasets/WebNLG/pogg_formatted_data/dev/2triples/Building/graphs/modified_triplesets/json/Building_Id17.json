@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ampara_Hospital": {
+            "lexicon_key": "Ampara_Hospital"
+        },
+        "Sri_Lanka": {
+            "lexicon_key": "Sri_Lanka"
+        },
+        "Sri_Jayawardenepura_Kotte": {
+            "lexicon_key": "Sri_Jayawardenepura_Kotte"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ampara_Hospital",
+            "child_node": "Sri_Lanka",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "Sri_Lanka",
+            "child_node": "Sri_Jayawardenepura_Kotte",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sri Jayawardenepura Kotte is the capital of Sri Lanka, where Ampara Hospital is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ampara Hospital is located in Sri Lanka whose capital is Sri Jayawardenepura Kotte."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ampara Hospital is located in Sri Lanka where the capital is Sri Jayawardenepura Kotte."
+        }
+    },
+    "gold_outputs": [
+        "Ampara Hospital is located in Sri Lanka where the capital is Sri Jayawardenepura Kotte.",
+        "Ampara Hospital is located in Sri Lanka whose capital is Sri Jayawardenepura Kotte.",
+        "Sri Jayawardenepura Kotte is the capital of Sri Lanka, where Ampara Hospital is located."
+    ]
+}

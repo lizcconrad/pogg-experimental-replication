@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Belgium": {
+            "lexicon_key": "Belgium"
+        },
+        "German_language": {
+            "lexicon_key": "German_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Belgium",
+            "child_node": "German_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Belgium language is German language."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "German is the language of Belgium."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The language spoken is Belgium is German."
+        }
+    },
+    "gold_outputs": [
+        "Belgium language is German language.",
+        "German is the language of Belgium.",
+        "The language spoken is Belgium is German."
+    ]
+}

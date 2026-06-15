@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+World_Wide_Web [lexicon_key="World_Wide_Web"];
+GMA_New_Media -> World_Wide_Web [label=product, lexicon_key=product];
+}

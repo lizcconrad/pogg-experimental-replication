@@ -1,0 +1,7 @@
+strict digraph {
+"Alaa_Abdul-Zahra" [lexicon_key="Alaa_Abdul-Zahra"];
+"Shabab_Al-Ordon_Club" [lexicon_key="Shabab_Al-Ordon_Club"];
+"Al-Zawra'a_SC" [lexicon_key="Al-Zawra'a_SC"];
+"Alaa_Abdul-Zahra" -> "Shabab_Al-Ordon_Club" [label=club, lexicon_key=club];
+"Alaa_Abdul-Zahra" -> "Al-Zawra'a_SC" [label=club, lexicon_key=club];
+}

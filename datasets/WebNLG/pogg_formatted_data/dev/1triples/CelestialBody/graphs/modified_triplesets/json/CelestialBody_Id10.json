@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "107_Camilla": {
+            "lexicon_key": "107_Camilla"
+        },
+        "N._R._Pogson": {
+            "lexicon_key": "N._R._Pogson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "107_Camilla",
+            "child_node": "N._R._Pogson",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "107 Camilla was discovered by N.R. Pogson."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "N.R. Pogson was the discoverer of 107 Camilla."
+        }
+    },
+    "gold_outputs": [
+        "107 Camilla was discovered by N.R. Pogson.",
+        "N.R. Pogson was the discoverer of 107 Camilla."
+    ]
+}

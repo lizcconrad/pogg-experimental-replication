@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Barny_Cakes": {
+            "lexicon_key": "Barny_Cakes"
+        },
+        "Mondelez_International": {
+            "lexicon_key": "Mondelez_International"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Barny_Cakes",
+            "child_node": "Mondelez_International",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Mondelez International is the creator of Barny cakes."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Barny cakes were created by Mondelez International."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Barny cakes is created by Mondelez International."
+        }
+    },
+    "gold_outputs": [
+        "Barny cakes is created by Mondelez International.",
+        "Barny cakes were created by Mondelez International.",
+        "Mondelez International is the creator of Barny cakes."
+    ]
+}

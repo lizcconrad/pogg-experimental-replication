@@ -1,0 +1,159 @@
+{
+    "node_keys": {
+        "\"1/19\"": {
+            "comp_fxn": ""
+        },
+        "\"11/29\"": {
+            "comp_fxn": ""
+        },
+        "\"14L/32R\"": {
+            "comp_fxn": ""
+        },
+        "\"14R/32L\"": {
+            "comp_fxn": ""
+        },
+        "\"18R/36L\"": {
+            "comp_fxn": ""
+        },
+        "Adirondack_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "comp_fxn": ""
+        },
+        "Afonso_Pena_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Al-Taqaddum_Air_Base": {
+            "comp_fxn": ""
+        },
+        "Allama_Iqbal_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Alpena_County_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Amsterdam_Airport_Schiphol": {
+            "comp_fxn": ""
+        },
+        "Andrews,_Texas": {
+            "comp_fxn": ""
+        },
+        "Andrews_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Andrews_County_Airport": {
+            "comp_fxn": ""
+        },
+        "Angola_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Anwar_Zaheer_Jamali": {
+            "comp_fxn": ""
+        },
+        "Ardmore_Airport_(New_Zealand)": {
+            "comp_fxn": ""
+        },
+        "Athens_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Community_of_Madrid": {
+            "comp_fxn": ""
+        },
+        "Four_World_Trade_Center": {
+            "comp_fxn": ""
+        },
+        "German_language": {
+            "comp_fxn": ""
+        },
+        "Giorgos_Kaminis": {
+            "comp_fxn": ""
+        },
+        "Greek_language": {
+            "comp_fxn": ""
+        },
+        "Harrietstown,_New_York": {
+            "comp_fxn": ""
+        },
+        "Jacob_Bundsgaard": {
+            "comp_fxn": ""
+        },
+        "Lars_L\u00f8kke_Rasmussen": {
+            "comp_fxn": ""
+        },
+        "Nikos_Voutsis": {
+            "comp_fxn": ""
+        },
+        "Paracuellos_de_Jarama": {
+            "comp_fxn": ""
+        },
+        "Philippe_of_Belgium": {
+            "comp_fxn": ""
+        },
+        "Port_Authority_of_New_York_and_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "San_Sebasti\u00e1n_de_los_Reyes": {
+            "comp_fxn": ""
+        },
+        "Saranac_Lake,_New_York": {
+            "comp_fxn": ""
+        },
+        "South_Jersey_Transportation_Authority": {
+            "comp_fxn": ""
+        },
+        "Stephen_Dilts": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "capital": {
+            "comp_fxn": ""
+        },
+        "chief": {
+            "comp_fxn": ""
+        },
+        "cityServed": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "countySeat": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevel": {
+            "comp_fxn": ""
+        },
+        "headquarter": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "mayor": {
+            "comp_fxn": ""
+        },
+        "operatingOrganisation": {
+            "comp_fxn": ""
+        },
+        "runwayLength": {
+            "comp_fxn": ""
+        },
+        "runwayName": {
+            "comp_fxn": ""
+        }
+    }
+}

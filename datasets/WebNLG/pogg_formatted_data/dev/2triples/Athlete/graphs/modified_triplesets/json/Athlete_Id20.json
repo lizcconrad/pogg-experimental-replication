@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Alex_Plante": {
+            "lexicon_key": "Alex_Plante"
+        },
+        "1989": {
+            "lexicon_key": "1989"
+        },
+        "Manitoba": {
+            "lexicon_key": "Manitoba"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthYear",
+            "parent_node": "Alex_Plante",
+            "child_node": "1989",
+            "edge_properties": {
+                "lexicon_key": "birthYear"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alex_Plante",
+            "child_node": "Manitoba",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alex Plante was born in 1989 in Manitoba."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alex Plante was born in Manitoba in 1989."
+        }
+    },
+    "gold_outputs": [
+        "Alex Plante was born in 1989 in Manitoba.",
+        "Alex Plante was born in Manitoba in 1989."
+    ]
+}

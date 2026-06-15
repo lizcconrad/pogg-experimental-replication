@@ -1,0 +1,7 @@
+strict digraph {
+"107_Camilla" [lexicon_key="107_Camilla"];
+"N._R._Pogson" [lexicon_key="N._R._Pogson"];
+"2006-12-31" [lexicon_key="2006-12-31"];
+"107_Camilla" -> "N._R._Pogson" [label=discoverer, lexicon_key=discoverer];
+"107_Camilla" -> "2006-12-31" [label=epoch, lexicon_key=epoch];
+}

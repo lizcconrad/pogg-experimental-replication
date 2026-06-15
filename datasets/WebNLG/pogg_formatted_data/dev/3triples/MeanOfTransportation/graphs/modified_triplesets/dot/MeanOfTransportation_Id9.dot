@@ -1,0 +1,9 @@
+strict digraph {
+"Abarth_1000_GT_Coupé" [lexicon_key="Abarth_1000_GT_Coupé"];
+Gruppo_Bertone [lexicon_key="Gruppo_Bertone"];
+Turin [lexicon_key=Turin];
+Italy [lexicon_key=Italy];
+"Abarth_1000_GT_Coupé" -> Gruppo_Bertone [label=designCompany, lexicon_key=designCompany];
+Gruppo_Bertone -> Turin [label=foundationPlace, lexicon_key=foundationPlace];
+Gruppo_Bertone -> Italy [label=country, lexicon_key=country];
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bacon_Explosion": {
+            "lexicon_key": "Bacon_Explosion"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Barack_Obama": {
+            "lexicon_key": "Barack_Obama"
+        },
+        "Washington,_D.C.": {
+            "lexicon_key": "Washington,_D.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "Barack_Obama",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "United_States",
+            "child_node": "Washington,_D.C.",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The United States is the country of Bacon Explosion. Barack Obama is the leader and Washington D.C. is the capital."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Bacon Explosion comes from the United States where Barack Obama is a leader and the capital city is Washington DC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Bacon Explosion originates from the United States where the leader is Barack Obama and the capital is Washington DC."
+        }
+    },
+    "gold_outputs": [
+        "The Bacon Explosion comes from the United States where Barack Obama is a leader and the capital city is Washington DC.",
+        "The Bacon Explosion originates from the United States where the leader is Barack Obama and the capital is Washington DC.",
+        "The United States is the country of Bacon Explosion. Barack Obama is the leader and Washington D.C. is the capital."
+    ]
+}

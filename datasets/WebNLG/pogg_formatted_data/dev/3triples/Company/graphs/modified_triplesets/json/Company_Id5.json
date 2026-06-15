@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "GMA_Network_(company)": {
+            "lexicon_key": "GMA_Network_(company)"
+        },
+        "Public_company": {
+            "lexicon_key": "Public_company"
+        },
+        "Felipe_Gozon": {
+            "lexicon_key": "Felipe_Gozon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "parentCompany",
+            "parent_node": "GMA_New_Media",
+            "child_node": "GMA_Network_(company)",
+            "edge_properties": {
+                "lexicon_key": "parentCompany"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "GMA_Network_(company)",
+            "child_node": "Public_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Felipe_Gozon",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Felipe Gozon is the key person of GMA New Media which is a subsidiary of GMA Network, a public company."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Felipe Gozon is a key person in GMA New Media whose parent company is GMA Network, a public company."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "GMA Network is a public company and also the parent company of GMA New Media where Felipe Gozon is the key person."
+        }
+    },
+    "gold_outputs": [
+        "Felipe Gozon is a key person in GMA New Media whose parent company is GMA Network, a public company.",
+        "Felipe Gozon is the key person of GMA New Media which is a subsidiary of GMA Network, a public company.",
+        "GMA Network is a public company and also the parent company of GMA New Media where Felipe Gozon is the key person."
+    ]
+}

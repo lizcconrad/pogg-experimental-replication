@@ -1,0 +1,5 @@
+strict digraph {
+Dessert [lexicon_key=Dessert];
+Cake [lexicon_key=Cake];
+Dessert -> Cake [label=dishVariation, lexicon_key=dishVariation];
+}

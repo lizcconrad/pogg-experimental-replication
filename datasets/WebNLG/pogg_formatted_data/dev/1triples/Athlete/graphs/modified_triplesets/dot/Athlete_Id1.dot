@@ -1,0 +1,5 @@
+strict digraph {
+"A.C._Milan" [lexicon_key="A.C._Milan"];
+Silvio_Berlusconi [lexicon_key="Silvio_Berlusconi"];
+"A.C._Milan" -> Silvio_Berlusconi [label=chairman, lexicon_key=chairman];
+}

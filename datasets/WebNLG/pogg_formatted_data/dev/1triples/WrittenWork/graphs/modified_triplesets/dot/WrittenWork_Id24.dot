@@ -1,0 +1,5 @@
+strict digraph {
+HIV [lexicon_key=HIV];
+Lentivirus [lexicon_key=Lentivirus];
+HIV -> Lentivirus [label=genus, lexicon_key=genus];
+}

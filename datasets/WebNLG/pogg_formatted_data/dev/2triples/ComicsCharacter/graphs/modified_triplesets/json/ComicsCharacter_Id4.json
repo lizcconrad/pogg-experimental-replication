@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "BBC": {
+            "lexicon_key": "BBC"
+        },
+        "Graeme_Garden": {
+            "lexicon_key": "Graeme_Garden"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "BBC",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        },
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Graeme_Garden",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Starring Graeme Garden, Bananaman, the TV series was shown on the BBC."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Graeme Garden starred in the TV series Bananaman, which was shown on the BBC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bananaman, which starred Graeme Garden, was broadcasted by the BBC."
+        }
+    },
+    "gold_outputs": [
+        "Bananaman, which starred Graeme Garden, was broadcasted by the BBC.",
+        "Graeme Garden starred in the TV series Bananaman, which was shown on the BBC.",
+        "Starring Graeme Garden, Bananaman, the TV series was shown on the BBC."
+    ]
+}

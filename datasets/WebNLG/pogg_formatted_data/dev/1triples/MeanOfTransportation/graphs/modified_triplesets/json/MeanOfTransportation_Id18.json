@@ -1,0 +1,49 @@
+{
+    "nodes": {
+        "Alhambra": {
+            "lexicon_key": "Alhambra"
+        },
+        "1855-07-07": {
+            "lexicon_key": "1855-07-07"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "maidenVoyage",
+            "parent_node": "Alhambra",
+            "child_node": "1855-07-07",
+            "edge_properties": {
+                "lexicon_key": "maidenVoyage"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alhambra had its maiden voyage on the 7th of July 1855."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alhambra made its maiden voyage on July 7th 1855."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alhambra ship's first journey took place on 07/07/1855."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The Alhambra had its first trip on July 7, 1855."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "Alhambra has its maiden voyage on July 7th, 1855."
+        }
+    },
+    "gold_outputs": [
+        "Alhambra has its maiden voyage on July 7th, 1855.",
+        "Alhambra ship's first journey took place on 07/07/1855.",
+        "The Alhambra had its first trip on July 7, 1855.",
+        "The Alhambra had its maiden voyage on the 7th of July 1855.",
+        "The Alhambra made its maiden voyage on July 7th 1855."
+    ]
+}

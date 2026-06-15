@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Batchoy": {
+            "lexicon_key": "Batchoy"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Shrimp": {
+            "lexicon_key": "Shrimp"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Batchoy",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Batchoy",
+            "child_node": "Shrimp",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Batchoy is a food in the Philippines and one of its ingredient is shrimp."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Philippines is the country of origin for the dish Batchoy, of which shrimp is one of the main ingredients."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Philippines is the country that Batchoy, a dish containing shrimp, comes from."
+        }
+    },
+    "gold_outputs": [
+        "Batchoy is a food in the Philippines and one of its ingredient is shrimp.",
+        "The Philippines is the country of origin for the dish Batchoy, of which shrimp is one of the main ingredients.",
+        "The Philippines is the country that Batchoy, a dish containing shrimp, comes from."
+    ]
+}

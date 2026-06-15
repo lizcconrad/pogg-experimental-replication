@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Asian_Americans": {
+            "lexicon_key": "Asian_Americans"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Albany,_Oregon": {
+            "lexicon_key": "Albany,_Oregon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Asian_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albany,_Oregon",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Asian Americans are an ethnic group in the United States, where English is spoken and Albany, Oregon is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albany, Oregon is in the United States where English is the spoken language. Asian Americans are an ethnic group in the U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albany is located in Oregon in the United States where the English language is spoken and the Asian Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "Albany is located in Oregon in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+        "Albany, Oregon is in the United States where English is the spoken language. Asian Americans are an ethnic group in the U.S.",
+        "The Asian Americans are an ethnic group in the United States, where English is spoken and Albany, Oregon is located."
+    ]
+}

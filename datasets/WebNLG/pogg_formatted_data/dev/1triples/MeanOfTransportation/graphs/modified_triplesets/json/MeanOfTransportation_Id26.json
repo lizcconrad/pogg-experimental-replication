@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Audi": {
+            "lexicon_key": "Audi"
+        },
+        "Audi_e-tron": {
+            "lexicon_key": "Audi_e-tron"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "division",
+            "parent_node": "Audi",
+            "child_node": "Audi_e-tron",
+            "edge_properties": {
+                "lexicon_key": "division"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Audi e-tron is a division of Audi."
+        }
+    },
+    "gold_outputs": [
+        "Audi e-tron is a division of Audi."
+    ]
+}

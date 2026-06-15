@@ -1,0 +1,9 @@
+strict digraph {
+"Alpharetta,_Georgia" [lexicon_key="Alpharetta,_Georgia"];
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+"Georgia_(U.S._state)" [lexicon_key="Georgia_(U.S._state)"];
+"Alpharetta,_Georgia" -> United_States [label=country, lexicon_key=country];
+"Alpharetta,_Georgia" -> "Georgia_(U.S._state)" [label=isPartOf, lexicon_key=isPartOf];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

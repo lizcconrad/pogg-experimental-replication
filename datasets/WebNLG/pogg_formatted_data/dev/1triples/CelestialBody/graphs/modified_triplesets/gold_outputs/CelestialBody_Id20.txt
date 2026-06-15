@@ -1,0 +1,3 @@
+110 Lydia has a periapsis measurement of 377016000000.0.
+110 Lydia has a periapsis of 377016000000.0.
+The periapsis of 110 Lydia is 377016000000.0.

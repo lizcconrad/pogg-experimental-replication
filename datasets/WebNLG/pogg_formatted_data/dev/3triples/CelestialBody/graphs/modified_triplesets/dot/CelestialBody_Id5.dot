@@ -1,0 +1,9 @@
+strict digraph {
+"101_Helena" [lexicon_key="101_Helena"];
+James_Craig_Watson [lexicon_key="James_Craig_Watson"];
+Canada [lexicon_key=Canada];
+"Madison,_Wisconsin" [lexicon_key="Madison,_Wisconsin"];
+"101_Helena" -> James_Craig_Watson [label=discoverer, lexicon_key=discoverer];
+James_Craig_Watson -> Canada [label=stateOfOrigin, lexicon_key=stateOfOrigin];
+James_Craig_Watson -> "Madison,_Wisconsin" [label=deathPlace, lexicon_key=deathPlace];
+}

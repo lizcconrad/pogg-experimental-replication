@@ -1,0 +1,5 @@
+strict digraph {
+Airey_Neave [lexicon_key="Airey_Neave"];
+1935 [lexicon_key=1935];
+Airey_Neave -> 1935 [label=serviceStartYear, lexicon_key=serviceStartYear];
+}

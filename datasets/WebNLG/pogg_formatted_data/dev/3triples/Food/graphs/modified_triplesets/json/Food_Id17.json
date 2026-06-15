@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Baked_Alaska": {
+            "lexicon_key": "Baked_Alaska"
+        },
+        "France": {
+            "lexicon_key": "France"
+        },
+        "New_York": {
+            "lexicon_key": "New_York"
+        },
+        "Meringue": {
+            "lexicon_key": "Meringue"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Baked_Alaska",
+            "child_node": "France",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Baked_Alaska",
+            "child_node": "New_York",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Baked_Alaska",
+            "child_node": "Meringue",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Meringue is an ingredient of a Baked Alaska, which is from the New York region and France."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Meringue is an ingredient of a Baked Alaska, which is reputed to come from both France and New York."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "An ingredient of baked Alaska is meringue which originates in France and the New York regions."
+        }
+    },
+    "gold_outputs": [
+        "An ingredient of baked Alaska is meringue which originates in France and the New York regions.",
+        "Meringue is an ingredient of a Baked Alaska, which is from the New York region and France.",
+        "Meringue is an ingredient of a Baked Alaska, which is reputed to come from both France and New York."
+    ]
+}

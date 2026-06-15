@@ -1,0 +1,5 @@
+strict digraph {
+"11_Diagonal_Street" [lexicon_key="11_Diagonal_Street"];
+1983 [lexicon_key=1983];
+"11_Diagonal_Street" -> 1983 [label=completionDate, lexicon_key=completionDate];
+}

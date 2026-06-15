@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Cornell_University": {
+            "lexicon_key": "Cornell_University"
+        },
+        "Cornell_Big_Red": {
+            "lexicon_key": "Cornell_Big_Red"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nickname",
+            "parent_node": "Cornell_University",
+            "child_node": "Cornell_Big_Red",
+            "edge_properties": {
+                "lexicon_key": "nickname"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Cornwell University is nicknamed Cornell Big Red."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Cornell Big Red is the nickname of Cornell University."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Cornell Big Red is the nickname for Cornell University."
+        }
+    },
+    "gold_outputs": [
+        "Cornell Big Red is the nickname for Cornell University.",
+        "Cornell Big Red is the nickname of Cornell University.",
+        "Cornwell University is nicknamed Cornell Big Red."
+    ]
+}

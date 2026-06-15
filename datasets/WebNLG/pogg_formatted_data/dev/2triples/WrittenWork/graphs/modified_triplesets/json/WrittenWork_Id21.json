@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Administrative_Science_Quarterly": {
+            "lexicon_key": "Administrative_Science_Quarterly"
+        },
+        "Cornell_University": {
+            "lexicon_key": "Cornell_University"
+        },
+        "Association_of_Public_and_Land-grant_Universities": {
+            "lexicon_key": "Association_of_Public_and_Land-grant_Universities"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "Administrative_Science_Quarterly",
+            "child_node": "Cornell_University",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        },
+        {
+            "edge_name": "affiliation",
+            "parent_node": "Cornell_University",
+            "child_node": "Association_of_Public_and_Land-grant_Universities",
+            "edge_properties": {
+                "lexicon_key": "affiliation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Cornell University is affiliated with the Association of Public and Land-grant Universities and published Administrative Science Quarterly."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Cornell University, affiliated with the Association of Public and Land-grant Universities, is publisher of Administrative Science Quarterly."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Cornell University, affiliated with the Association of Public and Land-grant Universities, is the publisher of the Administrative Science Quarterly."
+        }
+    },
+    "gold_outputs": [
+        "Cornell University is affiliated with the Association of Public and Land-grant Universities and published Administrative Science Quarterly.",
+        "Cornell University, affiliated with the Association of Public and Land-grant Universities, is publisher of Administrative Science Quarterly.",
+        "Cornell University, affiliated with the Association of Public and Land-grant Universities, is the publisher of the Administrative Science Quarterly."
+    ]
+}

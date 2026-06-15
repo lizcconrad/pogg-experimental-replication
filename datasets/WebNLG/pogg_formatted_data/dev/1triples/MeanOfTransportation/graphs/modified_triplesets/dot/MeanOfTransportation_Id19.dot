@@ -1,0 +1,5 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"8.3 m" [lexicon_key="8.3 m"];
+Alhambra -> "8.3 m" [label=shipBeam, lexicon_key=shipBeam];
+}

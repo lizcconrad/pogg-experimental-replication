@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+        },
+        "Azerbaijan": {
+            "lexicon_key": "Azerbaijan"
+        },
+        "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"": {
+            "lexicon_key": "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\""
+        },
+        "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"": {
+            "lexicon_key": "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "Azerbaijan",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "nativeName",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"T\u00fcrk \u015eehitleri An\u0131t\u0131\"",
+            "edge_properties": {
+                "lexicon_key": "nativeName"
+            }
+        },
+        {
+            "edge_name": "designer",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"H\u00fcseyin B\u00fct\u00fcner and Hilmi G\u00fcner\"",
+            "edge_properties": {
+                "lexicon_key": "designer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial was designed by Huseyin Butuner and Hilmi Guner, and is located in Azerbaijan, where it is called Turk Sehitleri Aniti."
+        }
+    },
+    "gold_outputs": [
+        "The Baku Turkish Martyrs' Memorial was designed by Huseyin Butuner and Hilmi Guner, and is located in Azerbaijan, where it is called Turk Sehitleri Aniti."
+    ]
+}

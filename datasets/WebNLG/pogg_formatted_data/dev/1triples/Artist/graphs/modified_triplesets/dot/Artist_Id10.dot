@@ -1,0 +1,5 @@
+strict digraph {
+"Agustín_Barboza" [lexicon_key="Agustín_Barboza"];
+Philips_Records [lexicon_key="Philips_Records"];
+"Agustín_Barboza" -> Philips_Records [label=recordLabel, lexicon_key=recordLabel];
+}

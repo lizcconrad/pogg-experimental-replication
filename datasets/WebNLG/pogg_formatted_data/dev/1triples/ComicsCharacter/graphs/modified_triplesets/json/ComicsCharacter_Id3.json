@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Balder_(comicsCharacter)": {
+            "lexicon_key": "Balder_(comicsCharacter)"
+        },
+        "Jack_Kirby": {
+            "lexicon_key": "Jack_Kirby"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Balder_(comicsCharacter)",
+            "child_node": "Jack_Kirby",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The comic character, Balder, was created by Jack Kirby."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The comic character Balder was created by Jack Kirby."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jack Kirby created the comic character Balder."
+        }
+    },
+    "gold_outputs": [
+        "Jack Kirby created the comic character Balder.",
+        "The comic character Balder was created by Jack Kirby.",
+        "The comic character, Balder, was created by Jack Kirby."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Angola,_Indiana": {
+            "lexicon_key": "Angola,_Indiana"
+        },
+        "Asian_Americans": {
+            "lexicon_key": "Asian_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Angola,_Indiana",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Asian_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Angola, Indiana is located in the United States where the English language is spoken and the Asian Americans are an ethnic group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The United States, where the Asian Americans are an ethnic group, uses the English language and is the location of Angola, Indiana."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Asian Americans are an ethnic group in the U.S which is where they speak english and the city Angola, Indiana is located."
+        }
+    },
+    "gold_outputs": [
+        "Angola, Indiana is located in the United States where the English language is spoken and the Asian Americans are an ethnic group.",
+        "Asian Americans are an ethnic group in the U.S which is where they speak english and the city Angola, Indiana is located.",
+        "The United States, where the Asian Americans are an ethnic group, uses the English language and is the location of Angola, Indiana."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Romania [lexicon_key=Romania];
+Andrew_the_Apostle [lexicon_key="Andrew_the_Apostle"];
+"1_Decembrie_1918_University" [lexicon_key="1_Decembrie_1918_University"];
+"Universitas Apulensis" [lexicon_key="Universitas Apulensis"];
+Romania -> Andrew_the_Apostle [label=patronSaint, lexicon_key=patronSaint];
+"1_Decembrie_1918_University" -> "Universitas Apulensis" [label=latinName, lexicon_key=latinName];
+"1_Decembrie_1918_University" -> Romania [label=country, lexicon_key=country];
+}

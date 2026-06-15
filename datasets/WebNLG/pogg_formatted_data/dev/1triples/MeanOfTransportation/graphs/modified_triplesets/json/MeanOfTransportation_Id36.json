@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Lancia_Thema": {
+            "lexicon_key": "Lancia_Thema"
+        },
+        "Alfa_Romeo_164": {
+            "lexicon_key": "Alfa_Romeo_164"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Lancia_Thema",
+            "child_node": "Alfa_Romeo_164",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Lancia Thema is related to the Alfa Romeo 164."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Lancia Thema is a mean of transportation compared to Alfa Romeo 164."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Lancia Thema and the Alfa Romeo 164 are related means of transportation."
+        }
+    },
+    "gold_outputs": [
+        "Lancia Thema is a mean of transportation compared to Alfa Romeo 164.",
+        "The Lancia Thema and the Alfa Romeo 164 are related means of transportation.",
+        "The Lancia Thema is related to the Alfa Romeo 164."
+    ]
+}

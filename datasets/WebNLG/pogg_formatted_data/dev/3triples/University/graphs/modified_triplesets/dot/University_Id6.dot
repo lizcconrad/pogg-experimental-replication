@@ -1,0 +1,9 @@
+strict digraph {
+Romania [lexicon_key=Romania];
+Prime_Minister_of_Romania [lexicon_key="Prime_Minister_of_Romania"];
+Klaus_Iohannis [lexicon_key="Klaus_Iohannis"];
+"1_Decembrie_1918_University" [lexicon_key="1_Decembrie_1918_University"];
+Romania -> Prime_Minister_of_Romania [label=leaderTitle, lexicon_key=leaderTitle];
+Romania -> Klaus_Iohannis [label=leader, lexicon_key=leader];
+"1_Decembrie_1918_University" -> Romania [label=country, lexicon_key=country];
+}

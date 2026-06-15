@@ -1,0 +1,7 @@
+strict digraph {
+"Alexandria,_Indiana" [lexicon_key="Alexandria,_Indiana"];
+"6.81 (square kilometres)" [lexicon_key="6.81 (square kilometres)"];
+"755.3 (inhabitants per square kilometre)" [lexicon_key="755.3 (inhabitants per square kilometre)"];
+"Alexandria,_Indiana" -> "6.81 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+"Alexandria,_Indiana" -> "755.3 (inhabitants per square kilometre)" [label=populationDensity, lexicon_key=populationDensity];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Agremiação_Sportiva_Arapiraquense" [lexicon_key="Agremiação_Sportiva_Arapiraquense"];
+"Campeonato_Brasileiro_Série_C" [lexicon_key="Campeonato_Brasileiro_Série_C"];
+"Estádio_Municipal_Coaracy_da_Mata_Fonseca" [lexicon_key="Estádio_Municipal_Coaracy_da_Mata_Fonseca"];
+Vila_Nova_Futebol_Clube [lexicon_key="Vila_Nova_Futebol_Clube"];
+"Agremiação_Sportiva_Arapiraquense" -> "Campeonato_Brasileiro_Série_C" [label=league, lexicon_key=league];
+"Agremiação_Sportiva_Arapiraquense" -> "Estádio_Municipal_Coaracy_da_Mata_Fonseca" [label=ground, lexicon_key=ground];
+"Campeonato_Brasileiro_Série_C" -> Vila_Nova_Futebol_Clube [label=champions, lexicon_key=champions];
+}

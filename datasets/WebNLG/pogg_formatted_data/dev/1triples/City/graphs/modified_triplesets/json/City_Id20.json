@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Atlantic_County,_New_Jersey": {
+            "lexicon_key": "Atlantic_County,_New_Jersey"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Atlantic_County,_New_Jersey",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Atlantic County, New Jersey is located in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Atlantic County in New Jersey is located in the United States."
+        }
+    },
+    "gold_outputs": [
+        "Atlantic County in New Jersey is located in the United States.",
+        "Atlantic County, New Jersey is located in the United States."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "11_Diagonal_Street": {
+            "lexicon_key": "11_Diagonal_Street"
+        },
+        "1983": {
+            "lexicon_key": "1983"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "completionDate",
+            "parent_node": "11_Diagonal_Street",
+            "child_node": "1983",
+            "edge_properties": {
+                "lexicon_key": "completionDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "11 Diagonal Street was completed in 1983."
+        }
+    },
+    "gold_outputs": [
+        "11 Diagonal Street was completed in 1983."
+    ]
+}

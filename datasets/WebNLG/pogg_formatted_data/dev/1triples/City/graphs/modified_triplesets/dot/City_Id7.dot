@@ -1,0 +1,5 @@
+strict digraph {
+"Albuquerque,_New_Mexico" [lexicon_key="Albuquerque,_New_Mexico"];
+Albuquerque_City_Council [lexicon_key="Albuquerque_City_Council"];
+"Albuquerque,_New_Mexico" -> Albuquerque_City_Council [label=leaderTitle, lexicon_key=leaderTitle];
+}

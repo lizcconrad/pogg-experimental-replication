@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Anaheim,_California": {
+            "lexicon_key": "Anaheim,_California"
+        },
+        "Orange_County,_California": {
+            "lexicon_key": "Orange_County,_California"
+        },
+        "Greater_Los_Angeles_Area": {
+            "lexicon_key": "Greater_Los_Angeles_Area"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Anaheim,_California",
+            "child_node": "Orange_County,_California",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Orange_County,_California",
+            "child_node": "Greater_Los_Angeles_Area",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Orange_County,_California",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Orange County in California is part of the Greater Los Angeles area, where Anaheim is located in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anaheim is a city in Orange County, which is part of the Greater Los Angeles area in California, United States."
+        }
+    },
+    "gold_outputs": [
+        "Anaheim is a city in Orange County, which is part of the Greater Los Angeles area in California, United States.",
+        "Orange County in California is part of the Greater Los Angeles area, where Anaheim is located in the United States."
+    ]
+}

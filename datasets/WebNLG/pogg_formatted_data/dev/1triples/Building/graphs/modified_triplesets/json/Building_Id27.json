@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "South_Africa": {
+            "lexicon_key": "South_Africa"
+        },
+        "Cape_Town": {
+            "lexicon_key": "Cape_Town"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "South_Africa",
+            "child_node": "Cape_Town",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Cape Town is the capital of South Africa."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The capital of South Africa is Cape Town."
+        }
+    },
+    "gold_outputs": [
+        "Cape Town is the capital of South Africa.",
+        "The capital of South Africa is Cape Town."
+    ]
+}

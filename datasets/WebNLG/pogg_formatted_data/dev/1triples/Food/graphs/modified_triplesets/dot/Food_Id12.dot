@@ -1,0 +1,5 @@
+strict digraph {
+Bakewell_tart [lexicon_key="Bakewell_tart"];
+Frangipane [lexicon_key=Frangipane];
+Bakewell_tart -> Frangipane [label=ingredient, lexicon_key=ingredient];
+}

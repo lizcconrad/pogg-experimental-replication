@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alba_Iulia": {
+            "lexicon_key": "Alba_Iulia"
+        },
+        "Romania": {
+            "lexicon_key": "Romania"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Alba_Iulia",
+            "child_node": "Romania",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alba Iulia is located in Romania."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alba Iulia is in the country of Romania."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alba Iulia is in Romania."
+        }
+    },
+    "gold_outputs": [
+        "Alba Iulia is in Romania.",
+        "Alba Iulia is in the country of Romania.",
+        "Alba Iulia is located in Romania."
+    ]
+}

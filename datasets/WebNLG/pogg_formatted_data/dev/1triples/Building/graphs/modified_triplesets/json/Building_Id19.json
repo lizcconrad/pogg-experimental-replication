@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Chicago": {
+            "lexicon_key": "Chicago"
+        },
+        "DuPage_County,_Illinois": {
+            "lexicon_key": "DuPage_County,_Illinois"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Chicago",
+            "child_node": "DuPage_County,_Illinois",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chicago is part of DuPage County in Illinois."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chicago is part of DuPage County Illinois."
+        }
+    },
+    "gold_outputs": [
+        "Chicago is part of DuPage County Illinois.",
+        "Chicago is part of DuPage County in Illinois."
+    ]
+}

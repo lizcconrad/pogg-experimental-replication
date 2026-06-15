@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Acta_Mathematica_Hungarica": {
+            "lexicon_key": "Acta_Mathematica_Hungarica"
+        },
+        "83646315": {
+            "lexicon_key": "83646315"
+        },
+        "\"Acta Math. Hungar.\"": {
+            "lexicon_key": "\"Acta Math. Hungar.\""
+        },
+        "\"1588-2632\"": {
+            "lexicon_key": "\"1588-2632\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "LCCN_number",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "83646315",
+            "edge_properties": {
+                "lexicon_key": "LCCN_number"
+            }
+        },
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "\"Acta Math. Hungar.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "issnNumber",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "\"1588-2632\"",
+            "edge_properties": {
+                "lexicon_key": "issnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica, or Acta Math. Hungar., has a LCCN number of 83646315 and a ISSN number of 1588-2632."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica (abbreviated to Acta Math. Hungar.) has the LCCN number 83646315 and ISSN number 1588-2632."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica, abbreviated to Acta Math. Hungar., has LCCN No. 83646315 and ISSN No. 1588-2632."
+        }
+    },
+    "gold_outputs": [
+        "Acta Mathematica Hungarica (abbreviated to Acta Math. Hungar.) has the LCCN number 83646315 and ISSN number 1588-2632.",
+        "Acta Mathematica Hungarica, abbreviated to Acta Math. Hungar., has LCCN No. 83646315 and ISSN No. 1588-2632.",
+        "Acta Mathematica Hungarica, or Acta Math. Hungar., has a LCCN number of 83646315 and a ISSN number of 1588-2632."
+    ]
+}

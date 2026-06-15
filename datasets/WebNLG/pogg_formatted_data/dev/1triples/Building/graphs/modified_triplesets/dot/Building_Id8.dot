@@ -1,0 +1,5 @@
+strict digraph {
+"3Arena" [lexicon_key="3Arena"];
+"HOK SVE" [lexicon_key="HOK SVE"];
+"3Arena" -> "HOK SVE" [label=architect, lexicon_key=architect];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "AFC_Ajax": {
+            "lexicon_key": "AFC_Ajax"
+        },
+        "Frank_de_Boer": {
+            "lexicon_key": "Frank_de_Boer"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "AFC_Ajax",
+            "child_node": "Frank_de_Boer",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Frank de Boer manages the AFC Ajax team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Ajax's manager is Frank de Boer."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The manager of AFC Ajax is Frank de Boer."
+        }
+    },
+    "gold_outputs": [
+        "AFC Ajax's manager is Frank de Boer.",
+        "Frank de Boer manages the AFC Ajax team.",
+        "The manager of AFC Ajax is Frank de Boer."
+    ]
+}

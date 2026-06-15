@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "101_Helena": {
+            "lexicon_key": "101_Helena"
+        },
+        "James_Craig_Watson": {
+            "lexicon_key": "James_Craig_Watson"
+        },
+        "Canada": {
+            "lexicon_key": "Canada"
+        },
+        "Madison,_Wisconsin": {
+            "lexicon_key": "Madison,_Wisconsin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "101_Helena",
+            "child_node": "James_Craig_Watson",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "stateOfOrigin",
+            "parent_node": "James_Craig_Watson",
+            "child_node": "Canada",
+            "edge_properties": {
+                "lexicon_key": "stateOfOrigin"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "James_Craig_Watson",
+            "child_node": "Madison,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The discoverer of 101 Helena is James Craig Watson who came from Canada. He died in Madison, Wisconsin."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "101 Helena was discovered by Canadian, James Craig Watson, who died in Madison, Wisconsin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "James Craig Watson, who discovered 101 Helena, originated from Canada and died in Madison, Wisconsin."
+        }
+    },
+    "gold_outputs": [
+        "101 Helena was discovered by Canadian, James Craig Watson, who died in Madison, Wisconsin.",
+        "James Craig Watson, who discovered 101 Helena, originated from Canada and died in Madison, Wisconsin.",
+        "The discoverer of 101 Helena is James Craig Watson who came from Canada. He died in Madison, Wisconsin."
+    ]
+}

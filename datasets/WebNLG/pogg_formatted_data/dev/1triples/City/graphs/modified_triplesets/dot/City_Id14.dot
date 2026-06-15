@@ -1,0 +1,5 @@
+strict digraph {
+"Ann_Arbor,_Michigan" [lexicon_key="Ann_Arbor,_Michigan"];
+"City Administrator" [lexicon_key="City Administrator"];
+"Ann_Arbor,_Michigan" -> "City Administrator" [label=leaderTitle, lexicon_key=leaderTitle];
+}

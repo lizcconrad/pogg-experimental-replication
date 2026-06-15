@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Flemish_Region": {
+            "lexicon_key": "Flemish_Region"
+        },
+        "Flemish_Government": {
+            "lexicon_key": "Flemish_Government"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Flemish_Region",
+            "child_node": "Flemish_Government",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Flemish region is led by the Flemish government."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Flemish Government leads the Flemish Region."
+        }
+    },
+    "gold_outputs": [
+        "The Flemish Government leads the Flemish Region.",
+        "The Flemish region is led by the Flemish government."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Real_Madrid_Castilla [lexicon_key="Real_Madrid_Castilla"];
+Luis_Miguel_Ramis [lexicon_key="Luis_Miguel_Ramis"];
+"Abner_(footballer)" [lexicon_key="Abner_(footballer)"];
+Coritiba_Foot_Ball_Club [lexicon_key="Coritiba_Foot_Ball_Club"];
+Real_Madrid_Castilla -> Luis_Miguel_Ramis [label=manager, lexicon_key=manager];
+"Abner_(footballer)" -> Real_Madrid_Castilla [label=club, lexicon_key=club];
+"Abner_(footballer)" -> Coritiba_Foot_Ball_Club [label=club, lexicon_key=club];
+}

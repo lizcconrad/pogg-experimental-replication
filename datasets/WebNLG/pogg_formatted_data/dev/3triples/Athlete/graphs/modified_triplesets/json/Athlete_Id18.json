@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "1989-02-24": {
+            "lexicon_key": "1989-02-24"
+        },
+        "FC_Kuban_Krasnodar": {
+            "lexicon_key": "FC_Kuban_Krasnodar"
+        },
+        "FC_Dynamo_Moscow": {
+            "lexicon_key": "FC_Dynamo_Moscow"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "1989-02-24",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Kuban_Krasnodar",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Dynamo_Moscow",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov was born on 24th February 1989 and he plays for FC Kuban Krasnodar as well as for FC Dynamo Moscow."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov, who was born on 24 February 1989, plays for FC Dynamo Moscow and FC Kuban Krasnodar."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov's date of birth is 1989-02-24 and he plays for the FC Kuban Krasnodar club but his club is FC Dynamo Moscow."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandr Prudnikov was born on 24th February 1989 and he plays for FC Kuban Krasnodar as well as for FC Dynamo Moscow.",
+        "Aleksandr Prudnikov's date of birth is 1989-02-24 and he plays for the FC Kuban Krasnodar club but his club is FC Dynamo Moscow.",
+        "Aleksandr Prudnikov, who was born on 24 February 1989, plays for FC Dynamo Moscow and FC Kuban Krasnodar."
+    ]
+}

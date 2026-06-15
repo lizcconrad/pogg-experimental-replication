@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Above_the_Veil": {
+            "lexicon_key": "Above_the_Veil"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Above_the_Veil",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "followedBy",
+            "parent_node": "Aenir",
+            "child_node": "Above_the_Veil",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Above the Veil followed the book Aenir and is written in English."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The book Aenir was followed up by Above the Veil, which is written in English."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The novel Aenir was followed by Above the Veil written in English."
+        }
+    },
+    "gold_outputs": [
+        "Above the Veil followed the book Aenir and is written in English.",
+        "The book Aenir was followed up by Above the Veil, which is written in English.",
+        "The novel Aenir was followed by Above the Veil written in English."
+    ]
+}

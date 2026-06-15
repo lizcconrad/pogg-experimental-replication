@@ -1,0 +1,7 @@
+strict digraph {
+"Alan_Martin_(footballer)" [lexicon_key="Alan_Martin_(footballer)"];
+"Hamilton_Academical_F.C." [lexicon_key="Hamilton_Academical_F.C."];
+"Barrow_A.F.C." [lexicon_key="Barrow_A.F.C."];
+"Alan_Martin_(footballer)" -> "Hamilton_Academical_F.C." [label=club, lexicon_key=club];
+"Alan_Martin_(footballer)" -> "Barrow_A.F.C." [label=club, lexicon_key=club];
+}

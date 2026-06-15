@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Pangasinense_people": {
+            "lexicon_key": "Pangasinense_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "Philippines",
+            "child_node": "Pangasinense_people",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Pangasinense people are the ethnic group of the Philippines."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ethnic group in the Philippines is called the Pangasinense people."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The ethnic group of the Philippines is Pangasinense."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The Pangasinense people are an ethnic group native to the Philippines."
+        }
+    },
+    "gold_outputs": [
+        "Pangasinense people are the ethnic group of the Philippines.",
+        "The Pangasinense people are an ethnic group native to the Philippines.",
+        "The ethnic group in the Philippines is called the Pangasinense people.",
+        "The ethnic group of the Philippines is Pangasinense."
+    ]
+}

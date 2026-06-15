@@ -1,0 +1,5 @@
+strict digraph {
+Romania [lexicon_key=Romania];
+Andrew_the_Apostle [lexicon_key="Andrew_the_Apostle"];
+Romania -> Andrew_the_Apostle [label=patronSaint, lexicon_key=patronSaint];
+}

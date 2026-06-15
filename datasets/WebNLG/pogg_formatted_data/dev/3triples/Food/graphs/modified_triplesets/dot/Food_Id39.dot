@@ -1,0 +1,9 @@
+strict digraph {
+Spain [lexicon_key=Spain];
+Spanish_language [lexicon_key="Spanish_language"];
+"Arròs_negre" [lexicon_key="Arròs_negre"];
+Felipe_VI_of_Spain [lexicon_key="Felipe_VI_of_Spain"];
+Spain -> Spanish_language [label=language, lexicon_key=language];
+Spain -> Felipe_VI_of_Spain [label=leader, lexicon_key=leader];
+"Arròs_negre" -> Spain [label=country, lexicon_key=country];
+}

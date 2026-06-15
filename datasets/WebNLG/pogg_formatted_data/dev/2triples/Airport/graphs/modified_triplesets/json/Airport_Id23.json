@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Athens_International_Airport": {
+            "lexicon_key": "Athens_International_Airport"
+        },
+        "Athens": {
+            "lexicon_key": "Athens"
+        },
+        "3800.0": {
+            "lexicon_key": "3800.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Athens_International_Airport",
+            "child_node": "Athens",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Athens_International_Airport",
+            "child_node": "3800.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Athens International Airport serves the city of Athens and has a runway length of 3800.0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Athens International Airport serves the city of Athens and has a runway length of 3.800 metres."
+        }
+    },
+    "gold_outputs": [
+        "Athens International Airport serves the city of Athens and has a runway length of 3.800 metres.",
+        "Athens International Airport serves the city of Athens and has a runway length of 3800.0."
+    ]
+}

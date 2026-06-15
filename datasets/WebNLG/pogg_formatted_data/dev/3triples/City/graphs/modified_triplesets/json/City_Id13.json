@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Angola,_Indiana": {
+            "lexicon_key": "Angola,_Indiana"
+        },
+        "Steuben_County,_Indiana": {
+            "lexicon_key": "Steuben_County,_Indiana"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Native_Americans_in_the_United_States": {
+            "lexicon_key": "Native_Americans_in_the_United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Angola,_Indiana",
+            "child_node": "Steuben_County,_Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Native_Americans_in_the_United_States",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Angola,_Indiana",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Angola is part of Steuben County, Indiana in the United States, the country where Native Americans are an ethnic group."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Angola, Indiana is in Steuben County, in the United States, where Native Americans, is one of the ethnic groups."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Native Americans are an ethnic group within the United States and Angola, Indiana is part of Steuben County, Indiana there."
+        }
+    },
+    "gold_outputs": [
+        "Angola is part of Steuben County, Indiana in the United States, the country where Native Americans are an ethnic group.",
+        "Angola, Indiana is in Steuben County, in the United States, where Native Americans, is one of the ethnic groups.",
+        "Native Americans are an ethnic group within the United States and Angola, Indiana is part of Steuben County, Indiana there."
+    ]
+}

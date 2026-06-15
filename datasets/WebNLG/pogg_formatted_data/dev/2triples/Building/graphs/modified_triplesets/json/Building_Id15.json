@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "Robert_A._M._Stern": {
+            "lexicon_key": "Robert_A._M._Stern"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "tenant",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "tenant"
+            }
+        },
+        {
+            "edge_name": "architect",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Robert_A._M._Stern",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Robert A. M. Stern is the architect of the Alan B. Miller Hall where the Mason School of Business is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Robert A M Stern designed Alan B Miller Hall and the Mason School of Business is a tenant there."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Mason School of Business is a tenant of the Alan B. Miller Hall, which was designed by Robert A.M. Stern."
+        }
+    },
+    "gold_outputs": [
+        "Mason School of Business is a tenant of the Alan B. Miller Hall, which was designed by Robert A.M. Stern.",
+        "Robert A M Stern designed Alan B Miller Hall and the Mason School of Business is a tenant there.",
+        "Robert A. M. Stern is the architect of the Alan B. Miller Hall where the Mason School of Business is located."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Alfred_Garth_Jones [lexicon_key="Alfred_Garth_Jones"];
+Sidcup [lexicon_key=Sidcup];
+London [lexicon_key=London];
+Boris_Johnson [lexicon_key="Boris_Johnson"];
+Alfred_Garth_Jones -> Sidcup [label=deathPlace, lexicon_key=deathPlace];
+Alfred_Garth_Jones -> London [label=deathPlace, lexicon_key=deathPlace];
+London -> Boris_Johnson [label=leader, lexicon_key=leader];
+}

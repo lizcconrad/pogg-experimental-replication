@@ -1,0 +1,7 @@
+strict digraph {
+"101_Helena" [lexicon_key="101_Helena"];
+"18.44 (kilometrePerSeconds)" [lexicon_key="18.44 (kilometrePerSeconds)"];
+"441092000.0 (kilometres)" [lexicon_key="441092000.0 (kilometres)"];
+"101_Helena" -> "18.44 (kilometrePerSeconds)" [label=averageSpeed, lexicon_key=averageSpeed];
+"101_Helena" -> "441092000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

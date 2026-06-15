@@ -1,0 +1,7 @@
+strict digraph {
+Albert_Jennings_Fountain [lexicon_key="Albert_Jennings_Fountain"];
+"Edmund_J._Davis" [lexicon_key="Edmund_J._Davis"];
+New_Mexico_Territory [lexicon_key="New_Mexico_Territory"];
+Albert_Jennings_Fountain -> "Edmund_J._Davis" [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+Albert_Jennings_Fountain -> New_Mexico_Territory [label=deathPlace, lexicon_key=deathPlace];
+}

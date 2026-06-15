@@ -1,0 +1,9 @@
+strict digraph {
+Albuquerque_City_Council [lexicon_key="Albuquerque_City_Council"];
+"Richard_J._Berry" [lexicon_key="Richard_J._Berry"];
+"Albuquerque,_New_Mexico" [lexicon_key="Albuquerque,_New_Mexico"];
+United_States [lexicon_key="United_States"];
+Albuquerque_City_Council -> "Richard_J._Berry" [label=leader, lexicon_key=leader];
+"Albuquerque,_New_Mexico" -> Albuquerque_City_Council [label=leaderTitle, lexicon_key=leaderTitle];
+"Albuquerque,_New_Mexico" -> United_States [label=country, lexicon_key=country];
+}

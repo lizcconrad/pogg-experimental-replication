@@ -1,0 +1,60 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "occupation",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Buzz Aldrin performed as a fighter pilot and was a crew member on Apollo 11."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Buzz Aldrin, who was a fighter pilot, was a crew member on Apollo 11."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Buzz Aldrin was a fighter pilot who was also part of the Apollo 11 crew."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Buzz Aldrin was both a fighter pilot and member of the Apollo 11 flight crew."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "Buzz Aldrin was a fighter pilot and crew member of Apollo 11."
+        }
+    },
+    "gold_outputs": [
+        "Buzz Aldrin performed as a fighter pilot and was a crew member on Apollo 11.",
+        "Buzz Aldrin was a fighter pilot and crew member of Apollo 11.",
+        "Buzz Aldrin was a fighter pilot who was also part of the Apollo 11 crew.",
+        "Buzz Aldrin was both a fighter pilot and member of the Apollo 11 flight crew.",
+        "Buzz Aldrin, who was a fighter pilot, was a crew member on Apollo 11."
+    ]
+}

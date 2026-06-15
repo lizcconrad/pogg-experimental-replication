@@ -1,0 +1,7 @@
+strict digraph {
+Alberto_Teisaire [lexicon_key="Alberto_Teisaire"];
+Buenos_Aires [lexicon_key="Buenos_Aires"];
+Diego_Santilli [lexicon_key="Diego_Santilli"];
+Alberto_Teisaire -> Buenos_Aires [label=deathPlace, lexicon_key=deathPlace];
+Buenos_Aires -> Diego_Santilli [label=leader, lexicon_key=leader];
+}

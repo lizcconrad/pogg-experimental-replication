@@ -1,0 +1,9 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+"978-1-4165-4253-7" [lexicon_key="978-1-4165-4253-7"];
+"Virginia DeMarce and Eric Flint" [lexicon_key="Virginia DeMarce and Eric Flint"];
+"Print" [lexicon_key="Print"];
+1634:_The_Bavarian_Crisis -> "978-1-4165-4253-7" [label=isbnNumber, lexicon_key=isbnNumber];
+1634:_The_Bavarian_Crisis -> "Virginia DeMarce and Eric Flint" [label=author, lexicon_key=author];
+1634:_The_Bavarian_Crisis -> "Print" [label=mediaType, lexicon_key=mediaType];
+}

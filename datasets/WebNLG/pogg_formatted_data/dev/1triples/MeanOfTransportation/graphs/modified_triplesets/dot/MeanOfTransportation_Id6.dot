@@ -1,0 +1,5 @@
+strict digraph {
+AIDAstella [lexicon_key=AIDAstella];
+Meyer_Werft [lexicon_key="Meyer_Werft"];
+AIDAstella -> Meyer_Werft [label=builder, lexicon_key=builder];
+}

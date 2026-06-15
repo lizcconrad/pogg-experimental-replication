@@ -1,0 +1,5 @@
+strict digraph {
+"Anderson,_Indiana" [lexicon_key="Anderson,_Indiana"];
+"Adams, Fall Creek, Lafayette, Richland, Union" [lexicon_key="Adams, Fall Creek, Lafayette, Richland, Union"];
+"Anderson,_Indiana" -> "Adams, Fall Creek, Lafayette, Richland, Union" [label=isPartOf, lexicon_key=isPartOf];
+}

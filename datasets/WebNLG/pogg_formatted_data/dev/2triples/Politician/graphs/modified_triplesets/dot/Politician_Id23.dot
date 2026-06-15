@@ -1,0 +1,7 @@
+strict digraph {
+"Albert_B._White" [lexicon_key="Albert_B._White"];
+"Parkersburg,_West_Virginia" [lexicon_key="Parkersburg,_West_Virginia"];
+"William_M._O._Dawson" [lexicon_key="William_M._O._Dawson"];
+"Albert_B._White" -> "Parkersburg,_West_Virginia" [label=deathPlace, lexicon_key=deathPlace];
+"Albert_B._White" -> "William_M._O._Dawson" [label=successor, lexicon_key=successor];
+}

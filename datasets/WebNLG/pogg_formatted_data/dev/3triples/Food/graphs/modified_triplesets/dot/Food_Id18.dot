@@ -1,0 +1,9 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+United_States [lexicon_key="United_States"];
+New_York [lexicon_key="New_York"];
+Sponge_cake [lexicon_key="Sponge_cake"];
+Baked_Alaska -> United_States [label=country, lexicon_key=country];
+Baked_Alaska -> New_York [label=region, lexicon_key=region];
+Baked_Alaska -> Sponge_cake [label=ingredient, lexicon_key=ingredient];
+}

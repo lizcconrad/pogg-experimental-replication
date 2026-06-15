@@ -1,0 +1,5 @@
+strict digraph {
+Brazil [lexicon_key=Brazil];
+"Cármen_Lúcia" [lexicon_key="Cármen_Lúcia"];
+Brazil -> "Cármen_Lúcia" [label=leader, lexicon_key=leader];
+}

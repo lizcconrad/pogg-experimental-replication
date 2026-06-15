@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abradab": {
+            "lexicon_key": "Abradab"
+        },
+        "Hip_hop_music": {
+            "lexicon_key": "Hip_hop_music"
+        },
+        "Gangsta_rap": {
+            "lexicon_key": "Gangsta_rap"
+        },
+        "Drum_and_bass": {
+            "lexicon_key": "Drum_and_bass"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Abradab",
+            "child_node": "Hip_hop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicSubgenre",
+            "parent_node": "Hip_hop_music",
+            "child_node": "Gangsta_rap",
+            "edge_properties": {
+                "lexicon_key": "musicSubgenre"
+            }
+        },
+        {
+            "edge_name": "derivative",
+            "parent_node": "Hip_hop_music",
+            "child_node": "Drum_and_bass",
+            "edge_properties": {
+                "lexicon_key": "derivative"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abradab performs hip hop music which has the sub genre Gangsta rap. Drum and bass derives its sounds from hip hop music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The musical genre of Abradab is hip hop music, from which Drum and bass derives its sounds. Hip hop music has a sub genre called Gangsta rap."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Hip Hop music, which includes Gangsta Rap and Drum and Bass, is the genre of Abradab."
+        }
+    },
+    "gold_outputs": [
+        "Abradab performs hip hop music which has the sub genre Gangsta rap. Drum and bass derives its sounds from hip hop music.",
+        "Hip Hop music, which includes Gangsta Rap and Drum and Bass, is the genre of Abradab.",
+        "The musical genre of Abradab is hip hop music, from which Drum and bass derives its sounds. Hip hop music has a sub genre called Gangsta rap."
+    ]
+}

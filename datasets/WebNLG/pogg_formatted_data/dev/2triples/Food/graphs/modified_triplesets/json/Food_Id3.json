@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Amatriciana_sauce": {
+            "lexicon_key": "Amatriciana_sauce"
+        },
+        "Lazio": {
+            "lexicon_key": "Lazio"
+        },
+        "Tomato": {
+            "lexicon_key": "Tomato"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Amatriciana_sauce",
+            "child_node": "Lazio",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Amatriciana_sauce",
+            "child_node": "Tomato",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Tomato is an ingredient in Amatriciana sauce which comes from Lazio."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amatriciana sauce is from the Lazio region and tomato is one of the ingredients."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Tomato is an ingredient in Amatriciana sauce which comes from the region of Lazio."
+        }
+    },
+    "gold_outputs": [
+        "Amatriciana sauce is from the Lazio region and tomato is one of the ingredients.",
+        "Tomato is an ingredient in Amatriciana sauce which comes from Lazio.",
+        "Tomato is an ingredient in Amatriciana sauce which comes from the region of Lazio."
+    ]
+}

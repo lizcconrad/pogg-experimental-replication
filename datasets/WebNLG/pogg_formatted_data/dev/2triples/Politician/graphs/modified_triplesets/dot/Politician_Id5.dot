@@ -1,0 +1,7 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Mike_Akhigbe [lexicon_key="Mike_Akhigbe"];
+Nigerian_Army [lexicon_key="Nigerian_Army"];
+Abdulsalami_Abubakar -> Mike_Akhigbe [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+Abdulsalami_Abubakar -> Nigerian_Army [label=militaryBranch, lexicon_key=militaryBranch];
+}

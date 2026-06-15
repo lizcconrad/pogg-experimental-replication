@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Alison_O'Donnell": {
+            "lexicon_key": "Alison_O'Donnell"
+        },
+        "1963": {
+            "lexicon_key": "1963"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Alison_O'Donnell",
+            "child_node": "1963",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alison O'Donnell started performing in 1963."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1963 was the beginning of Alison O'Donnell's active years."
+        }
+    },
+    "gold_outputs": [
+        "1963 was the beginning of Alison O'Donnell's active years.",
+        "Alison O'Donnell started performing in 1963."
+    ]
+}

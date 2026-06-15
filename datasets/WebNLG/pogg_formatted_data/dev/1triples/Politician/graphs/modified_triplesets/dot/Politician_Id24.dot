@@ -1,0 +1,5 @@
+strict digraph {
+Allan_Shivers [lexicon_key="Allan_Shivers"];
+World_War_II [lexicon_key="World_War_II"];
+Allan_Shivers -> World_War_II [label=battle, lexicon_key=battle];
+}

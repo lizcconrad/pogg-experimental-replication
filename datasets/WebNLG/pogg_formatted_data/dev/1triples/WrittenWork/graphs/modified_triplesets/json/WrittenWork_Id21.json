@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "American_Journal_of_Mathematics": {
+            "lexicon_key": "American_Journal_of_Mathematics"
+        },
+        "\"1.337\"": {
+            "lexicon_key": "\"1.337\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "impactFactor",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "\"1.337\"",
+            "edge_properties": {
+                "lexicon_key": "impactFactor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The impact factor of the American Journal of Mathematics is 1.337."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The American Journal of Mathematics has an impact Factor of 1.337."
+        }
+    },
+    "gold_outputs": [
+        "The American Journal of Mathematics has an impact Factor of 1.337.",
+        "The impact factor of the American Journal of Mathematics is 1.337."
+    ]
+}

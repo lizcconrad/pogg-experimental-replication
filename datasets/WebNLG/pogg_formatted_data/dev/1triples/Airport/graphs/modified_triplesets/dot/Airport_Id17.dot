@@ -1,0 +1,5 @@
+strict digraph {
+Andrews_County_Airport [lexicon_key="Andrews_County_Airport"];
+"Andrews,_Texas" [lexicon_key="Andrews,_Texas"];
+Andrews_County_Airport -> "Andrews,_Texas" [label=cityServed, lexicon_key=cityServed];
+}

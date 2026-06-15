@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Acta_Mathematica_Hungarica": {
+            "lexicon_key": "Acta_Mathematica_Hungarica"
+        },
+        "\"Acta Math. Hungar.\"": {
+            "lexicon_key": "\"Acta Math. Hungar.\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "\"Acta Math. Hungar.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica is also known as Acta Math. Hungar."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica has the abbreviation of \"Acta Math. Hungar\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The abbreviation of Acta Mathematica Hungarica is Acta Math. Hungar."
+        }
+    },
+    "gold_outputs": [
+        "Acta Mathematica Hungarica has the abbreviation of \"Acta Math. Hungar\".",
+        "Acta Mathematica Hungarica is also known as Acta Math. Hungar.",
+        "The abbreviation of Acta Mathematica Hungarica is Acta Math. Hungar."
+    ]
+}

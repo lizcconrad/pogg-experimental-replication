@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Massimo_Drago": {
+            "lexicon_key": "Massimo_Drago"
+        },
+        "S.S._Chieti_Calcio": {
+            "lexicon_key": "S.S._Chieti_Calcio"
+        },
+        "A.C._Cesena": {
+            "lexicon_key": "A.C._Cesena"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Massimo_Drago",
+            "child_node": "S.S._Chieti_Calcio",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "A.C._Cesena",
+            "child_node": "Massimo_Drago",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Massimo Drago's club is the S.S. Chieti Calcio and he manages A.C. Cesena."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Massimo Drago manages A.C. Cesena and plays for S.S. Chieti Calcio."
+        }
+    },
+    "gold_outputs": [
+        "Massimo Drago manages A.C. Cesena and plays for S.S. Chieti Calcio.",
+        "Massimo Drago's club is the S.S. Chieti Calcio and he manages A.C. Cesena."
+    ]
+}

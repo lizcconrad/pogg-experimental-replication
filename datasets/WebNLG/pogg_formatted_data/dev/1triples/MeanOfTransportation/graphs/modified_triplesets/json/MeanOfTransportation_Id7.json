@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "AIDAstella": {
+            "lexicon_key": "AIDAstella"
+        },
+        "2013-03-16": {
+            "lexicon_key": "2013-03-16"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "christeningDate",
+            "parent_node": "AIDAstella",
+            "child_node": "2013-03-16",
+            "edge_properties": {
+                "lexicon_key": "christeningDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDAstella was christened on the 16th of March, 2013."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AIDAstella was christened in March 16 2013."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The christening date of AIDAstella is 2013-03-16."
+        }
+    },
+    "gold_outputs": [
+        "The AIDAstella was christened in March 16 2013.",
+        "The AIDAstella was christened on the 16th of March, 2013.",
+        "The christening date of AIDAstella is 2013-03-16."
+    ]
+}

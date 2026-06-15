@@ -1,0 +1,168 @@
+{
+    "node_keys": {
+        "131.6 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "1580.7 (inhabitants per square kilometre)": {
+            "comp_fxn": ""
+        },
+        "48.0": {
+            "comp_fxn": ""
+        },
+        "6.81 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "686.0 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "703.95 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "74.33 (square kilometres)": {
+            "comp_fxn": ""
+        },
+        "755.3 (inhabitants per square kilometre)": {
+            "comp_fxn": ""
+        },
+        "African_Americans": {
+            "comp_fxn": ""
+        },
+        "Akron,_Ohio": {
+            "comp_fxn": ""
+        },
+        "Albany,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Albany,_Oregon": {
+            "comp_fxn": ""
+        },
+        "Albuquerque,_New_Mexico": {
+            "comp_fxn": ""
+        },
+        "Alexandria,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Amarillo,_Texas": {
+            "comp_fxn": ""
+        },
+        "Americans": {
+            "comp_fxn": ""
+        },
+        "Anaheim,_California": {
+            "comp_fxn": ""
+        },
+        "Anderson,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Anderson_Township,_Madison_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Ann_Arbor,_Michigan": {
+            "comp_fxn": ""
+        },
+        "Arlington,_Texas": {
+            "comp_fxn": ""
+        },
+        "Asian_Americans": {
+            "comp_fxn": ""
+        },
+        "Atlanta": {
+            "comp_fxn": ""
+        },
+        "Attica,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Auburn,_Alabama": {
+            "comp_fxn": ""
+        },
+        "Austin,_Texas": {
+            "comp_fxn": ""
+        },
+        "City_Manager": {
+            "comp_fxn": ""
+        },
+        "English_language": {
+            "comp_fxn": ""
+        },
+        "Fall_Creek_Township,_Madison_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "Fulton_County,_Georgia": {
+            "comp_fxn": ""
+        },
+        "Georgia_(U.S._state)": {
+            "comp_fxn": ""
+        },
+        "Indiana": {
+            "comp_fxn": ""
+        },
+        "Indianapolis": {
+            "comp_fxn": ""
+        },
+        "Michigan": {
+            "comp_fxn": ""
+        },
+        "Oregon": {
+            "comp_fxn": ""
+        },
+        "Portland,_Oregon": {
+            "comp_fxn": ""
+        },
+        "Potter_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Texas": {
+            "comp_fxn": ""
+        },
+        "Travis_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Union_Township,_Madison_County,_Indiana": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "Washington,_D.C.": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "areaOfLand": {
+            "comp_fxn": ""
+        },
+        "areaTotal": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "demonym": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevel": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "largestCity": {
+            "comp_fxn": ""
+        },
+        "leaderTitle": {
+            "comp_fxn": ""
+        },
+        "populationDensity": {
+            "comp_fxn": ""
+        }
+    }
+}

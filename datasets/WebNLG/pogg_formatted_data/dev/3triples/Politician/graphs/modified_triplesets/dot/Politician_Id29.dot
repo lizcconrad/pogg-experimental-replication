@@ -1,0 +1,9 @@
+strict digraph {
+Austria [lexicon_key=Austria];
+Doris_Bures [lexicon_key="Doris_Bures"];
+Alfons_Gorbach [lexicon_key="Alfons_Gorbach"];
+"Austria-Hungary" [lexicon_key="Austria-Hungary"];
+Austria -> Doris_Bures [label=leader, lexicon_key=leader];
+Alfons_Gorbach -> "Austria-Hungary" [label=birthPlace, lexicon_key=birthPlace];
+Alfons_Gorbach -> Austria [label=deathPlace, lexicon_key=deathPlace];
+}

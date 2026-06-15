@@ -1,0 +1,9 @@
+strict digraph {
+"A.S._Roma" [lexicon_key="A.S._Roma"];
+"Associazione Sportiva Roma S.p.A." [lexicon_key="Associazione Sportiva Roma S.p.A."];
+"Rome, Italy" [lexicon_key="Rome, Italy"];
+70634 [lexicon_key=70634];
+"A.S._Roma" -> "Associazione Sportiva Roma S.p.A." [label=fullName, lexicon_key=fullName];
+"A.S._Roma" -> "Rome, Italy" [label=ground, lexicon_key=ground];
+"A.S._Roma" -> 70634 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

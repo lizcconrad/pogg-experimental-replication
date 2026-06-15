@@ -1,0 +1,5 @@
+strict digraph {
+Allen_Forrest [lexicon_key="Allen_Forrest"];
+Pop_music [lexicon_key="Pop_music"];
+Allen_Forrest -> Pop_music [label=genre, lexicon_key=genre];
+}

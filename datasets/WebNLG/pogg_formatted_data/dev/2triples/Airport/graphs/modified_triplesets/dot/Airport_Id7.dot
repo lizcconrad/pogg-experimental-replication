@@ -1,0 +1,7 @@
+strict digraph {
+Al_Asad_Airbase [lexicon_key="Al_Asad_Airbase"];
+United_States_Air_Force [lexicon_key="United_States_Air_Force"];
+United_States_invasion_of_Panama [lexicon_key="United_States_invasion_of_Panama"];
+Al_Asad_Airbase -> United_States_Air_Force [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+United_States_Air_Force -> United_States_invasion_of_Panama [label=battle, lexicon_key=battle];
+}

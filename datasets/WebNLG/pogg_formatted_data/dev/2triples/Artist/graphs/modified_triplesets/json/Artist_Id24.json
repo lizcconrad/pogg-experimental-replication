@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Andra_(singer)": {
+            "lexicon_key": "Andra_(singer)"
+        },
+        "Pop_music": {
+            "lexicon_key": "Pop_music"
+        },
+        "Disco": {
+            "lexicon_key": "Disco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Andra_(singer)",
+            "child_node": "Pop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Pop_music",
+            "child_node": "Disco",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Disco can be considered a fusion genre as it contains elements of other genres such as pop music which is performed by Andra (singer)."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Disco music is a fusion genre of pop music, the genre of singer, Andra."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andra sings pop music, a fusion genre of pop music is disco music."
+        }
+    },
+    "gold_outputs": [
+        "Andra sings pop music, a fusion genre of pop music is disco music.",
+        "Disco can be considered a fusion genre as it contains elements of other genres such as pop music which is performed by Andra (singer).",
+        "Disco music is a fusion genre of pop music, the genre of singer, Andra."
+    ]
+}

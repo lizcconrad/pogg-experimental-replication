@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Marriott_International": {
+            "lexicon_key": "Marriott_International"
+        },
+        "Bill_Marriott": {
+            "lexicon_key": "Bill_Marriott"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "Marriott_International",
+            "child_node": "Bill_Marriott",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bill Marriott is the key person at Marriott International."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "One of the key people in Marriott International is Bill Marriott."
+        }
+    },
+    "gold_outputs": [
+        "Bill Marriott is the key person at Marriott International.",
+        "One of the key people in Marriott International is Bill Marriott."
+    ]
+}

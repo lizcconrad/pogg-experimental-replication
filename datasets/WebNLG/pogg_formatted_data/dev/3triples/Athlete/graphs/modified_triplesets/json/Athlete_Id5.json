@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Ahmad_Kadhim_Assad": {
+            "lexicon_key": "Ahmad_Kadhim_Assad"
+        },
+        "Iraq_national_football_team": {
+            "lexicon_key": "Iraq_national_football_team"
+        },
+        "Esteghlal_Ahvaz_F.C.": {
+            "lexicon_key": "Esteghlal_Ahvaz_F.C."
+        },
+        "Adnan_Hamad": {
+            "lexicon_key": "Adnan_Hamad"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Ahmad_Kadhim_Assad",
+            "child_node": "Iraq_national_football_team",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "Esteghlal_Ahvaz_F.C.",
+            "child_node": "Adnan_Hamad",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Ahmad_Kadhim_Assad",
+            "child_node": "Esteghlal_Ahvaz_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad, who formerly played for Esteghlal Ahvaz FC, plays for the Iraq national football team which is managed by Adnan Hamad."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad is part of the Esteghlal Ahvaz F.C. in the Iraq national football team. Esteghlal Ahvaz F.C. manages Adnan Hamad."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Iraqi national football team player, Ahmad Kadhim Assad played for Esteghlal Ahvaz F.C., the manager of which, is Adnan Hamad."
+        }
+    },
+    "gold_outputs": [
+        "Ahmad Kadhim Assad is part of the Esteghlal Ahvaz F.C. in the Iraq national football team. Esteghlal Ahvaz F.C. manages Adnan Hamad.",
+        "Ahmad Kadhim Assad, who formerly played for Esteghlal Ahvaz FC, plays for the Iraq national football team which is managed by Adnan Hamad.",
+        "Iraqi national football team player, Ahmad Kadhim Assad played for Esteghlal Ahvaz F.C., the manager of which, is Adnan Hamad."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Adonis_Georgiadis [lexicon_key="Adonis_Georgiadis"];
+Antonis_Samaras [lexicon_key="Antonis_Samaras"];
+Konstantinos_Mitsotakis [lexicon_key="Konstantinos_Mitsotakis"];
+Adonis_Georgiadis -> Antonis_Samaras [label=inOfficeWhilePrimeMinister, lexicon_key=inOfficeWhilePrimeMinister];
+Antonis_Samaras -> Konstantinos_Mitsotakis [label=successor, lexicon_key=successor];
+}

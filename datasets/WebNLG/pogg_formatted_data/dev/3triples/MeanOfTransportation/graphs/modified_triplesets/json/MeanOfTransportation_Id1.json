@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "1955_Dodge": {
+            "lexicon_key": "1955_Dodge"
+        },
+        "V8_engine": {
+            "lexicon_key": "V8_engine"
+        },
+        "\"Dodge Coronet\"": {
+            "lexicon_key": "\"Dodge Coronet\""
+        },
+        "Hardtop": {
+            "lexicon_key": "Hardtop"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "1955_Dodge",
+            "child_node": "V8_engine",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "1955_Dodge",
+            "child_node": "\"Dodge Coronet\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        },
+        {
+            "edge_name": "bodyStyle",
+            "parent_node": "1955_Dodge",
+            "child_node": "Hardtop",
+            "edge_properties": {
+                "lexicon_key": "bodyStyle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The 1955 Dodge, also called the Dodge Coronet, has a hardtop and a V8 engine."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 1955 Dodge, or Dodge Coronet, is a hardtop with a V8 engine."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The 1955 Dodge, also known as the Dodge Coronet, has a hardtop and a V8 engine."
+        }
+    },
+    "gold_outputs": [
+        "The 1955 Dodge, also called the Dodge Coronet, has a hardtop and a V8 engine.",
+        "The 1955 Dodge, also known as the Dodge Coronet, has a hardtop and a V8 engine.",
+        "The 1955 Dodge, or Dodge Coronet, is a hardtop with a V8 engine."
+    ]
+}

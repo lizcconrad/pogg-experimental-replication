@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Columbus_Blue_Jackets": {
+            "lexicon_key": "Columbus_Blue_Jackets"
+        },
+        "Columbus,_Ohio": {
+            "lexicon_key": "Columbus,_Ohio"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "Columbus_Blue_Jackets",
+            "child_node": "Columbus,_Ohio",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Columbus Blue Jackets' city is Columbus, Ohio."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Columbus Blue Jackets are based in the city of Columbus, Ohio."
+        }
+    },
+    "gold_outputs": [
+        "The Columbus Blue Jackets are based in the city of Columbus, Ohio.",
+        "The Columbus Blue Jackets' city is Columbus, Ohio."
+    ]
+}

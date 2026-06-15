@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "Live_Nation_Entertainment": {
+            "lexicon_key": "Live_Nation_Entertainment"
+        },
+        "Beverly_Hills,_California": {
+            "lexicon_key": "Beverly_Hills,_California"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "owner",
+            "parent_node": "3Arena",
+            "child_node": "Live_Nation_Entertainment",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Live_Nation_Entertainment",
+            "child_node": "Beverly_Hills,_California",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "3Arena, owned by Live Nation Entertainment, is located in Beverly Hills, California."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Live Nation Entertainment from Beverly Hills, California, are the owners of 3Arena."
+        }
+    },
+    "gold_outputs": [
+        "3Arena, owned by Live Nation Entertainment, is located in Beverly Hills, California.",
+        "Live Nation Entertainment from Beverly Hills, California, are the owners of 3Arena."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Washtenaw_County,_Michigan" [lexicon_key="Washtenaw_County,_Michigan"];
+"Ann_Arbor,_Michigan" [lexicon_key="Ann_Arbor,_Michigan"];
+"Washtenaw_County,_Michigan" -> "Ann_Arbor,_Michigan" [label=largestCity, lexicon_key=largestCity];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Indiana [lexicon_key=Indiana];
+Indianapolis [lexicon_key=Indianapolis];
+Indiana -> Indianapolis [label=capital, lexicon_key=capital];
+}

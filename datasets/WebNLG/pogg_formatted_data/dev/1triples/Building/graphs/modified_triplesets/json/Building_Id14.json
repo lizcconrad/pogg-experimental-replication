@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Amdavad_ni_Gufa": {
+            "lexicon_key": "Amdavad_ni_Gufa"
+        },
+        "B._V._Doshi": {
+            "lexicon_key": "B._V._Doshi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "architect",
+            "parent_node": "Amdavad_ni_Gufa",
+            "child_node": "B._V._Doshi",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The architect B V Doshi designed Amdavad Ni Gufa."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "B V Doshi is the architect who designed Amdavad ni Gufa."
+        }
+    },
+    "gold_outputs": [
+        "B V Doshi is the architect who designed Amdavad ni Gufa.",
+        "The architect B V Doshi designed Amdavad Ni Gufa."
+    ]
+}

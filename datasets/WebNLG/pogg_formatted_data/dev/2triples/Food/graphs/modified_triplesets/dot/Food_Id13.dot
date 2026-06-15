@@ -1,0 +1,7 @@
+strict digraph {
+Bacon_Explosion [lexicon_key="Bacon_Explosion"];
+United_States [lexicon_key="United_States"];
+John_Roberts [lexicon_key="John_Roberts"];
+Bacon_Explosion -> United_States [label=country, lexicon_key=country];
+United_States -> John_Roberts [label=leader, lexicon_key=leader];
+}

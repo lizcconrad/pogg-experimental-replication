@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alessio_Romagnoli": {
+            "lexicon_key": "Alessio_Romagnoli"
+        },
+        "A.C._Milan": {
+            "lexicon_key": "A.C._Milan"
+        },
+        "Sini\u0161a_Mihajlovi\u0107": {
+            "lexicon_key": "Sini\u0161a_Mihajlovi\u0107"
+        },
+        "U.C._Sampdoria": {
+            "lexicon_key": "U.C._Sampdoria"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alessio_Romagnoli",
+            "child_node": "A.C._Milan",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "manager",
+            "parent_node": "A.C._Milan",
+            "child_node": "Sini\u0161a_Mihajlovi\u0107",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alessio_Romagnoli",
+            "child_node": "U.C._Sampdoria",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alessio Romagnoli plays for A.C. Milan, managed by Sini\u0161a Mihajlovi\u0107 and also played for UC Sampdoria."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alessio Romagnoli, who is connected to UC Sampdoria, plays for A.C. Milan which, is managed by, Sini\u0161a Mihajlovi\u0107."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Sini\u0161a Mihajlovi\u0107 is the manager for A.C. Milan, of which Alessio Romagnoli is a member. Alessio Romagnoli plays for the club U.C. Sampdoria."
+        }
+    },
+    "gold_outputs": [
+        "Alessio Romagnoli plays for A.C. Milan, managed by Sini\u0161a Mihajlovi\u0107 and also played for UC Sampdoria.",
+        "Alessio Romagnoli, who is connected to UC Sampdoria, plays for A.C. Milan which, is managed by, Sini\u0161a Mihajlovi\u0107.",
+        "Sini\u0161a Mihajlovi\u0107 is the manager for A.C. Milan, of which Alessio Romagnoli is a member. Alessio Romagnoli plays for the club U.C. Sampdoria."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ann_Arbor,_Michigan": {
+            "lexicon_key": "Ann_Arbor,_Michigan"
+        },
+        "Mayor": {
+            "lexicon_key": "Mayor"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ann_Arbor,_Michigan",
+            "child_node": "Mayor",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Mayor, is the title of the leader in Ann Arbor, Michigan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ann Arbor, Michigan is led by the Mayor."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The leader title of Ann Arbor, Michigan, is Mayor."
+        }
+    },
+    "gold_outputs": [
+        "Ann Arbor, Michigan is led by the Mayor.",
+        "Mayor, is the title of the leader in Ann Arbor, Michigan.",
+        "The leader title of Ann Arbor, Michigan, is Mayor."
+    ]
+}

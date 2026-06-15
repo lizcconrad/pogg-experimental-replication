@@ -1,0 +1,9 @@
+strict digraph {
+Alhambra [lexicon_key=Alhambra];
+"8.3 m" [lexicon_key="8.3 m"];
+"63800.0 (millimetres)" [lexicon_key="63800.0 (millimetres)"];
+"Wrecked" [lexicon_key="Wrecked"];
+Alhambra -> "8.3 m" [label=shipBeam, lexicon_key=shipBeam];
+Alhambra -> "63800.0 (millimetres)" [label=length, lexicon_key=length];
+Alhambra -> "Wrecked" [label=status, lexicon_key=status];
+}

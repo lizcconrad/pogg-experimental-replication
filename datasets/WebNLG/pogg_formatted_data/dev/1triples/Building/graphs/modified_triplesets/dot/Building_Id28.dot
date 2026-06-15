@@ -1,0 +1,5 @@
+strict digraph {
+United_Kingdom [lexicon_key="United_Kingdom"];
+London [lexicon_key=London];
+United_Kingdom -> London [label=capital, lexicon_key=capital];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Indonesia [lexicon_key=Indonesia];
+Jusuf_Kalla [lexicon_key="Jusuf_Kalla"];
+Indonesia -> Jusuf_Kalla [label=leader, lexicon_key=leader];
+}

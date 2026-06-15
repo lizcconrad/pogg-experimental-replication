@@ -1,0 +1,9 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+Hessisch_Oldendorf [lexicon_key="Hessisch_Oldendorf"];
+Radboud_University_Nijmegen [lexicon_key="Radboud_University_Nijmegen"];
+"House_of_Representatives_(Netherlands)" [lexicon_key="House_of_Representatives_(Netherlands)"];
+Agnes_Kant -> Hessisch_Oldendorf [label=birthPlace, lexicon_key=birthPlace];
+Agnes_Kant -> Radboud_University_Nijmegen [label=almaMater, lexicon_key=almaMater];
+Agnes_Kant -> "House_of_Representatives_(Netherlands)" [label=office, lexicon_key=office];
+}

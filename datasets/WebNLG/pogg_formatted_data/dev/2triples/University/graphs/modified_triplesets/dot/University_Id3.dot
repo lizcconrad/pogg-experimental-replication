@@ -1,0 +1,7 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+Tennis [lexicon_key=Tennis];
+International_Tennis_Federation [lexicon_key="International_Tennis_Federation"];
+Acharya_Institute_of_Technology -> Tennis [label=sportsOffered, lexicon_key=sportsOffered];
+Tennis -> International_Tennis_Federation [label=sportGoverningBody, lexicon_key=sportGoverningBody];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Allen_Forrest [lexicon_key="Allen_Forrest"];
+Acoustic_music [lexicon_key="Acoustic_music"];
+"Fort Campbell, KY, raised in Dothan, AL" [lexicon_key="Fort Campbell, KY, raised in Dothan, AL"];
+"solo_singer" [lexicon_key="solo_singer"];
+Allen_Forrest -> Acoustic_music [label=genre, lexicon_key=genre];
+Allen_Forrest -> "Fort Campbell, KY, raised in Dothan, AL" [label=birthPlace, lexicon_key=birthPlace];
+Allen_Forrest -> "solo_singer" [label=background, lexicon_key=background];
+}

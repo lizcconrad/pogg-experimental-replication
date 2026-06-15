@@ -1,0 +1,7 @@
+strict digraph {
+Abel_Caballero [lexicon_key="Abel_Caballero"];
+"Galicia_(Spain)" [lexicon_key="Galicia_(Spain)"];
+Ponteareas [lexicon_key=Ponteareas];
+Abel_Caballero -> "Galicia_(Spain)" [label=birthPlace, lexicon_key=birthPlace];
+Abel_Caballero -> Ponteareas [label=birthPlace, lexicon_key=birthPlace];
+}

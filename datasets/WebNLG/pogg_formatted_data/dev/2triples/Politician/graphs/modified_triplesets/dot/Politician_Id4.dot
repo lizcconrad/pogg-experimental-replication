@@ -1,0 +1,7 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+Parti_Pesaka_Bumiputera_Bersatu [lexicon_key="Parti_Pesaka_Bumiputera_Bersatu"];
+"Miri,_Malaysia" [lexicon_key="Miri,_Malaysia"];
+Abdul_Taib_Mahmud -> Parti_Pesaka_Bumiputera_Bersatu [label=party, lexicon_key=party];
+Abdul_Taib_Mahmud -> "Miri,_Malaysia" [label=birthPlace, lexicon_key=birthPlace];
+}

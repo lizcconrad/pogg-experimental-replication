@@ -1,0 +1,264 @@
+{
+    "node_keys": {
+        "\"9-speed ZF 9HP automatic (V6)\"": {
+            "comp_fxn": ""
+        },
+        "\"Dodge Coronet\"": {
+            "comp_fxn": ""
+        },
+        "\"Sphinx class cruise ship\"": {
+            "comp_fxn": ""
+        },
+        "18.52": {
+            "comp_fxn": ""
+        },
+        "1855-07-07": {
+            "comp_fxn": ""
+        },
+        "1955_Dodge": {
+            "comp_fxn": ""
+        },
+        "1958": {
+            "comp_fxn": ""
+        },
+        "1998-03-16": {
+            "comp_fxn": ""
+        },
+        "2005-08-11": {
+            "comp_fxn": ""
+        },
+        "2009-03-22": {
+            "comp_fxn": ""
+        },
+        "2013-03-16": {
+            "comp_fxn": ""
+        },
+        "2013-03-17": {
+            "comp_fxn": ""
+        },
+        "2014-10-28": {
+            "comp_fxn": ""
+        },
+        "230 (cubic inches)": {
+            "comp_fxn": ""
+        },
+        "3.5 (litres)": {
+            "comp_fxn": ""
+        },
+        "8.3 m": {
+            "comp_fxn": ""
+        },
+        "AIDA_Cruises": {
+            "comp_fxn": ""
+        },
+        "AIDAluna": {
+            "comp_fxn": ""
+        },
+        "AIDAstella": {
+            "comp_fxn": ""
+        },
+        "ALCO_RS-3": {
+            "comp_fxn": ""
+        },
+        "ALV_X-1": {
+            "comp_fxn": ""
+        },
+        "AMC_Ambassador": {
+            "comp_fxn": ""
+        },
+        "AMC_Matador": {
+            "comp_fxn": ""
+        },
+        "Abarth_1000_GT_Coup\u00e9": {
+            "comp_fxn": ""
+        },
+        "Acura": {
+            "comp_fxn": ""
+        },
+        "Acura_TLX": {
+            "comp_fxn": ""
+        },
+        "Airbus_Defence_and_Space": {
+            "comp_fxn": ""
+        },
+        "Alfa_Romeo_164": {
+            "comp_fxn": ""
+        },
+        "Alhambra": {
+            "comp_fxn": ""
+        },
+        "Alliant_Techsystems": {
+            "comp_fxn": ""
+        },
+        "Antares_(rocket)": {
+            "comp_fxn": ""
+        },
+        "Ariane_5": {
+            "comp_fxn": ""
+        },
+        "Atlas_II": {
+            "comp_fxn": ""
+        },
+        "Audi": {
+            "comp_fxn": ""
+        },
+        "Audi_A1": {
+            "comp_fxn": ""
+        },
+        "Audi_Brussels": {
+            "comp_fxn": ""
+        },
+        "Audi_e-tron": {
+            "comp_fxn": ""
+        },
+        "California": {
+            "comp_fxn": ""
+        },
+        "Cape_Canaveral_Air_Force_Station": {
+            "comp_fxn": ""
+        },
+        "Caterpillar_Inc.": {
+            "comp_fxn": ""
+        },
+        "Delta_II": {
+            "comp_fxn": ""
+        },
+        "Douglas_R._Oberhelman": {
+            "comp_fxn": ""
+        },
+        "Executive_car": {
+            "comp_fxn": ""
+        },
+        "Fiat_Croma": {
+            "comp_fxn": ""
+        },
+        "Finland": {
+            "comp_fxn": ""
+        },
+        "Four-stroke_engine": {
+            "comp_fxn": ""
+        },
+        "Germany": {
+            "comp_fxn": ""
+        },
+        "Guiana_Space_Centre": {
+            "comp_fxn": ""
+        },
+        "Honda": {
+            "comp_fxn": ""
+        },
+        "Honda_K_engine": {
+            "comp_fxn": ""
+        },
+        "Kourou,_French_Guiana": {
+            "comp_fxn": ""
+        },
+        "Lancia_Thema": {
+            "comp_fxn": ""
+        },
+        "Meyer_Werft": {
+            "comp_fxn": ""
+        },
+        "Papenburg": {
+            "comp_fxn": ""
+        },
+        "Peoria,_Illinois": {
+            "comp_fxn": ""
+        },
+        "Rostock": {
+            "comp_fxn": ""
+        },
+        "Sami_languages": {
+            "comp_fxn": ""
+        },
+        "Stanislaw_Tillich": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "activeYearsStartDate": {
+            "comp_fxn": ""
+        },
+        "alternativeName": {
+            "comp_fxn": ""
+        },
+        "assembly": {
+            "comp_fxn": ""
+        },
+        "builder": {
+            "comp_fxn": ""
+        },
+        "christeningDate": {
+            "comp_fxn": ""
+        },
+        "class": {
+            "comp_fxn": ""
+        },
+        "countryOrigin": {
+            "comp_fxn": ""
+        },
+        "division": {
+            "comp_fxn": ""
+        },
+        "engine": {
+            "comp_fxn": ""
+        },
+        "finalFlight": {
+            "comp_fxn": ""
+        },
+        "foundationPlace": {
+            "comp_fxn": ""
+        },
+        "headquarter": {
+            "comp_fxn": ""
+        },
+        "keyPerson": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "launchSite": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "maidenFlight": {
+            "comp_fxn": ""
+        },
+        "maidenVoyage": {
+            "comp_fxn": ""
+        },
+        "manufacturer": {
+            "comp_fxn": ""
+        },
+        "productionEndYear": {
+            "comp_fxn": ""
+        },
+        "relatedMeanOfTransportation": {
+            "comp_fxn": ""
+        },
+        "shipBeam": {
+            "comp_fxn": ""
+        },
+        "shipClass": {
+            "comp_fxn": ""
+        },
+        "shipInService": {
+            "comp_fxn": ""
+        },
+        "topSpeed": {
+            "comp_fxn": ""
+        },
+        "transmission": {
+            "comp_fxn": ""
+        }
+    }
+}

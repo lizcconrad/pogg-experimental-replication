@@ -1,0 +1,9 @@
+strict digraph {
+"(66391)_1999_KW4" [lexicon_key="(66391)_1999_KW4"];
+"37.16 (kilometrePerSeconds)" [lexicon_key="37.16 (kilometrePerSeconds)"];
+"2.0 (gramPerCubicCentimetres)" [lexicon_key="2.0 (gramPerCubicCentimetres)"];
+"162164091.8388 (kilometres)" [lexicon_key="162164091.8388 (kilometres)"];
+"(66391)_1999_KW4" -> "37.16 (kilometrePerSeconds)" [label=averageSpeed, lexicon_key=averageSpeed];
+"(66391)_1999_KW4" -> "2.0 (gramPerCubicCentimetres)" [label=density, lexicon_key=density];
+"(66391)_1999_KW4" -> "162164091.8388 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

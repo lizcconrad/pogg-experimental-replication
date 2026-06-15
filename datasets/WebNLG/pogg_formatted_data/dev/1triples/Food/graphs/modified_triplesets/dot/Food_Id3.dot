@@ -1,0 +1,5 @@
+strict digraph {
+"Arem-arem" [lexicon_key="Arem-arem"];
+"Nationwide in Indonesia, but more specific to Java" [lexicon_key="Nationwide in Indonesia, but more specific to Java"];
+"Arem-arem" -> "Nationwide in Indonesia, but more specific to Java" [label=region, lexicon_key=region];
+}

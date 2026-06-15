@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "11_Diagonal_Street": {
+            "lexicon_key": "11_Diagonal_Street"
+        },
+        "South_Africa": {
+            "lexicon_key": "South_Africa"
+        },
+        "Cape_Town": {
+            "lexicon_key": "Cape_Town"
+        },
+        "Cyril_Ramaphosa": {
+            "lexicon_key": "Cyril_Ramaphosa"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11_Diagonal_Street",
+            "child_node": "South_Africa",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "South_Africa",
+            "child_node": "Cape_Town",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "South_Africa",
+            "child_node": "Cyril_Ramaphosa",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "11 Diagonal Street is located in South Africa (Cyril Ramaphosa is one of the leaders), the capital of which is Cape Town."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "South Africa is the location of 11 Diagonal Street. The capital is Cape Town and the leader is Cyril Ramaphosa."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Cyril Ramaphosa leads South Africa, whose capital, Cape Town, houses 11 Diagonal Street."
+        }
+    },
+    "gold_outputs": [
+        "11 Diagonal Street is located in South Africa (Cyril Ramaphosa is one of the leaders), the capital of which is Cape Town.",
+        "Cyril Ramaphosa leads South Africa, whose capital, Cape Town, houses 11 Diagonal Street.",
+        "South Africa is the location of 11 Diagonal Street. The capital is Cape Town and the leader is Cyril Ramaphosa."
+    ]
+}

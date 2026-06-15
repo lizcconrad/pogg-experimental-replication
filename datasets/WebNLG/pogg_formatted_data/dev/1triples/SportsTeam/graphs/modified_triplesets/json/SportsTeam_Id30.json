@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Olympic_Stadium_(Athens)": {
+            "lexicon_key": "Olympic_Stadium_(Athens)"
+        },
+        "Marousi": {
+            "lexicon_key": "Marousi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Olympic_Stadium_(Athens)",
+            "child_node": "Marousi",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Olympic Stadium (Athens) is located at Marousi."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Olympic Stadium (Athens) is located in Marousi."
+        }
+    },
+    "gold_outputs": [
+        "The Olympic Stadium (Athens) is located at Marousi.",
+        "The Olympic Stadium (Athens) is located in Marousi."
+    ]
+}

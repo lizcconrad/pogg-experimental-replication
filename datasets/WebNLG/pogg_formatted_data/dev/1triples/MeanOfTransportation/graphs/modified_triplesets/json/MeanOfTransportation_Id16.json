@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alfa_Romeo_164": {
+            "lexicon_key": "Alfa_Romeo_164"
+        },
+        "Executive_car": {
+            "lexicon_key": "Executive_car"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "class",
+            "parent_node": "Alfa_Romeo_164",
+            "child_node": "Executive_car",
+            "edge_properties": {
+                "lexicon_key": "class"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 is an executive class car."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 is an executive car."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Alfa Romeo 164 is classified as an executive type car."
+        }
+    },
+    "gold_outputs": [
+        "The Alfa Romeo 164 is an executive car.",
+        "The Alfa Romeo 164 is an executive class car.",
+        "The Alfa Romeo 164 is classified as an executive type car."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Andrew_Rayel [lexicon_key="Andrew_Rayel"];
+Jwaydan_Moyine [lexicon_key="Jwaydan_Moyine"];
+Christian_Burns [lexicon_key="Christian_Burns"];
+House_music [lexicon_key="House_music"];
+Andrew_Rayel -> Jwaydan_Moyine [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Andrew_Rayel -> Christian_Burns [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Christian_Burns -> House_music [label=genre, lexicon_key=genre];
+}

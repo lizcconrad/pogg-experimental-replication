@@ -1,0 +1,9 @@
+strict digraph {
+"Arròs_negre" [lexicon_key="Arròs_negre"];
+Spain [lexicon_key=Spain];
+Catalonia [lexicon_key=Catalonia];
+Squid [lexicon_key=Squid];
+"Arròs_negre" -> Spain [label=country, lexicon_key=country];
+"Arròs_negre" -> Catalonia [label=region, lexicon_key=region];
+"Arròs_negre" -> Squid [label=ingredient, lexicon_key=ingredient];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Bananaman [lexicon_key=Bananaman];
+Bill_Oddie [lexicon_key="Bill_Oddie"];
+"1983-10-03" [lexicon_key="1983-10-03"];
+"STV" [lexicon_key="STV"];
+Bananaman -> Bill_Oddie [label=starring, lexicon_key=starring];
+Bananaman -> "1983-10-03" [label=firstAired, lexicon_key=firstAired];
+Bananaman -> "STV" [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

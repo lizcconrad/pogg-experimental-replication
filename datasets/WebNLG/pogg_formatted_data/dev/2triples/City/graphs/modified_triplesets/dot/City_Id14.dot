@@ -1,0 +1,7 @@
+strict digraph {
+"Auburn,_Alabama" [lexicon_key="Auburn,_Alabama"];
+United_States [lexicon_key="United_States"];
+Asian_Americans [lexicon_key="Asian_Americans"];
+"Auburn,_Alabama" -> United_States [label=country, lexicon_key=country];
+United_States -> Asian_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

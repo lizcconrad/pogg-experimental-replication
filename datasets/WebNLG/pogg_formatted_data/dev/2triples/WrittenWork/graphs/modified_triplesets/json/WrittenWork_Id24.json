@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "lexicon_key": "Alcatraz_Versus_the_Evil_Librarians"
+        },
+        "\"320\"": {
+            "lexicon_key": "\"320\""
+        },
+        "\"0-439-92550-9\"": {
+            "lexicon_key": "\"0-439-92550-9\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfPages",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "\"320\"",
+            "edge_properties": {
+                "lexicon_key": "numberOfPages"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "\"0-439-92550-9\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians, which is identified by ISBN 0-439-92550-9, has 320 pages."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians has the ISBN number 0-439-92550-9 and is 320 pages long."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The ISBN number of the 320-page long Alcatraz Versus the Evil Librarians is 0-439-92550-9."
+        }
+    },
+    "gold_outputs": [
+        "Alcatraz Versus the Evil Librarians has the ISBN number 0-439-92550-9 and is 320 pages long.",
+        "Alcatraz Versus the Evil Librarians, which is identified by ISBN 0-439-92550-9, has 320 pages.",
+        "The ISBN number of the 320-page long Alcatraz Versus the Evil Librarians is 0-439-92550-9."
+    ]
+}

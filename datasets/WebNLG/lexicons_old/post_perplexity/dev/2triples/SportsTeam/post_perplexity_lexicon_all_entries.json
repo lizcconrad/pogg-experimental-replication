@@ -1,0 +1,207 @@
+{
+    "node_keys": {
+        "\"Agremia\u00e7\u00e3o Sportiva Arapiraquense\"": {
+            "comp_fxn": ""
+        },
+        "\"Alkmaar Zaanstreek\"": {
+            "comp_fxn": ""
+        },
+        "\"Bryning Lane\"": {
+            "comp_fxn": ""
+        },
+        "\"Rome, Italy\"": {
+            "comp_fxn": ""
+        },
+        "1500": {
+            "comp_fxn": ""
+        },
+        "17000": {
+            "comp_fxn": ""
+        },
+        "17023": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_Topklasse": {
+            "comp_fxn": ""
+        },
+        "3180": {
+            "comp_fxn": ""
+        },
+        "5000": {
+            "comp_fxn": ""
+        },
+        "53502": {
+            "comp_fxn": ""
+        },
+        "A.C._Cesena": {
+            "comp_fxn": ""
+        },
+        "A.C._Chievo_Verona": {
+            "comp_fxn": ""
+        },
+        "A.C._Lumezzane": {
+            "comp_fxn": ""
+        },
+        "A.D._Isidro_Metap\u00e1n": {
+            "comp_fxn": ""
+        },
+        "A.E_Dimitra_Efxeinoupolis": {
+            "comp_fxn": ""
+        },
+        "A.F.C._Blackpool": {
+            "comp_fxn": ""
+        },
+        "A.F.C._Fylde": {
+            "comp_fxn": ""
+        },
+        "A.S._Livorno_Calcio": {
+            "comp_fxn": ""
+        },
+        "A.S._Roma": {
+            "comp_fxn": ""
+        },
+        "ACF_Fiorentina": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax_(amateurs)": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax_N.V.": {
+            "comp_fxn": ""
+        },
+        "AZAL_Arena": {
+            "comp_fxn": ""
+        },
+        "AZAL_PFK": {
+            "comp_fxn": ""
+        },
+        "AZ_Alkmaar": {
+            "comp_fxn": ""
+        },
+        "A_EPSTH_2nd_GROUP": {
+            "comp_fxn": ""
+        },
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "comp_fxn": ""
+        },
+        "Ajax_Youth_Academy": {
+            "comp_fxn": ""
+        },
+        "Akron,_Ohio": {
+            "comp_fxn": ""
+        },
+        "Akron_Summit_Assault": {
+            "comp_fxn": ""
+        },
+        "Amsterdam": {
+            "comp_fxn": ""
+        },
+        "Brazil": {
+            "comp_fxn": ""
+        },
+        "C.D._FAS": {
+            "comp_fxn": ""
+        },
+        "Carpi_F.C._1909": {
+            "comp_fxn": ""
+        },
+        "Christian_Panucci": {
+            "comp_fxn": ""
+        },
+        "Eberhard_van_der_Laan": {
+            "comp_fxn": ""
+        },
+        "Est\u00e1dio_Municipal_Coaracy_da_Mata_Fonseca": {
+            "comp_fxn": ""
+        },
+        "Frank_de_Boer": {
+            "comp_fxn": ""
+        },
+        "Italy": {
+            "comp_fxn": ""
+        },
+        "Italy_national_football_team": {
+            "comp_fxn": ""
+        },
+        "Jorge_Humberto_Rodr\u00edguez": {
+            "comp_fxn": ""
+        },
+        "Massimo_Drago": {
+            "comp_fxn": ""
+        },
+        "Pietro_Grasso": {
+            "comp_fxn": ""
+        },
+        "Runcorn_F.C._Halton": {
+            "comp_fxn": ""
+        },
+        "S.S._Chieti_Calcio": {
+            "comp_fxn": ""
+        },
+        "Serie_A": {
+            "comp_fxn": ""
+        },
+        "Serie_B": {
+            "comp_fxn": ""
+        },
+        "Shuvalan": {
+            "comp_fxn": ""
+        },
+        "Sparta_Rotterdam": {
+            "comp_fxn": ""
+        },
+        "Stadio_Marc'Antonio_Bentegodi": {
+            "comp_fxn": ""
+        },
+        "Stuart_Parker_(footballer)": {
+            "comp_fxn": ""
+        },
+        "The_Fylde": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "champions": {
+            "comp_fxn": ""
+        },
+        "club": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "fullName": {
+            "comp_fxn": ""
+        },
+        "ground": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "league": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "manager": {
+            "comp_fxn": ""
+        },
+        "numberOfMembers": {
+            "comp_fxn": ""
+        },
+        "owner": {
+            "comp_fxn": ""
+        },
+        "season": {
+            "comp_fxn": ""
+        }
+    }
+}

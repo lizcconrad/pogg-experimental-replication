@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Asian_Americans": {
+            "lexicon_key": "Asian_Americans"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "lexicon_key": "Alcatraz_Versus_the_Evil_Librarians"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Asian_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Alcatraz_Versus_the_Evil_Librarians",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "In the United States, English is the language, Asian Americans are an ethnic group and the book Alcatraz versus the Evil Librarians was written."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alcatraz Versus the Evil Librarians is from The United States where English is spoken and the Asian Americans are an ethnic group."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The book Alcatraz Versus the Evil Librarians comes from the United States where English is the primary language. Additionally, Asian Americans is one of the ethnic groups in the United States."
+        }
+    },
+    "gold_outputs": [
+        "Alcatraz Versus the Evil Librarians is from The United States where English is spoken and the Asian Americans are an ethnic group.",
+        "In the United States, English is the language, Asian Americans are an ethnic group and the book Alcatraz versus the Evil Librarians was written.",
+        "The book Alcatraz Versus the Evil Librarians comes from the United States where English is the primary language. Additionally, Asian Americans is one of the ethnic groups in the United States."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Acta_Mathematica_Hungarica": {
+            "lexicon_key": "Acta_Mathematica_Hungarica"
+        },
+        "\"Acta Math. Hungar.\"": {
+            "lexicon_key": "\"Acta Math. Hungar.\""
+        },
+        "Mathematics": {
+            "lexicon_key": "Mathematics"
+        },
+        "\"0236-5294\"": {
+            "lexicon_key": "\"0236-5294\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "\"Acta Math. Hungar.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "academicDiscipline",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "Mathematics",
+            "edge_properties": {
+                "lexicon_key": "academicDiscipline"
+            }
+        },
+        {
+            "edge_name": "issnNumber",
+            "parent_node": "Acta_Mathematica_Hungarica",
+            "child_node": "\"0236-5294\"",
+            "edge_properties": {
+                "lexicon_key": "issnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Acta Mathematica Hungarica ISSN number is \"0236-5294\" and the abbreviation is Acta Math. Hungar. It comes under the academic discipline of Math."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Acta Mathematica Hungarica has the ISSN number 0236-5294. It is also known as Acta Math. Hungar and it covers the academic discipline of Mathematics."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Acta Mathematica Hungarica (also known as Acta Math. Hungar), covers the academic discipline of Mathematics and has the ISSN number 0236-5294."
+        }
+    },
+    "gold_outputs": [
+        "Acta Mathematica Hungarica (also known as Acta Math. Hungar), covers the academic discipline of Mathematics and has the ISSN number 0236-5294.",
+        "The Acta Mathematica Hungarica ISSN number is \"0236-5294\" and the abbreviation is Acta Math. Hungar. It comes under the academic discipline of Math.",
+        "The Acta Mathematica Hungarica has the ISSN number 0236-5294. It is also known as Acta Math. Hungar and it covers the academic discipline of Mathematics."
+    ]
+}

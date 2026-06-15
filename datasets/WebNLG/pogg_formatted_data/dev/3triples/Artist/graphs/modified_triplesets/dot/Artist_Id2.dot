@@ -1,0 +1,9 @@
+strict digraph {
+Aaron_Deer [lexicon_key="Aaron_Deer"];
+Indie_rock [lexicon_key="Indie_rock"];
+Indiana [lexicon_key=Indiana];
+United_States [lexicon_key="United_States"];
+Aaron_Deer -> Indie_rock [label=genre, lexicon_key=genre];
+Aaron_Deer -> Indiana [label=origin, lexicon_key=origin];
+Aaron_Deer -> United_States [label=origin, lexicon_key=origin];
+}

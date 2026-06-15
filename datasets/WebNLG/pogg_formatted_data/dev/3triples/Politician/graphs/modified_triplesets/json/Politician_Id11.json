@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Abraham_A._Ribicoff": {
+            "lexicon_key": "Abraham_A._Ribicoff"
+        },
+        "Casey_Ribicoff": {
+            "lexicon_key": "Casey_Ribicoff"
+        },
+        "Chicago": {
+            "lexicon_key": "Chicago"
+        },
+        "\"United States Secretary of Health, Education, and Welfare\"": {
+            "lexicon_key": "\"United States Secretary of Health, Education, and Welfare\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "spouse",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "Casey_Ribicoff",
+            "edge_properties": {
+                "lexicon_key": "spouse"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Casey_Ribicoff",
+            "child_node": "Chicago",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Abraham_A._Ribicoff",
+            "child_node": "\"United States Secretary of Health, Education, and Welfare\"",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Casey Ribicoff, wife of Abraham A. Ribcoff, was born in Chicago. Mr. Ribcoff worked as the United States Secretary of Health, Education, and Welfare office."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Casey Ribicoff was born in Chicago and was married to Abraham A Ribicoff who once worked for the United States Secretary of Health, Education, and Welfare office."
+        }
+    },
+    "gold_outputs": [
+        "Abraham A. Ribicoff once worked for the United States Secretary of Health, Education, and Welfare office and was married to Chicago-born Casey Ribicoff.",
+        "Casey Ribicoff was born in Chicago and was married to Abraham A Ribicoff who once worked for the United States Secretary of Health, Education, and Welfare office.",
+        "Casey Ribicoff, wife of Abraham A. Ribcoff, was born in Chicago. Mr. Ribcoff worked as the United States Secretary of Health, Education, and Welfare office."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Aaron_Bertram [lexicon_key="Aaron_Bertram"];
+1998 [lexicon_key=1998];
+Aaron_Bertram -> 1998 [label=activeYearsStartYear, lexicon_key=activeYearsStartYear];
+}

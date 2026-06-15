@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albennie_Jones": {
+            "lexicon_key": "Albennie_Jones"
+        },
+        "Jazz": {
+            "lexicon_key": "Jazz"
+        },
+        "\"solo_singer\"": {
+            "lexicon_key": "\"solo_singer\""
+        },
+        "Errata,_Mississippi": {
+            "lexicon_key": "Errata,_Mississippi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Albennie_Jones",
+            "child_node": "Jazz",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "background",
+            "parent_node": "Albennie_Jones",
+            "child_node": "\"solo_singer\"",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Albennie_Jones",
+            "child_node": "Errata,_Mississippi",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in Errata, Mississippi, Albennie Jones is a Jazz musician and solo singer."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albennie Jones was born in Errata, Mississippi. She is a jazz artist who has a background as a solo singer."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albennie Jones is a solo singer who performs jazz music. She was born in Errata, Mississippi."
+        }
+    },
+    "gold_outputs": [
+        "Albennie Jones is a solo singer who performs jazz music. She was born in Errata, Mississippi.",
+        "Albennie Jones was born in Errata, Mississippi. She is a jazz artist who has a background as a solo singer.",
+        "Born in Errata, Mississippi, Albennie Jones is a Jazz musician and solo singer."
+    ]
+}

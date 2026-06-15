@@ -1,0 +1,5 @@
+strict digraph {
+Avocado [lexicon_key=Avocado];
+Persea [lexicon_key=Persea];
+Avocado -> Persea [label=genus, lexicon_key=genus];
+}

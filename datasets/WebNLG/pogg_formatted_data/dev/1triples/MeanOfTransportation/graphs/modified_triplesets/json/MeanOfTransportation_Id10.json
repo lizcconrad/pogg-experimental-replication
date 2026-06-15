@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "ALV_X-1": {
+            "lexicon_key": "ALV_X-1"
+        },
+        "Alliant_Techsystems": {
+            "lexicon_key": "Alliant_Techsystems"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "ALV_X-1",
+            "child_node": "Alliant_Techsystems",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ALV X-1 was manufactured by Alliant Techsystems."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alliant Techsystems makes the ALV X-1."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alliant Techsystems is the manufacturer of the ALV X-1."
+        }
+    },
+    "gold_outputs": [
+        "Alliant Techsystems is the manufacturer of the ALV X-1.",
+        "Alliant Techsystems makes the ALV X-1.",
+        "The ALV X-1 was manufactured by Alliant Techsystems."
+    ]
+}

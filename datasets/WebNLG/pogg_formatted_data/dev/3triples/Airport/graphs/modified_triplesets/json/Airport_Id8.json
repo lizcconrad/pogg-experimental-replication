@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Al_Asad_Airbase": {
+            "lexicon_key": "Al_Asad_Airbase"
+        },
+        "United_States_Air_Force": {
+            "lexicon_key": "United_States_Air_Force"
+        },
+        "Korean_War": {
+            "lexicon_key": "Korean_War"
+        },
+        "Operation_Enduring_Freedom": {
+            "lexicon_key": "Operation_Enduring_Freedom"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Al_Asad_Airbase",
+            "child_node": "United_States_Air_Force",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "United_States_Air_Force",
+            "child_node": "Korean_War",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "United_States_Air_Force",
+            "child_node": "Operation_Enduring_Freedom",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The United States Air Force who is the operating organisation for Al Asad airbase fought battles in the Korean war and also in Operation Enduring Freedom."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The US Air Force, veteran of the Korean war and Operation Enduring Freedom, operated Al Asad Airbase."
+        }
+    },
+    "gold_outputs": [
+        "The US Air Force, veteran of the Korean war and Operation Enduring Freedom, operated Al Asad Airbase.",
+        "The United States Air Force who is the operating organisation for Al Asad airbase fought battles in the Korean war and also in Operation Enduring Freedom."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Akeem_Priestley": {
+            "lexicon_key": "Akeem_Priestley"
+        },
+        "Jamaica": {
+            "lexicon_key": "Jamaica"
+        },
+        "Patrick_Allen_(politician)": {
+            "lexicon_key": "Patrick_Allen_(politician)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Akeem_Priestley",
+            "child_node": "Jamaica",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Jamaica",
+            "child_node": "Patrick_Allen_(politician)",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Patrick Allen is a political leader in Jamaica which is the birthplace of Akeem Priestley."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Priestley was born in Jamaica where the leader is Patrick Allen."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Akeem Priestley was born in Jamaica whose political leader is Patrick Allen."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Priestley was born in Jamaica where the leader is Patrick Allen.",
+        "Akeem Priestley was born in Jamaica whose political leader is Patrick Allen.",
+        "Patrick Allen is a political leader in Jamaica which is the birthplace of Akeem Priestley."
+    ]
+}

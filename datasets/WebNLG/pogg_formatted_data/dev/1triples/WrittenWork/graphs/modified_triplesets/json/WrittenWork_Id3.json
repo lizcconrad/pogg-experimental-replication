@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "1634:_The_Ram_Rebellion": {
+            "lexicon_key": "1634:_The_Ram_Rebellion"
+        },
+        "1635:_The_Cannon_Law": {
+            "lexicon_key": "1635:_The_Cannon_Law"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "followedBy",
+            "parent_node": "1634:_The_Ram_Rebellion",
+            "child_node": "1635:_The_Cannon_Law",
+            "edge_properties": {
+                "lexicon_key": "followedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1634: The Ram Rebellion was followed by 1635: The Cannon Law."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1634: The Ram Rebellion is followed by 1635: The Cannon Law."
+        }
+    },
+    "gold_outputs": [
+        "1634: The Ram Rebellion is followed by 1635: The Cannon Law.",
+        "1634: The Ram Rebellion was followed by 1635: The Cannon Law."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Arem-arem" [lexicon_key="Arem-arem"];
+Indonesia [lexicon_key=Indonesia];
+"Arem-arem" -> Indonesia [label=region, lexicon_key=region];
+}

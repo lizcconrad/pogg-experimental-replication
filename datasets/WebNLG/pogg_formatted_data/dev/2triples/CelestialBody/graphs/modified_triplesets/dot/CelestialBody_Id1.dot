@@ -1,0 +1,7 @@
+strict digraph {
+"(410777)_2009_FD" [lexicon_key="(410777)_2009_FD"];
+"259776702.47055 (kilometres)" [lexicon_key="259776702.47055 (kilometres)"];
+"211.0 (kelvins)" [lexicon_key="211.0 (kelvins)"];
+"(410777)_2009_FD" -> "259776702.47055 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+"(410777)_2009_FD" -> "211.0 (kelvins)" [label=minimumTemperature, lexicon_key=minimumTemperature];
+}

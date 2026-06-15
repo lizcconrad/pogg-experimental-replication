@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "AIDAstella": {
+            "lexicon_key": "AIDAstella"
+        },
+        "Meyer_Werft": {
+            "lexicon_key": "Meyer_Werft"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "builder",
+            "parent_node": "AIDAstella",
+            "child_node": "Meyer_Werft",
+            "edge_properties": {
+                "lexicon_key": "builder"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDAstella was built by Meyer Werft."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AIDAstella was built by Meyer Werft."
+        }
+    },
+    "gold_outputs": [
+        "AIDAstella was built by Meyer Werft.",
+        "The AIDAstella was built by Meyer Werft."
+    ]
+}

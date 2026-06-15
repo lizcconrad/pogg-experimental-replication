@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aleksandra_Kova\u010d": {
+            "lexicon_key": "Aleksandra_Kova\u010d"
+        },
+        "Bebi_Dol": {
+            "lexicon_key": "Bebi_Dol"
+        },
+        "Kornelije_Kova\u010d": {
+            "lexicon_key": "Kornelije_Kova\u010d"
+        },
+        "Pop_music": {
+            "lexicon_key": "Pop_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Bebi_Dol",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Kornelije_Kova\u010d",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Pop_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d, whose musical genre is Pop, is in same band with Kornelije Kova\u010d and is associated with the musical artist Bebi Dol."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d, a performer of pop music, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kovac. Her musical genre is Pop."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kovac. Her musical genre is Pop.",
+        "Aleksandra Kova\u010d, a performer of pop music, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d.",
+        "Aleksandra Kova\u010d, whose musical genre is Pop, is in same band with Kornelije Kova\u010d and is associated with the musical artist Bebi Dol."
+    ]
+}

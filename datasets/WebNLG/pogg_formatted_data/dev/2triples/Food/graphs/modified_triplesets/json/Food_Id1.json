@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ajoblanco": {
+            "lexicon_key": "Ajoblanco"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "Bread": {
+            "lexicon_key": "Bread"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Ajoblanco",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Ajoblanco",
+            "child_node": "Bread",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bread is an ingredient of Ajoblanco which originates from Spain."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "One of the ingredients of Ajoblanco is bread and it originates from Spain."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bread is an ingredient of Ajoblanco which comes from Spain."
+        }
+    },
+    "gold_outputs": [
+        "Bread is an ingredient of Ajoblanco which comes from Spain.",
+        "Bread is an ingredient of Ajoblanco which originates from Spain.",
+        "One of the ingredients of Ajoblanco is bread and it originates from Spain."
+    ]
+}

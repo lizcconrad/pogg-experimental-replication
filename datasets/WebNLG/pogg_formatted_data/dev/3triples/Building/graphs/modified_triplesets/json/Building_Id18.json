@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Alan_B._Miller_Hall": {
+            "lexicon_key": "Alan_B._Miller_Hall"
+        },
+        "Virginia": {
+            "lexicon_key": "Virginia"
+        },
+        "Mason_School_of_Business": {
+            "lexicon_key": "Mason_School_of_Business"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Virginia",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Mason_School_of_Business",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Alan_B._Miller_Hall",
+            "child_node": "Mason_School_of_Business",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Mason School of Business in the US are the current tenants of Alan B Miller Hall in Virginia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan B Miller Hall is in Virginia, U.S. and houses The Mason School of Business ."
+        }
+    },
+    "gold_outputs": [
+        "Alan B Miller Hall is in Virginia, U.S. and houses The Mason School of Business .",
+        "The Mason School of Business in the US are the current tenants of Alan B Miller Hall in Virginia."
+    ]
+}

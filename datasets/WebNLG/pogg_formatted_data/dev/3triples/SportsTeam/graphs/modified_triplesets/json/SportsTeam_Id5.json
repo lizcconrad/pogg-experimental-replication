@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.E_Dimitra_Efxeinoupolis": {
+            "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+        },
+        "Greece": {
+            "lexicon_key": "Greece"
+        },
+        "Nikos_Voutsis": {
+            "lexicon_key": "Nikos_Voutsis"
+        },
+        "Prokopis_Pavlopoulos": {
+            "lexicon_key": "Prokopis_Pavlopoulos"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "A.E_Dimitra_Efxeinoupolis",
+            "child_node": "Greece",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Greece",
+            "child_node": "Nikos_Voutsis",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Greece",
+            "child_node": "Prokopis_Pavlopoulos",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The A.E Dimitra Efxeinoupolis club is located in Greece, where there are leaders called Nikos Voutsis and Prokopis Pavlopoulos."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "There are two prominent leaders in Greece: Nikos Voutsis and Prokopis Pavlopoulos as well the A.E. Dimitra Efxeinoupolis is located there."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis is located in Greece, the leader of the country is Nikos Voutsis and/or Prokopis Pavlopoulos."
+        }
+    },
+    "gold_outputs": [
+        "A.E Dimitra Efxeinoupolis is located in Greece, the leader of the country is Nikos Voutsis and/or Prokopis Pavlopoulos.",
+        "The A.E Dimitra Efxeinoupolis club is located in Greece, where there are leaders called Nikos Voutsis and Prokopis Pavlopoulos.",
+        "There are two prominent leaders in Greece: Nikos Voutsis and Prokopis Pavlopoulos as well the A.E. Dimitra Efxeinoupolis is located there."
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Adams_County,_Pennsylvania": {
+            "lexicon_key": "Adams_County,_Pennsylvania"
+        },
+        "Franklin_County,_Pennsylvania": {
+            "lexicon_key": "Franklin_County,_Pennsylvania"
+        },
+        "Frederick_County,_Maryland": {
+            "lexicon_key": "Frederick_County,_Maryland"
+        },
+        "11th_Mississippi_Infantry_Monument": {
+            "lexicon_key": "11th_Mississippi_Infantry_Monument"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "hasToItsWest",
+            "parent_node": "Adams_County,_Pennsylvania",
+            "child_node": "Franklin_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "hasToItsWest"
+            }
+        },
+        {
+            "edge_name": "hasToItsSouthwest",
+            "parent_node": "Adams_County,_Pennsylvania",
+            "child_node": "Frederick_County,_Maryland",
+            "edge_properties": {
+                "lexicon_key": "hasToItsSouthwest"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "11th_Mississippi_Infantry_Monument",
+            "child_node": "Adams_County,_Pennsylvania",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adams County, Pennsylvania is the location of the 11th Mississippi Infantry monument. Franklin County Pennsylvania is to the west and Frederick County to the south west."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The 11th Mississippi Infantry Monument is located in Adams County Pennsylvania, between Franklin County to the west and Frederick County to the southwest."
+        }
+    },
+    "gold_outputs": [
+        "Adams County, Pennsylvania is the location of the 11th Mississippi Infantry monument. Franklin County Pennsylvania is to the west and Frederick County to the south west.",
+        "The 11th Mississippi Infantry Monument is located in Adams County Pennsylvania, between Franklin County to the west and Frederick County to the southwest."
+    ]
+}

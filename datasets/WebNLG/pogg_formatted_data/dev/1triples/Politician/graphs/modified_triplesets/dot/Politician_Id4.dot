@@ -1,0 +1,5 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+University_of_Adelaide [lexicon_key="University_of_Adelaide"];
+Abdul_Taib_Mahmud -> University_of_Adelaide [label=almaMater, lexicon_key=almaMater];
+}

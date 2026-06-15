@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aston_Martin_V8": {
+            "lexicon_key": "Aston_Martin_V8"
+        },
+        "Aston_Martin_DBS": {
+            "lexicon_key": "Aston_Martin_DBS"
+        },
+        "\"Newport Pagnell, Buckinghamshire, England, United Kingdom\"": {
+            "lexicon_key": "\"Newport Pagnell, Buckinghamshire, England, United Kingdom\""
+        },
+        "5.3 (litres)": {
+            "lexicon_key": "5.3 (litres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "Aston_Martin_DBS",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        },
+        {
+            "edge_name": "assembly",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "\"Newport Pagnell, Buckinghamshire, England, United Kingdom\"",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "engine",
+            "parent_node": "Aston_Martin_V8",
+            "child_node": "5.3 (litres)",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Aston Martin V8 is similar to the DBS and has a 5.3 litre engine. It is made in Newport Pagnell, Buckinghamshire, England, UK."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Aston Martin V8 assembly took place in Newport Pagnell, Buckinghamshire, England, United Kingdom. The Aston Martin V8(has a engine volume of 5.3 litres) and the Aston Martin DBS are related means of transport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Aston Martin V8 has a 5.3 litre engine and its assembly took place in Newport Pagnell, Buckinghamshire, England, United Kingdom. The Aston Martin V8 and the Aston Martin DBS are related means of transport."
+        }
+    },
+    "gold_outputs": [
+        "The Aston Martin V8 assembly took place in Newport Pagnell, Buckinghamshire, England, United Kingdom. The Aston Martin V8(has a engine volume of 5.3 litres) and the Aston Martin DBS are related means of transport.",
+        "The Aston Martin V8 has a 5.3 litre engine and its assembly took place in Newport Pagnell, Buckinghamshire, England, United Kingdom. The Aston Martin V8 and the Aston Martin DBS are related means of transport.",
+        "The Aston Martin V8 is similar to the DBS and has a 5.3 litre engine. It is made in Newport Pagnell, Buckinghamshire, England, UK."
+    ]
+}

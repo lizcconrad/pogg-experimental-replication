@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.S._Roma": {
+            "lexicon_key": "A.S._Roma"
+        },
+        "\"Associazione Sportiva Roma S.p.A.\"": {
+            "lexicon_key": "\"Associazione Sportiva Roma S.p.A.\""
+        },
+        "\"Rome, Italy\"": {
+            "lexicon_key": "\"Rome, Italy\""
+        },
+        "70634": {
+            "lexicon_key": "70634"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "fullName",
+            "parent_node": "A.S._Roma",
+            "child_node": "\"Associazione Sportiva Roma S.p.A.\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "A.S._Roma",
+            "child_node": "\"Rome, Italy\"",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "A.S._Roma",
+            "child_node": "70634",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The \"Associazione Sportiva Roma S.p.A.\" is the non-abbreviated name of A.S. Roma which has 70634 members and a home ground in Rome, Italy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.S. Roma have 70634 members, play their home games in Rome, Italy and their full title is Associazione Sportiva Roma S.p.A."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.S. Roma, or Associazione Sportiva Roma S.p.A., has 70634 members and its ground is in Rome, Italy."
+        }
+    },
+    "gold_outputs": [
+        "A.S. Roma have 70634 members, play their home games in Rome, Italy and their full title is Associazione Sportiva Roma S.p.A.",
+        "A.S. Roma, or Associazione Sportiva Roma S.p.A., has 70634 members and its ground is in Rome, Italy.",
+        "The \"Associazione Sportiva Roma S.p.A.\" is the non-abbreviated name of A.S. Roma which has 70634 members and a home ground in Rome, Italy."
+    ]
+}

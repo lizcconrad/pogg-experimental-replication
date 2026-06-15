@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "FC_Tom_Tomsk": {
+            "lexicon_key": "FC_Tom_Tomsk"
+        },
+        "Russian_Football_National_League": {
+            "lexicon_key": "Russian_Football_National_League"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "FC_Tom_Tomsk",
+            "child_node": "Russian_Football_National_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The league FC Tom Tomsk plays in the Russian Football National League."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "FC Tom Tomsk play in the Russian National Football League."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "FC Tom Tomsk play in the Russian Football National League."
+        }
+    },
+    "gold_outputs": [
+        "FC Tom Tomsk play in the Russian Football National League.",
+        "FC Tom Tomsk play in the Russian National Football League.",
+        "The league FC Tom Tomsk plays in the Russian Football National League."
+    ]
+}

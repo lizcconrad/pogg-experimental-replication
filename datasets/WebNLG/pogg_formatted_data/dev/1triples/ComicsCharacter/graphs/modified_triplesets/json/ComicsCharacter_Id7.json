@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Baymax": {
+            "lexicon_key": "Baymax"
+        },
+        "Big_Hero_6_(film)": {
+            "lexicon_key": "Big_Hero_6_(film)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "series",
+            "parent_node": "Baymax",
+            "child_node": "Big_Hero_6_(film)",
+            "edge_properties": {
+                "lexicon_key": "series"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Baymax is a character in Big Hero 6."
+        }
+    },
+    "gold_outputs": [
+        "Baymax is a character in Big Hero 6."
+    ]
+}

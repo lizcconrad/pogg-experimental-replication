@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Accademia_di_Architettura_di_Mendrisio": {
+            "lexicon_key": "Accademia_di_Architettura_di_Mendrisio"
+        },
+        "Switzerland": {
+            "lexicon_key": "Switzerland"
+        },
+        "Mario_Botta": {
+            "lexicon_key": "Mario_Botta"
+        },
+        "600": {
+            "lexicon_key": "600"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Accademia_di_Architettura_di_Mendrisio",
+            "child_node": "Switzerland",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "dean",
+            "parent_node": "Accademia_di_Architettura_di_Mendrisio",
+            "child_node": "Mario_Botta",
+            "edge_properties": {
+                "lexicon_key": "dean"
+            }
+        },
+        {
+            "edge_name": "numberOfStudents",
+            "parent_node": "Accademia_di_Architettura_di_Mendrisio",
+            "child_node": "600",
+            "edge_properties": {
+                "lexicon_key": "numberOfStudents"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Accademia di Architettura di Mendrisio is in Switzerland. Its dean is Mario Botta and it has 600 students."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Accademia di Architettura di Mendrisio of Switzerland has 600 students and the dean is called Mario Botta."
+        }
+    },
+    "gold_outputs": [
+        "The Accademia di Architettura di Mendrisio is in Switzerland. Its dean is Mario Botta and it has 600 students.",
+        "The Accademia di Architettura di Mendrisio of Switzerland has 600 students and the dean is called Mario Botta."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Asher_and_Mary_Isabelle_Richardson_House": {
+            "lexicon_key": "Asher_and_Mary_Isabelle_Richardson_House"
+        },
+        "U.S._Route_83": {
+            "lexicon_key": "U.S._Route_83"
+        },
+        "\"88002539\"": {
+            "lexicon_key": "\"88002539\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Asher_and_Mary_Isabelle_Richardson_House",
+            "child_node": "U.S._Route_83",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "NationalRegisterOfHistoricPlacesReferenceNumber",
+            "parent_node": "Asher_and_Mary_Isabelle_Richardson_House",
+            "child_node": "\"88002539\"",
+            "edge_properties": {
+                "lexicon_key": "NationalRegisterOfHistoricPlacesReferenceNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Asher and Mary Isabelle Richardson House is located on U.S. Route 83 and has the reference number 88002539 in the National Register of Historic Places."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The National Register of Historic Places has the Asher and Mary Isabelle Richardson House, located at U.S. Route 83, referenced at 88002539."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Asher and Mary Isabelle Richardson House has the reference number 88002539 in the National Register of Historic Places, and is located at U.S. Route 83."
+        }
+    },
+    "gold_outputs": [
+        "Asher and Mary Isabelle Richardson House has the reference number 88002539 in the National Register of Historic Places, and is located at U.S. Route 83.",
+        "The Asher and Mary Isabelle Richardson House is located on U.S. Route 83 and has the reference number 88002539 in the National Register of Historic Places.",
+        "The National Register of Historic Places has the Asher and Mary Isabelle Richardson House, located at U.S. Route 83, referenced at 88002539."
+    ]
+}

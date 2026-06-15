@@ -1,0 +1,5 @@
+strict digraph {
+Alba_Iulia [lexicon_key="Alba_Iulia"];
+Alba_County [lexicon_key="Alba_County"];
+Alba_Iulia -> Alba_County [label=isPartOf, lexicon_key=isPartOf];
+}

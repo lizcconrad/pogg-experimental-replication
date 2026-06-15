@@ -1,0 +1,9 @@
+strict digraph {
+Bionico [lexicon_key=Bionico];
+Mexico [lexicon_key=Mexico];
+Jalisco [lexicon_key=Jalisco];
+Raisin [lexicon_key=Raisin];
+Bionico -> Mexico [label=country, lexicon_key=country];
+Bionico -> Jalisco [label=region, lexicon_key=region];
+Bionico -> Raisin [label=ingredient, lexicon_key=ingredient];
+}

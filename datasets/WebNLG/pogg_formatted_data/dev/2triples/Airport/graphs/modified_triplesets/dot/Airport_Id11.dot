@@ -1,0 +1,7 @@
+strict digraph {
+Alpena_County_Regional_Airport [lexicon_key="Alpena_County_Regional_Airport"];
+"Wilson_Township,_Alpena_County,_Michigan" [lexicon_key="Wilson_Township,_Alpena_County,_Michigan"];
+United_States [lexicon_key="United_States"];
+Alpena_County_Regional_Airport -> "Wilson_Township,_Alpena_County,_Michigan" [label=location, lexicon_key=location];
+"Wilson_Township,_Alpena_County,_Michigan" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

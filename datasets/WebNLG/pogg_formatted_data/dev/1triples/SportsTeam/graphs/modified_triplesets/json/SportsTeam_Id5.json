@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "A.E_Dimitra_Efxeinoupolis": {
+            "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+        },
+        "\"A.E Dimitra Efxeinoupolis\"": {
+            "lexicon_key": "\"A.E Dimitra Efxeinoupolis\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "fullName",
+            "parent_node": "A.E_Dimitra_Efxeinoupolis",
+            "child_node": "\"A.E Dimitra Efxeinoupolis\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis's full name is A.E Dimitra Efxeinoupolis."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "\"A.E Dimitra Efxeinoupolis\" is the full name of A.E Dimitra Efxeinoupolis."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis has the full name A.E Dimitra Efxeinoupolis."
+        }
+    },
+    "gold_outputs": [
+        "\"A.E Dimitra Efxeinoupolis\" is the full name of A.E Dimitra Efxeinoupolis.",
+        "A.E Dimitra Efxeinoupolis has the full name A.E Dimitra Efxeinoupolis.",
+        "A.E Dimitra Efxeinoupolis's full name is A.E Dimitra Efxeinoupolis."
+    ]
+}

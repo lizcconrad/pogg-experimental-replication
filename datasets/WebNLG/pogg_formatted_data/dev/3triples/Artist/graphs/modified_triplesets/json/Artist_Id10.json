@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Agust\u00edn_Barboza": {
+            "lexicon_key": "Agust\u00edn_Barboza"
+        },
+        "\"solo_singer\"": {
+            "lexicon_key": "\"solo_singer\""
+        },
+        "Guarania_(music)": {
+            "lexicon_key": "Guarania_(music)"
+        },
+        "Philips_Records": {
+            "lexicon_key": "Philips_Records"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "background",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "\"solo_singer\"",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "Guarania_(music)",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "Philips_Records",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agustin Barboza is a solo singer who performs Guarania and signed to Philips Records."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agustin Barboza (who started out as a solo singer), is is a Guarania artiste under the record labe; Philips Records."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Agustin Barboza has a background in solo singing and plays Guarania style under the signature of Philips Records."
+        }
+    },
+    "gold_outputs": [
+        "Agustin Barboza (who started out as a solo singer), is is a Guarania artiste under the record labe; Philips Records.",
+        "Agustin Barboza has a background in solo singing and plays Guarania style under the signature of Philips Records.",
+        "Agustin Barboza is a solo singer who performs Guarania and signed to Philips Records."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Beef_kway_teow [lexicon_key="Beef_kway_teow"];
+Oyster_sauce [lexicon_key="Oyster_sauce"];
+Indonesia [lexicon_key=Indonesia];
+"Singapore and Indonesia" [lexicon_key="Singapore and Indonesia"];
+Beef_kway_teow -> Oyster_sauce [label=ingredient, lexicon_key=ingredient];
+Beef_kway_teow -> Indonesia [label=region, lexicon_key=region];
+Beef_kway_teow -> "Singapore and Indonesia" [label=country, lexicon_key=country];
+}

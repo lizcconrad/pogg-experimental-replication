@@ -1,0 +1,7 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+China [lexicon_key=China];
+Standard_Chinese [lexicon_key="Standard_Chinese"];
+Baked_Alaska -> China [label=country, lexicon_key=country];
+China -> Standard_Chinese [label=language, lexicon_key=language];
+}

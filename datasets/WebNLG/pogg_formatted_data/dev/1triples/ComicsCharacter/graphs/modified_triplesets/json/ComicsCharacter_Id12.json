@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "John_Buscema": {
+            "lexicon_key": "John_Buscema"
+        },
+        "Eagle_Award_(comics)": {
+            "lexicon_key": "Eagle_Award_(comics)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "award",
+            "parent_node": "John_Buscema",
+            "child_node": "Eagle_Award_(comics)",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "John Buscema has won the comic book award, Eagle Award."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "John Buscema received the Eagle Award for his work in comics."
+        }
+    },
+    "gold_outputs": [
+        "John Buscema has won the comic book award, Eagle Award.",
+        "John Buscema received the Eagle Award for his work in comics."
+    ]
+}

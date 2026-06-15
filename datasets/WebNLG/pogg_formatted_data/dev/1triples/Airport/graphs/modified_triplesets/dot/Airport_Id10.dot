@@ -1,0 +1,5 @@
+strict digraph {
+"Al-Taqaddum_Air_Base" [lexicon_key="Al-Taqaddum_Air_Base"];
+84.0 [lexicon_key=84.0];
+"Al-Taqaddum_Air_Base" -> 84.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

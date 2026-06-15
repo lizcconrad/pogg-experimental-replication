@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "FC_Torpedo_Moscow": {
+            "lexicon_key": "FC_Torpedo_Moscow"
+        },
+        "Valery_Petrakov": {
+            "lexicon_key": "Valery_Petrakov"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "FC_Torpedo_Moscow",
+            "child_node": "Valery_Petrakov",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Valery Petrakov is the manager of FC Torpedo Moscow."
+        }
+    },
+    "gold_outputs": [
+        "Valery Petrakov is the manager of FC Torpedo Moscow."
+    ]
+}

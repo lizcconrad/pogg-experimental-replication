@@ -1,0 +1,9 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+Barack_Obama [lexicon_key="Barack_Obama"];
+A_Fortress_of_Grey_Ice [lexicon_key="A_Fortress_of_Grey_Ice"];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+United_States -> Barack_Obama [label=leader, lexicon_key=leader];
+A_Fortress_of_Grey_Ice -> United_States [label=country, lexicon_key=country];
+}

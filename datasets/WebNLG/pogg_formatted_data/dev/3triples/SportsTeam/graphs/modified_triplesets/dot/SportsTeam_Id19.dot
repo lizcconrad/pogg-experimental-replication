@@ -1,0 +1,9 @@
+strict digraph {
+Akron_Summit_Assault [lexicon_key="Akron_Summit_Assault"];
+"St._Vincent–St._Mary_High_School" [lexicon_key="St._Vincent–St._Mary_High_School"];
+Premier_Development_League [lexicon_key="Premier_Development_League"];
+"K-W_United_FC" [lexicon_key="K-W_United_FC"];
+Akron_Summit_Assault -> "St._Vincent–St._Mary_High_School" [label=ground, lexicon_key=ground];
+Akron_Summit_Assault -> Premier_Development_League [label=league, lexicon_key=league];
+Premier_Development_League -> "K-W_United_FC" [label=champions, lexicon_key=champions];
+}

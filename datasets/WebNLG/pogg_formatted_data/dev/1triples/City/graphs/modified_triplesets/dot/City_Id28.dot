@@ -1,0 +1,5 @@
+strict digraph {
+New_Jersey [lexicon_key="New_Jersey"];
+"Trenton,_New_Jersey" [lexicon_key="Trenton,_New_Jersey"];
+New_Jersey -> "Trenton,_New_Jersey" [label=capital, lexicon_key=capital];
+}

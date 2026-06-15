@@ -1,0 +1,9 @@
+strict digraph {
+Alfred_Garth_Jones [lexicon_key="Alfred_Garth_Jones"];
+London [lexicon_key=London];
+Manchester [lexicon_key=Manchester];
+England [lexicon_key=England];
+Alfred_Garth_Jones -> London [label=deathPlace, lexicon_key=deathPlace];
+Alfred_Garth_Jones -> Manchester [label=birthPlace, lexicon_key=birthPlace];
+Alfred_Garth_Jones -> England [label=birthPlace, lexicon_key=birthPlace];
+}

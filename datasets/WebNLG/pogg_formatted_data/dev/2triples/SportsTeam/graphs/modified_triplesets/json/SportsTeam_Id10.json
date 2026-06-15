@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A.S._Livorno_Calcio": {
+            "lexicon_key": "A.S._Livorno_Calcio"
+        },
+        "Christian_Panucci": {
+            "lexicon_key": "Christian_Panucci"
+        },
+        "Italy_national_football_team": {
+            "lexicon_key": "Italy_national_football_team"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.S._Livorno_Calcio",
+            "child_node": "Christian_Panucci",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Christian_Panucci",
+            "child_node": "Italy_national_football_team",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.S. Livorno Calcio is managed by Christian Panucci who plays for the Italy national football team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.S. Livorno Calcio are managed by Christian Panucci who played for the Italy national football team."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.S. Livorno Calcio is managed by Christian Panucci who previously played for the Italian national football team."
+        }
+    },
+    "gold_outputs": [
+        "A.S. Livorno Calcio are managed by Christian Panucci who played for the Italy national football team.",
+        "A.S. Livorno Calcio is managed by Christian Panucci who plays for the Italy national football team.",
+        "A.S. Livorno Calcio is managed by Christian Panucci who previously played for the Italian national football team."
+    ]
+}

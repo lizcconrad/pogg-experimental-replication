@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Allen_Forrest": {
+            "lexicon_key": "Allen_Forrest"
+        },
+        "Acoustic_music": {
+            "lexicon_key": "Acoustic_music"
+        },
+        "\"Fort Campbell, KY, raised in Dothan, AL\"": {
+            "lexicon_key": "\"Fort Campbell, KY, raised in Dothan, AL\""
+        },
+        "\"solo_singer\"": {
+            "lexicon_key": "\"solo_singer\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Allen_Forrest",
+            "child_node": "Acoustic_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Allen_Forrest",
+            "child_node": "\"Fort Campbell, KY, raised in Dothan, AL\"",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "background",
+            "parent_node": "Allen_Forrest",
+            "child_node": "\"solo_singer\"",
+            "edge_properties": {
+                "lexicon_key": "background"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Allen Forrest, a solo singer who performs acoustic music, was born in Fort Campbell, KY and was raised in the town of Dothan, AL."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Allen Forrest was born in Fort Campbell, KY and was raised in Dothan, AL. He was originally a solo singer and now plays acoustic music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Allen Forrest was born in Fort Campbell, Kentucky but was raised in Dothan, Alabama. He plays acoustic music and was a solo singer."
+        }
+    },
+    "gold_outputs": [
+        "Allen Forrest was born in Fort Campbell, KY and was raised in Dothan, AL. He was originally a solo singer and now plays acoustic music.",
+        "Allen Forrest was born in Fort Campbell, Kentucky but was raised in Dothan, Alabama. He plays acoustic music and was a solo singer.",
+        "Allen Forrest, a solo singer who performs acoustic music, was born in Fort Campbell, KY and was raised in the town of Dothan, AL."
+    ]
+}

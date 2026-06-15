@@ -1,0 +1,9 @@
+strict digraph {
+AMC_Matador [lexicon_key="AMC_Matador"];
+"Kenosha,_Wisconsin" [lexicon_key="Kenosha,_Wisconsin"];
+1974 [lexicon_key=1974];
+AMC_Ambassador [lexicon_key="AMC_Ambassador"];
+AMC_Matador -> "Kenosha,_Wisconsin" [label=assembly, lexicon_key=assembly];
+AMC_Matador -> 1974 [label=modelYears, lexicon_key=modelYears];
+AMC_Matador -> AMC_Ambassador [label=relatedMeanOfTransportation, lexicon_key=relatedMeanOfTransportation];
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aleksandra_Kova\u010d": {
+            "lexicon_key": "Aleksandra_Kova\u010d"
+        },
+        "Rhythm_and_blues": {
+            "lexicon_key": "Rhythm_and_blues"
+        },
+        "Bebi_Dol": {
+            "lexicon_key": "Bebi_Dol"
+        },
+        "Kornelije_Kova\u010d": {
+            "lexicon_key": "Kornelije_Kova\u010d"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Rhythm_and_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Bebi_Dol",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aleksandra_Kova\u010d",
+            "child_node": "Kornelije_Kova\u010d",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandra Kovac's genre is Rhythm and blues and he is in the same band with Kornelije Kova\u010d. He is also associated with the musical artist Bebi Dol."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandra Kovac, an exponent of Rhythm and blues, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The musical genre of Aleksandra Kovac is rhythm and blues. Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kova\u010d."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandra Kovac's genre is Rhythm and blues and he is in the same band with Kornelije Kova\u010d. He is also associated with the musical artist Bebi Dol.",
+        "Aleksandra Kovac, an exponent of Rhythm and blues, is associated with the musical artists Bebi Dol and Kornelije Kova\u010d.",
+        "The musical genre of Aleksandra Kovac is rhythm and blues. Aleksandra Kova\u010d is associated with the musical artists Bebi Dol and Kornelije Kova\u010d."
+    ]
+}

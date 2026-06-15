@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "American_Journal_of_Mathematics": {
+            "lexicon_key": "American_Journal_of_Mathematics"
+        },
+        "\"Am. J. Math.\"": {
+            "lexicon_key": "\"Am. J. Math.\""
+        },
+        "Mathematics": {
+            "lexicon_key": "Mathematics"
+        },
+        "\"1080-6377\"": {
+            "lexicon_key": "\"1080-6377\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "\"Am. J. Math.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "academicDiscipline",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "Mathematics",
+            "edge_properties": {
+                "lexicon_key": "academicDiscipline"
+            }
+        },
+        {
+            "edge_name": "issnNumber",
+            "parent_node": "American_Journal_of_Mathematics",
+            "child_node": "\"1080-6377\"",
+            "edge_properties": {
+                "lexicon_key": "issnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The American Journal of Mathematics, abbreviated to Am.J.Math, whose academic discipline is Mathematics has ISSN No. 1080-6377."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Am. J. Math is the abbreviation for the American Journal of Mathematics with the ISSN number of 1080-6377 in the discipline of Math."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The American Journal of Mathematics (discipline Mathematics) is also known by the abbreviated title of Am. J. Math and has the ISSN number 1080-6377."
+        }
+    },
+    "gold_outputs": [
+        "Am. J. Math is the abbreviation for the American Journal of Mathematics with the ISSN number of 1080-6377 in the discipline of Math.",
+        "The American Journal of Mathematics (discipline Mathematics) is also known by the abbreviated title of Am. J. Math and has the ISSN number 1080-6377.",
+        "The American Journal of Mathematics, abbreviated to Am.J.Math, whose academic discipline is Mathematics has ISSN No. 1080-6377."
+    ]
+}

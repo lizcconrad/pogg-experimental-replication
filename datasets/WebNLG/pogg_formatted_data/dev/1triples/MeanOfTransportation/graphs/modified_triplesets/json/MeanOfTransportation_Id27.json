@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Audi_A1": {
+            "lexicon_key": "Audi_A1"
+        },
+        "Audi_Brussels": {
+            "lexicon_key": "Audi_Brussels"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "Audi_A1",
+            "child_node": "Audi_Brussels",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Audi A1 is assembled by Audi Brussels."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Audi A1 is assembled at Audi Brussels."
+        }
+    },
+    "gold_outputs": [
+        "The Audi A1 is assembled at Audi Brussels.",
+        "The Audi A1 is assembled by Audi Brussels."
+    ]
+}

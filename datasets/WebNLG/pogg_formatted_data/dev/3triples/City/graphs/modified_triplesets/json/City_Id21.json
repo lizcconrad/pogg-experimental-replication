@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Madison_County,_Indiana": {
+            "lexicon_key": "Madison_County,_Indiana"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Alexandria,_Indiana": {
+            "lexicon_key": "Alexandria,_Indiana"
+        },
+        "Anderson,_Indiana": {
+            "lexicon_key": "Anderson,_Indiana"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Madison_County,_Indiana",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Alexandria,_Indiana",
+            "child_node": "Madison_County,_Indiana",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "largestCity",
+            "parent_node": "Madison_County,_Indiana",
+            "child_node": "Anderson,_Indiana",
+            "edge_properties": {
+                "lexicon_key": "largestCity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alexandria, Indiana is part of Madison County Indiana in the United States. The largest city in Madison County is Anderson."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alexandria in the United States is part of Madison County, Indiana which has the largest city of Anderson."
+        }
+    },
+    "gold_outputs": [
+        "Alexandria in the United States is part of Madison County, Indiana which has the largest city of Anderson.",
+        "Alexandria, Indiana is part of Madison County Indiana in the United States. The largest city in Madison County is Anderson."
+    ]
+}

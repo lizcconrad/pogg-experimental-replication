@@ -1,0 +1,5 @@
+strict digraph {
+Olympique_Lyonnais [lexicon_key="Olympique_Lyonnais"];
+Parc_Olympique_Lyonnais [lexicon_key="Parc_Olympique_Lyonnais"];
+Olympique_Lyonnais -> Parc_Olympique_Lyonnais [label=ground, lexicon_key=ground];
+}

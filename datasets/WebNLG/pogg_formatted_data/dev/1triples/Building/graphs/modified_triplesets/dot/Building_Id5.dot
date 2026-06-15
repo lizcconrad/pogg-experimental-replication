@@ -1,0 +1,5 @@
+strict digraph {
+"20_Fenchurch_Street" [lexicon_key="20_Fenchurch_Street"];
+"January 2009" [lexicon_key="January 2009"];
+"20_Fenchurch_Street" -> "January 2009" [label=buildingStartDate, lexicon_key=buildingStartDate];
+}

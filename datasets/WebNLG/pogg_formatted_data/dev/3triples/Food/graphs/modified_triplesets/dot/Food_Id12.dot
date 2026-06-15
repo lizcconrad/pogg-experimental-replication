@@ -1,0 +1,9 @@
+strict digraph {
+Bacon_Explosion [lexicon_key="Bacon_Explosion"];
+United_States [lexicon_key="United_States"];
+Bacon [lexicon_key=Bacon];
+Sausage [lexicon_key=Sausage];
+Bacon_Explosion -> United_States [label=country, lexicon_key=country];
+Bacon_Explosion -> Bacon [label=ingredient, lexicon_key=ingredient];
+Bacon_Explosion -> Sausage [label=mainIngredient, lexicon_key=mainIngredient];
+}

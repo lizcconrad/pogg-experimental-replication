@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_Hunt": {
+            "lexicon_key": "Aaron_Hunt"
+        },
+        "VfL_Wolfsburg": {
+            "lexicon_key": "VfL_Wolfsburg"
+        },
+        "SV_Werder_Bremen_II": {
+            "lexicon_key": "SV_Werder_Bremen_II"
+        },
+        "Goslarer_SC_08": {
+            "lexicon_key": "Goslarer_SC_08"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aaron_Hunt",
+            "child_node": "VfL_Wolfsburg",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aaron_Hunt",
+            "child_node": "SV_Werder_Bremen_II",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "youthclub",
+            "parent_node": "Aaron_Hunt",
+            "child_node": "Goslarer_SC_08",
+            "edge_properties": {
+                "lexicon_key": "youthclub"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Hunt's youth club was Goslarer SC 08, his club is VfL Wolfsburg and he plays for SV Werder Bremen II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Hunt, who plays for Vfl Wolfsburg, used to play for both, the Goslarer SC 08 youth team and SV Werder Bremen II."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Hunt, whose club is VfL Wolfsburg, used to play for, the Goslarer SC 08 youth team and SV Werder Bremen II."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Hunt's youth club was Goslarer SC 08, his club is VfL Wolfsburg and he plays for SV Werder Bremen II.",
+        "Aaron Hunt, who plays for Vfl Wolfsburg, used to play for both, the Goslarer SC 08 youth team and SV Werder Bremen II.",
+        "Aaron Hunt, whose club is VfL Wolfsburg, used to play for, the Goslarer SC 08 youth team and SV Werder Bremen II."
+    ]
+}

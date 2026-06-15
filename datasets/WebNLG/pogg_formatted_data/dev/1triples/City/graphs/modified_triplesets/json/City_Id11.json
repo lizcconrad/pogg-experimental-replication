@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Anaheim,_California": {
+            "lexicon_key": "Anaheim,_California"
+        },
+        "657": {
+            "lexicon_key": "657"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaCode",
+            "parent_node": "Anaheim,_California",
+            "child_node": "657",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anaheim, in California, has the area code 657."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The area code of Anaheim, California is 657."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The area code for Anaheim, California, is 657."
+        }
+    },
+    "gold_outputs": [
+        "Anaheim, in California, has the area code 657.",
+        "The area code for Anaheim, California, is 657.",
+        "The area code of Anaheim, California is 657."
+    ]
+}

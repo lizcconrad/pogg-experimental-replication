@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Antares_(rocket)": {
+            "lexicon_key": "Antares_(rocket)"
+        },
+        "2014-10-28": {
+            "lexicon_key": "2014-10-28"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "finalFlight",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "2014-10-28",
+            "edge_properties": {
+                "lexicon_key": "finalFlight"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Antares rocket's final flight was on the 28th October 2014."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The final flight of the Antares rocket was on 2014-10-28."
+        }
+    },
+    "gold_outputs": [
+        "The Antares rocket's final flight was on the 28th October 2014.",
+        "The final flight of the Antares rocket was on 2014-10-28."
+    ]
+}

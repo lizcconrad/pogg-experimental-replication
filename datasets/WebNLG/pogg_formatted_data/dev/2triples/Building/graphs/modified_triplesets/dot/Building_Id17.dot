@@ -1,0 +1,7 @@
+strict digraph {
+Ampara_Hospital [lexicon_key="Ampara_Hospital"];
+Sri_Lanka [lexicon_key="Sri_Lanka"];
+Sri_Jayawardenepura_Kotte [lexicon_key="Sri_Jayawardenepura_Kotte"];
+Ampara_Hospital -> Sri_Lanka [label=country, lexicon_key=country];
+Sri_Lanka -> Sri_Jayawardenepura_Kotte [label=capital, lexicon_key=capital];
+}

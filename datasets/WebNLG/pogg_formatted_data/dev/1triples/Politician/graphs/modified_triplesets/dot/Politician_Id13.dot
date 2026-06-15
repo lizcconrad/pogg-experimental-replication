@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+New_York_City [lexicon_key="New_York_City"];
+Adam_Koc -> New_York_City [label=deathPlace, lexicon_key=deathPlace];
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alaa_Abdul-Zahra": {
+            "lexicon_key": "Alaa_Abdul-Zahra"
+        },
+        "Al_Kharaitiyat_SC": {
+            "lexicon_key": "Al_Kharaitiyat_SC"
+        },
+        "Al_Khor": {
+            "lexicon_key": "Al_Khor"
+        },
+        "Shabab_Al-Ordon_Club": {
+            "lexicon_key": "Shabab_Al-Ordon_Club"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alaa_Abdul-Zahra",
+            "child_node": "Al_Kharaitiyat_SC",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "Al_Kharaitiyat_SC",
+            "child_node": "Al_Khor",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alaa_Abdul-Zahra",
+            "child_node": "Shabab_Al-Ordon_Club",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alaa Abdul-Zahra's club is Shabab Al-Ordon Club and he plays for Al Kharaitiyat SC at their home ground Al Khor."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alaa Abdul-Zahra's clubs are Shabab Al-Ordon and also Al Kharaitiyat SC whose ground is Al Khor."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Shabab Al-Ordon Club is one of the clubs of Alaa Abdul Zahra, Another is, AL Kharaitiyat SC which is located in Al Khor."
+        }
+    },
+    "gold_outputs": [
+        "Alaa Abdul-Zahra's club is Shabab Al-Ordon Club and he plays for Al Kharaitiyat SC at their home ground Al Khor.",
+        "Alaa Abdul-Zahra's clubs are Shabab Al-Ordon and also Al Kharaitiyat SC whose ground is Al Khor.",
+        "Shabab Al-Ordon Club is one of the clubs of Alaa Abdul Zahra, Another is, AL Kharaitiyat SC which is located in Al Khor."
+    ]
+}

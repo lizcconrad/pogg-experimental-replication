@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Japan": {
+            "lexicon_key": "Japan"
+        },
+        "Tar\u014d_As\u014d": {
+            "lexicon_key": "Tar\u014d_As\u014d"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Japan",
+            "child_node": "Tar\u014d_As\u014d",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader of Japan is Tar\u014d As\u014d."
+        }
+    },
+    "gold_outputs": [
+        "The leader of Japan is Tar\u014d As\u014d."
+    ]
+}

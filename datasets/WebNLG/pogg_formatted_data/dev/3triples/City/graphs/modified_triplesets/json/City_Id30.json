@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States_House_of_Representatives": {
+            "lexicon_key": "United_States_House_of_Representatives"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "United_States_Congress": {
+            "lexicon_key": "United_States_Congress"
+        },
+        "Anaheim,_California": {
+            "lexicon_key": "Anaheim,_California"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "United_States_House_of_Representatives",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "United_States_House_of_Representatives",
+            "child_node": "United_States_Congress",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Anaheim,_California",
+            "child_node": "United_States_House_of_Representatives",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anaheim in California is led by the US based United States House of Representatives which is part of the United States Congress."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anaheim in California is led by the United States House of Representatives which is part of the United States Congress."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "In the United States, the House of Representatives (part of the United States Congress) leads Anaheim, California."
+        }
+    },
+    "gold_outputs": [
+        "Anaheim in California is led by the US based United States House of Representatives which is part of the United States Congress.",
+        "Anaheim in California is led by the United States House of Representatives which is part of the United States Congress.",
+        "In the United States, the House of Representatives (part of the United States Congress) leads Anaheim, California."
+    ]
+}

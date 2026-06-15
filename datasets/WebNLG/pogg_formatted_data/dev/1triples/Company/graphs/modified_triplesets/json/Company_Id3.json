@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Felipe_Gozon": {
+            "lexicon_key": "Felipe_Gozon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "keyPerson",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Felipe_Gozon",
+            "edge_properties": {
+                "lexicon_key": "keyPerson"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Felipe Gozon is the key person of GMA New Media."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Felipe Gozon is a key person in GMA New Media."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The key person on GMA New Media is Felipe Gozon."
+        }
+    },
+    "gold_outputs": [
+        "Felipe Gozon is a key person in GMA New Media.",
+        "Felipe Gozon is the key person of GMA New Media.",
+        "The key person on GMA New Media is Felipe Gozon."
+    ]
+}

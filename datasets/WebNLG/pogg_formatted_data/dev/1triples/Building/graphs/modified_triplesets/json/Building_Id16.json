@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Asher_and_Mary_Isabelle_Richardson_House": {
+            "lexicon_key": "Asher_and_Mary_Isabelle_Richardson_House"
+        },
+        "\"1988-11-22\"": {
+            "lexicon_key": "\"1988-11-22\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "addedToTheNationalRegisterOfHistoricPlaces",
+            "parent_node": "Asher_and_Mary_Isabelle_Richardson_House",
+            "child_node": "\"1988-11-22\"",
+            "edge_properties": {
+                "lexicon_key": "addedToTheNationalRegisterOfHistoricPlaces"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places on \"1988-11-22\"."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places, on 22nd November 1988."
+        }
+    },
+    "gold_outputs": [
+        "Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places on \"1988-11-22\".",
+        "The Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places, on 22nd November 1988."
+    ]
+}

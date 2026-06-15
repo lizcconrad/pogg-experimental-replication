@@ -1,0 +1,7 @@
+strict digraph {
+Akeem_Dent [lexicon_key="Akeem_Dent"];
+Atlanta_Falcons [lexicon_key="Atlanta_Falcons"];
+Arthur_Blank [lexicon_key="Arthur_Blank"];
+Akeem_Dent -> Atlanta_Falcons [label=debutTeam, lexicon_key=debutTeam];
+Atlanta_Falcons -> Arthur_Blank [label=owner, lexicon_key=owner];
+}

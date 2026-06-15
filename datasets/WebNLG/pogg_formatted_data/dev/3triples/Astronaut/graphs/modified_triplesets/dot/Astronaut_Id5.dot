@@ -1,0 +1,9 @@
+strict digraph {
+California [lexicon_key=California];
+Smilodon [lexicon_key=Smilodon];
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+"Distinguished_Service_Medal_(United_States_Navy)" [lexicon_key="Distinguished_Service_Medal_(United_States_Navy)"];
+California -> Smilodon [label=fossil, lexicon_key=fossil];
+Alan_Shepard -> California [label=deathPlace, lexicon_key=deathPlace];
+Alan_Shepard -> "Distinguished_Service_Medal_(United_States_Navy)" [label=award, lexicon_key=award];
+}

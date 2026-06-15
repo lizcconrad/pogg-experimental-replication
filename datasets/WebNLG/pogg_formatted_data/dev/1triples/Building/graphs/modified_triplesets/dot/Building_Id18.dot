@@ -1,0 +1,5 @@
+strict digraph {
+Birmingham [lexicon_key=Birmingham];
+B_postcode_area [lexicon_key="B_postcode_area"];
+Birmingham -> B_postcode_area [label=postalCode, lexicon_key=postalCode];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "1036_Ganymed": {
+            "lexicon_key": "1036_Ganymed"
+        },
+        "160.0 (kelvins)": {
+            "lexicon_key": "160.0 (kelvins)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "temperature",
+            "parent_node": "1036_Ganymed",
+            "child_node": "160.0 (kelvins)",
+            "edge_properties": {
+                "lexicon_key": "temperature"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1036 Ganymed has a temperature of 160.0 kelvins."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The celestial body known as 1036 Ganymed has a temperature of 160 kelvins."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The temperature of 1036 Ganymed is 160 kelvins."
+        }
+    },
+    "gold_outputs": [
+        "1036 Ganymed has a temperature of 160.0 kelvins.",
+        "The celestial body known as 1036 Ganymed has a temperature of 160 kelvins.",
+        "The temperature of 1036 Ganymed is 160 kelvins."
+    ]
+}

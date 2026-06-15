@@ -1,0 +1,7 @@
+strict digraph {
+Atlanta [lexicon_key=Atlanta];
+"Georgia_(U.S._state)" [lexicon_key="Georgia_(U.S._state)"];
+"Fulton_County,_Georgia" [lexicon_key="Fulton_County,_Georgia"];
+Atlanta -> "Georgia_(U.S._state)" [label=isPartOf, lexicon_key=isPartOf];
+Atlanta -> "Fulton_County,_Georgia" [label=isPartOf, lexicon_key=isPartOf];
+}

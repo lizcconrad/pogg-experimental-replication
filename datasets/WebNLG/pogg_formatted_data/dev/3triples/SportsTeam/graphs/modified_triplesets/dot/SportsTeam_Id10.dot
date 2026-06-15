@@ -1,0 +1,9 @@
+strict digraph {
+"A.S._Livorno_Calcio" [lexicon_key="A.S._Livorno_Calcio"];
+Christian_Panucci [lexicon_key="Christian_Panucci"];
+"Genoa_C.F.C." [lexicon_key="Genoa_C.F.C."];
+"Real_Madrid_C.F." [lexicon_key="Real_Madrid_C.F."];
+"A.S._Livorno_Calcio" -> Christian_Panucci [label=manager, lexicon_key=manager];
+Christian_Panucci -> "Genoa_C.F.C." [label=club, lexicon_key=club];
+Christian_Panucci -> "Real_Madrid_C.F." [label=club, lexicon_key=club];
+}

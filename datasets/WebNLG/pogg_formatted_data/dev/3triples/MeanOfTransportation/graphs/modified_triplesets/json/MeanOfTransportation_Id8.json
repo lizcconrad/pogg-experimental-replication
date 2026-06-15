@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AMC_Matador": {
+            "lexicon_key": "AMC_Matador"
+        },
+        "Port_Melbourne,_Victoria": {
+            "lexicon_key": "Port_Melbourne,_Victoria"
+        },
+        "1971": {
+            "lexicon_key": "1971"
+        },
+        "AMC_Ambassador": {
+            "lexicon_key": "AMC_Ambassador"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "AMC_Matador",
+            "child_node": "Port_Melbourne,_Victoria",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "modelYears",
+            "parent_node": "AMC_Matador",
+            "child_node": "1971",
+            "edge_properties": {
+                "lexicon_key": "modelYears"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "AMC_Matador",
+            "child_node": "AMC_Ambassador",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AMC Matador, including the 1971 model, and the Ambassador are related. The assembly line is in Port Melbourne, Victoria."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AMC Matador is assembled in Port Melbourne, Victoria. One of the model years include 1971. It is elated to the AMC Ambassador."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AMC Matador, related to the AMC Ambassador, is produced in Port Melbourne, Victoria, including in the year 1971."
+        }
+    },
+    "gold_outputs": [
+        "The AMC Matador is assembled in Port Melbourne, Victoria. One of the model years include 1971. It is elated to the AMC Ambassador.",
+        "The AMC Matador, including the 1971 model, and the Ambassador are related. The assembly line is in Port Melbourne, Victoria.",
+        "The AMC Matador, related to the AMC Ambassador, is produced in Port Melbourne, Victoria, including in the year 1971."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+United_States_House_of_Representatives [lexicon_key="United_States_House_of_Representatives"];
+United_States [lexicon_key="United_States"];
+United_States_Congress [lexicon_key="United_States_Congress"];
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+United_States_House_of_Representatives -> United_States [label=location, lexicon_key=location];
+United_States_House_of_Representatives -> United_States_Congress [label=isPartOf, lexicon_key=isPartOf];
+"Anaheim,_California" -> United_States_House_of_Representatives [label=leaderTitle, lexicon_key=leaderTitle];
+}

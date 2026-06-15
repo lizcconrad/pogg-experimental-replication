@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Appleton_International_Airport": {
+            "lexicon_key": "Appleton_International_Airport"
+        },
+        "Appleton,_Wisconsin": {
+            "lexicon_key": "Appleton,_Wisconsin"
+        },
+        "Grand_Chute,_Wisconsin": {
+            "lexicon_key": "Grand_Chute,_Wisconsin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Appleton_International_Airport",
+            "child_node": "Appleton,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Appleton,_Wisconsin",
+            "child_node": "Grand_Chute,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Appleton, Grand Chute, Wisconsin is a city which is served by Appleton International Airport."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Appleton, Wisconsin is part of Grand Chute, Wisconsin and is served by Appletone International Airport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Appleton International Airport serves the city of Appleton which is part of Grand Chute, Wisconsin."
+        }
+    },
+    "gold_outputs": [
+        "Appleton International Airport serves the city of Appleton which is part of Grand Chute, Wisconsin.",
+        "Appleton, Grand Chute, Wisconsin is a city which is served by Appleton International Airport.",
+        "Appleton, Wisconsin is part of Grand Chute, Wisconsin and is served by Appletone International Airport."
+    ]
+}

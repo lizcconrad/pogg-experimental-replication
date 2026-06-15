@@ -1,0 +1,7 @@
+strict digraph {
+AZAL_Arena [lexicon_key="AZAL_Arena"];
+Shuvalan [lexicon_key=Shuvalan];
+AZAL_PFK [lexicon_key="AZAL_PFK"];
+AZAL_Arena -> Shuvalan [label=location, lexicon_key=location];
+AZAL_PFK -> AZAL_Arena [label=ground, lexicon_key=ground];
+}

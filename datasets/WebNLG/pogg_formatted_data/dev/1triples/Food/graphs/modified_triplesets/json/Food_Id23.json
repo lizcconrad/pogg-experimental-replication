@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Derbyshire_Dales": {
+            "lexicon_key": "Derbyshire_Dales"
+        },
+        "Patrick_McLoughlin": {
+            "lexicon_key": "Patrick_McLoughlin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Derbyshire_Dales",
+            "child_node": "Patrick_McLoughlin",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Patrick McLoughlin is a leader in the Derbyshire Dales."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Patrick McLoughlin is a leader in Derbyshire Dales."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Patrick McLoughlin is the leader of Derbyshire Dales."
+        }
+    },
+    "gold_outputs": [
+        "Patrick McLoughlin is a leader in Derbyshire Dales.",
+        "Patrick McLoughlin is a leader in the Derbyshire Dales.",
+        "Patrick McLoughlin is the leader of Derbyshire Dales."
+    ]
+}

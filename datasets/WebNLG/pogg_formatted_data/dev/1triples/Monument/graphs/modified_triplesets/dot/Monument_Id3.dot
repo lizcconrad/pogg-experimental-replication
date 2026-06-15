@@ -1,0 +1,5 @@
+strict digraph {
+Azerbaijan [lexicon_key=Azerbaijan];
+Artur_Rasizade [lexicon_key="Artur_Rasizade"];
+Azerbaijan -> Artur_Rasizade [label=leader, lexicon_key=leader];
+}

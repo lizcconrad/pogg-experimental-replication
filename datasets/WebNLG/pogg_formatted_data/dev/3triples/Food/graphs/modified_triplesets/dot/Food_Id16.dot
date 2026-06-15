@@ -1,0 +1,9 @@
+strict digraph {
+Bacon_sandwich [lexicon_key="Bacon_sandwich"];
+BLT [lexicon_key=BLT];
+United_Kingdom [lexicon_key="United_Kingdom"];
+Condiment [lexicon_key=Condiment];
+Bacon_sandwich -> BLT [label=dishVariation, lexicon_key=dishVariation];
+Bacon_sandwich -> United_Kingdom [label=country, lexicon_key=country];
+Bacon_sandwich -> Condiment [label=ingredient, lexicon_key=ingredient];
+}

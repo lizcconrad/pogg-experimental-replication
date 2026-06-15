@@ -1,0 +1,9 @@
+strict digraph {
+Acta_Palaeontologica_Polonica [lexicon_key="Acta_Palaeontologica_Polonica"];
+"1732-2421" [lexicon_key="1732-2421"];
+60040714 [lexicon_key=60040714];
+"Acta Palaeontol. Pol." [lexicon_key="Acta Palaeontol. Pol."];
+Acta_Palaeontologica_Polonica -> "1732-2421" [label=issnNumber, lexicon_key=issnNumber];
+Acta_Palaeontologica_Polonica -> 60040714 [label="LCCN_number", lexicon_key="LCCN_number"];
+Acta_Palaeontologica_Polonica -> "Acta Palaeontol. Pol." [label=abbreviation, lexicon_key=abbreviation];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Al-Taqaddum_Air_Base": {
+            "lexicon_key": "Al-Taqaddum_Air_Base"
+        },
+        "84.0": {
+            "lexicon_key": "84.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Al-Taqaddum_Air_Base",
+            "child_node": "84.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Al-Taqaddum Air Base is 84 metres above sea level."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Al Taqaddum Air Base is 84 metres above sea level."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The elevation above the sea level (in metres) of Al-Taqaddum Air Base is 84.0."
+        }
+    },
+    "gold_outputs": [
+        "Al Taqaddum Air Base is 84 metres above sea level.",
+        "Al-Taqaddum Air Base is 84 metres above sea level.",
+        "The elevation above the sea level (in metres) of Al-Taqaddum Air Base is 84.0."
+    ]
+}

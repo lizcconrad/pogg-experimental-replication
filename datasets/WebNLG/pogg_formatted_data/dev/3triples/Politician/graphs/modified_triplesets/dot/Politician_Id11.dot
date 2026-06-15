@@ -1,0 +1,9 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+Casey_Ribicoff [lexicon_key="Casey_Ribicoff"];
+Chicago [lexicon_key=Chicago];
+"United States Secretary of Health, Education, and Welfare" [lexicon_key="United States Secretary of Health, Education, and Welfare"];
+"Abraham_A._Ribicoff" -> Casey_Ribicoff [label=spouse, lexicon_key=spouse];
+"Abraham_A._Ribicoff" -> "United States Secretary of Health, Education, and Welfare" [label=office, lexicon_key=office];
+Casey_Ribicoff -> Chicago [label=birthPlace, lexicon_key=birthPlace];
+}

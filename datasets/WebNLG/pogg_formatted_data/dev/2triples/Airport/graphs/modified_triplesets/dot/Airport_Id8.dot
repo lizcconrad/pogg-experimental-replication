@@ -1,0 +1,7 @@
+strict digraph {
+Alcobendas [lexicon_key=Alcobendas];
+Community_of_Madrid [lexicon_key="Community_of_Madrid"];
+"Adolfo_Suárez_Madrid–Barajas_Airport" [lexicon_key="Adolfo_Suárez_Madrid–Barajas_Airport"];
+Alcobendas -> Community_of_Madrid [label=isPartOf, lexicon_key=isPartOf];
+"Adolfo_Suárez_Madrid–Barajas_Airport" -> Alcobendas [label=location, lexicon_key=location];
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Glen_Ridge,_New_Jersey": {
+            "lexicon_key": "Glen_Ridge,_New_Jersey"
+        },
+        "\"52.0\"(minutes)": {
+            "lexicon_key": "\"52.0\"(minutes)"
+        },
+        "Apollo_11": {
+            "lexicon_key": "Apollo_11"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Glen_Ridge,_New_Jersey",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "timeInSpace",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"52.0\"(minutes)",
+            "edge_properties": {
+                "lexicon_key": "timeInSpace"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Apollo_11",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Buzz Aldrin, who was a member of the Apollo 11 crew and spent 52 minutes in space, was born in Glen Ridge New Jersey."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born in Glen Ridge New Jersey, Apollo 11 crewman Buzz Aldrin spent 52 minutes in space."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Born in Glen Ridge, NJ, Buzz Aldrin spent 52 minutes in space as part of Apollo 11's crew."
+        }
+    },
+    "gold_outputs": [
+        "Born in Glen Ridge New Jersey, Apollo 11 crewman Buzz Aldrin spent 52 minutes in space.",
+        "Born in Glen Ridge, NJ, Buzz Aldrin spent 52 minutes in space as part of Apollo 11's crew.",
+        "Buzz Aldrin, who was a member of the Apollo 11 crew and spent 52 minutes in space, was born in Glen Ridge New Jersey."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Japan [lexicon_key=Japan];
+Brazilians_in_Japan [lexicon_key="Brazilians_in_Japan"];
+Japan -> Brazilians_in_Japan [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

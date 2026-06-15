@@ -1,0 +1,204 @@
+{
+    "node_keys": {
+        "\"A.E Dimitra Efxeinoupolis\"": {
+            "comp_fxn": ""
+        },
+        "\"Asociaci\u00f3n Deportiva\"": {
+            "comp_fxn": ""
+        },
+        "\"Joden , Godenzonen\"": {
+            "comp_fxn": ""
+        },
+        "\"Shuvalan, Baku, Azerbaijan\"": {
+            "comp_fxn": ""
+        },
+        "1._FC_K\u00f6ln": {
+            "comp_fxn": ""
+        },
+        "1._FC_Magdeburg": {
+            "comp_fxn": ""
+        },
+        "1500": {
+            "comp_fxn": ""
+        },
+        "17023": {
+            "comp_fxn": ""
+        },
+        "19238": {
+            "comp_fxn": ""
+        },
+        "2014": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_A_EPSTH,_Greece": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_Lega_Pro": {
+            "comp_fxn": ""
+        },
+        "2014\u201315_Serie_A": {
+            "comp_fxn": ""
+        },
+        "2015_Campeonato_Brasileiro_S\u00e9rie_C": {
+            "comp_fxn": ""
+        },
+        "3000": {
+            "comp_fxn": ""
+        },
+        "5000": {
+            "comp_fxn": ""
+        },
+        "A.C._Lumezzane": {
+            "comp_fxn": ""
+        },
+        "A.D._Isidro_Metap\u00e1n": {
+            "comp_fxn": ""
+        },
+        "A.E_Dimitra_Efxeinoupolis": {
+            "comp_fxn": ""
+        },
+        "A.F.C._Blackpool": {
+            "comp_fxn": ""
+        },
+        "A.F.C._Fylde": {
+            "comp_fxn": ""
+        },
+        "A.S._Gubbio_1910": {
+            "comp_fxn": ""
+        },
+        "A.S._Livorno_Calcio": {
+            "comp_fxn": ""
+        },
+        "A.S._Roma": {
+            "comp_fxn": ""
+        },
+        "AEK_Athens_F.C.": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax": {
+            "comp_fxn": ""
+        },
+        "AFC_Ajax_(amateurs)": {
+            "comp_fxn": ""
+        },
+        "AZAL_PFK": {
+            "comp_fxn": ""
+        },
+        "AZ_Alkmaar": {
+            "comp_fxn": ""
+        },
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "comp_fxn": ""
+        },
+        "Akron_Summit_Assault": {
+            "comp_fxn": ""
+        },
+        "Amsterdam": {
+            "comp_fxn": ""
+        },
+        "Amsterdam-Centrum": {
+            "comp_fxn": ""
+        },
+        "Bury_F.C.": {
+            "comp_fxn": ""
+        },
+        "Delfino_Pescara_1936": {
+            "comp_fxn": ""
+        },
+        "Frank_de_Boer": {
+            "comp_fxn": ""
+        },
+        "Greece": {
+            "comp_fxn": ""
+        },
+        "Gus_Poyet": {
+            "comp_fxn": ""
+        },
+        "Italy": {
+            "comp_fxn": ""
+        },
+        "Jens_H\u00e4rtel": {
+            "comp_fxn": ""
+        },
+        "John_van_den_Brom": {
+            "comp_fxn": ""
+        },
+        "Jorge_Humberto_Rodr\u00edguez": {
+            "comp_fxn": ""
+        },
+        "K-W_United_FC": {
+            "comp_fxn": ""
+        },
+        "Marousi": {
+            "comp_fxn": ""
+        },
+        "Massimo_Drago": {
+            "comp_fxn": ""
+        },
+        "Nikos_Voutsis": {
+            "comp_fxn": ""
+        },
+        "Olympic_Stadium_(Athens)": {
+            "comp_fxn": ""
+        },
+        "Peter_St\u00f6ger": {
+            "comp_fxn": ""
+        },
+        "Premier_Development_League": {
+            "comp_fxn": ""
+        },
+        "S.S._Chieti_Calcio": {
+            "comp_fxn": ""
+        },
+        "SV_Germania_Sch\u00f6neiche": {
+            "comp_fxn": ""
+        },
+        "St._Vincent\u2013St._Mary_High_School": {
+            "comp_fxn": ""
+        },
+        "Stuart_Parker_(footballer)": {
+            "comp_fxn": ""
+        },
+        "The_Fylde": {
+            "comp_fxn": ""
+        },
+        "Vica": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "champions": {
+            "comp_fxn": ""
+        },
+        "club": {
+            "comp_fxn": ""
+        },
+        "fullName": {
+            "comp_fxn": ""
+        },
+        "ground": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "manager": {
+            "comp_fxn": ""
+        },
+        "nickname": {
+            "comp_fxn": ""
+        },
+        "numberOfMembers": {
+            "comp_fxn": ""
+        },
+        "part": {
+            "comp_fxn": ""
+        },
+        "season": {
+            "comp_fxn": ""
+        }
+    }
+}

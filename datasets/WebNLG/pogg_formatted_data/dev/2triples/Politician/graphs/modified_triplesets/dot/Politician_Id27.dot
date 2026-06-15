@@ -1,0 +1,7 @@
+strict digraph {
+Alfons_Gorbach [lexicon_key="Alfons_Gorbach"];
+"Adolf_Schärf" [lexicon_key="Adolf_Schärf"];
+Austria [lexicon_key=Austria];
+Alfons_Gorbach -> "Adolf_Schärf" [label=inOfficeWhilePresident, lexicon_key=inOfficeWhilePresident];
+Alfons_Gorbach -> Austria [label=birthPlace, lexicon_key=birthPlace];
+}

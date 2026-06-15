@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Alex_Tyus": {
+            "lexicon_key": "Alex_Tyus"
+        },
+        "Turkish_Basketball_Super_League": {
+            "lexicon_key": "Turkish_Basketball_Super_League"
+        },
+        "Maccabi_Ashdod_B.C.": {
+            "lexicon_key": "Maccabi_Ashdod_B.C."
+        },
+        "Zvi_Sherf": {
+            "lexicon_key": "Zvi_Sherf"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "league",
+            "parent_node": "Alex_Tyus",
+            "child_node": "Turkish_Basketball_Super_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alex_Tyus",
+            "child_node": "Maccabi_Ashdod_B.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "coach",
+            "parent_node": "Maccabi_Ashdod_B.C.",
+            "child_node": "Zvi_Sherf",
+            "edge_properties": {
+                "lexicon_key": "coach"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The league Alex Tyus plays in is the Turkish Basketball Super League. His club is Maccabi Ashdod BC which is coached by, Zvi Sherf."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alex Tyus plays for Maccabi Ashdod B.C who are coached by Zvi Sherf and are part of the Turkish Basketball Super League."
+        }
+    },
+    "gold_outputs": [
+        "Alex Tyus plays for Maccabi Ashdod B.C who are coached by Zvi Sherf and are part of the Turkish Basketball Super League.",
+        "The league Alex Tyus plays in is the Turkish Basketball Super League. His club is Maccabi Ashdod BC which is coached by, Zvi Sherf."
+    ]
+}

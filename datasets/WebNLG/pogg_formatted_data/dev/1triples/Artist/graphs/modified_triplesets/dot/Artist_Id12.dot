@@ -1,0 +1,5 @@
+strict digraph {
+Albennie_Jones [lexicon_key="Albennie_Jones"];
+"Errata,_Mississippi" [lexicon_key="Errata,_Mississippi"];
+Albennie_Jones -> "Errata,_Mississippi" [label=birthPlace, lexicon_key=birthPlace];
+}

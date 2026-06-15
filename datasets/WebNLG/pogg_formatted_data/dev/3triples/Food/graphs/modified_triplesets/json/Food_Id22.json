@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Barny_Cakes": {
+            "lexicon_key": "Barny_Cakes"
+        },
+        "France": {
+            "lexicon_key": "France"
+        },
+        "G\u00e9rard_Larcher": {
+            "lexicon_key": "G\u00e9rard_Larcher"
+        },
+        "Claude_Bartolone": {
+            "lexicon_key": "Claude_Bartolone"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Barny_Cakes",
+            "child_node": "France",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "France",
+            "child_node": "G\u00e9rard_Larcher",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "France",
+            "child_node": "Claude_Bartolone",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Barny Cakes come from France where Gerard Larcher and Claude Bartolone are leaders."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Barny cakes are found in France where Gerard Larcher and Claude Bartolone are leaders."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Barny cakes are found in France where both Gerard Larcher and Claude Bartolone are leaders."
+        }
+    },
+    "gold_outputs": [
+        "Barny Cakes come from France where Gerard Larcher and Claude Bartolone are leaders.",
+        "Barny cakes are found in France where Gerard Larcher and Claude Bartolone are leaders.",
+        "Barny cakes are found in France where both Gerard Larcher and Claude Bartolone are leaders."
+    ]
+}

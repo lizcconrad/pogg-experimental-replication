@@ -1,0 +1,9 @@
+strict digraph {
+Ayam_penyet [lexicon_key="Ayam_penyet"];
+Malaysia [lexicon_key=Malaysia];
+Java [lexicon_key=Java];
+"\"Squeezed\" or \"smashed\" fried chicken served with sambal" [lexicon_key="\"Squeezed\" or \"smashed\" fried chicken served with sambal"];
+Ayam_penyet -> Malaysia [label=region, lexicon_key=region];
+Ayam_penyet -> Java [label=country, lexicon_key=country];
+Ayam_penyet -> "\"Squeezed\" or \"smashed\" fried chicken served with sambal" [label=mainIngredient, lexicon_key=mainIngredient];
+}

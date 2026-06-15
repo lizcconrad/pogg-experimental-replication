@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Al_Anderson_(NRBQ band)": {
+            "lexicon_key": "Al_Anderson_(NRBQ band)"
+        },
+        "NRBQ": {
+            "lexicon_key": "NRBQ"
+        },
+        "The_Wildweeds": {
+            "lexicon_key": "The_Wildweeds"
+        },
+        "1966": {
+            "lexicon_key": "1966"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Al_Anderson_(NRBQ band)",
+            "child_node": "NRBQ",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Al_Anderson_(NRBQ band)",
+            "child_node": "The_Wildweeds",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartYear",
+            "parent_node": "Al_Anderson_(NRBQ band)",
+            "child_node": "1966",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartYear"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Al Anderson, who plays with the band NRBQ, once played with The Wildweeds. 1966 is the year when Al Aderson, from the band NRQB, became active."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Al Anderson, who began his musical career in 1966, once played with The Wildweeds and is now a member of the band NRBQ."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Al Anderson became active in 1966. He plays with the band NRBQ and was previously a member of The Wildweeds."
+        }
+    },
+    "gold_outputs": [
+        "Al Anderson became active in 1966. He plays with the band NRBQ and was previously a member of The Wildweeds.",
+        "Al Anderson, who began his musical career in 1966, once played with The Wildweeds and is now a member of the band NRBQ.",
+        "Al Anderson, who plays with the band NRBQ, once played with The Wildweeds. 1966 is the year when Al Aderson, from the band NRQB, became active."
+    ]
+}

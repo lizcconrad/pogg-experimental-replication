@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "AIDAstella": {
+            "lexicon_key": "AIDAstella"
+        },
+        "2013-03-17": {
+            "lexicon_key": "2013-03-17"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "shipInService",
+            "parent_node": "AIDAstella",
+            "child_node": "2013-03-17",
+            "edge_properties": {
+                "lexicon_key": "shipInService"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDAstella ship was put in service on March 17, 2013."
+        }
+    },
+    "gold_outputs": [
+        "The AIDAstella ship was put in service on March 17, 2013."
+    ]
+}

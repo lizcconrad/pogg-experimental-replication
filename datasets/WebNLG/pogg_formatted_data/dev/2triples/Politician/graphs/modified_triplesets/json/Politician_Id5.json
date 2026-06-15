@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abdulsalami_Abubakar": {
+            "lexicon_key": "Abdulsalami_Abubakar"
+        },
+        "Mike_Akhigbe": {
+            "lexicon_key": "Mike_Akhigbe"
+        },
+        "Nigerian_Army": {
+            "lexicon_key": "Nigerian_Army"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inOfficeWhileVicePresident",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Mike_Akhigbe",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhileVicePresident"
+            }
+        },
+        {
+            "edge_name": "militaryBranch",
+            "parent_node": "Abdulsalami_Abubakar",
+            "child_node": "Nigerian_Army",
+            "edge_properties": {
+                "lexicon_key": "militaryBranch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar, who served in the Nigerian Army was in office while Mike Akhigbe was Vice President."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar, who served in the NIgerian Army, was in office whilst Mike Akhigbe was Vice President."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abdulsalami Abubakar, served in the Nigerian Army, and was in office while Mike Akhigbe was the Vice President."
+        }
+    },
+    "gold_outputs": [
+        "Abdulsalami Abubakar, served in the Nigerian Army, and was in office while Mike Akhigbe was the Vice President.",
+        "Abdulsalami Abubakar, who served in the NIgerian Army, was in office whilst Mike Akhigbe was Vice President.",
+        "Abdulsalami Abubakar, who served in the Nigerian Army was in office while Mike Akhigbe was Vice President."
+    ]
+}

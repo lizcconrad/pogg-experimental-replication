@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Audi_A1": {
+            "lexicon_key": "Audi_A1"
+        },
+        "Audi": {
+            "lexicon_key": "Audi"
+        },
+        "SEAT_Ibiza": {
+            "lexicon_key": "SEAT_Ibiza"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Audi_A1",
+            "child_node": "Audi",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "Audi_A1",
+            "child_node": "SEAT_Ibiza",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Seat Ibiza and the Audi A1, built by Audi, are both cars."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Seat Ibiza and the Audi manufactured Audi A1 are both cars and therefore a related means of transportation."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Audi A1, which is manufactured by Audi, and the Seat Ibiza are similar means of transport."
+        }
+    },
+    "gold_outputs": [
+        "The Audi A1, which is manufactured by Audi, and the Seat Ibiza are similar means of transport.",
+        "The Seat Ibiza and the Audi A1, built by Audi, are both cars.",
+        "The Seat Ibiza and the Audi manufactured Audi A1 are both cars and therefore a related means of transportation."
+    ]
+}

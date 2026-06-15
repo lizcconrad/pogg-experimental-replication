@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alan_Frew": {
+            "lexicon_key": "Alan_Frew"
+        },
+        "Rock_music": {
+            "lexicon_key": "Rock_music"
+        },
+        "Country_music": {
+            "lexicon_key": "Country_music"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Alan_Frew",
+            "child_node": "Rock_music",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Rock_music",
+            "child_node": "Country_music",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Frew plays rock music, which originated from country music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Frew's musical genre is rock music, which originated from country music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alan Frew plays rock music which has its roots in country music."
+        }
+    },
+    "gold_outputs": [
+        "Alan Frew plays rock music which has its roots in country music.",
+        "Alan Frew plays rock music, which originated from country music.",
+        "Alan Frew's musical genre is rock music, which originated from country music."
+    ]
+}

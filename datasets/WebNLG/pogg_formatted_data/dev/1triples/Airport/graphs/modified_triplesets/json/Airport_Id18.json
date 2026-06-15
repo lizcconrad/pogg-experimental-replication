@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Andrews_County_Airport": {
+            "lexicon_key": "Andrews_County_Airport"
+        },
+        "\"11/29\"": {
+            "lexicon_key": "\"11/29\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Andrews_County_Airport",
+            "child_node": "\"11/29\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrews County Airport runway name is 11/29."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "11/29 is the runway name of Andrews County Airport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The runway name of Andrews County Airport is 11/29."
+        }
+    },
+    "gold_outputs": [
+        "11/29 is the runway name of Andrews County Airport.",
+        "Andrews County Airport runway name is 11/29.",
+        "The runway name of Andrews County Airport is 11/29."
+    ]
+}

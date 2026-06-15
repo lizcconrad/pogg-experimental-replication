@@ -1,0 +1,5 @@
+strict digraph {
+Abel_Caballero [lexicon_key="Abel_Caballero"];
+Juan_Carlos_I_of_Spain [lexicon_key="Juan_Carlos_I_of_Spain"];
+Abel_Caballero -> Juan_Carlos_I_of_Spain [label=inOfficeWhileMonarch, lexicon_key=inOfficeWhileMonarch];
+}

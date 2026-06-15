@@ -1,0 +1,9 @@
+strict digraph {
+BBC [lexicon_key=BBC];
+"Tony_Hall,_Baron_Hall_of_Birkenhead" [lexicon_key="Tony_Hall,_Baron_Hall_of_Birkenhead"];
+Bananaman [lexicon_key=Bananaman];
+London [lexicon_key=London];
+BBC -> "Tony_Hall,_Baron_Hall_of_Birkenhead" [label=keyPerson, lexicon_key=keyPerson];
+BBC -> London [label=city, lexicon_key=city];
+Bananaman -> BBC [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

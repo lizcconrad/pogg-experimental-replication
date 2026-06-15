@@ -1,0 +1,9 @@
+strict digraph {
+A_Long_Long_Way [lexicon_key="A_Long_Long_Way"];
+English_language [lexicon_key="English_language"];
+Great_Britain [lexicon_key="Great_Britain"];
+The_Secret_Scripture [lexicon_key="The_Secret_Scripture"];
+A_Long_Long_Way -> English_language [label=language, lexicon_key=language];
+A_Long_Long_Way -> The_Secret_Scripture [label=followedBy, lexicon_key=followedBy];
+English_language -> Great_Britain [label=spokenIn, lexicon_key=spokenIn];
+}

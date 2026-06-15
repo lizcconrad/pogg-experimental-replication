@@ -1,0 +1,7 @@
+strict digraph {
+European_University_Association [lexicon_key="European_University_Association"];
+Brussels [lexicon_key=Brussels];
+"School of Business and Social Sciences at the Aarhus University" [lexicon_key="School of Business and Social Sciences at the Aarhus University"];
+European_University_Association -> Brussels [label=headquarter, lexicon_key=headquarter];
+"School of Business and Social Sciences at the Aarhus University" -> European_University_Association [label=affiliation, lexicon_key=affiliation];
+}

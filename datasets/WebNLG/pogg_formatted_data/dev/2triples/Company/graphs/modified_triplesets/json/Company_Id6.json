@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "Pharmaceuticals": {
+            "lexicon_key": "Pharmaceuticals"
+        },
+        "Cosmetics": {
+            "lexicon_key": "Cosmetics"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "industry",
+            "parent_node": "Hypermarcas",
+            "child_node": "Pharmaceuticals",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Cosmetics",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Hypermarcas is a pharmaceutical company that also sells cosmetics."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Hypermarcas is a company in the pharmaceuticals industry that also produces cosmetics."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Hypermarcas is a company that is both in the pharmaceutical and cosmetic production industries."
+        }
+    },
+    "gold_outputs": [
+        "Hypermarcas is a company in the pharmaceuticals industry that also produces cosmetics.",
+        "Hypermarcas is a company that is both in the pharmaceutical and cosmetic production industries.",
+        "Hypermarcas is a pharmaceutical company that also sells cosmetics."
+    ]
+}

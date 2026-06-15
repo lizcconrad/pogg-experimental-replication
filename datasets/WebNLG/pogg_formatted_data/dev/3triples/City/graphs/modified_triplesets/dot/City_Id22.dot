@@ -1,0 +1,9 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+"Abilene,_Texas" [lexicon_key="Abilene,_Texas"];
+"Jones_County,_Texas" [lexicon_key="Jones_County,_Texas"];
+United_States -> "Washington,_D.C." [label=capital, lexicon_key=capital];
+"Abilene,_Texas" -> "Jones_County,_Texas" [label=isPartOf, lexicon_key=isPartOf];
+"Abilene,_Texas" -> United_States [label=country, lexicon_key=country];
+}

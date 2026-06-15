@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Agnes_Kant": {
+            "lexicon_key": "Agnes_Kant"
+        },
+        "Hessisch_Oldendorf": {
+            "lexicon_key": "Hessisch_Oldendorf"
+        },
+        "Radboud_University_Nijmegen": {
+            "lexicon_key": "Radboud_University_Nijmegen"
+        },
+        "House_of_Representatives_(Netherlands)": {
+            "lexicon_key": "House_of_Representatives_(Netherlands)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Agnes_Kant",
+            "child_node": "Hessisch_Oldendorf",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Agnes_Kant",
+            "child_node": "Radboud_University_Nijmegen",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Agnes_Kant",
+            "child_node": "House_of_Representatives_(Netherlands)",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agnes Kant; was born in Hessisch Oldendorf, worked at the House of Representatives in Netherlands, and her alma mater is the Radboud University Nijmegen."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agnes Kant; was born in Hessisch Oldendorf, worked at the House of Representatives in the Netherlands, and her alma mater is the Radboud University Nijmegen."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Agnes Kant was born in Hessisch Oldendorf and attended Radboud University Nijmegen. He worked at the House of Representatives in Netherlands."
+        }
+    },
+    "gold_outputs": [
+        "Agnes Kant was born in Hessisch Oldendorf and attended Radboud University Nijmegen. He worked at the House of Representatives in Netherlands.",
+        "Agnes Kant; was born in Hessisch Oldendorf, worked at the House of Representatives in Netherlands, and her alma mater is the Radboud University Nijmegen.",
+        "Agnes Kant; was born in Hessisch Oldendorf, worked at the House of Representatives in the Netherlands, and her alma mater is the Radboud University Nijmegen."
+    ]
+}

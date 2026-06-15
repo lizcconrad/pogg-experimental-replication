@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Lee_County,_Alabama": {
+            "lexicon_key": "Lee_County,_Alabama"
+        },
+        "Alabama": {
+            "lexicon_key": "Alabama"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "state",
+            "parent_node": "Lee_County,_Alabama",
+            "child_node": "Alabama",
+            "edge_properties": {
+                "lexicon_key": "state"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Lee County is in Alabama."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Lee County is in the state of Alabama."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Lee County is situated within the state of Alabama."
+        }
+    },
+    "gold_outputs": [
+        "Lee County is in Alabama.",
+        "Lee County is in the state of Alabama.",
+        "Lee County is situated within the state of Alabama."
+    ]
+}

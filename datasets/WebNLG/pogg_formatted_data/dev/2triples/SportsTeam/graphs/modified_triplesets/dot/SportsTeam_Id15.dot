@@ -1,0 +1,7 @@
+strict digraph {
+"AFC_Ajax_(amateurs)" [lexicon_key="AFC_Ajax_(amateurs)"];
+Amsterdam [lexicon_key=Amsterdam];
+Eberhard_van_der_Laan [lexicon_key="Eberhard_van_der_Laan"];
+"AFC_Ajax_(amateurs)" -> Amsterdam [label=ground, lexicon_key=ground];
+Amsterdam -> Eberhard_van_der_Laan [label=leader, lexicon_key=leader];
+}

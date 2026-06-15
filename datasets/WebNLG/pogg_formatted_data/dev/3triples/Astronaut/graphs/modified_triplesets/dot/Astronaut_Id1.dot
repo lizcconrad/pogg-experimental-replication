@@ -1,0 +1,9 @@
+strict digraph {
+Alan_Bean [lexicon_key="Alan_Bean"];
+Apollo_12 [lexicon_key="Apollo_12"];
+NASA [lexicon_key=NASA];
+David_Scott [lexicon_key="David_Scott"];
+Alan_Bean -> Apollo_12 [label=mission, lexicon_key=mission];
+Apollo_12 -> NASA [label=operator, lexicon_key=operator];
+Apollo_12 -> David_Scott [label=commander, lexicon_key=commander];
+}

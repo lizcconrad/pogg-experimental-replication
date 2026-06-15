@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Administrative_Science_Quarterly": {
+            "lexicon_key": "Administrative_Science_Quarterly"
+        },
+        "57059226": {
+            "lexicon_key": "57059226"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "LCCN_number",
+            "parent_node": "Administrative_Science_Quarterly",
+            "child_node": "57059226",
+            "edge_properties": {
+                "lexicon_key": "LCCN_number"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The LCCN number of the Administrative Science Quarterly is 57059226."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Administrative Science Quarterly's LLCN number is 57059226."
+        }
+    },
+    "gold_outputs": [
+        "Administrative Science Quarterly's LLCN number is 57059226.",
+        "The LCCN number of the Administrative Science Quarterly is 57059226."
+    ]
+}

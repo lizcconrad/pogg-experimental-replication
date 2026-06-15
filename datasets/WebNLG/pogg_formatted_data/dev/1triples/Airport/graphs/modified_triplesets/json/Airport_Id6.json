@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "\"14L/32R\"": {
+            "lexicon_key": "\"14L/32R\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "runwayName",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "\"14L/32R\"",
+            "edge_properties": {
+                "lexicon_key": "runwayName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adolfo Su\u00e1rez Madrid-Barajas Airport runway name is 14L/32R."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport runway name is 14L/32R."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "14L/32R is the runway name of Adolfo Su\u00e1rez Madrid-Barajas Airport."
+        }
+    },
+    "gold_outputs": [
+        "14L/32R is the runway name of Adolfo Su\u00e1rez Madrid-Barajas Airport.",
+        "Adolfo Su\u00e1rez Madrid-Barajas Airport runway name is 14L/32R.",
+        "The Adolfo Su\u00e1rez Madrid\u2013Barajas Airport runway name is 14L/32R."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alan_Bean": {
+            "lexicon_key": "Alan_Bean"
+        },
+        "Apollo_12": {
+            "lexicon_key": "Apollo_12"
+        },
+        "NASA": {
+            "lexicon_key": "NASA"
+        },
+        "David_Scott": {
+            "lexicon_key": "David_Scott"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mission",
+            "parent_node": "Alan_Bean",
+            "child_node": "Apollo_12",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        },
+        {
+            "edge_name": "operator",
+            "parent_node": "Apollo_12",
+            "child_node": "NASA",
+            "edge_properties": {
+                "lexicon_key": "operator"
+            }
+        },
+        {
+            "edge_name": "commander",
+            "parent_node": "Apollo_12",
+            "child_node": "David_Scott",
+            "edge_properties": {
+                "lexicon_key": "commander"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alan Bean was under commander David Scott on Nasa's Apollo 12 mission."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alan Bean was a member of the NASA operated Apollo 12 crew commanded by David Scott."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "David Scott was the commander of the NASA operated Apollo 12 flight mission on which the crew included Alan Bean."
+        }
+    },
+    "gold_outputs": [
+        "Alan Bean was a member of the NASA operated Apollo 12 crew commanded by David Scott.",
+        "Alan Bean was under commander David Scott on Nasa's Apollo 12 mission.",
+        "David Scott was the commander of the NASA operated Apollo 12 flight mission on which the crew included Alan Bean."
+    ]
+}

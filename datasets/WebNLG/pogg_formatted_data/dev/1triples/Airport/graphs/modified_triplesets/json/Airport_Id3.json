@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Adirondack_Regional_Airport": {
+            "lexicon_key": "Adirondack_Regional_Airport"
+        },
+        "507": {
+            "lexicon_key": "507"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Adirondack_Regional_Airport",
+            "child_node": "507",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adirondack Regional Airport is 507 metres above sea level."
+        }
+    },
+    "gold_outputs": [
+        "Adirondack Regional Airport is 507 metres above sea level."
+    ]
+}

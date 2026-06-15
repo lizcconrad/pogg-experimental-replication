@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Airey_Neave": {
+            "lexicon_key": "Airey_Neave"
+        },
+        "Battle_of_France": {
+            "lexicon_key": "Battle_of_France"
+        },
+        "1974-03-04": {
+            "lexicon_key": "1974-03-04"
+        },
+        "1979-03-30": {
+            "lexicon_key": "1979-03-30"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Airey_Neave",
+            "child_node": "Battle_of_France",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "activeYearsStartDate",
+            "parent_node": "Airey_Neave",
+            "child_node": "1974-03-04",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartDate"
+            }
+        },
+        {
+            "edge_name": "activeYearsEndDate",
+            "parent_node": "Airey_Neave",
+            "child_node": "1979-03-30",
+            "edge_properties": {
+                "lexicon_key": "activeYearsEndDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Airey Neave, who was involved in the Battle of France had a career between 4 March 1974 and 30 March 1979."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Airey Neave fought in the Battle of France and began his political career on March 4th 1974 and ended his life in politics on March 30th, 1979."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Airey Neave; began his career on March 4th 1974, fought in the Battle of France, and ended his career on 30th March 1979."
+        }
+    },
+    "gold_outputs": [
+        "Airey Neave fought in the Battle of France and began his political career on March 4th 1974 and ended his life in politics on March 30th, 1979.",
+        "Airey Neave, who was involved in the Battle of France had a career between 4 March 1974 and 30 March 1979.",
+        "Airey Neave; began his career on March 4th 1974, fought in the Battle of France, and ended his career on 30th March 1979."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Aleksey_Chirikov_(icebreaker)" [lexicon_key="Aleksey_Chirikov_(icebreaker)"];
+Finland [lexicon_key=Finland];
+Finns [lexicon_key=Finns];
+Arctech_Helsinki_Shipyard [lexicon_key="Arctech_Helsinki_Shipyard"];
+"Aleksey_Chirikov_(icebreaker)" -> Finland [label=builder, lexicon_key=builder];
+"Aleksey_Chirikov_(icebreaker)" -> Arctech_Helsinki_Shipyard [label=builder, lexicon_key=builder];
+Finland -> Finns [label=demonym, lexicon_key=demonym];
+}

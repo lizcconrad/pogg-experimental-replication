@@ -1,0 +1,5 @@
+strict digraph {
+Amsterdam_Airport_Schiphol [lexicon_key="Amsterdam_Airport_Schiphol"];
+Amsterdam [lexicon_key=Amsterdam];
+Amsterdam_Airport_Schiphol -> Amsterdam [label=cityServed, lexicon_key=cityServed];
+}

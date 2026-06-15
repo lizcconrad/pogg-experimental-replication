@@ -1,0 +1,7 @@
+strict digraph {
+"Alan_B._Miller_Hall" [lexicon_key="Alan_B._Miller_Hall"];
+"College_of_William_&_Mary" [lexicon_key="College_of_William_&_Mary"];
+"Williamsburg,_Virginia" [lexicon_key="Williamsburg,_Virginia"];
+"Alan_B._Miller_Hall" -> "College_of_William_&_Mary" [label=owner, lexicon_key=owner];
+"Alan_B._Miller_Hall" -> "Williamsburg,_Virginia" [label=location, lexicon_key=location];
+}

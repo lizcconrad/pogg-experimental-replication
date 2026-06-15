@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Arrabbiata_sauce": {
+            "lexicon_key": "Arrabbiata_sauce"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        },
+        "Italian_language": {
+            "lexicon_key": "Italian_language"
+        },
+        "Sergio_Mattarella": {
+            "lexicon_key": "Sergio_Mattarella"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "language",
+            "parent_node": "Italy",
+            "child_node": "Italian_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Italy",
+            "child_node": "Sergio_Mattarella",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader of Italy is Sergio Mattarella, it is also where Italian is spoken and the arrabbiata sauce is from."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Sergio Mattarella is a leader of Italy where the Italian language is spoken and Arrabbiata sauce can be found."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Arrabbiata sauce is from Italy, where the spoken language is Italian and a leader is Sergio Mattarella."
+        }
+    },
+    "gold_outputs": [
+        "Arrabbiata sauce is from Italy, where the spoken language is Italian and a leader is Sergio Mattarella.",
+        "Sergio Mattarella is a leader of Italy where the Italian language is spoken and Arrabbiata sauce can be found.",
+        "The leader of Italy is Sergio Mattarella, it is also where Italian is spoken and the arrabbiata sauce is from."
+    ]
+}

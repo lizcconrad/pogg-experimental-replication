@@ -1,0 +1,3 @@
+1099 Figneria, travels at an average speed of 16.37 kilometres per second. and has an apoapsis of 605718000 kilometres.
+1099 Figneria has an apoapsis of 605718000.0 kilometres and an average speed of 16.37 km per sec.
+1099 Figneria, travelling at an average speed of 16.37 kmps has an apoapsis of 605718000.0 kms.

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Adenan_Satem": {
+            "lexicon_key": "Adenan_Satem"
+        },
+        "University_of_Adelaide": {
+            "lexicon_key": "University_of_Adelaide"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Adenan_Satem",
+            "child_node": "University_of_Adelaide",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The alma mater of Adenan Satem is the University of Adelaide."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adenan Satem's alma mater is the University of Adelaide."
+        }
+    },
+    "gold_outputs": [
+        "Adenan Satem's alma mater is the University of Adelaide.",
+        "The alma mater of Adenan Satem is the University of Adelaide."
+    ]
+}

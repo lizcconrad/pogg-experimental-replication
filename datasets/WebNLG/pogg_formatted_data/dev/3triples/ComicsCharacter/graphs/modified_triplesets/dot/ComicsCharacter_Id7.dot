@@ -1,0 +1,9 @@
+strict digraph {
+"Bolt_(comicsCharacter)" [lexicon_key="Bolt_(comicsCharacter)"];
+"Ernie_Colón" [lexicon_key="Ernie_Colón"];
+"Larry Bolatinsky" [lexicon_key="Larry Bolatinsky"];
+Dan_Mishkin [lexicon_key="Dan_Mishkin"];
+"Bolt_(comicsCharacter)" -> "Ernie_Colón" [label=creator, lexicon_key=creator];
+"Bolt_(comicsCharacter)" -> "Larry Bolatinsky" [label=alternativeName, lexicon_key=alternativeName];
+"Bolt_(comicsCharacter)" -> Dan_Mishkin [label=creator, lexicon_key=creator];
+}

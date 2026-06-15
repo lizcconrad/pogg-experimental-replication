@@ -1,0 +1,5 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+California [lexicon_key=California];
+Alan_Shepard -> California [label=deathPlace, lexicon_key=deathPlace];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"A.C._Lumezzane" [lexicon_key="A.C._Lumezzane"];
+"Lega Pro/A" [lexicon_key="Lega Pro/A"];
+2014 [lexicon_key=2014];
+4150 [lexicon_key=4150];
+"A.C._Lumezzane" -> "Lega Pro/A" [label=league, lexicon_key=league];
+"A.C._Lumezzane" -> 2014 [label=season, lexicon_key=season];
+"A.C._Lumezzane" -> 4150 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

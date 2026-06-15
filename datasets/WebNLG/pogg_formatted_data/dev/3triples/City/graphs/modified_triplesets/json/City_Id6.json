@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albuquerque_City_Council": {
+            "lexicon_key": "Albuquerque_City_Council"
+        },
+        "Richard_J._Berry": {
+            "lexicon_key": "Richard_J._Berry"
+        },
+        "Albuquerque,_New_Mexico": {
+            "lexicon_key": "Albuquerque,_New_Mexico"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Albuquerque_City_Council",
+            "child_node": "Richard_J._Berry",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "Albuquerque_City_Council",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico is in the United States and led by the Albuquerque City Council whose leader is Richard J.Berry."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albuquerque in New Mexico, United States, is led by the Albuquerque City Council led by Richard J Berry."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico (United States), is led by the Albuquerque City Council, the leader of which is Richard J. Berry."
+        }
+    },
+    "gold_outputs": [
+        "Albuquerque in New Mexico, United States, is led by the Albuquerque City Council led by Richard J Berry.",
+        "Albuquerque, New Mexico (United States), is led by the Albuquerque City Council, the leader of which is Richard J. Berry.",
+        "Albuquerque, New Mexico is in the United States and led by the Albuquerque City Council whose leader is Richard J.Berry."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Auburn,_Alabama": {
+            "lexicon_key": "Auburn,_Alabama"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Asian_Americans": {
+            "lexicon_key": "Asian_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Auburn,_Alabama",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Asian_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Auburn, Alabama is located in the United States, where one of the ethnic groups is Asian Americans."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Auburn, Alabama is located in the United States, a country where one of the ethnic groups is Asian Americans."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Auburn Alabama is in the United States, where one of the ethnic groups are Asian Americans."
+        }
+    },
+    "gold_outputs": [
+        "Auburn Alabama is in the United States, where one of the ethnic groups are Asian Americans.",
+        "Auburn, Alabama is located in the United States, a country where one of the ethnic groups is Asian Americans.",
+        "Auburn, Alabama is located in the United States, where one of the ethnic groups is Asian Americans."
+    ]
+}

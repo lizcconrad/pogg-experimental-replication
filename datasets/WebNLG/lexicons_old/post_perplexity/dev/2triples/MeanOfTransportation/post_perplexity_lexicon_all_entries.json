@@ -1,0 +1,294 @@
+{
+    "node_keys": {
+        "\"single plate clutch, separate 4-speed gearbox all-silent and all-syncromesh, centre change lever, open tubular propellor shaft with metal joints , spiral bevel fully floating back axle\"": {
+            "comp_fxn": ""
+        },
+        "125800.0 (millimetres)": {
+            "comp_fxn": ""
+        },
+        "1855-05-31": {
+            "comp_fxn": ""
+        },
+        "192000.0 (millimetres)": {
+            "comp_fxn": ""
+        },
+        "2005-04-07": {
+            "comp_fxn": ""
+        },
+        "2013-03-16": {
+            "comp_fxn": ""
+        },
+        "2014-01-09": {
+            "comp_fxn": ""
+        },
+        "21.2": {
+            "comp_fxn": ""
+        },
+        "253260.0 (millimetres)": {
+            "comp_fxn": ""
+        },
+        "4387.0 (cubicCentimetres)": {
+            "comp_fxn": ""
+        },
+        "8.3 m": {
+            "comp_fxn": ""
+        },
+        "A-Rosa_Luna": {
+            "comp_fxn": ""
+        },
+        "AGM-88_HARM": {
+            "comp_fxn": ""
+        },
+        "AIDA_Cruises": {
+            "comp_fxn": ""
+        },
+        "AIDAluna": {
+            "comp_fxn": ""
+        },
+        "AIDAstella": {
+            "comp_fxn": ""
+        },
+        "ALCO_RS-3": {
+            "comp_fxn": ""
+        },
+        "ALV_X-1": {
+            "comp_fxn": ""
+        },
+        "AMC_Matador": {
+            "comp_fxn": ""
+        },
+        "ARA_Veinticinco_de_Mayo_(V-2)": {
+            "comp_fxn": ""
+        },
+        "Abarth": {
+            "comp_fxn": ""
+        },
+        "Abarth_1000_GT_Coup\u00e9": {
+            "comp_fxn": ""
+        },
+        "Acura_TLX": {
+            "comp_fxn": ""
+        },
+        "Airbus_Defence_and_Space": {
+            "comp_fxn": ""
+        },
+        "Airbus_Group": {
+            "comp_fxn": ""
+        },
+        "Aleksey_Chirikov_(icebreaker)": {
+            "comp_fxn": ""
+        },
+        "Alfa_Romeo_164": {
+            "comp_fxn": ""
+        },
+        "Alhambra": {
+            "comp_fxn": ""
+        },
+        "Alliant_Techsystems": {
+            "comp_fxn": ""
+        },
+        "Alvis_Speed_25": {
+            "comp_fxn": ""
+        },
+        "American_Motors": {
+            "comp_fxn": ""
+        },
+        "Antares_(rocket)": {
+            "comp_fxn": ""
+        },
+        "Arctech_Helsinki_Shipyard": {
+            "comp_fxn": ""
+        },
+        "Argentina": {
+            "comp_fxn": ""
+        },
+        "Ariane_5": {
+            "comp_fxn": ""
+        },
+        "Aston_Martin_RHAM/1": {
+            "comp_fxn": ""
+        },
+        "Aston_Martin_V8": {
+            "comp_fxn": ""
+        },
+        "Aston_Martin_Virage": {
+            "comp_fxn": ""
+        },
+        "Atlas_II": {
+            "comp_fxn": ""
+        },
+        "Audi": {
+            "comp_fxn": ""
+        },
+        "Audi_A1": {
+            "comp_fxn": ""
+        },
+        "Cape_Canaveral_Air_Force_Station": {
+            "comp_fxn": ""
+        },
+        "Caterpillar_Inc.": {
+            "comp_fxn": ""
+        },
+        "Chrysler": {
+            "comp_fxn": ""
+        },
+        "Cruise_ship": {
+            "comp_fxn": ""
+        },
+        "Delta_II": {
+            "comp_fxn": ""
+        },
+        "Deptford": {
+            "comp_fxn": ""
+        },
+        "Douglas_R._Oberhelman": {
+            "comp_fxn": ""
+        },
+        "Ducati": {
+            "comp_fxn": ""
+        },
+        "Eagle_(automobile)": {
+            "comp_fxn": ""
+        },
+        "Fiat_Croma": {
+            "comp_fxn": ""
+        },
+        "Finland": {
+            "comp_fxn": ""
+        },
+        "Four-stroke_engine": {
+            "comp_fxn": ""
+        },
+        "General_Motors": {
+            "comp_fxn": ""
+        },
+        "Gruppo_Bertone": {
+            "comp_fxn": ""
+        },
+        "Honda": {
+            "comp_fxn": ""
+        },
+        "Honda_J_engine": {
+            "comp_fxn": ""
+        },
+        "Humphrys,_Tennant_and_Dykes": {
+            "comp_fxn": ""
+        },
+        "Inline-four_engine": {
+            "comp_fxn": ""
+        },
+        "Lockheed_Martin": {
+            "comp_fxn": ""
+        },
+        "Mid-Atlantic_Regional_Spaceport": {
+            "comp_fxn": ""
+        },
+        "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0": {
+            "comp_fxn": ""
+        },
+        "Milan": {
+            "comp_fxn": ""
+        },
+        "Montreal_Locomotive_Works": {
+            "comp_fxn": ""
+        },
+        "Richard_A._Teague": {
+            "comp_fxn": ""
+        },
+        "Rostock": {
+            "comp_fxn": ""
+        },
+        "SEAT_Ibiza": {
+            "comp_fxn": ""
+        },
+        "Sauli_Niinist\u00f6": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "assembly": {
+            "comp_fxn": ""
+        },
+        "builder": {
+            "comp_fxn": ""
+        },
+        "christeningDate": {
+            "comp_fxn": ""
+        },
+        "comparable": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "designCompany": {
+            "comp_fxn": ""
+        },
+        "designer": {
+            "comp_fxn": ""
+        },
+        "employer": {
+            "comp_fxn": ""
+        },
+        "engine": {
+            "comp_fxn": ""
+        },
+        "fate": {
+            "comp_fxn": ""
+        },
+        "keyPerson": {
+            "comp_fxn": ""
+        },
+        "launchSite": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "length": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "maidenFlight": {
+            "comp_fxn": ""
+        },
+        "manufacturer": {
+            "comp_fxn": ""
+        },
+        "operator": {
+            "comp_fxn": ""
+        },
+        "parentCompany": {
+            "comp_fxn": ""
+        },
+        "powerType": {
+            "comp_fxn": ""
+        },
+        "product": {
+            "comp_fxn": ""
+        },
+        "relatedMeanOfTransportation": {
+            "comp_fxn": ""
+        },
+        "shipBeam": {
+            "comp_fxn": ""
+        },
+        "shipClass": {
+            "comp_fxn": ""
+        },
+        "shipLaunch": {
+            "comp_fxn": ""
+        },
+        "subsidiary": {
+            "comp_fxn": ""
+        },
+        "successor": {
+            "comp_fxn": ""
+        },
+        "transmission": {
+            "comp_fxn": ""
+        }
+    }
+}

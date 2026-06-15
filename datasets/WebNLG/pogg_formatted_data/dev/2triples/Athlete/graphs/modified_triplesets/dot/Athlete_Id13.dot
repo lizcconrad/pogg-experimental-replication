@@ -1,0 +1,7 @@
+strict digraph {
+Aleksandr_Chumakov [lexicon_key="Aleksandr_Chumakov"];
+Russia [lexicon_key=Russia];
+Sergey_Naryshkin [lexicon_key="Sergey_Naryshkin"];
+Aleksandr_Chumakov -> Russia [label=deathPlace, lexicon_key=deathPlace];
+Russia -> Sergey_Naryshkin [label=leader, lexicon_key=leader];
+}

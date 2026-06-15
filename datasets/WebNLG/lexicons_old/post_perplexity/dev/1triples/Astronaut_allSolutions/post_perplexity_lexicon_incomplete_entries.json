@@ -1,0 +1,69 @@
+{
+    "node_keys": {
+        "Alan_Shepard": {
+            "comp_fxn": ""
+        },
+        "Apollo_11": {
+            "comp_fxn": ""
+        },
+        "Apollo_14": {
+            "comp_fxn": ""
+        },
+        "Apollo_8": {
+            "comp_fxn": ""
+        },
+        "Buzz_Aldrin": {
+            "comp_fxn": ""
+        },
+        "California": {
+            "comp_fxn": ""
+        },
+        "Distinguished_Service_Medal_(United_States_Navy)": {
+            "comp_fxn": ""
+        },
+        "Elliot_See": {
+            "comp_fxn": ""
+        },
+        "Hook_'em_(mascot)": {
+            "comp_fxn": ""
+        },
+        "NASA": {
+            "comp_fxn": ""
+        },
+        "Test_pilot": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "University_of_Texas_at_Austin": {
+            "comp_fxn": ""
+        },
+        "William_Anders": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "award": {
+            "comp_fxn": ""
+        },
+        "backupPilot": {
+            "comp_fxn": ""
+        },
+        "deathPlace": {
+            "comp_fxn": ""
+        },
+        "mascot": {
+            "comp_fxn": ""
+        },
+        "nationality": {
+            "comp_fxn": ""
+        },
+        "occupation": {
+            "comp_fxn": ""
+        },
+        "operator": {
+            "comp_fxn": ""
+        }
+    }
+}

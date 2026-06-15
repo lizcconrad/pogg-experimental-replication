@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Aleksander_Barkov,_Jr.": {
+            "lexicon_key": "Aleksander_Barkov,_Jr."
+        },
+        "Finland": {
+            "lexicon_key": "Finland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Aleksander_Barkov,_Jr.",
+            "child_node": "Finland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr was born in Finland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksander Barkov Jr. was born in Finland."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksander Barkov, Jr's birth place is Finland."
+        }
+    },
+    "gold_outputs": [
+        "Aleksander Barkov Jr was born in Finland.",
+        "Aleksander Barkov Jr. was born in Finland.",
+        "Aleksander Barkov, Jr's birth place is Finland."
+    ]
+}

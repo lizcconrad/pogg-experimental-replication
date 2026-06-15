@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Native_Americans_in_the_United_States": {
+            "lexicon_key": "Native_Americans_in_the_United_States"
+        },
+        "Barack_Obama": {
+            "lexicon_key": "Barack_Obama"
+        },
+        "Albuquerque,_New_Mexico": {
+            "lexicon_key": "Albuquerque,_New_Mexico"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Native_Americans_in_the_United_States",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "Barack_Obama",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Albuquerque,_New_Mexico",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Native Americans are one of the ethnic groups in the United states of America, where Barack Obama is leader and where Albuquerque in New Mexico is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albuquerque is in New Mexico, in the United States. Where Native Americans are one of the ethnic groups and the leader is Barack Obama."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albuquerque, New Mexico, is in the United States. The country led by Barack Obama, and where Native Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "Albuquerque is in New Mexico, in the United States. Where Native Americans are one of the ethnic groups and the leader is Barack Obama.",
+        "Albuquerque, New Mexico, is in the United States. The country led by Barack Obama, and where Native Americans are an ethnic group.",
+        "Native Americans are one of the ethnic groups in the United states of America, where Barack Obama is leader and where Albuquerque in New Mexico is located."
+    ]
+}

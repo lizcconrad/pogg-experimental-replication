@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Mexico": {
+            "lexicon_key": "Mexico"
+        },
+        "Spanish_language": {
+            "lexicon_key": "Spanish_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Mexico",
+            "child_node": "Spanish_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "In Mexico, the spoken language is Spanish."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Spanish is the language spoken in Mexico."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The language of Mexico is Spanish."
+        }
+    },
+    "gold_outputs": [
+        "In Mexico, the spoken language is Spanish.",
+        "Spanish is the language spoken in Mexico.",
+        "The language of Mexico is Spanish."
+    ]
+}

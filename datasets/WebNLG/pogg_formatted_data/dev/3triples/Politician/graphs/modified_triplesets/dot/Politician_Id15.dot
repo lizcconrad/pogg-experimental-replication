@@ -1,0 +1,9 @@
+strict digraph {
+Adonis_Georgiadis [lexicon_key="Adonis_Georgiadis"];
+Greece [lexicon_key=Greece];
+"Minister for Health" [lexicon_key="Minister for Health"];
+Athens [lexicon_key=Athens];
+Adonis_Georgiadis -> Greece [label=birthPlace, lexicon_key=birthPlace];
+Adonis_Georgiadis -> "Minister for Health" [label=office, lexicon_key=office];
+Adonis_Georgiadis -> Athens [label=birthPlace, lexicon_key=birthPlace];
+}

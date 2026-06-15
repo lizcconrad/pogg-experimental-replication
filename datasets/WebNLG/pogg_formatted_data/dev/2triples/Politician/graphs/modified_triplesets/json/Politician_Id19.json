@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Airey_Neave": {
+            "lexicon_key": "Airey_Neave"
+        },
+        "1953-06-30": {
+            "lexicon_key": "1953-06-30"
+        },
+        "1979-03-30": {
+            "lexicon_key": "1979-03-30"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartDate",
+            "parent_node": "Airey_Neave",
+            "child_node": "1953-06-30",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartDate"
+            }
+        },
+        {
+            "edge_name": "activeYearsEndDate",
+            "parent_node": "Airey_Neave",
+            "child_node": "1979-03-30",
+            "edge_properties": {
+                "lexicon_key": "activeYearsEndDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Airey Neave started his career on the 30th June 1953, and ended it on the 30th March 1979."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Airey Neave began his career on 30th June 1953 and ended it on March 30, 1979."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Airey Neave started his career on 30th June 1953 and ended it on 30th March 1979."
+        }
+    },
+    "gold_outputs": [
+        "Airey Neave began his career on 30th June 1953 and ended it on March 30, 1979.",
+        "Airey Neave started his career on 30th June 1953 and ended it on 30th March 1979.",
+        "Airey Neave started his career on the 30th June 1953, and ended it on the 30th March 1979."
+    ]
+}

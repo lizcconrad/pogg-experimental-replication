@@ -1,0 +1,5 @@
+strict digraph {
+Adam_McQuaid [lexicon_key="Adam_McQuaid"];
+Charlottetown [lexicon_key=Charlottetown];
+Adam_McQuaid -> Charlottetown [label=birthPlace, lexicon_key=birthPlace];
+}

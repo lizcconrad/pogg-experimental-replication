@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "AMC_Matador": {
+            "lexicon_key": "AMC_Matador"
+        },
+        "Kenosha,_Wisconsin": {
+            "lexicon_key": "Kenosha,_Wisconsin"
+        },
+        "1974": {
+            "lexicon_key": "1974"
+        },
+        "AMC_Ambassador": {
+            "lexicon_key": "AMC_Ambassador"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "assembly",
+            "parent_node": "AMC_Matador",
+            "child_node": "Kenosha,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "modelYears",
+            "parent_node": "AMC_Matador",
+            "child_node": "1974",
+            "edge_properties": {
+                "lexicon_key": "modelYears"
+            }
+        },
+        {
+            "edge_name": "relatedMeanOfTransportation",
+            "parent_node": "AMC_Matador",
+            "child_node": "AMC_Ambassador",
+            "edge_properties": {
+                "lexicon_key": "relatedMeanOfTransportation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AMC Matador was assembled in Kenosha, Wisconsin, is available in a 1974 model, and is a relative means of transportation to the AMC Ambassador."
+        }
+    },
+    "gold_outputs": [
+        "The AMC Matador was assembled in Kenosha, Wisconsin, is available in a 1974 model, and is a relative means of transportation to the AMC Ambassador."
+    ]
+}

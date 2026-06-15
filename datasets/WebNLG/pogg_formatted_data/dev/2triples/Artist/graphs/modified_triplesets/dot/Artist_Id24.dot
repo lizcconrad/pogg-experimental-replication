@@ -1,0 +1,7 @@
+strict digraph {
+"Andra_(singer)" [lexicon_key="Andra_(singer)"];
+Pop_music [lexicon_key="Pop_music"];
+Disco [lexicon_key=Disco];
+"Andra_(singer)" -> Pop_music [label=genre, lexicon_key=genre];
+Pop_music -> Disco [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

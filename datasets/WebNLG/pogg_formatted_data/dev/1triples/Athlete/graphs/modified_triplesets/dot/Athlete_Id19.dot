@@ -1,0 +1,5 @@
+strict digraph {
+"Aleksander_Barkov,_Jr." [lexicon_key="Aleksander_Barkov,_Jr."];
+Florida_Panthers [lexicon_key="Florida_Panthers"];
+"Aleksander_Barkov,_Jr." -> Florida_Panthers [label=club, lexicon_key=club];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Andrews_County_Airport [lexicon_key="Andrews_County_Airport"];
+Texas [lexicon_key=Texas];
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+Andrews_County_Airport -> Texas [label=location, lexicon_key=location];
+Texas -> "Austin,_Texas" [label=capital, lexicon_key=capital];
+}

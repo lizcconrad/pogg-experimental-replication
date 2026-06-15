@@ -1,0 +1,9 @@
+strict digraph {
+"Alaa_Abdul-Zahra" [lexicon_key="Alaa_Abdul-Zahra"];
+"Al-Khor_Sports_Club" [lexicon_key="Al-Khor_Sports_Club"];
+Al_Khor [lexicon_key="Al_Khor"];
+Al_Shorta_SC [lexicon_key="Al_Shorta_SC"];
+"Alaa_Abdul-Zahra" -> "Al-Khor_Sports_Club" [label=club, lexicon_key=club];
+"Alaa_Abdul-Zahra" -> Al_Shorta_SC [label=club, lexicon_key=club];
+"Al-Khor_Sports_Club" -> Al_Khor [label=ground, lexicon_key=ground];
+}

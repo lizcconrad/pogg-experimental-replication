@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Aaron_S._Daggett": {
+            "lexicon_key": "Aaron_S._Daggett"
+        },
+        "Battle_of_Mine_Run": {
+            "lexicon_key": "Battle_of_Mine_Run"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Battle_of_Mine_Run",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Battle of Mine Run was one fought by Aaron S Daggett."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron S. Daggett fought in the Battle of Mine Run."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Battle of Mine Run was one of the battles that Aaron S. Daggett fought at."
+        }
+    },
+    "gold_outputs": [
+        "Aaron S. Daggett fought in the Battle of Mine Run.",
+        "The Battle of Mine Run was one fought by Aaron S Daggett.",
+        "The Battle of Mine Run was one of the battles that Aaron S. Daggett fought at."
+    ]
+}

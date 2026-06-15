@@ -1,0 +1,5 @@
+strict digraph {
+Andrew_Rayel [lexicon_key="Andrew_Rayel"];
+Jwaydan_Moyine [lexicon_key="Jwaydan_Moyine"];
+Andrew_Rayel -> Jwaydan_Moyine [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

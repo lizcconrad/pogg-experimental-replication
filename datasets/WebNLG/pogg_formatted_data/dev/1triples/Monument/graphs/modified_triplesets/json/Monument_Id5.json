@@ -1,0 +1,59 @@
+{
+    "nodes": {
+        "Baku_Turkish_Martyrs'_Memorial": {
+            "lexicon_key": "Baku_Turkish_Martyrs'_Memorial"
+        },
+        "\"Red granite and white marble\"": {
+            "lexicon_key": "\"Red granite and white marble\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "material",
+            "parent_node": "Baku_Turkish_Martyrs'_Memorial",
+            "child_node": "\"Red granite and white marble\"",
+            "edge_properties": {
+                "lexicon_key": "material"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The materials used for the Baku Turkish Martyrs' Memorial is red granite and white marble."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial is created in red granite and white marble."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The material of the Baku Turkish Martyrs' Memorial is Red granite and white marble."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial is made from red granite and white marble."
+        },
+        "Id5": {
+            "comment": "good",
+            "text": "Baku Turkish Martyrs' Memorial is made of red granite and white marble."
+        },
+        "Id6": {
+            "comment": "good",
+            "text": "Baku Turkish Martyrs' Memorial is made from red granite and white marble."
+        },
+        "Id7": {
+            "comment": "good",
+            "text": "The Baku Turkish Martyrs' Memorial is made with red granite and white marble."
+        }
+    },
+    "gold_outputs": [
+        "Baku Turkish Martyrs' Memorial is made from red granite and white marble.",
+        "Baku Turkish Martyrs' Memorial is made of red granite and white marble.",
+        "The Baku Turkish Martyrs' Memorial is created in red granite and white marble.",
+        "The Baku Turkish Martyrs' Memorial is made from red granite and white marble.",
+        "The Baku Turkish Martyrs' Memorial is made with red granite and white marble.",
+        "The material of the Baku Turkish Martyrs' Memorial is Red granite and white marble.",
+        "The materials used for the Baku Turkish Martyrs' Memorial is red granite and white marble."
+    ]
+}

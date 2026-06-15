@@ -1,0 +1,7 @@
+strict digraph {
+Aaron_Deer [lexicon_key="Aaron_Deer"];
+Psychedelia [lexicon_key=Psychedelia];
+Guitar [lexicon_key=Guitar];
+Aaron_Deer -> Psychedelia [label=genre, lexicon_key=genre];
+Aaron_Deer -> Guitar [label=instrument, lexicon_key=instrument];
+}

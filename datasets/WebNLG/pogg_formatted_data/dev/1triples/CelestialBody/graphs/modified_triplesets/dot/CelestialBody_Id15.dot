@@ -1,0 +1,5 @@
+strict digraph {
+"109_Felicitas" [lexicon_key="109_Felicitas"];
+283326000000.0 [lexicon_key=283326000000.0];
+"109_Felicitas" -> 283326000000.0 [label=periapsis, lexicon_key=periapsis];
+}

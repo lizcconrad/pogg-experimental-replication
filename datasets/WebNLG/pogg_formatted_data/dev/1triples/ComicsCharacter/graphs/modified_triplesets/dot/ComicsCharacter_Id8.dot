@@ -1,0 +1,5 @@
+strict digraph {
+Bill_Everett [lexicon_key="Bill_Everett"];
+Eisner_Award [lexicon_key="Eisner_Award"];
+Bill_Everett -> Eisner_Award [label=award, lexicon_key=award];
+}

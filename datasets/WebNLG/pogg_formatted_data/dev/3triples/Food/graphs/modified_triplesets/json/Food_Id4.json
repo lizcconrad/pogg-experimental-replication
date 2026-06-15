@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Arem-arem": {
+            "lexicon_key": "Arem-arem"
+        },
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "Jusuf_Kalla": {
+            "lexicon_key": "Jusuf_Kalla"
+        },
+        "\"Nationwide in Indonesia, but more specific to Java\"": {
+            "lexicon_key": "\"Nationwide in Indonesia, but more specific to Java\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Arem-arem",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Indonesia",
+            "child_node": "Jusuf_Kalla",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Arem-arem",
+            "child_node": "\"Nationwide in Indonesia, but more specific to Java\"",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arem-arem is a food found nationwide in Indonesia, but is more specific to Java. Jusuf Kalla is the leader of Indonesia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Jusuf Kalla is the leader of Indonesia, the country which serves Arem-arem. While Arem-arem is nationwide in Indonesia, it is more specific to Java."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jusuf Kalla is a leader in Indonesia, where the dish arem-arem is found nationwide, though it is more specific to Java."
+        }
+    },
+    "gold_outputs": [
+        "Arem-arem is a food found nationwide in Indonesia, but is more specific to Java. Jusuf Kalla is the leader of Indonesia.",
+        "Jusuf Kalla is a leader in Indonesia, where the dish arem-arem is found nationwide, though it is more specific to Java.",
+        "Jusuf Kalla is the leader of Indonesia, the country which serves Arem-arem. While Arem-arem is nationwide in Indonesia, it is more specific to Java."
+    ]
+}

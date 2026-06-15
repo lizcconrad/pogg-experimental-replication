@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abner_W._Sibal": {
+            "lexicon_key": "Abner_W._Sibal"
+        },
+        "United_States_Army": {
+            "lexicon_key": "United_States_Army"
+        },
+        "American_Revolutionary_War": {
+            "lexicon_key": "American_Revolutionary_War"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "militaryBranch",
+            "parent_node": "Abner_W._Sibal",
+            "child_node": "United_States_Army",
+            "edge_properties": {
+                "lexicon_key": "militaryBranch"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "United_States_Army",
+            "child_node": "American_Revolutionary_War",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abner W. Sibal served in the United States Army which was involved in the American Revolutionary War."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abner W. Sibal served in the United States Army, which was involved in the American Revolutionary War."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The United States Army was involved in battles of the American Revolutionary War and one of the men who was part of the army was Abner W. Sibal."
+        }
+    },
+    "gold_outputs": [
+        "Abner W. Sibal served in the United States Army which was involved in the American Revolutionary War.",
+        "Abner W. Sibal served in the United States Army, which was involved in the American Revolutionary War.",
+        "The United States Army was involved in battles of the American Revolutionary War and one of the men who was part of the army was Abner W. Sibal."
+    ]
+}

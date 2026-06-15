@@ -1,0 +1,9 @@
+strict digraph {
+"ALV_X-1" [lexicon_key="ALV_X-1"];
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+Americans [lexicon_key=Americans];
+"ALV_X-1" -> United_States [label=countryOrigin, lexicon_key=countryOrigin];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+United_States -> Americans [label=demonym, lexicon_key=demonym];
+}

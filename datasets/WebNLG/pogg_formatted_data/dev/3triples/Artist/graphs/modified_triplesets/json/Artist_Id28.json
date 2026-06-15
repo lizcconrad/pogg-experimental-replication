@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Andra_(singer)": {
+            "lexicon_key": "Andra_(singer)"
+        },
+        "Rhythm_and_blues": {
+            "lexicon_key": "Rhythm_and_blues"
+        },
+        "Puya_(singer)": {
+            "lexicon_key": "Puya_(singer)"
+        },
+        "CRBL": {
+            "lexicon_key": "CRBL"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Andra_(singer)",
+            "child_node": "Rhythm_and_blues",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andra_(singer)",
+            "child_node": "Puya_(singer)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Andra_(singer)",
+            "child_node": "CRBL",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The singer Andra's genre is Rhythm and blues. She is associated with the band CRBL and with the singer Puya."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Rhythm and Blues singer Andra is associated with the band CRBL and knows Puya."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Rhythm and blues singer, Andra, is associated with the singer Puya and the band CRBL."
+        }
+    },
+    "gold_outputs": [
+        "Rhythm and Blues singer Andra is associated with the band CRBL and knows Puya.",
+        "Rhythm and blues singer, Andra, is associated with the singer Puya and the band CRBL.",
+        "The singer Andra's genre is Rhythm and blues. She is associated with the band CRBL and with the singer Puya."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"A.E_Dimitra_Efxeinoupolis" [lexicon_key="A.E_Dimitra_Efxeinoupolis"];
+"2014–15_A_EPSTH,_Greece" [lexicon_key="2014–15_A_EPSTH,_Greece"];
+"A.E_Dimitra_Efxeinoupolis" -> "2014–15_A_EPSTH,_Greece" [label=season, lexicon_key=season];
+}

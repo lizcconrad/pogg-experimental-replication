@@ -1,0 +1,9 @@
+strict digraph {
+Buzz_Aldrin [lexicon_key="Buzz_Aldrin"];
+"Edwin E. Aldrin, Jr." [lexicon_key="Edwin E. Aldrin, Jr."];
+Apollo_11 [lexicon_key="Apollo_11"];
+"Massachusetts Institute of Technology, Sc.D. 1963" [lexicon_key="Massachusetts Institute of Technology, Sc.D. 1963"];
+Buzz_Aldrin -> "Edwin E. Aldrin, Jr." [label=alternativeName, lexicon_key=alternativeName];
+Buzz_Aldrin -> Apollo_11 [label=mission, lexicon_key=mission];
+Buzz_Aldrin -> "Massachusetts Institute of Technology, Sc.D. 1963" [label=almaMater, lexicon_key=almaMater];
+}

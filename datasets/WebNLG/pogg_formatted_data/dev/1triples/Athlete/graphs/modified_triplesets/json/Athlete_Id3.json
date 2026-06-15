@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abel_Hern\u00e1ndez": {
+            "lexicon_key": "Abel_Hern\u00e1ndez"
+        },
+        "Uruguay_Olympic_football_team": {
+            "lexicon_key": "Uruguay_Olympic_football_team"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Abel_Hern\u00e1ndez",
+            "child_node": "Uruguay_Olympic_football_team",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abel Hernandez is in the Uruguay Olympic football team."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abel Hernandez played for the Uruguay Olympic football team."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abel Hern\u00e1ndez plays for the Uruguay Olympic football team."
+        }
+    },
+    "gold_outputs": [
+        "Abel Hernandez is in the Uruguay Olympic football team.",
+        "Abel Hernandez played for the Uruguay Olympic football team.",
+        "Abel Hern\u00e1ndez plays for the Uruguay Olympic football team."
+    ]
+}

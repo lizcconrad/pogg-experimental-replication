@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        },
+        "Sumac_(band)": {
+            "lexicon_key": "Sumac_(band)"
+        },
+        "Death_metal": {
+            "lexicon_key": "Death_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Sumac_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Black_metal",
+            "child_node": "Death_metal",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Turner performed with the band Sumac and is a Black metal musician. Death metal is a musical fusion of black metal."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Turner performed with the band Sumac, his musical style being Black Metal; a musical fusion of black metal is Death Metal."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Black metal music Aaron Turner performs with Sumac. Death metal is fused with Black metal."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Turner performed with the band Sumac and is a Black metal musician. Death metal is a musical fusion of black metal.",
+        "Aaron Turner performed with the band Sumac, his musical style being Black Metal; a musical fusion of black metal is Death Metal.",
+        "Black metal music Aaron Turner performs with Sumac. Death metal is fused with Black metal."
+    ]
+}

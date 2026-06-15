@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Ahmad_Kadhim_Assad": {
+            "lexicon_key": "Ahmad_Kadhim_Assad"
+        },
+        "Steel_Azin_F.C.": {
+            "lexicon_key": "Steel_Azin_F.C."
+        },
+        "Al-Naft": {
+            "lexicon_key": "Al-Naft"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Ahmad_Kadhim_Assad",
+            "child_node": "Steel_Azin_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Ahmad_Kadhim_Assad",
+            "child_node": "Al-Naft",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad in the Al-Naft club, plays for Steel Azin F.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad plays for Al-Naft and formerly for Steel Azin FC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad of Al-Naft plays for Steel Azin F.C."
+        }
+    },
+    "gold_outputs": [
+        "Ahmad Kadhim Assad in the Al-Naft club, plays for Steel Azin F.C.",
+        "Ahmad Kadhim Assad of Al-Naft plays for Steel Azin F.C.",
+        "Ahmad Kadhim Assad plays for Al-Naft and formerly for Steel Azin FC."
+    ]
+}

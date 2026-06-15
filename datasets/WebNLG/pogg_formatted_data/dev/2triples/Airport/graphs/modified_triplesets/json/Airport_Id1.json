@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abilene_Regional_Airport": {
+            "lexicon_key": "Abilene_Regional_Airport"
+        },
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "Texas": {
+            "lexicon_key": "Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Abilene_Regional_Airport",
+            "child_node": "Abilene,_Texas",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abilene is in Texas and is served by the Abilene regional airport."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abilene, part of Texas, is served by the Abilene regional airport."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abilene regional airport serves the city of Abilene which is in Texas."
+        }
+    },
+    "gold_outputs": [
+        "Abilene is in Texas and is served by the Abilene regional airport.",
+        "Abilene regional airport serves the city of Abilene which is in Texas.",
+        "Abilene, part of Texas, is served by the Abilene regional airport."
+    ]
+}

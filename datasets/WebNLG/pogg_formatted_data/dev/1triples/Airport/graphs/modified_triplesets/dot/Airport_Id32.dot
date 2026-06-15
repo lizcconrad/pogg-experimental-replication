@@ -1,0 +1,5 @@
+strict digraph {
+Pakistan [lexicon_key=Pakistan];
+Anwar_Zaheer_Jamali [lexicon_key="Anwar_Zaheer_Jamali"];
+Pakistan -> Anwar_Zaheer_Jamali [label=leader, lexicon_key=leader];
+}

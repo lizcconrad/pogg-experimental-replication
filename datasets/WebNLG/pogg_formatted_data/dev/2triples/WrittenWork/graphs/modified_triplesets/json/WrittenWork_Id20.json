@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Administrative_Science_Quarterly": {
+            "lexicon_key": "Administrative_Science_Quarterly"
+        },
+        "\"ASCQAG\"": {
+            "lexicon_key": "\"ASCQAG\""
+        },
+        "\"Admin. Sci. Q.\"": {
+            "lexicon_key": "\"Admin. Sci. Q.\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "codenCode",
+            "parent_node": "Administrative_Science_Quarterly",
+            "child_node": "\"ASCQAG\"",
+            "edge_properties": {
+                "lexicon_key": "codenCode"
+            }
+        },
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "Administrative_Science_Quarterly",
+            "child_node": "\"Admin. Sci. Q.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Administrative Science Quarterly has a Coden code of \"ASCQAG\" and the abbreviation of Admin. Sci. Q."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Administrative Science Quarterly, abbreviated Admin. Sci. Q., has a Coden code of \"ASCQAG\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The code for Administrative Science Quarterly (abbreviated as Admin. Sci. Q.) is ASCQAG."
+        }
+    },
+    "gold_outputs": [
+        "Administrative Science Quarterly, abbreviated Admin. Sci. Q., has a Coden code of \"ASCQAG\".",
+        "The Administrative Science Quarterly has a Coden code of \"ASCQAG\" and the abbreviation of Admin. Sci. Q.",
+        "The code for Administrative Science Quarterly (abbreviated as Admin. Sci. Q.) is ASCQAG."
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Arabic": {
+            "lexicon_key": "Arabic"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Philippines",
+            "child_node": "Arabic",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "One of the languages used in the Philippines is Arabic."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Arabic is a language spoken in the Philippines."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "One of the languages in Philippines is Arabic."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Arabic is one of the languages spoken in the Philippines."
+        }
+    },
+    "gold_outputs": [
+        "Arabic is a language spoken in the Philippines.",
+        "Arabic is one of the languages spoken in the Philippines.",
+        "One of the languages in Philippines is Arabic.",
+        "One of the languages used in the Philippines is Arabic."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alex_Tyus": {
+            "lexicon_key": "Alex_Tyus"
+        },
+        "Pallacanestro_Cant\u00f9": {
+            "lexicon_key": "Pallacanestro_Cant\u00f9"
+        },
+        "1988-01-08": {
+            "lexicon_key": "1988-01-08"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alex_Tyus",
+            "child_node": "Pallacanestro_Cant\u00f9",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Alex_Tyus",
+            "child_node": "1988-01-08",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alex Tyus was born on the 8th January 1988 and plays for the club Pallacanestro Cantu."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born on January 8th 1988, Alex Tyus plays for the club Pallacanestro Cantu."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alex Tyus was born on the 8th January 1988 and his club is Pallacanestro Cantu."
+        }
+    },
+    "gold_outputs": [
+        "Alex Tyus was born on the 8th January 1988 and his club is Pallacanestro Cantu.",
+        "Alex Tyus was born on the 8th January 1988 and plays for the club Pallacanestro Cantu.",
+        "Born on January 8th 1988, Alex Tyus plays for the club Pallacanestro Cantu."
+    ]
+}

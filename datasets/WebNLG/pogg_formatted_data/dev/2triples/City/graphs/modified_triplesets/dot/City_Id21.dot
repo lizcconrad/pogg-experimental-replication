@@ -1,0 +1,7 @@
+strict digraph {
+Texas [lexicon_key=Texas];
+English_language [lexicon_key="English_language"];
+"Arlington,_Texas" [lexicon_key="Arlington,_Texas"];
+Texas -> English_language [label=language, lexicon_key=language];
+"Arlington,_Texas" -> Texas [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+AIP_Advances [lexicon_key="AIP_Advances"];
+"A.T._Charlie_Johnson" [lexicon_key="A.T._Charlie_Johnson"];
+United_States [lexicon_key="United_States"];
+American_Institute_of_Physics [lexicon_key="American_Institute_of_Physics"];
+AIP_Advances -> "A.T._Charlie_Johnson" [label=editor, lexicon_key=editor];
+AIP_Advances -> American_Institute_of_Physics [label=publisher, lexicon_key=publisher];
+"A.T._Charlie_Johnson" -> United_States [label=residence, lexicon_key=residence];
+}

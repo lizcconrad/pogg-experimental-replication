@@ -1,0 +1,5 @@
+strict digraph {
+"San_Sebastián_de_los_Reyes" [lexicon_key="San_Sebastián_de_los_Reyes"];
+Spain [lexicon_key=Spain];
+"San_Sebastián_de_los_Reyes" -> Spain [label=country, lexicon_key=country];
+}

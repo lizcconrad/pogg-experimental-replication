@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "University_of_Adelaide": {
+            "lexicon_key": "University_of_Adelaide"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "almaMater",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "University_of_Adelaide",
+            "edge_properties": {
+                "lexicon_key": "almaMater"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud's Alma mater is the University of Adelaide."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The University of Adelaide is the alma mater of Abdul Taib Mahmud."
+        }
+    },
+    "gold_outputs": [
+        "Abdul Taib Mahmud's Alma mater is the University of Adelaide.",
+        "The University of Adelaide is the alma mater of Abdul Taib Mahmud."
+    ]
+}

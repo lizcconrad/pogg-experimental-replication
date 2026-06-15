@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Auron_(comicsCharacter)": {
+            "lexicon_key": "Auron_(comicsCharacter)"
+        },
+        "Marv_Wolfman": {
+            "lexicon_key": "Marv_Wolfman"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Auron_(comicsCharacter)",
+            "child_node": "Marv_Wolfman",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The comic character Auron was created by Marv Wolfman."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Auron was created by Marv Wolfman."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The comic book character Auron was created by Marv Wolfman."
+        }
+    },
+    "gold_outputs": [
+        "Auron was created by Marv Wolfman.",
+        "The comic book character Auron was created by Marv Wolfman.",
+        "The comic character Auron was created by Marv Wolfman."
+    ]
+}

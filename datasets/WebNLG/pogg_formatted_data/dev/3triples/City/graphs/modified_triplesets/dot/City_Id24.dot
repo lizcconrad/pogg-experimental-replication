@@ -1,0 +1,9 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+"Albany,_Oregon" [lexicon_key="Albany,_Oregon"];
+Oregon [lexicon_key=Oregon];
+United_States -> "Washington,_D.C." [label=capital, lexicon_key=capital];
+"Albany,_Oregon" -> Oregon [label=isPartOf, lexicon_key=isPartOf];
+"Albany,_Oregon" -> United_States [label=country, lexicon_key=country];
+}

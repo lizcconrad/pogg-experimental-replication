@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Arr\u00f2s_negre": {
+            "lexicon_key": "Arr\u00f2s_negre"
+        },
+        "Squid": {
+            "lexicon_key": "Squid"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Squid",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Squid is an ingredient of Arros negre."
+        }
+    },
+    "gold_outputs": [
+        "Squid is an ingredient of Arros negre."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Pe\u00f1arol": {
+            "lexicon_key": "Pe\u00f1arol"
+        },
+        "Jorge_Orosm\u00e1n_da_Silva": {
+            "lexicon_key": "Jorge_Orosm\u00e1n_da_Silva"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "Pe\u00f1arol",
+            "child_node": "Jorge_Orosm\u00e1n_da_Silva",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Pe\u00f1arol's manager is Jorge Orosm\u00e1n da Silva."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The manager of Pe\u00f1arol is Jorge Orosm\u00e1n da Silva."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jorge Orosm\u00e1n da Silva is the manager of Pe\u00f1arol."
+        }
+    },
+    "gold_outputs": [
+        "Jorge Orosm\u00e1n da Silva is the manager of Pe\u00f1arol.",
+        "Pe\u00f1arol's manager is Jorge Orosm\u00e1n da Silva.",
+        "The manager of Pe\u00f1arol is Jorge Orosm\u00e1n da Silva."
+    ]
+}

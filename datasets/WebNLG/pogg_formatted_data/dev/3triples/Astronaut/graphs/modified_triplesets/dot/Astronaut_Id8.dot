@@ -1,0 +1,9 @@
+strict digraph {
+William_Anders [lexicon_key="William_Anders"];
+"1933-10-17" [lexicon_key="1933-10-17"];
+British_Hong_Kong [lexicon_key="British_Hong_Kong"];
+Apollo_8 [lexicon_key="Apollo_8"];
+William_Anders -> "1933-10-17" [label=birthDate, lexicon_key=birthDate];
+William_Anders -> British_Hong_Kong [label=birthPlace, lexicon_key=birthPlace];
+William_Anders -> Apollo_8 [label=mission, lexicon_key=mission];
+}

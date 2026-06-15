@@ -1,0 +1,7 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"Dr. G. P. Prabhukumar" [lexicon_key="Dr. G. P. Prabhukumar"];
+"In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090." [lexicon_key="In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."];
+Acharya_Institute_of_Technology -> "Dr. G. P. Prabhukumar" [label=director, lexicon_key=director];
+Acharya_Institute_of_Technology -> "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090." [label=campus, lexicon_key=campus];
+}

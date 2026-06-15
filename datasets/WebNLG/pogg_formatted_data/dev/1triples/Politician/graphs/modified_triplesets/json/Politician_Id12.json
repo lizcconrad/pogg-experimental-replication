@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Adam_Koc": {
+            "lexicon_key": "Adam_Koc"
+        },
+        "Cross_of_Valour_(Poland)": {
+            "lexicon_key": "Cross_of_Valour_(Poland)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "award",
+            "parent_node": "Adam_Koc",
+            "child_node": "Cross_of_Valour_(Poland)",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Koc was awarded the Cross of Valour (Poland)."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adam Koc has been awarded the Cross of Valour for Poland."
+        }
+    },
+    "gold_outputs": [
+        "Adam Koc has been awarded the Cross of Valour for Poland.",
+        "Adam Koc was awarded the Cross of Valour (Poland)."
+    ]
+}

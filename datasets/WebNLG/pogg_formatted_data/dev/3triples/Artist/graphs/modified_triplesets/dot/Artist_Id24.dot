@@ -1,0 +1,9 @@
+strict digraph {
+"Alison_O'Donnell" [lexicon_key="Alison_O'Donnell"];
+Jazz [lexicon_key=Jazz];
+Funk [lexicon_key=Funk];
+Static_Caravan_Recordings [lexicon_key="Static_Caravan_Recordings"];
+"Alison_O'Donnell" -> Jazz [label=genre, lexicon_key=genre];
+"Alison_O'Donnell" -> Static_Caravan_Recordings [label=recordLabel, lexicon_key=recordLabel];
+Jazz -> Funk [label=derivative, lexicon_key=derivative];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Asser_Levy_Public_Baths [lexicon_key="Asser_Levy_Public_Baths"];
+"Asser Levy Place and East 23rd Street" [lexicon_key="Asser Levy Place and East 23rd Street"];
+"80002709" [lexicon_key="80002709"];
+"1980-04-23" [lexicon_key="1980-04-23"];
+Asser_Levy_Public_Baths -> "Asser Levy Place and East 23rd Street" [label=location, lexicon_key=location];
+Asser_Levy_Public_Baths -> "80002709" [label=NationalRegisterOfHistoricPlacesReferenceNumber, lexicon_key=NationalRegisterOfHistoricPlacesReferenceNumber];
+Asser_Levy_Public_Baths -> "1980-04-23" [label=addedToTheNationalRegisterOfHistoricPlaces, lexicon_key=addedToTheNationalRegisterOfHistoricPlaces];
+}

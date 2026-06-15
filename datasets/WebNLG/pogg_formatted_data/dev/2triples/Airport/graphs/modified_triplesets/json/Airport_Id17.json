@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Antwerp_International_Airport": {
+            "lexicon_key": "Antwerp_International_Airport"
+        },
+        "\"Flemish department of Mobility and Public Works\"": {
+            "lexicon_key": "\"Flemish department of Mobility and Public Works\""
+        },
+        "12.0": {
+            "lexicon_key": "12.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Antwerp_International_Airport",
+            "child_node": "\"Flemish department of Mobility and Public Works\"",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Antwerp_International_Airport",
+            "child_node": "12.0",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Antwerp International Airport, operated by The Flemish department of Mobility and Public Works, is 12 metres above sea level."
+        }
+    },
+    "gold_outputs": [
+        "Antwerp International Airport, operated by The Flemish department of Mobility and Public Works, is 12 metres above sea level."
+    ]
+}

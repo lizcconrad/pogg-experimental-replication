@@ -1,0 +1,5 @@
+strict digraph {
+Adare_Manor [lexicon_key="Adare_Manor"];
+Republic_of_Ireland [lexicon_key="Republic_of_Ireland"];
+Adare_Manor -> Republic_of_Ireland [label=country, lexicon_key=country];
+}

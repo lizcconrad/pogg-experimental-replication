@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A.S._Roma": {
+            "lexicon_key": "A.S._Roma"
+        },
+        "\"Rome, Italy\"": {
+            "lexicon_key": "\"Rome, Italy\""
+        },
+        "Serie_A": {
+            "lexicon_key": "Serie_A"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "A.S._Roma",
+            "child_node": "\"Rome, Italy\"",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "league",
+            "parent_node": "A.S._Roma",
+            "child_node": "Serie_A",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Grounds being in Rome, Italy, A.S. Roma to play in Serie A."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.S. Roma play in the Serie A league and their ground is in Rome, Italy."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A.S. Roma's ground is in Rome, Italy and they play in Serie A."
+        }
+    },
+    "gold_outputs": [
+        "A.S. Roma play in the Serie A league and their ground is in Rome, Italy.",
+        "A.S. Roma's ground is in Rome, Italy and they play in Serie A.",
+        "Grounds being in Rome, Italy, A.S. Roma to play in Serie A."
+    ]
+}

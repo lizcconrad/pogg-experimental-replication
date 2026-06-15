@@ -1,0 +1,9 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+African_Americans [lexicon_key="African_Americans"];
+English_language [lexicon_key="English_language"];
+"Albuquerque,_New_Mexico" [lexicon_key="Albuquerque,_New_Mexico"];
+United_States -> African_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+United_States -> English_language [label=language, lexicon_key=language];
+"Albuquerque,_New_Mexico" -> United_States [label=country, lexicon_key=country];
+}

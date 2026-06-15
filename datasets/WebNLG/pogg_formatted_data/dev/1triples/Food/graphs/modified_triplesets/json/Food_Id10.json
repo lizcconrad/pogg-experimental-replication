@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ayam_penyet": {
+            "lexicon_key": "Ayam_penyet"
+        },
+        "\"Hot\"": {
+            "lexicon_key": "\"Hot\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "servingTemperature",
+            "parent_node": "Ayam_penyet",
+            "child_node": "\"Hot\"",
+            "edge_properties": {
+                "lexicon_key": "servingTemperature"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ayam penyet should be served hot."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ayam penyet is a dish that should be served hot."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ayam penyet is served hot."
+        }
+    },
+    "gold_outputs": [
+        "Ayam penyet is a dish that should be served hot.",
+        "Ayam penyet is served hot.",
+        "Ayam penyet should be served hot."
+    ]
+}

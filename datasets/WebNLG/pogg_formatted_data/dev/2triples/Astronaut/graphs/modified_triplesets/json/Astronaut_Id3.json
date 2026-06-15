@@ -1,0 +1,55 @@
+{
+    "nodes": {
+        "Buzz_Aldrin": {
+            "lexicon_key": "Buzz_Aldrin"
+        },
+        "Fighter_pilot": {
+            "lexicon_key": "Fighter_pilot"
+        },
+        "\"Retired\"": {
+            "lexicon_key": "\"Retired\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "occupation",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "Fighter_pilot",
+            "edge_properties": {
+                "lexicon_key": "occupation"
+            }
+        },
+        {
+            "edge_name": "status",
+            "parent_node": "Buzz_Aldrin",
+            "child_node": "\"Retired\"",
+            "edge_properties": {
+                "lexicon_key": "status"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Retiree Buzz Aldrin is a former fighter pilot."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Buzz Aldrin is now retired but he was once a fighter pilot."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Buzz Aldrin has since retired but he once served as a fighter pilot."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Buzz Aldrin served as a fighter pilot and is now retired."
+        }
+    },
+    "gold_outputs": [
+        "Buzz Aldrin has since retired but he once served as a fighter pilot.",
+        "Buzz Aldrin is now retired but he was once a fighter pilot.",
+        "Buzz Aldrin served as a fighter pilot and is now retired.",
+        "Retiree Buzz Aldrin is a former fighter pilot."
+    ]
+}

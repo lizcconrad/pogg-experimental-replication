@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "Vica": {
+            "lexicon_key": "Vica"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "Vica",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agremiacao Sportiva Arapiraquense are managed by Vica."
+        }
+    },
+    "gold_outputs": [
+        "Agremiacao Sportiva Arapiraquense are managed by Vica."
+    ]
+}

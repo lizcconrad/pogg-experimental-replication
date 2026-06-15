@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "109_Felicitas": {
+            "lexicon_key": "109_Felicitas"
+        },
+        "283326000000.0": {
+            "lexicon_key": "283326000000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "109_Felicitas",
+            "child_node": "283326000000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "109 Felicitas has a periapsis of 283326000000.0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The periapsis of 109 Felicitas is 283326000000.0."
+        }
+    },
+    "gold_outputs": [
+        "109 Felicitas has a periapsis of 283326000000.0.",
+        "The periapsis of 109 Felicitas is 283326000000.0."
+    ]
+}

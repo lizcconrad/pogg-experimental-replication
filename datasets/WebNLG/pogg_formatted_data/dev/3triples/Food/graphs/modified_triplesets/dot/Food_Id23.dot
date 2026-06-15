@@ -1,0 +1,9 @@
+strict digraph {
+Barny_Cakes [lexicon_key="Barny_Cakes"];
+Apple [lexicon_key=Apple];
+"18.0 g" [lexicon_key="18.0 g"];
+"1.8 g" [lexicon_key="1.8 g"];
+Barny_Cakes -> Apple [label=dishVariation, lexicon_key=dishVariation];
+Barny_Cakes -> "18.0 g" [label=carbohydrate, lexicon_key=carbohydrate];
+Barny_Cakes -> "1.8 g" [label=protein, lexicon_key=protein];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Germany": {
+            "lexicon_key": "Germany"
+        },
+        "Stanislaw_Tillich": {
+            "lexicon_key": "Stanislaw_Tillich"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "Germany",
+            "child_node": "Stanislaw_Tillich",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The leader of Germany is Stanislaw Tillich."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Stanislaw Tillich is a leader of Germany."
+        }
+    },
+    "gold_outputs": [
+        "Stanislaw Tillich is a leader of Germany.",
+        "The leader of Germany is Stanislaw Tillich."
+    ]
+}

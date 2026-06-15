@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Jens_H\u00e4rtel": {
+            "lexicon_key": "Jens_H\u00e4rtel"
+        },
+        "SV_Germania_Sch\u00f6neiche": {
+            "lexicon_key": "SV_Germania_Sch\u00f6neiche"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Jens_H\u00e4rtel",
+            "child_node": "SV_Germania_Sch\u00f6neiche",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jens Hartel plays for SV Germania Schoneiche."
+        }
+    },
+    "gold_outputs": [
+        "Jens Hartel plays for SV Germania Schoneiche."
+    ]
+}

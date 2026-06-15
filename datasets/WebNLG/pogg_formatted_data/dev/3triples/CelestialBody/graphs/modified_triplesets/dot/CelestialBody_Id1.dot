@@ -1,0 +1,9 @@
+strict digraph {
+"(410777)_2009_FD" [lexicon_key="(410777)_2009_FD"];
+39447000.0 [lexicon_key=39447000.0];
+88234300000.0 [lexicon_key=88234300000.0];
+Spacewatch [lexicon_key=Spacewatch];
+"(410777)_2009_FD" -> 39447000.0 [label=orbitalPeriod, lexicon_key=orbitalPeriod];
+"(410777)_2009_FD" -> 88234300000.0 [label=periapsis, lexicon_key=periapsis];
+"(410777)_2009_FD" -> Spacewatch [label=discoverer, lexicon_key=discoverer];
+}

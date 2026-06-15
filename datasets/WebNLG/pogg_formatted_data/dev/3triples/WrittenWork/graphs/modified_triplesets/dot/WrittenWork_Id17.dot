@@ -1,0 +1,9 @@
+strict digraph {
+A_Wizard_of_Mars [lexicon_key="A_Wizard_of_Mars"];
+Hardcover [lexicon_key=Hardcover];
+318875313 [lexicon_key=318875313];
+Diane_Duane [lexicon_key="Diane_Duane"];
+A_Wizard_of_Mars -> Hardcover [label=mediaType, lexicon_key=mediaType];
+A_Wizard_of_Mars -> 318875313 [label=oclcNumber, lexicon_key=oclcNumber];
+A_Wizard_of_Mars -> Diane_Duane [label=author, lexicon_key=author];
+}

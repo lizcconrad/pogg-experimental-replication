@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Barny_Cakes": {
+            "lexicon_key": "Barny_Cakes"
+        },
+        "Apple": {
+            "lexicon_key": "Apple"
+        },
+        "18.0 g": {
+            "lexicon_key": "18.0 g"
+        },
+        "1.8 g": {
+            "lexicon_key": "1.8 g"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Barny_Cakes",
+            "child_node": "Apple",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "carbohydrate",
+            "parent_node": "Barny_Cakes",
+            "child_node": "18.0 g",
+            "edge_properties": {
+                "lexicon_key": "carbohydrate"
+            }
+        },
+        {
+            "edge_name": "protein",
+            "parent_node": "Barny_Cakes",
+            "child_node": "1.8 g",
+            "edge_properties": {
+                "lexicon_key": "protein"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Barny cakes can be made with apple and have 18 grams of carbs and 1.8 g of protein."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Barny cakes can be made with apple and contain 1.8g protein and 18g of carbs."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Barny cakes may be made with apple and have 1.8g of protein and 18g of carbohydrates."
+        }
+    },
+    "gold_outputs": [
+        "Barny cakes can be made with apple and contain 1.8g protein and 18g of carbs.",
+        "Barny cakes can be made with apple and have 18 grams of carbs and 1.8 g of protein.",
+        "Barny cakes may be made with apple and have 1.8g of protein and 18g of carbohydrates."
+    ]
+}

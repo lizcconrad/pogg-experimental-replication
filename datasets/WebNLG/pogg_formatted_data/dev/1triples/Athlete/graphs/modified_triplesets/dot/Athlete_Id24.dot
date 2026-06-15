@@ -1,0 +1,5 @@
+strict digraph {
+"Brandon,_Manitoba" [lexicon_key="Brandon,_Manitoba"];
+Drew_Caldwell [lexicon_key="Drew_Caldwell"];
+"Brandon,_Manitoba" -> Drew_Caldwell [label=leader, lexicon_key=leader];
+}

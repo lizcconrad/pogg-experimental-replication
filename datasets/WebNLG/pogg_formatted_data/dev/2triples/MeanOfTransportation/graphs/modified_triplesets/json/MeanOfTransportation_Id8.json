@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AMC_Matador": {
+            "lexicon_key": "AMC_Matador"
+        },
+        "Richard_A._Teague": {
+            "lexicon_key": "Richard_A._Teague"
+        },
+        "General_Motors": {
+            "lexicon_key": "General_Motors"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "designer",
+            "parent_node": "AMC_Matador",
+            "child_node": "Richard_A._Teague",
+            "edge_properties": {
+                "lexicon_key": "designer"
+            }
+        },
+        {
+            "edge_name": "employer",
+            "parent_node": "Richard_A._Teague",
+            "child_node": "General_Motors",
+            "edge_properties": {
+                "lexicon_key": "employer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Richard A. Teague, who works for General Motors, designed the AMC Matador."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Richard A Teague works for General Motors and designed the AMC Matador."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AMC Matador was designed by Richard A Teague who is employed by General Motors."
+        }
+    },
+    "gold_outputs": [
+        "Richard A Teague works for General Motors and designed the AMC Matador.",
+        "Richard A. Teague, who works for General Motors, designed the AMC Matador.",
+        "The AMC Matador was designed by Richard A Teague who is employed by General Motors."
+    ]
+}

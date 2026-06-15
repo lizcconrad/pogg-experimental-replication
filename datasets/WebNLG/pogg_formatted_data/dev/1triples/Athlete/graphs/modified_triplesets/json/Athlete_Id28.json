@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "FC_Terek_Grozny": {
+            "lexicon_key": "FC_Terek_Grozny"
+        },
+        "Grozny": {
+            "lexicon_key": "Grozny"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "FC_Terek_Grozny",
+            "child_node": "Grozny",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "FC Terek Grozny's ground is based at Grozny."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "FC Terek Grozny's ground is located in Grozny."
+        }
+    },
+    "gold_outputs": [
+        "FC Terek Grozny's ground is based at Grozny.",
+        "FC Terek Grozny's ground is located in Grozny."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+"Hilario_Pérez" [lexicon_key="Hilario_Pérez"];
+Alfredo_Zitarrosa -> "Hilario_Pérez" [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

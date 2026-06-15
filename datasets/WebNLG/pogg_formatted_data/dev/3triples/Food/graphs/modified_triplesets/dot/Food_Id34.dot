@@ -1,0 +1,9 @@
+strict digraph {
+Celery [lexicon_key=Celery];
+Apium [lexicon_key=Apium];
+Bakso [lexicon_key=Bakso];
+Apiaceae [lexicon_key=Apiaceae];
+Celery -> Apium [label=genus, lexicon_key=genus];
+Celery -> Apiaceae [label=family, lexicon_key=family];
+Bakso -> Celery [label=ingredient, lexicon_key=ingredient];
+}

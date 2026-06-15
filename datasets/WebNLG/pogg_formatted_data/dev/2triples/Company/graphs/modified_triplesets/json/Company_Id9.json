@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "Drugs": {
+            "lexicon_key": "Drugs"
+        },
+        "S\u00e3o_Paulo": {
+            "lexicon_key": "S\u00e3o_Paulo"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "product",
+            "parent_node": "Hypermarcas",
+            "child_node": "Drugs",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Hypermarcas",
+            "child_node": "S\u00e3o_Paulo",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The main product of Hypermarcas, which is located in S\u00e3o Paulo, is drugs."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Hypermarcas makes drugs in S\u00e3o Paulo."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Hypermarcas is a company located in Sao Paulo that produces pharmaceutical drugs."
+        }
+    },
+    "gold_outputs": [
+        "Hypermarcas is a company located in Sao Paulo that produces pharmaceutical drugs.",
+        "Hypermarcas makes drugs in S\u00e3o Paulo.",
+        "The main product of Hypermarcas, which is located in S\u00e3o Paulo, is drugs."
+    ]
+}

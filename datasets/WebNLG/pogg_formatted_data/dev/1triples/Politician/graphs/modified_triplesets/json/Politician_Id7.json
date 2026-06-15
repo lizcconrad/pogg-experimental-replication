@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "Sulaiman_Abdul_Rahman_Taib": {
+            "lexicon_key": "Sulaiman_Abdul_Rahman_Taib"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Sulaiman_Abdul_Rahman_Taib",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud's successor was Sulaiman Abdul Rahman Taib."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud was succeded by Sulaiman Abdul Rahman Taib."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The successor to Abdul Taib Mahmud was Sulaiman Abdul Rahman Taib."
+        }
+    },
+    "gold_outputs": [
+        "Abdul Taib Mahmud was succeded by Sulaiman Abdul Rahman Taib.",
+        "Abdul Taib Mahmud's successor was Sulaiman Abdul Rahman Taib.",
+        "The successor to Abdul Taib Mahmud was Sulaiman Abdul Rahman Taib."
+    ]
+}

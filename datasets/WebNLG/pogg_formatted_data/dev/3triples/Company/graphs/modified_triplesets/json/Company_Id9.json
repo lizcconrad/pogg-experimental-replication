@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        },
+        "58.38": {
+            "lexicon_key": "58.38"
+        },
+        "Subsidiary": {
+            "lexicon_key": "Subsidiary"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Trane",
+            "child_node": "La_Crosse,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "La_Crosse,_Wisconsin",
+            "child_node": "58.38",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Trane",
+            "child_node": "Subsidiary",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Trane is a subsidiary company founded in La Crosse, Wisconsin State, a city that has a total area of 58.38."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Trane company is a subsidiary founded in La Crosse, Wisconsin, which has a total area of 58.38."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Trane, a subsidiary, was founded in La Crosse, Wisconsin that has a total area of 58.38 square kilometers."
+        }
+    },
+    "gold_outputs": [
+        "The Trane company is a subsidiary founded in La Crosse, Wisconsin, which has a total area of 58.38.",
+        "Trane is a subsidiary company founded in La Crosse, Wisconsin State, a city that has a total area of 58.38.",
+        "Trane, a subsidiary, was founded in La Crosse, Wisconsin that has a total area of 58.38 square kilometers."
+    ]
+}

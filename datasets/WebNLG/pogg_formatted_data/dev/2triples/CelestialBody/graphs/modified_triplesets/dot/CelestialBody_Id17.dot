@@ -1,0 +1,7 @@
+strict digraph {
+"11264_Claudiomaccone" [lexicon_key="11264_Claudiomaccone"];
+"2005-11-26" [lexicon_key="2005-11-26"];
+"296521000.0 (kilometres)" [lexicon_key="296521000.0 (kilometres)"];
+"11264_Claudiomaccone" -> "2005-11-26" [label=epoch, lexicon_key=epoch];
+"11264_Claudiomaccone" -> "296521000.0 (kilometres)" [label=periapsis, lexicon_key=periapsis];
+}

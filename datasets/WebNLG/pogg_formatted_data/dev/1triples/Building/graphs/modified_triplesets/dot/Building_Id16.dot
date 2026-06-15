@@ -1,0 +1,5 @@
+strict digraph {
+Asher_and_Mary_Isabelle_Richardson_House [lexicon_key="Asher_and_Mary_Isabelle_Richardson_House"];
+"1988-11-22" [lexicon_key="1988-11-22"];
+Asher_and_Mary_Isabelle_Richardson_House -> "1988-11-22" [label=addedToTheNationalRegisterOfHistoricPlaces, lexicon_key=addedToTheNationalRegisterOfHistoricPlaces];
+}

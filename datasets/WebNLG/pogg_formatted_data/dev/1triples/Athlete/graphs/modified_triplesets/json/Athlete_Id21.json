@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Aleksandre_Guruli": {
+            "lexicon_key": "Aleksandre_Guruli"
+        },
+        "FC_Samtredia": {
+            "lexicon_key": "FC_Samtredia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandre_Guruli",
+            "child_node": "FC_Samtredia",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandre Guruli plays for FC Samtredia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandre Guruli's club is FC Samtredia."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandre Guruli plays for FC Samtredia.",
+        "Aleksandre Guruli's club is FC Samtredia."
+    ]
+}

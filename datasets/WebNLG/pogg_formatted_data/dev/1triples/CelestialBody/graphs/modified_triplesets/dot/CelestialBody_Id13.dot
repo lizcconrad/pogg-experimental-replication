@@ -1,0 +1,5 @@
+strict digraph {
+"1099_Figneria" [lexicon_key="1099_Figneria"];
+"0.0155 (kilometrePerSeconds)" [lexicon_key="0.0155 (kilometrePerSeconds)"];
+"1099_Figneria" -> "0.0155 (kilometrePerSeconds)" [label=escapeVelocity, lexicon_key=escapeVelocity];
+}

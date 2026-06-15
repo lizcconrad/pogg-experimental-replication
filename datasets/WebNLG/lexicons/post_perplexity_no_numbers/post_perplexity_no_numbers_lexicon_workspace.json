@@ -1,0 +1,1917 @@
+{
+    "node_entries": {
+        "\"Ajo blanco\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Ajo blanco\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Bread, almonds, garlic, water, olive oil\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Bread, almonds, garlic, water, olive oil\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Nationwide in Indonesia, but more specific to Java\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Nationwide in Indonesia, but more specific to Java\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "\"Tomatoes, red chili, garlic, olive oil\"": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "\"Tomatoes, red chili, garlic, olive oil\""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "1.8 g": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "1.8 g"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Ajoblanco": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Ajoblanco"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Arabic": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Arabic"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Arem-arem": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Arem-arem"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Arrabbiata_sauce": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Arrabbiata sauce"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Arr\u00f2s_negre": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Arr\u00f2s negre"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Asam_pedas": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Asam pedas"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Avocado": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Avocado"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Ayam_penyet": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Ayam penyet"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Baduy": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Baduy"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Baked_Alaska": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Baked Alaska"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Bakewell_tart": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Bakewell tart"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Bakso": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Bakso"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Bandeja_paisa": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Bandeja paisa"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Barny_Cakes": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Barny Cakes"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Batchoy": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Batchoy"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Binignit": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Binignit"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Chorizo": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Chorizo"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Derbyshire_Dales": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Derbyshire Dales"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Frangipane": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Frangipane"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Indonesia": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Indonesia"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Italy": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Italy"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Java": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Java"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Jusuf_Kalla": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Jusuf Kalla"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Malaysia": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Malaysia"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mexico": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Mexico"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Mondelez_International": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Mondelez International"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Native_Americans_in_the_United_States": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Native Americans in the United States"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Patrick_McLoughlin": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Patrick McLoughlin"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Persea": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Persea"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Philippines": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Philippines"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Rosids": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Rosids"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Shumai": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Shumai"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Siomay": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Siomay"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Spanish_language": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [
+                    "TEMPLATE_Alternative_rock"
+                ],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Spanish language"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "United_States": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": "prenominal_adjective",
+                "adjective_SEMENT": {
+                    "comp_fxn": "adjective",
+                    "predicate": "_united_a_1",
+                    "intrinsic_variable_properties": {}
+                },
+                "nominal_SEMENT": {
+                    "comp_fxn": "noun",
+                    "predicate": "_state_n_of",
+                    "intrinsic_variable_properties": {}
+                }
+            },
+            "auto_info": {
+                "template_used": "TEMPLATE_Public_company",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "United States"
+            },
+            "flags": {
+                "auto_filled": true,
+                "complete": true,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Vermicelli": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Vermicelli"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "Visayas": {
+            "entry_type": "node",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [
+                    "TEMPLATE_\"City Administrator\"",
+                    "TEMPLATE_Alternative_rock",
+                    "TEMPLATE_Country_music",
+                    "TEMPLATE_Mayor",
+                    "TEMPLATE_Public_company",
+                    "TEMPLATE_Sweet_potato",
+                    "TEMPLATE_Test_pilot",
+                    "TEMPLATE_blue",
+                    "TEMPLATE_break",
+                    "TEMPLATE_cake",
+                    "TEMPLATE_car_key",
+                    "TEMPLATE_cats_toy",
+                    "TEMPLATE_glowing_toy",
+                    "TEMPLATE_idBagOfChips",
+                    "TEMPLATE_idCarDoorLock",
+                    "TEMPLATE_low",
+                    "TEMPLATE_unbroken",
+                    "TEMPLATE_unconscious"
+                ],
+                "string_to_parse": "Visayas"
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        }
+    },
+    "edge_entries": {
+        "alternativeName": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "country": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "course": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "creator": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "demonym": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "dishVariation": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "ethnicGroup": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "genus": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "ingredient": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "language": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "leader": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "mainIngredient": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "order": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "protein": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "region": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        },
+        "servingTemperature": {
+            "entry_type": "edge",
+            "lexicon_entry": {
+                "comp_fxn": ""
+            },
+            "auto_info": {
+                "template_used": "",
+                "blocked_templates": [],
+                "attempted_templates": [],
+                "string_to_parse": ""
+            },
+            "flags": {
+                "auto_filled": false,
+                "complete": false,
+                "approved": false,
+                "valid": true,
+                "create_template_from": false
+            }
+        }
+    }
+}

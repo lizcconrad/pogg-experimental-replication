@@ -1,0 +1,5 @@
+strict digraph {
+"Antioch,_California" [lexicon_key="Antioch,_California"];
+13.0 [lexicon_key=13.0];
+"Antioch,_California" -> 13.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

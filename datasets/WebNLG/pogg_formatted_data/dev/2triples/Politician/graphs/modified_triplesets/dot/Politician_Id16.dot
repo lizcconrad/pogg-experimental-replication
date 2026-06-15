@@ -1,0 +1,7 @@
+strict digraph {
+Adonis_Georgiadis [lexicon_key="Adonis_Georgiadis"];
+Greece [lexicon_key=Greece];
+"Deputy Parliamentary Spokesman of Popular Orthodox Rally" [lexicon_key="Deputy Parliamentary Spokesman of Popular Orthodox Rally"];
+Adonis_Georgiadis -> Greece [label=birthPlace, lexicon_key=birthPlace];
+Adonis_Georgiadis -> "Deputy Parliamentary Spokesman of Popular Orthodox Rally" [label=office, lexicon_key=office];
+}

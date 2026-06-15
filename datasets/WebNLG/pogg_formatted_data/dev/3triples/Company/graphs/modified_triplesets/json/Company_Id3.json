@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "GMA_New_Media": {
+            "lexicon_key": "GMA_New_Media"
+        },
+        "Entertainment": {
+            "lexicon_key": "Entertainment"
+        },
+        "Media_company": {
+            "lexicon_key": "Media_company"
+        },
+        "World_Wide_Web": {
+            "lexicon_key": "World_Wide_Web"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "industry",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Entertainment",
+            "edge_properties": {
+                "lexicon_key": "industry"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "GMA_New_Media",
+            "child_node": "Media_company",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "product",
+            "parent_node": "GMA_New_Media",
+            "child_node": "World_Wide_Web",
+            "edge_properties": {
+                "lexicon_key": "product"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "GMA New Media is an entertainment industry media company offering services concerning the World Wide Web."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "GMA New Media, a web-services producing media company, offers applications in the entertainment industry."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "GMA New Media, Inc. is a media company and GMA New Media is in the entertainment industry that makes web sites."
+        }
+    },
+    "gold_outputs": [
+        "GMA New Media is an entertainment industry media company offering services concerning the World Wide Web.",
+        "GMA New Media, Inc. is a media company and GMA New Media is in the entertainment industry that makes web sites.",
+        "GMA New Media, a web-services producing media company, offers applications in the entertainment industry."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Alcatraz_Versus_the_Evil_Librarians [lexicon_key="Alcatraz_Versus_the_Evil_Librarians"];
+78771100 [lexicon_key=78771100];
+Alcatraz_Versus_the_Evil_Librarians -> 78771100 [label=oclcNumber, lexicon_key=oclcNumber];
+}

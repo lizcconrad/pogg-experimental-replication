@@ -1,0 +1,7 @@
+strict digraph {
+"Austin,_Texas" [lexicon_key="Austin,_Texas"];
+United_States [lexicon_key="United_States"];
+"Travis_County,_Texas" [lexicon_key="Travis_County,_Texas"];
+"Austin,_Texas" -> United_States [label=country, lexicon_key=country];
+"Austin,_Texas" -> "Travis_County,_Texas" [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ahmad_Kadhim_Assad": {
+            "lexicon_key": "Ahmad_Kadhim_Assad"
+        },
+        "PAS_Tehran_F.C.": {
+            "lexicon_key": "PAS_Tehran_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Ahmad_Kadhim_Assad",
+            "child_node": "PAS_Tehran_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad played for the club PAS Tehran F.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad plays for PAS Tehran FC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ahmad Kadhim Assad plays for PAS Tehran F.C."
+        }
+    },
+    "gold_outputs": [
+        "Ahmad Kadhim Assad played for the club PAS Tehran F.C.",
+        "Ahmad Kadhim Assad plays for PAS Tehran F.C.",
+        "Ahmad Kadhim Assad plays for PAS Tehran FC."
+    ]
+}

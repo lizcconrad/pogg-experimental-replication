@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Agust\u00edn_Barboza": {
+            "lexicon_key": "Agust\u00edn_Barboza"
+        },
+        "Paraguay": {
+            "lexicon_key": "Paraguay"
+        },
+        "1913-05-05": {
+            "lexicon_key": "1913-05-05"
+        },
+        "Asunci\u00f3n": {
+            "lexicon_key": "Asunci\u00f3n"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "Paraguay",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "1913-05-05",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Agust\u00edn_Barboza",
+            "child_node": "Asunci\u00f3n",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agustin Barboza was born on the 5th May, 1913, in Asuncion which is in Paraguay."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agustin Barboza was born on March 5, 1913 in Asuncion, in Paraguay."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Agustin Barboza was born in Asuncion Paraguay on March 5, 1913."
+        }
+    },
+    "gold_outputs": [
+        "Agustin Barboza was born in Asuncion Paraguay on March 5, 1913.",
+        "Agustin Barboza was born on March 5, 1913 in Asuncion, in Paraguay.",
+        "Agustin Barboza was born on the 5th May, 1913, in Asuncion which is in Paraguay."
+    ]
+}

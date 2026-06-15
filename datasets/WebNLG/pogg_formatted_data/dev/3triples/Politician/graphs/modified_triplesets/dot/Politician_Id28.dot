@@ -1,0 +1,9 @@
+strict digraph {
+American_Civil_War [lexicon_key="American_Civil_War"];
+Abraham_Lincoln [lexicon_key="Abraham_Lincoln"];
+Alfred_Moore_Scales [lexicon_key="Alfred_Moore_Scales"];
+Battle_of_Fredericksburg [lexicon_key="Battle_of_Fredericksburg"];
+American_Civil_War -> Abraham_Lincoln [label=commander, lexicon_key=commander];
+Alfred_Moore_Scales -> Battle_of_Fredericksburg [label=battle, lexicon_key=battle];
+Battle_of_Fredericksburg -> American_Civil_War [label=isPartOfMilitaryConflict, lexicon_key=isPartOfMilitaryConflict];
+}

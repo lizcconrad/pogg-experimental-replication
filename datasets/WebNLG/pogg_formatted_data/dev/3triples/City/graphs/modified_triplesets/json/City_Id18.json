@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Auburn,_Washington": {
+            "lexicon_key": "Auburn,_Washington"
+        },
+        "Washington_(state)": {
+            "lexicon_key": "Washington_(state)"
+        },
+        "Olympia,_Washington": {
+            "lexicon_key": "Olympia,_Washington"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Auburn,_Washington",
+            "child_node": "Washington_(state)",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "Washington_(state)",
+            "child_node": "Olympia,_Washington",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Auburn,_Washington",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Auburn is part of Washington state, United States; the capital of Washington is Olympia."
+        }
+    },
+    "gold_outputs": [
+        "Auburn is part of Washington state, United States; the capital of Washington is Olympia."
+    ]
+}

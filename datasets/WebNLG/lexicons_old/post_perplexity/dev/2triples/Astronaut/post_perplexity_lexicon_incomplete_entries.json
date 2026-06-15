@@ -1,0 +1,57 @@
+{
+    "node_keys": {
+        "\"1974-08-01\"": {
+            "comp_fxn": ""
+        },
+        "\"Retired\"": {
+            "comp_fxn": ""
+        },
+        "Alan_Shepard": {
+            "comp_fxn": ""
+        },
+        "Apollo_11": {
+            "comp_fxn": ""
+        },
+        "Apollo_14": {
+            "comp_fxn": ""
+        },
+        "Buzz_Aldrin": {
+            "comp_fxn": ""
+        },
+        "Fighter_pilot": {
+            "comp_fxn": ""
+        },
+        "Glen_Ridge,_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "NASA": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "birthPlace": {
+            "comp_fxn": ""
+        },
+        "dateOfRetirement": {
+            "comp_fxn": ""
+        },
+        "mission": {
+            "comp_fxn": ""
+        },
+        "nationality": {
+            "comp_fxn": ""
+        },
+        "occupation": {
+            "comp_fxn": ""
+        },
+        "operator": {
+            "comp_fxn": ""
+        },
+        "status": {
+            "comp_fxn": ""
+        }
+    }
+}

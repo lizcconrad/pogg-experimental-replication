@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Baked_Alaska": {
+            "lexicon_key": "Baked_Alaska"
+        },
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Sandesh_(confectionery)": {
+            "lexicon_key": "Sandesh_(confectionery)"
+        },
+        "Christmas_pudding": {
+            "lexicon_key": "Christmas_pudding"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "course",
+            "parent_node": "Baked_Alaska",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        },
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Dessert",
+            "child_node": "Sandesh_(confectionery)",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Baked_Alaska",
+            "child_node": "Christmas_pudding",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sandesh (confectionery) is a dish that can be served as a dessert. Another dish that is a dessert is Baked Alaska which has Christmas pudding as an ingredient."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Sandesh and Baked Alaska are desserts. Baked Alaska uses Christmas pudding as an ingredient."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Christmas pudding is an ingredient in Baked Alaska, which is a dessert, same as sandesh."
+        }
+    },
+    "gold_outputs": [
+        "Christmas pudding is an ingredient in Baked Alaska, which is a dessert, same as sandesh.",
+        "Sandesh (confectionery) is a dish that can be served as a dessert. Another dish that is a dessert is Baked Alaska which has Christmas pudding as an ingredient.",
+        "Sandesh and Baked Alaska are desserts. Baked Alaska uses Christmas pudding as an ingredient."
+    ]
+}

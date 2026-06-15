@@ -1,0 +1,5 @@
+strict digraph {
+Deram_Records [lexicon_key="Deram_Records"];
+London [lexicon_key=London];
+Deram_Records -> London [label=location, lexicon_key=location];
+}

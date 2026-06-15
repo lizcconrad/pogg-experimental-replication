@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Binignit": {
+            "lexicon_key": "Binignit"
+        },
+        "Visayas": {
+            "lexicon_key": "Visayas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Binignit",
+            "child_node": "Visayas",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Binignit is a dish from the region of Visayas."
+        }
+    },
+    "gold_outputs": [
+        "Binignit is a dish from the region of Visayas."
+    ]
+}

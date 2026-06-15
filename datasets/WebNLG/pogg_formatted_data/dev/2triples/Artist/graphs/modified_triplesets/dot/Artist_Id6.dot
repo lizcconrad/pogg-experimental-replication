@@ -1,0 +1,7 @@
+strict digraph {
+Ace_Wilder [lexicon_key="Ace_Wilder"];
+Hip_hop_music [lexicon_key="Hip_hop_music"];
+Disco [lexicon_key=Disco];
+Ace_Wilder -> Hip_hop_music [label=genre, lexicon_key=genre];
+Hip_hop_music -> Disco [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

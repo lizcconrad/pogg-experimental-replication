@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "107_Camilla": {
+            "lexicon_key": "107_Camilla"
+        },
+        "N._R._Pogson": {
+            "lexicon_key": "N._R._Pogson"
+        },
+        "2006-12-31": {
+            "lexicon_key": "2006-12-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "107_Camilla",
+            "child_node": "N._R._Pogson",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "epoch",
+            "parent_node": "107_Camilla",
+            "child_node": "2006-12-31",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "107 Camilla, discovered by N. R. Pogson, has the epoch 31st December 2006."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Discovered by N.R. Pogson, 107 Camilla, has an epoch date of December 31st 2006."
+        }
+    },
+    "gold_outputs": [
+        "107 Camilla, discovered by N. R. Pogson, has the epoch 31st December 2006.",
+        "Discovered by N.R. Pogson, 107 Camilla, has an epoch date of December 31st 2006."
+    ]
+}

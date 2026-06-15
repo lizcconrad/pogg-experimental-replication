@@ -1,0 +1,7 @@
+strict digraph {
+Al_Asad_Airbase [lexicon_key="Al_Asad_Airbase"];
+618 [lexicon_key=618];
+"Al Anbar Province, Iraq" [lexicon_key="Al Anbar Province, Iraq"];
+Al_Asad_Airbase -> 618 [label=elevationAboveTheSeaLevelInFeet, lexicon_key=elevationAboveTheSeaLevelInFeet];
+Al_Asad_Airbase -> "Al Anbar Province, Iraq" [label=location, lexicon_key=location];
+}

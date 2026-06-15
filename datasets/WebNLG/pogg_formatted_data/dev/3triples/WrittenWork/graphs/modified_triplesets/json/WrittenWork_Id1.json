@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "1634:_The_Bavarian_Crisis": {
+            "lexicon_key": "1634:_The_Bavarian_Crisis"
+        },
+        "\"978-1-4165-4253-7\"": {
+            "lexicon_key": "\"978-1-4165-4253-7\""
+        },
+        "\"Virginia DeMarce and Eric Flint\"": {
+            "lexicon_key": "\"Virginia DeMarce and Eric Flint\""
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "\"978-1-4165-4253-7\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        },
+        {
+            "edge_name": "author",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "\"Virginia DeMarce and Eric Flint\"",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "1634:_The_Bavarian_Crisis",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "1634: The Bavarian Crisis can be located by its ISBN number \"978-1-4165-4253-7\". It is written by Virginia DeMarce and Eric Flint and was put in print."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "1634: The Bavarian Crisis was authored by Virginia DeMarce and Eric Flint and has an ISBN number of 978-1-4165-4253-7. The book is available in the shops."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The ISBN number of 1634: The Bavarian Crisis is 978-1-4165-4253-7, it is written by Virginia DeMarce and Eric Flint and is available in print form."
+        }
+    },
+    "gold_outputs": [
+        "1634: The Bavarian Crisis can be located by its ISBN number \"978-1-4165-4253-7\". It is written by Virginia DeMarce and Eric Flint and was put in print.",
+        "1634: The Bavarian Crisis was authored by Virginia DeMarce and Eric Flint and has an ISBN number of 978-1-4165-4253-7. The book is available in the shops.",
+        "The ISBN number of 1634: The Bavarian Crisis is 978-1-4165-4253-7, it is written by Virginia DeMarce and Eric Flint and is available in print form."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"Madison_County,_Indiana" [lexicon_key="Madison_County,_Indiana"];
+United_States [lexicon_key="United_States"];
+"Alexandria,_Indiana" [lexicon_key="Alexandria,_Indiana"];
+"Anderson,_Indiana" [lexicon_key="Anderson,_Indiana"];
+"Madison_County,_Indiana" -> United_States [label=country, lexicon_key=country];
+"Madison_County,_Indiana" -> "Anderson,_Indiana" [label=largestCity, lexicon_key=largestCity];
+"Alexandria,_Indiana" -> "Madison_County,_Indiana" [label=isPartOf, lexicon_key=isPartOf];
+}

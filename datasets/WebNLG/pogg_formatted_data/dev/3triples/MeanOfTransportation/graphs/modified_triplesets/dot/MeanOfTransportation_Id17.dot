@@ -1,0 +1,9 @@
+strict digraph {
+Argentina [lexicon_key=Argentina];
+Buenos_Aires [lexicon_key="Buenos_Aires"];
+Mauricio_Macri [lexicon_key="Mauricio_Macri"];
+"ARA_Veinticinco_de_Mayo_(V-2)" [lexicon_key="ARA_Veinticinco_de_Mayo_(V-2)"];
+Argentina -> Buenos_Aires [label=capital, lexicon_key=capital];
+Argentina -> Mauricio_Macri [label=leader, lexicon_key=leader];
+"ARA_Veinticinco_de_Mayo_(V-2)" -> Argentina [label=country, lexicon_key=country];
+}

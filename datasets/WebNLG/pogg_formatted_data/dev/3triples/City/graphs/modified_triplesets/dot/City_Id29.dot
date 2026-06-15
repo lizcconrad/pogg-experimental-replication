@@ -1,0 +1,9 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+English_language [lexicon_key="English_language"];
+"Angola,_Indiana" [lexicon_key="Angola,_Indiana"];
+Asian_Americans [lexicon_key="Asian_Americans"];
+United_States -> English_language [label=language, lexicon_key=language];
+United_States -> Asian_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+"Angola,_Indiana" -> United_States [label=country, lexicon_key=country];
+}

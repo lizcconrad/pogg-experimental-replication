@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bhajji": {
+            "lexicon_key": "Bhajji"
+        },
+        "Karnataka": {
+            "lexicon_key": "Karnataka"
+        },
+        "\"Gram flour, vegetables\"": {
+            "lexicon_key": "\"Gram flour, vegetables\""
+        },
+        "Gram_flour": {
+            "lexicon_key": "Gram_flour"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Bhajji",
+            "child_node": "Karnataka",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Bhajji",
+            "child_node": "\"Gram flour, vegetables\"",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bhajji",
+            "child_node": "Gram_flour",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bhajji originates from the Karnataka region and the main ingredients are vegetables and gram flour."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The main ingredients in Bhajji are gram flour and vegetables, this comes from the Karnataka region."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bhajji are found in the region of Karnataka, its main ingredients are gram flour and vegetables."
+        }
+    },
+    "gold_outputs": [
+        "Bhajji are found in the region of Karnataka, its main ingredients are gram flour and vegetables.",
+        "Bhajji originates from the Karnataka region and the main ingredients are vegetables and gram flour.",
+        "The main ingredients in Bhajji are gram flour and vegetables, this comes from the Karnataka region."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "\"HOK SVE\"": {
+            "lexicon_key": "\"HOK SVE\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "architect",
+            "parent_node": "3Arena",
+            "child_node": "\"HOK SVE\"",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "HOK SVE was the architect of 3Arena."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "HOK SVE was the architect of the 3Arena."
+        }
+    },
+    "gold_outputs": [
+        "HOK SVE was the architect of 3Arena.",
+        "HOK SVE was the architect of the 3Arena."
+    ]
+}

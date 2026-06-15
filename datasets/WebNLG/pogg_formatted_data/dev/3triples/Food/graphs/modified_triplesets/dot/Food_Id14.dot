@@ -1,0 +1,9 @@
+strict digraph {
+Bacon_Explosion [lexicon_key="Bacon_Explosion"];
+United_States [lexicon_key="United_States"];
+Barack_Obama [lexicon_key="Barack_Obama"];
+"Washington,_D.C." [lexicon_key="Washington,_D.C."];
+Bacon_Explosion -> United_States [label=country, lexicon_key=country];
+United_States -> Barack_Obama [label=leader, lexicon_key=leader];
+United_States -> "Washington,_D.C." [label=capital, lexicon_key=capital];
+}

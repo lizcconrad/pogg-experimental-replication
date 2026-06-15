@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Abilene,_Texas": {
+            "lexicon_key": "Abilene,_Texas"
+        },
+        "325": {
+            "lexicon_key": "325"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaCode",
+            "parent_node": "Abilene,_Texas",
+            "child_node": "325",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The area code of Abilene, in Texas, is 325."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "325 is the area code for Abilene, Texas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The area code for Abilene in Texas is 325."
+        }
+    },
+    "gold_outputs": [
+        "325 is the area code for Abilene, Texas.",
+        "The area code for Abilene in Texas is 325.",
+        "The area code of Abilene, in Texas, is 325."
+    ]
+}

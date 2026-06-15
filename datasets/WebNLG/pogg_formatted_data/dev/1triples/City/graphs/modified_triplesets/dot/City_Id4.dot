@@ -1,0 +1,5 @@
+strict digraph {
+"Albany,_Oregon" [lexicon_key="Albany,_Oregon"];
+"45.97 (square kilometres)" [lexicon_key="45.97 (square kilometres)"];
+"Albany,_Oregon" -> "45.97 (square kilometres)" [label=areaTotal, lexicon_key=areaTotal];
+}

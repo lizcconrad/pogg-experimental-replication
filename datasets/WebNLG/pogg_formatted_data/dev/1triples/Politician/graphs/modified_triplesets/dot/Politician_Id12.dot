@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+"Cross_of_Valour_(Poland)" [lexicon_key="Cross_of_Valour_(Poland)"];
+Adam_Koc -> "Cross_of_Valour_(Poland)" [label=award, lexicon_key=award];
+}

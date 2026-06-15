@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abradab": {
+            "lexicon_key": "Abradab"
+        },
+        "Katowice": {
+            "lexicon_key": "Katowice"
+        },
+        "Poland": {
+            "lexicon_key": "Poland"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abradab",
+            "child_node": "Katowice",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abradab",
+            "child_node": "Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abradab was born in Katowice, Poland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The birth place of Abradab is Poland, in Katowice."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abradab was born is Katowice, Poland."
+        }
+    },
+    "gold_outputs": [
+        "Abradab was born in Katowice, Poland.",
+        "Abradab was born is Katowice, Poland.",
+        "The birth place of Abradab is Poland, in Katowice."
+    ]
+}

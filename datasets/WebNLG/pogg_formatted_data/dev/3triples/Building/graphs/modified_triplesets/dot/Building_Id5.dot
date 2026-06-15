@@ -1,0 +1,9 @@
+strict digraph {
+"250_Delaware_Avenue" [lexicon_key="250_Delaware_Avenue"];
+"Buffalo,_New_York" [lexicon_key="Buffalo,_New_York"];
+"Erie_County,_New_York" [lexicon_key="Erie_County,_New_York"];
+New_York [lexicon_key="New_York"];
+"250_Delaware_Avenue" -> "Buffalo,_New_York" [label=location, lexicon_key=location];
+"Buffalo,_New_York" -> "Erie_County,_New_York" [label=isPartOf, lexicon_key=isPartOf];
+"Buffalo,_New_York" -> New_York [label=isPartOf, lexicon_key=isPartOf];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Arrabbiata_sauce": {
+            "lexicon_key": "Arrabbiata_sauce"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        },
+        "Rome": {
+            "lexicon_key": "Rome"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "capital",
+            "parent_node": "Italy",
+            "child_node": "Rome",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Arrabbiata sauce is found in Italy where the capital city is Rome."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Rome is the capital of Italy which is where Arrabbiata sauce comes from."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Arrabbiata sauce is from Italy which has the capital city of Rome."
+        }
+    },
+    "gold_outputs": [
+        "Arrabbiata sauce is found in Italy where the capital city is Rome.",
+        "Arrabbiata sauce is from Italy which has the capital city of Rome.",
+        "Rome is the capital of Italy which is where Arrabbiata sauce comes from."
+    ]
+}

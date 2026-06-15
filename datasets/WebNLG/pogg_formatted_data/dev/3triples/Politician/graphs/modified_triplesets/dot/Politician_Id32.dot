@@ -1,0 +1,9 @@
+strict digraph {
+Poland [lexicon_key=Poland];
+Polish_language [lexicon_key="Polish_language"];
+Adam_Koc [lexicon_key="Adam_Koc"];
+Kashubians [lexicon_key=Kashubians];
+Poland -> Polish_language [label=language, lexicon_key=language];
+Poland -> Kashubians [label=ethnicGroup, lexicon_key=ethnicGroup];
+Adam_Koc -> Poland [label=nationality, lexicon_key=nationality];
+}

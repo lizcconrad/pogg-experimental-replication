@@ -1,0 +1,7 @@
+strict digraph {
+"AFC_Ajax_(amateurs)" [lexicon_key="AFC_Ajax_(amateurs)"];
+"2014–15_Topklasse" [lexicon_key="2014–15_Topklasse"];
+5000 [lexicon_key=5000];
+"AFC_Ajax_(amateurs)" -> "2014–15_Topklasse" [label=season, lexicon_key=season];
+"AFC_Ajax_(amateurs)" -> 5000 [label=numberOfMembers, lexicon_key=numberOfMembers];
+}

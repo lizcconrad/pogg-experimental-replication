@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Real_Madrid_Castilla": {
+            "lexicon_key": "Real_Madrid_Castilla"
+        },
+        "Luis_Miguel_Ramis": {
+            "lexicon_key": "Luis_Miguel_Ramis"
+        },
+        "Abner_(footballer)": {
+            "lexicon_key": "Abner_(footballer)"
+        },
+        "Coritiba_Foot_Ball_Club": {
+            "lexicon_key": "Coritiba_Foot_Ball_Club"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "Real_Madrid_Castilla",
+            "child_node": "Luis_Miguel_Ramis",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Abner_(footballer)",
+            "child_node": "Real_Madrid_Castilla",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Abner_(footballer)",
+            "child_node": "Coritiba_Foot_Ball_Club",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abner who is a player for the Coritiba Football Club also plays for Real Madrid Castilla which is managed by Luis Miguel Ramis."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The footballer Abner plays for Coritiba Football Club and also Real Madrid Castilla which is managed by Luis Miguel Ramis."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abner plays for the Coritiba Football Club having previously played for Real Madrid Castilla, a club that has been managed by Luis Miguel Ramis."
+        }
+    },
+    "gold_outputs": [
+        "Abner plays for the Coritiba Football Club having previously played for Real Madrid Castilla, a club that has been managed by Luis Miguel Ramis.",
+        "Abner who is a player for the Coritiba Football Club also plays for Real Madrid Castilla which is managed by Luis Miguel Ramis.",
+        "The footballer Abner plays for Coritiba Football Club and also Real Madrid Castilla which is managed by Luis Miguel Ramis."
+    ]
+}

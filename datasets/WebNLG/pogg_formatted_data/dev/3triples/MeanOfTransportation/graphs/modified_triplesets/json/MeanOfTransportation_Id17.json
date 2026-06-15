@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Argentina": {
+            "lexicon_key": "Argentina"
+        },
+        "Buenos_Aires": {
+            "lexicon_key": "Buenos_Aires"
+        },
+        "Mauricio_Macri": {
+            "lexicon_key": "Mauricio_Macri"
+        },
+        "ARA_Veinticinco_de_Mayo_(V-2)": {
+            "lexicon_key": "ARA_Veinticinco_de_Mayo_(V-2)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "Argentina",
+            "child_node": "Buenos_Aires",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Argentina",
+            "child_node": "Mauricio_Macri",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "ARA_Veinticinco_de_Mayo_(V-2)",
+            "child_node": "Argentina",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The ARA Veinticinco De mayo (V-2) comes from the country of Argentina which is led by Mauricio Macri and has the capital city of Buenos Aires."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The ARA Veinticinco de Mayo (V-2) comes from Argentina. Argentina's capital is Buenos Aires and its leader is Mauricio Macri."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "ARA Veinticinco de Mayo (V-2) comes from Argentina, where the capital is Buenos Aires and Mauricio Macri is the leader."
+        }
+    },
+    "gold_outputs": [
+        "ARA Veinticinco de Mayo (V-2) comes from Argentina, where the capital is Buenos Aires and Mauricio Macri is the leader.",
+        "The ARA Veinticinco De mayo (V-2) comes from the country of Argentina which is led by Mauricio Macri and has the capital city of Buenos Aires.",
+        "The ARA Veinticinco de Mayo (V-2) comes from Argentina. Argentina's capital is Buenos Aires and its leader is Mauricio Macri."
+    ]
+}

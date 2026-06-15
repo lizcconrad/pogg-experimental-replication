@@ -1,0 +1,7 @@
+strict digraph {
+Aaron_Bertram [lexicon_key="Aaron_Bertram"];
+Suburban_Legends [lexicon_key="Suburban_Legends"];
+Ska [lexicon_key=Ska];
+Aaron_Bertram -> Suburban_Legends [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Suburban_Legends -> Ska [label=genre, lexicon_key=genre];
+}

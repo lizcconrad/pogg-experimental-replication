@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Allan_Shivers": {
+            "lexicon_key": "Allan_Shivers"
+        },
+        "World_War_II": {
+            "lexicon_key": "World_War_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Allan_Shivers",
+            "child_node": "World_War_II",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Allan Shivers fought battles in World War II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Allan Shivers fought in World War II."
+        }
+    },
+    "gold_outputs": [
+        "Allan Shivers fought battles in World War II.",
+        "Allan Shivers fought in World War II."
+    ]
+}

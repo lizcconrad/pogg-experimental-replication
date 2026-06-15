@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Adam_McQuaid": {
+            "lexicon_key": "Adam_McQuaid"
+        },
+        "Charlottetown": {
+            "lexicon_key": "Charlottetown"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Adam_McQuaid",
+            "child_node": "Charlottetown",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam McQuaid was born in Charlottetown."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Charlottetown was the birthplace of Adam McQuaid."
+        }
+    },
+    "gold_outputs": [
+        "Adam McQuaid was born in Charlottetown.",
+        "Charlottetown was the birthplace of Adam McQuaid."
+    ]
+}

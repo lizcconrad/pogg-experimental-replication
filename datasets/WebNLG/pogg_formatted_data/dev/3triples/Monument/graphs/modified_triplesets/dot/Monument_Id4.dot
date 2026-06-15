@@ -1,0 +1,9 @@
+strict digraph {
+"Baku_Turkish_Martyrs'_Memorial" [lexicon_key="Baku_Turkish_Martyrs'_Memorial"];
+Azerbaijan [lexicon_key=Azerbaijan];
+Artur_Rasizade [lexicon_key="Artur_Rasizade"];
+"Hüseyin Bütüner and Hilmi Güner" [lexicon_key="Hüseyin Bütüner and Hilmi Güner"];
+"Baku_Turkish_Martyrs'_Memorial" -> Azerbaijan [label=location, lexicon_key=location];
+"Baku_Turkish_Martyrs'_Memorial" -> "Hüseyin Bütüner and Hilmi Güner" [label=designer, lexicon_key=designer];
+Azerbaijan -> Artur_Rasizade [label=leader, lexicon_key=leader];
+}

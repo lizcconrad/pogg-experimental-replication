@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alberto_Teisaire": {
+            "lexicon_key": "Alberto_Teisaire"
+        },
+        "Argentina": {
+            "lexicon_key": "Argentina"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "nationality",
+            "parent_node": "Alberto_Teisaire",
+            "child_node": "Argentina",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alberto Teisaire's nationality is Argentinian."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alberto Teisaire is Argentinian."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alberto Teisaire was Argentinian."
+        }
+    },
+    "gold_outputs": [
+        "Alberto Teisaire is Argentinian.",
+        "Alberto Teisaire was Argentinian.",
+        "Alberto Teisaire's nationality is Argentinian."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"103_Colmore_Row" [lexicon_key="103_Colmore_Row"];
+Colmore_Row [lexicon_key="Colmore_Row"];
+"103_Colmore_Row" -> Colmore_Row [label=location, lexicon_key=location];
+}

@@ -1,0 +1,216 @@
+{
+    "node_keys": {
+        "\"0-439-17684-0\"": {
+            "comp_fxn": ""
+        },
+        "\"0-439-92550-9\"": {
+            "comp_fxn": ""
+        },
+        "\"0-670-03380-4\"": {
+            "comp_fxn": ""
+        },
+        "\"0-7156-3648-0\"": {
+            "comp_fxn": ""
+        },
+        "\"0-7653-0633-6\"": {
+            "comp_fxn": ""
+        },
+        "\"1174\"": {
+            "comp_fxn": ""
+        },
+        "\"320\"": {
+            "comp_fxn": ""
+        },
+        "\"560\"": {
+            "comp_fxn": ""
+        },
+        "\"978-0-15-204770-2\"": {
+            "comp_fxn": ""
+        },
+        "\"ACM Trans. Inf. Syst.\"": {
+            "comp_fxn": ""
+        },
+        "\"ASCQAG\"": {
+            "comp_fxn": ""
+        },
+        "\"ATISET\"": {
+            "comp_fxn": ""
+        },
+        "\"Admin. Sci. Q.\"": {
+            "comp_fxn": ""
+        },
+        "\"Print\"": {
+            "comp_fxn": ""
+        },
+        "\"Virginia DeMarce and Eric Flint\"": {
+            "comp_fxn": ""
+        },
+        "1634:_The_Bavarian_Crisis": {
+            "comp_fxn": ""
+        },
+        "1634:_The_Ram_Rebellion": {
+            "comp_fxn": ""
+        },
+        "318875313": {
+            "comp_fxn": ""
+        },
+        "57392246": {
+            "comp_fxn": ""
+        },
+        "ACM_Transactions_on_Information_Systems": {
+            "comp_fxn": ""
+        },
+        "AIDS_(journal)": {
+            "comp_fxn": ""
+        },
+        "A_Fortress_of_Grey_Ice": {
+            "comp_fxn": ""
+        },
+        "A_Glastonbury_Romance": {
+            "comp_fxn": ""
+        },
+        "A_Long_Long_Way": {
+            "comp_fxn": ""
+        },
+        "A_Loyal_Character_Dancer": {
+            "comp_fxn": ""
+        },
+        "A_Wizard_of_Mars": {
+            "comp_fxn": ""
+        },
+        "Above_the_Veil": {
+            "comp_fxn": ""
+        },
+        "Acta_Mathematica_Hungarica": {
+            "comp_fxn": ""
+        },
+        "Administrative_Science_Quarterly": {
+            "comp_fxn": ""
+        },
+        "Aenir": {
+            "comp_fxn": ""
+        },
+        "Alcatraz_Versus_the_Evil_Librarians": {
+            "comp_fxn": ""
+        },
+        "Asian_Americans": {
+            "comp_fxn": ""
+        },
+        "Association_of_Public_and_Land-grant_Universities": {
+            "comp_fxn": ""
+        },
+        "Australians": {
+            "comp_fxn": ""
+        },
+        "Castle_(novel)": {
+            "comp_fxn": ""
+        },
+        "Cornell_University": {
+            "comp_fxn": ""
+        },
+        "Diane_Duane": {
+            "comp_fxn": ""
+        },
+        "E-book": {
+            "comp_fxn": ""
+        },
+        "Elizabeth_II": {
+            "comp_fxn": ""
+        },
+        "English_language": {
+            "comp_fxn": ""
+        },
+        "Eric_Flint": {
+            "comp_fxn": ""
+        },
+        "Garth_Nix": {
+            "comp_fxn": ""
+        },
+        "Grantville_Gazette_III": {
+            "comp_fxn": ""
+        },
+        "HIV": {
+            "comp_fxn": ""
+        },
+        "Hardcover": {
+            "comp_fxn": ""
+        },
+        "J._V._Jones": {
+            "comp_fxn": ""
+        },
+        "Julius_Springer": {
+            "comp_fxn": ""
+        },
+        "Orthoretrovirinae": {
+            "comp_fxn": ""
+        },
+        "Soho_Press": {
+            "comp_fxn": ""
+        },
+        "Springer_Science+Business_Media": {
+            "comp_fxn": ""
+        },
+        "United_Kingdom": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "abbreviation": {
+            "comp_fxn": ""
+        },
+        "academicDiscipline": {
+            "comp_fxn": ""
+        },
+        "affiliation": {
+            "comp_fxn": ""
+        },
+        "author": {
+            "comp_fxn": ""
+        },
+        "codenCode": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "family": {
+            "comp_fxn": ""
+        },
+        "followedBy": {
+            "comp_fxn": ""
+        },
+        "founder": {
+            "comp_fxn": ""
+        },
+        "isbnNumber": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "mediaType": {
+            "comp_fxn": ""
+        },
+        "numberOfPages": {
+            "comp_fxn": ""
+        },
+        "oclcNumber": {
+            "comp_fxn": ""
+        },
+        "precededBy": {
+            "comp_fxn": ""
+        },
+        "publisher": {
+            "comp_fxn": ""
+        }
+    }
+}

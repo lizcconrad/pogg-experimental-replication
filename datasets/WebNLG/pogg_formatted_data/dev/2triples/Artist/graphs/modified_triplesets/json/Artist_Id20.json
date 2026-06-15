@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Anders_Osborne": {
+            "lexicon_key": "Anders_Osborne"
+        },
+        "Billy_Iuso": {
+            "lexicon_key": "Billy_Iuso"
+        },
+        "Theresa_Andersson": {
+            "lexicon_key": "Theresa_Andersson"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Billy_Iuso",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Anders_Osborne",
+            "child_node": "Theresa_Andersson",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Anders Osborne is associated with musicians Billy Iuso and Theresa Andersson."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Anders Osborne is associated with musical artist Billy Iuso and Theresa Andersson."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Anders Osborne is associated with Billy Iuso and Theresa Andersson."
+        }
+    },
+    "gold_outputs": [
+        "Anders Osborne is associated with Billy Iuso and Theresa Andersson.",
+        "Anders Osborne is associated with musical artist Billy Iuso and Theresa Andersson.",
+        "Anders Osborne is associated with musicians Billy Iuso and Theresa Andersson."
+    ]
+}

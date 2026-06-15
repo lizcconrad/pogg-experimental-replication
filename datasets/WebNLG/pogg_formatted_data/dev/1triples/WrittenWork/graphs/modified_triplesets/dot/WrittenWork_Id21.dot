@@ -1,0 +1,5 @@
+strict digraph {
+American_Journal_of_Mathematics [lexicon_key="American_Journal_of_Mathematics"];
+"1.337" [lexicon_key="1.337"];
+American_Journal_of_Mathematics -> "1.337" [label=impactFactor, lexicon_key=impactFactor];
+}

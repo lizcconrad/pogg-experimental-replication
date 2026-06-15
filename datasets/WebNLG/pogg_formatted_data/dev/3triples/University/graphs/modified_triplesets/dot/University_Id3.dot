@@ -1,0 +1,9 @@
+strict digraph {
+Acharya_Institute_of_Technology [lexicon_key="Acharya_Institute_of_Technology"];
+"B.M. Reddy" [lexicon_key="B.M. Reddy"];
+Bangalore [lexicon_key=Bangalore];
+"India" [lexicon_key="India"];
+Acharya_Institute_of_Technology -> "B.M. Reddy" [label=president, lexicon_key=president];
+Acharya_Institute_of_Technology -> Bangalore [label=city, lexicon_key=city];
+Acharya_Institute_of_Technology -> "India" [label=country, lexicon_key=country];
+}

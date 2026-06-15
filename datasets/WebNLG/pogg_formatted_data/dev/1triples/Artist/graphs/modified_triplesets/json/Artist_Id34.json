@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "British_people": {
+            "lexicon_key": "British_people"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "demonym",
+            "parent_node": "United_Kingdom",
+            "child_node": "British_people",
+            "edge_properties": {
+                "lexicon_key": "demonym"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "People from the United Kingdom are called British people."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The native people of the United Kingdom are known as the British people."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "British people is a demonym for people in the United Kingdom."
+        }
+    },
+    "gold_outputs": [
+        "British people is a demonym for people in the United Kingdom.",
+        "People from the United Kingdom are called British people.",
+        "The native people of the United Kingdom are known as the British people."
+    ]
+}

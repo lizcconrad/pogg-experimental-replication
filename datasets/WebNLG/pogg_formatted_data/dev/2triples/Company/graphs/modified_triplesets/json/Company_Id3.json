@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "Banking": {
+            "lexicon_key": "Banking"
+        },
+        "15100000000": {
+            "lexicon_key": "15100000000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "service",
+            "parent_node": "Chinabank",
+            "child_node": "Banking",
+            "edge_properties": {
+                "lexicon_key": "service"
+            }
+        },
+        {
+            "edge_name": "netIncome",
+            "parent_node": "Chinabank",
+            "child_node": "15100000000",
+            "edge_properties": {
+                "lexicon_key": "netIncome"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chinabank currently pulls in 15100000000 in net income for its banking services."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chinabank provides banking services to customers, earning a net income of 15,100,000,000."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Chinabank offers banking services to make a net income of 15,100,000,000."
+        }
+    },
+    "gold_outputs": [
+        "Chinabank currently pulls in 15100000000 in net income for its banking services.",
+        "Chinabank offers banking services to make a net income of 15,100,000,000.",
+        "Chinabank provides banking services to customers, earning a net income of 15,100,000,000."
+    ]
+}

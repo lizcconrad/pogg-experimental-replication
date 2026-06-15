@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Amsterdam_Airport_Schiphol": {
+            "lexicon_key": "Amsterdam_Airport_Schiphol"
+        },
+        "-3.3528": {
+            "lexicon_key": "-3.3528"
+        },
+        "Schiphol_Group": {
+            "lexicon_key": "Schiphol_Group"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "elevationAboveTheSeaLevel",
+            "parent_node": "Amsterdam_Airport_Schiphol",
+            "child_node": "-3.3528",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevel"
+            }
+        },
+        {
+            "edge_name": "operatingOrganisation",
+            "parent_node": "Amsterdam_Airport_Schiphol",
+            "child_node": "Schiphol_Group",
+            "edge_properties": {
+                "lexicon_key": "operatingOrganisation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Schiphol Group are the operators of Amsterdam Airport Schiphol, which is -3.3528 above sea level."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Schiphol Group operates the Amsterdam Airport Schiphol which is -3.3528m a.s.l."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Amsterdam airport Schiphol is operated by the Schiphol group and is -3.3528 above sea level."
+        }
+    },
+    "gold_outputs": [
+        "Amsterdam airport Schiphol is operated by the Schiphol group and is -3.3528 above sea level.",
+        "Schiphol Group operates the Amsterdam Airport Schiphol which is -3.3528m a.s.l.",
+        "The Schiphol Group are the operators of Amsterdam Airport Schiphol, which is -3.3528 above sea level."
+    ]
+}

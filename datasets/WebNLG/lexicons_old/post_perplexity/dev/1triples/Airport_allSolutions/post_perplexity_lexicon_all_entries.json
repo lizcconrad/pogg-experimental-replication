@@ -1,0 +1,424 @@
+{
+    "node_keys": {
+        "\"1/19\"": {
+            "comp_fxn": ""
+        },
+        "\"11/29\"": {
+            "comp_fxn": ""
+        },
+        "\"14L/32R\"": {
+            "comp_fxn": ""
+        },
+        "\"14R/32L\"": {
+            "comp_fxn": ""
+        },
+        "\"18R/36L\"": {
+            "comp_fxn": ""
+        },
+        "\"Helipad\"": {
+            "comp_fxn": "proper_noun",
+            "name": "Helipad",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "1533.0": {
+            "comp_fxn": "number",
+            "digit": "1533.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "2702.0": {
+            "comp_fxn": "number",
+            "digit": "2702.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "507": {
+            "comp_fxn": "number",
+            "digit": "507",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "84.0": {
+            "comp_fxn": "number",
+            "digit": "84.0",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_1"
+            }
+        },
+        "Aarhus": {
+            "comp_fxn": "proper_noun",
+            "name": "Aarhus",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Aarhus_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Aarhus",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Adirondack_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "comp_fxn": ""
+        },
+        "Afonso_Pena_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Agra": {
+            "comp_fxn": "proper_noun",
+            "name": "Agra",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Agra_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Agra",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Al-Taqaddum_Air_Base": {
+            "comp_fxn": ""
+        },
+        "Alderney": {
+            "comp_fxn": "proper_noun",
+            "name": "Alderney",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Alderney_Airport": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Alderney",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_airport_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Allama_Iqbal_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Alpena_County_Regional_Airport": {
+            "comp_fxn": ""
+        },
+        "Amsterdam": {
+            "comp_fxn": "proper_noun",
+            "name": "Amsterdam",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Amsterdam_Airport_Schiphol": {
+            "comp_fxn": ""
+        },
+        "Andrews,_Texas": {
+            "comp_fxn": ""
+        },
+        "Andrews_County,_Texas": {
+            "comp_fxn": ""
+        },
+        "Andrews_County_Airport": {
+            "comp_fxn": ""
+        },
+        "Angola_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Anwar_Zaheer_Jamali": {
+            "comp_fxn": ""
+        },
+        "Ardmore_Airport_(New_Zealand)": {
+            "comp_fxn": ""
+        },
+        "Athens": {
+            "comp_fxn": "proper_noun",
+            "name": "Athens",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Athens_International_Airport": {
+            "comp_fxn": ""
+        },
+        "Auckland": {
+            "comp_fxn": "proper_noun",
+            "name": "Auckland",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Belgium": {
+            "comp_fxn": "proper_noun",
+            "name": "Belgium",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Community_of_Madrid": {
+            "comp_fxn": ""
+        },
+        "Copenhagen": {
+            "comp_fxn": "proper_noun",
+            "name": "Copenhagen",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Denmark": {
+            "comp_fxn": "proper_noun",
+            "name": "Denmark",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Flemish_Government": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Government",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flemish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Flemish_Region": {
+            "comp_fxn": "compound_noun",
+            "head_noun_SEMENT": {
+                "comp_fxn": "proper_noun",
+                "name": "Region",
+                "intrinsic_variable_properties": {}
+            },
+            "non_head_noun_SEMENT": {
+                "comp_fxn": "noun",
+                "predicate": "_flemish_n_1",
+                "intrinsic_variable_properties": {}
+            },
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_idFuse30A"
+            }
+        },
+        "Four_World_Trade_Center": {
+            "comp_fxn": ""
+        },
+        "German_language": {
+            "comp_fxn": ""
+        },
+        "Giorgos_Kaminis": {
+            "comp_fxn": ""
+        },
+        "Greece": {
+            "comp_fxn": "proper_noun",
+            "name": "Greece",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Greek_language": {
+            "comp_fxn": ""
+        },
+        "Harrietstown,_New_York": {
+            "comp_fxn": ""
+        },
+        "Infraero": {
+            "comp_fxn": "proper_noun",
+            "name": "Infraero",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Jacob_Bundsgaard": {
+            "comp_fxn": ""
+        },
+        "Lars_L\u00f8kke_Rasmussen": {
+            "comp_fxn": ""
+        },
+        "Luanda": {
+            "comp_fxn": "proper_noun",
+            "name": "Luanda",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Nikos_Voutsis": {
+            "comp_fxn": ""
+        },
+        "Pakistan": {
+            "comp_fxn": "proper_noun",
+            "name": "Pakistan",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Paracuellos_de_Jarama": {
+            "comp_fxn": ""
+        },
+        "Philippe_of_Belgium": {
+            "comp_fxn": ""
+        },
+        "Port_Authority_of_New_York_and_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "San_Sebasti\u00e1n_de_los_Reyes": {
+            "comp_fxn": ""
+        },
+        "Saranac_Lake,_New_York": {
+            "comp_fxn": ""
+        },
+        "South_Jersey_Transportation_Authority": {
+            "comp_fxn": ""
+        },
+        "Spain": {
+            "comp_fxn": "proper_noun",
+            "name": "Spain",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Spata": {
+            "comp_fxn": "proper_noun",
+            "name": "Spata",
+            "intrinsic_variable_properties": {},
+            "auto": {
+                "auto_filled": true,
+                "template_used": "TEMPLATE_Liz"
+            }
+        },
+        "Stephen_Dilts": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "capital": {
+            "comp_fxn": ""
+        },
+        "chief": {
+            "comp_fxn": ""
+        },
+        "cityServed": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "countySeat": {
+            "comp_fxn": ""
+        },
+        "elevationAboveTheSeaLevel": {
+            "comp_fxn": ""
+        },
+        "headquarter": {
+            "comp_fxn": ""
+        },
+        "isPartOf": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "mayor": {
+            "comp_fxn": ""
+        },
+        "operatingOrganisation": {
+            "comp_fxn": ""
+        },
+        "runwayLength": {
+            "comp_fxn": ""
+        },
+        "runwayName": {
+            "comp_fxn": ""
+        }
+    }
+}

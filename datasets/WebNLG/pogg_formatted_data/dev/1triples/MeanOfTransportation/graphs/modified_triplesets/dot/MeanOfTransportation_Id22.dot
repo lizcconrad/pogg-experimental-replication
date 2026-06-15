@@ -1,0 +1,5 @@
+strict digraph {
+Ariane_5 [lexicon_key="Ariane_5"];
+"2005-08-11" [lexicon_key="2005-08-11"];
+Ariane_5 -> "2005-08-11" [label=maidenFlight, lexicon_key=maidenFlight];
+}

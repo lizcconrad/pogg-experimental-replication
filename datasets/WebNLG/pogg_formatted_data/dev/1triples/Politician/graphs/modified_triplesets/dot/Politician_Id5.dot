@@ -1,0 +1,5 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+Kota_Samarahan [lexicon_key="Kota_Samarahan"];
+Abdul_Taib_Mahmud -> Kota_Samarahan [label=region, lexicon_key=region];
+}

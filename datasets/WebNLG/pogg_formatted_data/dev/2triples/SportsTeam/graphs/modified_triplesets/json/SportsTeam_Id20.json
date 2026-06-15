@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "17000": {
+            "lexicon_key": "17000"
+        },
+        "\"Agremia\u00e7\u00e3o Sportiva Arapiraquense\"": {
+            "lexicon_key": "\"Agremia\u00e7\u00e3o Sportiva Arapiraquense\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "17000",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        },
+        {
+            "edge_name": "fullName",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "\"Agremia\u00e7\u00e3o Sportiva Arapiraquense\"",
+            "edge_properties": {
+                "lexicon_key": "fullName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense (which is his full name) has a club with 17000 members."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Agremia\u00e7\u00e3o Sportiva Arapiraquense's full name is \"Agremia\u00e7\u00e3o Sportiva Arapiraquense\" and they have 17000 members."
+        }
+    },
+    "gold_outputs": [
+        "Agremia\u00e7\u00e3o Sportiva Arapiraquense (which is his full name) has a club with 17000 members.",
+        "Agremia\u00e7\u00e3o Sportiva Arapiraquense's full name is \"Agremia\u00e7\u00e3o Sportiva Arapiraquense\" and they have 17000 members."
+    ]
+}

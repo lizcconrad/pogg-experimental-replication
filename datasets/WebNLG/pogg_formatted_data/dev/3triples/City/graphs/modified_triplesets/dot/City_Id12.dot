@@ -1,0 +1,9 @@
+strict digraph {
+"Anaheim,_California" [lexicon_key="Anaheim,_California"];
+"Orange_County,_California" [lexicon_key="Orange_County,_California"];
+United_States_House_of_Representatives [lexicon_key="United_States_House_of_Representatives"];
+United_States [lexicon_key="United_States"];
+"Anaheim,_California" -> "Orange_County,_California" [label=isPartOf, lexicon_key=isPartOf];
+"Anaheim,_California" -> United_States_House_of_Representatives [label=leaderTitle, lexicon_key=leaderTitle];
+United_States_House_of_Representatives -> United_States [label=location, lexicon_key=location];
+}

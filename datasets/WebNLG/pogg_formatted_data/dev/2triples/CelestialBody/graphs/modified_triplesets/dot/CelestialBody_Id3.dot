@@ -1,0 +1,7 @@
+strict digraph {
+"(66063)_1998_RO1" [lexicon_key="(66063)_1998_RO1"];
+"2013-11-04" [lexicon_key="2013-11-04"];
+"0.0999 (kilometrePerSeconds)" [lexicon_key="0.0999 (kilometrePerSeconds)"];
+"(66063)_1998_RO1" -> "2013-11-04" [label=epoch, lexicon_key=epoch];
+"(66063)_1998_RO1" -> "0.0999 (kilometrePerSeconds)" [label=escapeVelocity, lexicon_key=escapeVelocity];
+}

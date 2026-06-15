@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Siomay": {
+            "lexicon_key": "Siomay"
+        },
+        "Shumai": {
+            "lexicon_key": "Shumai"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Siomay",
+            "child_node": "Shumai",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Shumai is a variation of the dish Siomay."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Siomay and Shumai are variations of the same dish."
+        }
+    },
+    "gold_outputs": [
+        "Shumai is a variation of the dish Siomay.",
+        "Siomay and Shumai are variations of the same dish."
+    ]
+}

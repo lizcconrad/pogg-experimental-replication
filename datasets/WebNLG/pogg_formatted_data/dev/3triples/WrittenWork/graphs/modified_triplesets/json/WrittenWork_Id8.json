@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AIDS_(journal)": {
+            "lexicon_key": "AIDS_(journal)"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "Lippincott_Williams_&_Wilkins": {
+            "lexicon_key": "Lippincott_Williams_&_Wilkins"
+        },
+        "Elizabeth_II": {
+            "lexicon_key": "Elizabeth_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "AIDS_(journal)",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "publisher",
+            "parent_node": "AIDS_(journal)",
+            "child_node": "Lippincott_Williams_&_Wilkins",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_Kingdom",
+            "child_node": "Elizabeth_II",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The AIDS journal was published by Lippincott Williams & Wilkins in the United Kingdom where Elizabeth II is the leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AIDS journal is published by Lippincott Williams & Wilkins and comes from the United Kingdom where Elizabeth II is the leader."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AIDS journal, which came from the United Kingdom in the reign of Elizabeth II, was published by Lippincott Williams and Wilkins."
+        }
+    },
+    "gold_outputs": [
+        "The AIDS journal is published by Lippincott Williams & Wilkins and comes from the United Kingdom where Elizabeth II is the leader.",
+        "The AIDS journal was published by Lippincott Williams & Wilkins in the United Kingdom where Elizabeth II is the leader.",
+        "The AIDS journal, which came from the United Kingdom in the reign of Elizabeth II, was published by Lippincott Williams and Wilkins."
+    ]
+}

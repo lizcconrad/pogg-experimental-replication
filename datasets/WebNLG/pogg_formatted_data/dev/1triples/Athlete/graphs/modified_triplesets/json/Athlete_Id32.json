@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Maccabi_Tel_Aviv_B.C.": {
+            "lexicon_key": "Maccabi_Tel_Aviv_B.C."
+        },
+        "\u017dan_Tabak": {
+            "lexicon_key": "\u017dan_Tabak"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "coach",
+            "parent_node": "Maccabi_Tel_Aviv_B.C.",
+            "child_node": "\u017dan_Tabak",
+            "edge_properties": {
+                "lexicon_key": "coach"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Maccabi Tel Aviv B.C.'s coach is Zan Tabak."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Zan Tabak is the coach for the Maccabi Tel Aviv B.C. team."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The coach of Maccabi Tel Aviv B.C. is Zan Tabak."
+        }
+    },
+    "gold_outputs": [
+        "Maccabi Tel Aviv B.C.'s coach is Zan Tabak.",
+        "The coach of Maccabi Tel Aviv B.C. is Zan Tabak.",
+        "Zan Tabak is the coach for the Maccabi Tel Aviv B.C. team."
+    ]
+}

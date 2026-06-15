@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Accademia_di_Architettura_di_Mendrisio": {
+            "lexicon_key": "Accademia_di_Architettura_di_Mendrisio"
+        },
+        "100": {
+            "lexicon_key": "100"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "academicStaffSize",
+            "parent_node": "Accademia_di_Architettura_di_Mendrisio",
+            "child_node": "100",
+            "edge_properties": {
+                "lexicon_key": "academicStaffSize"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The academic staff size of Accademia di Architettura di Mendrisio is 100."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The academic staff number 100 at the Accademia di Architettura di Mendrisio."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Accademia di Architettura di Mendrisio has an academic staff of 100."
+        }
+    },
+    "gold_outputs": [
+        "The Accademia di Architettura di Mendrisio has an academic staff of 100.",
+        "The academic staff number 100 at the Accademia di Architettura di Mendrisio.",
+        "The academic staff size of Accademia di Architettura di Mendrisio is 100."
+    ]
+}

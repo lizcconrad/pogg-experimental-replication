@@ -1,0 +1,93 @@
+{
+    "node_keys": {
+        "\"1983-10-03\"": {
+            "comp_fxn": ""
+        },
+        "\"Hugh Hazzard\"": {
+            "comp_fxn": ""
+        },
+        "\"STV\"": {
+            "comp_fxn": ""
+        },
+        "Asterix_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Auron_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Balder_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Bananaman": {
+            "comp_fxn": ""
+        },
+        "Baymax": {
+            "comp_fxn": ""
+        },
+        "Big_Hero_6_(film)": {
+            "comp_fxn": ""
+        },
+        "Bill_Everett": {
+            "comp_fxn": ""
+        },
+        "Bill_Oddie": {
+            "comp_fxn": ""
+        },
+        "Bolt_(comicsCharacter)": {
+            "comp_fxn": ""
+        },
+        "Bozo_the_Iron_Man": {
+            "comp_fxn": ""
+        },
+        "Dan_Mishkin": {
+            "comp_fxn": ""
+        },
+        "Eagle_Award_(comics)": {
+            "comp_fxn": ""
+        },
+        "Eisner_Award": {
+            "comp_fxn": ""
+        },
+        "Jack_Kirby": {
+            "comp_fxn": ""
+        },
+        "John_Buscema": {
+            "comp_fxn": ""
+        },
+        "Kate_Hardie": {
+            "comp_fxn": ""
+        },
+        "Marv_Wolfman": {
+            "comp_fxn": ""
+        },
+        "Ren\u00e9_Goscinny": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "award": {
+            "comp_fxn": ""
+        },
+        "broadcastedBy": {
+            "comp_fxn": ""
+        },
+        "child": {
+            "comp_fxn": ""
+        },
+        "creator": {
+            "comp_fxn": ""
+        },
+        "firstAired": {
+            "comp_fxn": ""
+        },
+        "fullName": {
+            "comp_fxn": ""
+        },
+        "series": {
+            "comp_fxn": ""
+        },
+        "starring": {
+            "comp_fxn": ""
+        }
+    }
+}

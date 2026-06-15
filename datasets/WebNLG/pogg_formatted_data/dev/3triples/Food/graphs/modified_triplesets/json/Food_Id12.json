@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Bacon_Explosion": {
+            "lexicon_key": "Bacon_Explosion"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Bacon": {
+            "lexicon_key": "Bacon"
+        },
+        "Sausage": {
+            "lexicon_key": "Sausage"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "Bacon",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Bacon_Explosion",
+            "child_node": "Sausage",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bacon and sausage are the main ingredients in a Bacon Explosion, which comes from the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bacon Explosion, whose name comes from the United States, has bacon and sausage."
+        }
+    },
+    "gold_outputs": [
+        "Bacon Explosion, whose name comes from the United States, has bacon and sausage.",
+        "Bacon and sausage are the main ingredients in a Bacon Explosion, which comes from the United States."
+    ]
+}

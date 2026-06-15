@@ -1,0 +1,5 @@
+strict digraph {
+"Saranac_Lake,_New_York" [lexicon_key="Saranac_Lake,_New_York"];
+United_States [lexicon_key="United_States"];
+"Saranac_Lake,_New_York" -> United_States [label=isPartOf, lexicon_key=isPartOf];
+}

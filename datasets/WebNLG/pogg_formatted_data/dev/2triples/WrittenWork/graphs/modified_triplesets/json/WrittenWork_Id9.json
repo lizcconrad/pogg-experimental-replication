@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "A_Glastonbury_Romance": {
+            "lexicon_key": "A_Glastonbury_Romance"
+        },
+        "\"1174\"": {
+            "lexicon_key": "\"1174\""
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfPages",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "\"1174\"",
+            "edge_properties": {
+                "lexicon_key": "numberOfPages"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Glastonbury_Romance",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Glastonbury Romance has 1174 pages and is available in print."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Glastonbury Romance, currently in print, has 1174 pages."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Glastonbury Romance, 1174 pages, is available in print."
+        }
+    },
+    "gold_outputs": [
+        "A Glastonbury Romance has 1174 pages and is available in print.",
+        "A Glastonbury Romance, 1174 pages, is available in print.",
+        "A Glastonbury Romance, currently in print, has 1174 pages."
+    ]
+}

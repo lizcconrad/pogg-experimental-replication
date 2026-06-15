@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aleksandre_Guruli": {
+            "lexicon_key": "Aleksandre_Guruli"
+        },
+        "FC_Karpaty_Lviv": {
+            "lexicon_key": "FC_Karpaty_Lviv"
+        },
+        "FC_Dinamo_Batumi": {
+            "lexicon_key": "FC_Dinamo_Batumi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandre_Guruli",
+            "child_node": "FC_Karpaty_Lviv",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandre_Guruli",
+            "child_node": "FC_Dinamo_Batumi",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandre Guruli played for FC Karpaty Lviv and FC Dinamo Batumi."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandre Guruli's club is FC Karpaty Lviv and he also played for FC Dinamo Batumi."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandre Guruli plays for FC Karpaty Lviv club and FC Dinamo Batumi."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandre Guruli played for FC Karpaty Lviv and FC Dinamo Batumi.",
+        "Aleksandre Guruli plays for FC Karpaty Lviv club and FC Dinamo Batumi.",
+        "Aleksandre Guruli's club is FC Karpaty Lviv and he also played for FC Dinamo Batumi."
+    ]
+}

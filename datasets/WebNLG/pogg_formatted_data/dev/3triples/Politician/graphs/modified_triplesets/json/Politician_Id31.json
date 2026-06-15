@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Battle_of_Cold_Harbor": {
+            "lexicon_key": "Battle_of_Cold_Harbor"
+        },
+        "American_Civil_War": {
+            "lexicon_key": "American_Civil_War"
+        },
+        "Aaron_S._Daggett": {
+            "lexicon_key": "Aaron_S._Daggett"
+        },
+        "Robert_E._Lee": {
+            "lexicon_key": "Robert_E._Lee"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOfMilitaryConflict",
+            "parent_node": "Battle_of_Cold_Harbor",
+            "child_node": "American_Civil_War",
+            "edge_properties": {
+                "lexicon_key": "isPartOfMilitaryConflict"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "Aaron_S._Daggett",
+            "child_node": "Battle_of_Cold_Harbor",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "commander",
+            "parent_node": "American_Civil_War",
+            "child_node": "Robert_E._Lee",
+            "edge_properties": {
+                "lexicon_key": "commander"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Robert E Lee was a commander in the American Civil War when the Battle of Cold Harbor took place. Aaron S Daggett fought in this battle."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron S. Daggett battled in the Battle of Cold Harbour which took place during the American Civil War. Robert E. Lee was a commander in the American Civil War."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron S. Daggett fought in the American Civil War, Battle of Cold Harbour. Robert E Lee was a Civil War commander."
+        }
+    },
+    "gold_outputs": [
+        "Aaron S. Daggett battled in the Battle of Cold Harbour which took place during the American Civil War. Robert E. Lee was a commander in the American Civil War.",
+        "Aaron S. Daggett fought in the American Civil War, Battle of Cold Harbour. Robert E Lee was a Civil War commander.",
+        "Robert E Lee was a commander in the American Civil War when the Battle of Cold Harbor took place. Aaron S Daggett fought in this battle."
+    ]
+}

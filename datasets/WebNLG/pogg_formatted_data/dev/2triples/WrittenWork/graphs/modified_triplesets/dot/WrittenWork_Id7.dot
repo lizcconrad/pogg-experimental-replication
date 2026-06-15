@@ -1,0 +1,7 @@
+strict digraph {
+A_Glastonbury_Romance [lexicon_key="A_Glastonbury_Romance"];
+"Print" [lexicon_key="Print"];
+"0-7156-3648-0" [lexicon_key="0-7156-3648-0"];
+A_Glastonbury_Romance -> "Print" [label=mediaType, lexicon_key=mediaType];
+A_Glastonbury_Romance -> "0-7156-3648-0" [label=isbnNumber, lexicon_key=isbnNumber];
+}

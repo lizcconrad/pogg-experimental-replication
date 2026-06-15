@@ -1,0 +1,5 @@
+strict digraph {
+Bananaman [lexicon_key=Bananaman];
+"STV" [lexicon_key="STV"];
+Bananaman -> "STV" [label=broadcastedBy, lexicon_key=broadcastedBy];
+}

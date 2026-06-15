@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alan_Martin_(footballer)": {
+            "lexicon_key": "Alan_Martin_(footballer)"
+        },
+        "Crewe_Alexandra_F.C.": {
+            "lexicon_key": "Crewe_Alexandra_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alan_Martin_(footballer)",
+            "child_node": "Crewe_Alexandra_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Footballer, Alan Martin, plays for the club Crewe Alexandra F.C."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The footballer Alan Martin plays for Crewe Alexandra F.C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alan Martin is a footballer for the Crewe Alexandra FC."
+        }
+    },
+    "gold_outputs": [
+        "Alan Martin is a footballer for the Crewe Alexandra FC.",
+        "Footballer, Alan Martin, plays for the club Crewe Alexandra F.C.",
+        "The footballer Alan Martin plays for Crewe Alexandra F.C."
+    ]
+}

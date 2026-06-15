@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AFC_Ajax": {
+            "lexicon_key": "AFC_Ajax"
+        },
+        "AFC_Ajax_N.V.": {
+            "lexicon_key": "AFC_Ajax_N.V."
+        },
+        "53502": {
+            "lexicon_key": "53502"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "owner",
+            "parent_node": "AFC_Ajax",
+            "child_node": "AFC_Ajax_N.V.",
+            "edge_properties": {
+                "lexicon_key": "owner"
+            }
+        },
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "AFC_Ajax",
+            "child_node": "53502",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AFC Ajax has 53502 members and is the owner of AFC Ajax NV."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Ajax has 53502 members and is owned by AFC Ajax NV."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AFC Ajax has 53502 members and is owned by AFC Ajax N.V."
+        }
+    },
+    "gold_outputs": [
+        "AFC Ajax has 53502 members and is owned by AFC Ajax N.V.",
+        "AFC Ajax has 53502 members and is owned by AFC Ajax NV.",
+        "AFC Ajax has 53502 members and is the owner of AFC Ajax NV."
+    ]
+}

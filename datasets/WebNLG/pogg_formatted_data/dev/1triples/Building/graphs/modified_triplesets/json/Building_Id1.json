@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "103_Colmore_Row": {
+            "lexicon_key": "103_Colmore_Row"
+        },
+        "John_Madin": {
+            "lexicon_key": "John_Madin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "architect",
+            "parent_node": "103_Colmore_Row",
+            "child_node": "John_Madin",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "103 Colmore Row was designed by the architect, John Madin."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "103 Colmore Row was designed by the architect John Madin."
+        }
+    },
+    "gold_outputs": [
+        "103 Colmore Row was designed by the architect John Madin.",
+        "103 Colmore Row was designed by the architect, John Madin."
+    ]
+}

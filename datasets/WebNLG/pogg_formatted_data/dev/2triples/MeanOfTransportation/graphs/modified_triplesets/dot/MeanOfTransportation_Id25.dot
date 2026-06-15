@@ -1,0 +1,7 @@
+strict digraph {
+Audi_A1 [lexicon_key="Audi_A1"];
+Audi [lexicon_key=Audi];
+Ducati [lexicon_key=Ducati];
+Audi_A1 -> Audi [label=manufacturer, lexicon_key=manufacturer];
+Audi -> Ducati [label=subsidiary, lexicon_key=subsidiary];
+}

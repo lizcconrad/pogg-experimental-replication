@@ -1,0 +1,5 @@
+strict digraph {
+"Amarillo,_Texas" [lexicon_key="Amarillo,_Texas"];
+United_States [lexicon_key="United_States"];
+"Amarillo,_Texas" -> United_States [label=country, lexicon_key=country];
+}

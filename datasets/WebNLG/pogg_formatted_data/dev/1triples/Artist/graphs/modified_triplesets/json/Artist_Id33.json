@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Twilight_(band)": {
+            "lexicon_key": "Twilight_(band)"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Twilight_(band)",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The musical genre of the band Twilight is black metal."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Twilight performs black metal music."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The genre for the band Twilight, can be described as Black metal."
+        }
+    },
+    "gold_outputs": [
+        "The genre for the band Twilight, can be described as Black metal.",
+        "The musical genre of the band Twilight is black metal.",
+        "Twilight performs black metal music."
+    ]
+}

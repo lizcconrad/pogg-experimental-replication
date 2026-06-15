@@ -1,0 +1,7 @@
+strict digraph {
+Massimo_Drago [lexicon_key="Massimo_Drago"];
+"S.S._Chieti_Calcio" [lexicon_key="S.S._Chieti_Calcio"];
+"A.C._Cesena" [lexicon_key="A.C._Cesena"];
+Massimo_Drago -> "S.S._Chieti_Calcio" [label=club, lexicon_key=club];
+"A.C._Cesena" -> Massimo_Drago [label=manager, lexicon_key=manager];
+}

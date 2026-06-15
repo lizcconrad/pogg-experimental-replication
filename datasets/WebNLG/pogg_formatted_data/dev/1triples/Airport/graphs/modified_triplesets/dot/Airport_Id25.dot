@@ -1,0 +1,5 @@
+strict digraph {
+Belgium [lexicon_key=Belgium];
+Philippe_of_Belgium [lexicon_key="Philippe_of_Belgium"];
+Belgium -> Philippe_of_Belgium [label=leader, lexicon_key=leader];
+}

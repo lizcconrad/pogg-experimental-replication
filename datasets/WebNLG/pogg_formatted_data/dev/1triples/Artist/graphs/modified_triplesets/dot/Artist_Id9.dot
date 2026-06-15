@@ -1,0 +1,5 @@
+strict digraph {
+Ace_Wilder [lexicon_key="Ace_Wilder"];
+EMI_Records [lexicon_key="EMI_Records"];
+Ace_Wilder -> EMI_Records [label=recordLabel, lexicon_key=recordLabel];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Asser_Levy_Public_Baths [lexicon_key="Asser_Levy_Public_Baths"];
+"23rd_Street_(Manhattan)" [lexicon_key="23rd_Street_(Manhattan)"];
+1904 [lexicon_key=1904];
+Asser_Levy_Public_Baths -> "23rd_Street_(Manhattan)" [label=location, lexicon_key=location];
+Asser_Levy_Public_Baths -> 1904 [label=yearOfConstruction, lexicon_key=yearOfConstruction];
+}

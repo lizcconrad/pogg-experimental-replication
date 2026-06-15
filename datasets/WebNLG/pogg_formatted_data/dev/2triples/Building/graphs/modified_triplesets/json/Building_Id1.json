@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "11_Diagonal_Street": {
+            "lexicon_key": "11_Diagonal_Street"
+        },
+        "South_Africa": {
+            "lexicon_key": "South_Africa"
+        },
+        "Coloured": {
+            "lexicon_key": "Coloured"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "11_Diagonal_Street",
+            "child_node": "South_Africa",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "South_Africa",
+            "child_node": "Coloured",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "11 Diagonal Street is in South Africa. One South African group is the Coloured."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The address, 11 Diagonal Street is located in South Africa which is home to some coloured people."
+        }
+    },
+    "gold_outputs": [
+        "11 Diagonal Street is in South Africa. One South African group is the Coloured.",
+        "The address, 11 Diagonal Street is located in South Africa which is home to some coloured people."
+    ]
+}

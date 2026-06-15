@@ -1,0 +1,5 @@
+strict digraph {
+"N._R._Pogson" [lexicon_key="N._R._Pogson"];
+England [lexicon_key=England];
+"N._R._Pogson" -> England [label=nationality, lexicon_key=nationality];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Aenir": {
+            "lexicon_key": "Aenir"
+        },
+        "Garth_Nix": {
+            "lexicon_key": "Garth_Nix"
+        },
+        "\"0-439-17684-0\"": {
+            "lexicon_key": "\"0-439-17684-0\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "Aenir",
+            "child_node": "Garth_Nix",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        },
+        {
+            "edge_name": "isbnNumber",
+            "parent_node": "Aenir",
+            "child_node": "\"0-439-17684-0\"",
+            "edge_properties": {
+                "lexicon_key": "isbnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Written by Garth Nix, Aenir, has the ISBN number of \"0-439-17684-0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aenir was written by Garth Nix and has the ISBN number of 0-439-17684-0."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aenir was written by Garth Nix and has the ISBN number 0-439-17684-0."
+        }
+    },
+    "gold_outputs": [
+        "Aenir was written by Garth Nix and has the ISBN number 0-439-17684-0.",
+        "Aenir was written by Garth Nix and has the ISBN number of 0-439-17684-0.",
+        "Written by Garth Nix, Aenir, has the ISBN number of \"0-439-17684-0."
+    ]
+}

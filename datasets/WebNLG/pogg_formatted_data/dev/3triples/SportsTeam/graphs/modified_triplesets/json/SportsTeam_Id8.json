@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.F.C._Blackpool": {
+            "lexicon_key": "A.F.C._Blackpool"
+        },
+        "Stuart_Parker_(footballer)": {
+            "lexicon_key": "Stuart_Parker_(footballer)"
+        },
+        "KV_Mechelen": {
+            "lexicon_key": "KV_Mechelen"
+        },
+        "Irlam_Town_F.C.": {
+            "lexicon_key": "Irlam_Town_F.C."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.F.C._Blackpool",
+            "child_node": "Stuart_Parker_(footballer)",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "KV_Mechelen",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Stuart_Parker_(footballer)",
+            "child_node": "Irlam_Town_F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Stuart Parker is a member of the Irlam Town F.C. as well as the manager of A.F.C. Blackpool and has also represented the KV Mechelen club."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Blackpool have had Stuart Parker as their manager. He has represented the club KV Mechelen and is a member of the Irlam Town F.C."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AFC Blackpool have had Stuart Parker as their manager. He is attached to Irlam Town Football Club and is part of the KV Mechelen club."
+        }
+    },
+    "gold_outputs": [
+        "AFC Blackpool have had Stuart Parker as their manager. He has represented the club KV Mechelen and is a member of the Irlam Town F.C.",
+        "AFC Blackpool have had Stuart Parker as their manager. He is attached to Irlam Town Football Club and is part of the KV Mechelen club.",
+        "Stuart Parker is a member of the Irlam Town F.C. as well as the manager of A.F.C. Blackpool and has also represented the KV Mechelen club."
+    ]
+}

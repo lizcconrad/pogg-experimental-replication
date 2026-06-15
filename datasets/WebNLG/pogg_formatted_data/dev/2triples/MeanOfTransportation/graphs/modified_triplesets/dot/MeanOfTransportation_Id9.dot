@@ -1,0 +1,7 @@
+strict digraph {
+"ARA_Veinticinco_de_Mayo_(V-2)" [lexicon_key="ARA_Veinticinco_de_Mayo_(V-2)"];
+"192000.0 (millimetres)" [lexicon_key="192000.0 (millimetres)"];
+Argentina [lexicon_key=Argentina];
+"ARA_Veinticinco_de_Mayo_(V-2)" -> "192000.0 (millimetres)" [label=length, lexicon_key=length];
+"ARA_Veinticinco_de_Mayo_(V-2)" -> Argentina [label=country, lexicon_key=country];
+}

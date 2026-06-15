@@ -1,0 +1,9 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Ram_Rebellion"];
+Eric_Flint [lexicon_key="Eric_Flint"];
+"E-book" [lexicon_key="E-book"];
+"512" [lexicon_key="512"];
+1634:_The_Ram_Rebellion -> Eric_Flint [label=author, lexicon_key=author];
+1634:_The_Ram_Rebellion -> "E-book" [label=mediaType, lexicon_key=mediaType];
+1634:_The_Ram_Rebellion -> "512" [label=numberOfPages, lexicon_key=numberOfPages];
+}

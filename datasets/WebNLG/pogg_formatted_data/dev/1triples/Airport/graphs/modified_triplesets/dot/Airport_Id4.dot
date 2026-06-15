@@ -1,0 +1,5 @@
+strict digraph {
+Adirondack_Regional_Airport [lexicon_key="Adirondack_Regional_Airport"];
+"Harrietstown,_New_York" [lexicon_key="Harrietstown,_New_York"];
+Adirondack_Regional_Airport -> "Harrietstown,_New_York" [label=location, lexicon_key=location];
+}

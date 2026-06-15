@@ -1,0 +1,5 @@
+strict digraph {
+"1955_Dodge" [lexicon_key="1955_Dodge"];
+"Dodge Coronet" [lexicon_key="Dodge Coronet"];
+"1955_Dodge" -> "Dodge Coronet" [label=alternativeName, lexicon_key=alternativeName];
+}

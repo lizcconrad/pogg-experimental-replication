@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "John_van_den_Brom": {
+            "lexicon_key": "John_van_den_Brom"
+        },
+        "AZ_Alkmaar": {
+            "lexicon_key": "AZ_Alkmaar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "John_van_den_Brom",
+            "child_node": "AZ_Alkmaar",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "John van den Brom plays at the AZ Alkmaar club."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "John van den Brom plays for AZ Alkmaar."
+        }
+    },
+    "gold_outputs": [
+        "John van den Brom plays at the AZ Alkmaar club.",
+        "John van den Brom plays for AZ Alkmaar."
+    ]
+}

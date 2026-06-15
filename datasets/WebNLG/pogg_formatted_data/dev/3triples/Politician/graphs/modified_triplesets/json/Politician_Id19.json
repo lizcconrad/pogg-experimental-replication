@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Airey_Neave": {
+            "lexicon_key": "Airey_Neave"
+        },
+        "Battle_of_France": {
+            "lexicon_key": "Battle_of_France"
+        },
+        "1979-03-30": {
+            "lexicon_key": "1979-03-30"
+        },
+        "Order_of_the_British_Empire": {
+            "lexicon_key": "Order_of_the_British_Empire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Airey_Neave",
+            "child_node": "Battle_of_France",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "activeYearsEndDate",
+            "parent_node": "Airey_Neave",
+            "child_node": "1979-03-30",
+            "edge_properties": {
+                "lexicon_key": "activeYearsEndDate"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Airey_Neave",
+            "child_node": "Order_of_the_British_Empire",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Airey Neave, who was involved in the Battle of France, was awarded the Order of the British Empire and ended his career on 30th March 1979."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Airey Neave, who ended his career on 30 March 1979 participated in the Battle of France and was awarded the Order of the British Empire."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Airey Neave OBE, fought in the Battle of France and ended his career on 30th March 1979."
+        }
+    },
+    "gold_outputs": [
+        "Airey Neave OBE, fought in the Battle of France and ended his career on 30th March 1979.",
+        "Airey Neave, who ended his career on 30 March 1979 participated in the Battle of France and was awarded the Order of the British Empire.",
+        "Airey Neave, who was involved in the Battle of France, was awarded the Order of the British Empire and ended his career on 30th March 1979."
+    ]
+}

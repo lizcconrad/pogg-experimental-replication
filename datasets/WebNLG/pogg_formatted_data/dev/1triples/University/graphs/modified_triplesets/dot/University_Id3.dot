@@ -1,0 +1,5 @@
+strict digraph {
+Alba_Iulia [lexicon_key="Alba_Iulia"];
+Romania [lexicon_key=Romania];
+Alba_Iulia -> Romania [label=country, lexicon_key=country];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+AIDAluna [lexicon_key=AIDAluna];
+"2009-03-22" [lexicon_key="2009-03-22"];
+AIDAluna -> "2009-03-22" [label=activeYearsStartDate, lexicon_key=activeYearsStartDate];
+}

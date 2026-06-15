@@ -1,0 +1,7 @@
+strict digraph {
+"Al_Anderson_(NRBQ band)" [lexicon_key="Al_Anderson_(NRBQ band)"];
+Rock_music [lexicon_key="Rock_music"];
+Country_music [lexicon_key="Country_music"];
+"Al_Anderson_(NRBQ band)" -> Rock_music [label=genre, lexicon_key=genre];
+Rock_music -> Country_music [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+}

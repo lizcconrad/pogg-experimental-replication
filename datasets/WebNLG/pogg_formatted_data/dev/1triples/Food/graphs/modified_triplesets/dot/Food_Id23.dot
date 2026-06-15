@@ -1,0 +1,5 @@
+strict digraph {
+Derbyshire_Dales [lexicon_key="Derbyshire_Dales"];
+Patrick_McLoughlin [lexicon_key="Patrick_McLoughlin"];
+Derbyshire_Dales -> Patrick_McLoughlin [label=leader, lexicon_key=leader];
+}

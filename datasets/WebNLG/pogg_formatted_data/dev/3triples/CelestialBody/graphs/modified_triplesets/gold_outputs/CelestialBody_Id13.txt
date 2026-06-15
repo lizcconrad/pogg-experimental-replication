@@ -1,0 +1,2 @@
+The celestial body known as 1099 Figneria has a temperature of 156 kelvins, an apoapsis of 605718000.0 km and an escape velocity of 0.0155 km per sec.
+The celestial body known as 1099 Figneria has a temperature of 156 kelvins, escape velocity of 0.0155 k.p.s. and an apoapsis of 605718000.0 kms.

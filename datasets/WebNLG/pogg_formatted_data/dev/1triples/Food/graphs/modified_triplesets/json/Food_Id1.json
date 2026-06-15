@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ajoblanco": {
+            "lexicon_key": "Ajoblanco"
+        },
+        "\"Ajo blanco\"": {
+            "lexicon_key": "\"Ajo blanco\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "alternativeName",
+            "parent_node": "Ajoblanco",
+            "child_node": "\"Ajo blanco\"",
+            "edge_properties": {
+                "lexicon_key": "alternativeName"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The alternative name for Ajoblanco is \"Ajo blanco\"."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ajo blanco is an alternative name to Ajoblanco."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ajo blanco is an alternative name of Ajoblanco."
+        }
+    },
+    "gold_outputs": [
+        "Ajo blanco is an alternative name of Ajoblanco.",
+        "Ajo blanco is an alternative name to Ajoblanco.",
+        "The alternative name for Ajoblanco is \"Ajo blanco\"."
+    ]
+}

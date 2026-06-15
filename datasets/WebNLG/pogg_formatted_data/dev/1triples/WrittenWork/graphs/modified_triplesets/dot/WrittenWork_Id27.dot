@@ -1,0 +1,5 @@
+strict digraph {
+United_States [lexicon_key="United_States"];
+Joe_Biden [lexicon_key="Joe_Biden"];
+United_States -> Joe_Biden [label=leader, lexicon_key=leader];
+}

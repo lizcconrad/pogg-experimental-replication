@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Arr\u00f2s_negre": {
+            "lexicon_key": "Arr\u00f2s_negre"
+        },
+        "Valencian_Community": {
+            "lexicon_key": "Valencian_Community"
+        },
+        "Spain": {
+            "lexicon_key": "Spain"
+        },
+        "Cuttlefish": {
+            "lexicon_key": "Cuttlefish"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "region",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Valencian_Community",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Spain",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arr\u00f2s_negre",
+            "child_node": "Cuttlefish",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Cuttlefish is an ingredient in Arr\u00f2s negre which comes from the region of the Valencian Community, in Spain."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Cuttlefish is an ingredient of the dish Arr\u00f2s negre, which is a dish that comes from the Valencian community in Spain."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Cuttlefish is an ingredient in Arr\u00f2s negre, which is a traditional dish from the Valencian community in Spain."
+        }
+    },
+    "gold_outputs": [
+        "Cuttlefish is an ingredient in Arr\u00f2s negre which comes from the region of the Valencian Community, in Spain.",
+        "Cuttlefish is an ingredient in Arr\u00f2s negre, which is a traditional dish from the Valencian community in Spain.",
+        "Cuttlefish is an ingredient of the dish Arr\u00f2s negre, which is a dish that comes from the Valencian community in Spain."
+    ]
+}

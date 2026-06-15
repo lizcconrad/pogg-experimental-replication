@@ -1,0 +1,7 @@
+strict digraph {
+Adam_Koc [lexicon_key="Adam_Koc"];
+World_War_I [lexicon_key="World_War_I"];
+Virtuti_Militari [lexicon_key="Virtuti_Militari"];
+Adam_Koc -> World_War_I [label=battle, lexicon_key=battle];
+Adam_Koc -> Virtuti_Militari [label=award, lexicon_key=award];
+}

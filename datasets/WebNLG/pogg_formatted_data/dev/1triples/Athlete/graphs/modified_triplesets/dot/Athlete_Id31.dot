@@ -1,0 +1,5 @@
+strict digraph {
+Florida_Panthers [lexicon_key="Florida_Panthers"];
+Dale_Tallon [lexicon_key="Dale_Tallon"];
+Florida_Panthers -> Dale_Tallon [label=generalManager, lexicon_key=generalManager];
+}

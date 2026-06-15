@@ -1,0 +1,9 @@
+strict digraph {
+"A-Rosa_Luna" [lexicon_key="A-Rosa_Luna"];
+Cruise_ship [lexicon_key="Cruise_ship"];
+"125800.0 (millimetres)" [lexicon_key="125800.0 (millimetres)"];
+"2004-01-22" [lexicon_key="2004-01-22"];
+"A-Rosa_Luna" -> Cruise_ship [label=shipClass, lexicon_key=shipClass];
+"A-Rosa_Luna" -> "125800.0 (millimetres)" [label=length, lexicon_key=length];
+"A-Rosa_Luna" -> "2004-01-22" [label=shipOrdered, lexicon_key=shipOrdered];
+}

@@ -1,0 +1,9 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+"GMA_Network_(company)" [lexicon_key="GMA_Network_(company)"];
+Public_company [lexicon_key="Public_company"];
+Felipe_Gozon [lexicon_key="Felipe_Gozon"];
+GMA_New_Media -> "GMA_Network_(company)" [label=parentCompany, lexicon_key=parentCompany];
+GMA_New_Media -> Felipe_Gozon [label=keyPerson, lexicon_key=keyPerson];
+"GMA_Network_(company)" -> Public_company [label=type, lexicon_key=type];
+}

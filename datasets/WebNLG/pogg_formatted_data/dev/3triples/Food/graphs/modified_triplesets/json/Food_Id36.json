@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "Jakarta": {
+            "lexicon_key": "Jakarta"
+        },
+        "Jusuf_Kalla": {
+            "lexicon_key": "Jusuf_Kalla"
+        },
+        "Bakso": {
+            "lexicon_key": "Bakso"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "Indonesia",
+            "child_node": "Jakarta",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Indonesia",
+            "child_node": "Jusuf_Kalla",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Bakso",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and one of the leaders is Jusuf Kalla."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The dish bakso comes from Indonesia where Jusuf Kalla is the leader and Jakarta is the capital city."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and the leader is Jusuf Kalla."
+        }
+    },
+    "gold_outputs": [
+        "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and one of the leaders is Jusuf Kalla.",
+        "Bakso is a dish from the country of Indonesia, where the capital is Jakarta and the leader is Jusuf Kalla.",
+        "The dish bakso comes from Indonesia where Jusuf Kalla is the leader and Jakarta is the capital city."
+    ]
+}

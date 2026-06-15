@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aaron_Turner": {
+            "lexicon_key": "Aaron_Turner"
+        },
+        "Twilight_(band)": {
+            "lexicon_key": "Twilight_(band)"
+        },
+        "Sumac_(band)": {
+            "lexicon_key": "Sumac_(band)"
+        },
+        "Black_metal": {
+            "lexicon_key": "Black_metal"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Twilight_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Sumac_(band)",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Aaron_Turner",
+            "child_node": "Black_metal",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Turner played with the bands Twilight and Sumac. He performs black metal music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Turner played with the bands Twilight and Sumac and Black Metal is his music genre."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Turner played with the bands Twilight and Sumac. He is a Black metal musician."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Turner played with the bands Twilight and Sumac and Black Metal is his music genre.",
+        "Aaron Turner played with the bands Twilight and Sumac. He is a Black metal musician.",
+        "Aaron Turner played with the bands Twilight and Sumac. He performs black metal music."
+    ]
+}

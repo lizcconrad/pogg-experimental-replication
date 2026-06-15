@@ -1,0 +1,5 @@
+strict digraph {
+Premier_Development_League [lexicon_key="Premier_Development_League"];
+"K-W_United_FC" [lexicon_key="K-W_United_FC"];
+Premier_Development_League -> "K-W_United_FC" [label=champions, lexicon_key=champions];
+}

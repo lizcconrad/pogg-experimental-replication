@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Aleksandre_Guruli": {
+            "lexicon_key": "Aleksandre_Guruli"
+        },
+        "FC_Karpaty_Lviv": {
+            "lexicon_key": "FC_Karpaty_Lviv"
+        },
+        "AS_Lyon-Duch\u00e8re": {
+            "lexicon_key": "AS_Lyon-Duch\u00e8re"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandre_Guruli",
+            "child_node": "FC_Karpaty_Lviv",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandre_Guruli",
+            "child_node": "AS_Lyon-Duch\u00e8re",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandre Guruli's former clubs include FC Karpaty Lviv and AS Lyon-Duch\u00e8re."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandre Guruli plays for FC Karpaty Lviv and AS Lyon-Duchere."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandre Guruli plays for FC Karpaty Lviv and AS Lyon-Duchere.",
+        "Aleksandre Guruli's former clubs include FC Karpaty Lviv and AS Lyon-Duch\u00e8re."
+    ]
+}

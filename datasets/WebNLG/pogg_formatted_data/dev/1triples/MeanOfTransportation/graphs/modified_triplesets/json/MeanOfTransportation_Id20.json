@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alhambra": {
+            "lexicon_key": "Alhambra"
+        },
+        "18.52": {
+            "lexicon_key": "18.52"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "topSpeed",
+            "parent_node": "Alhambra",
+            "child_node": "18.52",
+            "edge_properties": {
+                "lexicon_key": "topSpeed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Alhambra had a top speed of 18.52 km/h."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Alhambra has a top speed of 18.52."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The top speed of the Alhambra is 18.52."
+        }
+    },
+    "gold_outputs": [
+        "The Alhambra had a top speed of 18.52 km/h.",
+        "The Alhambra has a top speed of 18.52.",
+        "The top speed of the Alhambra is 18.52."
+    ]
+}

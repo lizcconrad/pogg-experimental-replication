@@ -1,0 +1,9 @@
+strict digraph {
+Abdulsalami_Abubakar [lexicon_key="Abdulsalami_Abubakar"];
+Olusegun_Obasanjo [lexicon_key="Olusegun_Obasanjo"];
+Nigerian_Air_Force [lexicon_key="Nigerian_Air_Force"];
+Atiku_Abubakar [lexicon_key="Atiku_Abubakar"];
+Abdulsalami_Abubakar -> Olusegun_Obasanjo [label=successor, lexicon_key=successor];
+Abdulsalami_Abubakar -> Nigerian_Air_Force [label=militaryBranch, lexicon_key=militaryBranch];
+Olusegun_Obasanjo -> Atiku_Abubakar [label=inOfficeWhileVicePresident, lexicon_key=inOfficeWhileVicePresident];
+}

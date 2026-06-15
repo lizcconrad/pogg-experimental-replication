@@ -1,0 +1,5 @@
+strict digraph {
+Ahmad_Kadhim_Assad [lexicon_key="Ahmad_Kadhim_Assad"];
+Iraq [lexicon_key=Iraq];
+Ahmad_Kadhim_Assad -> Iraq [label=birthPlace, lexicon_key=birthPlace];
+}

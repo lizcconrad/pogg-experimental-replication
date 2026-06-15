@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Denmark": {
+            "lexicon_key": "Denmark"
+        },
+        "Copenhagen": {
+            "lexicon_key": "Copenhagen"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "capital",
+            "parent_node": "Denmark",
+            "child_node": "Copenhagen",
+            "edge_properties": {
+                "lexicon_key": "capital"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The capital of Denmark is Copenhagen."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Copenhagen is the capital of Denmark."
+        }
+    },
+    "gold_outputs": [
+        "Copenhagen is the capital of Denmark.",
+        "The capital of Denmark is Copenhagen."
+    ]
+}

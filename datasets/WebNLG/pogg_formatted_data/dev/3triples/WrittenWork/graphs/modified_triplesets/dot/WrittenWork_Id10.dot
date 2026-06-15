@@ -1,0 +1,9 @@
+strict digraph {
+AIP_Advances [lexicon_key="AIP_Advances"];
+"A.T._Charlie_Johnson" [lexicon_key="A.T._Charlie_Johnson"];
+"AIP Adv." [lexicon_key="AIP Adv."];
+"AAIDBI" [lexicon_key="AAIDBI"];
+AIP_Advances -> "A.T._Charlie_Johnson" [label=editor, lexicon_key=editor];
+AIP_Advances -> "AIP Adv." [label=abbreviation, lexicon_key=abbreviation];
+AIP_Advances -> "AAIDBI" [label=codenCode, lexicon_key=codenCode];
+}

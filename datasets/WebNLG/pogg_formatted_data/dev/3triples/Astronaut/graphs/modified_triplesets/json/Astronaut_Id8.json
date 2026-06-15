@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "William_Anders": {
+            "lexicon_key": "William_Anders"
+        },
+        "\"1933-10-17\"": {
+            "lexicon_key": "\"1933-10-17\""
+        },
+        "British_Hong_Kong": {
+            "lexicon_key": "British_Hong_Kong"
+        },
+        "Apollo_8": {
+            "lexicon_key": "Apollo_8"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthDate",
+            "parent_node": "William_Anders",
+            "child_node": "\"1933-10-17\"",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "William_Anders",
+            "child_node": "British_Hong_Kong",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "mission",
+            "parent_node": "William_Anders",
+            "child_node": "Apollo_8",
+            "edge_properties": {
+                "lexicon_key": "mission"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born on October 17th, 1933 in British Hong Kong, William Anders would serve as a crew member on Apollo 8."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "William Anders who was born on 17 October 1933 in British Hong Kong later served as a crew member of Apollo 8."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "William Anders, who was born in British Hong Kong on the 17th of October 1933, crewed Apollo 8."
+        }
+    },
+    "gold_outputs": [
+        "Born on October 17th, 1933 in British Hong Kong, William Anders would serve as a crew member on Apollo 8.",
+        "William Anders who was born on 17 October 1933 in British Hong Kong later served as a crew member of Apollo 8.",
+        "William Anders, who was born in British Hong Kong on the 17th of October 1933, crewed Apollo 8."
+    ]
+}

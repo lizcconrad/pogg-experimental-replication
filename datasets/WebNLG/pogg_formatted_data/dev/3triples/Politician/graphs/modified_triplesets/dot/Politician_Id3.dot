@@ -1,0 +1,9 @@
+strict digraph {
+Abdul_Taib_Mahmud [lexicon_key="Abdul_Taib_Mahmud"];
+Sarawak [lexicon_key=Sarawak];
+Kingdom_of_Sarawak [lexicon_key="Kingdom_of_Sarawak"];
+"Barisan Ra'ayat Jati Sarawak" [lexicon_key="Barisan Ra'ayat Jati Sarawak"];
+Abdul_Taib_Mahmud -> Sarawak [label=residence, lexicon_key=residence];
+Abdul_Taib_Mahmud -> Kingdom_of_Sarawak [label=birthPlace, lexicon_key=birthPlace];
+Abdul_Taib_Mahmud -> "Barisan Ra'ayat Jati Sarawak" [label=party, lexicon_key=party];
+}

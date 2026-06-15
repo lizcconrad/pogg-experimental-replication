@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Alvah_Sabin": {
+            "lexicon_key": "Alvah_Sabin"
+        },
+        "1857-03-03": {
+            "lexicon_key": "1857-03-03"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsEndDate",
+            "parent_node": "Alvah_Sabin",
+            "child_node": "1857-03-03",
+            "edge_properties": {
+                "lexicon_key": "activeYearsEndDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alvah Sabin ended their career on 1857-03-03."
+        }
+    },
+    "gold_outputs": [
+        "Alvah Sabin ended their career on 1857-03-03."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+AIDAluna [lexicon_key=AIDAluna];
+"Sphinx class cruise ship" [lexicon_key="Sphinx class cruise ship"];
+AIDAluna -> "Sphinx class cruise ship" [label=shipClass, lexicon_key=shipClass];
+}

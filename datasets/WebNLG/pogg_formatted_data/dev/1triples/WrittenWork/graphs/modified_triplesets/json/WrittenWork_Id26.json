@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "Elizabeth_II": {
+            "lexicon_key": "Elizabeth_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "United_Kingdom",
+            "child_node": "Elizabeth_II",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Elizabeth II is a leader in the United Kingdom."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The leader of the United Kingdom is Elizabeth II."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Elizabeth II is the leader in the UK."
+        }
+    },
+    "gold_outputs": [
+        "Elizabeth II is a leader in the United Kingdom.",
+        "Elizabeth II is the leader in the UK.",
+        "The leader of the United Kingdom is Elizabeth II."
+    ]
+}

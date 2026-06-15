@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Baked_Alaska": {
+            "lexicon_key": "Baked_Alaska"
+        },
+        "\"France, United States or China\"": {
+            "lexicon_key": "\"France, United States or China\""
+        },
+        "Christmas_pudding": {
+            "lexicon_key": "Christmas_pudding"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Baked_Alaska",
+            "child_node": "\"France, United States or China\"",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Baked_Alaska",
+            "child_node": "Christmas_pudding",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Baked Alaska is thought to have originated in the United States, France or China, and contains Christmas pudding as an ingredient."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "France, United States and China all claim to have invented Baked Alaska which can have Christmas pudding as an ingredient."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Christmas pudding is an ingredient in Baked Alaska which is from France, the United States and China."
+        }
+    },
+    "gold_outputs": [
+        "Baked Alaska is thought to have originated in the United States, France or China, and contains Christmas pudding as an ingredient.",
+        "Christmas pudding is an ingredient in Baked Alaska which is from France, the United States and China.",
+        "France, United States and China all claim to have invented Baked Alaska which can have Christmas pudding as an ingredient."
+    ]
+}

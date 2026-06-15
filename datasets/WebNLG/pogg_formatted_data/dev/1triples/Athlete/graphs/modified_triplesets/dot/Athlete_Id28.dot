@@ -1,0 +1,5 @@
+strict digraph {
+FC_Terek_Grozny [lexicon_key="FC_Terek_Grozny"];
+Grozny [lexicon_key=Grozny];
+FC_Terek_Grozny -> Grozny [label=ground, lexicon_key=ground];
+}

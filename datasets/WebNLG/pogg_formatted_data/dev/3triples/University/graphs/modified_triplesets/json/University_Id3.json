@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "\"B.M. Reddy\"": {
+            "lexicon_key": "\"B.M. Reddy\""
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "\"India\"": {
+            "lexicon_key": "\"India\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "president",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"B.M. Reddy\"",
+            "edge_properties": {
+                "lexicon_key": "president"
+            }
+        },
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"India\"",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "B.M. Reddy is the president of the Acharya Institute of Technology, which is located in Bangalore, India."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Acharya Institute of Technology is in Bangalore, India. Its president is B.M. Reddy."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Acharya Institute of Technology (Bangalore, India) has B. M. Reddy as its president."
+        }
+    },
+    "gold_outputs": [
+        "B.M. Reddy is the president of the Acharya Institute of Technology, which is located in Bangalore, India.",
+        "The Acharya Institute of Technology (Bangalore, India) has B. M. Reddy as its president.",
+        "The Acharya Institute of Technology is in Bangalore, India. Its president is B.M. Reddy."
+    ]
+}

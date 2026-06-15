@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "Bill_Oddie": {
+            "lexicon_key": "Bill_Oddie"
+        },
+        "Lancashire": {
+            "lexicon_key": "Lancashire"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "starring",
+            "parent_node": "Bananaman",
+            "child_node": "Bill_Oddie",
+            "edge_properties": {
+                "lexicon_key": "starring"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Bill_Oddie",
+            "child_node": "Lancashire",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bill Oddie, who stars in Bananaman, was born in Lancashire."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bananaman starred Bill Oddie who was born in Lancashire."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bill Oddie, who was born in Lancashire, starred in Bananaman."
+        }
+    },
+    "gold_outputs": [
+        "Bananaman starred Bill Oddie who was born in Lancashire.",
+        "Bill Oddie, who stars in Bananaman, was born in Lancashire.",
+        "Bill Oddie, who was born in Lancashire, starred in Bananaman."
+    ]
+}

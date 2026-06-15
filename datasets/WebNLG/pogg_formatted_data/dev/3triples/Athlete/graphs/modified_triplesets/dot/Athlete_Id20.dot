@@ -1,0 +1,9 @@
+strict digraph {
+Aleksandre_Guruli [lexicon_key="Aleksandre_Guruli"];
+Olympique_Lyonnais [lexicon_key="Olympique_Lyonnais"];
+Parc_Olympique_Lyonnais [lexicon_key="Parc_Olympique_Lyonnais"];
+AZAL_PFK [lexicon_key="AZAL_PFK"];
+Aleksandre_Guruli -> Olympique_Lyonnais [label=club, lexicon_key=club];
+Aleksandre_Guruli -> AZAL_PFK [label=club, lexicon_key=club];
+Olympique_Lyonnais -> Parc_Olympique_Lyonnais [label=ground, lexicon_key=ground];
+}

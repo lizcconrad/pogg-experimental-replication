@@ -1,0 +1,7 @@
+strict digraph {
+"Hull_City_A.F.C." [lexicon_key="Hull_City_A.F.C."];
+Steve_Bruce [lexicon_key="Steve_Bruce"];
+"Abel_Hernández" [lexicon_key="Abel_Hernández"];
+"Hull_City_A.F.C." -> Steve_Bruce [label=manager, lexicon_key=manager];
+"Abel_Hernández" -> "Hull_City_A.F.C." [label=club, lexicon_key=club];
+}

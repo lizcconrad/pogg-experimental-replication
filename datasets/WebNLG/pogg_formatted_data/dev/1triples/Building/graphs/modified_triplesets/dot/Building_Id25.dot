@@ -1,0 +1,5 @@
+strict digraph {
+Marriott_International [lexicon_key="Marriott_International"];
+Bill_Marriott [lexicon_key="Bill_Marriott"];
+Marriott_International -> Bill_Marriott [label=keyPerson, lexicon_key=keyPerson];
+}

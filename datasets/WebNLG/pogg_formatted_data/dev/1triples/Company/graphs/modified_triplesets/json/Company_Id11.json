@@ -1,0 +1,44 @@
+{
+    "nodes": {
+        "Swords,_Dublin": {
+            "lexicon_key": "Swords,_Dublin"
+        },
+        "\"County Manager\"": {
+            "lexicon_key": "\"County Manager\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Swords,_Dublin",
+            "child_node": "\"County Manager\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The title of the leader of Swords, Dublin is County Manager."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The County Manager is the leader of Swords, Dublin."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The leader title of Swords, Dublin is County Manager."
+        },
+        "Id4": {
+            "comment": "good",
+            "text": "Swords, Dublin is led by a county manager."
+        }
+    },
+    "gold_outputs": [
+        "Swords, Dublin is led by a county manager.",
+        "The County Manager is the leader of Swords, Dublin.",
+        "The leader title of Swords, Dublin is County Manager.",
+        "The title of the leader of Swords, Dublin is County Manager."
+    ]
+}

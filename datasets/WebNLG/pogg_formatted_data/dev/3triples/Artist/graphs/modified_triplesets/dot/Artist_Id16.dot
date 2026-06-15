@@ -1,0 +1,9 @@
+strict digraph {
+Albennie_Jones [lexicon_key="Albennie_Jones"];
+Jazz [lexicon_key=Jazz];
+Blues [lexicon_key=Blues];
+Afrobeat [lexicon_key=Afrobeat];
+Albennie_Jones -> Jazz [label=genre, lexicon_key=genre];
+Jazz -> Blues [label=stylisticOrigin, lexicon_key=stylisticOrigin];
+Jazz -> Afrobeat [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+}

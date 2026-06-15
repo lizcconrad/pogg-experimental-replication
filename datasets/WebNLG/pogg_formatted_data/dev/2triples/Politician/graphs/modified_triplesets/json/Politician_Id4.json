@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "Parti_Pesaka_Bumiputera_Bersatu": {
+            "lexicon_key": "Parti_Pesaka_Bumiputera_Bersatu"
+        },
+        "Miri,_Malaysia": {
+            "lexicon_key": "Miri,_Malaysia"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "party",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Parti_Pesaka_Bumiputera_Bersatu",
+            "edge_properties": {
+                "lexicon_key": "party"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Miri,_Malaysia",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Miri, Malaysia, is the birthplace of Abdul Taib Mahmud, whose party is the Parti Pesaka Bumiputera Bersatu."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud, was born in Miri, Malaysia, and is part of the Parti Pesaka Bumiputera Bersatu."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud, who was born in Miri, Malaysia, belongs to the Party Pesaka Bumiputera Bersatu."
+        }
+    },
+    "gold_outputs": [
+        "Abdul Taib Mahmud, was born in Miri, Malaysia, and is part of the Parti Pesaka Bumiputera Bersatu.",
+        "Abdul Taib Mahmud, who was born in Miri, Malaysia, belongs to the Party Pesaka Bumiputera Bersatu.",
+        "Miri, Malaysia, is the birthplace of Abdul Taib Mahmud, whose party is the Parti Pesaka Bumiputera Bersatu."
+    ]
+}

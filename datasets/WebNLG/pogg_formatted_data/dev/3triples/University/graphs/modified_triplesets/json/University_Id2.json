@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Acharya_Institute_of_Technology": {
+            "lexicon_key": "Acharya_Institute_of_Technology"
+        },
+        "Bangalore": {
+            "lexicon_key": "Bangalore"
+        },
+        "\"Nurturing Excellence\"": {
+            "lexicon_key": "\"Nurturing Excellence\""
+        },
+        "\"India\"": {
+            "lexicon_key": "\"India\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "city",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "Bangalore",
+            "edge_properties": {
+                "lexicon_key": "city"
+            }
+        },
+        {
+            "edge_name": "motto",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"Nurturing Excellence\"",
+            "edge_properties": {
+                "lexicon_key": "motto"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Acharya_Institute_of_Technology",
+            "child_node": "\"India\"",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Acharya Institute of Technology is located in Bangalore, India and its motto is: \"Nurturing Excellence\"."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Acharya Institute of Technology in Bangalore, India has the motto \"Nurturing Excellence\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Acharya Institute of Technology is in Bangalore, India and its motto is\"Nurturing Excellence\"."
+        }
+    },
+    "gold_outputs": [
+        "Acharya Institute of Technology is in Bangalore, India and its motto is\"Nurturing Excellence\".",
+        "The Acharya Institute of Technology in Bangalore, India has the motto \"Nurturing Excellence\".",
+        "The Acharya Institute of Technology is located in Bangalore, India and its motto is: \"Nurturing Excellence\"."
+    ]
+}

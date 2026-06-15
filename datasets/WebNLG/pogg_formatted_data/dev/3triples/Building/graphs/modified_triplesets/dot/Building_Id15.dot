@@ -1,0 +1,9 @@
+strict digraph {
+Akita_Museum_of_Art [lexicon_key="Akita_Museum_of_Art"];
+"Akita,_Akita" [lexicon_key="Akita,_Akita"];
+Akita_Prefecture [lexicon_key="Akita_Prefecture"];
+Japan [lexicon_key=Japan];
+Akita_Museum_of_Art -> "Akita,_Akita" [label=location, lexicon_key=location];
+Akita_Museum_of_Art -> Akita_Prefecture [label=location, lexicon_key=location];
+"Akita,_Akita" -> Japan [label=country, lexicon_key=country];
+}

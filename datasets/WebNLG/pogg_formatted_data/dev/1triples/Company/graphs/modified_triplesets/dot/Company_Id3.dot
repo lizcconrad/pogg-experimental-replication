@@ -1,0 +1,5 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Felipe_Gozon [lexicon_key="Felipe_Gozon"];
+GMA_New_Media -> Felipe_Gozon [label=keyPerson, lexicon_key=keyPerson];
+}

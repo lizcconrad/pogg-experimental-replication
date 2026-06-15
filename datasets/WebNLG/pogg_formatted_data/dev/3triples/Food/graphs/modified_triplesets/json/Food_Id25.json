@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Beef_kway_teow": {
+            "lexicon_key": "Beef_kway_teow"
+        },
+        "Oyster_sauce": {
+            "lexicon_key": "Oyster_sauce"
+        },
+        "Indonesia": {
+            "lexicon_key": "Indonesia"
+        },
+        "\"Singapore and Indonesia\"": {
+            "lexicon_key": "\"Singapore and Indonesia\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Oyster_sauce",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "Indonesia",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Beef_kway_teow",
+            "child_node": "\"Singapore and Indonesia\"",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A dish commonly found in Singapore and Indonesia is beef kway teow which has oyster sauce as a main ingredient."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Beef kway teow contains oyster sauce and is found in Indonesia and Singapore."
+        }
+    },
+    "gold_outputs": [
+        "A dish commonly found in Singapore and Indonesia is beef kway teow which has oyster sauce as a main ingredient.",
+        "Beef kway teow contains oyster sauce and is found in Indonesia and Singapore."
+    ]
+}

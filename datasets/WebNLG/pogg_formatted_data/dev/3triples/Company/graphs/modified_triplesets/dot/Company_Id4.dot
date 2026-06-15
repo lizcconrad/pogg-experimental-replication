@@ -1,0 +1,9 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Mass_Media [lexicon_key="Mass_Media"];
+Philippines [lexicon_key=Philippines];
+Quezon_City [lexicon_key="Quezon_City"];
+GMA_New_Media -> Mass_Media [label=industry, lexicon_key=industry];
+GMA_New_Media -> Philippines [label=location, lexicon_key=location];
+GMA_New_Media -> Quezon_City [label=location, lexicon_key=location];
+}

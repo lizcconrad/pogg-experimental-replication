@@ -1,0 +1,9 @@
+strict digraph {
+Alfredo_Zitarrosa [lexicon_key="Alfredo_Zitarrosa"];
+RCA_Records [lexicon_key="RCA_Records"];
+"Zamba_(artform)" [lexicon_key="Zamba_(artform)"];
+"solo_singer" [lexicon_key="solo_singer"];
+Alfredo_Zitarrosa -> RCA_Records [label=recordLabel, lexicon_key=recordLabel];
+Alfredo_Zitarrosa -> "Zamba_(artform)" [label=genre, lexicon_key=genre];
+Alfredo_Zitarrosa -> "solo_singer" [label=background, lexicon_key=background];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Ariane_5": {
+            "lexicon_key": "Ariane_5"
+        },
+        "Airbus_Defence_and_Space": {
+            "lexicon_key": "Airbus_Defence_and_Space"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Ariane_5",
+            "child_node": "Airbus_Defence_and_Space",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Ariane 5 was manufactured by Airbus Defence and Space."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The manufacturer of the Ariane 5 was The Airbus Defence and Space."
+        }
+    },
+    "gold_outputs": [
+        "The Ariane 5 was manufactured by Airbus Defence and Space.",
+        "The manufacturer of the Ariane 5 was The Airbus Defence and Space."
+    ]
+}

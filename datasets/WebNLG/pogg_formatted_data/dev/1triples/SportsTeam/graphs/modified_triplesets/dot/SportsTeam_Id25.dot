@@ -1,0 +1,5 @@
+strict digraph {
+"Jens_Härtel" [lexicon_key="Jens_Härtel"];
+"SV_Germania_Schöneiche" [lexicon_key="SV_Germania_Schöneiche"];
+"Jens_Härtel" -> "SV_Germania_Schöneiche" [label=club, lexicon_key=club];
+}

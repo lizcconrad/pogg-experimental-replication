@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense": {
+            "lexicon_key": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense"
+        },
+        "Est\u00e1dio_Municipal_Coaracy_da_Mata_Fonseca": {
+            "lexicon_key": "Est\u00e1dio_Municipal_Coaracy_da_Mata_Fonseca"
+        },
+        "Brazil": {
+            "lexicon_key": "Brazil"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "Agremia\u00e7\u00e3o_Sportiva_Arapiraquense",
+            "child_node": "Est\u00e1dio_Municipal_Coaracy_da_Mata_Fonseca",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Est\u00e1dio_Municipal_Coaracy_da_Mata_Fonseca",
+            "child_node": "Brazil",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Agremiacao Sportiva Arapiraquense's ground is the Estadio Municipal Coaracy da Mata Fonseca, its located in Brazil."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Est\u00e1dio Municipal Coaracy da Mata Fonseca is located in Brazil and is the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Est\u00e1dio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense which is in Brazil."
+        }
+    },
+    "gold_outputs": [
+        "Agremiacao Sportiva Arapiraquense's ground is the Estadio Municipal Coaracy da Mata Fonseca, its located in Brazil.",
+        "Est\u00e1dio Municipal Coaracy da Mata Fonseca is located in Brazil and is the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense.",
+        "Est\u00e1dio Municipal Coaracy da Mata Fonseca is the name of the ground of Agremia\u00e7\u00e3o Sportiva Arapiraquense which is in Brazil."
+    ]
+}

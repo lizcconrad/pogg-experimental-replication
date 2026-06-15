@@ -1,0 +1,5 @@
+strict digraph {
+Italy [lexicon_key=Italy];
+Italians [lexicon_key=Italians];
+Italy -> Italians [label=demonym, lexicon_key=demonym];
+}

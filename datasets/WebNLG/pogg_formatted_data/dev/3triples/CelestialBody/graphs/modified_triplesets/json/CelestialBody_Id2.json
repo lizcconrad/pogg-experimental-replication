@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "(66063)_1998_RO1": {
+            "lexicon_key": "(66063)_1998_RO1"
+        },
+        "-71.0 (degreeCelsius)": {
+            "lexicon_key": "-71.0 (degreeCelsius)"
+        },
+        "500.0 (kelvins)": {
+            "lexicon_key": "500.0 (kelvins)"
+        },
+        "254989570.60815 (kilometres)": {
+            "lexicon_key": "254989570.60815 (kilometres)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "minimumTemperature",
+            "parent_node": "(66063)_1998_RO1",
+            "child_node": "-71.0 (degreeCelsius)",
+            "edge_properties": {
+                "lexicon_key": "minimumTemperature"
+            }
+        },
+        {
+            "edge_name": "maximumTemperature",
+            "parent_node": "(66063)_1998_RO1",
+            "child_node": "500.0 (kelvins)",
+            "edge_properties": {
+                "lexicon_key": "maximumTemperature"
+            }
+        },
+        {
+            "edge_name": "apoapsis",
+            "parent_node": "(66063)_1998_RO1",
+            "child_node": "254989570.60815 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "apoapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(66063) 1998 RO1 has an apoapsis of 254989570.60815 km, a maximum temperature of 500 kelvins and a minimum temperature of -71 degrees celsius."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "With an apoapsis of 254989570.60815 kilometres, (66063) 1998 RO1, has a minimum temperature of -71.0 degrees Celsius and a maximum temperature of 500.0 kelvins."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The minimum temperature of (66063) 1998 RO1 is -71.0 deg celsius and its max temperature is 500.0 (kelvins). It has an apoapsis of 254989570.60815 kilometres."
+        }
+    },
+    "gold_outputs": [
+        "(66063) 1998 RO1 has an apoapsis of 254989570.60815 km, a maximum temperature of 500 kelvins and a minimum temperature of -71 degrees celsius.",
+        "The minimum temperature of (66063) 1998 RO1 is -71.0 deg celsius and its max temperature is 500.0 (kelvins). It has an apoapsis of 254989570.60815 kilometres.",
+        "With an apoapsis of 254989570.60815 kilometres, (66063) 1998 RO1, has a minimum temperature of -71.0 degrees Celsius and a maximum temperature of 500.0 kelvins."
+    ]
+}

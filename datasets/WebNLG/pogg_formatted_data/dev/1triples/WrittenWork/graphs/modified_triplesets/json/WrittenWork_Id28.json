@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Wolf_Solent": {
+            "lexicon_key": "Wolf_Solent"
+        },
+        "John_Cowper_Powys": {
+            "lexicon_key": "John_Cowper_Powys"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "author",
+            "parent_node": "Wolf_Solent",
+            "child_node": "John_Cowper_Powys",
+            "edge_properties": {
+                "lexicon_key": "author"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "John Cowper Powys is the author of Wolf Solent."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "John Cowper Powys is the author of \"Wolf Solent\"."
+        }
+    },
+    "gold_outputs": [
+        "John Cowper Powys is the author of \"Wolf Solent\".",
+        "John Cowper Powys is the author of Wolf Solent."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+Aaron_Hunt [lexicon_key="Aaron_Hunt"];
+VfL_Wolfsburg [lexicon_key="VfL_Wolfsburg"];
+Goslarer_SC_08 [lexicon_key="Goslarer_SC_08"];
+SV_Werder_Bremen [lexicon_key="SV_Werder_Bremen"];
+Aaron_Hunt -> VfL_Wolfsburg [label=club, lexicon_key=club];
+Aaron_Hunt -> Goslarer_SC_08 [label=youthclub, lexicon_key=youthclub];
+Aaron_Hunt -> SV_Werder_Bremen [label=club, lexicon_key=club];
+}

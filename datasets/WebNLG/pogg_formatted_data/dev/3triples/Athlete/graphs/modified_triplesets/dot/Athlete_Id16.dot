@@ -1,0 +1,9 @@
+strict digraph {
+"Aleksander_Barkov,_Jr." [lexicon_key="Aleksander_Barkov,_Jr."];
+1995 [lexicon_key=1995];
+Florida_Panthers [lexicon_key="Florida_Panthers"];
+"1995-09-02" [lexicon_key="1995-09-02"];
+"Aleksander_Barkov,_Jr." -> 1995 [label=birthYear, lexicon_key=birthYear];
+"Aleksander_Barkov,_Jr." -> Florida_Panthers [label=club, lexicon_key=club];
+"Aleksander_Barkov,_Jr." -> "1995-09-02" [label=birthDate, lexicon_key=birthDate];
+}

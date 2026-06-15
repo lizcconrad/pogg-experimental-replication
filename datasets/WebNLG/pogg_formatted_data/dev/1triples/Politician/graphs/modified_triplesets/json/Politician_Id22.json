@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alfred_Moore_Scales": {
+            "lexicon_key": "Alfred_Moore_Scales"
+        },
+        "Battle_of_Chancellorsville": {
+            "lexicon_key": "Battle_of_Chancellorsville"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Alfred_Moore_Scales",
+            "child_node": "Battle_of_Chancellorsville",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfred Moore Scales took part in the Battle of Chancellorsville."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfred Moore Scales fought in the Battle of Chancellorsville."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfred Moore Scales was involved in the Battle of Chancellorsville."
+        }
+    },
+    "gold_outputs": [
+        "Alfred Moore Scales fought in the Battle of Chancellorsville.",
+        "Alfred Moore Scales took part in the Battle of Chancellorsville.",
+        "Alfred Moore Scales was involved in the Battle of Chancellorsville."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "SAGE_Publications": {
+            "lexicon_key": "SAGE_Publications"
+        },
+        "Sara_Miller_McCune": {
+            "lexicon_key": "Sara_Miller_McCune"
+        },
+        "Administrative_Science_Quarterly": {
+            "lexicon_key": "Administrative_Science_Quarterly"
+        },
+        "\"Admin. Sci. Q.\"": {
+            "lexicon_key": "\"Admin. Sci. Q.\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "founder",
+            "parent_node": "SAGE_Publications",
+            "child_node": "Sara_Miller_McCune",
+            "edge_properties": {
+                "lexicon_key": "founder"
+            }
+        },
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "Administrative_Science_Quarterly",
+            "child_node": "\"Admin. Sci. Q.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "publisher",
+            "parent_node": "Administrative_Science_Quarterly",
+            "child_node": "SAGE_Publications",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Administrative Science Quarterly (Admin. Sci. Q.) is published by SAGE Publications which was founded by Sara Miller McCune."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Administrative Science Quarterly (Admin. Sci. Q.) is published by SAGE Publications whose founder is Sara Miller McCune."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Sara Miller McCune is the founder of SAGE publications which publishes the Administrative Science Quarterly. The abbreviation for the Administrative Science Quarterly is Admin. Sci. Q."
+        }
+    },
+    "gold_outputs": [
+        "Administrative Science Quarterly (Admin. Sci. Q.) is published by SAGE Publications which was founded by Sara Miller McCune.",
+        "Administrative Science Quarterly (Admin. Sci. Q.) is published by SAGE Publications whose founder is Sara Miller McCune.",
+        "Sara Miller McCune is the founder of SAGE publications which publishes the Administrative Science Quarterly. The abbreviation for the Administrative Science Quarterly is Admin. Sci. Q."
+    ]
+}

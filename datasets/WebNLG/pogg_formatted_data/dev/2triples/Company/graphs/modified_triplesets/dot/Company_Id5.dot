@@ -1,0 +1,7 @@
+strict digraph {
+GMA_New_Media [lexicon_key="GMA_New_Media"];
+Mobile_Applications [lexicon_key="Mobile_Applications"];
+Mass_Media [lexicon_key="Mass_Media"];
+GMA_New_Media -> Mobile_Applications [label=product, lexicon_key=product];
+GMA_New_Media -> Mass_Media [label=industry, lexicon_key=industry];
+}

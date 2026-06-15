@@ -1,0 +1,9 @@
+strict digraph {
+"300_North_LaSalle" [lexicon_key="300_North_LaSalle"];
+Chicago [lexicon_key=Chicago];
+Rahm_Emanuel [lexicon_key="Rahm_Emanuel"];
+United_States [lexicon_key="United_States"];
+"300_North_LaSalle" -> Chicago [label=location, lexicon_key=location];
+Chicago -> Rahm_Emanuel [label=leader, lexicon_key=leader];
+Chicago -> United_States [label=country, lexicon_key=country];
+}

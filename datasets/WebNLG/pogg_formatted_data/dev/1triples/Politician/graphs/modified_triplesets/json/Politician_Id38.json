@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Poland": {
+            "lexicon_key": "Poland"
+        },
+        "Kashubian_language": {
+            "lexicon_key": "Kashubian_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Poland",
+            "child_node": "Kashubian_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Kashubian language is spoken in Poland."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The language spoken in Poland is the Kashubian language."
+        }
+    },
+    "gold_outputs": [
+        "The Kashubian language is spoken in Poland.",
+        "The language spoken in Poland is the Kashubian language."
+    ]
+}

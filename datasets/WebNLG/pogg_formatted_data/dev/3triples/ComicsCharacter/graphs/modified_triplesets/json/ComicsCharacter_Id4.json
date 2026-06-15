@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Baymax": {
+            "lexicon_key": "Baymax"
+        },
+        "Big_Hero_6_(film)": {
+            "lexicon_key": "Big_Hero_6_(film)"
+        },
+        "Duncan_Rouleau": {
+            "lexicon_key": "Duncan_Rouleau"
+        },
+        "Steven_T._Seagle": {
+            "lexicon_key": "Steven_T._Seagle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "firstAppearanceInFilm",
+            "parent_node": "Baymax",
+            "child_node": "Big_Hero_6_(film)",
+            "edge_properties": {
+                "lexicon_key": "firstAppearanceInFilm"
+            }
+        },
+        {
+            "edge_name": "creator",
+            "parent_node": "Baymax",
+            "child_node": "Duncan_Rouleau",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "creator",
+            "parent_node": "Baymax",
+            "child_node": "Steven_T._Seagle",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Baymax first appeared in Big Hero 6 and was created by Duncan Rouleau and Steven T. Seagle."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Baymax's first film appearance was in Big Hero 6. He was created by Duncan Rouleau and Steven T Seagle."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Duncan Rouleau and Steven T. Seagle created Baymax who had his first movie appearance in Big Hero 6."
+        }
+    },
+    "gold_outputs": [
+        "Baymax first appeared in Big Hero 6 and was created by Duncan Rouleau and Steven T. Seagle.",
+        "Baymax's first film appearance was in Big Hero 6. He was created by Duncan Rouleau and Steven T Seagle.",
+        "Duncan Rouleau and Steven T. Seagle created Baymax who had his first movie appearance in Big Hero 6."
+    ]
+}

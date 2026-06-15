@@ -1,0 +1,5 @@
+strict digraph {
+Dublin [lexicon_key=Dublin];
+Leinster [lexicon_key=Leinster];
+Dublin -> Leinster [label=isPartOf, lexicon_key=isPartOf];
+}

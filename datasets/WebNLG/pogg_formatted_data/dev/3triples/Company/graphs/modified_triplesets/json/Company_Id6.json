@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Hypermarcas": {
+            "lexicon_key": "Hypermarcas"
+        },
+        "2001-01-01": {
+            "lexicon_key": "2001-01-01"
+        },
+        "S.A._(corporation)": {
+            "lexicon_key": "S.A._(corporation)"
+        },
+        "108600000": {
+            "lexicon_key": "108600000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Hypermarcas",
+            "child_node": "2001-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "type",
+            "parent_node": "Hypermarcas",
+            "child_node": "S.A._(corporation)",
+            "edge_properties": {
+                "lexicon_key": "type"
+            }
+        },
+        {
+            "edge_name": "netIncome",
+            "parent_node": "Hypermarcas",
+            "child_node": "108600000",
+            "edge_properties": {
+                "lexicon_key": "netIncome"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Hypermarcas was founded Jan. 1, 2001 as a type of S.A. corporation that has a current net income of 108,600,000."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Hypermarcas, a type of S.A. (corporation), has a net income of 108,600,000, and was founded on January 1, 2001."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Hypermarcas is an S.A. corporation founded on January 1, 2001, and has a net income of $108,600,000."
+        }
+    },
+    "gold_outputs": [
+        "Hypermarcas is an S.A. corporation founded on January 1, 2001, and has a net income of $108,600,000.",
+        "Hypermarcas was founded Jan. 1, 2001 as a type of S.A. corporation that has a current net income of 108,600,000.",
+        "Hypermarcas, a type of S.A. (corporation), has a net income of 108,600,000, and was founded on January 1, 2001."
+    ]
+}

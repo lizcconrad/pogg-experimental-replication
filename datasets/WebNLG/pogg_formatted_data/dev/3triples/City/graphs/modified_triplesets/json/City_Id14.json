@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Atlanta": {
+            "lexicon_key": "Atlanta"
+        },
+        "404, 678, 470": {
+            "lexicon_key": "404, 678, 470"
+        },
+        "347.1 (square kilometres)": {
+            "lexicon_key": "347.1 (square kilometres)"
+        },
+        "1299.0 (inhabitants per square kilometre)": {
+            "lexicon_key": "1299.0 (inhabitants per square kilometre)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "areaCode",
+            "parent_node": "Atlanta",
+            "child_node": "404, 678, 470",
+            "edge_properties": {
+                "lexicon_key": "areaCode"
+            }
+        },
+        {
+            "edge_name": "areaTotal",
+            "parent_node": "Atlanta",
+            "child_node": "347.1 (square kilometres)",
+            "edge_properties": {
+                "lexicon_key": "areaTotal"
+            }
+        },
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Atlanta",
+            "child_node": "1299.0 (inhabitants per square kilometre)",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Atlanta has a population density of 1299 inhabitants per square kilometre, area codes of 404, 678 and 470, and a total area of 347.1."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Atlanta has the area codes 404, 678, and 470 and its total area is 347.1 km. The population density there is 1299 people per sq. km."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Atlanta; has a total area of 347.1 square kilometres, a population density of 1299.0 inhabitants per square kilometre, and the area codes: 404, 678, and 470."
+        }
+    },
+    "gold_outputs": [
+        "Atlanta has a population density of 1299 inhabitants per square kilometre, area codes of 404, 678 and 470, and a total area of 347.1.",
+        "Atlanta has the area codes 404, 678, and 470 and its total area is 347.1 km. The population density there is 1299 people per sq. km.",
+        "Atlanta; has a total area of 347.1 square kilometres, a population density of 1299.0 inhabitants per square kilometre, and the area codes: 404, 678, and 470."
+    ]
+}

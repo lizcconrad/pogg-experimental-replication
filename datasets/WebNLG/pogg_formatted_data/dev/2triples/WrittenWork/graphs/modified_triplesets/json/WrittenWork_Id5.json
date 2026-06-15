@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "AIDS_(journal)": {
+            "lexicon_key": "AIDS_(journal)"
+        },
+        "United_Kingdom": {
+            "lexicon_key": "United_Kingdom"
+        },
+        "Elizabeth_II": {
+            "lexicon_key": "Elizabeth_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "AIDS_(journal)",
+            "child_node": "United_Kingdom",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "United_Kingdom",
+            "child_node": "Elizabeth_II",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AIDS journal is from the United Kingdom whose leader is Elizabeth II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The AIDS journal was published in the United Kingdom whose leader is Elizabeth II."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The AIDS journal was published in the United Kingdom, where the leader is Elizabeth II."
+        }
+    },
+    "gold_outputs": [
+        "AIDS journal is from the United Kingdom whose leader is Elizabeth II.",
+        "The AIDS journal was published in the United Kingdom whose leader is Elizabeth II.",
+        "The AIDS journal was published in the United Kingdom, where the leader is Elizabeth II."
+    ]
+}

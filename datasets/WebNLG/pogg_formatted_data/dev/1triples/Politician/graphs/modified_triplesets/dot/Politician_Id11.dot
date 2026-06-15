@@ -1,0 +1,5 @@
+strict digraph {
+"Abraham_A._Ribicoff" [lexicon_key="Abraham_A._Ribicoff"];
+"Anthony_J._Celebrezze" [lexicon_key="Anthony_J._Celebrezze"];
+"Abraham_A._Ribicoff" -> "Anthony_J._Celebrezze" [label=successor, lexicon_key=successor];
+}

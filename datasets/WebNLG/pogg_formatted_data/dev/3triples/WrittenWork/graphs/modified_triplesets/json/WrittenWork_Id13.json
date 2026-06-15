@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A_Loyal_Character_Dancer": {
+            "lexicon_key": "A_Loyal_Character_Dancer"
+        },
+        "Soho_Press": {
+            "lexicon_key": "Soho_Press"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "African_Americans": {
+            "lexicon_key": "African_Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "publisher",
+            "parent_node": "A_Loyal_Character_Dancer",
+            "child_node": "Soho_Press",
+            "edge_properties": {
+                "lexicon_key": "publisher"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "A_Loyal_Character_Dancer",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "African_Americans",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Loyal Character Dancer was published by Soho Press in the United States, which counts African Americans among its ethnic groups."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Loyal Character Dancer was published in the United States by Soho Press. One of the ethnic groups in the US are African Americans."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Loyal Character Dancer is published by Soho Press in the United States where the African Americans are an ethnic group."
+        }
+    },
+    "gold_outputs": [
+        "A Loyal Character Dancer is published by Soho Press in the United States where the African Americans are an ethnic group.",
+        "A Loyal Character Dancer was published by Soho Press in the United States, which counts African Americans among its ethnic groups.",
+        "A Loyal Character Dancer was published in the United States by Soho Press. One of the ethnic groups in the US are African Americans."
+    ]
+}

@@ -1,0 +1,9 @@
+strict digraph {
+"A.F.C._Fylde" [lexicon_key="A.F.C._Fylde"];
+"Warton,_Fylde" [lexicon_key="Warton,_Fylde"];
+3180 [lexicon_key=3180];
+"Association Football Club Fylde" [lexicon_key="Association Football Club Fylde"];
+"A.F.C._Fylde" -> "Warton,_Fylde" [label=ground, lexicon_key=ground];
+"A.F.C._Fylde" -> 3180 [label=numberOfMembers, lexicon_key=numberOfMembers];
+"A.F.C._Fylde" -> "Association Football Club Fylde" [label=fullName, lexicon_key=fullName];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Austin,_Texas": {
+            "lexicon_key": "Austin,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Travis_County,_Texas": {
+            "lexicon_key": "Travis_County,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Austin,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Austin,_Texas",
+            "child_node": "Travis_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Austin is part of Travis County, Texas, is United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Austin is part of Travis County, which is in Texas, United States."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Austin is part of Travis County, in Texas, located within the country of the United States."
+        }
+    },
+    "gold_outputs": [
+        "Austin is part of Travis County, Texas, is United States.",
+        "Austin is part of Travis County, in Texas, located within the country of the United States.",
+        "Austin is part of Travis County, which is in Texas, United States."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Fulton_County,_Georgia": {
+            "lexicon_key": "Fulton_County,_Georgia"
+        },
+        "Atlanta": {
+            "lexicon_key": "Atlanta"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "largestCity",
+            "parent_node": "Fulton_County,_Georgia",
+            "child_node": "Atlanta",
+            "edge_properties": {
+                "lexicon_key": "largestCity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Atlanta is the largest city of Fulton County, Georgia."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Atlanta is the largest city in Fulton County, Georgia."
+        }
+    },
+    "gold_outputs": [
+        "Atlanta is the largest city in Fulton County, Georgia.",
+        "Atlanta is the largest city of Fulton County, Georgia."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Aleksandr_Prudnikov": {
+            "lexicon_key": "Aleksandr_Prudnikov"
+        },
+        "FC_Spartak_Moscow": {
+            "lexicon_key": "FC_Spartak_Moscow"
+        },
+        "1989-02-24": {
+            "lexicon_key": "1989-02-24"
+        },
+        "FC_Kuban_Krasnodar": {
+            "lexicon_key": "FC_Kuban_Krasnodar"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Spartak_Moscow",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "birthDate",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "1989-02-24",
+            "edge_properties": {
+                "lexicon_key": "birthDate"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Aleksandr_Prudnikov",
+            "child_node": "FC_Kuban_Krasnodar",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov was born on 24 February 1989 and his club is the FC Spartak Moscow, but he also plays for FC Kuban Krasnodar."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov, who was born on 24 February 1989, is attached to FC Spartak Moscow and plays for FC Kuban Krasnodar."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aleksandr Prudnikov was born on 24th February 1989 and he played for FC Spartak Moscow but currently plays for FC Kuban Krasnodar."
+        }
+    },
+    "gold_outputs": [
+        "Aleksandr Prudnikov was born on 24 February 1989 and his club is the FC Spartak Moscow, but he also plays for FC Kuban Krasnodar.",
+        "Aleksandr Prudnikov was born on 24th February 1989 and he played for FC Spartak Moscow but currently plays for FC Kuban Krasnodar.",
+        "Aleksandr Prudnikov, who was born on 24 February 1989, is attached to FC Spartak Moscow and plays for FC Kuban Krasnodar."
+    ]
+}

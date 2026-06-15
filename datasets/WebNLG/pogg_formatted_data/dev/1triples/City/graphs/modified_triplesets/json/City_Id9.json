@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Amarillo,_Texas": {
+            "lexicon_key": "Amarillo,_Texas"
+        },
+        "Potter_County,_Texas": {
+            "lexicon_key": "Potter_County,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Amarillo,_Texas",
+            "child_node": "Potter_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Amarillo is part of Potter County in Texas."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amarillo is part of Potter County, Texas."
+        }
+    },
+    "gold_outputs": [
+        "Amarillo is part of Potter County in Texas.",
+        "Amarillo is part of Potter County, Texas."
+    ]
+}

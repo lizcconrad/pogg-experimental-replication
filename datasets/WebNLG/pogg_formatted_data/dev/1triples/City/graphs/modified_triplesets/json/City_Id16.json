@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Ann_Arbor,_Michigan": {
+            "lexicon_key": "Ann_Arbor,_Michigan"
+        },
+        "1580.7 (inhabitants per square kilometre)": {
+            "lexicon_key": "1580.7 (inhabitants per square kilometre)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "populationDensity",
+            "parent_node": "Ann_Arbor,_Michigan",
+            "child_node": "1580.7 (inhabitants per square kilometre)",
+            "edge_properties": {
+                "lexicon_key": "populationDensity"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The city of Ann Arbor, Michigan, has a population of 1580.7 as per square kilometre."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AnnArbor, Michigan has a population of 1580.7 peer square kilometer."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The population density of Ann Arbor, Michigan is 1580.7 inhabitants per sq km."
+        }
+    },
+    "gold_outputs": [
+        "AnnArbor, Michigan has a population of 1580.7 peer square kilometer.",
+        "The city of Ann Arbor, Michigan, has a population of 1580.7 as per square kilometre.",
+        "The population density of Ann Arbor, Michigan is 1580.7 inhabitants per sq km."
+    ]
+}

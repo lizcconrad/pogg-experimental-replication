@@ -1,0 +1,5 @@
+strict digraph {
+Acura_TLX [lexicon_key="Acura_TLX"];
+"9-speed ZF 9HP automatic (V6)" [lexicon_key="9-speed ZF 9HP automatic (V6)"];
+Acura_TLX -> "9-speed ZF 9HP automatic (V6)" [label=transmission, lexicon_key=transmission];
+}

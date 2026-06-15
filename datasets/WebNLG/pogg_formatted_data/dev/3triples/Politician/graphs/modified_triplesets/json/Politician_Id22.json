@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Albert_Jennings_Fountain": {
+            "lexicon_key": "Albert_Jennings_Fountain"
+        },
+        "New_Mexico_Territory": {
+            "lexicon_key": "New_Mexico_Territory"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Staten_Island": {
+            "lexicon_key": "Staten_Island"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Albert_Jennings_Fountain",
+            "child_node": "New_Mexico_Territory",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Albert_Jennings_Fountain",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Albert_Jennings_Fountain",
+            "child_node": "Staten_Island",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albert Jennings Fountain was born in Staten Island, United States, and died in New Mexico Territory."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Born in Staten Island, United States, Albert Jennings Fountain died in the New Mexico Territory."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albert Jennings Fountain's place of death was in the New Mexico Territory, but he was born in Staten Island, New York."
+        }
+    },
+    "gold_outputs": [
+        "Albert Jennings Fountain was born in Staten Island, United States, and died in New Mexico Territory.",
+        "Albert Jennings Fountain's place of death was in the New Mexico Territory, but he was born in Staten Island, New York.",
+        "Born in Staten Island, United States, Albert Jennings Fountain died in the New Mexico Territory."
+    ]
+}

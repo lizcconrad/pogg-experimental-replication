@@ -1,0 +1,7 @@
+strict digraph {
+Alternative_rock [lexicon_key="Alternative_rock"];
+Nu_metal [lexicon_key="Nu_metal"];
+"Andrew_White_(musician)" [lexicon_key="Andrew_White_(musician)"];
+Alternative_rock -> Nu_metal [label=musicFusionGenre, lexicon_key=musicFusionGenre];
+"Andrew_White_(musician)" -> Alternative_rock [label=genre, lexicon_key=genre];
+}

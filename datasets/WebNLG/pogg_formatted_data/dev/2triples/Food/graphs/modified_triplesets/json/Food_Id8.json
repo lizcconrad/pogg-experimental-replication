@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Arrabbiata_sauce": {
+            "lexicon_key": "Arrabbiata_sauce"
+        },
+        "Tomato": {
+            "lexicon_key": "Tomato"
+        },
+        "Italy": {
+            "lexicon_key": "Italy"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Tomato",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Arrabbiata_sauce",
+            "child_node": "Italy",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Tomatoes are found in Arrabbiata sauce which comes from Italy."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Tomatoes are an ingredient of Arrabbiata sauce from Italy."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Tomatoes are found in Arrabbiata sauce, which originated in Italy."
+        }
+    },
+    "gold_outputs": [
+        "Tomatoes are an ingredient of Arrabbiata sauce from Italy.",
+        "Tomatoes are found in Arrabbiata sauce which comes from Italy.",
+        "Tomatoes are found in Arrabbiata sauce, which originated in Italy."
+    ]
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Asam_pedas [lexicon_key="Asam_pedas"];
+Malaysia [lexicon_key=Malaysia];
+Asam_pedas -> Malaysia [label=country, lexicon_key=country];
+}

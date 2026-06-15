@@ -1,0 +1,5 @@
+strict digraph {
+Adonis_Georgiadis [lexicon_key="Adonis_Georgiadis"];
+"Deputy Minister for Development, Competitiveness and Shipping" [lexicon_key="Deputy Minister for Development, Competitiveness and Shipping"];
+Adonis_Georgiadis -> "Deputy Minister for Development, Competitiveness and Shipping" [label=office, lexicon_key=office];
+}

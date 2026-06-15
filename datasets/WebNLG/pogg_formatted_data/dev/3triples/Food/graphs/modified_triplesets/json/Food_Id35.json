@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Dessert": {
+            "lexicon_key": "Dessert"
+        },
+        "Cake": {
+            "lexicon_key": "Cake"
+        },
+        "Bionico": {
+            "lexicon_key": "Bionico"
+        },
+        "Granola": {
+            "lexicon_key": "Granola"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dishVariation",
+            "parent_node": "Dessert",
+            "child_node": "Cake",
+            "edge_properties": {
+                "lexicon_key": "dishVariation"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bionico",
+            "child_node": "Granola",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "course",
+            "parent_node": "Bionico",
+            "child_node": "Dessert",
+            "edge_properties": {
+                "lexicon_key": "course"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bionico is a dessert that requires granola as one of its ingredients; it can be eaten as an alternative to cake."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bionico requires granola as one of its ingredients, it is served at the dessert course, like cake."
+        }
+    },
+    "gold_outputs": [
+        "Bionico is a dessert that requires granola as one of its ingredients; it can be eaten as an alternative to cake.",
+        "Bionico requires granola as one of its ingredients, it is served at the dessert course, like cake."
+    ]
+}

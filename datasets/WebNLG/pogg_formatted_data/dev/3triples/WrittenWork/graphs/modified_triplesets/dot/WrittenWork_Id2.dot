@@ -1,0 +1,9 @@
+strict digraph {
+1634 [lexicon_key="1634:_The_Bavarian_Crisis"];
+Eric_Flint [lexicon_key="Eric_Flint"];
+1634 [lexicon_key="1634:_The_Baltic_War"];
+"Burbank,_California" [lexicon_key="Burbank,_California"];
+1634:_The_Bavarian_Crisis -> Eric_Flint [label=author, lexicon_key=author];
+1634:_The_Bavarian_Crisis -> 1634:_The_Baltic_War [label=precededBy, lexicon_key=precededBy];
+Eric_Flint -> "Burbank,_California" [label=birthPlace, lexicon_key=birthPlace];
+}

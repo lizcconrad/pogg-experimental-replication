@@ -1,0 +1,5 @@
+strict digraph {
+Siomay [lexicon_key=Siomay];
+Shumai [lexicon_key=Shumai];
+Siomay -> Shumai [label=dishVariation, lexicon_key=dishVariation];
+}

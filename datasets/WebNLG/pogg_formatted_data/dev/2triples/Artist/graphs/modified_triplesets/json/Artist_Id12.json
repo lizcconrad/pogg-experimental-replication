@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alex_Day": {
+            "lexicon_key": "Alex_Day"
+        },
+        "Synthpop": {
+            "lexicon_key": "Synthpop"
+        },
+        "Disco": {
+            "lexicon_key": "Disco"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "genre",
+            "parent_node": "Alex_Day",
+            "child_node": "Synthpop",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        },
+        {
+            "edge_name": "stylisticOrigin",
+            "parent_node": "Synthpop",
+            "child_node": "Disco",
+            "edge_properties": {
+                "lexicon_key": "stylisticOrigin"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The musical genre of Alex Day is Synthpop which is a derivative of disco music."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alex Day is a Synthpop artist, a derivative of disco."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Synthpop, originated from Disco and is the musical genre of Alex Day."
+        }
+    },
+    "gold_outputs": [
+        "Alex Day is a Synthpop artist, a derivative of disco.",
+        "Synthpop, originated from Disco and is the musical genre of Alex Day.",
+        "The musical genre of Alex Day is Synthpop which is a derivative of disco music."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bhajji": {
+            "lexicon_key": "Bhajji"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "Sumitra_Mahajan": {
+            "lexicon_key": "Sumitra_Mahajan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bhajji",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "Sumitra_Mahajan",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bhajji originates from India and Sumitra Mahajan is its leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bhajji comes from India where the leader is Sumitra Mahajan."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bhajji originates from India where the leader is Sumitra Mahajan."
+        }
+    },
+    "gold_outputs": [
+        "Bhajji comes from India where the leader is Sumitra Mahajan.",
+        "Bhajji originates from India and Sumitra Mahajan is its leader.",
+        "Bhajji originates from India where the leader is Sumitra Mahajan."
+    ]
+}

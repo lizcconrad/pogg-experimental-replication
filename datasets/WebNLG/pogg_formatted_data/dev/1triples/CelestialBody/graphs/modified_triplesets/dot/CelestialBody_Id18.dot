@@ -1,0 +1,5 @@
+strict digraph {
+"1101_Clematis" [lexicon_key="1101_Clematis"];
+445895000000.0 [lexicon_key=445895000000.0];
+"1101_Clematis" -> 445895000000.0 [label=periapsis, lexicon_key=periapsis];
+}

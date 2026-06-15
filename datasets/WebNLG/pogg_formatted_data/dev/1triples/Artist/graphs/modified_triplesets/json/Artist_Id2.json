@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Aaron_Deer": {
+            "lexicon_key": "Aaron_Deer"
+        },
+        "The_Horns_of_Happiness": {
+            "lexicon_key": "The_Horns_of_Happiness"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "associatedBand/associatedMusicalArtist",
+            "parent_node": "Aaron_Deer",
+            "child_node": "The_Horns_of_Happiness",
+            "edge_properties": {
+                "lexicon_key": "associatedBand/associatedMusicalArtist"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Aaron Deer collaborates with The Horns of Happiness."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Aaron Deer plays with The Horns of Happiness."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Deer collaborates with The Horns of Happiness.",
+        "Aaron Deer plays with The Horns of Happiness."
+    ]
+}

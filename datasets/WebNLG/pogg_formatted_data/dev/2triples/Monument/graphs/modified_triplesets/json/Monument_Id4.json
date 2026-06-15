@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "Dead_Man's_Plack": {
+            "lexicon_key": "Dead_Man's_Plack"
+        },
+        "\u00c6thelwald,_Ealdorman_of_East_Anglia": {
+            "lexicon_key": "\u00c6thelwald,_Ealdorman_of_East_Anglia"
+        },
+        "Rock_(geology)": {
+            "lexicon_key": "Rock_(geology)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "dedicatedTo",
+            "parent_node": "Dead_Man's_Plack",
+            "child_node": "\u00c6thelwald,_Ealdorman_of_East_Anglia",
+            "edge_properties": {
+                "lexicon_key": "dedicatedTo"
+            }
+        },
+        {
+            "edge_name": "material",
+            "parent_node": "Dead_Man's_Plack",
+            "child_node": "Rock_(geology)",
+            "edge_properties": {
+                "lexicon_key": "material"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Dead Man's Plack, which is made of rock, is dedicated to \u00c6thelwald, Ealdorman of East Anglia."
+        }
+    },
+    "gold_outputs": [
+        "The Dead Man's Plack, which is made of rock, is dedicated to \u00c6thelwald, Ealdorman of East Anglia."
+    ]
+}

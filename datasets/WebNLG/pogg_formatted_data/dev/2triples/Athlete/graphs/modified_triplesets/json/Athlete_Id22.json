@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Canada": {
+            "lexicon_key": "Canada"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Aaron_Boogaard": {
+            "lexicon_key": "Aaron_Boogaard"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Canada",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Aaron_Boogaard",
+            "child_node": "Canada",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Canada uses the spoken language of English and is the birthplace of Aaron Boogaard."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Canada uses the English language and is the birthplace of Aaron Boogaard."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Aaron Boogaard was born in Canada, where the English language is spoken."
+        }
+    },
+    "gold_outputs": [
+        "Aaron Boogaard was born in Canada, where the English language is spoken.",
+        "Canada uses the English language and is the birthplace of Aaron Boogaard.",
+        "Canada uses the spoken language of English and is the birthplace of Aaron Boogaard."
+    ]
+}

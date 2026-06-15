@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Ashgabat_International_Airport": {
+            "lexicon_key": "Ashgabat_International_Airport"
+        },
+        "Ashgabat": {
+            "lexicon_key": "Ashgabat"
+        },
+        "3800.0": {
+            "lexicon_key": "3800.0"
+        },
+        "211": {
+            "lexicon_key": "211"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Ashgabat_International_Airport",
+            "child_node": "Ashgabat",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Ashgabat_International_Airport",
+            "child_node": "3800.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        },
+        {
+            "edge_name": "elevationAboveTheSeaLevelInMetres",
+            "parent_node": "Ashgabat_International_Airport",
+            "child_node": "211",
+            "edge_properties": {
+                "lexicon_key": "elevationAboveTheSeaLevelInMetres"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Ashgabat International Airport (located in Ashgabat) is elevated 211 metres above sea level and has a runway length of 3800."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Ashgabat is the location of Ashgabat International Airport which has a runway length of 3800.0 and is 211 metres above sea level."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Ashgabat International airport is located in Ashgabat at 211 metres above sea level and has a runway length of 3800.0."
+        }
+    },
+    "gold_outputs": [
+        "Ashgabat International Airport (located in Ashgabat) is elevated 211 metres above sea level and has a runway length of 3800.",
+        "Ashgabat International airport is located in Ashgabat at 211 metres above sea level and has a runway length of 3800.0.",
+        "Ashgabat is the location of Ashgabat International Airport which has a runway length of 3800.0 and is 211 metres above sea level."
+    ]
+}

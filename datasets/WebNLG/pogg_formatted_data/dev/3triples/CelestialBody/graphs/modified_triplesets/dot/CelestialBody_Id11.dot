@@ -1,0 +1,9 @@
+strict digraph {
+"1097_Vicia" [lexicon_key="1097_Vicia"];
+"2006-12-31" [lexicon_key="2006-12-31"];
+279142000000.0 [lexicon_key=279142000000.0];
+"511592000.0 (kilometres)" [lexicon_key="511592000.0 (kilometres)"];
+"1097_Vicia" -> "2006-12-31" [label=epoch, lexicon_key=epoch];
+"1097_Vicia" -> 279142000000.0 [label=periapsis, lexicon_key=periapsis];
+"1097_Vicia" -> "511592000.0 (kilometres)" [label=apoapsis, lexicon_key=apoapsis];
+}

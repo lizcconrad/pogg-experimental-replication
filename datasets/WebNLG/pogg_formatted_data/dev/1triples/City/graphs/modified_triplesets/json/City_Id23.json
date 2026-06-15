@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "California": {
+            "lexicon_key": "California"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "California",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "California is in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "California is in the U.S."
+        }
+    },
+    "gold_outputs": [
+        "California is in the U.S.",
+        "California is in the United States."
+    ]
+}

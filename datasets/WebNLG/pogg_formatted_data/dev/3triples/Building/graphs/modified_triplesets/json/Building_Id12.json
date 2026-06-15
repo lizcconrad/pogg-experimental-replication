@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Addis_Ababa_City_Hall": {
+            "lexicon_key": "Addis_Ababa_City_Hall"
+        },
+        "\"Government of Addis Ababa\"": {
+            "lexicon_key": "\"Government of Addis Ababa\""
+        },
+        "140000.0 (square metres)": {
+            "lexicon_key": "140000.0 (square metres)"
+        },
+        "\"42 m\"": {
+            "lexicon_key": "\"42 m\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "currentTenants",
+            "parent_node": "Addis_Ababa_City_Hall",
+            "child_node": "\"Government of Addis Ababa\"",
+            "edge_properties": {
+                "lexicon_key": "currentTenants"
+            }
+        },
+        {
+            "edge_name": "floorArea",
+            "parent_node": "Addis_Ababa_City_Hall",
+            "child_node": "140000.0 (square metres)",
+            "edge_properties": {
+                "lexicon_key": "floorArea"
+            }
+        },
+        {
+            "edge_name": "height",
+            "parent_node": "Addis_Ababa_City_Hall",
+            "child_node": "\"42 m\"",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Government of Addis Ababa is the current tenant of the Addis Ababa City Hall which is 42 metres high and has a floor area of 140000.0 (square metres)."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Government of Addis Ababa is the current tenants of the Addis Ababa city hall, which has a floor area of 140000.0 square metres. It is 42 m high."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Addis Ababa City Hall, which houses the Government of Addis Ababa, is 42 m high and has a floor area of 140000.0 square metres."
+        }
+    },
+    "gold_outputs": [
+        "Addis Ababa City Hall, which houses the Government of Addis Ababa, is 42 m high and has a floor area of 140000.0 square metres.",
+        "The Government of Addis Ababa is the current tenant of the Addis Ababa City Hall which is 42 metres high and has a floor area of 140000.0 (square metres).",
+        "The Government of Addis Ababa is the current tenants of the Addis Ababa city hall, which has a floor area of 140000.0 square metres. It is 42 m high."
+    ]
+}

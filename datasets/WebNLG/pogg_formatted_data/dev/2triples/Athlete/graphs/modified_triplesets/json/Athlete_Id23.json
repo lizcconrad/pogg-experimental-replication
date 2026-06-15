@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Canada": {
+            "lexicon_key": "Canada"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "Adam_McQuaid": {
+            "lexicon_key": "Adam_McQuaid"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Canada",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Adam_McQuaid",
+            "child_node": "Canada",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam McQuaid was born in Canada where the English language is spoken."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The English language is spoken in Canada which is the birthplace of Adam McQuaid."
+        }
+    },
+    "gold_outputs": [
+        "Adam McQuaid was born in Canada where the English language is spoken.",
+        "The English language is spoken in Canada which is the birthplace of Adam McQuaid."
+    ]
+}

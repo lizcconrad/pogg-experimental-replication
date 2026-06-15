@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Adam_Maher": {
+            "lexicon_key": "Adam_Maher"
+        },
+        "Diemen": {
+            "lexicon_key": "Diemen"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Adam_Maher",
+            "child_node": "Diemen",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Maher's birthplace is Diemen."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Diemen is the birth place of Adam Maher."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adam Maher was born in Diemen."
+        }
+    },
+    "gold_outputs": [
+        "Adam Maher was born in Diemen.",
+        "Adam Maher's birthplace is Diemen.",
+        "Diemen is the birth place of Adam Maher."
+    ]
+}

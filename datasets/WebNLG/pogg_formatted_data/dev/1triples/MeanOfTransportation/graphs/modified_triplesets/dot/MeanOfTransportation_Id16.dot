@@ -1,0 +1,5 @@
+strict digraph {
+Alfa_Romeo_164 [lexicon_key="Alfa_Romeo_164"];
+Executive_car [lexicon_key="Executive_car"];
+Alfa_Romeo_164 -> Executive_car [label=class, lexicon_key=class];
+}

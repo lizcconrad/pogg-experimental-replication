@@ -1,0 +1,9 @@
+strict digraph {
+Adirondack_Regional_Airport [lexicon_key="Adirondack_Regional_Airport"];
+1219.0 [lexicon_key=1219.0];
+"Lake_Placid,_New_York" [lexicon_key="Lake_Placid,_New_York"];
+"Saranac_Lake,_New_York" [lexicon_key="Saranac_Lake,_New_York"];
+Adirondack_Regional_Airport -> 1219.0 [label=runwayLength, lexicon_key=runwayLength];
+Adirondack_Regional_Airport -> "Lake_Placid,_New_York" [label=cityServed, lexicon_key=cityServed];
+Adirondack_Regional_Airport -> "Saranac_Lake,_New_York" [label=cityServed, lexicon_key=cityServed];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+"Arlington,_Texas" [lexicon_key="Arlington,_Texas"];
+184.0 [lexicon_key=184.0];
+"Arlington,_Texas" -> 184.0 [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+}

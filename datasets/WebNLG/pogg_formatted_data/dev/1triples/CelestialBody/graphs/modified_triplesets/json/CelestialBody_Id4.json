@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "(66391)_1999_KW4": {
+            "lexicon_key": "(66391)_1999_KW4"
+        },
+        "29919600000.0": {
+            "lexicon_key": "29919600000.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "(66391)_1999_KW4",
+            "child_node": "29919600000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(66391) 1999 KW4 has a periapsis of 29919600000.0."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The apoapsis of (66391) 1999 KW4 is 29919600000.0."
+        }
+    },
+    "gold_outputs": [
+        "(66391) 1999 KW4 has a periapsis of 29919600000.0.",
+        "The apoapsis of (66391) 1999 KW4 is 29919600000.0."
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "ACM_Transactions_on_Information_Systems": {
+            "lexicon_key": "ACM_Transactions_on_Information_Systems"
+        },
+        "\"ACM Trans. Inf. Syst.\"": {
+            "lexicon_key": "\"ACM Trans. Inf. Syst.\""
+        },
+        "Computer_science": {
+            "lexicon_key": "Computer_science"
+        },
+        "\"1046-8188\"": {
+            "lexicon_key": "\"1046-8188\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "abbreviation",
+            "parent_node": "ACM_Transactions_on_Information_Systems",
+            "child_node": "\"ACM Trans. Inf. Syst.\"",
+            "edge_properties": {
+                "lexicon_key": "abbreviation"
+            }
+        },
+        {
+            "edge_name": "academicDiscipline",
+            "parent_node": "ACM_Transactions_on_Information_Systems",
+            "child_node": "Computer_science",
+            "edge_properties": {
+                "lexicon_key": "academicDiscipline"
+            }
+        },
+        {
+            "edge_name": "issnNumber",
+            "parent_node": "ACM_Transactions_on_Information_Systems",
+            "child_node": "\"1046-8188\"",
+            "edge_properties": {
+                "lexicon_key": "issnNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "ACM Transactions on Information Systems, or ACM Trans. Inf. Syst., is part of the academic Discipline of Computer Science and has an ISSN number of 1046-8188."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "ACM Transactions on Information Systems is part of the academic Discipline of Computer Science and has the abbreviation of ACM Trans. Inf. Syst. it has the ISSN number 1046-8188."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The abbreviation \"ACM Trans. Inf. Syst.\" is for ACM Transactions on Information Systems which is part of the academic Discipline of Computer Science and has an ISSN number of 1046-8188."
+        }
+    },
+    "gold_outputs": [
+        "ACM Transactions on Information Systems is part of the academic Discipline of Computer Science and has the abbreviation of ACM Trans. Inf. Syst. it has the ISSN number 1046-8188.",
+        "ACM Transactions on Information Systems, or ACM Trans. Inf. Syst., is part of the academic Discipline of Computer Science and has an ISSN number of 1046-8188.",
+        "The abbreviation \"ACM Trans. Inf. Syst.\" is for ACM Transactions on Information Systems which is part of the academic Discipline of Computer Science and has an ISSN number of 1046-8188."
+    ]
+}

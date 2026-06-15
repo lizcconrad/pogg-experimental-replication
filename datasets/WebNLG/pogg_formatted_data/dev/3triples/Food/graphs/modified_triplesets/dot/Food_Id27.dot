@@ -1,0 +1,9 @@
+strict digraph {
+Bhajji [lexicon_key=Bhajji];
+India [lexicon_key=India];
+"Gram flour, vegetables" [lexicon_key="Gram flour, vegetables"];
+Gram_flour [lexicon_key="Gram_flour"];
+Bhajji -> India [label=country, lexicon_key=country];
+Bhajji -> "Gram flour, vegetables" [label=mainIngredient, lexicon_key=mainIngredient];
+Bhajji -> Gram_flour [label=ingredient, lexicon_key=ingredient];
+}

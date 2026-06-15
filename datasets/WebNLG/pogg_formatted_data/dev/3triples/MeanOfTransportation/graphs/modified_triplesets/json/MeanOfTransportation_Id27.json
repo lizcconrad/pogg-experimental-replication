@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Guiana_Space_Centre": {
+            "lexicon_key": "Guiana_Space_Centre"
+        },
+        "French_Guiana": {
+            "lexicon_key": "French_Guiana"
+        },
+        "ELA-3": {
+            "lexicon_key": "ELA-3"
+        },
+        "Ariane_5": {
+            "lexicon_key": "Ariane_5"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Guiana_Space_Centre",
+            "child_node": "French_Guiana",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "site",
+            "parent_node": "ELA-3",
+            "child_node": "Guiana_Space_Centre",
+            "edge_properties": {
+                "lexicon_key": "site"
+            }
+        },
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Ariane_5",
+            "child_node": "ELA-3",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Located in French Guiana, the Guiana Space Centre is the site of the ELA-3 which was where the Ariane 5 was launched."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "ELA-3, located at the Guiana Space Centre in French Guiana, launched the Ariane 5."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "French Guiana is the location of the Guiana Space Centre where the site of ELA-3 is located which was the launch site of the Ariane 5."
+        }
+    },
+    "gold_outputs": [
+        "ELA-3, located at the Guiana Space Centre in French Guiana, launched the Ariane 5.",
+        "French Guiana is the location of the Guiana Space Centre where the site of ELA-3 is located which was the launch site of the Ariane 5.",
+        "Located in French Guiana, the Guiana Space Centre is the site of the ELA-3 which was where the Ariane 5 was launched."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "Massimo_Drago": {
+            "lexicon_key": "Massimo_Drago"
+        },
+        "Delfino_Pescara_1936": {
+            "lexicon_key": "Delfino_Pescara_1936"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Massimo_Drago",
+            "child_node": "Delfino_Pescara_1936",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Massimo Drago is attached to the club Delfino Pescara 1936."
+        }
+    },
+    "gold_outputs": [
+        "Massimo Drago is attached to the club Delfino Pescara 1936."
+    ]
+}

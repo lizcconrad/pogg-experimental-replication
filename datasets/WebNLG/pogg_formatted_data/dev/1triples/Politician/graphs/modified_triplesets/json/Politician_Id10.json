@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Abner_W._Sibal": {
+            "lexicon_key": "Abner_W._Sibal"
+        },
+        "World_War_II": {
+            "lexicon_key": "World_War_II"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Abner_W._Sibal",
+            "child_node": "World_War_II",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abner W. Sibal fought in World War II."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Abner W. Sibal fought during WWII."
+        }
+    },
+    "gold_outputs": [
+        "Abner W. Sibal fought during WWII.",
+        "Abner W. Sibal fought in World War II."
+    ]
+}

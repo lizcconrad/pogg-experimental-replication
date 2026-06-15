@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "AFC_Ajax_(amateurs)": {
+            "lexicon_key": "AFC_Ajax_(amateurs)"
+        },
+        "5000": {
+            "lexicon_key": "5000"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "AFC_Ajax_(amateurs)",
+            "child_node": "5000",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AFC Ajax has 5000 Members."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Ajax (amateurs) has 5000 members."
+        }
+    },
+    "gold_outputs": [
+        "AFC Ajax (amateurs) has 5000 members.",
+        "AFC Ajax has 5000 Members."
+    ]
+}

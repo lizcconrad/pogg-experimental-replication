@@ -1,0 +1,5 @@
+strict digraph {
+AIP_Advances [lexicon_key="AIP_Advances"];
+2158 [lexicon_key=2158];
+AIP_Advances -> 2158 [label=eissnNumber, lexicon_key=eissnNumber];
+}

@@ -1,0 +1,7 @@
+strict digraph {
+AC_Hotel_Bella_Sky_Copenhagen [lexicon_key="AC_Hotel_Bella_Sky_Copenhagen"];
+Marriott_International [lexicon_key="Marriott_International"];
+23 [lexicon_key=23];
+AC_Hotel_Bella_Sky_Copenhagen -> Marriott_International [label=tenant, lexicon_key=tenant];
+AC_Hotel_Bella_Sky_Copenhagen -> 23 [label=floorCount, lexicon_key=floorCount];
+}

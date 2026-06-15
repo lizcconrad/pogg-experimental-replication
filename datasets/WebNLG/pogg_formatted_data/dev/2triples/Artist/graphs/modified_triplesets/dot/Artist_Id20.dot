@@ -1,0 +1,7 @@
+strict digraph {
+Anders_Osborne [lexicon_key="Anders_Osborne"];
+Billy_Iuso [lexicon_key="Billy_Iuso"];
+Theresa_Andersson [lexicon_key="Theresa_Andersson"];
+Anders_Osborne -> Billy_Iuso [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+Anders_Osborne -> Theresa_Andersson [label="associatedBand/associatedMusicalArtist", lexicon_key="associatedBand/associatedMusicalArtist"];
+}

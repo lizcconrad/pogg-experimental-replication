@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        },
+        "A_Fortress_of_Grey_Ice": {
+            "lexicon_key": "A_Fortress_of_Grey_Ice"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "United_States",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "A_Fortress_of_Grey_Ice",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice is from the United States where the language is English."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice is from the United States, which has English as one of its languages."
+        }
+    },
+    "gold_outputs": [
+        "A Fortress of Grey Ice is from the United States where the language is English.",
+        "A Fortress of Grey Ice is from the United States, which has English as one of its languages."
+    ]
+}

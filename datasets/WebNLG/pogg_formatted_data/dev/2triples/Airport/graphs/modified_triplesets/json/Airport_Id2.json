@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        },
+        "Alcobendas": {
+            "lexicon_key": "Alcobendas"
+        },
+        "3500.0": {
+            "lexicon_key": "3500.0"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "Alcobendas",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "runwayLength",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "3500.0",
+            "edge_properties": {
+                "lexicon_key": "runwayLength"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in Alcobendas and has a runway length of 3500."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Located in Alcobendas, Adolfo Suarez Madrid-Barajas Airport has a runway with the length of 3500.0 metres."
+        }
+    },
+    "gold_outputs": [
+        "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in Alcobendas and has a runway length of 3500.",
+        "Located in Alcobendas, Adolfo Suarez Madrid-Barajas Airport has a runway with the length of 3500.0 metres."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Alberto_Teisaire": {
+            "lexicon_key": "Alberto_Teisaire"
+        },
+        "Buenos_Aires": {
+            "lexicon_key": "Buenos_Aires"
+        },
+        "Diego_Santilli": {
+            "lexicon_key": "Diego_Santilli"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alberto_Teisaire",
+            "child_node": "Buenos_Aires",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Buenos_Aires",
+            "child_node": "Diego_Santilli",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alberto Teisaire died in Buenos Aires whose leader is Diego Santilli."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The leader of Buenos Aires is Diego Santilli, which is the place where Alberto Teisaire died."
+        }
+    },
+    "gold_outputs": [
+        "Alberto Teisaire died in Buenos Aires whose leader is Diego Santilli.",
+        "The leader of Buenos Aires is Diego Santilli, which is the place where Alberto Teisaire died."
+    ]
+}

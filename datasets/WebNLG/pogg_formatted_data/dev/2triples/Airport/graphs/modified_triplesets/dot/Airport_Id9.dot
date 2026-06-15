@@ -1,0 +1,7 @@
+strict digraph {
+Alderney_Airport [lexicon_key="Alderney_Airport"];
+Poaceae [lexicon_key=Poaceae];
+877.0 [lexicon_key=877.0];
+Alderney_Airport -> Poaceae [label="1stRunwaySurfaceType", lexicon_key="1stRunwaySurfaceType"];
+Alderney_Airport -> 877.0 [label=runwayLength, lexicon_key=runwayLength];
+}

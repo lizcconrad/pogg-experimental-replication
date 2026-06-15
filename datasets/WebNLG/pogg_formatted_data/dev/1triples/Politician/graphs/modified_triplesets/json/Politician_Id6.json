@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Abdul_Taib_Mahmud": {
+            "lexicon_key": "Abdul_Taib_Mahmud"
+        },
+        "Adenan_Satem": {
+            "lexicon_key": "Adenan_Satem"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "successor",
+            "parent_node": "Abdul_Taib_Mahmud",
+            "child_node": "Adenan_Satem",
+            "edge_properties": {
+                "lexicon_key": "successor"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Abdul Taib Mahmud successor was Adenan Satem."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adenan Satem succeeded Abdul Taib Mahmud."
+        }
+    },
+    "gold_outputs": [
+        "Abdul Taib Mahmud successor was Adenan Satem.",
+        "Adenan Satem succeeded Abdul Taib Mahmud."
+    ]
+}

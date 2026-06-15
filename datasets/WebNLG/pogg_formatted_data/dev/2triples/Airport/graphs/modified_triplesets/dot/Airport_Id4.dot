@@ -1,0 +1,7 @@
+strict digraph {
+Agra_Airport [lexicon_key="Agra_Airport"];
+India [lexicon_key=India];
+"T._S._Thakur" [lexicon_key="T._S._Thakur"];
+Agra_Airport -> India [label=location, lexicon_key=location];
+India -> "T._S._Thakur" [label=leader, lexicon_key=leader];
+}

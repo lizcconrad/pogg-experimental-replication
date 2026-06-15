@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "AC_Hotel_Bella_Sky_Copenhagen": {
+            "lexicon_key": "AC_Hotel_Bella_Sky_Copenhagen"
+        },
+        "Marriott_International": {
+            "lexicon_key": "Marriott_International"
+        },
+        "23": {
+            "lexicon_key": "23"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "tenant",
+            "parent_node": "AC_Hotel_Bella_Sky_Copenhagen",
+            "child_node": "Marriott_International",
+            "edge_properties": {
+                "lexicon_key": "tenant"
+            }
+        },
+        {
+            "edge_name": "floorCount",
+            "parent_node": "AC_Hotel_Bella_Sky_Copenhagen",
+            "child_node": "23",
+            "edge_properties": {
+                "lexicon_key": "floorCount"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Marriott International is the tenant of AC Hotel Bella Sky Copenhagen and it has 23 floors."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The tenant of the AC Hotel Bella Sky Copenhagen, which has 23 floors, is the Marriott International Hotel."
+        }
+    },
+    "gold_outputs": [
+        "Marriott International is the tenant of AC Hotel Bella Sky Copenhagen and it has 23 floors.",
+        "The tenant of the AC Hotel Bella Sky Copenhagen, which has 23 floors, is the Marriott International Hotel."
+    ]
+}

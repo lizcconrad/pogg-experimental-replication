@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Amarillo,_Texas": {
+            "lexicon_key": "Amarillo,_Texas"
+        },
+        "Potter_County,_Texas": {
+            "lexicon_key": "Potter_County,_Texas"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Native_Americans_in_the_United_States": {
+            "lexicon_key": "Native_Americans_in_the_United_States"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Amarillo,_Texas",
+            "child_node": "Potter_County,_Texas",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Potter_County,_Texas",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "ethnicGroup",
+            "parent_node": "United_States",
+            "child_node": "Native_Americans_in_the_United_States",
+            "edge_properties": {
+                "lexicon_key": "ethnicGroup"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Native Americans are an ethnic group in the United States, where you will find Amarillo, which is part of Potter County in Texas."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amarillo is part of Potter County, Texas which is part of the U.S. where one of the ethnic groups are Native Americans."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Amarillo is part of Potter County, Texas, in the United States, where Native Americans are one of the ethnic groups."
+        }
+    },
+    "gold_outputs": [
+        "Amarillo is part of Potter County, Texas which is part of the U.S. where one of the ethnic groups are Native Americans.",
+        "Amarillo is part of Potter County, Texas, in the United States, where Native Americans are one of the ethnic groups.",
+        "Native Americans are an ethnic group in the United States, where you will find Amarillo, which is part of Potter County in Texas."
+    ]
+}

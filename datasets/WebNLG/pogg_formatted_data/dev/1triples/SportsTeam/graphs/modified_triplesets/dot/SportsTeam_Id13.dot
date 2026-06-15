@@ -1,0 +1,5 @@
+strict digraph {
+AFC_Ajax [lexicon_key="AFC_Ajax"];
+Frank_de_Boer [lexicon_key="Frank_de_Boer"];
+AFC_Ajax -> Frank_de_Boer [label=manager, lexicon_key=manager];
+}

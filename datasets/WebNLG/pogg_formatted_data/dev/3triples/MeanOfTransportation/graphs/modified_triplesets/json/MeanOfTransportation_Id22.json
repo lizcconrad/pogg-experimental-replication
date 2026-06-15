@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Audi_A1": {
+            "lexicon_key": "Audi_A1"
+        },
+        "1.2 (litres)": {
+            "lexicon_key": "1.2 (litres)"
+        },
+        "Audi_Brussels": {
+            "lexicon_key": "Audi_Brussels"
+        },
+        "Hatchback": {
+            "lexicon_key": "Hatchback"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "engine",
+            "parent_node": "Audi_A1",
+            "child_node": "1.2 (litres)",
+            "edge_properties": {
+                "lexicon_key": "engine"
+            }
+        },
+        {
+            "edge_name": "assembly",
+            "parent_node": "Audi_A1",
+            "child_node": "Audi_Brussels",
+            "edge_properties": {
+                "lexicon_key": "assembly"
+            }
+        },
+        {
+            "edge_name": "bodyStyle",
+            "parent_node": "Audi_A1",
+            "child_node": "Hatchback",
+            "edge_properties": {
+                "lexicon_key": "bodyStyle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Audi A1 is a hatchback assembled by Audi Brussels and has a 1.2 litre engine."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Audi A1, a hatchback, has a 1.2 liter engine and is assembled by Audi Brussels."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The Audi A1 is built at Audi Brussels. It is a hatchback with a 1.2 litre engine."
+        }
+    },
+    "gold_outputs": [
+        "The Audi A1 is a hatchback assembled by Audi Brussels and has a 1.2 litre engine.",
+        "The Audi A1 is built at Audi Brussels. It is a hatchback with a 1.2 litre engine.",
+        "The Audi A1, a hatchback, has a 1.2 liter engine and is assembled by Audi Brussels."
+    ]
+}

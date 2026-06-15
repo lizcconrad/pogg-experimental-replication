@@ -1,0 +1,5 @@
+strict digraph {
+"Jorge_Humberto_Rodríguez" [lexicon_key="Jorge_Humberto_Rodríguez"];
+"A.D._Isidro_Metapán" [lexicon_key="A.D._Isidro_Metapán"];
+"Jorge_Humberto_Rodríguez" -> "A.D._Isidro_Metapán" [label=club, lexicon_key=club];
+}

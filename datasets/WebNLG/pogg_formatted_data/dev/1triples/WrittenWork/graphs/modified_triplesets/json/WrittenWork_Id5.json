@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "A_Fortress_of_Grey_Ice": {
+            "lexicon_key": "A_Fortress_of_Grey_Ice"
+        },
+        "Hardcover": {
+            "lexicon_key": "Hardcover"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Fortress_of_Grey_Ice",
+            "child_node": "Hardcover",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice is a hardcover book."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice was made in hardcover."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A Fortress of Grey Ice was produced in Hardcover."
+        }
+    },
+    "gold_outputs": [
+        "A Fortress of Grey Ice is a hardcover book.",
+        "A Fortress of Grey Ice was made in hardcover.",
+        "A Fortress of Grey Ice was produced in Hardcover."
+    ]
+}

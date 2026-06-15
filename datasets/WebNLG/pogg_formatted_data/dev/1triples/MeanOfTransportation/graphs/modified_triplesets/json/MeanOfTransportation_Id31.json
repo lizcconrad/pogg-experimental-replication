@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Delta_II": {
+            "lexicon_key": "Delta_II"
+        },
+        "Cape_Canaveral_Air_Force_Station": {
+            "lexicon_key": "Cape_Canaveral_Air_Force_Station"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Delta_II",
+            "child_node": "Cape_Canaveral_Air_Force_Station",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Delta II was launched at the Cape Canaveral Air Force Station."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The Delta II was launched at Cape Canaveral Air Force Station."
+        }
+    },
+    "gold_outputs": [
+        "The Delta II was launched at Cape Canaveral Air Force Station.",
+        "The Delta II was launched at the Cape Canaveral Air Force Station."
+    ]
+}

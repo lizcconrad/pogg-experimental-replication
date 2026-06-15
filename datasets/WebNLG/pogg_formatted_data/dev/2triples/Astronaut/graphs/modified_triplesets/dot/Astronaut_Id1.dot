@@ -1,0 +1,7 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+Apollo_14 [lexicon_key="Apollo_14"];
+"1974-08-01" [lexicon_key="1974-08-01"];
+Alan_Shepard -> Apollo_14 [label=mission, lexicon_key=mission];
+Alan_Shepard -> "1974-08-01" [label=dateOfRetirement, lexicon_key=dateOfRetirement];
+}

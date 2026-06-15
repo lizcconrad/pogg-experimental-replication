@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Baked_Alaska": {
+            "lexicon_key": "Baked_Alaska"
+        },
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "New_York": {
+            "lexicon_key": "New_York"
+        },
+        "Sponge_cake": {
+            "lexicon_key": "Sponge_cake"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Baked_Alaska",
+            "child_node": "United_States",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "region",
+            "parent_node": "Baked_Alaska",
+            "child_node": "New_York",
+            "edge_properties": {
+                "lexicon_key": "region"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Baked_Alaska",
+            "child_node": "Sponge_cake",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Sponge cake is one of the ingredients in Baked Alaska, a dish from the New York region and found in the United States."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Sponge cake is an ingredient of Baked Alaska, which comes from the region of New York and can be found in the U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "An ingredient of baked Alaska is sponge cake, the dish originates from New York, USA."
+        }
+    },
+    "gold_outputs": [
+        "An ingredient of baked Alaska is sponge cake, the dish originates from New York, USA.",
+        "Sponge cake is an ingredient of Baked Alaska, which comes from the region of New York and can be found in the U.S.",
+        "Sponge cake is one of the ingredients in Baked Alaska, a dish from the New York region and found in the United States."
+    ]
+}

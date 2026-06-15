@@ -1,0 +1,5 @@
+strict digraph {
+Alan_Shepard [lexicon_key="Alan_Shepard"];
+"Distinguished_Service_Medal_(United_States_Navy)" [lexicon_key="Distinguished_Service_Medal_(United_States_Navy)"];
+Alan_Shepard -> "Distinguished_Service_Medal_(United_States_Navy)" [label=award, lexicon_key=award];
+}

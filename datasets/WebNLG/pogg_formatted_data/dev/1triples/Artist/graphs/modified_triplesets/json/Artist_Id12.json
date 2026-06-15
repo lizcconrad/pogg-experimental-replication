@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Albennie_Jones": {
+            "lexicon_key": "Albennie_Jones"
+        },
+        "Errata,_Mississippi": {
+            "lexicon_key": "Errata,_Mississippi"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Albennie_Jones",
+            "child_node": "Errata,_Mississippi",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albennie Jones was born in Errata Mississippi."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albennie Jones was born in Errata, Mississippi."
+        }
+    },
+    "gold_outputs": [
+        "Albennie Jones was born in Errata Mississippi.",
+        "Albennie Jones was born in Errata, Mississippi."
+    ]
+}

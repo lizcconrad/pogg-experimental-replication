@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alfredo_Zitarrosa": {
+            "lexicon_key": "Alfredo_Zitarrosa"
+        },
+        "Montevideo": {
+            "lexicon_key": "Montevideo"
+        },
+        "Daniel_Mart\u00ednez_(politician)": {
+            "lexicon_key": "Daniel_Mart\u00ednez_(politician)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Alfredo_Zitarrosa",
+            "child_node": "Montevideo",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "Montevideo",
+            "child_node": "Daniel_Mart\u00ednez_(politician)",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfredo Zitarrosa died in Montevideo where Daniel Martinez is the leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfredo Zitarrosa died in Montevideo, where the leader is Daniel Martinez."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfredo Zitarrosa death place was in Montevideo, the leader of which is, Daniel Mart\u00ednez."
+        }
+    },
+    "gold_outputs": [
+        "Alfredo Zitarrosa death place was in Montevideo, the leader of which is, Daniel Mart\u00ednez.",
+        "Alfredo Zitarrosa died in Montevideo where Daniel Martinez is the leader.",
+        "Alfredo Zitarrosa died in Montevideo, where the leader is Daniel Martinez."
+    ]
+}

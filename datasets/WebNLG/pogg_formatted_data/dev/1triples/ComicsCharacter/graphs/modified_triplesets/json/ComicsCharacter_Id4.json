@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Bananaman": {
+            "lexicon_key": "Bananaman"
+        },
+        "\"STV\"": {
+            "lexicon_key": "\"STV\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "broadcastedBy",
+            "parent_node": "Bananaman",
+            "child_node": "\"STV\"",
+            "edge_properties": {
+                "lexicon_key": "broadcastedBy"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bananaman is broadcast by STV."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Bananaman is broadcasted by \"STV\"."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bananaman was broadcasted by STV."
+        }
+    },
+    "gold_outputs": [
+        "Bananaman is broadcast by STV.",
+        "Bananaman is broadcasted by \"STV\".",
+        "Bananaman was broadcasted by STV."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Premier_Development_League": {
+            "lexicon_key": "Premier_Development_League"
+        },
+        "K-W_United_FC": {
+            "lexicon_key": "K-W_United_FC"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "champions",
+            "parent_node": "Premier_Development_League",
+            "child_node": "K-W_United_FC",
+            "edge_properties": {
+                "lexicon_key": "champions"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "K-W United FC have been champions of the Premier Development League."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "K-W United FC were champions at the Premier Development League."
+        }
+    },
+    "gold_outputs": [
+        "K-W United FC have been champions of the Premier Development League.",
+        "K-W United FC were champions at the Premier Development League."
+    ]
+}

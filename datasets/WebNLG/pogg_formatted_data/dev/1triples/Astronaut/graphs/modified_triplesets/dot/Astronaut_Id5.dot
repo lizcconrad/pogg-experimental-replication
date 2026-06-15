@@ -1,0 +1,5 @@
+strict digraph {
+Apollo_8 [lexicon_key="Apollo_8"];
+NASA [lexicon_key=NASA];
+Apollo_8 -> NASA [label=operator, lexicon_key=operator];
+}

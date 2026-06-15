@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Alaa_Abdul-Zahra": {
+            "lexicon_key": "Alaa_Abdul-Zahra"
+        },
+        "Al-Khor_Sports_Club": {
+            "lexicon_key": "Al-Khor_Sports_Club"
+        },
+        "Al_Khor": {
+            "lexicon_key": "Al_Khor"
+        },
+        "Al_Shorta_SC": {
+            "lexicon_key": "Al_Shorta_SC"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Alaa_Abdul-Zahra",
+            "child_node": "Al-Khor_Sports_Club",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "ground",
+            "parent_node": "Al-Khor_Sports_Club",
+            "child_node": "Al_Khor",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Alaa_Abdul-Zahra",
+            "child_node": "Al_Shorta_SC",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alaa Abdul Zahra plays for Al Shorta SC and for Al-Khor Sports Club located in Al-Khor."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alaa Abdul-Zahra's club is Al Shorta SC, but he is in the Al-Khor Sports Club whose ground is in Al Khor."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Al-Khor Sports Club is located in Al-Khor, one of the members of it, is Alaa Abdul Zahra, who is also part of, Al Shorta SC."
+        }
+    },
+    "gold_outputs": [
+        "Al-Khor Sports Club is located in Al-Khor, one of the members of it, is Alaa Abdul Zahra, who is also part of, Al Shorta SC.",
+        "Alaa Abdul Zahra plays for Al Shorta SC and for Al-Khor Sports Club located in Al-Khor.",
+        "Alaa Abdul-Zahra's club is Al Shorta SC, but he is in the Al-Khor Sports Club whose ground is in Al Khor."
+    ]
+}

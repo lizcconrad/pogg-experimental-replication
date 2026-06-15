@@ -1,0 +1,7 @@
+strict digraph {
+"ALV_X-1" [lexicon_key="ALV_X-1"];
+Alliant_Techsystems [lexicon_key="Alliant_Techsystems"];
+"AGM-88_HARM" [lexicon_key="AGM-88_HARM"];
+"ALV_X-1" -> Alliant_Techsystems [label=manufacturer, lexicon_key=manufacturer];
+Alliant_Techsystems -> "AGM-88_HARM" [label=product, lexicon_key=product];
+}

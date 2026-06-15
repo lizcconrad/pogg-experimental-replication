@@ -1,0 +1,5 @@
+strict digraph {
+A_Wizard_of_Mars [lexicon_key="A_Wizard_of_Mars"];
+English_language [lexicon_key="English_language"];
+A_Wizard_of_Mars -> English_language [label=language, lexicon_key=language];
+}

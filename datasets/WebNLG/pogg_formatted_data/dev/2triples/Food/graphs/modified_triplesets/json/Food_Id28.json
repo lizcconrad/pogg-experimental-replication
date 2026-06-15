@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Binignit": {
+            "lexicon_key": "Binignit"
+        },
+        "Sweet_potato": {
+            "lexicon_key": "Sweet_potato"
+        },
+        "Banana": {
+            "lexicon_key": "Banana"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Binignit",
+            "child_node": "Sweet_potato",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Binignit",
+            "child_node": "Banana",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "An ingredient of Binignit is sweet potato, and one of the main ingredients is the banana."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Banana is a main ingredient of Binignit and sweet potato is also an ingredient."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The main ingredient of Binignit is banana, and also important is the inclusion of sweet potatoes."
+        }
+    },
+    "gold_outputs": [
+        "An ingredient of Binignit is sweet potato, and one of the main ingredients is the banana.",
+        "Banana is a main ingredient of Binignit and sweet potato is also an ingredient.",
+        "The main ingredient of Binignit is banana, and also important is the inclusion of sweet potatoes."
+    ]
+}

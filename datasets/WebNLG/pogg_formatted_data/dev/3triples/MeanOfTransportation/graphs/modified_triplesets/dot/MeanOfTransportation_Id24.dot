@@ -1,0 +1,9 @@
+strict digraph {
+"Caterpillar_Inc." [lexicon_key="Caterpillar_Inc."];
+California [lexicon_key=California];
+"Peoria,_Illinois" [lexicon_key="Peoria,_Illinois"];
+AIDAluna [lexicon_key=AIDAluna];
+"Caterpillar_Inc." -> California [label=foundationPlace, lexicon_key=foundationPlace];
+"Caterpillar_Inc." -> "Peoria,_Illinois" [label=location, lexicon_key=location];
+AIDAluna -> "Caterpillar_Inc." [label=powerType, lexicon_key=powerType];
+}

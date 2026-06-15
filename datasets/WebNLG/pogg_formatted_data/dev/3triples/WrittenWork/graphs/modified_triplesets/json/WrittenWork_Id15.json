@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "A_Severed_Wasp": {
+            "lexicon_key": "A_Severed_Wasp"
+        },
+        "8805735": {
+            "lexicon_key": "8805735"
+        },
+        "\"PS3523.E55 S4 1982\"": {
+            "lexicon_key": "\"PS3523.E55 S4 1982\""
+        },
+        "\"Print\"": {
+            "lexicon_key": "\"Print\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "oclcNumber",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "8805735",
+            "edge_properties": {
+                "lexicon_key": "oclcNumber"
+            }
+        },
+        {
+            "edge_name": "libraryofCongressClassification",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "\"PS3523.E55 S4 1982\"",
+            "edge_properties": {
+                "lexicon_key": "libraryofCongressClassification"
+            }
+        },
+        {
+            "edge_name": "mediaType",
+            "parent_node": "A_Severed_Wasp",
+            "child_node": "\"Print\"",
+            "edge_properties": {
+                "lexicon_key": "mediaType"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Severed Wasp can be found in print with the OCLC number 8805735 and the Library of Congress Classification of PS3523.E55 S4 1982."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A severed wasp can be found in print and has the OCLC number 8805735 and the Library of Congress Classification is PS3523.E55 S4 1982."
+        }
+    },
+    "gold_outputs": [
+        "A Severed Wasp can be found in print with the OCLC number 8805735 and the Library of Congress Classification of PS3523.E55 S4 1982.",
+        "A severed wasp can be found in print and has the OCLC number 8805735 and the Library of Congress Classification is PS3523.E55 S4 1982."
+    ]
+}

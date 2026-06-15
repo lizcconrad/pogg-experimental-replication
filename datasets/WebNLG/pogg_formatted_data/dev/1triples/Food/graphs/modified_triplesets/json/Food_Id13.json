@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Bakso": {
+            "lexicon_key": "Bakso"
+        },
+        "Noodle": {
+            "lexicon_key": "Noodle"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bakso",
+            "child_node": "Noodle",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The dish Bakso contains noodles."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Noodle is an ingredient in Bakso."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Bakso contains noodles."
+        }
+    },
+    "gold_outputs": [
+        "Bakso contains noodles.",
+        "Noodle is an ingredient in Bakso.",
+        "The dish Bakso contains noodles."
+    ]
+}

@@ -1,0 +1,7 @@
+strict digraph {
+Asilomar_Conference_Grounds [lexicon_key="Asilomar_Conference_Grounds"];
+"Asilomar Blvd., Pacific Grove, California" [lexicon_key="Asilomar Blvd., Pacific Grove, California"];
+"87000823" [lexicon_key="87000823"];
+Asilomar_Conference_Grounds -> "Asilomar Blvd., Pacific Grove, California" [label=location, lexicon_key=location];
+Asilomar_Conference_Grounds -> "87000823" [label=NationalRegisterOfHistoricPlacesReferenceNumber, lexicon_key=NationalRegisterOfHistoricPlacesReferenceNumber];
+}

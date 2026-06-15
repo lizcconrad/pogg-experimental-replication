@@ -1,0 +1,9 @@
+strict digraph {
+Elliot_See [lexicon_key="Elliot_See"];
+"Deceased" [lexicon_key="Deceased"];
+"1927-07-23" [lexicon_key="1927-07-23"];
+Dallas [lexicon_key=Dallas];
+Elliot_See -> "Deceased" [label=status, lexicon_key=status];
+Elliot_See -> "1927-07-23" [label=birthDate, lexicon_key=birthDate];
+Elliot_See -> Dallas [label=birthPlace, lexicon_key=birthPlace];
+}

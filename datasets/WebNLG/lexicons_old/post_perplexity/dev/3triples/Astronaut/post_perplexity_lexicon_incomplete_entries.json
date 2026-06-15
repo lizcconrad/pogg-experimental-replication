@@ -1,0 +1,132 @@
+{
+    "node_keys": {
+        "\"1927-07-23\"": {
+            "comp_fxn": ""
+        },
+        "\"1933-10-17\"": {
+            "comp_fxn": ""
+        },
+        "\"1966-02-28\"": {
+            "comp_fxn": ""
+        },
+        "\"1998-07-21\"": {
+            "comp_fxn": ""
+        },
+        "\"52.0\"(minutes)": {
+            "comp_fxn": ""
+        },
+        "\"Deceased\"": {
+            "comp_fxn": ""
+        },
+        "\"Edwin E. Aldrin, Jr.\"": {
+            "comp_fxn": ""
+        },
+        "\"Massachusetts Institute of Technology, Sc.D. 1963\"": {
+            "comp_fxn": ""
+        },
+        "1962": {
+            "comp_fxn": ""
+        },
+        "Alan_Bean": {
+            "comp_fxn": ""
+        },
+        "Alan_Shepard": {
+            "comp_fxn": ""
+        },
+        "Apollo_11": {
+            "comp_fxn": ""
+        },
+        "Apollo_12": {
+            "comp_fxn": ""
+        },
+        "Apollo_8": {
+            "comp_fxn": ""
+        },
+        "British_Hong_Kong": {
+            "comp_fxn": ""
+        },
+        "Buzz_Aldrin": {
+            "comp_fxn": ""
+        },
+        "California": {
+            "comp_fxn": ""
+        },
+        "Dallas": {
+            "comp_fxn": ""
+        },
+        "David_Scott": {
+            "comp_fxn": ""
+        },
+        "Dianne_Feinstein": {
+            "comp_fxn": ""
+        },
+        "Distinguished_Service_Medal_(United_States_Navy)": {
+            "comp_fxn": ""
+        },
+        "Elliot_See": {
+            "comp_fxn": ""
+        },
+        "Glen_Ridge,_New_Jersey": {
+            "comp_fxn": ""
+        },
+        "NASA": {
+            "comp_fxn": ""
+        },
+        "Smilodon": {
+            "comp_fxn": ""
+        },
+        "St._Louis": {
+            "comp_fxn": ""
+        },
+        "William_Anders": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "almaMater": {
+            "comp_fxn": ""
+        },
+        "alternativeName": {
+            "comp_fxn": ""
+        },
+        "award": {
+            "comp_fxn": ""
+        },
+        "birthDate": {
+            "comp_fxn": ""
+        },
+        "birthPlace": {
+            "comp_fxn": ""
+        },
+        "commander": {
+            "comp_fxn": ""
+        },
+        "deathDate": {
+            "comp_fxn": ""
+        },
+        "deathPlace": {
+            "comp_fxn": ""
+        },
+        "fossil": {
+            "comp_fxn": ""
+        },
+        "mission": {
+            "comp_fxn": ""
+        },
+        "operator": {
+            "comp_fxn": ""
+        },
+        "selectedByNasa": {
+            "comp_fxn": ""
+        },
+        "senators": {
+            "comp_fxn": ""
+        },
+        "status": {
+            "comp_fxn": ""
+        },
+        "timeInSpace": {
+            "comp_fxn": ""
+        }
+    }
+}

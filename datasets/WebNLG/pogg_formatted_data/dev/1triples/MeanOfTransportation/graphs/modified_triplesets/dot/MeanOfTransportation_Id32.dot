@@ -1,0 +1,5 @@
+strict digraph {
+Finland [lexicon_key=Finland];
+Sami_languages [lexicon_key="Sami_languages"];
+Finland -> Sami_languages [label=language, lexicon_key=language];
+}

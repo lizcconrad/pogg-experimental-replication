@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "United_States": {
+            "lexicon_key": "United_States"
+        },
+        "Joe_Biden": {
+            "lexicon_key": "Joe_Biden"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "United_States",
+            "child_node": "Joe_Biden",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Joe Biden is a United States leader."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Joe Biden is a leader in the U.S."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "A leader in the United States is Joe Biden."
+        }
+    },
+    "gold_outputs": [
+        "A leader in the United States is Joe Biden.",
+        "Joe Biden is a United States leader.",
+        "Joe Biden is a leader in the U.S."
+    ]
+}

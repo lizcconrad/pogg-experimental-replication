@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "107_Camilla": {
+            "lexicon_key": "107_Camilla"
+        },
+        "E._Wells": {
+            "lexicon_key": "E._Wells"
+        },
+        "479343000.0 (kilometres)": {
+            "lexicon_key": "479343000.0 (kilometres)"
+        },
+        "2006-12-31": {
+            "lexicon_key": "2006-12-31"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "discoverer",
+            "parent_node": "107_Camilla",
+            "child_node": "E._Wells",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        },
+        {
+            "edge_name": "periapsis",
+            "parent_node": "107_Camilla",
+            "child_node": "479343000.0 (kilometres)",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "epoch",
+            "parent_node": "107_Camilla",
+            "child_node": "2006-12-31",
+            "edge_properties": {
+                "lexicon_key": "epoch"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "107 Camilla which has a periapsis of 479343000.0 kilometres was discovered by E Wells and has an epoch date of 31st December 2006."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "107 Camilla has a periapsis of 479343000.0 kilometres and an epoch of 31st December 2006. It was discovered by E Wells."
+        }
+    },
+    "gold_outputs": [
+        "107 Camilla has a periapsis of 479343000.0 kilometres and an epoch of 31st December 2006. It was discovered by E Wells.",
+        "107 Camilla which has a periapsis of 479343000.0 kilometres was discovered by E Wells and has an epoch date of 31st December 2006."
+    ]
+}

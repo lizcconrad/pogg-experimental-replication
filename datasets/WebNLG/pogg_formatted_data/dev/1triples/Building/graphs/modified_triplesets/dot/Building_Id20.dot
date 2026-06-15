@@ -1,0 +1,5 @@
+strict digraph {
+Dublin [lexicon_key=Dublin];
+Republic_of_Ireland [lexicon_key="Republic_of_Ireland"];
+Dublin -> Republic_of_Ireland [label=country, lexicon_key=country];
+}

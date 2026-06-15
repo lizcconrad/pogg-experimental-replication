@@ -1,0 +1,9 @@
+strict digraph {
+A_Severed_Wasp [lexicon_key="A_Severed_Wasp"];
+"388" [lexicon_key="388"];
+"Print" [lexicon_key="Print"];
+"0-374-26131-8" [lexicon_key="0-374-26131-8"];
+A_Severed_Wasp -> "388" [label=numberOfPages, lexicon_key=numberOfPages];
+A_Severed_Wasp -> "Print" [label=mediaType, lexicon_key=mediaType];
+A_Severed_Wasp -> "0-374-26131-8" [label=isbnNumber, lexicon_key=isbnNumber];
+}

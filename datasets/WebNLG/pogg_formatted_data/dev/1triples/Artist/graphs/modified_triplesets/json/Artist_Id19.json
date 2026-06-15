@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Alfredo_Zitarrosa": {
+            "lexicon_key": "Alfredo_Zitarrosa"
+        },
+        "Movieplay": {
+            "lexicon_key": "Movieplay"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "recordLabel",
+            "parent_node": "Alfredo_Zitarrosa",
+            "child_node": "Movieplay",
+            "edge_properties": {
+                "lexicon_key": "recordLabel"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Movieplay is the record label of Alfredo Zitarrosa."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The record label of Alfredo Zitarrosa is Movieplay."
+        }
+    },
+    "gold_outputs": [
+        "Movieplay is the record label of Alfredo Zitarrosa.",
+        "The record label of Alfredo Zitarrosa is Movieplay."
+    ]
+}

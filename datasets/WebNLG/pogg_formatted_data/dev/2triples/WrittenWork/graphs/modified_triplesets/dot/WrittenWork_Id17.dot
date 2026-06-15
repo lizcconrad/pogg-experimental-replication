@@ -1,0 +1,7 @@
+strict digraph {
+Above_the_Veil [lexicon_key="Above_the_Veil"];
+English_language [lexicon_key="English_language"];
+Aenir [lexicon_key=Aenir];
+Above_the_Veil -> English_language [label=language, lexicon_key=language];
+Aenir -> Above_the_Veil [label=followedBy, lexicon_key=followedBy];
+}

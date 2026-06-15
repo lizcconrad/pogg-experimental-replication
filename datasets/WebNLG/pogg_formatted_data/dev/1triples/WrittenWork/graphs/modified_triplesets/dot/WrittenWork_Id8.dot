@@ -1,0 +1,5 @@
+strict digraph {
+A_Severed_Wasp [lexicon_key="A_Severed_Wasp"];
+"Madeleine_L'Engle" [lexicon_key="Madeleine_L'Engle"];
+A_Severed_Wasp -> "Madeleine_L'Engle" [label=author, lexicon_key=author];
+}

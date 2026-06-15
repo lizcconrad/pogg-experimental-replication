@@ -1,0 +1,234 @@
+{
+    "node_keys": {
+        "\"101 Ukrop Way\"": {
+            "comp_fxn": ""
+        },
+        "\"1987-02-27\"": {
+            "comp_fxn": ""
+        },
+        "\"30 March 2007\"": {
+            "comp_fxn": ""
+        },
+        "\"42 m\"": {
+            "comp_fxn": ""
+        },
+        "\"87000823\"": {
+            "comp_fxn": ""
+        },
+        "\"88002539\"": {
+            "comp_fxn": ""
+        },
+        "\"Asilomar Blvd., Pacific Grove, California\"": {
+            "comp_fxn": ""
+        },
+        "\"East Link Bridge\"": {
+            "comp_fxn": ""
+        },
+        "\"Government of Addis Ababa\"": {
+            "comp_fxn": ""
+        },
+        "\"HOK SVE\"": {
+            "comp_fxn": ""
+        },
+        "\"Haputale, Sri Lanka\"": {
+            "comp_fxn": ""
+        },
+        "\"Tudor and Jacabian\"": {
+            "comp_fxn": ""
+        },
+        "11_Diagonal_Street": {
+            "comp_fxn": ""
+        },
+        "1904": {
+            "comp_fxn": ""
+        },
+        "200_Public_Square": {
+            "comp_fxn": ""
+        },
+        "20_Fenchurch_Street": {
+            "comp_fxn": ""
+        },
+        "23": {
+            "comp_fxn": ""
+        },
+        "23rd_Street_(Manhattan)": {
+            "comp_fxn": ""
+        },
+        "250_Delaware_Avenue": {
+            "comp_fxn": ""
+        },
+        "300_North_LaSalle": {
+            "comp_fxn": ""
+        },
+        "3Arena": {
+            "comp_fxn": ""
+        },
+        "45": {
+            "comp_fxn": ""
+        },
+        "60": {
+            "comp_fxn": ""
+        },
+        "AC_Hotel_Bella_Sky_Copenhagen": {
+            "comp_fxn": ""
+        },
+        "Addis_Ababa_City_Hall": {
+            "comp_fxn": ""
+        },
+        "Adisham_Hall": {
+            "comp_fxn": ""
+        },
+        "Alan_B._Miller_Hall": {
+            "comp_fxn": ""
+        },
+        "Amdavad_ni_Gufa": {
+            "comp_fxn": ""
+        },
+        "Ampara_District": {
+            "comp_fxn": ""
+        },
+        "Ampara_Hospital": {
+            "comp_fxn": ""
+        },
+        "Anandiben_Patel": {
+            "comp_fxn": ""
+        },
+        "Asher_and_Mary_Isabelle_Richardson_House": {
+            "comp_fxn": ""
+        },
+        "Asilomar_Conference_Grounds": {
+            "comp_fxn": ""
+        },
+        "Asser_Levy_Public_Baths": {
+            "comp_fxn": ""
+        },
+        "Barack_Obama": {
+            "comp_fxn": ""
+        },
+        "Beverly_Hills,_California": {
+            "comp_fxn": ""
+        },
+        "Cleveland": {
+            "comp_fxn": ""
+        },
+        "College_of_William_&_Mary": {
+            "comp_fxn": ""
+        },
+        "Coloured": {
+            "comp_fxn": ""
+        },
+        "European_Parliament": {
+            "comp_fxn": ""
+        },
+        "Gujarat": {
+            "comp_fxn": ""
+        },
+        "Illinois": {
+            "comp_fxn": ""
+        },
+        "Live_Nation_Entertainment": {
+            "comp_fxn": ""
+        },
+        "London": {
+            "comp_fxn": ""
+        },
+        "Marriott_International": {
+            "comp_fxn": ""
+        },
+        "Mason_School_of_Business": {
+            "comp_fxn": ""
+        },
+        "North_Wall,_Dublin": {
+            "comp_fxn": ""
+        },
+        "Pacific_Grove,_California": {
+            "comp_fxn": ""
+        },
+        "Robert_A._M._Stern": {
+            "comp_fxn": ""
+        },
+        "South_Africa": {
+            "comp_fxn": ""
+        },
+        "Sri_Jayawardenepura_Kotte": {
+            "comp_fxn": ""
+        },
+        "Sri_Lanka": {
+            "comp_fxn": ""
+        },
+        "Tamil_language": {
+            "comp_fxn": ""
+        },
+        "U.S._Route_83": {
+            "comp_fxn": ""
+        },
+        "United_States": {
+            "comp_fxn": ""
+        },
+        "Williamsburg,_Virginia": {
+            "comp_fxn": ""
+        }
+    },
+    "edge_keys": {
+        "NationalRegisterOfHistoricPlacesReferenceNumber": {
+            "comp_fxn": ""
+        },
+        "addedToTheNationalRegisterOfHistoricPlaces": {
+            "comp_fxn": ""
+        },
+        "address": {
+            "comp_fxn": ""
+        },
+        "architect": {
+            "comp_fxn": ""
+        },
+        "architecturalStyle": {
+            "comp_fxn": ""
+        },
+        "buildingStartDate": {
+            "comp_fxn": ""
+        },
+        "capital": {
+            "comp_fxn": ""
+        },
+        "country": {
+            "comp_fxn": ""
+        },
+        "currentTenants": {
+            "comp_fxn": ""
+        },
+        "ethnicGroup": {
+            "comp_fxn": ""
+        },
+        "floorCount": {
+            "comp_fxn": ""
+        },
+        "height": {
+            "comp_fxn": ""
+        },
+        "language": {
+            "comp_fxn": ""
+        },
+        "leader": {
+            "comp_fxn": ""
+        },
+        "leaderTitle": {
+            "comp_fxn": ""
+        },
+        "location": {
+            "comp_fxn": ""
+        },
+        "owner": {
+            "comp_fxn": ""
+        },
+        "region": {
+            "comp_fxn": ""
+        },
+        "tenant": {
+            "comp_fxn": ""
+        },
+        "yearOfConstruction": {
+            "comp_fxn": ""
+        }
+    }
+}

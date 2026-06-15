@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "A.E_Dimitra_Efxeinoupolis": {
+            "lexicon_key": "A.E_Dimitra_Efxeinoupolis"
+        },
+        "2014\u201315_A_EPSTH,_Greece": {
+            "lexicon_key": "2014\u201315_A_EPSTH,_Greece"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "season",
+            "parent_node": "A.E_Dimitra_Efxeinoupolis",
+            "child_node": "2014\u201315_A_EPSTH,_Greece",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis were in the 2014\u201315 A EPSTH. Greece season."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.E Dimitra Efxeinoupolis were in the 2014-15 A EPSTH, Greece."
+        }
+    },
+    "gold_outputs": [
+        "A.E Dimitra Efxeinoupolis were in the 2014-15 A EPSTH, Greece.",
+        "A.E Dimitra Efxeinoupolis were in the 2014\u201315 A EPSTH. Greece season."
+    ]
+}

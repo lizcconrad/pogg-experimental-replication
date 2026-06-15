@@ -1,0 +1,40 @@
+{
+    "nodes": {
+        "(410777)_2009_FD": {
+            "lexicon_key": "(410777)_2009_FD"
+        },
+        "88234300000.0": {
+            "lexicon_key": "88234300000.0"
+        },
+        "Spacewatch": {
+            "lexicon_key": "Spacewatch"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "periapsis",
+            "parent_node": "(410777)_2009_FD",
+            "child_node": "88234300000.0",
+            "edge_properties": {
+                "lexicon_key": "periapsis"
+            }
+        },
+        {
+            "edge_name": "discoverer",
+            "parent_node": "(410777)_2009_FD",
+            "child_node": "Spacewatch",
+            "edge_properties": {
+                "lexicon_key": "discoverer"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "(410777) 2009 FD, which was discovered by Spacewatch, has a periapsis of 88234300000.0."
+        }
+    },
+    "gold_outputs": [
+        "(410777) 2009 FD, which was discovered by Spacewatch, has a periapsis of 88234300000.0."
+    ]
+}

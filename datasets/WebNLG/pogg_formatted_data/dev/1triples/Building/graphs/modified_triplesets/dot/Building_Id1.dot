@@ -1,0 +1,5 @@
+strict digraph {
+"103_Colmore_Row" [lexicon_key="103_Colmore_Row"];
+John_Madin [lexicon_key="John_Madin"];
+"103_Colmore_Row" -> John_Madin [label=architect, lexicon_key=architect];
+}

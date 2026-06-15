@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alaa_Abdul-Zahra": {
+            "lexicon_key": "Alaa_Abdul-Zahra"
+        },
+        "Baghdad": {
+            "lexicon_key": "Baghdad"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alaa_Abdul-Zahra",
+            "child_node": "Baghdad",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alaa Abdul-Zahra was born in Baghdad."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Baghdad is the birth place of Alaa Abdul-Zahra."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alaa Abdul Zahra was born in Baghdad."
+        }
+    },
+    "gold_outputs": [
+        "Alaa Abdul Zahra was born in Baghdad.",
+        "Alaa Abdul-Zahra was born in Baghdad.",
+        "Baghdad is the birth place of Alaa Abdul-Zahra."
+    ]
+}

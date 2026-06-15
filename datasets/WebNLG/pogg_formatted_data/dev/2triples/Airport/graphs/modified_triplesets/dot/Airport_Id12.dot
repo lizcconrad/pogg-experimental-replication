@@ -1,0 +1,7 @@
+strict digraph {
+Amsterdam_Airport_Schiphol [lexicon_key="Amsterdam_Airport_Schiphol"];
+"-3.3528" [lexicon_key="-3.3528"];
+Schiphol_Group [lexicon_key="Schiphol_Group"];
+Amsterdam_Airport_Schiphol -> "-3.3528" [label=elevationAboveTheSeaLevel, lexicon_key=elevationAboveTheSeaLevel];
+Amsterdam_Airport_Schiphol -> Schiphol_Group [label=operatingOrganisation, lexicon_key=operatingOrganisation];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+Massimo_Drago [lexicon_key="Massimo_Drago"];
+Delfino_Pescara_1936 [lexicon_key="Delfino_Pescara_1936"];
+Massimo_Drago -> Delfino_Pescara_1936 [label=club, lexicon_key=club];
+}

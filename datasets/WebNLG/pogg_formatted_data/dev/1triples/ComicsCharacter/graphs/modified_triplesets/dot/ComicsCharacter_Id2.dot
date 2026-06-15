@@ -1,0 +1,5 @@
+strict digraph {
+"Auron_(comicsCharacter)" [lexicon_key="Auron_(comicsCharacter)"];
+Marv_Wolfman [lexicon_key="Marv_Wolfman"];
+"Auron_(comicsCharacter)" -> Marv_Wolfman [label=creator, lexicon_key=creator];
+}

@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "A_Wizard_of_Mars": {
+            "lexicon_key": "A_Wizard_of_Mars"
+        },
+        "English_language": {
+            "lexicon_key": "English_language"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "A_Wizard_of_Mars",
+            "child_node": "English_language",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A Wizard of Mars is published in English."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A Wizard of Mars is written in English."
+        }
+    },
+    "gold_outputs": [
+        "A Wizard of Mars is published in English.",
+        "A Wizard of Mars is written in English."
+    ]
+}

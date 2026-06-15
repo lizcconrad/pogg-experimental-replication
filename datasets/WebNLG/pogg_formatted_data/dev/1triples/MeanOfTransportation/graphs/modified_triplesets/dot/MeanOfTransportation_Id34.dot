@@ -1,0 +1,5 @@
+strict digraph {
+Guiana_Space_Centre [lexicon_key="Guiana_Space_Centre"];
+"Kourou,_French_Guiana" [lexicon_key="Kourou,_French_Guiana"];
+Guiana_Space_Centre -> "Kourou,_French_Guiana" [label=headquarter, lexicon_key=headquarter];
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alfred_N._Phillips": {
+            "lexicon_key": "Alfred_N._Phillips"
+        },
+        "United_States_Army": {
+            "lexicon_key": "United_States_Army"
+        },
+        "American_Civil_War": {
+            "lexicon_key": "American_Civil_War"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "militaryBranch",
+            "parent_node": "Alfred_N._Phillips",
+            "child_node": "United_States_Army",
+            "edge_properties": {
+                "lexicon_key": "militaryBranch"
+            }
+        },
+        {
+            "edge_name": "battle",
+            "parent_node": "United_States_Army",
+            "child_node": "American_Civil_War",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alfred N. Phillips served in the United States Army which fought in the American Civil War."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfred N. Phillips was a member of the US Army that fought in the American Civil War."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alfred N. Phillips served in the United States, Army, which battled in the American Civil War."
+        }
+    },
+    "gold_outputs": [
+        "Alfred N. Phillips served in the United States Army which fought in the American Civil War.",
+        "Alfred N. Phillips served in the United States, Army, which battled in the American Civil War.",
+        "Alfred N. Phillips was a member of the US Army that fought in the American Civil War."
+    ]
+}

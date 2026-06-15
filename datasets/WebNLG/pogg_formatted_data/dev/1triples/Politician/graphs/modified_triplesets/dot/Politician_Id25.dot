@@ -1,0 +1,5 @@
+strict digraph {
+Allan_Shivers [lexicon_key="Allan_Shivers"];
+United_States_Army [lexicon_key="United_States_Army"];
+Allan_Shivers -> United_States_Army [label=militaryBranch, lexicon_key=militaryBranch];
+}

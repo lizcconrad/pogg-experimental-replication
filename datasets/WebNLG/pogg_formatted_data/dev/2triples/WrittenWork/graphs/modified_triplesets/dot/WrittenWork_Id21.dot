@@ -1,0 +1,7 @@
+strict digraph {
+Administrative_Science_Quarterly [lexicon_key="Administrative_Science_Quarterly"];
+Cornell_University [lexicon_key="Cornell_University"];
+"Association_of_Public_and_Land-grant_Universities" [lexicon_key="Association_of_Public_and_Land-grant_Universities"];
+Administrative_Science_Quarterly -> Cornell_University [label=publisher, lexicon_key=publisher];
+Cornell_University -> "Association_of_Public_and_Land-grant_Universities" [label=affiliation, lexicon_key=affiliation];
+}

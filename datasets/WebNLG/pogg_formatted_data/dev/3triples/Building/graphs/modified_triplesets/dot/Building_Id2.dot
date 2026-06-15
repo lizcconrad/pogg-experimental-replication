@@ -1,0 +1,9 @@
+strict digraph {
+"11_Diagonal_Street" [lexicon_key="11_Diagonal_Street"];
+South_Africa [lexicon_key="South_Africa"];
+Jacob_Zuma [lexicon_key="Jacob_Zuma"];
+Coloured [lexicon_key=Coloured];
+"11_Diagonal_Street" -> South_Africa [label=location, lexicon_key=location];
+South_Africa -> Jacob_Zuma [label=leader, lexicon_key=leader];
+South_Africa -> Coloured [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

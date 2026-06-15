@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Akron_Summit_Assault": {
+            "lexicon_key": "Akron_Summit_Assault"
+        },
+        "St._Vincent\u2013St._Mary_High_School": {
+            "lexicon_key": "St._Vincent\u2013St._Mary_High_School"
+        },
+        "Premier_Development_League": {
+            "lexicon_key": "Premier_Development_League"
+        },
+        "K-W_United_FC": {
+            "lexicon_key": "K-W_United_FC"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "ground",
+            "parent_node": "Akron_Summit_Assault",
+            "child_node": "St._Vincent\u2013St._Mary_High_School",
+            "edge_properties": {
+                "lexicon_key": "ground"
+            }
+        },
+        {
+            "edge_name": "league",
+            "parent_node": "Akron_Summit_Assault",
+            "child_node": "Premier_Development_League",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "champions",
+            "parent_node": "Premier_Development_League",
+            "child_node": "K-W_United_FC",
+            "edge_properties": {
+                "lexicon_key": "champions"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "St Vincent-St Mary High School is the ground of Akron Summit Assault who play in the Premier Development League, of which K-W United FC have been champions."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akron Summit Assault who play in the Premier Development League, won by K-W United FC, have their home ground at St. Vincent-St. Mary High School."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "St Vincent-St Mary High School is the ground of Akron Summit Assault who play in the Premier Development League which K-W United FC have been champions of."
+        }
+    },
+    "gold_outputs": [
+        "Akron Summit Assault who play in the Premier Development League, won by K-W United FC, have their home ground at St. Vincent-St. Mary High School.",
+        "St Vincent-St Mary High School is the ground of Akron Summit Assault who play in the Premier Development League which K-W United FC have been champions of.",
+        "St Vincent-St Mary High School is the ground of Akron Summit Assault who play in the Premier Development League, of which K-W United FC have been champions."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "3Arena": {
+            "lexicon_key": "3Arena"
+        },
+        "North_Wall,_Dublin": {
+            "lexicon_key": "North_Wall,_Dublin"
+        },
+        "\"HOK SVE\"": {
+            "lexicon_key": "\"HOK SVE\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "3Arena",
+            "child_node": "North_Wall,_Dublin",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "architect",
+            "parent_node": "3Arena",
+            "child_node": "\"HOK SVE\"",
+            "edge_properties": {
+                "lexicon_key": "architect"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "HOK SVE was the architect of the 3Arena at North Wall, Dublin."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "3Arena is located at North Wall, Dublin, and was built by HOK SVE."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The 3Arena is located at North Wall, Dublin and was designed by HOK SVE."
+        }
+    },
+    "gold_outputs": [
+        "3Arena is located at North Wall, Dublin, and was built by HOK SVE.",
+        "HOK SVE was the architect of the 3Arena at North Wall, Dublin.",
+        "The 3Arena is located at North Wall, Dublin and was designed by HOK SVE."
+    ]
+}

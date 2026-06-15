@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Ann_Arbor,_Michigan": {
+            "lexicon_key": "Ann_Arbor,_Michigan"
+        },
+        "\"City Administrator\"": {
+            "lexicon_key": "\"City Administrator\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leaderTitle",
+            "parent_node": "Ann_Arbor,_Michigan",
+            "child_node": "\"City Administrator\"",
+            "edge_properties": {
+                "lexicon_key": "leaderTitle"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "A City Administrator leads Ann Arbor, Michigan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The City Administrator leads Ann Arbor in Michigan."
+        }
+    },
+    "gold_outputs": [
+        "A City Administrator leads Ann Arbor, Michigan.",
+        "The City Administrator leads Ann Arbor in Michigan."
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Jorge_Humberto_Rodr\u00edguez": {
+            "lexicon_key": "Jorge_Humberto_Rodr\u00edguez"
+        },
+        "A.D._Isidro_Metap\u00e1n": {
+            "lexicon_key": "A.D._Isidro_Metap\u00e1n"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Jorge_Humberto_Rodr\u00edguez",
+            "child_node": "A.D._Isidro_Metap\u00e1n",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Jorge Humberto Rodriguez's club is A.D. Isidro Metapan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Jorge Humberto Rodr\u00edguez is with the A.D. Isidro Metap\u00e1n club."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jorge Humberto Rodr\u00edguez was a member of the club A.D. Isidro Metap\u00e1n."
+        }
+    },
+    "gold_outputs": [
+        "Jorge Humberto Rodriguez's club is A.D. Isidro Metapan.",
+        "Jorge Humberto Rodr\u00edguez is with the A.D. Isidro Metap\u00e1n club.",
+        "Jorge Humberto Rodr\u00edguez was a member of the club A.D. Isidro Metap\u00e1n."
+    ]
+}

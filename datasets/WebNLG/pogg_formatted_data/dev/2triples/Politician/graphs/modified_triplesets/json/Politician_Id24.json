@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Albert_Jennings_Fountain": {
+            "lexicon_key": "Albert_Jennings_Fountain"
+        },
+        "Edmund_J._Davis": {
+            "lexicon_key": "Edmund_J._Davis"
+        },
+        "New_Mexico_Territory": {
+            "lexicon_key": "New_Mexico_Territory"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "inOfficeWhileVicePresident",
+            "parent_node": "Albert_Jennings_Fountain",
+            "child_node": "Edmund_J._Davis",
+            "edge_properties": {
+                "lexicon_key": "inOfficeWhileVicePresident"
+            }
+        },
+        {
+            "edge_name": "deathPlace",
+            "parent_node": "Albert_Jennings_Fountain",
+            "child_node": "New_Mexico_Territory",
+            "edge_properties": {
+                "lexicon_key": "deathPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Albert Jennings Fountain passed away in the New Mexico Territory. He was in office while Edmund J. Davis was Vice President."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Albert Jennings Fountain, who died in the New Mexico territory, was in office whilst Edmund J. Davis was Vice President."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Albert Jennings Fountain, who was a politician while Vice President Edmund J. Davis was in office later died in New Mexico Territory."
+        }
+    },
+    "gold_outputs": [
+        "Albert Jennings Fountain passed away in the New Mexico Territory. He was in office while Edmund J. Davis was Vice President.",
+        "Albert Jennings Fountain, who died in the New Mexico territory, was in office whilst Edmund J. Davis was Vice President.",
+        "Albert Jennings Fountain, who was a politician while Vice President Edmund J. Davis was in office later died in New Mexico Territory."
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "nodes": {
+        "Alcobendas": {
+            "lexicon_key": "Alcobendas"
+        },
+        "Community_of_Madrid": {
+            "lexicon_key": "Community_of_Madrid"
+        },
+        "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport": {
+            "lexicon_key": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "isPartOf",
+            "parent_node": "Alcobendas",
+            "child_node": "Community_of_Madrid",
+            "edge_properties": {
+                "lexicon_key": "isPartOf"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Adolfo_Su\u00e1rez_Madrid\u2013Barajas_Airport",
+            "child_node": "Alcobendas",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is located in Alcobendas which is part of the Community of Madrid."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in Alcobendas which is part of the community of Madrid."
+        }
+    },
+    "gold_outputs": [
+        "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is in Alcobendas which is part of the community of Madrid.",
+        "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport is located in Alcobendas which is part of the Community of Madrid."
+    ]
+}

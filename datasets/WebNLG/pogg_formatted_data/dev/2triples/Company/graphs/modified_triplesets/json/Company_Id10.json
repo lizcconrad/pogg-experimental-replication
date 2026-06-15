@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Trane": {
+            "lexicon_key": "Trane"
+        },
+        "1913-01-01": {
+            "lexicon_key": "1913-01-01"
+        },
+        "La_Crosse,_Wisconsin": {
+            "lexicon_key": "La_Crosse,_Wisconsin"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundingDate",
+            "parent_node": "Trane",
+            "child_node": "1913-01-01",
+            "edge_properties": {
+                "lexicon_key": "foundingDate"
+            }
+        },
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Trane",
+            "child_node": "La_Crosse,_Wisconsin",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Trane was founded in La Crosse, Wisconsin, on January 1, 1913."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Trane was founded in La Crosse, Wisconsin, on 01-01-1913."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Trane was founded in La Crosse, Wisconsin on January 1st, 1913."
+        }
+    },
+    "gold_outputs": [
+        "Trane was founded in La Crosse, Wisconsin on January 1st, 1913.",
+        "Trane was founded in La Crosse, Wisconsin, on 01-01-1913.",
+        "Trane was founded in La Crosse, Wisconsin, on January 1, 1913."
+    ]
+}

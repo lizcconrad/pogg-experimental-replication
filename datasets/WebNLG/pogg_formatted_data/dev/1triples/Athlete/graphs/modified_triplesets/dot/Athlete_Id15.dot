@@ -1,0 +1,5 @@
+strict digraph {
+"Alaa_Abdul-Zahra" [lexicon_key="Alaa_Abdul-Zahra"];
+Baghdad [lexicon_key=Baghdad];
+"Alaa_Abdul-Zahra" -> Baghdad [label=birthPlace, lexicon_key=birthPlace];
+}

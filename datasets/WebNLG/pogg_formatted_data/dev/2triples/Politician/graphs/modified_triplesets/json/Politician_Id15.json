@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Adam_Koc": {
+            "lexicon_key": "Adam_Koc"
+        },
+        "World_War_I": {
+            "lexicon_key": "World_War_I"
+        },
+        "Virtuti_Militari": {
+            "lexicon_key": "Virtuti_Militari"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Adam_Koc",
+            "child_node": "World_War_I",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "award",
+            "parent_node": "Adam_Koc",
+            "child_node": "Virtuti_Militari",
+            "edge_properties": {
+                "lexicon_key": "award"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Koc, who won the Virtuti Militari award, fought in World War I."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Adam Koc fought in WWI and he was awarded the Virtuti Militari award."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Adam Koc fought in WW1 and received the Virtuti Militari award."
+        }
+    },
+    "gold_outputs": [
+        "Adam Koc fought in WW1 and received the Virtuti Militari award.",
+        "Adam Koc fought in WWI and he was awarded the Virtuti Militari award.",
+        "Adam Koc, who won the Virtuti Militari award, fought in World War I."
+    ]
+}

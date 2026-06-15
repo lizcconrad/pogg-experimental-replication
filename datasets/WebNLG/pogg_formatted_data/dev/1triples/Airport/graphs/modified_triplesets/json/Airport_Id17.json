@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Andrews_County_Airport": {
+            "lexicon_key": "Andrews_County_Airport"
+        },
+        "Andrews,_Texas": {
+            "lexicon_key": "Andrews,_Texas"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "cityServed",
+            "parent_node": "Andrews_County_Airport",
+            "child_node": "Andrews,_Texas",
+            "edge_properties": {
+                "lexicon_key": "cityServed"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrews, Texas is served by Andrews County Airport."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Andrews County Airport serves Andrews, Texas."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andrews County Airport serves the city of Andrews in Texas."
+        }
+    },
+    "gold_outputs": [
+        "Andrews County Airport serves Andrews, Texas.",
+        "Andrews County Airport serves the city of Andrews in Texas.",
+        "Andrews, Texas is served by Andrews County Airport."
+    ]
+}

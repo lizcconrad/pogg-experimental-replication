@@ -1,0 +1,9 @@
+strict digraph {
+Ashgabat_International_Airport [lexicon_key="Ashgabat_International_Airport"];
+Ashgabat [lexicon_key=Ashgabat];
+3800.0 [lexicon_key=3800.0];
+211 [lexicon_key=211];
+Ashgabat_International_Airport -> Ashgabat [label=location, lexicon_key=location];
+Ashgabat_International_Airport -> 3800.0 [label=runwayLength, lexicon_key=runwayLength];
+Ashgabat_International_Airport -> 211 [label=elevationAboveTheSeaLevelInMetres, lexicon_key=elevationAboveTheSeaLevelInMetres];
+}

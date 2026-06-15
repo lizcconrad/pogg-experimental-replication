@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Chinabank": {
+            "lexicon_key": "Chinabank"
+        },
+        "Manila": {
+            "lexicon_key": "Manila"
+        },
+        "Philippines": {
+            "lexicon_key": "Philippines"
+        },
+        "Insular_Government_of_the_Philippine_Islands": {
+            "lexicon_key": "Insular_Government_of_the_Philippine_Islands"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Chinabank",
+            "child_node": "Manila",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        },
+        {
+            "edge_name": "location",
+            "parent_node": "Chinabank",
+            "child_node": "Philippines",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "foundationPlace",
+            "parent_node": "Chinabank",
+            "child_node": "Insular_Government_of_the_Philippine_Islands",
+            "edge_properties": {
+                "lexicon_key": "foundationPlace"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Chinabank was founded in Manila in the Philippines (under the Insular Government) and remains located there."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Chinabank was founded in Manila, during the Insular Government period, and is still located in the Philippines."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Founded in Manila in the Philippines, Chinabank's foundation place is the Insular Government of the Philippine Islands."
+        }
+    },
+    "gold_outputs": [
+        "Chinabank was founded in Manila in the Philippines (under the Insular Government) and remains located there.",
+        "Chinabank was founded in Manila, during the Insular Government period, and is still located in the Philippines.",
+        "Founded in Manila in the Philippines, Chinabank's foundation place is the Insular Government of the Philippine Islands."
+    ]
+}

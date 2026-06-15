@@ -1,0 +1,5 @@
+strict digraph {
+Gus_Poyet [lexicon_key="Gus_Poyet"];
+"AEK_Athens_F.C." [lexicon_key="AEK_Athens_F.C."];
+Gus_Poyet -> "AEK_Athens_F.C." [label=club, lexicon_key=club];
+}

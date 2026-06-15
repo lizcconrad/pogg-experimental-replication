@@ -1,0 +1,7 @@
+strict digraph {
+Arrabbiata_sauce [lexicon_key="Arrabbiata_sauce"];
+Italy [lexicon_key=Italy];
+Olive_oil [lexicon_key="Olive_oil"];
+Arrabbiata_sauce -> Italy [label=country, lexicon_key=country];
+Arrabbiata_sauce -> Olive_oil [label=ingredient, lexicon_key=ingredient];
+}

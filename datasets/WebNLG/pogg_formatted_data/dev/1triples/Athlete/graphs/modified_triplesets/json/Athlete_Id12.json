@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Akeem_Priestley": {
+            "lexicon_key": "Akeem_Priestley"
+        },
+        "FK_Mughan": {
+            "lexicon_key": "FK_Mughan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "club",
+            "parent_node": "Akeem_Priestley",
+            "child_node": "FK_Mughan",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Akeem Priestley plays for FK Mughan."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Akeem Priestley played for FK Mughan."
+        }
+    },
+    "gold_outputs": [
+        "Akeem Priestley played for FK Mughan.",
+        "Akeem Priestley plays for FK Mughan."
+    ]
+}

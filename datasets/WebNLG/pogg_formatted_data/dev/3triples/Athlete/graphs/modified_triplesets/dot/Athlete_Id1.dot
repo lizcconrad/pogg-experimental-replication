@@ -1,0 +1,9 @@
+strict digraph {
+Aaron_Boogaard [lexicon_key="Aaron_Boogaard"];
+1.905 [lexicon_key=1.905];
+"Regina,_Saskatchewan" [lexicon_key="Regina,_Saskatchewan"];
+Wichita_Thunder [lexicon_key="Wichita_Thunder"];
+Aaron_Boogaard -> 1.905 [label=height, lexicon_key=height];
+Aaron_Boogaard -> "Regina,_Saskatchewan" [label=birthPlace, lexicon_key=birthPlace];
+Aaron_Boogaard -> Wichita_Thunder [label=club, lexicon_key=club];
+}

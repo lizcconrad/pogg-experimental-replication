@@ -1,0 +1,5 @@
+strict digraph {
+Adam_Maher [lexicon_key="Adam_Maher"];
+"Ait Ikkou, Morocco" [lexicon_key="Ait Ikkou, Morocco"];
+Adam_Maher -> "Ait Ikkou, Morocco" [label=birthPlace, lexicon_key=birthPlace];
+}

@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "Bhajji": {
+            "lexicon_key": "Bhajji"
+        },
+        "India": {
+            "lexicon_key": "India"
+        },
+        "\"Gram flour, vegetables\"": {
+            "lexicon_key": "\"Gram flour, vegetables\""
+        },
+        "Gram_flour": {
+            "lexicon_key": "Gram_flour"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "country",
+            "parent_node": "Bhajji",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "mainIngredient",
+            "parent_node": "Bhajji",
+            "child_node": "\"Gram flour, vegetables\"",
+            "edge_properties": {
+                "lexicon_key": "mainIngredient"
+            }
+        },
+        {
+            "edge_name": "ingredient",
+            "parent_node": "Bhajji",
+            "child_node": "Gram_flour",
+            "edge_properties": {
+                "lexicon_key": "ingredient"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bhajji originates from India, its main ingredients are gram flour and vegetables."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The key ingredients of a Bhajji from India are gram flour and vegetables."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "The main ingredients in Bhajji, which originates from Indiam are gram flour and vegetables."
+        }
+    },
+    "gold_outputs": [
+        "Bhajji originates from India, its main ingredients are gram flour and vegetables.",
+        "The key ingredients of a Bhajji from India are gram flour and vegetables.",
+        "The main ingredients in Bhajji, which originates from Indiam are gram flour and vegetables."
+    ]
+}

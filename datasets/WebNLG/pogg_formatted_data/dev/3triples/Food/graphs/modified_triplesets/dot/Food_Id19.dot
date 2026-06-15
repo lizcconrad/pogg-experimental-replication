@@ -1,0 +1,9 @@
+strict digraph {
+Baked_Alaska [lexicon_key="Baked_Alaska"];
+Dessert [lexicon_key=Dessert];
+Cookie [lexicon_key=Cookie];
+Christmas_pudding [lexicon_key="Christmas_pudding"];
+Baked_Alaska -> Dessert [label=course, lexicon_key=course];
+Baked_Alaska -> Christmas_pudding [label=ingredient, lexicon_key=ingredient];
+Dessert -> Cookie [label=dishVariation, lexicon_key=dishVariation];
+}

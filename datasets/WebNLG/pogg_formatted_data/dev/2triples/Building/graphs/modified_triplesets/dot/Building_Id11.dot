@@ -1,0 +1,7 @@
+strict digraph {
+Adisham_Hall [lexicon_key="Adisham_Hall"];
+"Tudor and Jacabian" [lexicon_key="Tudor and Jacabian"];
+"Haputale, Sri Lanka" [lexicon_key="Haputale, Sri Lanka"];
+Adisham_Hall -> "Tudor and Jacabian" [label=architecturalStyle, lexicon_key=architecturalStyle];
+Adisham_Hall -> "Haputale, Sri Lanka" [label=location, lexicon_key=location];
+}

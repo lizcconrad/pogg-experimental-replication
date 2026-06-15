@@ -1,0 +1,7 @@
+strict digraph {
+A_Loyal_Character_Dancer [lexicon_key="A_Loyal_Character_Dancer"];
+United_States [lexicon_key="United_States"];
+Asian_Americans [lexicon_key="Asian_Americans"];
+A_Loyal_Character_Dancer -> United_States [label=country, lexicon_key=country];
+United_States -> Asian_Americans [label=ethnicGroup, lexicon_key=ethnicGroup];
+}

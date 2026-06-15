@@ -1,0 +1,7 @@
+strict digraph {
+Black_Pirate [lexicon_key="Black_Pirate"];
+Sheldon_Moldoff [lexicon_key="Sheldon_Moldoff"];
+"Jon Valor" [lexicon_key="Jon Valor"];
+Black_Pirate -> Sheldon_Moldoff [label=creator, lexicon_key=creator];
+Black_Pirate -> "Jon Valor" [label=alternativeName, lexicon_key=alternativeName];
+}

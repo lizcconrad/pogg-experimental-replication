@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Caterpillar_Inc.": {
+            "lexicon_key": "Caterpillar_Inc."
+        },
+        "Peoria,_Illinois": {
+            "lexicon_key": "Peoria,_Illinois"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Caterpillar_Inc.",
+            "child_node": "Peoria,_Illinois",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Caterpillar Inc. is located in Peoria, Illinois."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Caterpillar Inc. is in Peoria, Illinois."
+        }
+    },
+    "gold_outputs": [
+        "Caterpillar Inc. is in Peoria, Illinois.",
+        "Caterpillar Inc. is located in Peoria, Illinois."
+    ]
+}

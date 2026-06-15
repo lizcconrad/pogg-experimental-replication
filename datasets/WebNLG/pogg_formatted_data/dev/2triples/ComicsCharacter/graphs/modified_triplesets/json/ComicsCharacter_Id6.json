@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Bibbo_Bibbowski": {
+            "lexicon_key": "Bibbo_Bibbowski"
+        },
+        "Jerry_Ordway": {
+            "lexicon_key": "Jerry_Ordway"
+        },
+        "Americans": {
+            "lexicon_key": "Americans"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "creator",
+            "parent_node": "Bibbo_Bibbowski",
+            "child_node": "Jerry_Ordway",
+            "edge_properties": {
+                "lexicon_key": "creator"
+            }
+        },
+        {
+            "edge_name": "nationality",
+            "parent_node": "Jerry_Ordway",
+            "child_node": "Americans",
+            "edge_properties": {
+                "lexicon_key": "nationality"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Bibbo Bibbowski was created by American, Jerry Ordway."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The creator of Bibbo Bibbowski is Jerry Ordway, an American."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Jerry Ordway, an American, is the creator of Bibbo Bibbowski."
+        }
+    },
+    "gold_outputs": [
+        "Bibbo Bibbowski was created by American, Jerry Ordway.",
+        "Jerry Ordway, an American, is the creator of Bibbo Bibbowski.",
+        "The creator of Bibbo Bibbowski is Jerry Ordway, an American."
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alfred_N._Phillips": {
+            "lexicon_key": "Alfred_N._Phillips"
+        },
+        "Darien,_Connecticut": {
+            "lexicon_key": "Darien,_Connecticut"
+        },
+        "Mayor_of_Stamford,_Connecticut": {
+            "lexicon_key": "Mayor_of_Stamford,_Connecticut"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Alfred_N._Phillips",
+            "child_node": "Darien,_Connecticut",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "office",
+            "parent_node": "Alfred_N._Phillips",
+            "child_node": "Mayor_of_Stamford,_Connecticut",
+            "edge_properties": {
+                "lexicon_key": "office"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Born in Darien, Connecticut, Alfred N. Phillips, was the Mayor of Stamford Connecticut."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alfred N. Phillips, Mayor of Stamford, Connecticut, was born in Darien, Connecticut."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Darien, Connecticut is the birthplace of Alfred N. Phillips, who was the Mayor of Stamford Connecticut."
+        }
+    },
+    "gold_outputs": [
+        "Alfred N. Phillips, Mayor of Stamford, Connecticut, was born in Darien, Connecticut.",
+        "Born in Darien, Connecticut, Alfred N. Phillips, was the Mayor of Stamford Connecticut.",
+        "Darien, Connecticut is the birthplace of Alfred N. Phillips, who was the Mayor of Stamford Connecticut."
+    ]
+}

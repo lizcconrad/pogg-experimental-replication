@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Alex_Plante": {
+            "lexicon_key": "Alex_Plante"
+        },
+        "1.9304": {
+            "lexicon_key": "1.9304"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "height",
+            "parent_node": "Alex_Plante",
+            "child_node": "1.9304",
+            "edge_properties": {
+                "lexicon_key": "height"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Alex Plante is 1.9304m tall."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Alex Plante is 1.9304 m tall."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Alex Plante is 1.9304 metres tall."
+        }
+    },
+    "gold_outputs": [
+        "Alex Plante is 1.9304 m tall.",
+        "Alex Plante is 1.9304 metres tall.",
+        "Alex Plante is 1.9304m tall."
+    ]
+}

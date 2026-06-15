@@ -1,0 +1,29 @@
+{
+    "nodes": {
+        "AIDAluna": {
+            "lexicon_key": "AIDAluna"
+        },
+        "2009-03-22": {
+            "lexicon_key": "2009-03-22"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "activeYearsStartDate",
+            "parent_node": "AIDAluna",
+            "child_node": "2009-03-22",
+            "edge_properties": {
+                "lexicon_key": "activeYearsStartDate"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AIDAluna service was started on the 22nd of March, 2009."
+        }
+    },
+    "gold_outputs": [
+        "AIDAluna service was started on the 22nd of March, 2009."
+    ]
+}

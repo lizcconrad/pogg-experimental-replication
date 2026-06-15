@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "A.S._Livorno_Calcio": {
+            "lexicon_key": "A.S._Livorno_Calcio"
+        },
+        "Christian_Panucci": {
+            "lexicon_key": "Christian_Panucci"
+        },
+        "Genoa_C.F.C.": {
+            "lexicon_key": "Genoa_C.F.C."
+        },
+        "Real_Madrid_C.F.": {
+            "lexicon_key": "Real_Madrid_C.F."
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manager",
+            "parent_node": "A.S._Livorno_Calcio",
+            "child_node": "Christian_Panucci",
+            "edge_properties": {
+                "lexicon_key": "manager"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Christian_Panucci",
+            "child_node": "Genoa_C.F.C.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        },
+        {
+            "edge_name": "club",
+            "parent_node": "Christian_Panucci",
+            "child_node": "Real_Madrid_C.F.",
+            "edge_properties": {
+                "lexicon_key": "club"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Christian Panucci, who has been attached to the Genoa CFC and Real Madrid CF clubs, manages A.S. Livorno Calcio."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "A.S. Livorno Calcio is managed by Christian Panucci. is was attached to the Real Madrid CF club. He is currently attached to the club Genoa CFC."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Christian Panucci was attached to the Real Madrid CF club, he managed A.S. Livorno Calcio and played football for Genoa C.F.C."
+        }
+    },
+    "gold_outputs": [
+        "A.S. Livorno Calcio is managed by Christian Panucci. is was attached to the Real Madrid CF club. He is currently attached to the club Genoa CFC.",
+        "Christian Panucci was attached to the Real Madrid CF club, he managed A.S. Livorno Calcio and played football for Genoa C.F.C.",
+        "Christian Panucci, who has been attached to the Genoa CFC and Real Madrid CF clubs, manages A.S. Livorno Calcio."
+    ]
+}

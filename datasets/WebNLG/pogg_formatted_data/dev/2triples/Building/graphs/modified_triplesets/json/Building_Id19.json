@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Asilomar_Conference_Grounds": {
+            "lexicon_key": "Asilomar_Conference_Grounds"
+        },
+        "\"Asilomar Blvd., Pacific Grove, California\"": {
+            "lexicon_key": "\"Asilomar Blvd., Pacific Grove, California\""
+        },
+        "\"87000823\"": {
+            "lexicon_key": "\"87000823\""
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "location",
+            "parent_node": "Asilomar_Conference_Grounds",
+            "child_node": "\"Asilomar Blvd., Pacific Grove, California\"",
+            "edge_properties": {
+                "lexicon_key": "location"
+            }
+        },
+        {
+            "edge_name": "NationalRegisterOfHistoricPlacesReferenceNumber",
+            "parent_node": "Asilomar_Conference_Grounds",
+            "child_node": "\"87000823\"",
+            "edge_properties": {
+                "lexicon_key": "NationalRegisterOfHistoricPlacesReferenceNumber"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Asilomar Conference Grounds, Asilomar Blvd., Pacific Grove, California has a reference number in the National Register of Historic Places of: 87000823."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Asilomar Conference Grounds is located at Asilomar Blvd., Pacific Grove, California and its reference number is 87000823 in the National Register of Historic Places."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "\"87000823\" is Asilomar Conference Grounds' reference number in the National Register of Historic Places, and it is located on Asilomar Blvd, Pacific Grove, California."
+        }
+    },
+    "gold_outputs": [
+        "\"87000823\" is Asilomar Conference Grounds' reference number in the National Register of Historic Places, and it is located on Asilomar Blvd, Pacific Grove, California.",
+        "Asilomar Conference Grounds is located at Asilomar Blvd., Pacific Grove, California and its reference number is 87000823 in the National Register of Historic Places.",
+        "Asilomar Conference Grounds, Asilomar Blvd., Pacific Grove, California has a reference number in the National Register of Historic Places of: 87000823."
+    ]
+}

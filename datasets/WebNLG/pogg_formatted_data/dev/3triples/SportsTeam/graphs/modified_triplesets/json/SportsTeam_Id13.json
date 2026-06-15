@@ -1,0 +1,61 @@
+{
+    "nodes": {
+        "AFC_Ajax_(amateurs)": {
+            "lexicon_key": "AFC_Ajax_(amateurs)"
+        },
+        "5000": {
+            "lexicon_key": "5000"
+        },
+        "Hoofdklasse": {
+            "lexicon_key": "Hoofdklasse"
+        },
+        "2014": {
+            "lexicon_key": "2014"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "numberOfMembers",
+            "parent_node": "AFC_Ajax_(amateurs)",
+            "child_node": "5000",
+            "edge_properties": {
+                "lexicon_key": "numberOfMembers"
+            }
+        },
+        {
+            "edge_name": "league",
+            "parent_node": "AFC_Ajax_(amateurs)",
+            "child_node": "Hoofdklasse",
+            "edge_properties": {
+                "lexicon_key": "league"
+            }
+        },
+        {
+            "edge_name": "season",
+            "parent_node": "AFC_Ajax_(amateurs)",
+            "child_node": "2014",
+            "edge_properties": {
+                "lexicon_key": "season"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "AFC Ajax (amateurs) has 5000 members; they play in the Hoofdklasse league and competed in the 2014 season."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "AFC Ajax (Amateurs) competed in the 2014 season, they play in the Hoofdklasse league and the main team have 5000 members."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "AFC Ajax, who played in the 2014 season, have 5000 members and play in the Hoofdklasse league."
+        }
+    },
+    "gold_outputs": [
+        "AFC Ajax (Amateurs) competed in the 2014 season, they play in the Hoofdklasse league and the main team have 5000 members.",
+        "AFC Ajax (amateurs) has 5000 members; they play in the Hoofdklasse league and competed in the 2014 season.",
+        "AFC Ajax, who played in the 2014 season, have 5000 members and play in the Hoofdklasse league."
+    ]
+}

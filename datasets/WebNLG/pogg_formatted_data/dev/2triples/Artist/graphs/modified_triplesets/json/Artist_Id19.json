@@ -1,0 +1,50 @@
+{
+    "nodes": {
+        "Alternative_rock": {
+            "lexicon_key": "Alternative_rock"
+        },
+        "Nu_metal": {
+            "lexicon_key": "Nu_metal"
+        },
+        "Andrew_White_(musician)": {
+            "lexicon_key": "Andrew_White_(musician)"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "musicFusionGenre",
+            "parent_node": "Alternative_rock",
+            "child_node": "Nu_metal",
+            "edge_properties": {
+                "lexicon_key": "musicFusionGenre"
+            }
+        },
+        {
+            "edge_name": "genre",
+            "parent_node": "Andrew_White_(musician)",
+            "child_node": "Alternative_rock",
+            "edge_properties": {
+                "lexicon_key": "genre"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Andrew White plays alternative rock, of which nu metal is a fusion genre."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "The musician Andrew White's genre is alternative rock and nu metal is an of alternative rock music fusion."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Andrew White performs alternative rock music, a genre that nu metal is a fusion genre of."
+        }
+    },
+    "gold_outputs": [
+        "Andrew White performs alternative rock music, a genre that nu metal is a fusion genre of.",
+        "Andrew White plays alternative rock, of which nu metal is a fusion genre.",
+        "The musician Andrew White's genre is alternative rock and nu metal is an of alternative rock music fusion."
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": {
+        "Antares_(rocket)": {
+            "lexicon_key": "Antares_(rocket)"
+        },
+        "Yuzhnoye_Design_Office": {
+            "lexicon_key": "Yuzhnoye_Design_Office"
+        },
+        "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0": {
+            "lexicon_key": "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0"
+        },
+        "2013-04-21": {
+            "lexicon_key": "2013-04-21"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "manufacturer",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "Yuzhnoye_Design_Office",
+            "edge_properties": {
+                "lexicon_key": "manufacturer"
+            }
+        },
+        {
+            "edge_name": "launchSite",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "Mid-Atlantic_Regional_Spaceport_Launch_Pad_0",
+            "edge_properties": {
+                "lexicon_key": "launchSite"
+            }
+        },
+        {
+            "edge_name": "maidenFlight",
+            "parent_node": "Antares_(rocket)",
+            "child_node": "2013-04-21",
+            "edge_properties": {
+                "lexicon_key": "maidenFlight"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The Antares rocket, is manufactured by the Yuzhnoye Design Office, its maiden flight was on April 21st, 2013, launched from the Mid-Atlantic Regional Spaceport Launch Pad 0."
+        }
+    },
+    "gold_outputs": [
+        "The Antares rocket, is manufactured by the Yuzhnoye Design Office, its maiden flight was on April 21st, 2013, launched from the Mid-Atlantic Regional Spaceport Launch Pad 0."
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "India": {
+            "lexicon_key": "India"
+        },
+        "T._S._Thakur": {
+            "lexicon_key": "T._S._Thakur"
+        },
+        "Amdavad_ni_Gufa": {
+            "lexicon_key": "Amdavad_ni_Gufa"
+        },
+        "Sumitra_Mahajan": {
+            "lexicon_key": "Sumitra_Mahajan"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "T._S._Thakur",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        },
+        {
+            "edge_name": "country",
+            "parent_node": "Amdavad_ni_Gufa",
+            "child_node": "India",
+            "edge_properties": {
+                "lexicon_key": "country"
+            }
+        },
+        {
+            "edge_name": "leader",
+            "parent_node": "India",
+            "child_node": "Sumitra_Mahajan",
+            "edge_properties": {
+                "lexicon_key": "leader"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "T S Thakur and Sumitra Mahajan are leaders in India where Amdavad ni Gufa is located."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Amdavad ni Gufa is located in India where T S Thakur and Sumitra Mahajan are leaders."
+        }
+    },
+    "gold_outputs": [
+        "Amdavad ni Gufa is located in India where T S Thakur and Sumitra Mahajan are leaders.",
+        "T S Thakur and Sumitra Mahajan are leaders in India where Amdavad ni Gufa is located."
+    ]
+}

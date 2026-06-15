@@ -1,0 +1,5 @@
+strict digraph {
+Bill_Oddie [lexicon_key="Bill_Oddie"];
+Kate_Hardie [lexicon_key="Kate_Hardie"];
+Bill_Oddie -> Kate_Hardie [label=child, lexicon_key=child];
+}

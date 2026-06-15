@@ -1,0 +1,56 @@
+{
+    "nodes": {
+        "Adam_Koc": {
+            "lexicon_key": "Adam_Koc"
+        },
+        "Polish\u2013Soviet_War": {
+            "lexicon_key": "Polish\u2013Soviet_War"
+        },
+        "Congress_Poland": {
+            "lexicon_key": "Congress_Poland"
+        },
+        "Leon_Trotsky": {
+            "lexicon_key": "Leon_Trotsky"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "battle",
+            "parent_node": "Adam_Koc",
+            "child_node": "Polish\u2013Soviet_War",
+            "edge_properties": {
+                "lexicon_key": "battle"
+            }
+        },
+        {
+            "edge_name": "birthPlace",
+            "parent_node": "Adam_Koc",
+            "child_node": "Congress_Poland",
+            "edge_properties": {
+                "lexicon_key": "birthPlace"
+            }
+        },
+        {
+            "edge_name": "commander",
+            "parent_node": "Polish\u2013Soviet_War",
+            "child_node": "Leon_Trotsky",
+            "edge_properties": {
+                "lexicon_key": "commander"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "Adam Koc, who was born in Congress in Poland, fought in the Polish-Soviet War in which Leon Trotsky was a commander."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Leon Trotsky was a commander in the Polish-Soviet war in which Adam Koc was also involved. Koc was born in Congress, Poland."
+        }
+    },
+    "gold_outputs": [
+        "Adam Koc, who was born in Congress in Poland, fought in the Polish-Soviet War in which Leon Trotsky was a commander.",
+        "Leon Trotsky was a commander in the Polish-Soviet war in which Adam Koc was also involved. Koc was born in Congress, Poland."
+    ]
+}

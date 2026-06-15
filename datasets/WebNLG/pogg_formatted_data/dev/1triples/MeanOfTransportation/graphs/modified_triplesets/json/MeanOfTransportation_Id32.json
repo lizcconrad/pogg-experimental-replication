@@ -1,0 +1,34 @@
+{
+    "nodes": {
+        "Finland": {
+            "lexicon_key": "Finland"
+        },
+        "Sami_languages": {
+            "lexicon_key": "Sami_languages"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "language",
+            "parent_node": "Finland",
+            "child_node": "Sami_languages",
+            "edge_properties": {
+                "lexicon_key": "language"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "One of the languages in Finland is Sami."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Sami languages are spoken in Finland."
+        }
+    },
+    "gold_outputs": [
+        "One of the languages in Finland is Sami.",
+        "Sami languages are spoken in Finland."
+    ]
+}

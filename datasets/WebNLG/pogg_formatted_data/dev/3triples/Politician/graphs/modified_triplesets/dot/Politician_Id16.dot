@@ -1,0 +1,9 @@
+strict digraph {
+Agnes_Kant [lexicon_key="Agnes_Kant"];
+Radboud_University_Nijmegen [lexicon_key="Radboud_University_Nijmegen"];
+West_Germany [lexicon_key="West_Germany"];
+"Socialist_Party_(Netherlands)" [lexicon_key="Socialist_Party_(Netherlands)"];
+Agnes_Kant -> Radboud_University_Nijmegen [label=almaMater, lexicon_key=almaMater];
+Agnes_Kant -> West_Germany [label=birthPlace, lexicon_key=birthPlace];
+Agnes_Kant -> "Socialist_Party_(Netherlands)" [label=office, lexicon_key=office];
+}

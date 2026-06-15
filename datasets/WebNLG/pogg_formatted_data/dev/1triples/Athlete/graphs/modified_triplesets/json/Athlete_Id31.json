@@ -1,0 +1,39 @@
+{
+    "nodes": {
+        "Florida_Panthers": {
+            "lexicon_key": "Florida_Panthers"
+        },
+        "Dale_Tallon": {
+            "lexicon_key": "Dale_Tallon"
+        }
+    },
+    "edges": [
+        {
+            "edge_name": "generalManager",
+            "parent_node": "Florida_Panthers",
+            "child_node": "Dale_Tallon",
+            "edge_properties": {
+                "lexicon_key": "generalManager"
+            }
+        }
+    ],
+    "original_gold_lex_dicts": {
+        "Id1": {
+            "comment": "good",
+            "text": "The general manager of Florida Panthers is Dale Tallon."
+        },
+        "Id2": {
+            "comment": "good",
+            "text": "Florida Panthers' general manager is Dale Tallon."
+        },
+        "Id3": {
+            "comment": "good",
+            "text": "Dale Tallon is the general manager of the Florida Panthers."
+        }
+    },
+    "gold_outputs": [
+        "Dale Tallon is the general manager of the Florida Panthers.",
+        "Florida Panthers' general manager is Dale Tallon.",
+        "The general manager of Florida Panthers is Dale Tallon."
+    ]
+}
